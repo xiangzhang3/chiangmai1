@@ -137,3 +137,22 @@ prices are conservatively widened by one displayed unit. These are paper-model
 assumptions, not verified exchange UI rounding guarantees. Funding settlement
 coverage, an independently validated collector and explicit activation remain
 required before any prospective execution bridge.
+
+## 1h/4h prospective versions and the flat-account UI pilot
+
+The additive `kaia-oi-breakout-v1.2-1h4h` and
+`jct-oi-volume-breakout-p1-v0.2-1h4h` versions require two completed aligned
+four-hour candles: the latest must close above its open and the preceding close.
+They preserve existing leverage/notional/risk caps, add a 10% participation cap on
+the smaller visible bid/ask quantity, and a 72-hour maximum-hold backstop at the
+next valid observation. There is no minimum hold; stops/invalidation exit earlier.
+These indicator details are prospective engineered definitions. Account migration
+is audited and never rewrites historic fills or resets balances.
+
+`--ui-pilot <normalized.json> --record` is a separate flat KAIA decision-only path.
+It validates the rendered-UI liveness and closed1h/4h evidence, atomically records
+NO_TRADE/ABSTAIN/ENTRY_CANDIDATE_BLOCKED, and cannot create fills or alter accounts.
+It does not bypass the API validator or synthesize venue timestamps. Positive UI
+execution remains unavailable until the source-time/funding accounting bridge is
+reviewed. See [OPERATIONS.md](OPERATIONS.md) for state CAS and
+[UI_PAPER_BRIDGE.md](UI_PAPER_BRIDGE.md) for the exact remaining conditions.

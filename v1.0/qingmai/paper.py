@@ -7,9 +7,13 @@ from .market import DataUnavailable, book_fill, features, number, validate_quote
 
 STRATEGY_VERSION = "kaia-oi-breakout-v1.1-recovery"
 JCT_STRATEGY_VERSION = "jct-oi-volume-breakout-p1-v0.1"
+KAIA_TIMEFRAME_VERSION = "kaia-oi-breakout-v1.2-1h4h"
+JCT_TIMEFRAME_VERSION = "jct-oi-volume-breakout-p1-v0.2-1h4h"
 STRATEGY_LIMITS = {
     STRATEGY_VERSION: {"max_notional":300.0,"planned_risk":10.0,"min_volume_acceleration":None},
     JCT_STRATEGY_VERSION: {"max_notional":100.0,"planned_risk":5.0,"min_volume_acceleration":2.0},
+    KAIA_TIMEFRAME_VERSION: {"max_notional":300.0,"planned_risk":10.0,"min_volume_acceleration":None,"require_trend_4h":True,"max_hold_hours":72,"visible_depth_fraction":0.10},
+    JCT_TIMEFRAME_VERSION: {"max_notional":100.0,"planned_risk":5.0,"min_volume_acceleration":2.0,"require_trend_4h":True,"max_hold_hours":72,"visible_depth_fraction":0.10},
 }
 
 
@@ -69,6 +73,49 @@ def initialize_prospective_jct(state, created_at_ms):
            "strategy_version":JCT_STRATEGY_VERSION,"new_fills":0}
     output["events"].append(event);output["runs"][event["run_id"]]=digest(event)
     output["revision"]+=1
+    return output
+
+
+def activate_timeframe_trial(state, changed_at_ms):
+    """Prospective version update only on verified flat, zero-fill accounts."""
+    if state.get("mode") != "paper_only" or state.get("schema_version") != 2:
+        raise ValueError("Unsupported state for strategy migration")
+    if isinstance(changed_at_ms,bool) or not isinstance(changed_at_ms,int) or changed_at_ms<=0:
+        raise ValueError("Invalid strategy effective timestamp")
+    chronology=[e["observed_at_ms"] for e in state["events"]]
+    for a in state["accounts"].values():
+        chronology.extend(a.get(k) or 0 for k in ("created_at_ms","equity_as_of_ms","strategy_effective_at_ms"))
+    if changed_at_ms<max(chronology,default=0):
+        raise ValueError("Strategy migration predates existing state")
+    output=deepcopy(state)
+    versions={"KAIA-A01":KAIA_TIMEFRAME_VERSION,"JCT-P01-20261010":JCT_TIMEFRAME_VERSION}
+    changes={}
+    for account_id,version in versions.items():
+        a=output["accounts"][account_id]
+        if a["status"]!="VERIFIED" or a["symbol"]!=("KAIAUSDT" if account_id=="KAIA-A01" else "JCTUSDT") or a["position"] is not None or a["trades"]:
+            raise ValueError("Do not silently migrate a populated strategy account")
+        if a["strategy_version"]==version:
+            prior=[e for e in state["events"] if e.get("run_id")=="strategy-config:1h4h-v1"]
+            if (len(prior)!=1 or state["runs"].get("strategy-config:1h4h-v1")!=digest(prior[0]) or
+                a.get("strategy_effective_at_ms")!=prior[0]["observed_at_ms"] or
+                prior[0].get("changes",{}).get(account_id,{}).get("next")!=version):
+                raise ValueError("Target strategy lacks consistent migration audit")
+            continue
+        expected=STRATEGY_VERSION if account_id=="KAIA-A01" else JCT_STRATEGY_VERSION
+        if a["strategy_version"]!=expected:
+            raise ValueError("Unexpected prior strategy version; reconcile explicitly")
+        changes[account_id]={"previous":a["strategy_version"],"next":version}
+        a["strategy_version"]=version
+        a["strategy_effective_at_ms"]=changed_at_ms
+    if not changes:
+        return output
+    event={"run_id":"strategy-config:1h4h-v1","observed_at_ms":changed_at_ms,
+           "type":"PROSPECTIVE_STRATEGY_CONFIG_UPDATED","changes":changes,
+           "signal_timeframe":"1h","trend_timeframe":"4h","minimum_hold_hours":0,
+           "maximum_hold_hours":72,"holding_cap_origin":"Conservative engineered trial backstop; exits may occur earlier","new_fills":0}
+    if event["run_id"] in output["runs"]:
+        raise ValueError("Strategy migration already recorded; reconcile state")
+    output["events"].append(event);output["runs"][event["run_id"]]=digest(event);output["revision"]+=1
     return output
 
 
@@ -146,6 +193,8 @@ def evaluate(account, data, now_ms, execute):
         return {"action": "ABSTAIN", "reason": account["status"]}
     if data["symbol"] != account["symbol"]:
         raise DataUnavailable("Account symbol mismatch")
+    if min(now_ms, data["collection_started_ms"]) < account.get("strategy_effective_at_ms",0):
+        raise DataUnavailable("Observation predates strategy activation")
     if account.get("equity_as_of_ms") is not None and now_ms < account["equity_as_of_ms"]:
         raise DataUnavailable("Observation predates account state")
     if account.get("position") and now_ms < account["position"]["opened_at_ms"]:
@@ -153,11 +202,13 @@ def evaluate(account, data, now_ms, execute):
     quote = validate_quote(data, now_ms)
     settle_funding(account, data, now_ms)
     p = account["position"]
+    holding_cap=STRATEGY_LIMITS.get(p["strategy_version"],{}).get("max_hold_hours") if p else None
+    time_exit=bool(p and holding_cap is not None and now_ms-p["opened_at_ms"]>=holding_cap*3_600_000)
     # Fresh bid can trigger a structural stop even if OI history is unavailable.
     try:
         f = features(data, now_ms)
     except (ValueError, KeyError, TypeError, IndexError) as exc:
-        if not p or quote["bid"] > p["stop"]:
+        if not p or (quote["bid"] > p["stop"] and not time_exit):
             raise DataUnavailable(str(exc)) from exc
         f = quote
     mark_equity(account, quote["mark"], now_ms)
@@ -166,10 +217,10 @@ def evaluate(account, data, now_ms, execute):
     if p:
         stop = quote["bid"] <= p["stop"]
         reversal = f.get("oi_1h_pct", 0) < 0 and f.get("taker_ratios", [1,1])[-1] < 1 and f.get("taker_ratios", [1,1])[-1] < f.get("taker_ratios", [1,1])[-2]
-        if not (stop or reversal):
+        if not (stop or reversal or time_exit):
             return {**result, "reason": "Position remains within recovered invalidation rules"}
         if not execute:
-            return {**result, "action": "EXIT_SIGNAL", "reason": "Observed structural stop" if stop else "OI reversal with stronger selling"}
+            return {**result, "action": "EXIT_SIGNAL", "reason": "Observed structural stop" if stop else ("Maximum holding backstop" if time_exit else "OI reversal with stronger selling")}
         fill = book_fill(data, "sell", p["quantity"], residual)
         fee = fill * p["quantity"] * fee_rate
         gross = (fill - p["entry"]) * p["quantity"]
@@ -182,7 +233,7 @@ def evaluate(account, data, now_ms, execute):
                  "net_pnl": gross - p["entry_fee"] - fee - p["funding_paid"],
                  "holding_hours": (now_ms - p["opened_at_ms"]) / 3_600_000,
                  "slippage_paid": p["slippage_paid"] + slip,
-                 "reason": "STRUCTURE_STOP_OBSERVED" if stop else "OI_TAKER_REVERSAL"}
+                 "reason": "STRUCTURE_STOP_OBSERVED" if stop else ("MAXIMUM_HOLDING_BACKSTOP" if time_exit else "OI_TAKER_REVERSAL")}
         account["trades"].append(trade)
         account["position"] = None
         mark_equity(account, quote["mark"], now_ms)
@@ -190,6 +241,8 @@ def evaluate(account, data, now_ms, execute):
     limits=STRATEGY_LIMITS.get(account["strategy_version"])
     if limits is None:
         return {**result, "reason": "Unknown strategy version; no automatic migration"}
+    if limits.get("require_trend_4h") and not f.get("trend_4h_long"):
+        return {**result,"reason":"Need completed4h green candle and higher close than prior4h candle"}
     qualifies = f["oi_1h_pct"] > 2 and min(f["taker_ratios"]) > 1.10 and f["bid"] > f["previous_hour_high"]
     if not qualifies:
         return {**result, "reason": "Need OI1h>2%, two closed taker intervals>1.10 and bid>prior1h high"}
@@ -204,6 +257,9 @@ def evaluate(account, data, now_ms, execute):
         raise DataUnavailable("No valid structural stop")
     # Reduce size until both conservative planned loss and 1x notional constraints pass.
     quantity = min(limits["max_notional"], account["cash"] / (1 + fee_rate)) / (f["ask"] * (1 + residual))
+    if limits.get("visible_depth_fraction") is not None:
+        visible=min(sum(number(row[1],positive=True) for row in data["book"][side]) for side in ("bids","asks"))
+        quantity=min(quantity,visible*limits["visible_depth_fraction"])
     for _ in range(12):
         fill = book_fill(data, "buy", quantity, residual)
         exit_assumption = stop * (1 - residual)
@@ -223,6 +279,7 @@ def evaluate(account, data, now_ms, execute):
              "funding_interval_ms": f["funding_interval_ms"],
              "funding_paid": 0.0, "slippage_paid": max(fill - f["ask"], 0) * quantity,
              "strategy_version": account["strategy_version"], "leverage_cap": 1}
+    entry["maximum_hold_hours"]=limits.get("max_hold_hours")
     if not execute:
         return {**result, "action": "ENTRY_SIGNAL", "reason": "Recovered long signal", "proposed_position": entry}
     account["position"] = entry

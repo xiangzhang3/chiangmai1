@@ -80,6 +80,19 @@ def run(args, client=None, now=None):
         return event
 
 
+def run_ui_pilot(args, now=None):
+    from .ui_pilot import process_pilot
+    now=now or (lambda:int(time.time()*1000))
+    path=Path(args.state)
+    with open(str(path)+".lock","a") as lock:
+        fcntl.flock(lock,fcntl.LOCK_EX)
+        raw=path.read_bytes()
+        output,event=process_pilot(json.loads(raw),json.loads(Path(args.ui_pilot).read_text()),now())
+        if args.record and event.get("status")!="ALREADY_RECORDED":
+            atomic_write(path,output,hashlib.sha256(raw).hexdigest())
+        return {**event,"state_recorded_locally":args.record,"remote_persistence_verified":False}
+
+
 def main():
     parser = argparse.ArgumentParser(description="CHIANGMAI1 PAPER ONLY. No live mode or credentials.")
     parser.add_argument("--state", default="runtime/state.json")
@@ -87,7 +100,13 @@ def main():
     parser.add_argument("--record", action="store_true", help="Atomically save scan/state locally")
     parser.add_argument("--paper-execute", action="store_true", help="Enable only verified, recovered paper rules")
     parser.add_argument("--ui-observation", help="Inspect an official-UI market observation JSON; research only")
+    parser.add_argument("--ui-pilot", help="Record a flat KAIA observed-UI decision; no fills")
     args = parser.parse_args()
+    if args.ui_pilot:
+        if args.paper_execute or args.ui_observation:
+            parser.error("UI pilot cannot execute positions or be combined with UI research")
+        print(json.dumps(run_ui_pilot(args),ensure_ascii=False,indent=2,allow_nan=False))
+        return
     if args.ui_observation:
         if args.record or args.paper_execute:
             parser.error("UI observations are research only; no ledger write or execution")

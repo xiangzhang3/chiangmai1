@@ -29,6 +29,25 @@ def record():
 
 
 class UICandidateTests(unittest.TestCase):
+    def test_chart_clock_must_progress(self):
+        r=record();r["quotes"][1]["chart_clock_text"]=r["quotes"][0]["chart_clock_text"]
+        self.assertEqual(assess(r,NOW)["status"],"INCOMPLETE")
+
+    def test_live_pair_cannot_be_reused_across_hour_boundary(self):
+        r=record()
+        # Shift the pair near the current hour end, leaving history aligned to it.
+        from qingmai.ui_candidate import timestamp
+        shift=3_600_000-(NOW%3_600_000)-10_000
+        for q in r["quotes"]:
+            capture=timestamp(q["observed_at"])+shift
+            q["observed_at"]=iso(capture);q["capture_started_at"]=iso(capture-1000)
+            local=datetime.fromtimestamp((capture-1000)/1000,timezone(timedelta(hours=-7)))
+            q["chart_clock_text"]=local.strftime("%H:%M:%S UTC-7")
+            q["last_trade_time_displayed"]=local.strftime("%H:%M:%S")
+        result=assess(r,NOW+shift+15_000)
+        self.assertEqual(result["status"],"INCOMPLETE")
+        self.assertIn("boundary",result["reason"])
+
     def test_conservative_rounded_size(self):
         self.assertEqual(display_bounds("11.93K"),(11920,11940))
         self.assertEqual(display_bounds("932"),(931,933))

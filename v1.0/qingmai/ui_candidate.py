@@ -88,7 +88,7 @@ def assess(record, now_ms=None):
         quotes=record["quotes"]
         if len(quotes)!=2:
             raise DataUnavailable("Need exactly two repeated visible quote captures")
-        times=[]; tapes=[]; books=[]
+        times=[]; tapes=[]; books=[]; clocks=[]
         for q in quotes:
             if q["source_url"] != f"https://www.binance.com/en/futures/{symbol}" or q["selected_symbol"]!=symbol or q["perpetual_label"] is not True:
                 raise DataUnavailable("Quote source/instrument identity is unverified")
@@ -103,6 +103,7 @@ def assess(record, now_ms=None):
             clock_offset=int(clock[2])*60 + (int(clock[3] or 0) * (-1 if clock[2].startswith("-") else 1))
             if clock_offset!=offset or abs(display_time(clock[1],captured,offset)-captured)>15_000:
                 raise DataUnavailable("Displayed clock does not agree with capture UTC")
+            clocks.append(display_time(clock[1],captured,offset))
             trade_time=display_time(q["last_trade_time_displayed"],captured,offset)
             if not -5_000<=captured-trade_time<=30_000:
                 raise DataUnavailable("Latest rendered trade is not fresh")
@@ -120,9 +121,11 @@ def assess(record, now_ms=None):
             books.append((Decimal(str(q["bid_price_displayed"])),Decimal(str(q["ask_price_displayed"])),sum(bid_quantity_bounds)/2,sum(ask_quantity_bounds)/2))
         if not 5_000<=times[1]-times[0]<=30_000 or not 0<=now_ms-times[1]<=30_000:
             raise DataUnavailable("Repeated captures are not within the liveness window")
-        if tapes[1]<=tapes[0] or books[0]==books[1]:
-            raise DataUnavailable("No observed tape advance and book change")
-        boundary=times[1]//3_600_000*3_600_000
+        if clocks[1]<=clocks[0] or tapes[1]<=tapes[0] or books[0]==books[1]:
+            raise DataUnavailable("No observed clock/tape advance and book change")
+        boundary=now_ms//3_600_000*3_600_000
+        if timestamp(quotes[0]["capture_started_at"])<boundary:
+            raise DataUnavailable("Live pair crosses hourly decision boundary; recollect")
 
         def rows(name):
             output=[]
@@ -177,5 +180,5 @@ def assess(record, now_ms=None):
                                 "conservative_bid_quantity_lower":bid_qty,"conservative_ask_quantity_lower":ask_qty},
                       derived_hour_boundary_ms=boundary,observed_at_ms=times[-1])
     except (ValueError,KeyError,TypeError,IndexError,AttributeError,ArithmeticError) as exc:
-        result["reason"]=str(exc)
+        result["reason"]=str(exc) if isinstance(exc,DataUnavailable) else "Malformed public market field: "+type(exc).__name__
     return result

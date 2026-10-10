@@ -122,6 +122,9 @@ def validate_quote(data, now_ms):
 def features(data, now_ms):
     result = validate_quote(data, now_ms)
     symbol = data["symbol"]
+    boundary=now_ms//HOUR*HOUR
+    if int(data["collection_started_ms"])<boundary:
+        raise DataUnavailable("Collection crossed hourly boundary; recollect completed signal inputs")
     candles = sorted((x for x in data["klines"] if int(x[6]) < now_ms), key=lambda x: int(x[0]))
     if len(candles) < 170:
         raise DataUnavailable("Need 170 completed hourly candles")
@@ -129,6 +132,8 @@ def features(data, now_ms):
     contiguous(candles, lambda x: x[0], "candle")
     if any(int(x[6]) != int(x[0]) + HOUR - 1 for x in candles):
         raise DataUnavailable("Unexpected candle duration")
+    if int(candles[-1][6])!=boundary-1:
+        raise DataUnavailable("Signal candles do not end at latest completed hour")
     fresh(candles[-1][6], now_ms, HOUR + 600_000, "closed candle")
     for x in candles:
         o,h,l,c = [number(v, positive=True) for v in x[1:5]]
@@ -163,6 +168,15 @@ def features(data, now_ms):
         raise DataUnavailable("Zero prior-seven-day volume baseline")
     volume = sum(number(x[7]) for x in candles[-2:])
     same_slot_mean = sum(sum(number(x[7]) for x in candles[168-24*d:170-24*d]) for d in range(1,8)) / 7
+    boundary_4h=now_ms//(4*HOUR)*(4*HOUR)
+    four_hour=[]
+    for start in (boundary_4h-8*HOUR,boundary_4h-4*HOUR):
+        rows=[x for x in candles if start<=int(x[0])<start+4*HOUR]
+        if len(rows)!=4 or int(rows[0][0])!=start:
+            raise DataUnavailable("Missing aligned completed4h trend window")
+        four_hour.append({"open_time_ms":start,"close_time_ms":start+4*HOUR-1,
+                          "open":number(rows[0][1]),"high":max(number(x[2]) for x in rows),
+                          "low":min(number(x[3]) for x in rows),"close":number(rows[-1][4])})
     result.update({
         "symbol": symbol,
         "oi_as_of_ms": int(oi[-1]["timestamp"]),
@@ -177,6 +191,9 @@ def features(data, now_ms):
         "volume_acceleration": 12 * volume / baseline,
         "volume_same_slot_ratio_7d": volume / same_slot_mean if same_slot_mean > 0 else None,
         "volume_as_of_ms": int(candles[-1][6]),
+        "trend_4h_candles":four_hour,
+        "trend_4h_long":four_hour[-1]["close"]>four_hour[-1]["open"] and four_hour[-1]["close"]>four_hour[-2]["close"],
+        "trend_4h_as_of_ms":boundary_4h-1,
     })
     return result
 

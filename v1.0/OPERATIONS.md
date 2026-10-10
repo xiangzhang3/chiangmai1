@@ -88,3 +88,60 @@ or main. Only the explicitly selected recovery branch is authorized here.
 - An observation is research only and cannot produce or alter a paper fill.
   Capture-time records do not establish continuous execution or full signal
   eligibility. Do not report monitoring as a restored trading deployment.
+
+## Observed-UI flat-account pilot (separate from the API runner)
+
+`python -m qingmai --ui-pilot path/to/normalized.json --state runtime/state.json --record`
+
+This opt-in pilot evaluates only the verified, flat KAIA-A01 account using the
+prospective 1h/4h strategy. It requires the full `binance-rendered-shadow-v0.1`
+record plus `candles_4h`: exactly two completed UTC-aligned four-hour candles,
+with the same candle fields as `candle`, `period: "4h"`, per-field capture start/end,
+source URL, selected symbol and raw UI time label. The latest completed 4h close
+must conservatively exceed its open and the preceding 4h close; display rounding
+is retained. The 1h inputs must describe the latest completed hour.
+
+The pilot returns NO_TRADE when a validated strategy gate fails, ABSTAIN for
+incomplete/stale evidence, or ENTRY_CANDIDATE_BLOCKED for an otherwise positive
+signal. It cannot open/close positions and never changes the `accounts` object.
+`--paper-execute` is prohibited with this input. No API provenance or exchange
+message timestamp is synthesized. The old `--ui-observation` remains research-only.
+
+Single-writer protocol for the authorized pilot:
+1. Read code and runtime/state from the selected recovery branch and retain the
+   branch HEAD and state blob SHA. Check that the 1h/4h migration is recorded.
+2. Collect evidence through permitted signed-out official rendered UI. Normalize
+   values faithfully; archive raw source evidence beside the audit. Capture all
+   historical inputs within 10 minutes and the final live pair within 30 seconds
+   of evaluation. Never run at a fabricated historical `now` for a current pilot.
+3. Run the CLI once, then require `state_recorded_locally: true`. Review the event,
+   evidence hash and zero fills. The hourly key is `ui-pilot:<UTC-hour>:KAIA-A01`.
+4. Commit updated runtime/state and the immutable input/audit/evidence together on
+   the recovery branch with a non-force HEAD compare-and-swap. On conflict reload
+   remote state and check the run key; never replay a stale snapshot as fresh.
+5. Verify the resulting remote HEAD and exact state/evidence blobs before reporting
+   persistence. A local success is not proof of remote persistence.
+
+The scheduled public-observation collector remains a different, account-readonly
+writer. It must not invoke this pilot or change runtime/state. A successful
+NO_TRADE pilot verifies collection, decision and durable audit, not positive-entry
+execution, continuous deployment or net profitability.
+
+## Prospective 1h/4h strategy update
+
+Only verified flat, zero-fill accounts may migrate with `activate_timeframe_trial`.
+The migration preserves balances, stores old/new strategy versions and an exact
+prospective effective time, and rejects unknown versions, inconsistent audit trails
+or backwards chronology. Data for new execution must be collected after activation.
+KAIA uses `kaia-oi-breakout-v1.2-1h4h`; the new JCT account uses
+`jct-oi-volume-breakout-p1-v0.2-1h4h`. Historic versions are retained.
+
+Both add the engineered four-hour trend condition, no minimum holding period,
+and a 72-hour maximum-hold backstop evaluated at the next valid observation.
+Stops/invalidation can exit earlier. Missing quotes/funding can prevent evaluation;
+72 hours is not an execution guarantee. Entry quantity is capped at 10% of the
+smaller total visible bid/ask base-asset quantity, in addition to unchanged 1x,
+notional and planned-loss caps. The 10/5 USDT planned loss estimates do not include
+unknown future funding or gap risk. Signal and accounting tests are not performance
+validation. These are engineered prospective definitions, not recovered exact
+historical indicators or a user-guaranteed return objective.

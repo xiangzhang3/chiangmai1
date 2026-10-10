@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "mode": "paper_only",
-  "revision": 2,
+  "revision": 3,
   "legacy_source_sha256": "d772cc9e903a3c3fafdc30c8272194e7e1ad2bb8c809405cbdbc47473378d397",
   "legacy_checkpoint": {
     "schema_version": "1.0",
@@ -51,7 +51,7 @@
   "accounts": {
     "KAIA-A01": {
       "symbol": "KAIAUSDT",
-      "strategy_version": "kaia-oi-breakout-v1.1-recovery",
+      "strategy_version": "kaia-oi-breakout-v1.2-1h4h",
       "status": "VERIFIED",
       "initial_balance": 1000.0,
       "cash": 1000.0,
@@ -63,7 +63,8 @@
       "fees_paid": 0.0,
       "funding_paid": 0.0,
       "slippage_paid": 0.0,
-      "equity_as_of_ms": null
+      "equity_as_of_ms": null,
+      "strategy_effective_at_ms": 1791651431556
     },
     "JCT-A01": {
       "symbol": "JCTUSDT",
@@ -78,7 +79,7 @@
     },
     "JCT-P01-20261010": {
       "symbol": "JCTUSDT",
-      "strategy_version": "jct-oi-volume-breakout-p1-v0.1",
+      "strategy_version": "jct-oi-volume-breakout-p1-v0.2-1h4h",
       "status": "VERIFIED",
       "initial_balance": 1000.0,
       "cash": 1000.0,
@@ -92,12 +93,14 @@
       "slippage_paid": 0.0,
       "equity_as_of_ms": 1791650187000,
       "created_at_ms": 1791650187000,
-      "origin": "Explicitly authorized new prospective paper account; not recovered history"
+      "origin": "Explicitly authorized new prospective paper account; not recovered history",
+      "strategy_effective_at_ms": 1791651431556
     }
   },
   "runs": {
     "recovery-audit:2026-10-10T16:16:37Z": "2d3ddb6ddc147773df5e5dc17229e260cd916d00877d5d006eb1798fcfb95086",
-    "account-init:JCT-P01-20261010": "dee8378b3791afa6f888211175a113be5e08e20f694ecfc3907d0c2c4c396029"
+    "account-init:JCT-P01-20261010": "dee8378b3791afa6f888211175a113be5e08e20f694ecfc3907d0c2c4c396029",
+    "strategy-config:1h4h-v1": "b5633202f23fabe6ab34a04a6e42b2ef5778c431f5af785680774598d6bc9aab"
   },
   "events": [
     {
@@ -168,6 +171,27 @@
       "currency": "USDT",
       "mode": "paper_only",
       "strategy_version": "jct-oi-volume-breakout-p1-v0.1",
+      "new_fills": 0
+    },
+    {
+      "run_id": "strategy-config:1h4h-v1",
+      "observed_at_ms": 1791651431556,
+      "type": "PROSPECTIVE_STRATEGY_CONFIG_UPDATED",
+      "changes": {
+        "KAIA-A01": {
+          "previous": "kaia-oi-breakout-v1.1-recovery",
+          "next": "kaia-oi-breakout-v1.2-1h4h"
+        },
+        "JCT-P01-20261010": {
+          "previous": "jct-oi-volume-breakout-p1-v0.1",
+          "next": "jct-oi-volume-breakout-p1-v0.2-1h4h"
+        }
+      },
+      "signal_timeframe": "1h",
+      "trend_timeframe": "4h",
+      "minimum_hold_hours": 0,
+      "maximum_hold_hours": 72,
+      "holding_cap_origin": "Conservative engineered trial backstop; exits may occur earlier",
       "new_fills": 0
     }
   ],

@@ -9,7 +9,7 @@ import unittest
 from unittest.mock import patch
 
 from qingmai.market import BASE, HOUR, DataUnavailable, PublicClient, features, book_fill
-from qingmai.paper import process, recovered_state, metrics, digest,initialize_prospective_jct
+from qingmai.paper import process, recovered_state, metrics, digest,initialize_prospective_jct,activate_timeframe_trial,KAIA_TIMEFRAME_VERSION
 from qingmai.__main__ import atomic_write, run
 from qingmai.core import PaperAccount
 from qingmai.ui_research import inspect_observation
@@ -44,6 +44,92 @@ def state():
 
 
 class PaperTests(unittest.TestCase):
+    def test_previous_hour_signal_cannot_be_reused_next_hour(self):
+        d=snapshot()
+        for key in ("collection_started_ms","collected_at_ms","server_time_ms"):d[key]+=HOUR
+        d["book"]["T"]+=HOUR;d["mark"]["time"]+=HOUR
+        with self.assertRaises(DataUnavailable):features(d,NOW+HOUR)
+
+    def test_collection_crossing_hour_rejects_unproven_closed_inputs(self):
+        d=snapshot();d["collection_started_ms"]=BOUNDARY-5000;d["collected_at_ms"]=BOUNDARY+5000
+        d["server_time_ms"]=BOUNDARY+5000;d["mark"]["time"]=BOUNDARY+5000;d["book"]["T"]=BOUNDARY+5000
+        with self.assertRaises(DataUnavailable):features(d,BOUNDARY+5000)
+
+    def test_4h_aggregates_only_completed_aligned_hours(self):
+        data=snapshot();data["klines"][-1][4]="99.9"
+        f=features(data,NOW)
+        self.assertTrue(f["trend_4h_long"])
+        self.assertEqual(f["trend_4h_as_of_ms"],BOUNDARY-1)
+        self.assertEqual(f["trend_4h_candles"][-1]["open_time_ms"],BOUNDARY-4*HOUR)
+
+    def test_timeframe_migration_audits_without_money_change(self):
+        original=initialize_prospective_jct(state(),NOW)
+        updated=activate_timeframe_trial(original,NOW+1)
+        self.assertEqual(updated["accounts"]["KAIA-A01"]["strategy_version"],KAIA_TIMEFRAME_VERSION)
+        self.assertEqual(updated["accounts"]["KAIA-A01"]["cash"],1000)
+        self.assertEqual(updated["accounts"]["JCT-A01"],original["accounts"]["JCT-A01"])
+        self.assertEqual(activate_timeframe_trial(updated,NOW+2),updated)
+
+    def test_migration_rejects_wrong_mode_version_and_chronology(self):
+        base=initialize_prospective_jct(state(),NOW)
+        for field,value in (("mode","live"),("schema_version",99)):
+            changed=deepcopy(base);changed[field]=value
+            with self.assertRaises(ValueError):activate_timeframe_trial(changed,NOW)
+        with self.assertRaises(ValueError):activate_timeframe_trial(base,NOW-1)
+        for value in (True, float("nan"), NOW+0.5):
+            with self.assertRaises(ValueError):activate_timeframe_trial(base,value)
+        base["accounts"]["KAIA-A01"]["strategy_version"]="unknown"
+        with self.assertRaises(ValueError):activate_timeframe_trial(base,NOW)
+
+    def test_migration_requires_consistent_idempotent_audit(self):
+        s=activate_timeframe_trial(initialize_prospective_jct(state(),NOW-4000),NOW-3000)
+        s["events"].pop()
+        with self.assertRaises(ValueError):activate_timeframe_trial(s,NOW)
+
+    def test_quote_collection_must_follow_activation(self):
+        s=activate_timeframe_trial(initialize_prospective_jct(state(),NOW),NOW+1000)
+        _,event=process(s,{"KAIAUSDT":snapshot()},NOW+2000,"precollected",execute=True)
+        self.assertEqual(event["accounts"]["KAIA-A01"]["action"],"ABSTAIN")
+
+    def test_activation_cannot_apply_to_earlier_quote(self):
+        s=activate_timeframe_trial(initialize_prospective_jct(state(),NOW),NOW+1000)
+        output,event=process(s,{"KAIAUSDT":snapshot()},NOW,"premature",execute=True)
+        self.assertEqual(event["accounts"]["KAIA-A01"]["action"],"ABSTAIN")
+        self.assertIsNone(output["accounts"]["KAIA-A01"]["position"])
+
+    def test_populated_account_cannot_silently_migrate(self):
+        s=initialize_prospective_jct(state(),NOW);s["accounts"]["KAIA-A01"]["trades"]=[{"net_pnl":1}]
+        with self.assertRaises(ValueError):activate_timeframe_trial(s,NOW)
+
+    def test_new_version_requires_4h_trend(self):
+        s=activate_timeframe_trial(initialize_prospective_jct(state(),NOW-4000),NOW-3000)
+        updated,report=process(s,{"KAIAUSDT":snapshot()},NOW,"trend",execute=True)
+        self.assertIsNone(updated["accounts"]["KAIA-A01"]["position"])
+        self.assertIn("4h",report["accounts"]["KAIA-A01"]["reason"])
+
+    def test_new_version_sizes_to_visible_depth(self):
+        s=activate_timeframe_trial(initialize_prospective_jct(state(),NOW-4000),NOW-3000)
+        data=snapshot();data["klines"][-1][4]="99.9";data["book"]["asks"]=[["101.01","10"]];data["book"]["bids"]=[["101","10"]]
+        updated,report=process(s,{"KAIAUSDT":data},NOW,"depth",execute=True)
+        p=updated["accounts"]["KAIA-A01"]["position"]
+        self.assertLessEqual(p["quantity"],1)
+        self.assertEqual(p["maximum_hold_hours"],72)
+
+    def test_72h_backstop_exits_without_waiting_for_stop(self):
+        s=activate_timeframe_trial(initialize_prospective_jct(state(),NOW-4000),NOW-3000)
+        data=snapshot();data["klines"][-1][4]="99.9"
+        opened,_=process(s,{"KAIAUSDT":data},NOW,"open",execute=True)
+        later=snapshot();shift=72*HOUR
+        for key in ("collection_started_ms","collected_at_ms","server_time_ms"):later[key]+=shift
+        later["book"]["T"]+=shift
+        later["mark"]["time"]+=shift;later["mark"]["nextFundingTime"]+=shift
+        for row in later["klines"]:row[0]+=shift;row[6]+=shift
+        for row in later["oi"]+later["taker"]:row["timestamp"]+=shift
+        later["funding"]=[{"symbol":"KAIAUSDT","fundingTime":BOUNDARY+h*HOUR,"markPrice":"101","fundingRate":"0"} for h in range(8,73,8)]
+        closed,report=process(opened,{"KAIAUSDT":later},NOW+shift,"close",execute=True)
+        self.assertIsNone(closed["accounts"]["KAIA-A01"]["position"])
+        self.assertEqual(report["accounts"]["KAIA-A01"]["reason"],"MAXIMUM_HOLDING_BACKSTOP")
+
     def test_new_jct_account_preserves_unknown_legacy(self):
         s=state();new=initialize_prospective_jct(s,NOW)
         self.assertEqual(new["accounts"]["JCT-A01"],s["accounts"]["JCT-A01"])
