@@ -1,0 +1,23 @@
+{
+  "symbol": "STRKUSDT",
+  "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+  "observed_at": "2026-10-10T21:05:26.162Z",
+  "display_timezone": null,
+  "exchange_event_time": null,
+  "research_status": "RESEARCH_ONLY",
+  "execution_eligible": false,
+  "fields": {
+    "last_price": 0.10225,
+    "mark_price": 0.10228,
+    "index_price": 0.10238,
+    "funding_rate": -0.0000125,
+    "funding_interval_hours": 4,
+    "open_interest_notional_usdt": 43471526.91
+  },
+  "funding_rate_unit": "decimal per displayed interval; displayed percent divided by 100",
+  "quality_notes": [
+    "Actual capture time is not exchange event time.",
+    "Displayed USDT open interest is not quantity open interest.",
+    "UI values are asynchronously refreshed and rounded; no execution eligibility is inferred."
+  ]
+}
