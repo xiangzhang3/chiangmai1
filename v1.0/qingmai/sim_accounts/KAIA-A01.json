@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "account_id": "KAIA-A01",
+  "strategy": "清迈1号 v1.0",
+  "instrument": "KAIAUSDT",
+  "venue": "Binance USDⓈ-M Perpetual",
+  "mode": "paper_only",
+  "currency": "USDT",
+  "initial_balance": 1000,
+  "ledger_initialized_at": "2026-10-10T10:05:00Z",
+  "note": "Ledger initialization: earlier paper-trade alerts repeatedly reported flat account but were not durably stored. No historical executions backfilled. Entry requires verifiable quote and durable ledger write.",
+  "state": {
+    "cash": 1000,
+    "equity": 1000,
+    "position_side": "FLAT",
+    "position_notional": 0,
+    "position_quantity": 0,
+    "average_entry_price": null,
+    "realized_pnl": 0,
+    "unrealized_pnl": 0,
+    "fees_paid": 0,
+    "funding_paid": 0,
+    "slippage_paid": 0
+  },
+  "transactions": [],
+  "snapshots": [
+    {
+      "as_of": "2026-10-10T10:05:00Z",
+      "market_source": "https://bykaranteli.com/symbols/KAIAUSDT",
+      "mark_price": 0.05491,
+      "oi_1h_pct": -1.28,
+      "oi_4h_pct": 2.28,
+      "oi_24h_pct": 13.9,
+      "taker_ratio_1h": 1.02,
+      "funding_pct_per_interval": -0.2413,
+      "basis_pct": -2.058,
+      "btc_regime": "Neutral (approx; Bitcoin market price positive 0.2% and OI flat)",
+      "action": "NO_TRADE",
+      "reason": "1H OI negative, taker below 1.10 and basis extreme; no confirmed buy-volume breakout.",
+      "account_equity": 1000,
+      "verified_account_snapshot": true
+    }
+  ],
+  "last_reviewed_at": "2026-10-10T10:05:00Z"
+}
