@@ -11,9 +11,12 @@ establish continuous execution.
 
 ## Single source, single commit
 
-1. Fetch the current main commit, runner code and `v1.0/runtime/state.json` using
-   the connector. Retain the state blob SHA and base commit. Never start from a
-   bundled old checkpoint or regenerate accounts after recovery.
+1. Fetch the explicitly selected deployment ref, its runner code and
+   `v1.0/runtime/state.json` using the connector. The published recovery ref is
+   `paper-recovery-2026-10-10`; these files are not on main until a separately
+   authorized merge. Do not silently substitute main. Retain the state blob SHA
+   and base commit. Never start from a bundled old checkpoint or regenerate
+   accounts after recovery.
 2. Acquire the scheduler's single-writer lease. The local runner uses an advisory
    file lock and content compare-and-swap; that lock cannot serialize different
    machines. Only one automation may perform account mutations. Other jobs may
@@ -61,3 +64,27 @@ in separate, explicitly budgeted accounts; do not pool their P&L or optimize on
 the evaluation window. Track duration, sample count, net costs and missed-data
 periods. Freqtrade/VectorBT integration and walk-forward research are separate
 uncompleted work. No profitability conclusion follows from unit tests.
+
+## Observation-only hourly collector
+
+A separate public-market observation task may run while account-writer ownership
+is unresolved. It must never mutate `runtime/state.json`, the legacy checkpoint,
+or main. Only the explicitly selected recovery branch is authorized here.
+
+- Store one immutable file per symbol per UTC hour at
+  `v1.0/runtime/ui_observations/YYYY-MM-DD/HH-SYMBOL.json`.
+- Read the hour path first; if it already exists, validate it and skip. Never
+  replace an earlier observation with a later quote for the same hour.
+- Record actual `observed_at` capture time with timezone, the exact approved
+  official symbol-page `source_url`, `symbol`, and supported numeric `fields`.
+  The schema and research-only inspector are in `runtime/ui_observations/README.md`
+  and `qingmai/ui_research.py`. No account or private financial information.
+- Missing or unverified fields remain absent; do not fill from an aggregate
+  price service or infer venue-event timezone from capture time.
+- To publish several missing files atomically, create a tree/commit from a freshly
+  read branch head, then update that branch with `expected_sha` and `force=false`.
+  A stale-head rejection requires rereading existing paths and reconciling; no
+  blind retry. Read back files at the resulting commit before claiming storage.
+- An observation is research only and cannot produce or alter a paper fill.
+  Capture-time records do not establish continuous execution or full signal
+  eligibility. Do not report monitoring as a restored trading deployment.
