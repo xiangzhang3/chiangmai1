@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "mode": "paper_only",
-  "revision": 1,
+  "revision": 2,
   "legacy_source_sha256": "d772cc9e903a3c3fafdc30c8272194e7e1ad2bb8c809405cbdbc47473378d397",
   "legacy_checkpoint": {
     "schema_version": "1.0",
@@ -75,10 +75,29 @@
       "position": null,
       "trades": null,
       "note": "Budget is not a recovered balance. Prior positions and fills are unknown. No reset or backfill."
+    },
+    "JCT-P01-20261010": {
+      "symbol": "JCTUSDT",
+      "strategy_version": "jct-oi-volume-breakout-p1-v0.1",
+      "status": "VERIFIED",
+      "initial_balance": 1000.0,
+      "cash": 1000.0,
+      "equity": 1000.0,
+      "peak_equity": 1000.0,
+      "max_drawdown_pct": 0.0,
+      "position": null,
+      "trades": [],
+      "fees_paid": 0.0,
+      "funding_paid": 0.0,
+      "slippage_paid": 0.0,
+      "equity_as_of_ms": 1791650187000,
+      "created_at_ms": 1791650187000,
+      "origin": "Explicitly authorized new prospective paper account; not recovered history"
     }
   },
   "runs": {
-    "recovery-audit:2026-10-10T16:16:37Z": "2d3ddb6ddc147773df5e5dc17229e260cd916d00877d5d006eb1798fcfb95086"
+    "recovery-audit:2026-10-10T16:16:37Z": "2d3ddb6ddc147773df5e5dc17229e260cd916d00877d5d006eb1798fcfb95086",
+    "account-init:JCT-P01-20261010": "dee8378b3791afa6f888211175a113be5e08e20f694ecfc3907d0c2c4c396029"
   },
   "events": [
     {
@@ -139,6 +158,17 @@
           "detail": "No verified fresh Binance quote. Public web endpoints inaccessible; cloud browser returned net::ERR_BLOCKED_BY_CLIENT; shell network approval canceled with unspecified cause. No restriction bypass or substitute quote used."
         }
       }
+    },
+    {
+      "run_id": "account-init:JCT-P01-20261010",
+      "observed_at_ms": 1791650187000,
+      "type": "PROSPECTIVE_ACCOUNT_CREATED",
+      "account_id": "JCT-P01-20261010",
+      "initial_balance": 1000.0,
+      "currency": "USDT",
+      "mode": "paper_only",
+      "strategy_version": "jct-oi-volume-breakout-p1-v0.1",
+      "new_fills": 0
     }
   ],
   "market_evidence": {}

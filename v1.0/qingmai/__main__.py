@@ -81,7 +81,7 @@ def run(args, client=None, now=None):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="PAPER ONLY. No live mode or credentials.")
+    parser = argparse.ArgumentParser(description="CHIANGMAI1 PAPER ONLY. No live mode or credentials.")
     parser.add_argument("--state", default="runtime/state.json")
     parser.add_argument("--symbols", default="KAIAUSDT,JCTUSDT,STRKUSDT")
     parser.add_argument("--record", action="store_true", help="Atomically save scan/state locally")

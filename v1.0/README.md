@@ -1,4 +1,4 @@
-# 清迈1号 v1.0: paper-only recovery
+# CHIANGMAI1 v1.0: paper-only recovery
 
 Public Binance USD-M data, versioned research signals, and independently recorded
 paper accounts. This is an unvalidated research prototype. Test success is not
@@ -18,6 +18,8 @@ endpoints, real-money trades, or live mode exist in the recovered runner.
   stop loss including model costs at most approximately 10 USDT.
 - JCT-A01: authorized paper budget 1,000 USDT, but prior account state is unknown.
   `ACCOUNT_STATE_UNVERIFIED`; cash/equity are null, never reset to 1,000.
+- JCT-P01-20261010: expressly approved NEW prospective 1,000 USDT paper account,
+  created 2026-10-10T16:36:27Z. Flat, no fills; does not inherit JCT-A01 history.
 - STRK and other symbols can be researched but have no invented trading budget.
 - Freqtrade and VectorBT were historically proposed and remain unintegrated.
   No third-party strategy engine is installed by this patch.
@@ -50,8 +52,8 @@ OI/taker intervals and executable depth can be ingested and verified.
 
 `kaia-oi-breakout-v1.1-recovery` operationalizes the historical long trigger:
 quantity-based OI1h > 2%, two completed hourly taker ratios > 1.10, current bid
-above the last completed hour's high. "Persistent" is conservatively defined as
-two closed intervals. Structural stop uses that hour's low, frozen at entry.
+above the last completed hour's high. The historical lookback for "persistent" was not recovered. This prospective
+version conservatively defines it as two closed intervals. Structural stop uses that hour's low, frozen at entry.
 An observed stop breach, or negative OI1h with taker < 1 and falling versus the
 previous hour, exits at the current verified bid-book fill. There is no invented
 short-entry or take-profit rule.
@@ -70,6 +72,17 @@ quote volume over the preceding seven days, excluding the signal window.
 The same-slot ratio compares that two-hour window to its seven preceding daily
 counterparts. OI uses contract quantity, not price-inflated USD value. All hourly
 intervals must be continuous and OI/taker/candles temporally aligned.
+
+## New prospective JCT rule
+
+`jct-oi-volume-breakout-p1-v0.1` is a conservative new trial definition, not a
+recovered historical strategy. It reuses the versioned long-side OI/taker/high
+breakout and structural-low/reversal exit, with an additional volume-acceleration
+>=2x gate. Maximum leverage remains 1x, first notional <=100 USDT and planned
+stop risk <=5 USDT. No short entries or scale-ins. The separate JCT-P01-20261010
+account begins with explicitly approved 1,000 USDT virtual capital, without
+restoring or changing the unknown JCT-A01 account. Account creation is not a fill,
+and this implementation does not establish a continuously deployed runner.
 
 ## Costs, fills and evaluation limits
 
@@ -102,3 +115,25 @@ tokens, paid services or recurring jobs are created by this patch.
 
 Official market-data schema:
 https://developers.binance.com/en/docs/catalog/core-trading-derivatives-trading-usd-s-m-futures/api/rest-api/market-data
+
+## Prospective rendered-UI shadow assessment
+
+`qingmai/ui_candidate.py` is an isolated, non-executing candidate for assessing
+public rendered observations. It cannot write an account and is not used by the
+default paper runner. Even accepted shadow evidence always reports
+`execution_eligible: false`. Its two-capture liveness limits, displayed-value
+rounding bounds, and chart-offset time conversion are explicit prospective
+modelling assumptions. Derived UI timestamps are never labelled exchange event
+timestamps. A two-interval taker lookback is a new versioned definition, not a
+claim about the original strategy's unspecified persistence period.
+
+The candidate requires advancing visible trade times and changing book data,
+correct symbol/perpetual labels, an explicit UTC-offset chart clock, fresh bounded
+captures, quantity OI, two contiguous completed taker windows, and the aligned
+completed candle. Unsupported/missing data yields INCOMPLETE. UI fields update
+asynchronously; liveness does not prove an atomic or executable exchange quote.
+Displayed quantities are discounted by one whole displayed unit, and ask/bid
+prices are conservatively widened by one displayed unit. These are paper-model
+assumptions, not verified exchange UI rounding guarantees. Funding settlement
+coverage, an independently validated collector and explicit activation remain
+required before any prospective execution bridge.

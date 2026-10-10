@@ -1,6 +1,7 @@
 """Public Binance USD-M market data; fail closed on stale or malformed inputs."""
 import json
 import math
+from decimal import Decimal
 import re
 import time
 from urllib.parse import urlencode
@@ -165,7 +166,7 @@ def features(data, now_ms):
     result.update({
         "symbol": symbol,
         "oi_as_of_ms": int(oi[-1]["timestamp"]),
-        **{f"oi_{h}h_pct": (number(oi[-1]["sumOpenInterest"]) / number(oi[-1-h]["sumOpenInterest"]) - 1) * 100 for h in (1,2,4,24)},
+        **{f"oi_{h}h_pct": float(Decimal(str(oi[-1]["sumOpenInterest"])) * 100 / Decimal(str(oi[-1-h]["sumOpenInterest"])) - 100) for h in (1,2,4,24)},
         "taker_ratios": [number(x["buySellRatio"]) for x in taker],
         "taker_as_of_ms": int(taker[-1]["timestamp"]) + HOUR,
         "previous_hour_high": number(candles[-1][2]),

@@ -9,7 +9,7 @@ import unittest
 from unittest.mock import patch
 
 from qingmai.market import BASE, HOUR, DataUnavailable, PublicClient, features, book_fill
-from qingmai.paper import process, recovered_state, metrics, digest
+from qingmai.paper import process, recovered_state, metrics, digest,initialize_prospective_jct
 from qingmai.__main__ import atomic_write, run
 from qingmai.core import PaperAccount
 from qingmai.ui_research import inspect_observation
@@ -44,6 +44,28 @@ def state():
 
 
 class PaperTests(unittest.TestCase):
+    def test_new_jct_account_preserves_unknown_legacy(self):
+        s=state();new=initialize_prospective_jct(s,NOW)
+        self.assertEqual(new["accounts"]["JCT-A01"],s["accounts"]["JCT-A01"])
+        self.assertEqual(new["accounts"]["JCT-P01-20261010"]["cash"],1000)
+        self.assertEqual(new["accounts"]["JCT-P01-20261010"]["trades"],[])
+        self.assertEqual(new["accounts"]["JCT-P01-20261010"]["created_at_ms"],NOW)
+        with self.assertRaises(ValueError): initialize_prospective_jct(new,NOW+1)
+
+    def test_jct_volume_gate_and_smaller_position(self):
+        s=initialize_prospective_jct(state(),NOW)
+        data=snapshot();data["symbol"]="JCTUSDT";data["contract"]["symbol"]="JCTUSDT";data["mark"]["symbol"]="JCTUSDT"
+        for row in data["oi"]+data["taker"]:row["symbol"]="JCTUSDT"
+        blocked,report=process(s,{"JCTUSDT":data},NOW,"jct-one",execute=True)
+        self.assertIsNone(blocked["accounts"]["JCT-P01-20261010"]["position"])
+        self.assertIn("volume acceleration",report["accounts"]["JCT-P01-20261010"]["reason"])
+        for row in data["klines"][-2:]:row[7]="200"
+        opened,report=process(s,{"JCTUSDT":data},NOW,"jct-two",execute=True)
+        p=opened["accounts"]["JCT-P01-20261010"]["position"]
+        self.assertLessEqual(p["entry"]*p["quantity"],100.000001)
+        self.assertLessEqual(p["planned_risk_usdt"],5.000001)
+        self.assertEqual(opened["accounts"]["JCT-A01"]["status"],"ACCOUNT_STATE_UNVERIFIED")
+
     def test_official_ui_observation_always_research_only(self):
         record={"symbol":"KAIAUSDT","source_url":"https://www.binance.com/en/futures/KAIAUSDT","observed_at":"2026-10-10T16:00:00Z","fields":{"last_price":1,"funding_rate":-0.001}}
         self.assertFalse(inspect_observation(record)["execution_eligible"])
@@ -260,6 +282,12 @@ class PaperTests(unittest.TestCase):
         updated, report=process(state(),{"KAIAUSDT":data},NOW,"one",execute=True)
         self.assertIsNone(updated["accounts"]["KAIA-A01"]["position"])
         self.assertIn("safety",report["accounts"]["KAIA-A01"]["reason"])
+
+    def test_exact_two_percent_oi_does_not_open(self):
+        data=snapshot();data["oi"][-1]["sumOpenInterest"]="102"
+        updated,report=process(state(),{"KAIAUSDT":data},NOW,"one",execute=True)
+        self.assertIsNone(updated["accounts"]["KAIA-A01"]["position"])
+        self.assertEqual(report["accounts"]["KAIA-A01"]["action"],"NO_TRADE")
 
     def test_live_mode_rejected(self):
         s=state(); s["mode"]="live"

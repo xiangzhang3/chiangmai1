@@ -6,6 +6,11 @@ import math
 from .market import DataUnavailable, book_fill, features, number, validate_quote
 
 STRATEGY_VERSION = "kaia-oi-breakout-v1.1-recovery"
+JCT_STRATEGY_VERSION = "jct-oi-volume-breakout-p1-v0.1"
+STRATEGY_LIMITS = {
+    STRATEGY_VERSION: {"max_notional":300.0,"planned_risk":10.0,"min_volume_acceleration":None},
+    JCT_STRATEGY_VERSION: {"max_notional":100.0,"planned_risk":5.0,"min_volume_acceleration":2.0},
+}
 
 
 def digest(value):
@@ -40,6 +45,31 @@ def recovered_state(legacy):
             },
         }, "runs": {}, "events": [], "market_evidence": {},
     }
+
+
+def initialize_prospective_jct(state, created_at_ms):
+    """One-time, expressly approved NEW account; never a legacy-state repair."""
+    account_id="JCT-P01-20261010"
+    if account_id in state["accounts"]:
+        raise ValueError("Prospective account already exists; never reset it")
+    if state.get("mode")!="paper_only" or created_at_ms<=0:
+        raise ValueError("Invalid paper initialization")
+    output=deepcopy(state)
+    output["accounts"][account_id]={
+        "symbol":"JCTUSDT","strategy_version":JCT_STRATEGY_VERSION,"status":"VERIFIED",
+        "initial_balance":1000.0,"cash":1000.0,"equity":1000.0,
+        "peak_equity":1000.0,"max_drawdown_pct":0.0,"position":None,"trades":[],
+        "fees_paid":0.0,"funding_paid":0.0,"slippage_paid":0.0,
+        "equity_as_of_ms":created_at_ms,"created_at_ms":created_at_ms,
+        "origin":"Explicitly authorized new prospective paper account; not recovered history",
+    }
+    event={"run_id":"account-init:"+account_id,"observed_at_ms":created_at_ms,
+           "type":"PROSPECTIVE_ACCOUNT_CREATED","account_id":account_id,
+           "initial_balance":1000.0,"currency":"USDT","mode":"paper_only",
+           "strategy_version":JCT_STRATEGY_VERSION,"new_fills":0}
+    output["events"].append(event);output["runs"][event["run_id"]]=digest(event)
+    output["revision"]+=1
+    return output
 
 
 def metrics(account):
@@ -157,11 +187,14 @@ def evaluate(account, data, now_ms, execute):
         account["position"] = None
         mark_equity(account, quote["mark"], now_ms)
         return {**result, "action": "PAPER_CLOSE", "trade": trade, "reason": trade["reason"]}
-    if account["strategy_version"] != STRATEGY_VERSION:
+    limits=STRATEGY_LIMITS.get(account["strategy_version"])
+    if limits is None:
         return {**result, "reason": "Unknown strategy version; no automatic migration"}
     qualifies = f["oi_1h_pct"] > 2 and min(f["taker_ratios"]) > 1.10 and f["bid"] > f["previous_hour_high"]
     if not qualifies:
         return {**result, "reason": "Need OI1h>2%, two closed taker intervals>1.10 and bid>prior1h high"}
+    if limits["min_volume_acceleration"] is not None and f["volume_acceleration"]<limits["min_volume_acceleration"]:
+        return {**result,"reason":"Prospective JCT rule also requires volume acceleration >=2x"}
     if f["spread_bps"] > 20 or abs(f["basis_pct"]) > 1 or abs(f["funding_rate"]) > 0.001:
         return {**result, "reason": "Recovery liquidity/basis/funding safety filter"}
     if f["next_funding_ms"] <= now_ms:
@@ -170,12 +203,12 @@ def evaluate(account, data, now_ms, execute):
     if stop >= f["ask"]:
         raise DataUnavailable("No valid structural stop")
     # Reduce size until both conservative planned loss and 1x notional constraints pass.
-    quantity = min(300.0, account["cash"] / (1 + fee_rate)) / (f["ask"] * (1 + residual))
+    quantity = min(limits["max_notional"], account["cash"] / (1 + fee_rate)) / (f["ask"] * (1 + residual))
     for _ in range(12):
         fill = book_fill(data, "buy", quantity, residual)
         exit_assumption = stop * (1 - residual)
         risk_per_unit = fill - exit_assumption + fee_rate * (fill + exit_assumption)
-        limit = min(300.0 / fill, account["cash"] / (fill * (1 + fee_rate)), 10.0 / risk_per_unit)
+        limit = min(limits["max_notional"] / fill, account["cash"] / (fill * (1 + fee_rate)), limits["planned_risk"] / risk_per_unit)
         if quantity <= limit * (1 + 1e-12):
             break
         quantity = limit * (1 - 1e-9)
@@ -189,7 +222,7 @@ def evaluate(account, data, now_ms, execute):
              "opened_at_ms": now_ms, "next_funding_ms": f["next_funding_ms"],
              "funding_interval_ms": f["funding_interval_ms"],
              "funding_paid": 0.0, "slippage_paid": max(fill - f["ask"], 0) * quantity,
-             "strategy_version": STRATEGY_VERSION, "leverage_cap": 1}
+             "strategy_version": account["strategy_version"], "leverage_cap": 1}
     if not execute:
         return {**result, "action": "ENTRY_SIGNAL", "reason": "Recovered long signal", "proposed_position": entry}
     account["position"] = entry

@@ -1,17 +1,52 @@
 {
-  "as_of": "2026-10-10T16:16:37Z",
-  "upstream_commit": "e81c23b2d6a05f70e1b50243612804eaae8b578f",
-  "status": "LOCAL_TESTED_NOT_DEPLOYED",
-  "tests_passed": 50,
-  "fresh_market_scan": "BLOCKED",
+  "project": "CHIANGMAI1",
+  "as_of": "2026-10-10T16:38:40Z",
+  "status": "TESTED_RECOVERY_BRANCH_NOT_DEPLOYED",
+  "recovery_branch": "paper-recovery-2026-10-10",
+  "upstream_main_commit": "e81c23b2d6a05f70e1b50243612804eaae8b578f",
+  "tests_passed": 78,
+  "test_kind": "Offline unit tests; synthetic fixtures only",
+  "compileall": "passed",
+  "diff_check": "passed",
+  "review": "Independent source, accounting and shadow-validator review; findings fixed and regression-tested",
+  "fresh_api_scan": "BLOCKED",
   "new_paper_fills": 0,
-  "account_status": {
-    "KAIA-A01": "Original $1000 flat checkpoint unchanged",
-    "JCT-A01": "ACCOUNT_STATE_UNVERIFIED; unknown balance; not reset"
+  "accounts": {
+    "KAIA-A01": {
+      "cash": 1000,
+      "position": "FLAT",
+      "origin": "Original verified checkpoint unchanged"
+    },
+    "JCT-A01": {
+      "cash": null,
+      "status": "ACCOUNT_STATE_UNVERIFIED",
+      "origin": "Unknown legacy state preserved"
+    },
+    "JCT-P01-20261010": {
+      "cash": 1000,
+      "position": "FLAT",
+      "created_at_utc": "2026-10-10T16:36:27Z",
+      "origin": "Expressly authorized NEW prospective paper account",
+      "strategy_version": "jct-oi-volume-breakout-p1-v0.1"
+    }
+  },
+  "ui_shadow": {
+    "version": "binance-rendered-shadow-v0.1",
+    "execution_eligible": false,
+    "historical_evidence_as_of": "2026-10-10T16:30:17.972Z",
+    "historical_shadow_signal": "NO_TRADE",
+    "current_saved_quote_status": "STALE_INCOMPLETE",
+    "venue_event_timestamps_available": false
   },
   "blockers": [
-    "No complete verified Binance API signal/quote set. HTTP API endpoints inaccessible; cloud browser API route returned net::ERR_BLOCKED_BY_CLIENT; shell network approval canceled with unspecified cause. Official website observations are not yet verified runner inputs. No restriction bypass or substitute quote used.",
-    "No durable hourly execution environment or remote writer enabled."
+    "No complete verified Binance API signal/quote set available to current runner.",
+    "Rendered UI is asynchronous; chart-offset mapping does not prove venue event timestamps or executable depth.",
+    "UI funding settlement history/accounting bridge not validated.",
+    "No end-to-end validated continuous account writer or trading deployment."
   ],
-  "next_step": "Publish reviewed source and recovery audit, verify remote state, then verify one permitted connected runtime before scheduling."
+  "next_steps": [
+    "Verify first scheduled public-observation run and remote readback.",
+    "Validate funding settlement coverage and one authorized data/execution bridge without relaxing the default.",
+    "Run fresh-data paper evaluation with idempotent single-writer remote persistence; do not backfill missed fills."
+  ]
 }

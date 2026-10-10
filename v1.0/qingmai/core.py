@@ -1,4 +1,4 @@
-"""Chiang Mai One v1.0 — public futures data and paper strategy engine."""
+"""CHIANGMAI1 v1.0 — public futures data and paper strategy engine."""
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 import json

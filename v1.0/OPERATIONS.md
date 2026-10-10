@@ -1,4 +1,4 @@
-# Hourly paper worker contract
+# CHIANGMAI1 hourly paper worker contract
 
 ## Minimal-permission deployment
 
