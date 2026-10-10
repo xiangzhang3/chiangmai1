@@ -83,15 +83,17 @@ def mark_equity(account, mark, now_ms):
 
 def settle_funding(account, data, now_ms):
     p = account["position"]
-    if p is None or now_ms < p["next_funding_ms"]:
+    if p is None:
+        return
+    interval = p["funding_interval_ms"]
+    if int(data["funding_interval_hours"])*3_600_000 != interval:
+        raise DataUnavailable("Funding schedule changed; reconcile before accounting")
+    if now_ms < p["next_funding_ms"]:
         return
     rows = sorted(data["funding"], key=lambda x: int(x["fundingTime"]))
     if len({int(row["fundingTime"]) for row in rows}) != len(rows):
         raise DataUnavailable("Duplicate funding settlement timestamps")
     rows = [x for x in rows if p["next_funding_ms"] <= int(x["fundingTime"]) <= now_ms]
-    interval = p["funding_interval_ms"]
-    if int(data["funding_interval_hours"])*3_600_000 != interval:
-        raise DataUnavailable("Funding schedule changed; reconcile before accounting")
     expected = list(range(p["next_funding_ms"], now_ms+1, interval))
     if [int(row["fundingTime"]) for row in rows] != expected:
         raise DataUnavailable("Settled funding history is missing; net accounting blocked")

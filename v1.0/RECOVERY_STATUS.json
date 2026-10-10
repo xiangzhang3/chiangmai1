@@ -2,7 +2,7 @@
   "as_of": "2026-10-10T16:16:37Z",
   "upstream_commit": "e81c23b2d6a05f70e1b50243612804eaae8b578f",
   "status": "LOCAL_TESTED_NOT_DEPLOYED",
-  "tests_passed": 49,
+  "tests_passed": 50,
   "fresh_market_scan": "BLOCKED",
   "new_paper_fills": 0,
   "account_status": {

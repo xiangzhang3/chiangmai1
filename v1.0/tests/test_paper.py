@@ -234,6 +234,13 @@ class PaperTests(unittest.TestCase):
         self.assertEqual(newer["accounts"],opened["accounts"])
         self.assertIn("schedule changed",report["accounts"]["KAIA-A01"]["detail"])
 
+    def test_changed_funding_schedule_before_expected_due_rollback(self):
+        opened,_=process(state(),{"KAIAUSDT":snapshot()},NOW,"one",execute=True)
+        data=snapshot(); data["funding_interval_hours"]=1
+        newer,report=process(opened,{"KAIAUSDT":data},NOW,"two",execute=True)
+        self.assertEqual(newer["accounts"],opened["accounts"])
+        self.assertIn("schedule changed",report["accounts"]["KAIA-A01"]["detail"])
+
     def test_close_before_open_rejected(self):
         opened,_=process(state(),{"KAIAUSDT":snapshot()},NOW,"one",execute=True)
         opened["accounts"]["KAIA-A01"]["position"]["opened_at_ms"]=NOW+1000
