@@ -1,0 +1,17 @@
+{
+  "as_of": "2026-10-10T16:16:37Z",
+  "upstream_commit": "e81c23b2d6a05f70e1b50243612804eaae8b578f",
+  "status": "LOCAL_TESTED_NOT_DEPLOYED",
+  "tests_passed": 49,
+  "fresh_market_scan": "BLOCKED",
+  "new_paper_fills": 0,
+  "account_status": {
+    "KAIA-A01": "Original $1000 flat checkpoint unchanged",
+    "JCT-A01": "ACCOUNT_STATE_UNVERIFIED; unknown balance; not reset"
+  },
+  "blockers": [
+    "No complete verified Binance API signal/quote set. HTTP API endpoints inaccessible; cloud browser API route returned net::ERR_BLOCKED_BY_CLIENT; shell network approval canceled with unspecified cause. Official website observations are not yet verified runner inputs. No restriction bypass or substitute quote used.",
+    "No durable hourly execution environment or remote writer enabled."
+  ],
+  "next_step": "Publish reviewed source and recovery audit, verify remote state, then verify one permitted connected runtime before scheduling."
+}

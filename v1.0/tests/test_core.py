@@ -9,11 +9,12 @@ class RadarTests(unittest.TestCase):
     def test_ignition(self): self.assertEqual(classify(4,8,6,1.2),"IGNITION")
     def test_missing_data(self): self.assertEqual(classify(1,None,6,1.2),"UNVERIFIED")
     def test_paper_profit(self):
-        a=PaperAccount("A");a.open("STRKUSDT","long",100,1);a.close(1.1)
+        a=PaperAccount("A", cash=1000);a.open("STRKUSDT","long",100,1);a.close(1.1)
         self.assertEqual(a.stats()["closed_trades"],1)
         self.assertGreater(a.stats()["net_pnl"],0)
     def test_reject_duplicate(self):
-        a=PaperAccount("A");a.open("STRKUSDT","long",100,1)
+        a=PaperAccount("A", cash=1000);a.open("STRKUSDT","long",100,1)
         with self.assertRaises(ValueError): a.open("BTCUSDT","short",1,1)
 
 if __name__ == "__main__": unittest.main()
+
