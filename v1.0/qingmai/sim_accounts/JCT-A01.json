@@ -10,8 +10,31 @@
   "funding_paid": 0,
   "position": null,
   "trades": [],
-  "last_market_snapshot": null,
-  "last_reviewed_at": null,
+  "last_market_snapshot": {
+    "reviewed_at": "2026-10-10T16:54:47.827Z",
+    "market_as_of": "2026-10-10T15:40:00Z",
+    "market_source": "https://bykaranteli.com/symbols/JCTUSDT",
+    "market_quote_reference_only": {
+      "mark_price_usdt": 0.00285919,
+      "index_price_usdt": 0.00285912,
+      "oi_1h_pct": -2,
+      "oi_4h_pct": 7.68,
+      "oi_24h_pct": -5.1,
+      "taker_buy_sell_ratio": 1.1,
+      "funding_rate_pct_per_interval": 0.0217,
+      "price_24h_pct": 8.13
+    },
+    "quote_fresh": false,
+    "quote_age_minutes": 74.8,
+    "btc_environment": "UNVERIFIED",
+    "decision": "NO_TRADE",
+    "reason": "Latest timestamped JCT quote exceeds 10-minute freshness limit; Binance API inaccessible; 1H OI not bullish.",
+    "simulated_trades_added": 0,
+    "position_notional_usdt": 0,
+    "unrealized_pnl_usdt": null,
+    "account_equity_usdt": 1000
+  },
+  "last_reviewed_at": "2026-10-10T16:54:47.827Z",
   "status": "WAITING_FOR_VERIFIED_MARKET_DATA",
   "constraints": {
     "leverage": 1,
