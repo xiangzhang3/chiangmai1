@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.1",
+  "account_id": "JCT-A01",
+  "symbol": "JCTUSDT",
+  "mode": "paper_only",
+  "currency": "USDT",
+  "initial_equity": 1000,
+  "realized_pnl": 0,
+  "fees_paid": 0,
+  "funding_paid": 0,
+  "position": null,
+  "trades": [],
+  "last_market_snapshot": null,
+  "last_reviewed_at": null,
+  "status": "WAITING_FOR_VERIFIED_MARKET_DATA",
+  "constraints": {
+    "leverage": 1,
+    "planned_initial_notional_usdt": 300,
+    "max_risk_per_trade_usdt": 10,
+    "require_fresh_quote": true,
+    "require_durable_write": true
+  },
+  "notes": "No executed paper trades are asserted. Mark-to-market PnL requires a verified timestamped price."
+}
