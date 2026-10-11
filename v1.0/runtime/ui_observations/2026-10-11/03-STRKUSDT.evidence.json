@@ -1,0 +1,91 @@
+{
+  "symbol": "STRKUSDT",
+  "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+  "observed_at": "2026-10-11T03:04:01.695Z",
+  "status": "RESEARCH_ONLY",
+  "execution_eligible": false,
+  "display_timezone": null,
+  "exchange_event_time": null,
+  "funding_rate_kind": "current_predicted",
+  "evidence_file": "03-STRKUSDT.evidence.json",
+  "limitations": [
+    "Public signed-out rendered UI; capture timestamps are not exchange event timestamps.",
+    "Displayed timezone unverified; historical endpoint UTC mapping and candle finality not independently verified.",
+    "USD OI is not quantity OI; visible depth sizes rounded."
+  ],
+  "captures": [
+    {
+      "symbol": "STRKUSDT",
+      "kind": "quote",
+      "observed_at": "2026-10-11T03:04:01.695Z",
+      "selected_symbol": "STRKUSDT",
+      "raw_display": "- heading \"STRKUSDT info tag\" [level=1]:\n  - generic: STRKUSDT\n  - generic \"info tag\":\n    - tooltip \"Perp\":\n      - generic: Perp\n- generic: \"0.11944\"\n- generic: \"0.04442\"\n- generic: +59.21%\n- generic: Mark\n- generic: \"0.11946\"\n- link \"Index\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/index?contract=STRKUSDT\n  - text: Index\n- generic: \"0.11946\"\n- generic: Funding (4h) / Countdown\n- generic: 0.00106%\n- generic: /\n- generic: 00:55:58\n- generic: 24h High\n- generic: \"0.12390\"\n- generic: 24h Low\n- generic: \"0.06896\"\n- generic: 24h Vol(STRK)\n- generic: 9,485,755,102.1\n- generic: 24h Vol(USDT)\n- generic: 927,528,886.75\n- link \"Open Interest(USDT)\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=STRKUSDT\n  - text: Open Interest(USDT)\n- generic: 54,047,904.23\n- generic: FindBorderBarSize\n- tablist:\n  - tab \"Chart\" [selected]:\n    - tab \"Chart\" [selected]:\n      - text: Chart\n  - tab \"Info\":\n    - tab \"Info\"\n  - tab \"Trading Data\":\n    - tab \"Trading Data\"\n  - tab \"Audit\":\n    - tab \"Audit\"\n- separator \"Resize\"\n- tablist:\n  - tab \"Order Book\" [selected]:\n    - tab \"Order Book\" [selected]:\n      - text: Order Book\n- separator \"Resize\"\n- tablist:\n  - tab \"Trades\" [selected]:\n    - tab \"Trades\" [selected]:\n      - text: Trades\n  - tab \"Top Movers\":\n    - tab \"Top Movers\"\n- separator \"Resize\"\n- tabpanel \"Chart\":\n  - generic: Time\n  - generic: 1s\n  - generic: 15m\n  - generic: 1H\n  - generic: 4H\n  - generic: 1D\n  - generic: 1W\n  - combobox \"Select an option\":\n  - text: Last Price\n  - generic: Original\n  - generic: Trading View\n  - generic: Depth\n  - generic: 2026/10/10 17:00\n  - generic: Open\n  - generic: \"0.10316\"\n  - generic: High\n  - generic: \"0.12390\"\n  - generic: Low\n  - generic: \"0.10029\"\n  - generic: Close\n  - generic: \"0.11944\"\n  - generic: CHANGE\n  - generic: 15.75%\n  - generic: Range\n  - generic: 22.88%\n  - generic: MA(7)\n  - generic: \"0.09025\"\n  - generic: MA(25)\n  - generic: \"0.06757\"\n  - generic: MA(99)\n  - generic: \"0.05077\"\n  - generic: Vol(STRK)\n  - generic: 2.448B\n  - generic: Vol(USDT)\n  - generic: 275.032M\n  - generic: 1.435B\n  - generic: 1.178B\n- tabpanel \"Order Book\":\n  - generic: \"0.00001\"\n  - generic: Price (USDT)\n  - generic: Size\n  - generic: (STRK)\n  - generic: Sum\n  - generic: (STRK)\n  - generic: \"0.11949\"\n  - generic: 14.26K\n  - generic: 18.00K\n  - generic: \"0.11948\"\n  - generic: 2.53K\n  - generic: 3.73K\n  - generic: \"0.11947\"\n  - generic: \"307.1\"\n  - generic: 1.20K\n  - generic: \"0.11946\"\n  - generic: \"445.0\"\n  - generic: \"893.3\"\n  - generic: \"0.11945\"\n  - generic: \"448.3\"\n  - generic: \"448.3\"\n  - generic: \"0.11944\"\n  - generic: \"0.11946\"\n  - generic: \"0.11944\"\n  - generic: 12.76K\n  - generic: 12.76K\n  - generic: \"0.11943\"\n  - generic: 15.39K\n  - generic: 28.15K\n  - generic: \"0.11942\"\n  - generic: 30.60K\n  - generic: 58.75K\n  - generic: \"0.11941\"\n  - generic: 31.17K\n  - generic: 89.93K\n  - generic: \"0.11940\"\n  - generic: 18.91K\n  - generic: 108.85K\n- tabpanel \"Trades\":\n  - generic: Price (USDT)\n  - generic: Amount\n  - generic: (STRK)\n  - generic: Time\n  - generic: \"0.11944\"\n  - generic: 63.07K\n  - generic: 20:04:01\n  - generic: \"0.11930\"\n  - generic: 180.33K\n  - generic: 20:04:00\n  - generic: \"0.11945\"\n  - generic: 162.87K\n  - generic: 20:04:00\n  - generic: \"0.11947\"\n  - generic: 47.39K\n  - generic: 20:03:59\n  - generic: \"0.11946\"\n  - generic: 46.76K\n  - generic: 20:03:59\n  - generic: \"0.11941\"\n  - generic: 10.76K\n  - generic: 20:03:58\n",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT"
+    },
+    {
+      "symbol": "STRKUSDT",
+      "kind": "oi_1h",
+      "observed_at": "2026-10-11T03:05:34.180Z",
+      "selected_symbol": "STRKUSDT",
+      "raw_display": "- generic: Open Interest\n- combobox \"Select an option\":\n  - generic: Single\n- text: 10/10 19:00\n- paragraph: \"Open Interest (STRK): 453,727,679.600\"\n- paragraph: \"Notional Value of Open Interest (USDT): 53,077,063.96\"\n",
+      "source_url": "https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=STRKUSDT"
+    },
+    {
+      "symbol": "STRKUSDT",
+      "kind": "oi_1h",
+      "observed_at": "2026-10-11T03:05:34.461Z",
+      "selected_symbol": "STRKUSDT",
+      "raw_display": "- generic: Open Interest\n- combobox \"Select an option\":\n  - generic: Single\n- text: 10/10 18:00\n- paragraph: \"Open Interest (STRK): 451,790,264.200\"\n- paragraph: \"Notional Value of Open Interest (USDT): 46,216,074.83\"\n",
+      "source_url": "https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=STRKUSDT"
+    },
+    {
+      "symbol": "STRKUSDT",
+      "kind": "taker_1h",
+      "observed_at": "2026-10-11T03:05:42.272Z",
+      "selected_symbol": "STRKUSDT",
+      "raw_display": "- generic: Taker Buy/Sell Volume\n- text: 10/10 19:00\n- paragraph: \"Taker Sell Volume (STRK): 484,250,964.900\"\n- paragraph: \"Taker Buy Volume (STRK): 522,813,381.000\"\n",
+      "source_url": "https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=STRKUSDT"
+    },
+    {
+      "symbol": "STRKUSDT",
+      "kind": "taker_1h",
+      "observed_at": "2026-10-11T03:05:42.573Z",
+      "selected_symbol": "STRKUSDT",
+      "raw_display": "- generic: Taker Buy/Sell Volume\n- text: 10/10 18:00\n- paragraph: \"Taker Sell Volume (STRK): 466,412,158.600\"\n- paragraph: \"Taker Buy Volume (STRK): 534,351,533.500\"\n",
+      "source_url": "https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=STRKUSDT"
+    },
+    {
+      "symbol": "STRKUSDT",
+      "kind": "settled_funding",
+      "observed_at": "2026-10-11T03:05:51.265Z",
+      "selected_symbol": "STRKUSDT",
+      "raw_display": "- combobox \"Select an option\":\n  - generic: STRKUSDT Perpetual\n- generic: Learn More about Funding Rate\n- link \"Trade Futures\":\n  - /url: /en/futures/STRKUSDT\n- generic: \"Funding Rate: -0.002724%\"\n- tablist:\n  - tab \"Last 7 days\" [selected]\n  - tab \"Last 14 days\"\n- tabpanel \"Last 7 days\"\n- button \"Save as CSV\":\n  - text: Save as CSV\n- generic: Funding Rate History\n- table \"Table\":\n  - rowgroup:\n    - row \"Time Funding Interval Funding Rate Mark Price\":\n      - columnheader \"Time\"\n      - columnheader \"Funding Interval\"\n      - columnheader \"Funding Rate\"\n      - columnheader \"Mark Price\":\n        - generic: Mark Price\n  - rowgroup:\n    - row \"2026-10-10 17:00:00 4h -0.002724% 0.1031860 USDT\":\n      - cell \"2026-10-10 17:00:00\"\n      - cell \"4h\"\n      - cell \"-0.002724%\"\n      - cell \"0.1031860 USDT\"\n    - row \"2026-10-10 13:00:00 4h 0.000075% 0.0995700 USDT\":\n      - cell \"2026-10-10 13:00:00\"\n      - cell \"4h\"\n      - cell \"0.000075%\"\n      - cell \"0.0995700 USDT\"\n    - row \"2026-10-10 09:00:00 4h 0.005000% 0.0934000 USDT\":\n      - cell \"2026-10-10 09:00:00\"\n      - cell \"4h\"\n      - cell \"0.005000%\"\n      - cell \"0.0934000 USDT\"\n    - row \"2026-10-10 05:00:00 4h 0.005000% 0.0710500 USDT\":\n      - cell \"2026-10-10 05:00:00\"\n      - cell \"4h\"\n      - cell \"0.005000%\"\n      - cell \"0.0710500 USDT\"\n    - row \"2026-10-10 01:00:00 4h 0.003769% 0.0712209 USDT\":\n      - cell \"2026-10-10 01:00:00\"\n      - cell \"4h\"\n      - cell \"0.003769%\"\n      - cell \"0.0712209 USDT\"\n    - row \"2026-10-09 21:00:00 4h 0.003897% 0.0738700 USDT\":\n      - cell \"2026-10-09 21:00:00\"\n      - cell \"4h\"\n      - cell \"0.003897%\"\n      - cell \"0.0738700 USDT\"\n    - row \"2026-10-09 17:00:00 4h 0.002303% 0.0730428 USDT\":\n      - cell \"2026-10-09 17:00:00\"\n      - cell \"4h\"\n      - cell \"0.002303%\"\n      - cell \"0.0730428 USDT\"\n    - row \"2026-10-09 13:00:00 4h 0.001451% 0.0708702 USDT\":\n      - cell \"2026-10-09 13:00:00\"\n      - cell \"4h\"\n      - cell \"0.001451%\"\n      - cell \"0.0708702 USDT\"\n    - row \"2026-10-09 09:00:00 4h 0.003799% 0.0752800 USDT\":\n      - cell \"2026-10-09 09:00:00\"\n      - cell \"4h\"\n      - cell \"0.003799%\"\n      - cell \"0.0752800 USDT\"\n    - row \"2026-10-09 05:00:00 4h 0.003528% 0.0724311 USDT\":\n      - cell \"2026-10-09 05:00:00\"\n      - cell \"4h\"\n      - cell \"0.003528%\"\n      - cell \"0.0724311 USDT\"\n    - row \"2026-10-09 01:00:00 4h 0.002993% 0.0711474 USDT\":\n      - cell \"2026-10-09 01:00:00\"\n      - cell \"4h\"\n      - cell \"0.002993%\"\n      - cell \"0.0711474 USDT\"\n    - row \"2026-10-08 21:00:00 4h 0.000028% 0.0670600 USDT\":\n      - cell \"2026-10-08 21:00:00\"\n      - cell \"4h\"\n      - cell \"0.000028%\"\n      - cell \"0.0670600 USDT\"\n    - row \"2026-10-08 17:00:00 4h -0.000644% 0.0555400 USDT\":\n      - cell \"2026-10-08 17:00:00\"\n      - cell \"4h\"\n      - cell \"-0.000644%\"\n      - cell \"0.0555400 USDT\"\n    - row \"2026-10-08 13:00:00 4h 0.001451% 0.0556700 USDT\":\n      - cell \"2026-10-08 13:00:00\"\n      - cell \"4h\"\n      - cell \"0.001451%\"\n      - cell \"0.0556700 USDT\"\n    - row \"2026-10-08 09:00:00 4h -0.000135% 0.0601400 USDT\":\n      - cell \"2026-10-08 09:00:00\"\n      - cell \"4h\"\n      - cell \"-0.000135%\"\n      - cell \"0.0601400 USDT\"\n    - row \"2026-10-08 05:00:00 4h 0.005000% 0.0595485 USDT\":\n      - cell \"2026-10-08 05:00:00\"\n      - cell \"4h\"\n      - cell \"0.005000%\"\n      - cell \"0.0595485 USDT\"\n    - row \"2026-10-08 01:00:00 4h -0.000024% 0.0491217 USDT\":\n      - cell \"2026-10-08 01:00:00\"\n      - cell \"4h\"\n      - cell \"-0.000024%\"\n      - cell \"0.0491217 USDT\"\n    - row \"2026-10-07 21:00:00 4h -0.000725% 0.0493928 USDT\":\n      - cell \"2026-10-07 21:00:00\"\n      - cell \"4h\"\n      - cell \"-0.000725%\"\n      - cell \"0.0493928 USDT\"\n    - row \"2026-10-07 17:00:00 4h -0.010975% 0.0490100 USDT\":\n      - cell \"2026-10-07 17:00:00\"\n      - cell \"4h\"\n      - cell \"-0.010975%\"\n      - cell \"0.0490100 USDT\"\n    - row \"2026-10-07 13:00:00 4h -0.003798% 0.0486100 USDT\":\n      - cell \"2026-10-07 13:00:00\"\n      - cell \"4h\"\n      - cell \"-0.003798%\"\n      - cell \"0.0486100 USDT\"\n- generic: \"1\"\n- generic: \"2\"\n- generic: \"3\"\n- generic: \"4\"\n- generic: \"5\"\n- generic: ...\n- generic: \"289\"\n- generic: Copyright © 2026 Binance Futures. All rights reserved.\n- generic: Cookie Preferences",
+      "source_url": "https://www.binance.com/en/futures/funding-history/perpetual/funding-fee-history"
+    },
+    {
+      "symbol": "STRKUSDT",
+      "kind": "candle_1h_prior",
+      "observed_at": "2026-10-11T03:06:18.099Z",
+      "selected_symbol": "STRKUSDT",
+      "raw_display": "Time\n1s\n15m\n1H\n4H\n1D\n1W\nLast Price\nOriginal\nTrading View\nDepth\n2026/10/10 19:00\nOpen\n0.11702\nHigh\n0.12390\nLow\n0.11331\nClose\n0.11871\nCHANGE\n1.45%\nRange\n9.05%\nMA(7)\n0.10704\nMA(25)\n0.08739\nMA(99)\n0.06588\nVol(STRK)\n1.007B\nVol(USDT)\n117.935M\n581.124M\n611.911M",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT"
+    },
+    {
+      "symbol": "STRKUSDT",
+      "kind": "candle_4h_prior",
+      "observed_at": "2026-10-11T03:06:28.610Z",
+      "selected_symbol": "STRKUSDT",
+      "raw_display": "Time\n1s\n15m\n1H\n4H\n1D\n1W\nLast Price\nOriginal\nTrading View\nDepth\n2026/10/10 13:00\nOpen\n0.09955\nHigh\n0.10821\nLow\n0.09925\nClose\n0.10318\nCHANGE\n3.62%\nRange\n8.99%\nMA(7)\n0.08362\nMA(25)\n0.06486\nMA(99)\n0.04997\nVol(STRK)\n1.668B\nVol(USDT)\n172.487M\n1.149B\n1.059B",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT"
+    }
+  ],
+  "numeric_conventions": {
+    "funding_rate": "Displayed percentage divided by 100; predicted and settled rates separate.",
+    "volume_suffixes": "K=1000,M=1000000,B/G=1000000000; displayed rounded."
+  },
+  "missing_fields": [
+    "independently_verified_exchange_event_time",
+    "verified_display_timezone",
+    "independently_verified_completed_candle_boundaries"
+  ]
+}
