@@ -1,0 +1,185 @@
+{
+  "symbol": "JCTUSDT",
+  "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+  "observed_at": "2026-10-11T05:00:11.358Z",
+  "status": "RESEARCH_ONLY",
+  "execution_eligible": false,
+  "display_timezone": null,
+  "exchange_event_time": null,
+  "captures": [
+    {
+      "symbol": "JCTUSDT",
+      "kind": "quote",
+      "observed_at": "2026-10-11T05:00:11.358Z",
+      "raw_display": "heading JCTUSDT info tag, Value: 1\n\t\t\t\t32 text JCTUSDT\n\t\t\t\t33 container info tag\n\t\t\t\t\t34 container perpetual\n\t\t\t\t\t\t35 text perpetual\n\t\t\t\t36 image\n\t\t\t37 text 0.001949\n\t\t\t38 text -0.000647\n\t\t\t39 container\n\t\t\t\t40 text -24.95 %\n\t\t\t41 container\n\t\t\t\t42 container\n\t\t\t\t\t43 text mark\n\t\t\t\t\t44 text 0.001942\n\t\t\t\t45 container\n\t\t\t\t\t46 link Description: Index, Value: binance.com/en/futures/funding-history/perpetual/index?contract=JCTUSDT\n\t\t\t\t\t47 text 0.001939\n\t\t\t\t48 container\n\t\t\t\t\t49 container\n\t\t\t\t\t\t50 text Funding  (4h)  / Countdown\n\t\t\t\t\t51 text 0.00500% /\n\t\t\t\t\t52 text 02:59:49\n\t\t\t\t53 container\n\t\t\t\t\t54 text 24h High 0.003137\n\t\t\t\t55 container\n\t\t\t\t\t56 text 24h Low 0.001536\n\t\t\t\t57 container\n\t\t\t\t\t58 text trd-ticker-volume(JCT) 37,085,849,705.00\n\t\t\t\t59 container\n\t\t\t\t\t60 text trd-ticker-transaction(USDT) 92,119,744.89\n\t\t\t\t61 container\n\t\t\t\t\t62 link Description: Open Interest(USDT), Value: binance.com/en/futures/funding-history/perpetual/trading-data?contract=JCTUSDT\n\t\t\t\t\t63 text 7,613,049.88\n\t\t\t\t64 image\n\t\t\t65 container\n\t\t\t\t66 text \ncontainer futuresOrderbook\n\t\t\t\t\t\t146 container\n\t\t\t\t\t\t\t147 text 0.000001\n\t\t\t\t\t\t\t148 image\n\t\t\t\t\t\t149 text Price (USDT)\n\t\t\t\t\t\t150 text Size ( JCT ) Sum ( JCT )\n\t\t\t\t\t\t151 container\n\t\t\t\t\t\t\t152 container\n\t\t\t\t\t\t\t\t153 text 0.001953\n\t\t\t\t\t\t\t\t154 text 798.01K 2.21M\n\t\t\t\t\t\t\t155 container\n\t\t\t\t\t\t\t\t156 text 0.001952\n\t\t\t\t\t\t\t\t157 text 649.38K 1.41M\n\t\t\t\t\t\t\t158 container\n\t\t\t\t\t\t\t\t159 text 0.001951\n\t\t\t\t\t\t\t\t160 text 312.80K 767.17K\n\t\t\t\t\t\t\t161 container\n\t\t\t\t\t\t\t\t162 text 0.001950\n\t\t\t\t\t\t\t\t163 text 350.09K 454.36K\n\t\t\t\t\t\t\t164 container\n\t\t\t\t\t\t\t\t165 text 0.001949\n\t\t\t\t\t\t\t\t166 text 104.27K 104.27K\n\t\t\t\t\t\t167 text 0.001949\n\t\t\t\t\t\t168 image\n\t\t\t\t\t\t169 text 0.001942\n\t\t\t\t\t\t170 container\n\t\t\t\t\t\t\t171 container\n\t\t\t\t\t\t\t\t172 text 0.001948\n\t\t\t\t\t\t\t\t173 text 32.78K 32.78K\n\t\t\t\t\t\t\t174 container\n\t\t\t\t\t\t\t\t175 text 0.001947\n\t\t\t\t\t\t\t\t176 text 761.01K 793.80K\n\t\t\t\t\t\t\t177 container\n\t\t\t\t\t\t\t\t178 text 0.001946\n\t\t\t\t\t\t\t\t179 text 307.07K 1.10M\n\t\t\t\t\t\t\t180 container\n\t\t\t\t\t\t\t\t181 text 0.001945\n\t\t\t\t\t\t\t\t182 text 913.03K 2.01M\n\t\t\t\t\t\t\t183 container\n\t\t\t\t\t\t\t\t184 text 0.001944\n\t\t\t\t\t\t\t\t185 text 777.86K 2.79M\n\t\t\t\t186 container Description: Trades, ID: flexlayout-tab-#714982ea-88fe-455a-b8b9-713bcc56f0f3\n\t\t\t\t\t187 container\n\t\t\t\t\t\t188 text Price (USDT) Amount ( JCT ) Time\n\t\t\t\t\t\t189 container\n\t\t\t\t\t\t\t190 container\n\t\t\t\t\t\t\t\t191 text 0.001949 56.72K 22:00:10\n\t\t\t\t\t\t\t192 container\n\t\t\t\t\t\t\t\t193 text 0.001948 12.48K 22:00:09\n\t\t\t\t\t\t\t194 container\n\t\t\t\t\t\t\t\t195 text 0.001947 93.81K 22:00:08\n\t\t\t\t\t\t\t196 container\n\t\t\t\t\t\t\t\t197 text 0.001946 1.06M 22:00:07\n\t\t\t\t\t\t\t198 container\n\t\t\t\t\t\t\t\t199 text 0.001943 20.22K 22:00:05\n\t\t\t\t\t\t\t200 container\n\t\t\t\t\t\t\t\t201 text 0.001942 105.50K 22:00:03\n\t\t\t\t202 ",
+      "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+      "selected_symbol": "JCTUSDT"
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "oi_1h",
+      "observed_at": "2026-10-11T05:00:51.088Z",
+      "raw_display": "\t\t\t\t\t\t\t\t191 text 0.001946 51.22K 22:00:47\n\t\t\t\t\t\t\t\t193 text 0.001946 88.60K 22:00:47\n\t\t\t\t\t\t\t\t195 text 0.001949 102.56K 22:00:45\n\t\t\t\t\t\t\t\t197 text 0.001948 2.56K 22:00:39\n\t\t\t\t\t\t\t\t199 text 0.001949 2.56K 22:00:37\n\t\t\t\t\t\t\t\t201 text 0.001947 4.22K 22:00:37\n\t\t\t\t\t\t282 combo box (collapsed) Description: Select an option, Value: 1futures-trade-unit-hour, Secondary Actions: Expand\n\t\t\t\t\t\t\t\t318 text 10/10 22:00 futures-trade-sumOpenInterest (JCT): 3,926,968,862.000 futures-trade-sumOpenInterestVal (USDT): 7,624,720.55",
+      "screenshot_read": {
+        "label": "10/10 22:00",
+        "quantity": 3926968862,
+        "unit": "JCT",
+        "notional_usdt": 7624720.55
+      },
+      "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+      "selected_symbol": "JCTUSDT"
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "oi_1h",
+      "observed_at": "2026-10-11T05:00:58.384Z",
+      "raw_display": "\t\t\t\t\t\t282 combo box (collapsed) Description: Select an option, Value: 1futures-trade-unit-hour, Secondary Actions: Expand\n\t\t\t\t\t\t\t\t318 text 10/10 21:00 futures-trade-sumOpenInterest (JCT): 3,961,224,251.000 futures-trade-sumOpenInterestVal (USDT): 7,412,599.32",
+      "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+      "selected_symbol": "JCTUSDT"
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "candle_4h_prior",
+      "observed_at": "2026-10-11T05:03:50.269Z",
+      "raw_display": "\t\t\t\t\t\t\t\t308 text 2026/10/10 17:00 Open 0.001839 High 0.002021 Low 0.001826 Close 0.001871 CHANGE 1.79% AMPLITUDE 10.60%\n\t\t\t\t\t\t\t\t307 text Vol(JCT) 3.738B Vol(USDT) 7.209M 5.894B 7.443B",
+      "finality": "prior_visible_bar;UTC boundary unverified",
+      "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+      "selected_symbol": "JCTUSDT"
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "candle_1h_prior",
+      "observed_at": "2026-10-11T05:04:00.306Z",
+      "raw_display": "\t\t\t\t\t\t\t\t\t309 text 2026/10/10 21:00 Open 0.001873 High 0.001994 Low 0.001835 Close 0.001944 CHANGE 3.90% AMPLITUDE 8.49%\n\t\t\t\t\t\t\t\t\t308 text Vol(JCT) 739.028M Vol(USDT) 1.422M 963.845M 1.54B",
+      "finality": "prior_visible_bar;UTC boundary unverified",
+      "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+      "selected_symbol": "JCTUSDT"
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "candle_1h_baseline",
+      "observed_at": "2026-10-11T05:04:09.066Z",
+      "raw_display": "\t\t\t\t\t\t\t\t\t309 text 2026/10/10 20:00 Open 0.001943 High 0.001975 Low 0.001869 Close 0.001871 CHANGE -3.75% AMPLITUDE 5.45%\n\t\t\t\t\t\t\t\t\t308 text Vol(JCT) 476.403M Vol(USDT) 912.17K 1.366B 1.569B",
+      "finality": "prior_visible_bar;UTC boundary unverified",
+      "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+      "selected_symbol": "JCTUSDT"
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "candle_1h_baseline",
+      "observed_at": "2026-10-11T05:04:09.297Z",
+      "raw_display": "\t\t\t\t\t\t\t\t\t309 text 2026/10/10 19:00 Open 0.001961 High 0.002013 Low 0.001910 Close 0.001944 CHANGE -0.86% AMPLITUDE 5.25%\n\t\t\t\t\t\t\t\t\t308 text Vol(JCT) 850.55M Vol(USDT) 1.67M 2.182B 1.648B",
+      "finality": "prior_visible_bar;UTC boundary unverified",
+      "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+      "selected_symbol": "JCTUSDT"
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "candle_1h_baseline",
+      "observed_at": "2026-10-11T05:04:09.521Z",
+      "raw_display": "\t\t\t\t\t\t\t\t\t309 text 2026/10/10 18:00 Open 0.001890 High 0.001974 Low 0.001859 Close 0.001961 CHANGE 3.81% AMPLITUDE 6.08%\n\t\t\t\t\t\t\t\t\t308 text Vol(JCT) 815.287M Vol(USDT) 1.566M 2.261B 1.677B",
+      "finality": "prior_visible_bar;UTC boundary unverified",
+      "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+      "selected_symbol": "JCTUSDT"
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "candle_1h_baseline",
+      "observed_at": "2026-10-11T05:04:09.736Z",
+      "raw_display": "\t\t\t\t\t\t\t\t\t309 text 2026/10/10 17:00 Open 0.001839 High 0.002021 Low 0.001826 Close 0.001889 CHANGE 2.77% AMPLITUDE 10.60%\n\t\t\t\t\t\t\t\t\t308 text Vol(JCT) 1.596B Vol(USDT) 3.06M 2.268B 1.74B",
+      "finality": "prior_visible_bar;UTC boundary unverified",
+      "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+      "selected_symbol": "JCTUSDT"
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "candle_1h_baseline",
+      "observed_at": "2026-10-11T05:04:09.965Z",
+      "raw_display": "\t\t\t\t\t\t\t\t\t309 text 2026/10/10 16:00 Open 0.001826 High 0.001887 Low 0.001801 Close 0.001838 CHANGE 0.71% AMPLITUDE 4.71%\n\t\t\t\t\t\t\t\t\t308 text Vol(JCT) 868.623M Vol(USDT) 1.597M 2.151B 1.739B",
+      "finality": "prior_visible_bar;UTC boundary unverified",
+      "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+      "selected_symbol": "JCTUSDT"
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "candle_1h_baseline",
+      "observed_at": "2026-10-11T05:04:10.177Z",
+      "raw_display": "\t\t\t\t\t\t\t\t\t309 text 2026/10/10 15:00 Open 0.001795 High 0.001840 Low 0.001720 Close 0.001825 CHANGE 1.72% AMPLITUDE 6.68%\n\t\t\t\t\t\t\t\t\t308 text Vol(JCT) 1.4B Vol(USDT) 2.505M 2.213B 1.921B",
+      "finality": "prior_visible_bar;UTC boundary unverified",
+      "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+      "selected_symbol": "JCTUSDT"
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "quote_recheck",
+      "observed_at": "2026-10-11T05:04:19.848Z",
+      "raw_display": "heading JCTUSDT info tag, Value: 1\n\t\t\t\t32 text JCTUSDT\n\t\t\t\t33 container info tag\n\t\t\t\t\t34 container perpetual\n\t\t\t\t\t\t35 text perpetual\n\t\t\t\t36 image\n\t\t\t37 text 0.001959\n\t\t\t38 text -0.000636\n\t\t\t39 container\n\t\t\t\t40 text -24.50 %\n\t\t\t41 container\n\t\t\t\t42 container\n\t\t\t\t\t43 text mark\n\t\t\t\t\t44 text 0.001959\n\t\t\t\t45 container\n\t\t\t\t\t46 link Description: Index, Value: binance.com/en/futures/funding-history/perpetual/index?contract=JCTUSDT\n\t\t\t\t\t47 text 0.001957\n\t\t\t\t48 container\n\t\t\t\t\t49 container\n\t\t\t\t\t\t50 text Funding  (4h)  / Countdown\n\t\t\t\t\t51 text 0.00500% /\n\t\t\t\t\t52 text 02:55:40\n\t\t\t\t53 container\n\t\t\t\t\t54 text 24h High 0.003137\n\t\t\t\t55 container\n\t\t\t\t\t56 text 24h Low 0.001536\n\t\t\t\t57 container\n\t\t\t\t\t58 text trd-ticker-volume(JCT) 37,099,057,583.00\n\t\t\t\t59 container\n\t\t\t\t\t60 text trd-ticker-transaction(USDT) 92,136,658.12\n\t\t\t\t61 container\n\t\t\t\t\t62 link Description: Open Interest(USDT), Value: binance.com/en/futures/funding-history/perpetual/trading-data?contract=JCTUSDT\n\t\t\t\t\t63 text 7,678,628.06\n\t\t\t\t64 image\n\t\t\t65 container\n\t\t\t\t66 text \ncontainer futuresOrderbook\n\t\t\t\t\t\t146 container\n\t\t\t\t\t\t\t147 text 0.000001\n\t\t\t\t\t\t\t148 image\n\t\t\t\t\t\t149 text Price (USDT)\n\t\t\t\t\t\t150 text Size ( JCT ) Sum ( JCT )\n\t\t\t\t\t\t151 container\n\t\t\t\t\t\t\t152 container\n\t\t\t\t\t\t\t\t153 text 0.001965\n\t\t\t\t\t\t\t\t154 text 654.81K 1.62M\n\t\t\t\t\t\t\t155 container\n\t\t\t\t\t\t\t\t156 text 0.001964\n\t\t\t\t\t\t\t\t157 text 473.19K 965.71K\n\t\t\t\t\t\t\t158 container\n\t\t\t\t\t\t\t\t159 text 0.001963\n\t\t\t\t\t\t\t\t160 text 234.98K 492.52K\n\t\t\t\t\t\t\t161 container\n\t\t\t\t\t\t\t\t162 text 0.001962\n\t\t\t\t\t\t\t\t163 text 205.72K 257.53K\n\t\t\t\t\t\t\t164 container\n\t\t\t\t\t\t\t\t165 text 0.001961\n\t\t\t\t\t\t\t\t166 text 51.81K 51.81K\n\t\t\t\t\t\t167 text 0.001959\n\t\t\t\t\t\t168 image\n\t\t\t\t\t\t169 text 0.001959\n\t\t\t\t\t\t170 container\n\t\t\t\t\t\t\t171 container\n\t\t\t\t\t\t\t\t172 text 0.001959\n\t\t\t\t\t\t\t\t173 text 366.32K 366.32K\n\t\t\t\t\t\t\t174 container\n\t\t\t\t\t\t\t\t175 text 0.001958\n\t\t\t\t\t\t\t\t176 text 443.95K 810.27K\n\t\t\t\t\t\t\t177 container\n\t\t\t\t\t\t\t\t178 text 0.001957\n\t\t\t\t\t\t\t\t179 text 310.18K 1.12M\n\t\t\t\t\t\t\t180 container\n\t\t\t\t\t\t\t\t181 text 0.001956\n\t\t\t\t\t\t\t\t182 text 483.07K 1.60M\n\t\t\t\t\t\t\t183 container\n\t\t\t\t\t\t\t\t184 text 0.001955\n\t\t\t\t\t\t\t\t185 text 561.74K 2.16M\n\t\t\t\t186 container Description: Trades, ID: flexlayout-tab-#714982ea-88fe-455a-b8b9-713bcc56f0f3\n\t\t\t\t\t187 container\n\t\t\t\t\t\t188 text Price (USDT) Amount ( JCT ) Time\n\t\t\t\t\t\t189 container\n\t\t\t\t\t\t\t190 container\n\t\t\t\t\t\t\t\t191 text 0.001959 7.32K 22:04:18\n\t\t\t\t\t\t\t192 container\n\t\t\t\t\t\t\t\t193 text 0.001960 168.55K 22:04:16\n\t\t\t\t\t\t\t194 container\n\t\t\t\t\t\t\t\t195 text 0.001962 18.53K 22:04:14\n\t\t\t\t\t\t\t196 container\n\t\t\t\t\t\t\t\t197 text 0.001960 32.03K 22:04:12\n\t\t\t\t\t\t\t198 container\n\t\t\t\t\t\t\t\t199 text 0.001961 11.34K 22:04:11\n\t\t\t\t\t\t\t200 container\n\t\t\t\t\t\t\t\t201 text 0.001961 561.27K 22:04:10\n\t\t\t\t202 ",
+      "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+      "selected_symbol": "JCTUSDT"
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "taker_1h",
+      "observed_at": "2026-10-11T05:05:02.357Z",
+      "raw_display": "\t\t\t\t\t\t302 combo box (collapsed) Description: Select an option, Value: 1futures-trade-unit-hour, Secondary Actions: Expand\n\t\t\t\t\t\t\t\t319 text 10/10 21:00 futures-trade-sellVol (JCT): 378,822,378.000 futures-trade-buyVol (JCT): 360,108,080.000",
+      "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+      "selected_symbol": "JCTUSDT"
+    }
+  ],
+  "numeric_conventions": {
+    "funding": "display percent divided by100; current predicted funding is not settled funding",
+    "K": 1000,
+    "M": 1000000,
+    "B": 1000000000,
+    "depth": "UI-rounded asynchronous fields"
+  },
+  "missing_fields": [
+    "verified_display_timezone",
+    "exchange_event_time",
+    "independently_verified_completed_candle_boundaries",
+    "settled_funding_history_this_run"
+  ],
+  "oi_quantity_timeline": {
+    "previous_raw_label": "10/10 21:00",
+    "current_raw_label": "10/10 22:00",
+    "previous_quantity": 3961224251,
+    "current_quantity": 3926968862,
+    "delta_quantity": -34255389,
+    "delta_percent": -0.8647677291017342,
+    "unit": "JCT",
+    "interval_selector": "1h",
+    "endpoint_advanced_since_previous_run": true,
+    "stale_endpoint": false,
+    "timezone_verified": false,
+    "beijing_event_hour": null,
+    "capture_times_utc": [
+      "2026-10-11T05:00:51.088Z",
+      "2026-10-11T05:00:58.384Z"
+    ],
+    "interpretation": "adjacent chart-label endpoints; do not assert exact UTC or Beijing event boundaries or infer long/short positioning"
+  },
+  "alert_evaluation": {
+    "new_verified_alert": false,
+    "oi_abs_percent": 0.8647677291017342,
+    "oi_threshold_percent": 5,
+    "quote_recheck_mark": 0.001959,
+    "quote_recheck_utc": "2026-10-11T05:04:19.848Z",
+    "previous_run_mark": 0.001885,
+    "previous_run_observed_at": "2026-10-11T04:04:32Z",
+    "mark_snapshot_change_percent": 3.9257294429708045,
+    "price_threshold_percent": 10,
+    "raw_21h_volume_jct": 739028000,
+    "preceding_six_visible_bar_volume_jct": [
+      476403000,
+      850550000,
+      815287000,
+      1596000000,
+      868623000,
+      1400000000
+    ],
+    "descriptive_volume_ratio": 0.7381836409453653,
+    "volume_window_status": "UI 1h prior bars; UTC finality boundaries unverified; ratio descriptive only, below2x",
+    "notification": "none; no verified threshold trigger"
+  },
+  "partial_collection_note": "Current quote/book and hourly OI read for all three symbols; prior 1h/4h candles sampled. Settled funding history and STRK/KAIA taker volume not collected in this pass; missing, not zero or reused."
+}
