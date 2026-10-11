@@ -1,0 +1,76 @@
+{
+  "symbol": "KAIAUSDT",
+  "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+  "observed_at": "2026-10-11T01:03:47.914Z",
+  "status": "RESEARCH_ONLY",
+  "execution_eligible": false,
+  "captures": [
+    {
+      "kind": "quote",
+      "observed_at": "2026-10-11T01:03:47.914Z",
+      "dom": "- heading \"KAIAUSDT info tag\" [level=1]:\n  - generic: KAIAUSDT\n  - generic \"info tag\":\n    - tooltip \"Perp\":\n      - generic: Perp\n- generic: \"0.05394\"\n- generic: \"-0.00499\"\n- generic: \"-8.48%\"\n- generic: Mark\n- generic: \"0.05400\"\n- link \"Index\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/index?contract=KAIAUSDT\n  - text: Index\n- generic: \"0.05433\"\n- generic: Funding (1h) / Countdown\n- generic: \"-0.08159%\"\n- generic: /\n- generic: 00:56:12\n- generic: 24h High\n- generic: \"0.06165\"\n- generic: 24h Low\n- generic: \"0.05373\"\n- generic: 24h Vol(KAIA)\n- generic: 3,427,374,533.00\n- generic: 24h Vol(USDT)\n- generic: 195,361,117.04\n- link \"Open Interest(USDT)\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=KAIAUSDT\n  - text: Open Interest(USDT)\n- generic: 11,365,801.18\n- generic: FindBorderBarSize\n- tablist:\n  - tab \"Chart\" [selected]:\n    - tab \"Chart\" [selected]:\n      - text: Chart\n  - tab \"Info\":\n    - tab \"Info\"\n  - tab \"Trading Data\":\n    - tab \"Trading Data\"\n- separator \"Resize\"\n- tablist:\n  - tab \"Order Book\" [selected]:\n    - tab \"Order Book\" [selected]:\n      - text: Order Book\n- separator \"Resize\"\n- tablist:\n  - tab \"Trades\" [selected]:\n    - tab \"Trades\" [selected]:\n      - text: Trades\n  - tab \"Top Movers\":\n    - tab \"Top Movers\"\n- separator \"Resize\"\n- tabpanel \"Chart\":\n  - generic: Time\n  - generic: 1s\n  - generic: 15m\n  - generic: 1H\n  - generic: 4H\n  - generic: 1D\n  - generic: 1W\n  - combobox \"Select an option\":\n  - text: Last Price\n  - generic: Original\n  - generic: Trading View\n  - generic: Depth\n  - generic: 2026/10/10 17:00\n  - generic: Open\n  - generic: \"0.05612\"\n  - generic: High\n  - generic: \"0.05658\"\n  - generic: Low\n  - generic: \"0.05373\"\n  - generic: Close\n  - generic: \"0.05394\"\n  - generic: CHANGE\n  - generic: \"-3.88%\"\n  - generic: Range\n  - generic: 5.07%\n  - generic: MA(7)\n  - generic: \"0.05569\"\n  - generic: MA(25)\n  - generic: \"0.04557\"\n  - generic: MA(99)\n  - generic: \"0.03848\"\n  - generic: Vol(KAIA)\n  - generic: 115.149M\n  - generic: Vol(USDT)\n  - generic: 6.322M\n  - generic: 576.588M\n  - generic: 886.396M\n- tabpanel \"Order Book\":\n  - generic: \"0.00001\"\n  - generic: Price (USDT)\n  - generic: Size\n  - generic: (KAIA)\n  - generic: Sum\n  - generic: (KAIA)\n  - generic: \"0.05399\"\n  - generic: 46.83K\n  - generic: 171.51K\n  - generic: \"0.05398\"\n  - generic: 65.41K\n  - generic: 124.67K\n  - generic: \"0.05397\"\n  - generic: 26.76K\n  - generic: 59.25K\n  - generic: \"0.05396\"\n  - generic: 14.71K\n  - generic: 32.49K\n  - generic: \"0.05395\"\n  - generic: 17.77K\n  - generic: 17.77K\n  - generic: \"0.05394\"\n  - generic: \"0.05400\"\n  - generic: \"0.05394\"\n  - generic: \"663\"\n  - generic: \"663\"\n  - generic: \"0.05393\"\n  - generic: 8.52K\n  - generic: 9.18K\n  - generic: \"0.05392\"\n  - generic: 31.23K\n  - generic: 40.42K\n  - generic: \"0.05391\"\n  - generic: 29.93K\n  - generic: 70.36K\n  - generic: \"0.05390\"\n  - generic: 59.59K\n  - generic: 129.96K\n- tabpanel \"Trades\":\n  - generic: Price (USDT)\n  - generic: Amount\n  - generic: (KAIA)\n  - generic: Time\n  - generic: \"0.05394\"\n  - generic: 39.06K\n  - generic: 18:03:46\n  - generic: \"0.05396\"\n  - generic: 2.01K\n  - generic: 18:03:45\n  - generic: \"0.05395\"\n  - generic: 1.10K\n  - generic: 18:03:44\n  - generic: \"0.05396\"\n  - generic: 119.16K\n  - generic: 18:03:43\n  - generic: \"0.05398\"\n  - generic: \"503\"\n  - generic: 18:03:39\n  - generic: \"0.05397\"\n  - generic: 8.85K\n  - generic: 18:03:39\n"
+    },
+    {
+      "kind": "candle_4h",
+      "observed_at": "2026-10-11T01:03:55.737Z",
+      "dom": "Time\n1s\n15m\n1H\n4H\n1D\n1W\nLast Price\nOriginal\nTrading View\nDepth\n2026/10/10 17:00\nOpen\n0.05612\nHigh\n0.05658\nLow\n0.05373\nClose\n0.05399\nCHANGE\n-3.79%\nRange\n5.07%\nMA(7)\n0.05569\nMA(25)\n0.04557\nMA(99)\n0.03848\nVol(KAIA)\n115.306M\nVol(USDT)\n6.33M\n576.611M\n886.407M"
+    },
+    {
+      "kind": "candle_1h",
+      "observed_at": "2026-10-11T01:04:09.270Z",
+      "dom": "Time\n1s\n15m\n1H\n4H\n1D\n1W\nLast Price\nOriginal\nTrading View\nDepth\n2026/10/10 17:00\nOpen\n0.05612\nHigh\n0.05658\nLow\n0.05403\nClose\n0.05426\nCHANGE\n-3.31%\nRange\n4.54%\nMA(7)\n0.05597\nMA(25)\n0.05654\nMA(99)\n0.04526\nVol(KAIA)\n103.329M\nVol(USDT)\n5.684M\n45.657M\n60.856M"
+    },
+    {
+      "kind": "candle_4h_historical",
+      "observed_at": "2026-10-11T01:04:20.121Z",
+      "dom": "Time\n1s\n15m\n1H\n4H\n1D\n1W\nLast Price\nOriginal\nTrading View\nDepth\n2026/10/10 13:00\nOpen\n0.05566\nHigh\n0.05746\nLow\n0.05561\nClose\n0.05612\nCHANGE\n0.79%\nRange\n3.32%\nMA(7)\n0.05649\nMA(25)\n0.04499\nMA(99)\n0.03827\nVol(KAIA)\n129.828M\nVol(USDT)\n7.315M\n715.93M\n879.407M"
+    },
+    {
+      "kind": "oi_1h",
+      "observed_at": "2026-10-11T01:04:57.866Z",
+      "dom": "Open Interest\n1h\nSingle\nOpen Interest (KAIA)\nNotional Value of Op...\n18:00\n00:00\n06:00\n12:00\n18:00\n210M\n230M\n250M\n10.8M\n13.2M\n15.6M\n10/10 17:00\n\nOpen Interest (KAIA): 214,072,595.000\n\nNotional Value of Open Interest (USDT):\n\n12,013,741.18\n\nTop Trader Long/Short Ratio (Accounts)\n5m\nLong/Short Ratio (Accounts)\n16:00\n16:30\n17:00\n17:30\n18:00\n1.24\n1.27\n1.29\nTop Trader Long/Short Ratio (Positions)\n5m\nLong/Short Ratio (Positions)\n16:00\n16:30\n17:00\n17:30\n18:00\n1.16\n1.18\n1.20\nLong/Short Ratio\n5m\nLong/Short Ratio\n16:00\n16:30\n17:00\n17:30\n18:00\n1.26\n1.30\n1.34\nTaker Buy/Sell Volume\n5m\nTaker Sell Volume (KAIA)\nTaker Buy Volume (KAIA)\n15:30\n16:00\n16:30\n17:00\n17:30\n0.000\n6,000,000.000\n12,000,000.000\nBasis\n5m\nFutures Price\nPrice Index\nBasis\n15:30\n16:00\n16:30\n17:00\n17:30\n0.0540000\n0.0560000\n0.0580000\n-0.0008000\n-0.0004000\n0.0000000\nFunding Rate: -0.083072%\nLast 40 Times\n10/9\n10/9\n10/9\n10/10\n10/10\n10/10\n-2.4%\n-0.8%\n0.8%\nOpen Interest to Market Cap Ratio\n5m\nPrice\nRatio\n16:00\n16:30\n17:00\n17:30\n18:00\n0.0536\n0.0552\n0.0568\n3.250%\n3.300%\n3.350%"
+    },
+    {
+      "kind": "oi_1h",
+      "observed_at": "2026-10-11T01:04:58.095Z",
+      "dom": "Open Interest\n1h\nSingle\nOpen Interest (KAIA)\nNotional Value of Op...\n18:00\n00:00\n06:00\n12:00\n18:00\n210M\n230M\n250M\n10.8M\n13.2M\n15.6M\n10/10 18:00\n\nOpen Interest (KAIA): 212,900,895.000\n\nNotional Value of Open Interest (USDT):\n\n11,549,873.55\n\nTop Trader Long/Short Ratio (Accounts)\n5m\nLong/Short Ratio (Accounts)\n16:00\n16:30\n17:00\n17:30\n18:00\n1.24\n1.27\n1.29\nTop Trader Long/Short Ratio (Positions)\n5m\nLong/Short Ratio (Positions)\n16:00\n16:30\n17:00\n17:30\n18:00\n1.16\n1.18\n1.20\nLong/Short Ratio\n5m\nLong/Short Ratio\n16:00\n16:30\n17:00\n17:30\n18:00\n1.26\n1.30\n1.34\nTaker Buy/Sell Volume\n5m\nTaker Sell Volume (KAIA)\nTaker Buy Volume (KAIA)\n15:30\n16:00\n16:30\n17:00\n17:30\n0.000\n6,000,000.000\n12,000,000.000\nBasis\n5m\nFutures Price\nPrice Index\nBasis\n15:30\n16:00\n16:30\n17:00\n17:30\n0.0540000\n0.0560000\n0.0580000\n-0.0008000\n-0.0004000\n0.0000000\nFunding Rate: -0.083072%\nLast 40 Times\n10/9\n10/9\n10/9\n10/10\n10/10\n10/10\n-2.4%\n-0.8%\n0.8%\nOpen Interest to Market Cap Ratio\n5m\nPrice\nRatio\n16:00\n16:30\n17:00\n17:30\n18:00\n0.0536\n0.0552\n0.0568\n3.250%\n3.300%\n3.350%"
+    },
+    {
+      "kind": "taker_1h",
+      "observed_at": "2026-10-11T01:05:21.938Z",
+      "dom": "Open Interest\n1h\nSingle\nOpen Interest (KAIA)\nNotional Value of Op...\n18:00\n00:00\n06:00\n12:00\n18:00\n210M\n230M\n250M\n10.8M\n13.2M\n15.6M\nTop Trader Long/Short Ratio (Accounts)\n5m\nLong/Short Ratio (Accounts)\n16:00\n16:30\n17:00\n17:30\n18:00\n1.24\n1.27\n1.29\nTop Trader Long/Short Ratio (Positions)\n5m\nLong/Short Ratio (Positions)\n16:00\n16:30\n17:00\n17:30\n18:00\n1.16\n1.18\n1.20\nLong/Short Ratio\n5m\nLong/Short Ratio\n16:00\n16:30\n17:00\n17:30\n18:00\n1.26\n1.30\n1.34\nTaker Buy/Sell Volume\n1h\nTaker Sell Volume (KAIA)\nTaker Buy Volume (KAIA)\n12:00\n18:00\n00:00\n06:00\n12:00\n0.000\n160,000,000.000\n320,000,000.000\n10/10 17:00\n\nTaker Sell Volume (KAIA): 57,052,458.000\n\nTaker Buy Volume (KAIA): 46,276,835.000\n\nBasis\n5m\nFutures Price\nPrice Index\nBasis\n15:30\n16:00\n16:30\n17:00\n17:30\n0.0540000\n0.0560000\n0.0580000\n-0.0008000\n-0.0004000\n0.0000000\nFunding Rate: -0.083072%\nLast 40 Times\n10/9\n10/9\n10/9\n10/10\n10/10\n10/10\n-2.4%\n-0.8%\n0.8%\nOpen Interest to Market Cap Ratio\n5m\nPrice\nRatio\n16:00\n16:30\n17:00\n17:30\n18:00\n0.0536\n0.0552\n0.0568\n3.250%\n3.300%\n3.350%"
+    },
+    {
+      "kind": "taker_1h",
+      "observed_at": "2026-10-11T01:05:22.244Z",
+      "dom": "Open Interest\n1h\nSingle\nOpen Interest (KAIA)\nNotional Value of Op...\n18:00\n00:00\n06:00\n12:00\n18:00\n210M\n230M\n250M\n10.8M\n13.2M\n15.6M\nTop Trader Long/Short Ratio (Accounts)\n5m\nLong/Short Ratio (Accounts)\n16:00\n16:30\n17:00\n17:30\n18:00\n1.24\n1.27\n1.29\nTop Trader Long/Short Ratio (Positions)\n5m\nLong/Short Ratio (Positions)\n16:00\n16:30\n17:00\n17:30\n18:00\n1.16\n1.18\n1.20\nLong/Short Ratio\n5m\nLong/Short Ratio\n16:00\n16:30\n17:00\n17:30\n18:00\n1.26\n1.30\n1.34\nTaker Buy/Sell Volume\n1h\nTaker Sell Volume (KAIA)\nTaker Buy Volume (KAIA)\n12:00\n18:00\n00:00\n06:00\n12:00\n0.000\n160,000,000.000\n320,000,000.000\n10/10 16:00\n\nTaker Sell Volume (KAIA): 20,846,733.000\n\nTaker Buy Volume (KAIA): 15,351,288.000\n\nBasis\n5m\nFutures Price\nPrice Index\nBasis\n15:30\n16:00\n16:30\n17:00\n17:30\n0.0540000\n0.0560000\n0.0580000\n-0.0008000\n-0.0004000\n0.0000000\nFunding Rate: -0.083072%\nLast 40 Times\n10/9\n10/9\n10/9\n10/10\n10/10\n10/10\n-2.4%\n-0.8%\n0.8%\nOpen Interest to Market Cap Ratio\n5m\nPrice\nRatio\n16:00\n16:30\n17:00\n17:30\n18:00\n0.0536\n0.0552\n0.0568\n3.250%\n3.300%\n3.350%"
+    },
+    {
+      "kind": "settled_funding",
+      "observed_at": "2026-10-11T01:07:34.180Z",
+      "source_url": "https://www.binance.com/en/futures/funding-history/perpetual/funding-fee-history",
+      "dom": "KAIAUSDT Perpetual\nTime\tFunding Interval\tFunding Rate\t\nMark Price\n\n2026-10-10 18:00:00\t1h\t-0.083072%\t0.0542600 USDT\n2026-10-10 17:00:00\t1h\t-0.086435%\t0.0561199 USDT\n2026-10-10 16:00:00\t1h\t-0.057911%\t0.0562369 USDT\n2026-10-10 15:00:00\t1h\t-0.042357%\t0.0570200 USDT\n2026-10-10 14:00:00\t1h\t-0.030355%\t0.0560274 USDT\n2026-10-10 13:00:00\t1h\t-0.032080%\t0.0556800 USDT\n2026-10-10 12:00:00\t1h\t-0.043064%\t0.0565200 USDT\n2026-10-10 11:00:00\t1h\t-0.045704%\t0.0563000 USDT\n2026-10-10 10:00:00\t1h\t-0.061808%\t0.0554219 USDT\n2026-10-10 09:00:00\t1h\t-0.059059%\t0.0560616 USDT\n2026-10-10 08:00:00\t1h\t-0.074554%\t0.0558600 USDT\n2026-10-10 07:00:00\t1h\t-0.091516%\t0.0562700 USDT\n2026-10-10 06:00:00\t1h\t-0.142367%\t0.0552830 USDT\n2026-10-10 05:00:00\t1h\t-0.136210%\t0.0556779 USDT\n2026-10-10 04:00:00\t1h\t-0.220859%\t0.0551300 USDT\n2026-10-10 03:00:00\t1h\t-0.240927%\t0.0551400 USDT\n2026-10-10 02:00:00\t1h\t-0.268167%\t0.0562800 USDT\n2026-10-10 01:00:00\t1h\t-0.329482%\t0.0557162 USDT\n2026-10-10 00:00:00\t1h\t-0.214105%\t0.0575100 USDT\n2026-10-09 23:00:00\t1h\t-0.229301%\t0.0568400 USDT"
+    }
+  ],
+  "display_timezone": null,
+  "exchange_event_time": null,
+  "limitations": [
+    "Public signed-out rendered UI only. Three symbols are not full-market coverage.",
+    "Observation times are capture times, not venue event timestamps; display timezone and candle finality/boundary semantics remain unverified.",
+    "Historical hourly labels and quantity units are preserved; no exact UTC hourly movement inferred.",
+    "Current predicted funding in quote differs from settled funding history.",
+    "Rounded K/M/B depth and candle volumes are not exact unrounded quantities.",
+    "KAIA first candle_4h capture is developing; candle_4h_historical is separately preserved.",
+    "No account state, trade execution or trading eligibility inferred."
+  ],
+  "missing_fields": [
+    "verified_display_timezone",
+    "verified_exchange_event_timestamps",
+    "independently_verified_candle_finality",
+    "full_order_book_depth"
+  ],
+  "numeric_conventions": {
+    "funding_percent_to_decimal": "Divide displayed percentage by 100.",
+    "suffixes": "K=1000; M=1000000; B=1000000000; values rounded."
+  }
+}
