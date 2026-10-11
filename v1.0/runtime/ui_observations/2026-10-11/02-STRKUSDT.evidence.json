@@ -1,0 +1,86 @@
+{
+  "symbol": "STRKUSDT",
+  "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+  "observed_at": "2026-10-11T02:04:59.583Z",
+  "status": "RESEARCH_ONLY",
+  "execution_eligible": false,
+  "captures": [
+    {
+      "kind": "quote",
+      "observed_at": "2026-10-11T02:04:59.583Z",
+      "dom": "STRKUSDT\nPerp\n0.11533\n0.04072\n+54.57%\nMark\n0.11543\nIndex\n0.11545\nFunding (4h) / Countdown\n0.00242%\n/\n01:55:01\n24h High\n0.11932\n24h Low\n0.06896\n24h Vol(STRK)\n8,688,262,937.0\n24h Vol(USDT)\n828,769,738.54\nOpen Interest(USDT)\n51,919,043.60\n",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+      "selected_symbol": "STRKUSDT"
+    },
+    {
+      "kind": "settled_funding",
+      "observed_at": "2026-10-11T02:05:18.541Z",
+      "source_url": "https://www.binance.com/en/futures/funding-history/perpetual/funding-fee-history",
+      "dom": "STRKUSDT Perpetual\nTime\tFunding Interval\tFunding Rate\t\nMark Price\n\n2026-10-10 17:00:00\t4h\t-0.002724%\t0.1031860 USDT\n2026-10-10 13:00:00\t4h\t0.000075%\t0.0995700 USDT\n2026-10-10 09:00:00\t4h\t0.005000%\t0.0934000 USDT\n2026-10-10 05:00:00\t4h\t0.005000%\t0.0710500 USDT\n2026-10-10 01:00:00\t4h\t0.003769%\t0.0712209 USDT\n2026-10-09 21:00:00\t4h\t0.003897%\t0.0738700 USDT\n2026-10-09 17:00:00\t4h\t0.002303%\t0.0730428 USDT\n2026-10-09 13:00:00\t4h\t0.001451%\t0.0708702 USDT\n2026-10-09 09:00:00\t4h\t0.003799%\t0.0752800 USDT\n2026-10-09 05:00:00\t4h\t0.003528%\t0.0724311 USDT\n2026-10-09 01:00:00\t4h\t0.002993%\t0.0711474 USDT\n2026-10-08 21:00:00\t4h\t0.000028%\t0.0670600 USDT\n2026-10-08 17:00:00\t4h\t-0.000644%\t0.0555400 USDT\n2026-10-08 13:00:00\t4h\t0.001451%\t0.0556700 USDT\n2026-10-08 09:00:00\t4h\t-0.000135%\t0.0601400 USDT\n2026-10-08 05:00:00\t4h\t0.005000%\t0.0595485 USDT\n2026-10-08 01:00:00\t4h\t-0.000024%\t0.0491217 USDT\n2026-10-07 21:00:00\t4h\t-0.000725%\t0.0493928 USDT\n2026-10-07 17:00:00\t4h\t-0.010975%\t0.0490100 USDT\n2026-10-07 13:00:00\t4h\t-0.003798%\t0.0486100 USDT",
+      "selected_symbol": "STRKUSDT"
+    },
+    {
+      "kind": "book_and_tape",
+      "observed_at": "2026-10-11T02:05:18.576Z",
+      "dom": "0.00001\nPrice (USDT)\nSize\n(STRK)\nSum\n(STRK)\n0.11474\n14.83K\n82.62K\n0.11473\n28.47K\n67.78K\n0.11472\n24.29K\n39.30K\n0.11471\n10.48K\n15.00K\n0.11470\n4.52K\n4.52K\n0.11477\n0.11495\n0.11468\n428.2\n428.2\n0.11467\n1.06K\n1.48K\n0.11466\n6.56K\n8.04K\n0.11465\n9.06K\n17.11K\n0.11464\n19.76K\n36.87K\nPrice (USDT)\nAmount\n(STRK)\nTime\n0.11477\n165.20K\n19:05:18\n0.11463\n273.98K\n19:05:17\n0.11473\n61.81K\n19:05:17\n0.11479\n83.44K\n19:05:16\n0.11473\n193.88K\n19:05:16\n0.11478\n101.61K\n19:05:15",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+      "selected_symbol": "STRKUSDT"
+    },
+    {
+      "kind": "candle_1h_historical",
+      "observed_at": "2026-10-11T02:05:39.651Z",
+      "dom": "Time\n1s\n15m\n1H\n4H\n1D\n1W\nLast Price\nOriginal\nTrading View\nDepth\n2026/10/10 18:00\nOpen\n0.10229\nHigh\n0.11845\nLow\n0.10029\nClose\n0.11701\nCHANGE\n14.36%\nRange\n17.74%\nMA(7)\n0.10431\nMA(25)\n0.08567\nMA(99)\n0.06520\nVol(STRK)\n1B\nVol(USDT)\n110.746M\n507.378M\n549.751M",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+      "selected_symbol": "STRKUSDT"
+    },
+    {
+      "kind": "candle_4h_historical",
+      "observed_at": "2026-10-11T02:06:13.887Z",
+      "dom": "Time\n1s\n15m\n1H\n4H\n1D\n1W\nLast Price\nOriginal\nTrading View\nDepth\n2026/10/10 13:00\nOpen\n0.09955\nHigh\n0.10821\nLow\n0.09925\nClose\n0.10318\nCHANGE\n3.62%\nRange\n8.99%\nMA(7)\n0.08362\nMA(25)\n0.06486\nMA(99)\n0.04997\nVol(STRK)\n1.668B\nVol(USDT)\n172.487M\n1.149B\n1.059B",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+      "selected_symbol": "STRKUSDT"
+    },
+    {
+      "kind": "oi_1h",
+      "observed_at": "2026-10-11T02:06:39.261Z",
+      "selected_symbol": "STRKUSDT",
+      "source_url": "https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=JCTUSDT",
+      "dom": "STRKUSDT Perpetual\n1h\nTrade Futures\nOpen Interest\nSingle\nOpen Interest (STRK)\nNotional Value of Open Interest (USDT)\n16:00\n20:00\n00:00\n04:00\n08:00\n12:00\n16:00\n360M\n420M\n480M\n24M\n40M\n56M\n10/10 19:00\n\nOpen Interest (STRK): 453,727,679.600\n\nNotional Value of Open Interest (USDT): 53,077,063.96\n\n"
+    },
+    {
+      "kind": "oi_1h",
+      "observed_at": "2026-10-11T02:06:48.822Z",
+      "selected_symbol": "STRKUSDT",
+      "source_url": "https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=JCTUSDT",
+      "dom": "STRKUSDT Perpetual\n1h\nTrade Futures\nOpen Interest\nSingle\nOpen Interest (STRK)\nNotional Value of Open Interest (USDT)\n16:00\n20:00\n00:00\n04:00\n08:00\n12:00\n16:00\n360M\n420M\n480M\n24M\n40M\n56M\n10/10 18:00\n\nOpen Interest (STRK): 451,790,264.200\n\nNotional Value of Open Interest (USDT): 46,216,074.83\n\n"
+    },
+    {
+      "kind": "taker_1h",
+      "observed_at": "2026-10-11T02:07:06.239Z",
+      "selected_symbol": "STRKUSDT",
+      "dom": "Taker Buy/Sell Volume\nTaker Sell Volume (STRK)\nTaker Buy Volume (STRK)\n16:00\n20:00\n00:00\n04:00\n08:00\n12:00\n16:00\n0\n300M\n600M\n10/10 18:00\n\nTaker Sell Volume (STRK): 466,412,158.600\n\nTaker Buy Volume (STRK): 534,351,533.500\n",
+      "source_url": "https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=JCTUSDT"
+    }
+  ],
+  "display_timezone": null,
+  "exchange_event_time": null,
+  "numeric_conventions": {
+    "funding_percent_to_decimal": "Displayed percentage divided by100; current predicted funding separate from historical settled funding.",
+    "suffixes": "K=1000;M=1000000;B/G=1000000000;display rounded."
+  },
+  "limitations": [
+    "Public signed-out rendered UI only; three symbols not full market.",
+    "UTC observed_at is actual capture time, not exchange event time. Display timezone unverified.",
+    "Historical candles selected before currently developing candle; finality and exact UTC boundaries not independently verified.",
+    "USD OI not quantity OI; capture times of UI fields are asynchronous.",
+    "Trading-data URL retains JCTUSDT query after selected-symbol change; selected_symbol and tooltip quantity units verified.",
+    "Historical bars may be published after the hour; early JCT capture ends18:00, later updates19:00.",
+    "No execution eligibility or account state inferred."
+  ],
+  "missing_fields": [
+    "verified_display_timezone",
+    "verified_exchange_event_timestamps",
+    "independently_verified_candle_finality",
+    "full_order_book_depth"
+  ]
+}
