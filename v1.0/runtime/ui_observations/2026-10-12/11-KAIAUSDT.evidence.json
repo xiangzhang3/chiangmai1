@@ -1,0 +1,102 @@
+{
+  "symbol": "KAIAUSDT",
+  "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+  "status": "PARTIAL_RESEARCH_ONLY",
+  "execution_eligible": false,
+  "capture_start_utc": "2026-10-12T11:04:22.070Z",
+  "capture_end_utc": "2026-10-12T11:04:57.016Z",
+  "display_timezone": "unverified; raw chart labels retained without UTC or Beijing event-hour mapping",
+  "capture_time_is_event_time": false,
+  "selected_symbol_verified_from": "Rendered contract heading, Perp label, and Open Interest quantity unit",
+  "funding_conversion": "Header percent divided by 100; current indicative funding per displayed interval, not settled funding.",
+  "oi_timeline": {
+    "previous": {
+      "raw_label": "10/12 03:00",
+      "quantity": 167401612,
+      "unit": "KAIA",
+      "notional_usdt": 8016436.32,
+      "observed_at": "2026-10-12T11:04:49.840Z",
+      "event_time_utc": null
+    },
+    "latest": {
+      "raw_label": "10/12 04:00",
+      "quantity": 166500938,
+      "unit": "KAIA",
+      "notional_usdt": 7911268.75,
+      "observed_at": "2026-10-12T11:04:57.016Z",
+      "event_time_utc": null
+    },
+    "delta_quantity": -900674,
+    "delta_percent": -0.538031855989535,
+    "interval_hours_from_raw_labels": 1,
+    "delayed_or_reused_endpoint": null,
+    "reused_last_published_endpoint": null,
+    "status": "LATEST_TWO_RENDERED_1H_ENDPOINTS_EVENT_TIMEZONE_UNVERIFIED",
+    "same_window_price_volume": null,
+    "note": "Raw labels are one hour apart. Event timezone and delay relative to capture are unverified; no current UTC/Beijing event-hour claim. JCT and STRK endpoints advanced beyond the last published 10/11 00:00 raw label. No old values were replayed."
+  },
+  "depth": {
+    "source_capture_kind": "KAIA_OI_latest_verified",
+    "unit": "KAIA",
+    "visible_ask_levels": 5,
+    "visible_bid_levels": 5,
+    "raw_field": "order_book_raw",
+    "full_depth": false,
+    "exchange_event_time_utc": null
+  },
+  "completed_1h_candles": null,
+  "completed_4h_candles": null,
+  "taker_buy_sell_hourly": null,
+  "settled_funding_history": null,
+  "missing_fields": [
+    "Completed 1h/4h candle evidence not captured; hourly OI was prioritized",
+    "Settlement funding and settlement mark not captured",
+    "Chart-label timezone not independently verified",
+    "Same-window price/volume change unavailable",
+    "Hourly taker buy/sell volume and six completed-hour volume baseline not captured",
+    "No reliable prior same-contract approximately-one-hour mark snapshot available after the sampling gap"
+  ],
+  "scheduled_gap": {
+    "missing_hours": 26,
+    "range": "After 2026-10-11 08 UTC through 2026-10-12 10 UTC",
+    "backfilled": false
+  },
+  "public_captures": [
+    {
+      "kind": "KAIA_public_snapshot",
+      "observed_at": "2026-10-12T11:04:22.070Z",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+      "header_raw": "- heading \"KAIAUSDT info tag\" [level=1]:\n  - generic: KAIAUSDT\n  - generic \"info tag\":\n    - tooltip \"Perp\":\n      - generic: Perp\n- generic: \"0.04768\"\n- generic: \"-0.00538\"\n- generic: \"-10.15%\"\n- generic: Mark\n- generic: \"0.04769\"\n- link \"Index\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/index?contract=KAIAUSDT\n  - text: Index\n- generic: \"0.04777\"\n- generic: Funding (1h) / Countdown\n- generic: \"-0.01829%\"\n- generic: /\n- generic: 00:55:38\n- generic: 24h High\n- generic: \"0.05429\"\n- generic: 24h Low\n- generic: \"0.04735\"\n- generic: 24h Vol(KAIA)\n- generic: 1,016,823,000.00\n- generic: 24h Vol(USDT)\n- generic: 51,899,770.98\n- link \"Open Interest(USDT)\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=KAIAUSDT\n  - text: Open Interest(USDT)\n- generic: 7,914,803.91\n",
+      "order_book_raw": "- tabpanel \"Order Book\":\n  - generic: \"0.00001\"\n  - generic: Price (USDT)\n  - generic: Size\n  - generic: (KAIA)\n  - generic: Sum\n  - generic: (KAIA)\n  - generic: \"0.04773\"\n  - generic: 31.10K\n  - generic: 161.82K\n  - generic: \"0.04772\"\n  - generic: 61.75K\n  - generic: 130.72K\n  - generic: \"0.04771\"\n  - generic: 16.79K\n  - generic: 68.96K\n  - generic: \"0.04770\"\n  - generic: 34.16K\n  - generic: 52.17K\n  - generic: \"0.04769\"\n  - generic: 18.01K\n  - generic: 18.01K\n  - generic: \"0.04768\"\n  - generic: \"0.04769\"\n  - generic: \"0.04768\"\n  - generic: 92.47K\n  - generic: 92.47K\n  - generic: \"0.04767\"\n  - generic: 150.09K\n  - generic: 242.56K\n  - generic: \"0.04766\"\n  - generic: 8.54K\n  - generic: 251.10K\n  - generic: \"0.04765\"\n  - generic: 13.50K\n  - generic: 264.61K\n  - generic: \"0.04764\"\n  - generic: 62.00K\n  - generic: 326.61K",
+      "trades_raw": "- tabpanel \"Trades\":\n  - generic: Price (USDT)\n  - generic: Amount\n  - generic: (KAIA)\n  - generic: Time\n  - generic: \"0.04768\"\n  - generic: 1.00K\n  - generic: 04:04:21\n  - generic: \"0.04768\"\n  - generic: 1.36K\n  - generic: 04:04:20\n  - generic: \"0.04767\"\n  - generic: \"588\"\n  - generic: 04:04:19\n  - generic: \"0.04767\"\n  - generic: \"220\"\n  - generic: 04:04:19\n  - generic: \"0.04767\"\n  - generic: \"138\"\n  - generic: 04:04:17\n  - generic: \"0.04767\"\n  - generic: 4.60K\n  - generic: 04:04:17",
+      "trading_data_raw": "- tabpanel \"Trading Data\":\n  - generic: Open Interest\n  - combobox \"Select an option\":\n    - generic: 5m\n  - combobox \"Select an option\":\n    - generic: Single\n  - generic: Top Trader Long/Short Ratio (Accounts)\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Top Trader Long/Short Ratio (Positions)\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Long/Short Ratio\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Taker Buy/Sell Volume\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Basis\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: \"Funding Rate: -0.019682%\"\n  - combobox \"Select an option\":\n    - generic: Last 40 Times\n  - generic: Open Interest to Market Cap Ratio\n  - combobox \"Select an option\":\n    - generic: 5m"
+    },
+    {
+      "kind": "KAIA_OI_latest",
+      "observed_at": "2026-10-12T11:04:49.182Z",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+      "header_raw": "- heading \"KAIAUSDT info tag\" [level=1]:\n  - generic: KAIAUSDT\n  - generic \"info tag\":\n    - tooltip \"Perp\":\n      - generic: Perp\n- generic: \"0.04767\"\n- generic: \"-0.00540\"\n- generic: \"-10.17%\"\n- generic: Mark\n- generic: \"0.04767\"\n- link \"Index\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/index?contract=KAIAUSDT\n  - text: Index\n- generic: \"0.04777\"\n- generic: Funding (1h) / Countdown\n- generic: \"-0.01829%\"\n- generic: /\n- generic: 00:55:11\n- generic: 24h High\n- generic: \"0.05429\"\n- generic: 24h Low\n- generic: \"0.04735\"\n- generic: 24h Vol(KAIA)\n- generic: 1,017,236,846.00\n- generic: 24h Vol(USDT)\n- generic: 51,919,495.49\n- link \"Open Interest(USDT)\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=KAIAUSDT\n  - text: Open Interest(USDT)\n- generic: 7,910,187.56\n",
+      "order_book_raw": "- tabpanel \"Order Book\":\n  - generic: \"0.00001\"\n  - generic: Price (USDT)\n  - generic: Size\n  - generic: (KAIA)\n  - generic: Sum\n  - generic: (KAIA)\n  - generic: \"0.04772\"\n  - generic: 50.56K\n  - generic: 151.95K\n  - generic: \"0.04771\"\n  - generic: 50.86K\n  - generic: 101.38K\n  - generic: \"0.04770\"\n  - generic: 32.01K\n  - generic: 50.52K\n  - generic: \"0.04769\"\n  - generic: 17.46K\n  - generic: 18.51K\n  - generic: \"0.04768\"\n  - generic: 1.04K\n  - generic: 1.04K\n  - generic: \"0.04767\"\n  - generic: \"0.04767\"\n  - generic: \"0.04767\"\n  - generic: 10.59K\n  - generic: 10.59K\n  - generic: \"0.04766\"\n  - generic: 89.13K\n  - generic: 99.73K\n  - generic: \"0.04765\"\n  - generic: 95.37K\n  - generic: 195.10K\n  - generic: \"0.04764\"\n  - generic: 66.33K\n  - generic: 261.44K\n  - generic: \"0.04763\"\n  - generic: 71.91K\n  - generic: 333.36K",
+      "trades_raw": "- tabpanel \"Trades\":\n  - generic: Price (USDT)\n  - generic: Amount\n  - generic: (KAIA)\n  - generic: Time\n  - generic: \"0.04767\"\n  - generic: \"170\"\n  - generic: 04:04:48\n  - generic: \"0.04767\"\n  - generic: \"808\"\n  - generic: 04:04:46\n  - generic: \"0.04768\"\n  - generic: 25.82K\n  - generic: 04:04:44\n  - generic: \"0.04766\"\n  - generic: \"163\"\n  - generic: 04:04:43\n  - generic: \"0.04765\"\n  - generic: \"167\"\n  - generic: 04:04:37\n  - generic: \"0.04766\"\n  - generic: 9.78K\n  - generic: 04:04:36",
+      "trading_data_raw": "- tabpanel \"Trading Data\":\n  - generic: Open Interest\n  - combobox \"Select an option\":\n    - generic: 1h\n  - combobox \"Select an option\":\n    - generic: Single\n  - generic: Top Trader Long/Short Ratio (Accounts)\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Top Trader Long/Short Ratio (Positions)\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Long/Short Ratio\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Taker Buy/Sell Volume\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Basis\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: \"Funding Rate: -0.019682%\"\n  - combobox \"Select an option\":\n    - generic: Last 40 Times\n  - generic: Open Interest to Market Cap Ratio\n  - combobox \"Select an option\":\n    - generic: 5m"
+    },
+    {
+      "kind": "KAIA_OI_previous",
+      "observed_at": "2026-10-12T11:04:49.840Z",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+      "header_raw": "- heading \"KAIAUSDT info tag\" [level=1]:\n  - generic: KAIAUSDT\n  - generic \"info tag\":\n    - tooltip \"Perp\":\n      - generic: Perp\n- generic: \"0.04767\"\n- generic: \"-0.00540\"\n- generic: \"-10.17%\"\n- generic: Mark\n- generic: \"0.04767\"\n- link \"Index\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/index?contract=KAIAUSDT\n  - text: Index\n- generic: \"0.04777\"\n- generic: Funding (1h) / Countdown\n- generic: \"-0.01829%\"\n- generic: /\n- generic: 00:55:10\n- generic: 24h High\n- generic: \"0.05429\"\n- generic: 24h Low\n- generic: \"0.04735\"\n- generic: 24h Vol(KAIA)\n- generic: 1,017,237,016.00\n- generic: 24h Vol(USDT)\n- generic: 51,919,503.60\n- link \"Open Interest(USDT)\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=KAIAUSDT\n  - text: Open Interest(USDT)\n- generic: 7,910,187.56\n",
+      "order_book_raw": "- tabpanel \"Order Book\":\n  - generic: \"0.00001\"\n  - generic: Price (USDT)\n  - generic: Size\n  - generic: (KAIA)\n  - generic: Sum\n  - generic: (KAIA)\n  - generic: \"0.04772\"\n  - generic: 50.56K\n  - generic: 151.95K\n  - generic: \"0.04771\"\n  - generic: 50.86K\n  - generic: 101.38K\n  - generic: \"0.04770\"\n  - generic: 32.01K\n  - generic: 50.52K\n  - generic: \"0.04769\"\n  - generic: 17.46K\n  - generic: 18.51K\n  - generic: \"0.04768\"\n  - generic: 1.04K\n  - generic: 1.04K\n  - generic: \"0.04767\"\n  - generic: \"0.04767\"\n  - generic: \"0.04767\"\n  - generic: 10.59K\n  - generic: 10.59K\n  - generic: \"0.04766\"\n  - generic: 89.13K\n  - generic: 99.73K\n  - generic: \"0.04765\"\n  - generic: 95.37K\n  - generic: 195.10K\n  - generic: \"0.04764\"\n  - generic: 66.33K\n  - generic: 261.44K\n  - generic: \"0.04763\"\n  - generic: 71.91K\n  - generic: 333.36K",
+      "trades_raw": "- tabpanel \"Trades\":\n  - generic: Price (USDT)\n  - generic: Amount\n  - generic: (KAIA)\n  - generic: Time\n  - generic: \"0.04767\"\n  - generic: \"170\"\n  - generic: 04:04:48\n  - generic: \"0.04767\"\n  - generic: \"808\"\n  - generic: 04:04:46\n  - generic: \"0.04768\"\n  - generic: 25.82K\n  - generic: 04:04:44\n  - generic: \"0.04766\"\n  - generic: \"163\"\n  - generic: 04:04:43\n  - generic: \"0.04765\"\n  - generic: \"167\"\n  - generic: 04:04:37\n  - generic: \"0.04766\"\n  - generic: 9.78K\n  - generic: 04:04:36",
+      "trading_data_raw": "- tabpanel \"Trading Data\":\n  - generic: Open Interest\n  - combobox \"Select an option\":\n    - generic: 1h\n  - combobox \"Select an option\":\n    - generic: Single\n  - text: 10/12 03:00\n  - paragraph: \"Open Interest (KAIA): 167,401,612.000\"\n  - paragraph: \"Notional Value of Open Interest (USDT):\"\n  - paragraph: 8,016,436.32\n  - generic: Top Trader Long/Short Ratio (Accounts)\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Top Trader Long/Short Ratio (Positions)\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Long/Short Ratio\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Taker Buy/Sell Volume\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Basis\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: \"Funding Rate: -0.019682%\"\n  - combobox \"Select an option\":\n    - generic: Last 40 Times\n  - generic: Open Interest to Market Cap Ratio\n  - combobox \"Select an option\":\n    - generic: 5m"
+    },
+    {
+      "kind": "KAIA_OI_latest_verified",
+      "observed_at": "2026-10-12T11:04:57.016Z",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+      "header_raw": "- heading \"KAIAUSDT info tag\" [level=1]:\n  - generic: KAIAUSDT\n  - generic \"info tag\":\n    - tooltip \"Perp\":\n      - generic: Perp\n- generic: \"0.04779\"\n- generic: \"-0.00528\"\n- generic: \"-9.94%\"\n- generic: Mark\n- generic: \"0.04773\"\n- link \"Index\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/index?contract=KAIAUSDT\n  - text: Index\n- generic: \"0.04777\"\n- generic: Funding (1h) / Countdown\n- generic: \"-0.01829%\"\n- generic: /\n- generic: 00:55:03\n- generic: 24h High\n- generic: \"0.05429\"\n- generic: 24h Low\n- generic: \"0.04735\"\n- generic: 24h Vol(KAIA)\n- generic: 1,017,607,347.00\n- generic: 24h Vol(USDT)\n- generic: 51,937,178.70\n- link \"Open Interest(USDT)\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=KAIAUSDT\n  - text: Open Interest(USDT)\n- generic: 7,918,682.49\n",
+      "order_book_raw": "- tabpanel \"Order Book\":\n  - generic: \"0.00001\"\n  - generic: Price (USDT)\n  - generic: Size\n  - generic: (KAIA)\n  - generic: Sum\n  - generic: (KAIA)\n  - generic: \"0.04784\"\n  - generic: 20.48K\n  - generic: 224.27K\n  - generic: \"0.04783\"\n  - generic: 111.56K\n  - generic: 203.78K\n  - generic: \"0.04782\"\n  - generic: 36.53K\n  - generic: 92.21K\n  - generic: \"0.04781\"\n  - generic: 29.73K\n  - generic: 55.68K\n  - generic: \"0.04780\"\n  - generic: 25.95K\n  - generic: 25.95K\n  - generic: \"0.04779\"\n  - generic: \"0.04773\"\n  - generic: \"0.04779\"\n  - generic: 37.57K\n  - generic: 37.57K\n  - generic: \"0.04778\"\n  - generic: 71.37K\n  - generic: 108.95K\n  - generic: \"0.04777\"\n  - generic: 52.97K\n  - generic: 161.92K\n  - generic: \"0.04776\"\n  - generic: 1.13K\n  - generic: 163.06K\n  - generic: \"0.04775\"\n  - generic: 20.90K\n  - generic: 183.97K",
+      "trades_raw": "- tabpanel \"Trades\":\n  - generic: Price (USDT)\n  - generic: Amount\n  - generic: (KAIA)\n  - generic: Time\n  - generic: \"0.04779\"\n  - generic: 87.76K\n  - generic: 04:04:56\n  - generic: \"0.04778\"\n  - generic: 40.14K\n  - generic: 04:04:55\n  - generic: \"0.04776\"\n  - generic: 32.72K\n  - generic: 04:04:54\n  - generic: \"0.04773\"\n  - generic: 16.00K\n  - generic: 04:04:54\n  - generic: \"0.04773\"\n  - generic: 67.33K\n  - generic: 04:04:53\n  - generic: \"0.04767\"\n  - generic: 2.90K\n  - generic: 04:04:51",
+      "trading_data_raw": "- tabpanel \"Trading Data\":\n  - generic: Open Interest\n  - combobox \"Select an option\":\n    - generic: 1h\n  - combobox \"Select an option\":\n    - generic: Single\n  - text: 10/12 04:00\n  - paragraph: \"Open Interest (KAIA): 166,500,938.000\"\n  - paragraph: \"Notional Value of Open Interest (USDT):\"\n  - paragraph: 7,911,268.75\n  - generic: Top Trader Long/Short Ratio (Accounts)\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Top Trader Long/Short Ratio (Positions)\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Long/Short Ratio\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Taker Buy/Sell Volume\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Basis\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: \"Funding Rate: -0.019682%\"\n  - combobox \"Select an option\":\n    - generic: Last 40 Times\n  - generic: Open Interest to Market Cap Ratio\n  - combobox \"Select an option\":\n    - generic: 5m"
+    }
+  ]
+}
