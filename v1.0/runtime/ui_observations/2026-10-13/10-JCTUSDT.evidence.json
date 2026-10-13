@@ -1,0 +1,594 @@
+{
+  "symbol": "JCTUSDT",
+  "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+  "observed_at": "2026-10-13T10:05:22.054Z",
+  "fields": {
+    "last_price": 0.001877,
+    "mark_price": 0.001877,
+    "index_price": 0.001874,
+    "funding_rate": 0.00005,
+    "funding_interval_hours": 4,
+    "open_interest_notional_usdt": 6690448.21
+  },
+  "classification": "RESEARCH_ONLY",
+  "execution_eligible": false,
+  "source_type": "OFFICIAL_SIGNED_OUT_RENDERED_UI",
+  "status": "OBSERVED",
+  "capture_start_utc": "2026-10-13T10:05:22.054Z",
+  "capture_end_utc": "2026-10-13T10:07:48.823Z",
+  "display_timezone": null,
+  "raw_chart_timezone": "UNKNOWN",
+  "capture_time_is_event_time": false,
+  "selected_symbol_verified_from": "Rendered JCTUSDT Perp heading, contract-specific index/OI links and JCT base-asset units.",
+  "browser_address_url": "https://www.binance.com/en/futures/JCTUSDT",
+  "notes": [
+    "Official signed-out rendered Binance website only. No API or private account data.",
+    "Only actual 10 UTC captures are included. The 03 UTC gap remains unfilled.",
+    "Raw chart timezone is unverified. Capture UTC must not be interpreted as exchange event time.",
+    "Rounded display quantities preserved with their raw labels."
+  ],
+  "quantity_oi": {
+    "interval": "1h",
+    "unit": "JCT",
+    "points": [
+      {
+        "raw_label": "10/13 02:00",
+        "quantity": 3570874212,
+        "unit": "JCT",
+        "notional_usdt": 6666822.15,
+        "captured_at_utc": "2026-10-13T10:06:13.651Z",
+        "event_time_utc": null
+      },
+      {
+        "raw_label": "10/13 03:00",
+        "quantity": 3574735949,
+        "unit": "JCT",
+        "notional_usdt": 6720503.58,
+        "captured_at_utc": "2026-10-13T10:06:04.136Z",
+        "event_time_utc": null
+      }
+    ],
+    "delta_quantity": 3861737,
+    "change_pct": 0.10814542240167313,
+    "quality": "Latest two rendered hourly endpoints verified; raw timezone unverified.",
+    "delayed_relative_to_running_hour": false,
+    "latest_raw_label_advanced_since_prior_capture": true,
+    "same_window_price_volume_raw_label": "2026/10/13 02:00",
+    "interval_verification": "1h selected and verified in rendered Open Interest control.",
+    "stale_endpoint_flag": false,
+    "stale_endpoint_basis": "Latest raw 10/13 03:00 matches verified running raw 10/13 03:00. Prior 09 UTC endpoint raw 10/13 02:00; no venue timezone claim."
+  },
+  "closed_hour": {
+    "raw_label": "2026/10/13 02:00",
+    "interval": "1H",
+    "open": 0.001867,
+    "high": 0.001904,
+    "low": 0.00186,
+    "close": 0.00188,
+    "ui_change_pct": 0.69,
+    "volume_qty_display": "105.151M",
+    "volume_qty": 105151000,
+    "volume_qty_unit": "JCT",
+    "volume_usdt_display": "197.547K",
+    "volume_usdt": 197547,
+    "captured_at_utc": "2026-10-13T10:06:50.397Z",
+    "event_time_utc": null,
+    "calculated_open_to_close_pct": 0.6963042313872458,
+    "completion_basis": "Later running candle 2026/10/13 03:00 verified on same 1H chart; raw timezone unknown.",
+    "prior_six_closed_baseline": [
+      {
+        "raw_label": "2026/10/13 01:00",
+        "interval": "1H",
+        "open": 0.001874,
+        "high": 0.001881,
+        "low": 0.00185,
+        "close": 0.001867,
+        "ui_change_pct": -0.32,
+        "volume_qty_display": "62.242M",
+        "volume_qty": 62242000,
+        "volume_qty_unit": "JCT",
+        "volume_usdt_display": "116.235K",
+        "volume_usdt": 116235,
+        "captured_at_utc": "2026-10-13T10:06:50.832Z",
+        "event_time_utc": null,
+        "calculated_open_to_close_pct": -0.3735325506937115
+      },
+      {
+        "raw_label": "2026/10/13 00:00",
+        "interval": "1H",
+        "open": 0.001887,
+        "high": 0.001894,
+        "low": 0.001865,
+        "close": 0.001873,
+        "ui_change_pct": -0.84,
+        "volume_qty_display": "55.185M",
+        "volume_qty": 55185000,
+        "volume_qty_unit": "JCT",
+        "volume_usdt_display": "103.752K",
+        "volume_usdt": 103752,
+        "captured_at_utc": "2026-10-13T10:06:51.239Z",
+        "event_time_utc": null,
+        "calculated_open_to_close_pct": -0.741918388977203
+      },
+      {
+        "raw_label": "2026/10/12 23:00",
+        "interval": "1H",
+        "open": 0.001903,
+        "high": 0.00192,
+        "low": 0.001875,
+        "close": 0.001889,
+        "ui_change_pct": -0.73,
+        "volume_qty_display": "79.012M",
+        "volume_qty": 79012000,
+        "volume_qty_unit": "JCT",
+        "volume_usdt_display": "149.789K",
+        "volume_usdt": 149789,
+        "captured_at_utc": "2026-10-13T10:06:51.703Z",
+        "event_time_utc": null,
+        "calculated_open_to_close_pct": -0.7356805044666292
+      },
+      {
+        "raw_label": "2026/10/12 22:00",
+        "interval": "1H",
+        "open": 0.001863,
+        "high": 0.001941,
+        "low": 0.001858,
+        "close": 0.001903,
+        "ui_change_pct": 2.14,
+        "volume_qty_display": "168.496M",
+        "volume_qty": 168496000,
+        "volume_qty_unit": "JCT",
+        "volume_usdt_display": "319.117K",
+        "volume_usdt": 319117,
+        "captured_at_utc": "2026-10-13T10:06:52.206Z",
+        "event_time_utc": null,
+        "calculated_open_to_close_pct": 2.147074610842714
+      },
+      {
+        "raw_label": "2026/10/12 21:00",
+        "interval": "1H",
+        "open": 0.00178,
+        "high": 0.00192,
+        "low": 0.001778,
+        "close": 0.001863,
+        "ui_change_pct": 4.72,
+        "volume_qty_display": "203.926M",
+        "volume_qty": 203926000,
+        "volume_qty_unit": "JCT",
+        "volume_usdt_display": "375.247K",
+        "volume_usdt": 375247,
+        "captured_at_utc": "2026-10-13T10:06:52.641Z",
+        "event_time_utc": null,
+        "calculated_open_to_close_pct": 4.662921348314608
+      },
+      {
+        "raw_label": "2026/10/12 20:00",
+        "interval": "1H",
+        "open": 0.001768,
+        "high": 0.001787,
+        "low": 0.001745,
+        "close": 0.001779,
+        "ui_change_pct": 0.56,
+        "volume_qty_display": "68.437M",
+        "volume_qty": 68437000,
+        "volume_qty_unit": "JCT",
+        "volume_usdt_display": "121.124K",
+        "volume_usdt": 121124,
+        "captured_at_utc": "2026-10-13T10:06:53.092Z",
+        "event_time_utc": null,
+        "calculated_open_to_close_pct": 0.6221719457013553
+      }
+    ],
+    "prior_six_mean_qty": 106216333.33333333,
+    "volume_ratio": 0.9899701552491927,
+    "price_volume_threshold_met": false
+  },
+  "running_hour_verification": {
+    "raw_label": "2026/10/13 03:00",
+    "interval": "1H",
+    "open": 0.001879,
+    "high": 0.001888,
+    "low": 0.001874,
+    "close": 0.001876,
+    "ui_change_pct": -0.21,
+    "volume_qty_display": "7.506M",
+    "volume_qty": 7506000,
+    "volume_qty_unit": "JCT",
+    "volume_usdt_display": "14.107K",
+    "volume_usdt": 14107,
+    "captured_at_utc": "2026-10-13T10:06:49.928Z",
+    "event_time_utc": null,
+    "calculated_open_to_close_pct": -0.15965939329430912
+  },
+  "closed_4h": {
+    "raw_label": "2026/10/12 21:00",
+    "interval": "4H",
+    "open": 0.00178,
+    "high": 0.001941,
+    "low": 0.001778,
+    "close": 0.001873,
+    "ui_change_pct": 5.28,
+    "volume_qty_display": "506.621M",
+    "volume_qty": 506621000,
+    "volume_qty_unit": "JCT",
+    "volume_usdt_display": "947.907K",
+    "volume_usdt": 947907,
+    "captured_at_utc": "2026-10-13T10:07:10.334Z",
+    "event_time_utc": null,
+    "calculated_open_to_close_pct": 5.224719101123609,
+    "running_4h_raw_label": "2026/10/13 01:00",
+    "completion_basis": "Later running candle 2026/10/13 01:00 verified on same 4H chart; raw timezone unknown."
+  },
+  "running_4h_verification": {
+    "raw_label": "2026/10/13 01:00",
+    "interval": "4H",
+    "open": 0.001874,
+    "high": 0.001904,
+    "low": 0.00185,
+    "close": 0.001874,
+    "ui_change_pct": 0.05,
+    "volume_qty_display": "175.573M",
+    "volume_qty": 175573000,
+    "volume_qty_unit": "JCT",
+    "volume_usdt_display": "329.149K",
+    "volume_usdt": 329149,
+    "captured_at_utc": "2026-10-13T10:07:09.908Z",
+    "event_time_utc": null,
+    "calculated_open_to_close_pct": 0
+  },
+  "taker_volume": {
+    "raw_label": "10/13 02:00",
+    "interval": "1h",
+    "unit": "JCT",
+    "sell_quantity": 50938533,
+    "buy_quantity": 54213304,
+    "captured_at_utc": "2026-10-13T10:07:48.823Z",
+    "event_time_utc": null,
+    "buy_sell_ratio": 1.064288679063451,
+    "delayed_relative_to_closed_hour": false,
+    "matched_latest_closed_hour": true,
+    "matching_basis": "Same contract, hourly interval and raw 10/13 02:00 label; no UTC event-time mapping.",
+    "quantity_sum_difference_from_ohlcv": 837,
+    "quantity_sum_consistency_note": "Difference below 1000 base units is consistent with displayed thousand-unit OHLCV rounding."
+  },
+  "funding": {
+    "predicted_rate_decimal_per_interval": 0.00005,
+    "raw_predicted_percent": 0.005,
+    "interval_hours": 4,
+    "captured_at_utc": "2026-10-13T10:05:22.054Z",
+    "raw_countdown": "01:54:38",
+    "conversion": "Displayed percent divided by 100.",
+    "history_summary_display_percent": 0.005,
+    "history_summary_event_time_utc": null,
+    "history_summary_status": "Untimestamped rendered funding-history summary; do not treat as a timestamped settled payment.",
+    "history_summary_captured_at_utc": "2026-10-13T10:07:48.823Z"
+  },
+  "depth": {
+    "captured_at_utc": "2026-10-13T10:05:22.054Z",
+    "price_unit": "USDT",
+    "size_unit": "JCT",
+    "scope": "5 visible levels each side",
+    "asks_descending": [
+      {
+        "price": 0.001883,
+        "size_quantity": 511880,
+        "cumulative_quantity": 1170000,
+        "size_display": "511.88K",
+        "cumulative_display": "1.17M"
+      },
+      {
+        "price": 0.001882,
+        "size_quantity": 196020,
+        "cumulative_quantity": 663110,
+        "size_display": "196.02K",
+        "cumulative_display": "663.11K"
+      },
+      {
+        "price": 0.001881,
+        "size_quantity": 192630,
+        "cumulative_quantity": 467080,
+        "size_display": "192.63K",
+        "cumulative_display": "467.08K"
+      },
+      {
+        "price": 0.00188,
+        "size_quantity": 197340,
+        "cumulative_quantity": 274450,
+        "size_display": "197.34K",
+        "cumulative_display": "274.45K"
+      },
+      {
+        "price": 0.001879,
+        "size_quantity": 77100,
+        "cumulative_quantity": 77100,
+        "size_display": "77.10K",
+        "cumulative_display": "77.10K"
+      }
+    ],
+    "bids_descending": [
+      {
+        "price": 0.001877,
+        "size_quantity": 27230,
+        "cumulative_quantity": 27230,
+        "size_display": "27.23K",
+        "cumulative_display": "27.23K"
+      },
+      {
+        "price": 0.001876,
+        "size_quantity": 64330,
+        "cumulative_quantity": 91560,
+        "size_display": "64.33K",
+        "cumulative_display": "91.56K"
+      },
+      {
+        "price": 0.001875,
+        "size_quantity": 297940,
+        "cumulative_quantity": 389510,
+        "size_display": "297.94K",
+        "cumulative_display": "389.51K"
+      },
+      {
+        "price": 0.001874,
+        "size_quantity": 172220,
+        "cumulative_quantity": 561740,
+        "size_display": "172.22K",
+        "cumulative_display": "561.74K"
+      },
+      {
+        "price": 0.001873,
+        "size_quantity": 558980,
+        "cumulative_quantity": 1120000,
+        "size_display": "558.98K",
+        "cumulative_display": "1.12M"
+      }
+    ],
+    "event_time_utc": null
+  },
+  "comparisons": {
+    "last_observed_mark_reference": {
+      "prior_captured_at_utc": "2026-10-13T09:00:16.711Z",
+      "prior_mark_price": 0.001866,
+      "current_captured_at_utc": "2026-10-13T10:05:22.054Z",
+      "current_mark_price": 0.001877,
+      "elapsed_minutes": 65.08905,
+      "change_pct": 0.5894962486602262,
+      "is_approximately_hourly": true,
+      "reason": "Same-contract actual mark captures about one hour apart; no event-time timezone inference."
+    }
+  },
+  "missing_fields": {
+    "exchange_event_time_utc": {
+      "value": null,
+      "reason": "Rendered chart timezone unverified."
+    },
+    "timestamped_funding_settlement": {
+      "value": null,
+      "reason": "Only untimestamped funding-history summary captured; no timestamped settled funding tooltip verified."
+    },
+    "full_depth": {
+      "value": null,
+      "reason": "Only 5 rendered levels per side captured."
+    }
+  },
+  "raw_public_evidence": [
+    {
+      "symbol": "JCTUSDT",
+      "kind": "market",
+      "at": "2026-10-13T10:05:22.054Z",
+      "header_lines": [
+        "\t\t\t41 heading JCTUSDT info tag, Value: 1",
+        "\t\t\t\t42 text JCTUSDT",
+        "\t\t\t\t43 container info tag",
+        "\t\t\t\t\t44 container Perp",
+        "\t\t\t\t\t\t45 text Perp",
+        "\t\t\t\t46 image",
+        "\t\t\t47 text 0.001877",
+        "\t\t\t48 text 0.000008",
+        "\t\t\t49 container",
+        "\t\t\t\t50 text +0.48 %",
+        "\t\t\t51 container",
+        "\t\t\t\t52 container",
+        "\t\t\t\t\t53 text Mark",
+        "\t\t\t\t\t54 text 0.001877",
+        "\t\t\t\t55 container",
+        "\t\t\t\t\t56 link Description: Index, Value: binance.com/en/futures/funding-history/perpetual/index?contract=JCTUSDT",
+        "\t\t\t\t\t57 text 0.001874",
+        "\t\t\t\t58 container",
+        "\t\t\t\t\t59 container",
+        "\t\t\t\t\t\t60 text Funding  (4h)  / Countdown",
+        "\t\t\t\t\t61 text 0.00500% /",
+        "\t\t\t\t\t62 text 01:54:38",
+        "\t\t\t\t63 container",
+        "\t\t\t\t\t64 text 24h High 0.002019",
+        "\t\t\t\t65 container",
+        "\t\t\t\t\t66 text 24h Low 0.001704",
+        "\t\t\t\t67 container",
+        "\t\t\t\t\t68 text 24h Vol(JCT) 4,752,387,133.00",
+        "\t\t\t\t69 container",
+        "\t\t\t\t\t70 text 24h Vol(USDT) 8,875,110.72",
+        "\t\t\t\t71 container",
+        "\t\t\t\t\t72 link Description: Open Interest(USDT), Value: binance.com/en/futures/funding-history/perpetual/trading-data?contract=JCTUSDT",
+        "\t\t\t\t\t73 text 6,690,448.21",
+        "\t\t\t\t74 image",
+        "\t\t\t75 container"
+      ],
+      "depth_lines": [
+        "\t\t\t\t\t163 container futuresOrderbook",
+        "\t\t\t\t\t\t164 container",
+        "\t\t\t\t\t\t\t165 text 0.000001",
+        "\t\t\t\t\t\t\t166 image",
+        "\t\t\t\t\t\t167 text Price (USDT)",
+        "\t\t\t\t\t\t168 text Size ( JCT ) Sum ( JCT )",
+        "\t\t\t\t\t\t169 container",
+        "\t\t\t\t\t\t\t170 container",
+        "\t\t\t\t\t\t\t\t171 text 0.001883",
+        "\t\t\t\t\t\t\t\t172 text 511.88K 1.17M",
+        "\t\t\t\t\t\t\t173 container",
+        "\t\t\t\t\t\t\t\t174 text 0.001882",
+        "\t\t\t\t\t\t\t\t175 text 196.02K 663.11K",
+        "\t\t\t\t\t\t\t176 container",
+        "\t\t\t\t\t\t\t\t177 text 0.001881",
+        "\t\t\t\t\t\t\t\t178 text 192.63K 467.08K",
+        "\t\t\t\t\t\t\t179 container",
+        "\t\t\t\t\t\t\t\t180 text 0.001880",
+        "\t\t\t\t\t\t\t\t181 text 197.34K 274.45K",
+        "\t\t\t\t\t\t\t182 container",
+        "\t\t\t\t\t\t\t\t183 text 0.001879",
+        "\t\t\t\t\t\t\t\t184 text 77.10K 77.10K",
+        "\t\t\t\t\t\t185 text 0.001877",
+        "\t\t\t\t\t\t186 text 0.001877",
+        "\t\t\t\t\t\t187 container",
+        "\t\t\t\t\t\t\t188 container",
+        "\t\t\t\t\t\t\t\t189 text 0.001877",
+        "\t\t\t\t\t\t\t\t190 text 27.23K 27.23K",
+        "\t\t\t\t\t\t\t191 container",
+        "\t\t\t\t\t\t\t\t192 text 0.001876",
+        "\t\t\t\t\t\t\t\t193 text 64.33K 91.56K",
+        "\t\t\t\t\t\t\t194 container",
+        "\t\t\t\t\t\t\t\t195 text 0.001875",
+        "\t\t\t\t\t\t\t\t196 text 297.94K 389.51K",
+        "\t\t\t\t\t\t\t197 container",
+        "\t\t\t\t\t\t\t\t198 text 0.001874",
+        "\t\t\t\t\t\t\t\t199 text 172.22K 561.74K",
+        "\t\t\t\t\t\t\t200 container",
+        "\t\t\t\t\t\t\t\t201 text 0.001873",
+        "\t\t\t\t\t\t\t\t202 text 558.98K 1.12M"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "oi_latest",
+      "at": "2026-10-13T10:05:47.571Z",
+      "lines": [
+        "\t\t\t\t\t\t128 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "oi_latest",
+      "at": "2026-10-13T10:06:04.136Z",
+      "lines": [
+        "\t\t\t\t\t\t128 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t\t293 text 10/13 03:00 Open Interest (JCT): 3,574,735,949.000 Notional Value of Open Interest (USDT): 6,720,503.58"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "oi_previous",
+      "at": "2026-10-13T10:06:13.651Z",
+      "lines": [
+        "\t\t\t\t\t\t128 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t\t293 text 10/13 02:00 Open Interest (JCT): 3,570,874,212.000 Notional Value of Open Interest (USDT): 6,666,822.15"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "candle_1h",
+      "at": "2026-10-13T10:06:49.928Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t\t320 text 2026/10/13 03:00 Open 0.001879 High 0.001888 Low 0.001874 Close 0.001876 CHANGE -0.21% Range 0.74%",
+        "\t\t\t\t\t\t\t\t\t319 text Vol(JCT) 7.506M Vol(USDT) 14.107K 97.36M 131.961M"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "candle_1h",
+      "at": "2026-10-13T10:06:50.397Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t\t320 text 2026/10/13 02:00 Open 0.001867 High 0.001904 Low 0.001860 Close 0.001880 CHANGE 0.69% Range 2.35%",
+        "\t\t\t\t\t\t\t\t\t319 text Vol(JCT) 105.151M Vol(USDT) 197.547K 106.064M 157.444M"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "candle_1h",
+      "at": "2026-10-13T10:06:50.832Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t\t320 text 2026/10/13 01:00 Open 0.001874 High 0.001881 Low 0.001850 Close 0.001867 CHANGE -0.32% Range 1.65%",
+        "\t\t\t\t\t\t\t\t\t319 text Vol(JCT) 62.242M Vol(USDT) 116.235K 110.396M 164.78M"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "candle_1h",
+      "at": "2026-10-13T10:06:51.239Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t\t320 text 2026/10/13 00:00 Open 0.001887 High 0.001894 Low 0.001865 Close 0.001873 CHANGE -0.84% Range 1.53%",
+        "\t\t\t\t\t\t\t\t\t319 text Vol(JCT) 55.185M Vol(USDT) 103.752K 128.683M 167.274M"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "candle_1h",
+      "at": "2026-10-13T10:06:51.703Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t\t320 text 2026/10/12 23:00 Open 0.001903 High 0.001920 Low 0.001875 Close 0.001889 CHANGE -0.73% Range 2.36%",
+        "\t\t\t\t\t\t\t\t\t319 text Vol(JCT) 79.012M Vol(USDT) 149.789K 176.877M 189.377M"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "candle_1h",
+      "at": "2026-10-13T10:06:52.206Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t\t320 text 2026/10/12 22:00 Open 0.001863 High 0.001941 Low 0.001858 Close 0.001903 CHANGE 2.14% Range 4.45%",
+        "\t\t\t\t\t\t\t\t\t319 text Vol(JCT) 168.496M Vol(USDT) 319.117K 179.394M 229.145M"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "candle_1h",
+      "at": "2026-10-13T10:06:52.641Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t\t320 text 2026/10/12 21:00 Open 0.001780 High 0.001920 Low 0.001778 Close 0.001863 CHANGE 4.72% Range 7.98%",
+        "\t\t\t\t\t\t\t\t\t319 text Vol(JCT) 203.926M Vol(USDT) 375.247K 164.58M 232.717M"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "candle_1h",
+      "at": "2026-10-13T10:06:53.092Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t\t320 text 2026/10/12 20:00 Open 0.001768 High 0.001787 Low 0.001745 Close 0.001779 CHANGE 0.56% Range 2.37%",
+        "\t\t\t\t\t\t\t\t\t319 text Vol(JCT) 68.437M Vol(USDT) 121.124K 166.562M 240.117M"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "candle_4h",
+      "at": "2026-10-13T10:07:09.908Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t\t320 text 2026/10/13 01:00 Open 0.001874 High 0.001904 Low 0.001850 Close 0.001874 CHANGE 0.05% Range 2.88%",
+        "\t\t\t\t\t\t\t\t\t319 text Vol(JCT) 175.573M Vol(USDT) 329.149K 708.591M 1.209B"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "candle_4h",
+      "at": "2026-10-13T10:07:10.334Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t\t320 text 2026/10/12 21:00 Open 0.001780 High 0.001941 Low 0.001778 Close 0.001873 CHANGE 5.28% Range 9.16%",
+        "\t\t\t\t\t\t\t\t\t319 text Vol(JCT) 506.621M Vol(USDT) 947.907K 777.528M 1.464B"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "taker",
+      "at": "2026-10-13T10:07:48.823Z",
+      "lines": [
+        "\t\t\t\t\t\t313 text Taker Buy/Sell Volume",
+        "\t\t\t\t\t\t314 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t\t331 text 10/13 02:00 Taker Sell Volume (JCT): 50,938,533.000 Taker Buy Volume (JCT): 54,213,304.000",
+        "\t\t\t\t\t\t321 text Funding Rate: 0.005000%"
+      ]
+    }
+  ],
+  "anomaly_evaluation": {
+    "oi_quantity_abs_change_gte_5pct": false,
+    "closed_hour_volume_gte_2x_and_abs_price_gte_3pct": false,
+    "approximately_hourly_mark_abs_change_gte_10pct": false,
+    "new_threshold_candidate": false,
+    "two_fresh_same_contract_reads": null,
+    "two_read_confirmation_reason": "No threshold candidate; no anomaly notification generated by this sampler."
+  }
+}
