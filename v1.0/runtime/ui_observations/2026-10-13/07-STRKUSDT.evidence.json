@@ -1,0 +1,586 @@
+{
+  "symbol": "STRKUSDT",
+  "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+  "observed_at": "2026-10-13T07:11:52.437Z",
+  "fields": {
+    "last_price": 0.08462,
+    "mark_price": 0.08466,
+    "index_price": 0.08473,
+    "funding_rate": 0.0000125,
+    "funding_interval_hours": 4,
+    "open_interest_notional_usdt": 34756956
+  },
+  "classification": "RESEARCH_ONLY",
+  "execution_eligible": false,
+  "source_type": "OFFICIAL_SIGNED_OUT_RENDERED_UI",
+  "status": "OBSERVED",
+  "capture_start_utc": "2026-10-13T07:11:52.437Z",
+  "capture_end_utc": "2026-10-13T07:15:34.993Z",
+  "display_timezone": null,
+  "raw_chart_timezone": "UNKNOWN",
+  "capture_time_is_event_time": false,
+  "selected_symbol_verified_from": "Rendered STRKUSDT Perp heading, contract-specific index/OI links and base-asset units.",
+  "browser_address_url": "https://www.binance.com/en/futures/STRKUSDT",
+  "notes": [
+    "Official signed-out rendered Binance website only. No API or private account data.",
+    "The 03UTC gap remains unfilled. This file contains only actual 07UTC captures.",
+    "Display times are raw labels with unknown timezone. UTC capture time is not exchange event time.",
+    "Rounded display quantities are preserved with raw labels."
+  ],
+  "quantity_oi": {
+    "interval": "1h",
+    "unit": "STRK",
+    "points": [
+      {
+        "raw_label": "10/12 23:00",
+        "quantity": 412949248.6,
+        "unit": "STRK",
+        "notional_usdt": 35856383.25,
+        "captured_at_utc": "2026-10-13T07:14:30.620Z",
+        "event_time_utc": null
+      },
+      {
+        "raw_label": "10/13 00:00",
+        "quantity": 413325003.9,
+        "unit": "STRK",
+        "notional_usdt": 36109349.51,
+        "captured_at_utc": "2026-10-13T07:14:30.138Z",
+        "event_time_utc": null
+      }
+    ],
+    "delta_quantity": 375755.2999999523,
+    "change_pct": 0.09099309449620563,
+    "quality": "Latest two rendered hourly endpoints verified; raw timezone unverified.",
+    "delayed_relative_to_running_hour": false,
+    "latest_raw_label_advanced_since_prior_capture": true,
+    "same_window_price_volume_raw_label": "2026/10/12 23:00",
+    "interval_verification": "1h selected and verified in rendered Open Interest control.",
+    "stale_endpoint_flag": false,
+    "stale_endpoint_basis": "Latest endpoint raw10/13 00:00 matches verified running 1H raw10/13 00:00; prior 06UTC endpoint raw10/12 23:00. No venue timezone claim."
+  },
+  "closed_hour": {
+    "raw_label": "2026/10/12 23:00",
+    "interval": "1H",
+    "open": 0.08685,
+    "high": 0.08819,
+    "low": 0.08552,
+    "close": 0.08733,
+    "ui_change_pct": 0.56,
+    "volume_qty_display": "130.332M",
+    "volume_qty": 130332000,
+    "volume_qty_unit": "STRK",
+    "volume_usdt_display": "11.321M",
+    "volume_usdt": 11321000,
+    "captured_at_utc": "2026-10-13T07:13:38.077Z",
+    "event_time_utc": null,
+    "calculated_open_to_close_pct": 0.5526770293609706,
+    "completion_basis": "Later running candle 2026/10/13 00:00 verified on same 1H chart; raw timezone unknown.",
+    "prior_six_closed_baseline": [
+      {
+        "raw_label": "2026/10/12 22:00",
+        "interval": "1H",
+        "open": 0.08806,
+        "high": 0.08857,
+        "low": 0.08673,
+        "close": 0.08684,
+        "ui_change_pct": -1.38,
+        "volume_qty_display": "129.597M",
+        "volume_qty": 129597000.00000001,
+        "volume_qty_unit": "STRK",
+        "volume_usdt_display": "11.361M",
+        "volume_usdt": 11361000,
+        "captured_at_utc": "2026-10-13T07:13:38.492Z",
+        "event_time_utc": null,
+        "calculated_open_to_close_pct": -1.3854190324778526
+      },
+      {
+        "raw_label": "2026/10/12 21:00",
+        "interval": "1H",
+        "open": 0.08288,
+        "high": 0.08973,
+        "low": 0.08247,
+        "close": 0.08806,
+        "ui_change_pct": 6.25,
+        "volume_qty_display": "259.003M",
+        "volume_qty": 259003000,
+        "volume_qty_unit": "STRK",
+        "volume_usdt_display": "22.438M",
+        "volume_usdt": 22438000,
+        "captured_at_utc": "2026-10-13T07:13:38.917Z",
+        "event_time_utc": null,
+        "calculated_open_to_close_pct": 6.25
+      },
+      {
+        "raw_label": "2026/10/12 20:00",
+        "interval": "1H",
+        "open": 0.08582,
+        "high": 0.08666,
+        "low": 0.08253,
+        "close": 0.08288,
+        "ui_change_pct": -3.44,
+        "volume_qty_display": "207.164M",
+        "volume_qty": 207164000,
+        "volume_qty_unit": "STRK",
+        "volume_usdt_display": "17.437M",
+        "volume_usdt": 17437000,
+        "captured_at_utc": "2026-10-13T07:13:39.300Z",
+        "event_time_utc": null,
+        "calculated_open_to_close_pct": -3.4257748776509
+      },
+      {
+        "raw_label": "2026/10/12 19:00",
+        "interval": "1H",
+        "open": 0.09099,
+        "high": 0.09186,
+        "low": 0.08545,
+        "close": 0.08584,
+        "ui_change_pct": -5.65,
+        "volume_qty_display": "225.421M",
+        "volume_qty": 225421000,
+        "volume_qty_unit": "STRK",
+        "volume_usdt_display": "19.884M",
+        "volume_usdt": 19884000,
+        "captured_at_utc": "2026-10-13T07:13:39.704Z",
+        "event_time_utc": null,
+        "calculated_open_to_close_pct": -5.659962633256399
+      },
+      {
+        "raw_label": "2026/10/12 18:00",
+        "interval": "1H",
+        "open": 0.08474,
+        "high": 0.09162,
+        "low": 0.0846,
+        "close": 0.09099,
+        "ui_change_pct": 7.38,
+        "volume_qty_display": "273.006M",
+        "volume_qty": 273006000,
+        "volume_qty_unit": "STRK",
+        "volume_usdt_display": "24.066M",
+        "volume_usdt": 24066000,
+        "captured_at_utc": "2026-10-13T07:13:40.099Z",
+        "event_time_utc": null,
+        "calculated_open_to_close_pct": 7.375501534104334
+      },
+      {
+        "raw_label": "2026/10/12 17:00",
+        "interval": "1H",
+        "open": 0.08502,
+        "high": 0.08734,
+        "low": 0.08334,
+        "close": 0.08473,
+        "ui_change_pct": -0.32,
+        "volume_qty_display": "238.512M",
+        "volume_qty": 238512000,
+        "volume_qty_unit": "STRK",
+        "volume_usdt_display": "20.351M",
+        "volume_usdt": 20351000,
+        "captured_at_utc": "2026-10-13T07:13:40.497Z",
+        "event_time_utc": null,
+        "calculated_open_to_close_pct": -0.3410962126558448
+      }
+    ],
+    "prior_six_mean_qty": 222117166.66666666,
+    "volume_ratio": 0.5867713961775429,
+    "price_volume_threshold_met": false
+  },
+  "running_hour_verification": {
+    "raw_label": "2026/10/13 00:00",
+    "interval": "1H",
+    "open": 0.08733,
+    "high": 0.0878,
+    "low": 0.08416,
+    "close": 0.08481,
+    "ui_change_pct": -2.88,
+    "volume_qty_display": "71.835M",
+    "volume_qty": 71835000,
+    "volume_qty_unit": "STRK",
+    "volume_usdt_display": "6.127M",
+    "volume_usdt": 6127000,
+    "captured_at_utc": "2026-10-13T07:13:37.688Z",
+    "event_time_utc": null,
+    "calculated_open_to_close_pct": -2.8856063208519522
+  },
+  "closed_4h": {
+    "raw_label": "2026/10/12 17:00",
+    "interval": "4H",
+    "open": 0.08502,
+    "high": 0.09186,
+    "low": 0.08253,
+    "close": 0.08288,
+    "ui_change_pct": -2.5,
+    "volume_qty_display": "944.104M",
+    "volume_qty": 944104000,
+    "volume_qty_unit": "STRK",
+    "volume_usdt_display": "81.739M",
+    "volume_usdt": 81739000,
+    "captured_at_utc": "2026-10-13T07:12:24.667Z",
+    "event_time_utc": null,
+    "calculated_open_to_close_pct": -2.5170548106327906,
+    "running_4h_raw_label": "2026/10/12 21:00",
+    "completion_basis": "Later running candle 2026/10/12 21:00 verified on same 4H chart; raw timezone unknown."
+  },
+  "running_4h_verification": {
+    "raw_label": "2026/10/12 21:00",
+    "interval": "4H",
+    "open": 0.08288,
+    "high": 0.08973,
+    "low": 0.08247,
+    "close": 0.08455,
+    "ui_change_pct": 2.01,
+    "volume_qty_display": "589.005M",
+    "volume_qty": 589005000,
+    "volume_qty_unit": "STRK",
+    "volume_usdt_display": "51.099M",
+    "volume_usdt": 51099000,
+    "captured_at_utc": "2026-10-13T07:12:24.244Z",
+    "event_time_utc": null,
+    "calculated_open_to_close_pct": 2.0149613899614005
+  },
+  "taker_volume": {
+    "raw_label": "10/12 23:00",
+    "interval": "1h",
+    "unit": "STRK",
+    "sell_quantity": 63544583.7,
+    "buy_quantity": 66787440.6,
+    "captured_at_utc": "2026-10-13T07:15:34.993Z",
+    "event_time_utc": null,
+    "buy_sell_ratio": 1.051032782200759,
+    "delayed_relative_to_closed_hour": false,
+    "matched_latest_closed_hour": true,
+    "matching_basis": "Same contract, hourly interval and raw10/12 23:00 label; no UTC event-time mapping.",
+    "quantity_sum_difference_from_ohlcv": 24.30000001192093,
+    "quantity_sum_consistency_note": "Difference is within displayed OHLCV thousand-unit rounding precision."
+  },
+  "funding": {
+    "predicted_rate_decimal_per_interval": 0.0000125,
+    "raw_predicted_percent": 0.00125,
+    "interval_hours": 4,
+    "captured_at_utc": "2026-10-13T07:11:52.437Z",
+    "raw_countdown": "00:48:08",
+    "conversion": "Displayed percent divided by 100.",
+    "history_summary_display_percent": 0.002661,
+    "history_summary_event_time_utc": null,
+    "history_summary_status": "Untimestamped rendered funding-history summary; do not treat as a timestamped settled payment.",
+    "history_summary_captured_at_utc": "2026-10-13T07:15:22.758Z"
+  },
+  "depth": {
+    "captured_at_utc": "2026-10-13T07:11:52.437Z",
+    "price_unit": "USDT",
+    "size_unit": "STRK",
+    "scope": "5 visible levels each side",
+    "asks_descending": [
+      {
+        "price": 0.08467,
+        "size_quantity": 50430,
+        "cumulative_quantity": 93150,
+        "size_display": "50.43K",
+        "cumulative_display": "93.15K"
+      },
+      {
+        "price": 0.08466,
+        "size_quantity": 18570,
+        "cumulative_quantity": 42720,
+        "size_display": "18.57K",
+        "cumulative_display": "42.72K"
+      },
+      {
+        "price": 0.08465,
+        "size_quantity": 5110,
+        "cumulative_quantity": 24140,
+        "size_display": "5.11K",
+        "cumulative_display": "24.14K"
+      },
+      {
+        "price": 0.08464,
+        "size_quantity": 18900,
+        "cumulative_quantity": 19030,
+        "size_display": "18.90K",
+        "cumulative_display": "19.03K"
+      },
+      {
+        "price": 0.08463,
+        "size_quantity": 125.2,
+        "cumulative_quantity": 125.2,
+        "size_display": "125.2",
+        "cumulative_display": "125.2"
+      }
+    ],
+    "bids_descending": [
+      {
+        "price": 0.08462,
+        "size_quantity": 14660,
+        "cumulative_quantity": 14660,
+        "size_display": "14.66K",
+        "cumulative_display": "14.66K"
+      },
+      {
+        "price": 0.08461,
+        "size_quantity": 100120,
+        "cumulative_quantity": 114790,
+        "size_display": "100.12K",
+        "cumulative_display": "114.79K"
+      },
+      {
+        "price": 0.0846,
+        "size_quantity": 23630,
+        "cumulative_quantity": 138420,
+        "size_display": "23.63K",
+        "cumulative_display": "138.42K"
+      },
+      {
+        "price": 0.08459,
+        "size_quantity": 19860,
+        "cumulative_quantity": 158290,
+        "size_display": "19.86K",
+        "cumulative_display": "158.29K"
+      },
+      {
+        "price": 0.08458,
+        "size_quantity": 8900,
+        "cumulative_quantity": 167200,
+        "size_display": "8.90K",
+        "cumulative_display": "167.20K"
+      }
+    ],
+    "event_time_utc": null
+  },
+  "comparisons": {
+    "last_observed_mark_reference": {
+      "prior_captured_at_utc": "2026-10-13T06:04:30.285Z",
+      "prior_mark_price": 0.08656,
+      "current_captured_at_utc": "2026-10-13T07:11:52.437Z",
+      "current_mark_price": 0.08466,
+      "elapsed_minutes": 67.3692,
+      "change_pct": -2.1950092421441747,
+      "is_approximately_hourly": true,
+      "reason": "Same-contract actual mark captures about one hour apart; no event-time timezone inference."
+    }
+  },
+  "missing_fields": {
+    "exchange_event_time_utc": {
+      "value": null,
+      "reason": "Rendered chart timezone unverified."
+    },
+    "timestamped_funding_settlement": {
+      "value": null,
+      "reason": "Only untimestamped funding-history summary captured; no timestamped settled funding tooltip verified."
+    },
+    "full_depth": {
+      "value": null,
+      "reason": "Only 5 rendered levels per side captured."
+    }
+  },
+  "raw_public_evidence": [
+    {
+      "symbol": "STRKUSDT",
+      "kind": "market",
+      "at": "2026-10-13T07:11:52.437Z",
+      "header_lines": [
+        "\t\t\t31 heading STRKUSDT info tag, Value: 1",
+        "\t\t\t\t32 text STRKUSDT",
+        "\t\t\t\t33 container info tag",
+        "\t\t\t\t\t34 container Perp",
+        "\t\t\t\t\t\t35 text Perp",
+        "\t\t\t\t36 image",
+        "\t\t\t37 text 0.08462",
+        "\t\t\t38 text -0.01947",
+        "\t\t\t39 container",
+        "\t\t\t\t40 text -18.71 %",
+        "\t\t\t41 container",
+        "\t\t\t\t42 container",
+        "\t\t\t\t\t43 text Mark",
+        "\t\t\t\t\t44 text 0.08466",
+        "\t\t\t\t45 container",
+        "\t\t\t\t\t46 link Description: Index, Value: binance.com/en/futures/funding-history/perpetual/index?contract=STRKUSDT",
+        "\t\t\t\t\t47 text 0.08473",
+        "\t\t\t\t48 container",
+        "\t\t\t\t\t49 container",
+        "\t\t\t\t\t\t50 text Funding  (4h)  / Countdown",
+        "\t\t\t\t\t51 text 0.00125% /",
+        "\t\t\t\t\t52 text 00:48:08",
+        "\t\t\t\t53 container",
+        "\t\t\t\t\t54 text 24h High 0.10797",
+        "\t\t\t\t55 container",
+        "\t\t\t\t\t56 text 24h Low 0.08189",
+        "\t\t\t\t57 container",
+        "\t\t\t\t\t58 text 24h Vol(STRK) 5,821,840,461.3",
+        "\t\t\t\t59 container",
+        "\t\t\t\t\t60 text 24h Vol(USDT) 543,462,492.07",
+        "\t\t\t\t61 container",
+        "\t\t\t\t\t62 link Description: Open Interest(USDT), Value: binance.com/en/futures/funding-history/perpetual/trading-data?contract=STRKUSDT",
+        "\t\t\t\t\t63 text 34,756,956.00",
+        "\t\t\t\t64 image"
+      ],
+      "depth_lines": [
+        "\t\t\t\t\t145 container futuresOrderbook",
+        "\t\t\t\t\t\t146 container",
+        "\t\t\t\t\t\t\t147 text 0.00001",
+        "\t\t\t\t\t\t\t148 image",
+        "\t\t\t\t\t\t149 text Price (USDT)",
+        "\t\t\t\t\t\t150 text Size ( STRK ) Sum ( STRK )",
+        "\t\t\t\t\t\t151 container",
+        "\t\t\t\t\t\t\t152 container",
+        "\t\t\t\t\t\t\t\t153 text 0.08467",
+        "\t\t\t\t\t\t\t\t154 text 50.43K 93.15K",
+        "\t\t\t\t\t\t\t155 container",
+        "\t\t\t\t\t\t\t\t156 text 0.08466",
+        "\t\t\t\t\t\t\t\t157 text 18.57K 42.72K",
+        "\t\t\t\t\t\t\t158 container",
+        "\t\t\t\t\t\t\t\t159 text 0.08465",
+        "\t\t\t\t\t\t\t\t160 text 5.11K 24.14K",
+        "\t\t\t\t\t\t\t161 container",
+        "\t\t\t\t\t\t\t\t162 text 0.08464",
+        "\t\t\t\t\t\t\t\t163 text 18.90K 19.03K",
+        "\t\t\t\t\t\t\t164 container",
+        "\t\t\t\t\t\t\t\t165 text 0.08463",
+        "\t\t\t\t\t\t\t\t166 text 125.2 125.2",
+        "\t\t\t\t\t\t167 text 0.08462",
+        "\t\t\t\t\t\t168 image",
+        "\t\t\t\t\t\t169 text 0.08466",
+        "\t\t\t\t\t\t170 container",
+        "\t\t\t\t\t\t\t171 container",
+        "\t\t\t\t\t\t\t\t172 text 0.08462",
+        "\t\t\t\t\t\t\t\t173 text 14.66K 14.66K",
+        "\t\t\t\t\t\t\t174 container",
+        "\t\t\t\t\t\t\t\t175 text 0.08461",
+        "\t\t\t\t\t\t\t\t176 text 100.12K 114.79K",
+        "\t\t\t\t\t\t\t177 container",
+        "\t\t\t\t\t\t\t\t178 text 0.08460",
+        "\t\t\t\t\t\t\t\t179 text 23.63K 138.42K",
+        "\t\t\t\t\t\t\t180 container",
+        "\t\t\t\t\t\t\t\t181 text 0.08459",
+        "\t\t\t\t\t\t\t\t182 text 19.86K 158.29K",
+        "\t\t\t\t\t\t\t183 container",
+        "\t\t\t\t\t\t\t\t184 text 0.08458",
+        "\t\t\t\t\t\t\t\t185 text 8.90K 167.20K"
+      ]
+    },
+    {
+      "symbol": "STRKUSDT",
+      "kind": "4H_running",
+      "at": "2026-10-13T07:12:24.244Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t\t305 text 2026/10/12 21:00 Open 0.08288 High 0.08973 Low 0.08247 Close 0.08455 CHANGE 2.01% Range 8.75%",
+        "\t\t\t\t\t\t\t\t\t307 text Vol(STRK) 589.005M Vol(USDT) 51.099M 935.694M 1.438B"
+      ]
+    },
+    {
+      "symbol": "STRKUSDT",
+      "kind": "4H",
+      "at": "2026-10-13T07:12:24.667Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t\t308 text 2026/10/12 17:00 Open 0.08502 High 0.09186 Low 0.08253 Close 0.08288 CHANGE -2.50% Range 10.97%",
+        "\t\t\t\t\t\t\t\t\t307 text Vol(STRK) 944.104M Vol(USDT) 81.739M 1.056B 1.515B"
+      ]
+    },
+    {
+      "symbol": "STRKUSDT",
+      "kind": "1H_running",
+      "at": "2026-10-13T07:13:37.688Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t\t321 text 2026/10/13 00:00 Open 0.08733 High 0.08780 Low 0.08416 Close 0.08481 CHANGE -2.88% Range 4.16%",
+        "\t\t\t\t\t\t\t\t\t307 text Vol(STRK) 71.835M Vol(USDT) 6.127M 185.194M 202.571M"
+      ]
+    },
+    {
+      "symbol": "STRKUSDT",
+      "kind": "1H",
+      "at": "2026-10-13T07:13:38.077Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t\t321 text 2026/10/12 23:00 Open 0.08685 High 0.08819 Low 0.08552 Close 0.08733 CHANGE 0.56% Range 3.07%",
+        "\t\t\t\t\t\t\t\t\t307 text Vol(STRK) 130.332M Vol(USDT) 11.321M 209.005M 221.797M"
+      ]
+    },
+    {
+      "symbol": "STRKUSDT",
+      "kind": "1H",
+      "at": "2026-10-13T07:13:38.492Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t\t321 text 2026/10/12 22:00 Open 0.08806 High 0.08857 Low 0.08673 Close 0.08684 CHANGE -1.38% Range 2.08%",
+        "\t\t\t\t\t\t\t\t\t307 text Vol(STRK) 129.597M Vol(USDT) 11.361M 225.619M 235.145M"
+      ]
+    },
+    {
+      "symbol": "STRKUSDT",
+      "kind": "1H",
+      "at": "2026-10-13T07:13:38.917Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t\t321 text 2026/10/12 21:00 Open 0.08288 High 0.08973 Low 0.08247 Close 0.08806 CHANGE 6.25% Range 8.75%",
+        "\t\t\t\t\t\t\t\t\t307 text Vol(STRK) 259.003M Vol(USDT) 22.438M 265.986M 242.859M"
+      ]
+    },
+    {
+      "symbol": "STRKUSDT",
+      "kind": "1H",
+      "at": "2026-10-13T07:13:39.300Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t\t321 text 2026/10/12 20:00 Open 0.08582 High 0.08666 Low 0.08253 Close 0.08288 CHANGE -3.44% Range 4.81%",
+        "\t\t\t\t\t\t\t\t\t307 text Vol(STRK) 207.164M Vol(USDT) 17.437M 250.826M 251.112M"
+      ]
+    },
+    {
+      "symbol": "STRKUSDT",
+      "kind": "1H",
+      "at": "2026-10-13T07:13:39.704Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t\t321 text 2026/10/12 19:00 Open 0.09099 High 0.09186 Low 0.08545 Close 0.08584 CHANGE -5.65% Range 7.04%",
+        "\t\t\t\t\t\t\t\t\t307 text Vol(STRK) 225.421M Vol(USDT) 19.884M 234.237M 281.218M"
+      ]
+    },
+    {
+      "symbol": "STRKUSDT",
+      "kind": "1H",
+      "at": "2026-10-13T07:13:40.099Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t\t321 text 2026/10/12 18:00 Open 0.08474 High 0.09162 Low 0.08460 Close 0.09099 CHANGE 7.38% Range 8.28%",
+        "\t\t\t\t\t\t\t\t\t307 text Vol(STRK) 273.006M Vol(USDT) 24.066M 224.108M 275.629M"
+      ]
+    },
+    {
+      "symbol": "STRKUSDT",
+      "kind": "1H",
+      "at": "2026-10-13T07:13:40.497Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t\t321 text 2026/10/12 17:00 Open 0.08502 High 0.08734 Low 0.08334 Close 0.08473 CHANGE -0.32% Range 4.70%",
+        "\t\t\t\t\t\t\t\t\t307 text Vol(STRK) 238.512M Vol(USDT) 20.351M 219.947M 263.963M"
+      ]
+    },
+    {
+      "symbol": "STRKUSDT",
+      "kind": "OI",
+      "at": "2026-10-13T07:14:30.138Z",
+      "lines": [
+        "\t\t\t\t\t\t284 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t\t321 text 10/13 00:00 Open Interest (STRK): 413,325,003.900 Notional Value of Open Interest (USDT): 36,109,349.51"
+      ]
+    },
+    {
+      "symbol": "STRKUSDT",
+      "kind": "OI",
+      "at": "2026-10-13T07:14:30.620Z",
+      "lines": [
+        "\t\t\t\t\t\t284 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t\t321 text 10/12 23:00 Open Interest (STRK): 412,949,248.600 Notional Value of Open Interest (USDT): 35,856,383.25"
+      ]
+    },
+    {
+      "symbol": "STRKUSDT",
+      "kind": "funding_history",
+      "at": "2026-10-13T07:15:22.758Z",
+      "lines": [
+        "\t\t\t\t\t\t311 text Funding Rate: 0.002661%"
+      ]
+    },
+    {
+      "symbol": "STRKUSDT",
+      "kind": "taker",
+      "at": "2026-10-13T07:15:34.993Z",
+      "lines": [
+        "\t\t\t\t\t\t284 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand",
+        "\t\t\t\t\t\t303 text Taker Buy/Sell Volume",
+        "\t\t\t\t\t\t304 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t\t321 text 10/12 23:00 Taker Sell Volume (STRK): 63,544,583.700 Taker Buy Volume (STRK): 66,787,440.600"
+      ]
+    }
+  ]
+}
