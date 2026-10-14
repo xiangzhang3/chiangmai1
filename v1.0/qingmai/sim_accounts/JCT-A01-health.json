@@ -1,0 +1,6 @@
+{
+  "checked_at": "2026-10-14T14:58:46.347557+00:00",
+  "status": "UNVERIFIED",
+  "reason": "451 Client Error:  for url: https://fapi.binance.com/fapi/v1/exchangeInfo",
+  "details": {}
+}
