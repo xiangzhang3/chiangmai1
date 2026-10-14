@@ -1,6 +1,9 @@
 {
-  "checked_at": "2026-10-14T15:02:53.111756+00:00",
-  "status": "UNVERIFIED",
-  "reason": "Binance: 451 Client Error:  for url: https://fapi.binance.com/fapi/v1/exchangeInfo; Bybit: 403 Client Error: Forbidden for url: https://api.bybit.com/v5/market/instruments-info?category=linear&symbol=JCTUSDT; OKX: OKX: Instrument ID, Instrument ID code, or Spread ID doesn't exist.",
-  "details": {}
+  "checked_at": "2026-10-14T15:03:54.553825+00:00",
+  "status": "OK",
+  "reason": "HOLD",
+  "details": {
+    "market_as_of": "2026-10-14T15:03:00+00:00",
+    "price": 0.00209
+  }
 }
