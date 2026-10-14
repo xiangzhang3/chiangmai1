@@ -97,6 +97,31 @@ def bybit_snapshot():
             "prior_6h_low":min(float(x[3]) for x in complete[-7:-1]),
             "funding_rate":float(ticks[0]["fundingRate"]),"symbol":SYMBOL}
 
+def okx_snapshot():
+    """OKX independent verified mark only; NO paper fills without same-venue OI history."""
+    base="https://www.okx.com"
+    def ok(path,**params):
+        r=requests.get(base+path,params=params,timeout=10)
+        r.raise_for_status()
+        obj=r.json()
+        if obj.get("code")!="0":raise ValueError("OKX: "+str(obj.get("msg")))
+        return obj["data"]
+    instrument="JCT-USDT-SWAP"
+    info=ok("/api/v5/public/instruments",instType="SWAP",instId=instrument)
+    valid=[x for x in info if x.get("instId")==instrument and x.get("instType")=="SWAP"
+           and x.get("settleCcy")=="USDT" and x.get("state")=="live"]
+    if len(valid)!=1:raise ValueError("OKX perpetual instrument not verified")
+    ticks=ok("/api/v5/market/ticker",instId=instrument)
+    if len(ticks)!=1 or ticks[0].get("instId")!=instrument:raise ValueError("OKX ticker invalid")
+    row=ticks[0]
+    price=float(row["last"])
+    stamped=asof(row["ts"])
+    validate_quote({"source":"okx_swap_last","price":price,"as_of":stamped})
+    return {"source":"okx_swap_data_only","as_of":stamped,"price":price,"oi_2h_pct":None,
+            "price_2h_pct":None,"taker_ratio":None,"volume_acceleration":None,
+            "prior_6h_high":None,"prior_6h_low":None,
+            "funding_rate":None,"symbol":SYMBOL}
+
 def run():
     ledger=json.loads(ACCOUNT.read_text())
     verify_ledger(ledger)
@@ -106,8 +131,11 @@ def run():
         try:
             market=bybit_snapshot()
         except Exception as fallback:
-            report("UNVERIFIED","Binance: "+str(primary)+"; Bybit: "+str(fallback))
-            return 0
+            try:
+                market=okx_snapshot()
+            except Exception as last:
+                report("UNVERIFIED","Binance: "+str(primary)+"; Bybit: "+str(fallback)+"; OKX: "+str(last))
+                return 0
     # Do not retry the same market observation as another fill.
     previous=ledger.get("last_market_snapshot") or {}
     if market["as_of"]==previous.get("market_as_of") or market["as_of"]==previous.get("as_of"):
@@ -139,7 +167,8 @@ def run():
             action="PAPER_CLOSE"
     else:
         # Conservative, deterministic prototype signal. All live fields must be verified first.
-        bullish=(market["oi_2h_pct"]>=5 and market["volume_acceleration"]>=5
+        bullish=(market["oi_2h_pct"] is not None and market["volume_acceleration"] is not None
+                 and market["oi_2h_pct"]>=5 and market["volume_acceleration"]>=5
                  and (market["taker_ratio"]>1.1 if market["taker_ratio"] is not None else market["price_2h_pct"]>3) and market["price"]>market["prior_6h_high"])
         if bullish:
             entry=market["price"]*1.0005
