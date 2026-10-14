@@ -56,14 +56,58 @@ def exchange_snapshot():
     return {"source":"binance_futures","as_of":asof(mark["time"]),"price":price,"oi_2h_pct":oi2,"price_2h_pct":price2,
             "taker_ratio":ratio,"volume_acceleration":acceleration,"prior_6h_high":high,"prior_6h_low":low,
             "funding_rate":float(mark["lastFundingRate"]),"symbol":SYMBOL}
+def bybit_snapshot():
+    """Independent linear USDT perpetual venue; do not splice Binance OI into Bybit data."""
+    base="https://api.bybit.com"
+    def by(path,**params):
+        resp=requests.get(base+path,params=params,timeout=10)
+        resp.raise_for_status()
+        data=resp.json()
+        if data.get("retCode")!=0: raise ValueError("Bybit API error: "+str(data.get("retMsg")))
+        return data
+    info=by("/v5/market/instruments-info",category="linear",symbol=SYMBOL)
+    products=[s for s in info["result"]["list"] if s.get("symbol")==SYMBOL and s.get("status")=="Trading"
+              and s.get("quoteCoin")=="USDT" and s.get("contractType")=="LinearPerpetual"]
+    if len(products)!=1: raise ValueError("Bybit JCTUSDT linear perpetual not verified")
+    quote=by("/v5/market/tickers",category="linear",symbol=SYMBOL)
+    ticks=[x for x in quote["result"]["list"] if x.get("symbol")==SYMBOL]
+    if len(ticks)!=1: raise ValueError("Bybit contract quote missing")
+    price=float(ticks[0]["markPrice"])
+    stamped=asof(quote["time"])
+    validate_quote({"source":"bybit_linear_mark","price":price,"as_of":stamped})
+    raw=by("/v5/market/kline",category="linear",symbol=SYMBOL,interval="60",limit=170)["result"]["list"]
+    # Bybit candles are newest first, each record starts with bar-open ms.
+    candles=sorted(raw,key=lambda a:int(a[0]))
+    complete=[x for x in candles if int(x[0])+3600000<int(now().timestamp()*1000)]
+    if len(complete)<168: raise ValueError("Bybit missing completed 7d candles")
+    if now().timestamp()*1000-(int(complete[-1][0])+3600000)>75*60000:
+        raise ValueError("Stale Bybit candle")
+    oi_raw=by("/v5/market/open-interest",category="linear",symbol=SYMBOL,intervalTime="1h",limit=30)["result"]["list"]
+    oi=sorted(oi_raw,key=lambda x:int(x["timestamp"]))
+    if len(oi)<3 or now().timestamp()*1000-int(oi[-1]["timestamp"])>130*60000:
+        raise ValueError("Stale Bybit OI history")
+    def change(a,b):return 100*(a/b-1) if b else 0
+    vol2=sum(float(x[6]) for x in complete[-2:])
+    daily=sum(float(x[6]) for x in complete[-168:])/7
+    return {"source":"bybit_linear","as_of":stamped,"price":price,
+            "oi_2h_pct":change(float(oi[-1]["openInterest"]),float(oi[-3]["openInterest"])),
+            "price_2h_pct":change(float(complete[-1][4]),float(complete[-3][4])),
+            "taker_ratio":None,"volume_acceleration":12*vol2/daily if daily>0 else 0,
+            "prior_6h_high":max(float(x[2]) for x in complete[-7:-1]),
+            "prior_6h_low":min(float(x[3]) for x in complete[-7:-1]),
+            "funding_rate":float(ticks[0]["fundingRate"]),"symbol":SYMBOL}
+
 def run():
     ledger=json.loads(ACCOUNT.read_text())
     verify_ledger(ledger)
     try:
         market=exchange_snapshot()
-    except Exception as exc:
-        report("UNVERIFIED",exc)
-        return 0
+    except Exception as primary:
+        try:
+            market=bybit_snapshot()
+        except Exception as fallback:
+            report("UNVERIFIED","Binance: "+str(primary)+"; Bybit: "+str(fallback))
+            return 0
     # Do not retry the same market observation as another fill.
     previous=ledger.get("last_market_snapshot") or {}
     if market["as_of"]==previous.get("market_as_of") or market["as_of"]==previous.get("as_of"):
@@ -96,7 +140,7 @@ def run():
     else:
         # Conservative, deterministic prototype signal. All live fields must be verified first.
         bullish=(market["oi_2h_pct"]>=5 and market["volume_acceleration"]>=5
-                 and market["taker_ratio"]>1.1 and market["price"]>market["prior_6h_high"])
+                 and (market["taker_ratio"]>1.1 if market["taker_ratio"] is not None else market["price_2h_pct"]>3) and market["price"]>market["prior_6h_high"])
         if bullish:
             entry=market["price"]*1.0005
             stop=entry*0.98
