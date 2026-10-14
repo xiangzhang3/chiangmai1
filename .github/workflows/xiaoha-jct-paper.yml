@@ -34,7 +34,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add v1.0/qingmai/sim_accounts/JCT-A01.json v1.0/qingmai/sim_accounts/JCT-A01-health.json
+          git add -A -- v1.0/qingmai/sim_accounts
           if ! git diff --cached --quiet; then
             git commit -m "chore: xiaoha JCT paper snapshot [skip ci]"
             git push
