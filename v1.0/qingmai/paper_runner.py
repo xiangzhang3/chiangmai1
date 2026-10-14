@@ -122,6 +122,29 @@ def okx_snapshot():
             "prior_6h_high":None,"prior_6h_low":None,
             "funding_rate":None,"symbol":SYMBOL}
 
+def gate_snapshot():
+    """Independent Gate perpetual 1m timestamped last candle; data only."""
+    base="https://api.gateio.ws/api/v4"
+    contract="JCT_USDT"
+    def gate(endpoint,**params):
+        r=requests.get(base+endpoint,params=params,timeout=10)
+        r.raise_for_status()
+        return r.json()
+    info=gate("/futures/usdt/contracts/"+contract)
+    if not isinstance(info,dict) or info.get("name")!=contract or info.get("in_delisting",False):
+        raise ValueError("Gate JCT contract not verified")
+    candles=gate("/futures/usdt/candlesticks",contract=contract,interval="1m",limit=5)
+    bars=sorted(candles,key=lambda x:int(x["t"]))
+    if len(bars)<2:raise ValueError("Gate short candle series")
+    # Penultimate candle is closed even if most recent one is forming.
+    row=bars[-2]
+    price=float(row["c"])
+    stamped=asof((int(row["t"])+60)*1000)
+    validate_quote({"source":"gate_perp_candle","price":price,"as_of":stamped})
+    return {"source":"gate_perp_data_only","as_of":stamped,"price":price,"oi_2h_pct":None,
+            "price_2h_pct":None,"taker_ratio":None,"volume_acceleration":None,
+            "prior_6h_high":None,"prior_6h_low":None,"funding_rate":None,"symbol":SYMBOL}
+
 def run():
     ledger=json.loads(ACCOUNT.read_text())
     verify_ledger(ledger)
@@ -134,8 +157,11 @@ def run():
             try:
                 market=okx_snapshot()
             except Exception as last:
-                report("UNVERIFIED","Binance: "+str(primary)+"; Bybit: "+str(fallback)+"; OKX: "+str(last))
-                return 0
+                try:
+                    market=gate_snapshot()
+                except Exception as gate_error:
+                    report("UNVERIFIED","Binance: "+str(primary)+"; Bybit: "+str(fallback)+"; OKX: "+str(last)+"; Gate: "+str(gate_error))
+                    return 0
     # Do not retry the same market observation as another fill.
     previous=ledger.get("last_market_snapshot") or {}
     if market["as_of"]==previous.get("market_as_of") or market["as_of"]==previous.get("as_of"):
