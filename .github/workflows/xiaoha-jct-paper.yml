@@ -6,6 +6,7 @@ on:
   push:
     paths:
       - '.github/workflows/xiaoha-jct-paper.yml'
+      - 'v1.0/qingmai/paper_runner.py'
 permissions:
   contents: write
 concurrency:
