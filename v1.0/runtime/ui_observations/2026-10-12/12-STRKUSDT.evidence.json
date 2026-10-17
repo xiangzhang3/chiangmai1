@@ -1,0 +1,455 @@
+{
+  "symbol": "STRKUSDT",
+  "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+  "status": "PARTIAL_RESEARCH_ONLY",
+  "execution_eligible": false,
+  "capture_start_utc": "2026-10-12T12:01:21.276Z",
+  "capture_end_utc": "2026-10-12T12:08:22.701Z",
+  "display_timezone": "UNKNOWN",
+  "capture_time_is_event_time": false,
+  "selected_symbol_verified_from": "Rendered heading, verified source URL, and public-chart quantity units; signed-out Log In/Sign Up controls were visible.",
+  "funding_conversion": {
+    "source": "Header Funding (Nh) / Countdown",
+    "raw_percent": 0.005,
+    "rate_decimal_per_interval": 5e-05,
+    "interval_hours": 4,
+    "settlement_history_verified": false
+  },
+  "oi_timeline": {
+    "previous": {
+      "raw_label": "10/12 04:00",
+      "quantity": 442259545.1,
+      "unit": "STRK",
+      "notional_usdt": 46728794.15,
+      "observed_at": "2026-10-12T12:07:13.376Z",
+      "event_time_utc": null,
+      "source_capture_kind": "STRK_OI_previous_final"
+    },
+    "latest": {
+      "raw_label": "10/12 05:00",
+      "quantity": 440279648.9,
+      "unit": "STRK",
+      "notional_usdt": 46031268.11,
+      "observed_at": "2026-10-12T12:07:13.092Z",
+      "event_time_utc": null,
+      "source_capture_kind": "STRK_OI_latest_final"
+    },
+    "delta_quantity": -1979896.2,
+    "delta_percent": -0.44767743781592984,
+    "interval_hours_from_raw_labels": 1,
+    "delayed_or_reused_endpoint": null,
+    "reused_last_published_endpoint": false,
+    "initial_capture_reused_prior_endpoint": true,
+    "initial_latest_raw_label": "10/12 04:00",
+    "initial_endpoint_delay_observed": true,
+    "status": "NEW_1H_ENDPOINT_AFTER_DELAYED_INITIAL_RENDER_EVENT_TIMEZONE_UNVERIFIED",
+    "same_window_price_volume": {
+      "matching_basis": "Same contract and displayed hourly labels 10/12 04:00 to 10/12 05:00; absolute event timezone unverified.",
+      "candle": {
+        "raw_label": "2026/10/12 04:00",
+        "interval_hours": 1,
+        "open": 0.10565,
+        "high": 0.10611,
+        "low": 0.10405,
+        "close": 0.10456,
+        "display_change_percent": -1.03,
+        "base_volume": 109671000,
+        "base_volume_raw": "109.671M",
+        "quote_volume_usdt": 11536000,
+        "quote_volume_raw": "11.536M",
+        "volume_precision": "UI_ABBREVIATED_APPROXIMATE",
+        "observed_at": "2026-10-12T12:08:22.701Z",
+        "event_time_utc": null,
+        "source_capture_kind": "STRK_1h_latest_final",
+        "completed": true,
+        "completion_basis": "A later 05:00 current candle was visibly present on the same selected interval; no UTC event-hour mapping."
+      },
+      "open_to_close_change_percent": -1.0317084713677205
+    },
+    "note": "Initial capture still showed the previously published 04:00 endpoint. Re-selecting 1h through the rendered controls later produced the new 05:00 endpoint. Final exact delay relative to venue time cannot be established without timezone verification."
+  },
+  "mark_snapshot_comparison": {
+    "prior_observed_at": "2026-10-12T11:03:38.619Z",
+    "prior_mark_price": 0.10588,
+    "current_observed_at": "2026-10-12T12:07:13.092Z",
+    "current_mark_price": 0.10437,
+    "elapsed_minutes": 63.57455,
+    "change_percent": -1.4261428031734025,
+    "comparison_basis": "Same-contract rendered mark snapshots approximately one actual UTC hour apart; not a candle return."
+  },
+  "depth": {
+    "source_capture_kind": "STRK_OI_latest_final",
+    "observed_at": "2026-10-12T12:07:13.092Z",
+    "unit": "STRK",
+    "visible_ask_levels": 5,
+    "visible_bid_levels": 5,
+    "raw_field": "order_book_raw",
+    "full_depth": false,
+    "exchange_event_time_utc": null,
+    "precision": "UI_ABBREVIATED_QUANTITY"
+  },
+  "completed_1h_candles": [
+    {
+      "raw_label": "2026/10/12 04:00",
+      "interval_hours": 1,
+      "open": 0.10565,
+      "high": 0.10611,
+      "low": 0.10405,
+      "close": 0.10456,
+      "display_change_percent": -1.03,
+      "base_volume": 109671000,
+      "base_volume_raw": "109.671M",
+      "quote_volume_usdt": 11536000,
+      "quote_volume_raw": "11.536M",
+      "volume_precision": "UI_ABBREVIATED_APPROXIMATE",
+      "observed_at": "2026-10-12T12:08:22.701Z",
+      "event_time_utc": null,
+      "source_capture_kind": "STRK_1h_latest_final",
+      "completed": true,
+      "completion_basis": "A later 05:00 current candle was visibly present on the same selected interval; no UTC event-hour mapping."
+    },
+    {
+      "raw_label": "2026/10/12 03:00",
+      "interval_hours": 1,
+      "open": 0.10505,
+      "high": 0.10717,
+      "low": 0.1038,
+      "close": 0.10565,
+      "display_change_percent": 0.58,
+      "base_volume": 126029000,
+      "base_volume_raw": "126.029M",
+      "quote_volume_usdt": 13302000,
+      "quote_volume_raw": "13.302M",
+      "volume_precision": "UI_ABBREVIATED_APPROXIMATE",
+      "observed_at": "2026-10-12T12:03:50.628Z",
+      "event_time_utc": null,
+      "source_capture_kind": "STRK_1h_complete",
+      "completed": true,
+      "completion_basis": "A later 05:00 current candle was visibly present on the same selected interval; no UTC event-hour mapping."
+    },
+    {
+      "raw_label": "2026/10/12 02:00",
+      "interval_hours": 1,
+      "open": 0.10375,
+      "high": 0.10797,
+      "low": 0.10301,
+      "close": 0.10504,
+      "display_change_percent": 1.24,
+      "base_volume": 260216000,
+      "base_volume_raw": "260.216M",
+      "quote_volume_usdt": 27442000,
+      "quote_volume_raw": "27.442M",
+      "volume_precision": "UI_ABBREVIATED_APPROXIMATE",
+      "observed_at": "2026-10-12T12:03:50.886Z",
+      "event_time_utc": null,
+      "source_capture_kind": "STRK_1h_complete",
+      "completed": true,
+      "completion_basis": "A later 05:00 current candle was visibly present on the same selected interval; no UTC event-hour mapping."
+    },
+    {
+      "raw_label": "2026/10/12 01:00",
+      "interval_hours": 1,
+      "open": 0.10145,
+      "high": 0.10385,
+      "low": 0.10061,
+      "close": 0.10375,
+      "display_change_percent": 2.26,
+      "base_volume": 185210000,
+      "base_volume_raw": "185.21M",
+      "quote_volume_usdt": 18915000,
+      "quote_volume_raw": "18.915M",
+      "volume_precision": "UI_ABBREVIATED_APPROXIMATE",
+      "observed_at": "2026-10-12T12:03:51.099Z",
+      "event_time_utc": null,
+      "source_capture_kind": "STRK_1h_complete",
+      "completed": true,
+      "completion_basis": "A later 05:00 current candle was visibly present on the same selected interval; no UTC event-hour mapping."
+    },
+    {
+      "raw_label": "2026/10/12 00:00",
+      "interval_hours": 1,
+      "open": 0.10389,
+      "high": 0.10663,
+      "low": 0.1008,
+      "close": 0.10145,
+      "display_change_percent": -2.33,
+      "base_volume": 289306000,
+      "base_volume_raw": "289.306M",
+      "quote_volume_usdt": 29762000,
+      "quote_volume_raw": "29.762M",
+      "volume_precision": "UI_ABBREVIATED_APPROXIMATE",
+      "observed_at": "2026-10-12T12:03:51.336Z",
+      "event_time_utc": null,
+      "source_capture_kind": "STRK_1h_complete",
+      "completed": true,
+      "completion_basis": "A later 05:00 current candle was visibly present on the same selected interval; no UTC event-hour mapping."
+    },
+    {
+      "raw_label": "2026/10/11 23:00",
+      "interval_hours": 1,
+      "open": 0.10622,
+      "high": 0.10665,
+      "low": 0.10264,
+      "close": 0.10388,
+      "display_change_percent": -2.19,
+      "base_volume": 215002000,
+      "base_volume_raw": "215.002M",
+      "quote_volume_usdt": 22586000,
+      "quote_volume_raw": "22.586M",
+      "volume_precision": "UI_ABBREVIATED_APPROXIMATE",
+      "observed_at": "2026-10-12T12:03:51.601Z",
+      "event_time_utc": null,
+      "source_capture_kind": "STRK_1h_complete",
+      "completed": true,
+      "completion_basis": "A later 05:00 current candle was visibly present on the same selected interval; no UTC event-hour mapping."
+    },
+    {
+      "raw_label": "2026/10/11 22:00",
+      "interval_hours": 1,
+      "open": 0.10609,
+      "high": 0.10828,
+      "low": 0.10547,
+      "close": 0.10621,
+      "display_change_percent": 0.11,
+      "base_volume": 179338000,
+      "base_volume_raw": "179.338M",
+      "quote_volume_usdt": 19138000,
+      "quote_volume_raw": "19.138M",
+      "volume_precision": "UI_ABBREVIATED_APPROXIMATE",
+      "observed_at": "2026-10-12T12:03:51.820Z",
+      "event_time_utc": null,
+      "source_capture_kind": "STRK_1h_complete",
+      "completed": true,
+      "completion_basis": "A later 05:00 current candle was visibly present on the same selected interval; no UTC event-hour mapping."
+    }
+  ],
+  "completed_4h_candles": [
+    {
+      "raw_label": "2026/10/12 01:00",
+      "interval_hours": 4,
+      "open": 0.10145,
+      "high": 0.10797,
+      "low": 0.10061,
+      "close": 0.10456,
+      "display_change_percent": 3.06,
+      "base_volume": 681127000,
+      "base_volume_raw": "681.127M",
+      "quote_volume_usdt": 71197000,
+      "quote_volume_raw": "71.197M",
+      "volume_precision": "UI_ABBREVIATED_APPROXIMATE",
+      "observed_at": "2026-10-12T12:04:49.363Z",
+      "event_time_utc": null,
+      "source_capture_kind": "STRK_4h_latest_complete",
+      "completed": true,
+      "completion_basis": "A later 05:00 current candle was visibly present on the same selected interval; no UTC event-hour mapping."
+    }
+  ],
+  "taker_buy_sell_hourly": [
+    {
+      "raw_label": "10/12 04:00",
+      "unit": "STRK",
+      "sell_quantity": 58716497.4,
+      "buy_quantity": 50952843,
+      "buy_sell_ratio": 0.8677772901351571,
+      "observed_at": "2026-10-12T12:05:51.475Z",
+      "event_time_utc": null,
+      "interval_hours": 1,
+      "source_capture_kind": "STRK_taker_latest_1h"
+    },
+    {
+      "raw_label": "10/12 03:00",
+      "unit": "STRK",
+      "sell_quantity": 61059036.9,
+      "buy_quantity": 64968040.1,
+      "buy_sell_ratio": 1.0640200599036964,
+      "observed_at": "2026-10-12T12:05:52.373Z",
+      "event_time_utc": null,
+      "interval_hours": 1,
+      "source_capture_kind": "STRK_taker_previous_1h"
+    }
+  ],
+  "candle_revision": {
+    "observed": true,
+    "superseded_latest_hour": {
+      "raw_label": "2026/10/12 04:00",
+      "interval_hours": 1,
+      "open": 0.10565,
+      "high": 0.10611,
+      "low": 0.10405,
+      "close": 0.10468,
+      "display_change_percent": -0.91,
+      "base_volume": 105813000,
+      "base_volume_raw": "105.813M",
+      "quote_volume_usdt": 11133000,
+      "quote_volume_raw": "11.133M",
+      "volume_precision": "UI_ABBREVIATED_APPROXIMATE",
+      "observed_at": "2026-10-12T12:03:50.331Z",
+      "event_time_utc": null,
+      "source_capture_kind": "STRK_1h_complete",
+      "completed": true,
+      "completion_basis": "A later 05:00 current candle was visibly present on the same selected interval; no UTC event-hour mapping."
+    },
+    "used_capture_kind": "STRK_1h_latest_final",
+    "note": "The same latest completed hourly candle changed on a later rendered reload. Retain both observations, use the later values, and do not assume unverified historical data finality. Taker and candle quantities remain separate feeds and are not forced equal."
+  },
+  "settled_funding_history": null,
+  "missing_fields": [
+    "Chart and trade-label timezone independently unverified; event_time_utc remains null.",
+    "No verified event timestamps for live mark/depth.",
+    "Only seven completed hourly candles and one completed 4h candle, not complete strategy history.",
+    "Only two hourly OI quantity endpoints in final segment, not 25 continuous verified samples.",
+    "Funding settlement history and settlement mark not captured.",
+    "No account or execution-state validation; public-only research cannot authorize a trade."
+  ],
+  "public_captures": [
+    {
+      "kind": "STRK_OI_latest_initial",
+      "observed_at": "2026-10-12T12:01:21.276Z",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+      "market_raw": "- heading \"STRKUSDT info tag\" [level=1]:\n  - generic: STRKUSDT\n  - generic \"info tag\":\n    - tooltip \"Perp\":\n      - generic: Perp\n- generic: \"0.10429\"\n- generic: \"-0.01018\"\n- generic: \"-8.89%\"\n- generic: Mark\n- generic: \"0.10451\"\n- link \"Index\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/index?contract=STRKUSDT\n  - text: Index\n- generic: \"0.10455\"\n- generic: Funding (4h) / Countdown\n- generic: 0.00500%\n- generic: /\n- generic: 03:58:39\n- generic: 24h High\n- generic: \"0.12660\"\n- generic: 24h Low\n- generic: \"0.10061\"\n- generic: 24h Vol(STRK)\n- generic: 8,385,889,495.1\n- generic: 24h Vol(USDT)\n- generic: 956,238,963.36\n- link \"Open Interest(USDT)\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=STRKUSDT\n  - text: Open Interest(USDT)\n- generic: 46,024,434.08\n",
+      "trading_data_raw": "- tabpanel \"Trading Data\":\n  - generic: Open Interest\n  - combobox \"Select an option\":\n    - generic: 1h\n  - combobox \"Select an option\":\n    - generic: Single\n  - text: 10/12 04:00\n  - paragraph: \"Open Interest (STRK): 442,259,545.100\"\n  - paragraph: \"Notional Value of Open Interest (USDT):\"\n  - paragraph: 46,728,794.15\n  - generic: Top Trader Long/Short Ratio (Accounts)\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Top Trader Long/Short Ratio (Positions)\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Long/Short Ratio\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Taker Buy/Sell Volume\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Basis\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: \"Funding Rate: 0.005000%\"\n  - combobox \"Select an option\":\n    - generic: Last 40 Times\n  - generic: Open Interest to Market Cap Ratio\n  - combobox \"Select an option\":\n    - generic: 5m\n",
+      "order_book_raw": "- tabpanel \"Order Book\":\n  - generic: \"0.00001\"\n  - generic: Price (USDT)\n  - generic: Size\n  - generic: (STRK)\n  - generic: Sum\n  - generic: (STRK)\n  - generic: \"0.10432\"\n  - generic: 27.08K\n  - generic: 88.24K\n  - generic: \"0.10431\"\n  - generic: 25.29K\n  - generic: 61.16K\n  - generic: \"0.10430\"\n  - generic: 15.30K\n  - generic: 35.86K\n  - generic: \"0.10429\"\n  - generic: 10.13K\n  - generic: 20.56K\n  - generic: \"0.10428\"\n  - generic: 10.42K\n  - generic: 10.42K\n  - generic: \"0.10429\"\n  - generic: \"0.10451\"\n  - generic: \"0.10427\"\n  - generic: \"48.4\"\n  - generic: \"48.4\"\n  - generic: \"0.10426\"\n  - generic: \"435.3\"\n  - generic: \"483.7\"\n  - generic: \"0.10425\"\n  - generic: 12.20K\n  - generic: 12.68K\n  - generic: \"0.10424\"\n  - generic: 5.22K\n  - generic: 17.90K\n  - generic: \"0.10423\"\n  - generic: 5.67K\n  - generic: 23.58K\n",
+      "trades_raw": "- tabpanel \"Trades\":\n  - generic: Price (USDT)\n  - generic: Amount\n  - generic: (STRK)\n  - generic: Time\n  - generic: \"0.10429\"\n  - generic: 22.67K\n  - generic: 05:01:20\n  - generic: \"0.10431\"\n  - generic: 166.24K\n  - generic: 05:01:20\n  - generic: \"0.10447\"\n  - generic: \"944.2\"\n  - generic: 05:01:19\n  - generic: \"0.10448\"\n  - generic: 6.37K\n  - generic: 05:01:18\n  - generic: \"0.10449\"\n  - generic: 329.60K\n  - generic: 05:01:18\n  - generic: \"0.10447\"\n  - generic: 17.21K\n  - generic: 05:01:17\n"
+    },
+    {
+      "kind": "STRK_OI_previous",
+      "observed_at": "2026-10-12T12:01:32.477Z",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+      "market_raw": "- heading \"STRKUSDT info tag\" [level=1]:\n  - generic: STRKUSDT\n  - generic \"info tag\":\n    - tooltip \"Perp\":\n      - generic: Perp\n- generic: \"0.10428\"\n- generic: \"-0.01019\"\n- generic: \"-8.90%\"\n- generic: Mark\n- generic: \"0.10425\"\n- link \"Index\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/index?contract=STRKUSDT\n  - text: Index\n- generic: \"0.10431\"\n- generic: Funding (4h) / Countdown\n- generic: 0.00500%\n- generic: /\n- generic: 03:58:28\n- generic: 24h High\n- generic: \"0.12660\"\n- generic: 24h Low\n- generic: \"0.10061\"\n- generic: 24h Vol(STRK)\n- generic: 8,386,359,896.5\n- generic: 24h Vol(USDT)\n- generic: 956,288,001.03\n- link \"Open Interest(USDT)\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=STRKUSDT\n  - text: Open Interest(USDT)\n- generic: 45,909,719.23\n",
+      "trading_data_raw": "- tabpanel \"Trading Data\":\n  - generic: Open Interest\n  - combobox \"Select an option\":\n    - generic: 1h\n  - combobox \"Select an option\":\n    - generic: Single\n  - text: 10/12 03:00\n  - paragraph: \"Open Interest (STRK): 442,580,732.300\"\n  - paragraph: \"Notional Value of Open Interest (USDT):\"\n  - paragraph: 46,488,680.12\n  - generic: Top Trader Long/Short Ratio (Accounts)\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Top Trader Long/Short Ratio (Positions)\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Long/Short Ratio\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Taker Buy/Sell Volume\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Basis\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: \"Funding Rate: 0.005000%\"\n  - combobox \"Select an option\":\n    - generic: Last 40 Times\n  - generic: Open Interest to Market Cap Ratio\n  - combobox \"Select an option\":\n    - generic: 5m\n",
+      "order_book_raw": "- tabpanel \"Order Book\":\n  - generic: \"0.00001\"\n  - generic: Price (USDT)\n  - generic: Size\n  - generic: (STRK)\n  - generic: Sum\n  - generic: (STRK)\n  - generic: \"0.10431\"\n  - generic: 18.38K\n  - generic: 78.74K\n  - generic: \"0.10430\"\n  - generic: 17.23K\n  - generic: 60.36K\n  - generic: \"0.10429\"\n  - generic: 25.42K\n  - generic: 43.12K\n  - generic: \"0.10428\"\n  - generic: 14.82K\n  - generic: 17.70K\n  - generic: \"0.10427\"\n  - generic: 2.88K\n  - generic: 2.88K\n  - generic: \"0.10428\"\n  - generic: \"0.10425\"\n  - generic: \"0.10425\"\n  - generic: 1.80K\n  - generic: 1.80K\n  - generic: \"0.10424\"\n  - generic: 7.52K\n  - generic: 9.33K\n  - generic: \"0.10423\"\n  - generic: 6.11K\n  - generic: 15.44K\n  - generic: \"0.10422\"\n  - generic: 21.58K\n  - generic: 37.03K\n  - generic: \"0.10421\"\n  - generic: 66.44K\n  - generic: 103.47K\n",
+      "trades_raw": "- tabpanel \"Trades\":\n  - generic: Price (USDT)\n  - generic: Amount\n  - generic: (STRK)\n  - generic: Time\n  - generic: \"0.10428\"\n  - generic: 23.58K\n  - generic: 05:01:31\n  - generic: \"0.10426\"\n  - generic: 1.63K\n  - generic: 05:01:30\n  - generic: \"0.10426\"\n  - generic: 1.59K\n  - generic: 05:01:29\n  - generic: \"0.10427\"\n  - generic: 45.99K\n  - generic: 05:01:29\n  - generic: \"0.10428\"\n  - generic: 22.91K\n  - generic: 05:01:28\n  - generic: \"0.10427\"\n  - generic: 4.39K\n  - generic: 05:01:28\n"
+    },
+    {
+      "kind": "STRK_1h_complete",
+      "observed_at": "2026-10-12T12:03:50.331Z",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+      "selected_symbol": "STRKUSDT info tag",
+      "interval_hours": 1,
+      "chart_raw": "\n  - generic: Time\n  - generic: 1s\n  - generic: 15m\n  - generic: 1H\n  - generic: 4H\n  - generic: 1D\n  - generic: 1W\n  - combobox \"Select an option\":\n  - text: Last Price\n  - generic: Original\n  - generic: Trading View\n  - generic: Depth\n  - generic: 2026/10/12 04:00\n  - generic: Open\n  - generic: \"0.10565\"\n  - generic: High\n  - generic: \"0.10611\"\n  - generic: Low\n  - generic: \"0.10405\"\n  - generic: Close\n  - generic: \"0.10468\"\n  - generic: CHANGE\n  - generic: \"-0.91%\"\n  - generic: Range\n  - generic: 1.94%\n  - generic: MA(7)\n  - generic: \"0.10437\"\n  - generic: MA(25)\n  - generic: \"0.11238\"\n  - generic: MA(99)\n  - generic: \"0.08647\"\n  - generic: Vol(STRK)\n  - generic: 105.813M\n  - generic: Vol(USDT)\n  - generic: 11.133M\n  - generic: 194.416M\n  - generic: 261.504M"
+    },
+    {
+      "kind": "STRK_1h_complete",
+      "observed_at": "2026-10-12T12:03:50.628Z",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+      "selected_symbol": "STRKUSDT info tag",
+      "interval_hours": 1,
+      "chart_raw": "\n  - generic: Time\n  - generic: 1s\n  - generic: 15m\n  - generic: 1H\n  - generic: 4H\n  - generic: 1D\n  - generic: 1W\n  - combobox \"Select an option\":\n  - text: Last Price\n  - generic: Original\n  - generic: Trading View\n  - generic: Depth\n  - generic: 2026/10/12 03:00\n  - generic: Open\n  - generic: \"0.10505\"\n  - generic: High\n  - generic: \"0.10717\"\n  - generic: Low\n  - generic: \"0.10380\"\n  - generic: Close\n  - generic: \"0.10565\"\n  - generic: CHANGE\n  - generic: 0.58%\n  - generic: Range\n  - generic: 3.20%\n  - generic: MA(7)\n  - generic: \"0.10458\"\n  - generic: MA(25)\n  - generic: \"0.11255\"\n  - generic: MA(99)\n  - generic: \"0.08594\"\n  - generic: Vol(STRK)\n  - generic: 126.029M\n  - generic: Vol(USDT)\n  - generic: 13.302M\n  - generic: 222.825M\n  - generic: 265.023M"
+    },
+    {
+      "kind": "STRK_1h_complete",
+      "observed_at": "2026-10-12T12:03:50.886Z",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+      "selected_symbol": "STRKUSDT info tag",
+      "interval_hours": 1,
+      "chart_raw": "\n  - generic: Time\n  - generic: 1s\n  - generic: 15m\n  - generic: 1H\n  - generic: 4H\n  - generic: 1D\n  - generic: 1W\n  - combobox \"Select an option\":\n  - text: Last Price\n  - generic: Original\n  - generic: Trading View\n  - generic: Depth\n  - generic: 2026/10/12 02:00\n  - generic: Open\n  - generic: \"0.10375\"\n  - generic: High\n  - generic: \"0.10797\"\n  - generic: Low\n  - generic: \"0.10301\"\n  - generic: Close\n  - generic: \"0.10504\"\n  - generic: CHANGE\n  - generic: 1.24%\n  - generic: Range\n  - generic: 4.78%\n  - generic: MA(7)\n  - generic: \"0.10500\"\n  - generic: MA(25)\n  - generic: \"0.11269\"\n  - generic: MA(99)\n  - generic: \"0.08537\"\n  - generic: Vol(STRK)\n  - generic: 260.216M\n  - generic: Vol(USDT)\n  - generic: 27.442M\n  - generic: 271.089M\n  - generic: 271.826M"
+    },
+    {
+      "kind": "STRK_1h_complete",
+      "observed_at": "2026-10-12T12:03:51.099Z",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+      "selected_symbol": "STRKUSDT info tag",
+      "interval_hours": 1,
+      "chart_raw": "\n  - generic: Time\n  - generic: 1s\n  - generic: 15m\n  - generic: 1H\n  - generic: 4H\n  - generic: 1D\n  - generic: 1W\n  - combobox \"Select an option\":\n  - text: Last Price\n  - generic: Original\n  - generic: Trading View\n  - generic: Depth\n  - generic: 2026/10/12 01:00\n  - generic: Open\n  - generic: \"0.10145\"\n  - generic: High\n  - generic: \"0.10385\"\n  - generic: Low\n  - generic: \"0.10061\"\n  - generic: Close\n  - generic: \"0.10375\"\n  - generic: CHANGE\n  - generic: 2.26%\n  - generic: Range\n  - generic: 3.19%\n  - generic: MA(7)\n  - generic: \"0.10608\"\n  - generic: MA(25)\n  - generic: \"0.11283\"\n  - generic: MA(99)\n  - generic: \"0.08480\"\n  - generic: Vol(STRK)\n  - generic: 185.21M\n  - generic: Vol(USDT)\n  - generic: 18.915M\n  - generic: 292.278M\n  - generic: 268.522M"
+    },
+    {
+      "kind": "STRK_1h_complete",
+      "observed_at": "2026-10-12T12:03:51.336Z",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+      "selected_symbol": "STRKUSDT info tag",
+      "interval_hours": 1,
+      "chart_raw": "\n  - generic: Time\n  - generic: 1s\n  - generic: 15m\n  - generic: 1H\n  - generic: 4H\n  - generic: 1D\n  - generic: 1W\n  - combobox \"Select an option\":\n  - text: Last Price\n  - generic: Original\n  - generic: Trading View\n  - generic: Depth\n  - generic: 2026/10/12 00:00\n  - generic: Open\n  - generic: \"0.10389\"\n  - generic: High\n  - generic: \"0.10663\"\n  - generic: Low\n  - generic: \"0.10080\"\n  - generic: Close\n  - generic: \"0.10145\"\n  - generic: CHANGE\n  - generic: \"-2.33%\"\n  - generic: Range\n  - generic: 5.61%\n  - generic: MA(7)\n  - generic: \"0.10857\"\n  - generic: MA(25)\n  - generic: \"0.11302\"\n  - generic: MA(99)\n  - generic: \"0.08424\"\n  - generic: Vol(STRK)\n  - generic: 289.306M\n  - generic: Vol(USDT)\n  - generic: 29.762M\n  - generic: 297.761M\n  - generic: 282.458M"
+    },
+    {
+      "kind": "STRK_1h_complete",
+      "observed_at": "2026-10-12T12:03:51.601Z",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+      "selected_symbol": "STRKUSDT info tag",
+      "interval_hours": 1,
+      "chart_raw": "\n  - generic: Time\n  - generic: 1s\n  - generic: 15m\n  - generic: 1H\n  - generic: 4H\n  - generic: 1D\n  - generic: 1W\n  - combobox \"Select an option\":\n  - text: Last Price\n  - generic: Original\n  - generic: Trading View\n  - generic: Depth\n  - generic: 2026/10/11 23:00\n  - generic: Open\n  - generic: \"0.10622\"\n  - generic: High\n  - generic: \"0.10665\"\n  - generic: Low\n  - generic: \"0.10264\"\n  - generic: Close\n  - generic: \"0.10388\"\n  - generic: CHANGE\n  - generic: \"-2.19%\"\n  - generic: Range\n  - generic: 3.77%\n  - generic: MA(7)\n  - generic: \"0.11124\"\n  - generic: MA(25)\n  - generic: \"0.11338\"\n  - generic: MA(99)\n  - generic: \"0.08371\"\n  - generic: Vol(STRK)\n  - generic: 215.002M\n  - generic: Vol(USDT)\n  - generic: 22.586M\n  - generic: 305.265M\n  - generic: 298.418M"
+    },
+    {
+      "kind": "STRK_1h_complete",
+      "observed_at": "2026-10-12T12:03:51.820Z",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+      "selected_symbol": "STRKUSDT info tag",
+      "interval_hours": 1,
+      "chart_raw": "\n  - generic: Time\n  - generic: 1s\n  - generic: 15m\n  - generic: 1H\n  - generic: 4H\n  - generic: 1D\n  - generic: 1W\n  - combobox \"Select an option\":\n  - text: Last Price\n  - generic: Original\n  - generic: Trading View\n  - generic: Depth\n  - generic: 2026/10/11 22:00\n  - generic: Open\n  - generic: \"0.10609\"\n  - generic: High\n  - generic: \"0.10828\"\n  - generic: Low\n  - generic: \"0.10547\"\n  - generic: Close\n  - generic: \"0.10621\"\n  - generic: CHANGE\n  - generic: 0.11%\n  - generic: Range\n  - generic: 2.64%\n  - generic: MA(7)\n  - generic: \"0.11398\"\n  - generic: MA(25)\n  - generic: \"0.11359\"\n  - generic: MA(99)\n  - generic: \"0.08316\"\n  - generic: Vol(STRK)\n  - generic: 179.338M\n  - generic: Vol(USDT)\n  - generic: 19.138M\n  - generic: 331.795M\n  - generic: 325.579M"
+    },
+    {
+      "kind": "STRK_4h_latest_complete",
+      "observed_at": "2026-10-12T12:04:49.363Z",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+      "selected_symbol": "STRKUSDT info tag",
+      "interval_hours": 4,
+      "chart_raw": "\n  - generic: Time\n  - generic: 1s\n  - generic: 15m\n  - generic: 1H\n  - generic: 4H\n  - generic: 1D\n  - generic: 1W\n  - combobox \"Select an option\":\n  - text: Last Price\n  - generic: Original\n  - generic: Trading View\n  - generic: Depth\n  - generic: 2026/10/12 01:00\n  - generic: Open\n  - generic: \"0.10145\"\n  - generic: High\n  - generic: \"0.10797\"\n  - generic: Low\n  - generic: \"0.10061\"\n  - generic: Close\n  - generic: \"0.10456\"\n  - generic: CHANGE\n  - generic: 3.06%\n  - generic: Range\n  - generic: 7.25%\n  - generic: MA(7)\n  - generic: \"0.11285\"\n  - generic: MA(25)\n  - generic: \"0.08707\"\n  - generic: MA(99)\n  - generic: \"0.05648\"\n  - generic: Vol(STRK)\n  - generic: 681.127M\n  - generic: Vol(USDT)\n  - generic: 71.197M\n  - generic: 1.399B\n  - generic: 1.584B"
+    },
+    {
+      "kind": "STRK_taker_latest_1h",
+      "observed_at": "2026-10-12T12:05:51.475Z",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+      "market_raw": "- heading \"STRKUSDT info tag\" [level=1]:\n  - generic: STRKUSDT\n  - generic \"info tag\":\n    - tooltip \"Perp\":\n      - generic: Perp\n- generic: \"0.10467\"\n- generic: \"-0.01047\"\n- generic: \"-9.09%\"\n- generic: Mark\n- generic: \"0.10467\"\n- link \"Index\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/index?contract=STRKUSDT\n  - text: Index\n- generic: \"0.10470\"\n- generic: Funding (4h) / Countdown\n- generic: 0.00500%\n- generic: /\n- generic: 03:54:09\n- generic: 24h High\n- generic: \"0.12660\"\n- generic: 24h Low\n- generic: \"0.10061\"\n- generic: 24h Vol(STRK)\n- generic: 8,320,993,119.9\n- generic: 24h Vol(USDT)\n- generic: 948,704,023.62\n- link \"Open Interest(USDT)\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=STRKUSDT\n  - text: Open Interest(USDT)\n- generic: 46,092,133.10\n",
+      "trading_data_raw": "- tabpanel \"Trading Data\":\n  - generic: Open Interest\n  - combobox \"Select an option\":\n    - generic: 5m\n  - combobox \"Select an option\":\n    - generic: Single\n  - generic: Top Trader Long/Short Ratio (Accounts)\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Top Trader Long/Short Ratio (Positions)\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Long/Short Ratio\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Taker Buy/Sell Volume\n  - combobox \"Select an option\":\n    - generic: 1h\n  - text: 10/12 04:00\n  - paragraph: \"Taker Sell Volume (STRK): 58,716,497.400\"\n  - paragraph: \"Taker Buy Volume (STRK): 50,952,843.000\"\n  - generic: Basis\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: \"Funding Rate: 0.005000%\"\n  - combobox \"Select an option\":\n    - generic: Last 40 Times\n  - generic: Open Interest to Market Cap Ratio\n  - combobox \"Select an option\":\n    - generic: 5m\n",
+      "order_book_raw": "- tabpanel \"Order Book\":\n  - generic: \"0.00001\"\n  - generic: Price (USDT)\n  - generic: Size\n  - generic: (STRK)\n  - generic: Sum\n  - generic: (STRK)\n  - generic: \"0.10472\"\n  - generic: 85.14K\n  - generic: 157.17K\n  - generic: \"0.10471\"\n  - generic: 40.10K\n  - generic: 72.03K\n  - generic: \"0.10470\"\n  - generic: 13.78K\n  - generic: 31.92K\n  - generic: \"0.10469\"\n  - generic: 7.37K\n  - generic: 18.13K\n  - generic: \"0.10468\"\n  - generic: 10.75K\n  - generic: 10.75K\n  - generic: \"0.10467\"\n  - generic: \"0.10467\"\n  - generic: \"0.10467\"\n  - generic: \"207.9\"\n  - generic: \"207.9\"\n  - generic: \"0.10466\"\n  - generic: 5.48K\n  - generic: 5.69K\n  - generic: \"0.10465\"\n  - generic: 13.33K\n  - generic: 19.03K\n  - generic: \"0.10464\"\n  - generic: 7.09K\n  - generic: 26.12K\n  - generic: \"0.10463\"\n  - generic: 13.20K\n  - generic: 39.32K\n",
+      "trades_raw": "- tabpanel \"Trades\":\n  - generic: Price (USDT)\n  - generic: Amount\n  - generic: (STRK)\n  - generic: Time\n  - generic: \"0.10467\"\n  - generic: 7.35K\n  - generic: 05:05:50\n  - generic: \"0.10466\"\n  - generic: 2.35K\n  - generic: 05:05:49\n  - generic: \"0.10467\"\n  - generic: 2.99K\n  - generic: 05:05:48\n  - generic: \"0.10467\"\n  - generic: \"644.2\"\n  - generic: 05:05:47\n  - generic: \"0.10467\"\n  - generic: 10.45K\n  - generic: 05:05:47\n  - generic: \"0.10466\"\n  - generic: 7.22K\n  - generic: 05:05:46\n"
+    },
+    {
+      "kind": "STRK_taker_previous_1h",
+      "observed_at": "2026-10-12T12:05:52.373Z",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+      "market_raw": "- heading \"STRKUSDT info tag\" [level=1]:\n  - generic: STRKUSDT\n  - generic \"info tag\":\n    - tooltip \"Perp\":\n      - generic: Perp\n- generic: \"0.10467\"\n- generic: \"-0.01047\"\n- generic: \"-9.09%\"\n- generic: Mark\n- generic: \"0.10467\"\n- link \"Index\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/index?contract=STRKUSDT\n  - text: Index\n- generic: \"0.10469\"\n- generic: Funding (4h) / Countdown\n- generic: 0.00500%\n- generic: /\n- generic: 03:54:07\n- generic: 24h High\n- generic: \"0.12660\"\n- generic: 24h Low\n- generic: \"0.10061\"\n- generic: 24h Vol(STRK)\n- generic: 8,320,993,119.9\n- generic: 24h Vol(USDT)\n- generic: 948,704,023.62\n- link \"Open Interest(USDT)\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=STRKUSDT\n  - text: Open Interest(USDT)\n- generic: 46,092,133.10\n",
+      "trading_data_raw": "- tabpanel \"Trading Data\":\n  - generic: Open Interest\n  - combobox \"Select an option\":\n    - generic: 5m\n  - combobox \"Select an option\":\n    - generic: Single\n  - generic: Top Trader Long/Short Ratio (Accounts)\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Top Trader Long/Short Ratio (Positions)\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Long/Short Ratio\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Taker Buy/Sell Volume\n  - combobox \"Select an option\":\n    - generic: 1h\n  - text: 10/12 03:00\n  - paragraph: \"Taker Sell Volume (STRK): 61,059,036.900\"\n  - paragraph: \"Taker Buy Volume (STRK): 64,968,040.100\"\n  - generic: Basis\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: \"Funding Rate: 0.005000%\"\n  - combobox \"Select an option\":\n    - generic: Last 40 Times\n  - generic: Open Interest to Market Cap Ratio\n  - combobox \"Select an option\":\n    - generic: 5m\n",
+      "order_book_raw": "- tabpanel \"Order Book\":\n  - generic: \"0.00001\"\n  - generic: Price (USDT)\n  - generic: Size\n  - generic: (STRK)\n  - generic: Sum\n  - generic: (STRK)\n  - generic: \"0.10471\"\n  - generic: 42.00K\n  - generic: 110.50K\n  - generic: \"0.10470\"\n  - generic: 25.26K\n  - generic: 68.50K\n  - generic: \"0.10469\"\n  - generic: 18.93K\n  - generic: 43.23K\n  - generic: \"0.10468\"\n  - generic: 17.05K\n  - generic: 24.30K\n  - generic: \"0.10467\"\n  - generic: 7.24K\n  - generic: 7.24K\n  - generic: \"0.10467\"\n  - generic: \"0.10467\"\n  - generic: \"0.10465\"\n  - generic: \"553.2\"\n  - generic: \"553.2\"\n  - generic: \"0.10464\"\n  - generic: 4.13K\n  - generic: 4.68K\n  - generic: \"0.10463\"\n  - generic: 11.33K\n  - generic: 16.01K\n  - generic: \"0.10462\"\n  - generic: 15.71K\n  - generic: 31.73K\n  - generic: \"0.10461\"\n  - generic: 56.20K\n  - generic: 87.93K\n",
+      "trades_raw": "- tabpanel \"Trades\":\n  - generic: Price (USDT)\n  - generic: Amount\n  - generic: (STRK)\n  - generic: Time\n  - generic: \"0.10467\"\n  - generic: 7.35K\n  - generic: 05:05:50\n  - generic: \"0.10466\"\n  - generic: 2.35K\n  - generic: 05:05:49\n  - generic: \"0.10467\"\n  - generic: 2.99K\n  - generic: 05:05:48\n  - generic: \"0.10467\"\n  - generic: \"644.2\"\n  - generic: 05:05:47\n  - generic: \"0.10467\"\n  - generic: 10.45K\n  - generic: 05:05:47\n  - generic: \"0.10466\"\n  - generic: 7.22K\n  - generic: 05:05:46\n"
+    },
+    {
+      "kind": "STRK_OI_latest_final",
+      "observed_at": "2026-10-12T12:07:13.092Z",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+      "market_raw": "- heading \"STRKUSDT info tag\" [level=1]:\n  - generic: STRKUSDT\n  - generic \"info tag\":\n    - tooltip \"Perp\":\n      - generic: Perp\n- generic: \"0.10437\"\n- generic: \"-0.00957\"\n- generic: \"-8.40%\"\n- generic: Mark\n- generic: \"0.10437\"\n- link \"Index\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/index?contract=STRKUSDT\n  - text: Index\n- generic: \"0.10445\"\n- generic: Funding (4h) / Countdown\n- generic: 0.00500%\n- generic: /\n- generic: 03:52:47\n- generic: 24h High\n- generic: \"0.12660\"\n- generic: 24h Low\n- generic: \"0.10061\"\n- generic: 24h Vol(STRK)\n- generic: 8,291,697,207.5\n- generic: 24h Vol(USDT)\n- generic: 945,332,513.06\n- link \"Open Interest(USDT)\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=STRKUSDT\n  - text: Open Interest(USDT)\n- generic: 45,976,405.66\n",
+      "trading_data_raw": "- tabpanel \"Trading Data\":\n  - generic: Open Interest\n  - combobox \"Select an option\":\n    - generic: 1h\n  - combobox \"Select an option\":\n    - generic: Single\n  - text: 10/12 05:00\n  - paragraph: \"Open Interest (STRK): 440,279,648.900\"\n  - paragraph: \"Notional Value of Open Interest (USDT):\"\n  - paragraph: 46,031,268.11\n  - generic: Top Trader Long/Short Ratio (Accounts)\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Top Trader Long/Short Ratio (Positions)\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Long/Short Ratio\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Taker Buy/Sell Volume\n  - combobox \"Select an option\":\n    - generic: 1h\n  - generic: Basis\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: \"Funding Rate: 0.005000%\"\n  - combobox \"Select an option\":\n    - generic: Last 40 Times\n  - generic: Open Interest to Market Cap Ratio\n  - combobox \"Select an option\":\n    - generic: 5m\n",
+      "order_book_raw": "- tabpanel \"Order Book\":\n  - generic: \"0.00001\"\n  - generic: Price (USDT)\n  - generic: Size\n  - generic: (STRK)\n  - generic: Sum\n  - generic: (STRK)\n  - generic: \"0.10441\"\n  - generic: 28.39K\n  - generic: 51.89K\n  - generic: \"0.10440\"\n  - generic: 12.31K\n  - generic: 23.49K\n  - generic: \"0.10439\"\n  - generic: 8.12K\n  - generic: 11.18K\n  - generic: \"0.10438\"\n  - generic: 2.81K\n  - generic: 3.06K\n  - generic: \"0.10437\"\n  - generic: \"246.1\"\n  - generic: \"246.1\"\n  - generic: \"0.10437\"\n  - generic: \"0.10437\"\n  - generic: \"0.10435\"\n  - generic: 5.66K\n  - generic: 5.66K\n  - generic: \"0.10434\"\n  - generic: 12.98K\n  - generic: 18.65K\n  - generic: \"0.10433\"\n  - generic: 29.21K\n  - generic: 47.86K\n  - generic: \"0.10432\"\n  - generic: 19.75K\n  - generic: 67.62K\n  - generic: \"0.10431\"\n  - generic: 29.21K\n  - generic: 96.83K\n",
+      "trades_raw": "- tabpanel \"Trades\":\n  - generic: Price (USDT)\n  - generic: Amount\n  - generic: (STRK)\n  - generic: Time\n  - generic: \"0.10437\"\n  - generic: 2.98K\n  - generic: 05:07:12\n  - generic: \"0.10436\"\n  - generic: 3.91K\n  - generic: 05:07:11\n  - generic: \"0.10438\"\n  - generic: 5.46K\n  - generic: 05:07:10\n  - generic: \"0.10438\"\n  - generic: 2.08K\n  - generic: 05:07:10\n  - generic: \"0.10438\"\n  - generic: 3.50K\n  - generic: 05:07:07\n  - generic: \"0.10441\"\n  - generic: 1.21K\n  - generic: 05:07:05\n"
+    },
+    {
+      "kind": "STRK_OI_previous_final",
+      "observed_at": "2026-10-12T12:07:13.376Z",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+      "market_raw": "- heading \"STRKUSDT info tag\" [level=1]:\n  - generic: STRKUSDT\n  - generic \"info tag\":\n    - tooltip \"Perp\":\n      - generic: Perp\n- generic: \"0.10437\"\n- generic: \"-0.00957\"\n- generic: \"-8.40%\"\n- generic: Mark\n- generic: \"0.10437\"\n- link \"Index\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/index?contract=STRKUSDT\n  - text: Index\n- generic: \"0.10445\"\n- generic: Funding (4h) / Countdown\n- generic: 0.00500%\n- generic: /\n- generic: 03:52:47\n- generic: 24h High\n- generic: \"0.12660\"\n- generic: 24h Low\n- generic: \"0.10061\"\n- generic: 24h Vol(STRK)\n- generic: 8,291,697,207.5\n- generic: 24h Vol(USDT)\n- generic: 945,332,513.06\n- link \"Open Interest(USDT)\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=STRKUSDT\n  - text: Open Interest(USDT)\n- generic: 45,976,405.66\n",
+      "trading_data_raw": "- tabpanel \"Trading Data\":\n  - generic: Open Interest\n  - combobox \"Select an option\":\n    - generic: 1h\n  - combobox \"Select an option\":\n    - generic: Single\n  - text: 10/12 04:00\n  - paragraph: \"Open Interest (STRK): 442,259,545.100\"\n  - paragraph: \"Notional Value of Open Interest (USDT):\"\n  - paragraph: 46,728,794.15\n  - generic: Top Trader Long/Short Ratio (Accounts)\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Top Trader Long/Short Ratio (Positions)\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Long/Short Ratio\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Taker Buy/Sell Volume\n  - combobox \"Select an option\":\n    - generic: 1h\n  - generic: Basis\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: \"Funding Rate: 0.005000%\"\n  - combobox \"Select an option\":\n    - generic: Last 40 Times\n  - generic: Open Interest to Market Cap Ratio\n  - combobox \"Select an option\":\n    - generic: 5m\n",
+      "order_book_raw": "- tabpanel \"Order Book\":\n  - generic: \"0.00001\"\n  - generic: Price (USDT)\n  - generic: Size\n  - generic: (STRK)\n  - generic: Sum\n  - generic: (STRK)\n  - generic: \"0.10441\"\n  - generic: 12.06K\n  - generic: 46.74K\n  - generic: \"0.10440\"\n  - generic: 8.50K\n  - generic: 34.67K\n  - generic: \"0.10439\"\n  - generic: 20.49K\n  - generic: 26.17K\n  - generic: \"0.10438\"\n  - generic: 5.48K\n  - generic: 5.67K\n  - generic: \"0.10437\"\n  - generic: \"197.4\"\n  - generic: \"197.3\"\n  - generic: \"0.10437\"\n  - generic: \"0.10437\"\n  - generic: \"0.10435\"\n  - generic: 5.66K\n  - generic: 5.66K\n  - generic: \"0.10434\"\n  - generic: 9.73K\n  - generic: 15.40K\n  - generic: \"0.10433\"\n  - generic: 14.33K\n  - generic: 29.73K\n  - generic: \"0.10432\"\n  - generic: 18.17K\n  - generic: 47.91K\n  - generic: \"0.10431\"\n  - generic: 29.21K\n  - generic: 77.12K\n",
+      "trades_raw": "- tabpanel \"Trades\":\n  - generic: Price (USDT)\n  - generic: Amount\n  - generic: (STRK)\n  - generic: Time\n  - generic: \"0.10437\"\n  - generic: 2.98K\n  - generic: 05:07:12\n  - generic: \"0.10436\"\n  - generic: 3.91K\n  - generic: 05:07:11\n  - generic: \"0.10438\"\n  - generic: 5.46K\n  - generic: 05:07:10\n  - generic: \"0.10438\"\n  - generic: 2.08K\n  - generic: 05:07:10\n  - generic: \"0.10438\"\n  - generic: 3.50K\n  - generic: 05:07:07\n  - generic: \"0.10441\"\n  - generic: 1.21K\n  - generic: 05:07:05\n"
+    },
+    {
+      "kind": "STRK_1h_latest_final",
+      "observed_at": "2026-10-12T12:08:22.701Z",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+      "selected_symbol": "STRKUSDT info tag",
+      "interval_hours": 1,
+      "chart_raw": "\n  - generic: Time\n  - generic: 1s\n  - generic: 15m\n  - generic: 1H\n  - generic: 4H\n  - generic: 1D\n  - generic: 1W\n  - combobox \"Select an option\":\n  - text: Last Price\n  - generic: Original\n  - generic: Trading View\n  - generic: Depth\n  - generic: 2026/10/12 04:00\n  - generic: Open\n  - generic: \"0.10565\"\n  - generic: High\n  - generic: \"0.10611\"\n  - generic: Low\n  - generic: \"0.10405\"\n  - generic: Close\n  - generic: \"0.10456\"\n  - generic: CHANGE\n  - generic: \"-1.03%\"\n  - generic: Range\n  - generic: 1.94%\n  - generic: MA(7)\n  - generic: \"0.10436\"\n  - generic: MA(25)\n  - generic: \"0.11237\"\n  - generic: MA(99)\n  - generic: \"0.08647\"\n  - generic: Vol(STRK)\n  - generic: 109.671M\n  - generic: Vol(USDT)\n  - generic: 11.536M\n  - generic: 194.967M\n  - generic: 261.78M"
+    }
+  ],
+  "alert_evaluation": {
+    "quantity_oi_5pct": {
+      "result": "BELOW_THRESHOLD_FOR_RENDERED_LABEL_INTERVAL",
+      "change_percent": -0.44767743781592984
+    },
+    "volume_2x_and_price_3pct": {
+      "result": "BELOW_THRESHOLDS_USING_LATER_RENDERED_CANDLE",
+      "raw_label": "2026/10/12 04:00",
+      "open_to_close_price_change_percent": -1.0317084713677205,
+      "previous_close_to_close_change_percent": -1.0317084713677205,
+      "quote_volume_usdt_approx": 11536000,
+      "prior_six_mean_quote_volume_usdt_approx": 21857500,
+      "quote_volume_multiple": 0.5277822257806245,
+      "base_volume_multiple": 0.5242813128186496
+    },
+    "mark_10pct": {
+      "result": "BELOW_THRESHOLD_APPROXIMATELY_ONE_HOUR_SNAPSHOTS",
+      "change_percent": -1.4261428031734025
+    },
+    "new_verified_trigger": false,
+    "independent_STRK_alert": false,
+    "caveat": "No threshold reached in the captured comparisons. This does not establish absence of an intrahour anomaly or eliminate the noted UI revision/timestamp limitations."
+  }
+}

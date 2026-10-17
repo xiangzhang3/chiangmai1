@@ -1,0 +1,88 @@
+{
+  "symbol": "KAIAUSDT",
+  "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+  "observed_at": "2026-10-11T02:02:50.673Z",
+  "status": "RESEARCH_ONLY",
+  "execution_eligible": false,
+  "captures": [
+    {
+      "kind": "quote",
+      "observed_at": "2026-10-11T02:02:50.673Z",
+      "dom": "- heading \"KAIAUSDT info tag\" [level=1]:\n  - generic: KAIAUSDT\n  - generic \"info tag\":\n    - tooltip \"Perp\":\n      - generic: Perp\n- generic: \"0.05335\"\n- generic: \"-0.00666\"\n- generic: \"-11.11%\"\n- generic: Mark\n- generic: \"0.05336\"\n- link \"Index\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/index?contract=KAIAUSDT\n  - text: Index\n- generic: \"0.05370\"\n- generic: Funding (1h) / Countdown\n- generic: \"-0.07116%\"\n- generic: /\n- generic: 00:57:10\n- generic: 24h High\n- generic: \"0.06165\"\n- generic: 24h Low\n- generic: \"0.05317\"\n- generic: 24h Vol(KAIA)\n- generic: 3,146,588,305.00\n- generic: 24h Vol(USDT)\n- generic: 178,205,357.56\n- link \"Open Interest(USDT)\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=KAIAUSDT\n  - text: Open Interest(USDT)\n- generic: 10,971,220.05\n- generic: FindBorderBarSize\n- tablist:\n  - tab \"Chart\" [selected]:\n    - tab \"Chart\" [selected]:\n      - text: Chart\n  - tab \"Info\":\n    - tab \"Info\"\n  - tab \"Trading Data\":\n    - tab \"Trading Data\"\n- separator \"Resize\"\n- tablist:\n  - tab \"Order Book\" [selected]:\n    - tab \"Order Book\" [selected]:\n      - text: Order Book\n- separator \"Resize\"\n- tablist:\n  - tab \"Trades\" [selected]:\n    - tab \"Trades\" [selected]:\n      - text: Trades\n  - tab \"Top Movers\":\n    - tab \"Top Movers\"\n- separator \"Resize\"\n",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+      "selected_symbol": "KAIAUSDT"
+    },
+    {
+      "kind": "candle_4h_historical",
+      "observed_at": "2026-10-11T02:03:31.987Z",
+      "dom": "Time\n1s\n15m\n1H\n4H\n1D\n1W\nLast Price\nOriginal\nTrading View\nDepth\n2026/10/10 13:00\nOpen\n0.05566\nHigh\n0.05746\nLow\n0.05561\nClose\n0.05612\nCHANGE\n0.79%\nRange\n3.32%\nMA(7)\n0.05649\nMA(25)\n0.04499\nMA(99)\n0.03827\nVol(KAIA)\n129.828M\nVol(USDT)\n7.315M\n715.93M\n879.407M",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+      "selected_symbol": "KAIAUSDT"
+    },
+    {
+      "kind": "candle_1h_historical",
+      "observed_at": "2026-10-11T02:03:41.939Z",
+      "dom": "Time\n1s\n15m\n1H\n4H\n1D\n1W\nLast Price\nOriginal\nTrading View\nDepth\n2026/10/10 17:00\nOpen\n0.05612\nHigh\n0.05658\nLow\n0.05403\nClose\n0.05426\nCHANGE\n-3.31%\nRange\n4.54%\nMA(7)\n0.05597\nMA(25)\n0.05654\nMA(99)\n0.04526\nVol(KAIA)\n103.329M\nVol(USDT)\n5.684M\n45.657M\n60.856M",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+      "selected_symbol": "KAIAUSDT"
+    },
+    {
+      "kind": "settled_funding",
+      "observed_at": "2026-10-11T02:04:15.641Z",
+      "source_url": "https://www.binance.com/en/futures/funding-history/perpetual/funding-fee-history",
+      "dom": "KAIAUSDT Perpetual\nTime\tFunding Interval\tFunding Rate\t\nMark Price\n\n2026-10-10 19:00:00\t1h\t-0.071362%\t0.0535300 USDT\n2026-10-10 18:00:00\t1h\t-0.083072%\t0.0542600 USDT\n2026-10-10 17:00:00\t1h\t-0.086435%\t0.0561199 USDT\n2026-10-10 16:00:00\t1h\t-0.057911%\t0.0562369 USDT\n2026-10-10 15:00:00\t1h\t-0.042357%\t0.0570200 USDT\n2026-10-10 14:00:00\t1h\t-0.030355%\t0.0560274 USDT\n2026-10-10 13:00:00\t1h\t-0.032080%\t0.0556800 USDT\n2026-10-10 12:00:00\t1h\t-0.043064%\t0.0565200 USDT\n2026-10-10 11:00:00\t1h\t-0.045704%\t0.0563000 USDT\n2026-10-10 10:00:00\t1h\t-0.061808%\t0.0554219 USDT\n2026-10-10 09:00:00\t1h\t-0.059059%\t0.0560616 USDT\n2026-10-10 08:00:00\t1h\t-0.074554%\t0.0558600 USDT\n2026-10-10 07:00:00\t1h\t-0.091516%\t0.0562700 USDT\n2026-10-10 06:00:00\t1h\t-0.142367%\t0.0552830 USDT\n2026-10-10 05:00:00\t1h\t-0.136210%\t0.0556779 USDT\n2026-10-10 04:00:00\t1h\t-0.220859%\t0.0551300 USDT\n2026-10-10 03:00:00\t1h\t-0.240927%\t0.0551400 USDT\n2026-10-10 02:00:00\t1h\t-0.268167%\t0.0562800 USDT\n2026-10-10 01:00:00\t1h\t-0.329482%\t0.0557162 USDT\n2026-10-10 00:00:00\t1h\t-0.214105%\t0.0575100 USDT",
+      "selected_symbol": "KAIAUSDT"
+    },
+    {
+      "kind": "oi_1h",
+      "source_url": "https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=JCTUSDT",
+      "selected_symbol": "KAIAUSDT",
+      "observed_at": "2026-10-11T02:04:25.727Z",
+      "dom": "KAIAUSDT Perpetual\n1h\nTrade Futures\nOpen Interest\nSingle\nOpen Interest (KAIA)\nNotional Value of Open Interest (USDT)\n16:00\n20:00\n00:00\n04:00\n08:00\n12:00\n16:00\n204M\n228M\n252M\n10.8M\n13.2M\n15.6M\n10/10 18:00\n\nOpen Interest (KAIA): 212,900,895.000\n\nNotional Value of Open Interest (USDT): 11,549,873.55\n\n"
+    },
+    {
+      "kind": "oi_1h",
+      "source_url": "https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=JCTUSDT",
+      "selected_symbol": "KAIAUSDT",
+      "observed_at": "2026-10-11T02:04:25.837Z",
+      "dom": "KAIAUSDT Perpetual\n1h\nTrade Futures\nOpen Interest\nSingle\nOpen Interest (KAIA)\nNotional Value of Open Interest (USDT)\n16:00\n20:00\n00:00\n04:00\n08:00\n12:00\n16:00\n204M\n228M\n252M\n10.8M\n13.2M\n15.6M\n10/10 18:00\n\nOpen Interest (KAIA): 212,900,895.000\n\nNotional Value of Open Interest (USDT): 11,549,873.55\n\n"
+    },
+    {
+      "kind": "taker_1h",
+      "observed_at": "2026-10-11T02:04:51.920Z",
+      "selected_symbol": "KAIAUSDT",
+      "dom": "Taker Buy/Sell Volume\nTaker Sell Volume (KAIA)\nTaker Buy Volume (KAIA)\n16:00\n20:00\n00:00\n04:00\n08:00\n12:00\n16:00\n0\n160M\n320M\n10/10 18:00\n\nTaker Sell Volume (KAIA): 49,855,858.000\n\nTaker Buy Volume (KAIA): 43,273,868.000\n",
+      "source_url": "https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=JCTUSDT"
+    },
+    {
+      "kind": "book_and_tape",
+      "observed_at": "2026-10-11T02:08:22.338Z",
+      "dom": "0.00001\nPrice (USDT)\nSize\n(KAIA)\nSum\n(KAIA)\n0.05322\n98.79K\n267.12K\n0.05321\n64.20K\n168.33K\n0.05320\n37.47K\n104.12K\n0.05319\n48.66K\n66.65K\n0.05318\n17.99K\n17.99K\n0.05318\n0.05320\n0.05316\n684.34K\n684.34K\n0.05315\n42.12K\n726.46K\n0.05314\n134.22K\n860.68K\n0.05313\n45.52K\n906.20K\n0.05312\n76.39K\n982.59K\nPrice (USDT)\nAmount\n(KAIA)\nTime\n0.05318\n4.18K\n19:08:21\n0.05317\n33.79K\n19:08:20\n0.05319\n16.49K\n19:08:20\n0.05319\n23.89K\n19:08:19\n0.05321\n825\n19:08:18\n0.05320\n15.14K\n19:08:17",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+      "selected_symbol": "KAIAUSDT"
+    }
+  ],
+  "display_timezone": null,
+  "exchange_event_time": null,
+  "numeric_conventions": {
+    "funding_percent_to_decimal": "Displayed percentage divided by100; current predicted funding separate from historical settled funding.",
+    "suffixes": "K=1000;M=1000000;B/G=1000000000;display rounded."
+  },
+  "limitations": [
+    "Public signed-out rendered UI only; three symbols not full market.",
+    "UTC observed_at is actual capture time, not exchange event time. Display timezone unverified.",
+    "Historical candles selected before currently developing candle; finality and exact UTC boundaries not independently verified.",
+    "USD OI not quantity OI; capture times of UI fields are asynchronous.",
+    "Trading-data URL retains JCTUSDT query after selected-symbol change; selected_symbol and tooltip quantity units verified.",
+    "Historical bars may be published after the hour; early JCT capture ends18:00, later updates19:00.",
+    "No execution eligibility or account state inferred.",
+    "Both KAIA OI tooltips resolved same18:00 point; no hourly OI change calculated. Historical1h candle captured17:00, not latest18:00."
+  ],
+  "missing_fields": [
+    "verified_display_timezone",
+    "verified_exchange_event_timestamps",
+    "independently_verified_candle_finality",
+    "full_order_book_depth",
+    "latest_adjacent_hourly_oi_pair"
+  ]
+}

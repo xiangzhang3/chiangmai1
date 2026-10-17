@@ -1,0 +1,852 @@
+{
+  "symbol": "JCTUSDT",
+  "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+  "observed_at": "2026-10-13T14:00:08.707Z",
+  "fields": {
+    "last_price": 0.001886,
+    "mark_price": 0.001882,
+    "index_price": 0.00188,
+    "funding_rate": 5e-05,
+    "funding_interval_hours": 4,
+    "open_interest_notional_usdt": 6676542.9
+  },
+  "classification": "RESEARCH_ONLY",
+  "execution_eligible": false,
+  "source_type": "OFFICIAL_SIGNED_OUT_RENDERED_UI",
+  "status": "OBSERVED",
+  "capture_start_utc": "2026-10-13T14:00:08.707Z",
+  "capture_end_utc": "2026-10-13T14:09:11.801Z",
+  "display_timezone": null,
+  "raw_chart_timezone": "UNKNOWN",
+  "capture_time_is_event_time": false,
+  "event_time_utc": null,
+  "selected_symbol_verified_from": "Rendered JCTUSDT Perp heading, contract-specific index/OI links and JCT base-asset units.",
+  "browser_address_url": "https://www.binance.com/en/futures/JCTUSDT",
+  "notes": [
+    "Official signed-out rendered Binance cloud browser only. No API or private account data.",
+    "Only actual 14 UTC captures included in current raw evidence. Prior 13 UTC data is used only in explicitly labeled comparisons and historical quality context.",
+    "Raw chart timezone unverified. Capture UTC must not be interpreted as exchange event time.",
+    "Rounded display quantities and UI change percentages preserved. Calculated open-to-close percentages are separate and need not exactly equal the UI change field.",
+    "Earlier 4H captures retained under closed_4h_earlier/prior_4h labels. Normalized closed 01:00 is verified against actual running 05:00; neither is relabeled from capture UTC."
+  ],
+  "quantity_oi": {
+    "interval": "1h",
+    "unit": "JCT",
+    "points": [
+      {
+        "raw_label": "10/13 06:00",
+        "quantity": 3554112938,
+        "unit": "JCT",
+        "notional_usdt": 6667515.87,
+        "captured_at_utc": "2026-10-13T14:08:34.875Z",
+        "event_time_utc": null
+      },
+      {
+        "raw_label": "10/13 07:00",
+        "quantity": 3554426451,
+        "unit": "JCT",
+        "notional_usdt": 6692131.94,
+        "captured_at_utc": "2026-10-13T14:08:28.769Z",
+        "event_time_utc": null
+      }
+    ],
+    "delta_quantity": 313513,
+    "change_pct": 0.008821132177539149,
+    "quality": "Latest two rendered hourly endpoints verified; last valid capture selected per raw label; raw timezone unverified.",
+    "delayed_relative_to_running_hour": false,
+    "latest_raw_label_advanced_since_prior_capture": true,
+    "same_window_price_volume_raw_label": "2026/10/13 06:00",
+    "interval_verification": "1h selected and verified in rendered Open Interest control.",
+    "stale_endpoint_flag": false,
+    "stale_endpoint_basis": "Latest raw 10/13 07:00 matches verified running raw 2026/10/13 07:00. Prior 13 UTC endpoint raw 10/13 06:00; no venue timezone claim.",
+    "normalization_selection": "Latest two raw labels, using the last valid value-bearing capture for each label. Older labels and empty tooltip captures remain raw evidence only."
+  },
+  "closed_hour": {
+    "raw_label": "2026/10/13 06:00",
+    "interval": "1H",
+    "open": 0.001876,
+    "high": 0.001898,
+    "low": 0.001861,
+    "close": 0.001884,
+    "ui_change_pct": 0.42,
+    "ui_range_pct": 1.97,
+    "calculated_open_to_close_pct": 0.42643923240938164,
+    "volume_qty_display": "61.001M",
+    "volume_qty": 61001000,
+    "volume_qty_unit": "JCT",
+    "volume_usdt_display": "114.473K",
+    "volume_usdt": 114473,
+    "captured_at_utc": "2026-10-13T14:00:09.713Z",
+    "event_time_utc": null,
+    "ohlc_bounds_consistent": true,
+    "prior_six": [
+      {
+        "raw_label": "2026/10/13 05:00",
+        "interval": "1H",
+        "open": 0.001858,
+        "high": 0.001878,
+        "low": 0.001847,
+        "close": 0.001876,
+        "ui_change_pct": 1.07,
+        "ui_range_pct": 1.67,
+        "calculated_open_to_close_pct": 0.9687836383207751,
+        "volume_qty_display": "40.265M",
+        "volume_qty": 40265000,
+        "volume_qty_unit": "JCT",
+        "volume_usdt_display": "74.994K",
+        "volume_usdt": 74994,
+        "captured_at_utc": "2026-10-13T14:00:19.498Z",
+        "event_time_utc": null,
+        "ohlc_bounds_consistent": true
+      },
+      {
+        "raw_label": "2026/10/13 04:00",
+        "interval": "1H",
+        "open": 0.001865,
+        "high": 0.001887,
+        "low": 0.001839,
+        "close": 0.001856,
+        "ui_change_pct": -0.48,
+        "ui_range_pct": 2.57,
+        "calculated_open_to_close_pct": -0.48257372654155495,
+        "volume_qty_display": "84.768M",
+        "volume_qty": 84768000,
+        "volume_qty_unit": "JCT",
+        "volume_usdt_display": "157.569K",
+        "volume_usdt": 157569,
+        "captured_at_utc": "2026-10-13T14:00:19.970Z",
+        "event_time_utc": null,
+        "ohlc_bounds_consistent": true
+      },
+      {
+        "raw_label": "2026/10/13 03:00",
+        "interval": "1H",
+        "open": 0.001879,
+        "high": 0.001888,
+        "low": 0.001864,
+        "close": 0.001865,
+        "ui_change_pct": -0.79,
+        "ui_range_pct": 1.27,
+        "calculated_open_to_close_pct": -0.7450771687067589,
+        "volume_qty_display": "51.328M",
+        "volume_qty": 51328000,
+        "volume_qty_unit": "JCT",
+        "volume_usdt_display": "96.247K",
+        "volume_usdt": 96247,
+        "captured_at_utc": "2026-10-13T14:00:20.429Z",
+        "event_time_utc": null,
+        "ohlc_bounds_consistent": true
+      },
+      {
+        "raw_label": "2026/10/13 02:00",
+        "interval": "1H",
+        "open": 0.001867,
+        "high": 0.001904,
+        "low": 0.00186,
+        "close": 0.00188,
+        "ui_change_pct": 0.69,
+        "ui_range_pct": 2.35,
+        "calculated_open_to_close_pct": 0.6963042313872523,
+        "volume_qty_display": "105.151M",
+        "volume_qty": 105151000,
+        "volume_qty_unit": "JCT",
+        "volume_usdt_display": "197.547K",
+        "volume_usdt": 197547,
+        "captured_at_utc": "2026-10-13T14:00:20.876Z",
+        "event_time_utc": null,
+        "ohlc_bounds_consistent": true
+      },
+      {
+        "raw_label": "2026/10/13 01:00",
+        "interval": "1H",
+        "open": 0.001874,
+        "high": 0.001881,
+        "low": 0.00185,
+        "close": 0.001867,
+        "ui_change_pct": -0.32,
+        "ui_range_pct": 1.65,
+        "calculated_open_to_close_pct": -0.37353255069370334,
+        "volume_qty_display": "62.242M",
+        "volume_qty": 62242000,
+        "volume_qty_unit": "JCT",
+        "volume_usdt_display": "116.235K",
+        "volume_usdt": 116235,
+        "captured_at_utc": "2026-10-13T14:00:21.309Z",
+        "event_time_utc": null,
+        "ohlc_bounds_consistent": true
+      },
+      {
+        "raw_label": "2026/10/13 00:00",
+        "interval": "1H",
+        "open": 0.001887,
+        "high": 0.001894,
+        "low": 0.001865,
+        "close": 0.001873,
+        "ui_change_pct": -0.84,
+        "ui_range_pct": 1.53,
+        "calculated_open_to_close_pct": -0.7419183889772125,
+        "volume_qty_display": "55.185M",
+        "volume_qty": 55185000,
+        "volume_qty_unit": "JCT",
+        "volume_usdt_display": "103.752K",
+        "volume_usdt": 103752,
+        "captured_at_utc": "2026-10-13T14:00:21.861Z",
+        "event_time_utc": null,
+        "ohlc_bounds_consistent": true
+      }
+    ],
+    "prior_six_mean_qty": 66489833.333333336,
+    "volume_ratio": 0.9174485322317447,
+    "price_volume_threshold_met": false,
+    "completion_basis": "Later running candle 2026/10/13 07:00 verified on same 1H chart; raw timezone unknown."
+  },
+  "running_hour_verification": {
+    "raw_label": "2026/10/13 07:00",
+    "interval": "1H",
+    "open": 0.001883,
+    "high": 0.001883,
+    "low": 0.001883,
+    "close": 0.001886,
+    "ui_change_pct": 0.1,
+    "ui_range_pct": 0,
+    "calculated_open_to_close_pct": 0.15932023366967604,
+    "volume_qty_display": "15.154K",
+    "volume_qty": 15154,
+    "volume_qty_unit": "JCT",
+    "volume_usdt_display": "28.534000",
+    "volume_usdt": 28.534,
+    "captured_at_utc": "2026-10-13T14:00:09.164Z",
+    "event_time_utc": null,
+    "ohlc_bounds_consistent": false,
+    "quality_note": "Rendered running candle contains an OHLC bounds inconsistency. Values retained exactly as displayed; not used as a completed-bar signal."
+  },
+  "closed_4h": {
+    "raw_label": "2026/10/13 01:00",
+    "interval": "4H",
+    "open": 0.001874,
+    "high": 0.001904,
+    "low": 0.001839,
+    "close": 0.001856,
+    "ui_change_pct": -0.9,
+    "ui_range_pct": 3.47,
+    "calculated_open_to_close_pct": -0.96051227321238,
+    "volume_qty_display": "303.49M",
+    "volume_qty": 303490000,
+    "volume_qty_unit": "JCT",
+    "volume_usdt_display": "567.6K",
+    "volume_usdt": 567600,
+    "captured_at_utc": "2026-10-13T14:01:32.304Z",
+    "event_time_utc": null,
+    "ohlc_bounds_consistent": true,
+    "running_4h_raw_label": "2026/10/13 05:00",
+    "completion_basis": "Later running candle 2026/10/13 05:00 verified on same 4H chart; raw timezone unknown."
+  },
+  "running_4h_verification": {
+    "raw_label": "2026/10/13 05:00",
+    "interval": "4H",
+    "open": 0.001858,
+    "high": 0.001898,
+    "low": 0.001847,
+    "close": 0.001889,
+    "ui_change_pct": 1.77,
+    "ui_range_pct": 2.74,
+    "calculated_open_to_close_pct": 1.6684607104413347,
+    "volume_qty_display": "104.629M",
+    "volume_qty": 104629000,
+    "volume_qty_unit": "JCT",
+    "volume_usdt_display": "195.811K",
+    "volume_usdt": 195811,
+    "captured_at_utc": "2026-10-13T14:01:31.893Z",
+    "event_time_utc": null,
+    "ohlc_bounds_consistent": true
+  },
+  "taker_volume": {
+    "raw_label": "10/13 06:00",
+    "interval": "1h",
+    "unit": "JCT",
+    "sell_quantity": 31619236,
+    "buy_quantity": 29381799,
+    "captured_at_utc": "2026-10-13T14:09:11.801Z",
+    "event_time_utc": null,
+    "buy_sell_ratio": 0.9292381068283876,
+    "delayed_relative_to_closed_hour": false,
+    "matched_latest_closed_hour": true,
+    "matching_basis": "Same contract, hourly interval and raw label. No UTC event-time mapping.",
+    "quantity_sum": 61001035,
+    "quantity_sum_difference_from_ohlcv": 35,
+    "ohlcv_display_rounding_half_unit_qty": 500,
+    "quantity_sum_consistency_note": "Difference is within half the last displayed OHLCV quantity unit; consistent with display rounding. The two raw values are retained without forcing exact equality.",
+    "quantity_sum_reconciled_within_display_precision": true
+  },
+  "funding": {
+    "predicted_rate_decimal_per_interval": 5e-05,
+    "raw_predicted_percent": 0.005,
+    "interval_hours": 4,
+    "captured_at_utc": "2026-10-13T14:00:08.707Z",
+    "raw_countdown": "01:59:51",
+    "conversion": "Displayed percent divided by 100.",
+    "event_time_utc": null,
+    "history_summary_display_percent": 0.005,
+    "history_summary_event_time_utc": null,
+    "history_summary_status": "Untimestamped rendered funding-history summary; do not treat as a timestamped settled payment.",
+    "history_summary_captured_at_utc": "2026-10-13T14:09:11.801Z"
+  },
+  "depth": {
+    "captured_at_utc": "2026-10-13T14:00:08.707Z",
+    "price_unit": "USDT",
+    "size_unit": "JCT",
+    "scope": "5 visible levels each side",
+    "asks_descending": [
+      {
+        "price": 0.00189,
+        "size_quantity": 739260,
+        "cumulative_quantity": 1460000,
+        "size_display": "739.26K",
+        "cumulative_display": "1.46M"
+      },
+      {
+        "price": 0.001889,
+        "size_quantity": 320930,
+        "cumulative_quantity": 722390,
+        "size_display": "320.93K",
+        "cumulative_display": "722.39K"
+      },
+      {
+        "price": 0.001888,
+        "size_quantity": 271720,
+        "cumulative_quantity": 401460,
+        "size_display": "271.72K",
+        "cumulative_display": "401.46K"
+      },
+      {
+        "price": 0.001887,
+        "size_quantity": 62590,
+        "cumulative_quantity": 129730,
+        "size_display": "62.59K",
+        "cumulative_display": "129.73K"
+      },
+      {
+        "price": 0.001886,
+        "size_quantity": 67140,
+        "cumulative_quantity": 67140,
+        "size_display": "67.14K",
+        "cumulative_display": "67.14K"
+      }
+    ],
+    "bids_descending": [
+      {
+        "price": 0.001884,
+        "size_quantity": 38400,
+        "cumulative_quantity": 38400,
+        "size_display": "38.40K",
+        "cumulative_display": "38.40K"
+      },
+      {
+        "price": 0.001883,
+        "size_quantity": 70550,
+        "cumulative_quantity": 108960,
+        "size_display": "70.55K",
+        "cumulative_display": "108.96K"
+      },
+      {
+        "price": 0.001882,
+        "size_quantity": 235660,
+        "cumulative_quantity": 344630,
+        "size_display": "235.66K",
+        "cumulative_display": "344.63K"
+      },
+      {
+        "price": 0.001881,
+        "size_quantity": 424700,
+        "cumulative_quantity": 769340,
+        "size_display": "424.70K",
+        "cumulative_display": "769.34K"
+      },
+      {
+        "price": 0.00188,
+        "size_quantity": 540840,
+        "cumulative_quantity": 1310000,
+        "size_display": "540.84K",
+        "cumulative_display": "1.31M"
+      }
+    ],
+    "event_time_utc": null,
+    "precision_note": "Sizes and cumulative sums are independently rounded display quantities; no exact cumulative reconciliation implied."
+  },
+  "comparisons": {
+    "last_observed_mark_reference": {
+      "prior_captured_at_utc": "2026-10-13T13:00:27Z",
+      "prior_mark_price": 0.001875,
+      "current_captured_at_utc": "2026-10-13T14:00:08.707Z",
+      "current_mark_price": 0.001882,
+      "elapsed_minutes": 59.695116666666664,
+      "change_pct": 0.37333333333333335,
+      "is_approximately_hourly": true,
+      "reason": "Same-contract actual mark captures about one hour apart; no event-time timezone inference."
+    }
+  },
+  "missing_fields": {
+    "exchange_event_time_utc": {
+      "value": null,
+      "reason": "Rendered chart timezone unverified."
+    },
+    "timestamped_funding_settlement": {
+      "value": null,
+      "reason": "Only untimestamped funding-history summary captured; no timestamped settled-funding tooltip verified."
+    },
+    "full_depth": {
+      "value": null,
+      "reason": "Only 5 rendered levels per side captured."
+    }
+  },
+  "normalization_quality": {
+    "oi_captures_without_tooltip_values": [
+      {
+        "kind": "oi_latest",
+        "captured_at_utc": "2026-10-13T14:01:13.594Z"
+      },
+      {
+        "kind": "oi_latest_final",
+        "captured_at_utc": "2026-10-13T14:04:26.776Z"
+      },
+      {
+        "kind": "oi_latest_verified",
+        "captured_at_utc": "2026-10-13T14:04:48.618Z"
+      },
+      {
+        "kind": "oi_latest_final2",
+        "captured_at_utc": "2026-10-13T14:06:33.939Z"
+      }
+    ],
+    "taker_captures_without_tooltip_values": [
+      {
+        "kind": "taker",
+        "captured_at_utc": "2026-10-13T14:06:19.475Z"
+      }
+    ],
+    "missing_tooltip_handling": "Excluded from numeric normalization; retained unchanged as raw public evidence."
+  },
+  "raw_public_evidence": [
+    {
+      "symbol": "JCTUSDT",
+      "kind": "market",
+      "at": "2026-10-13T14:00:08.707Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t335 combo box (collapsed) Description: Select an option, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t\t\t352 text 2026/10/13 06:00 Open 0.001876 High 0.001898 Low 0.001861 Close 0.001884 CHANGE 0.42% Range 1.97%",
+        "\t\t\t\t\t\t\t\t\t351 text Vol(JCT) 61.001M Vol(USDT) 114.473K 65.706M 121.291M"
+      ],
+      "header": [
+        "\t\t\t31 heading JCTUSDT info tag, Value: 1",
+        "\t\t\t\t32 text JCTUSDT",
+        "\t\t\t\t33 container info tag",
+        "\t\t\t\t\t34 container Perp",
+        "\t\t\t\t\t\t35 text Perp",
+        "\t\t\t\t36 image",
+        "\t\t\t37 text 0.001886",
+        "\t\t\t38 text -0.000047",
+        "\t\t\t39 container",
+        "\t\t\t\t40 text -2.48 %",
+        "\t\t\t41 container",
+        "\t\t\t\t42 container",
+        "\t\t\t\t\t43 text Mark",
+        "\t\t\t\t\t44 text 0.001882",
+        "\t\t\t\t45 container",
+        "\t\t\t\t\t46 link Description: Index, Value: binance.com/en/futures/funding-history/perpetual/index?contract=JCTUSDT",
+        "\t\t\t\t\t47 text 0.001880",
+        "\t\t\t\t48 container",
+        "\t\t\t\t\t49 container",
+        "\t\t\t\t\t\t50 text Funding  (4h)  / Countdown",
+        "\t\t\t\t\t51 text 0.00500% /",
+        "\t\t\t\t\t52 text 01:59:51",
+        "\t\t\t\t53 container",
+        "\t\t\t\t\t54 text 24h High 0.002019",
+        "\t\t\t\t55 container",
+        "\t\t\t\t\t56 text 24h Low 0.001704",
+        "\t\t\t\t57 container",
+        "\t\t\t\t\t58 text 24h Vol(JCT) 4,273,091,416.00",
+        "\t\t\t\t59 container",
+        "\t\t\t\t\t60 text 24h Vol(USDT) 7,963,670.47",
+        "\t\t\t\t61 container",
+        "\t\t\t\t\t62 link Description: Open Interest(USDT), Value: binance.com/en/futures/funding-history/perpetual/trading-data?contract=JCTUSDT",
+        "\t\t\t\t\t63 text 6,676,542.90",
+        "\t\t\t\t64 image"
+      ],
+      "depth": [
+        "\t\t\t\t\t199 container futuresOrderbook",
+        "\t\t\t\t\t\t200 container",
+        "\t\t\t\t\t\t\t201 text 0.000001",
+        "\t\t\t\t\t\t\t202 image",
+        "\t\t\t\t\t\t203 text Price (USDT)",
+        "\t\t\t\t\t\t204 text Size ( JCT ) Sum ( JCT )",
+        "\t\t\t\t\t\t205 container",
+        "\t\t\t\t\t\t\t206 container",
+        "\t\t\t\t\t\t\t\t207 text 0.001890",
+        "\t\t\t\t\t\t\t\t208 text 739.26K 1.46M",
+        "\t\t\t\t\t\t\t209 container",
+        "\t\t\t\t\t\t\t\t210 text 0.001889",
+        "\t\t\t\t\t\t\t\t211 text 320.93K 722.39K",
+        "\t\t\t\t\t\t\t212 container",
+        "\t\t\t\t\t\t\t\t213 text 0.001888",
+        "\t\t\t\t\t\t\t\t214 text 271.72K 401.46K",
+        "\t\t\t\t\t\t\t215 container",
+        "\t\t\t\t\t\t\t\t216 text 0.001887",
+        "\t\t\t\t\t\t\t\t217 text 62.59K 129.73K",
+        "\t\t\t\t\t\t\t218 container",
+        "\t\t\t\t\t\t\t\t219 text 0.001886",
+        "\t\t\t\t\t\t\t\t220 text 67.14K 67.14K",
+        "\t\t\t\t\t\t221 text 0.001886",
+        "\t\t\t\t\t\t222 image",
+        "\t\t\t\t\t\t223 text 0.001882",
+        "\t\t\t\t\t\t224 container",
+        "\t\t\t\t\t\t\t225 container",
+        "\t\t\t\t\t\t\t\t226 text 0.001884",
+        "\t\t\t\t\t\t\t\t227 text 38.40K 38.40K",
+        "\t\t\t\t\t\t\t228 container",
+        "\t\t\t\t\t\t\t\t229 text 0.001883",
+        "\t\t\t\t\t\t\t\t230 text 70.55K 108.96K",
+        "\t\t\t\t\t\t\t231 container",
+        "\t\t\t\t\t\t\t\t232 text 0.001882",
+        "\t\t\t\t\t\t\t\t233 text 235.66K 344.63K",
+        "\t\t\t\t\t\t\t234 container",
+        "\t\t\t\t\t\t\t\t235 text 0.001881",
+        "\t\t\t\t\t\t\t\t236 text 424.70K 769.34K",
+        "\t\t\t\t\t\t\t237 container",
+        "\t\t\t\t\t\t\t\t238 text 0.001880",
+        "\t\t\t\t\t\t\t\t239 text 540.84K 1.31M"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "running_hour",
+      "at": "2026-10-13T14:00:09.164Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t335 combo box (collapsed) Description: Select an option, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t\t\t352 text 2026/10/13 07:00 Open 0.001883 High 0.001883 Low 0.001883 Close 0.001886 CHANGE 0.10% Range 0.00%",
+        "\t\t\t\t\t\t\t\t\t351 text Vol(JCT) 15.154K Vol(USDT) 28.534000 57.824M 93.254M"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "closed_hour",
+      "at": "2026-10-13T14:00:09.713Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t335 combo box (collapsed) Description: Select an option, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t\t\t352 text 2026/10/13 06:00 Open 0.001876 High 0.001898 Low 0.001861 Close 0.001884 CHANGE 0.42% Range 1.97%",
+        "\t\t\t\t\t\t\t\t\t351 text Vol(JCT) 61.001M Vol(USDT) 114.473K 65.706M 121.291M"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "prior_hour",
+      "at": "2026-10-13T14:00:19.498Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t335 combo box (collapsed) Description: Select an option, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t\t\t352 text 2026/10/13 05:00 Open 0.001858 High 0.001878 Low 0.001847 Close 0.001876 CHANGE 1.07% Range 1.67%",
+        "\t\t\t\t\t\t\t\t\t351 text Vol(JCT) 40.265M Vol(USDT) 74.994K 68.279M 123.837M"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "prior_hour",
+      "at": "2026-10-13T14:00:19.970Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t335 combo box (collapsed) Description: Select an option, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t\t\t352 text 2026/10/13 04:00 Open 0.001865 High 0.001887 Low 0.001839 Close 0.001856 CHANGE -0.48% Range 2.57%",
+        "\t\t\t\t\t\t\t\t\t351 text Vol(JCT) 84.768M Vol(USDT) 157.569K 86.597M 125.589M"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "prior_hour",
+      "at": "2026-10-13T14:00:20.429Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t335 combo box (collapsed) Description: Select an option, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t\t\t352 text 2026/10/13 03:00 Open 0.001879 High 0.001888 Low 0.001864 Close 0.001865 CHANGE -0.79% Range 1.27%",
+        "\t\t\t\t\t\t\t\t\t351 text Vol(JCT) 51.328M Vol(USDT) 96.247K 103.62M 135.091M"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "prior_hour",
+      "at": "2026-10-13T14:00:20.876Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t335 combo box (collapsed) Description: Select an option, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t\t\t352 text 2026/10/13 02:00 Open 0.001867 High 0.001904 Low 0.001860 Close 0.001880 CHANGE 0.69% Range 2.35%",
+        "\t\t\t\t\t\t\t\t\t351 text Vol(JCT) 105.151M Vol(USDT) 197.547K 106.064M 157.444M"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "prior_hour",
+      "at": "2026-10-13T14:00:21.309Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t335 combo box (collapsed) Description: Select an option, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t\t\t352 text 2026/10/13 01:00 Open 0.001874 High 0.001881 Low 0.001850 Close 0.001867 CHANGE -0.32% Range 1.65%",
+        "\t\t\t\t\t\t\t\t\t351 text Vol(JCT) 62.242M Vol(USDT) 116.235K 110.396M 164.78M"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "prior_hour",
+      "at": "2026-10-13T14:00:21.861Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t335 combo box (collapsed) Description: Select an option, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t\t\t352 text 2026/10/13 00:00 Open 0.001887 High 0.001894 Low 0.001865 Close 0.001873 CHANGE -0.84% Range 1.53%",
+        "\t\t\t\t\t\t\t\t\t351 text Vol(JCT) 55.185M Vol(USDT) 103.752K 128.683M 167.274M"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "closed_4h_earlier",
+      "at": "2026-10-13T14:00:31.583Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t360 combo box (collapsed) Description: Select an option, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t\t\t365 text 2026/10/13 01:00 Open 0.001874 High 0.001904 Low 0.001839 Close 0.001856 CHANGE -0.90% Range 3.47%",
+        "\t\t\t\t\t\t\t\t\t351 text Vol(JCT) 303.49M Vol(USDT) 567.6K 726.865M 1.218B"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "prior_4h",
+      "at": "2026-10-13T14:00:32.014Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t360 combo box (collapsed) Description: Select an option, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t\t\t365 text 2026/10/12 21:00 Open 0.001780 High 0.001941 Low 0.001778 Close 0.001873 CHANGE 5.28% Range 9.16%",
+        "\t\t\t\t\t\t\t\t\t351 text Vol(JCT) 506.621M Vol(USDT) 947.907K 777.528M 1.464B"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "oi_latest",
+      "at": "2026-10-13T14:01:13.594Z",
+      "lines": [
+        "\t\t\t\t\t\t327 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand",
+        "\t\t\t\t\t\t330 combo box (collapsed) Description: Select an option, Value: Single, Secondary Actions: Expand",
+        "\t\t\t\t\t\t335 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t339 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t343 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t347 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t351 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t354 text Funding Rate: 0.005000%",
+        "\t\t\t\t\t\t355 combo box (collapsed) Description: Select an option, Value: Last 40 Times, Secondary Actions: Expand",
+        "\t\t\t\t\t\t359 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "oi_previous",
+      "at": "2026-10-13T14:01:14.069Z",
+      "lines": [
+        "\t\t\t\t\t\t327 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand",
+        "\t\t\t\t\t\t330 combo box (collapsed) Description: Select an option, Value: Single, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t\t364 text 10/13 05:00 Open Interest (JCT): 3,561,433,455.000 Notional Value of Open Interest (USDT): 6,610,020.49",
+        "\t\t\t\t\t\t335 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t339 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t343 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t347 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t351 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t354 text Funding Rate: 0.005000%",
+        "\t\t\t\t\t\t355 combo box (collapsed) Description: Select an option, Value: Last 40 Times, Secondary Actions: Expand",
+        "\t\t\t\t\t\t359 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "running_4h",
+      "at": "2026-10-13T14:01:31.893Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t335 combo box (collapsed) Description: Select an option, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t\t\t350 text 2026/10/13 05:00 Open 0.001858 High 0.001898 Low 0.001847 Close 0.001889 CHANGE 1.77% Range 2.74%",
+        "\t\t\t\t\t\t\t\t\t352 text Vol(JCT) 104.629M Vol(USDT) 195.811K 670.901M 1.017B"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "closed_4h",
+      "at": "2026-10-13T14:01:32.304Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t335 combo box (collapsed) Description: Select an option, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t\t\t353 text 2026/10/13 01:00 Open 0.001874 High 0.001904 Low 0.001839 Close 0.001856 CHANGE -0.90% Range 3.47%",
+        "\t\t\t\t\t\t\t\t\t352 text Vol(JCT) 303.49M Vol(USDT) 567.6K 726.865M 1.218B"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "oi_latest_final",
+      "at": "2026-10-13T14:04:26.776Z",
+      "lines": [
+        "\t\t\t\t\t\t327 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand",
+        "\t\t\t\t\t\t330 combo box (collapsed) Description: Select an option, Value: Single, Secondary Actions: Expand",
+        "\t\t\t\t\t\t335 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t339 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t343 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t347 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t351 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t354 text Funding Rate: 0.005000%",
+        "\t\t\t\t\t\t355 combo box (collapsed) Description: Select an option, Value: Last 40 Times, Secondary Actions: Expand",
+        "\t\t\t\t\t\t359 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "oi_previous_final",
+      "at": "2026-10-13T14:04:27.270Z",
+      "lines": [
+        "\t\t\t\t\t\t327 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand",
+        "\t\t\t\t\t\t330 combo box (collapsed) Description: Select an option, Value: Single, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t\t364 text 10/13 06:00 Open Interest (JCT): 3,554,112,938.000 Notional Value of Open Interest (USDT): 6,667,515.87",
+        "\t\t\t\t\t\t335 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t339 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t343 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t347 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t351 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t354 text Funding Rate: 0.005000%",
+        "\t\t\t\t\t\t355 combo box (collapsed) Description: Select an option, Value: Last 40 Times, Secondary Actions: Expand",
+        "\t\t\t\t\t\t359 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "oi_latest_verified",
+      "at": "2026-10-13T14:04:48.618Z",
+      "lines": [
+        "\t\t\t\t\t\t327 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand",
+        "\t\t\t\t\t\t330 combo box (collapsed) Description: Select an option, Value: Single, Secondary Actions: Expand",
+        "\t\t\t\t\t\t335 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t339 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t343 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t347 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand",
+        "\t\t\t\t\t\t351 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t354 text Funding Rate: 0.005000%",
+        "\t\t\t\t\t\t355 combo box (collapsed) Description: Select an option, Value: Last 40 Times, Secondary Actions: Expand",
+        "\t\t\t\t\t\t359 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "taker",
+      "at": "2026-10-13T14:06:19.475Z",
+      "lines": [
+        "\t\t\t\t\t\t327 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand",
+        "\t\t\t\t\t\t330 combo box (collapsed) Description: Select an option, Value: Single, Secondary Actions: Expand",
+        "\t\t\t\t\t\t335 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t339 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t343 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t347 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand",
+        "\t\t\t\t\t\t351 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t354 text Funding Rate: 0.005000%",
+        "\t\t\t\t\t\t355 combo box (collapsed) Description: Select an option, Value: Last 40 Times, Secondary Actions: Expand",
+        "\t\t\t\t\t\t359 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "oi_latest_final2",
+      "at": "2026-10-13T14:06:33.939Z",
+      "lines": [
+        "\t\t\t\t\t\t327 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand",
+        "\t\t\t\t\t\t330 combo box (collapsed) Description: Select an option, Value: Single, Secondary Actions: Expand",
+        "\t\t\t\t\t\t335 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t339 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t343 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t347 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand",
+        "\t\t\t\t\t\t351 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t354 text Funding Rate: 0.005000%",
+        "\t\t\t\t\t\t355 combo box (collapsed) Description: Select an option, Value: Last 40 Times, Secondary Actions: Expand",
+        "\t\t\t\t\t\t359 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "oi_previous_final2",
+      "at": "2026-10-13T14:06:34.450Z",
+      "lines": [
+        "\t\t\t\t\t\t327 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand",
+        "\t\t\t\t\t\t330 combo box (collapsed) Description: Select an option, Value: Single, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t\t364 text 10/13 06:00 Open Interest (JCT): 3,554,112,938.000 Notional Value of Open Interest (USDT): 6,667,515.87",
+        "\t\t\t\t\t\t335 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t339 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t343 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t347 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand",
+        "\t\t\t\t\t\t351 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t354 text Funding Rate: 0.005000%",
+        "\t\t\t\t\t\t355 combo box (collapsed) Description: Select an option, Value: Last 40 Times, Secondary Actions: Expand",
+        "\t\t\t\t\t\t359 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "oi_latest_confirmed",
+      "at": "2026-10-13T14:08:28.769Z",
+      "lines": [
+        "\t\t\t\t\t\t327 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand",
+        "\t\t\t\t\t\t330 combo box (collapsed) Description: Select an option, Value: Single, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t\t364 text 10/13 07:00 Open Interest (JCT): 3,554,426,451.000 Notional Value of Open Interest (USDT): 6,692,131.94",
+        "\t\t\t\t\t\t335 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t339 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t343 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t347 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand",
+        "\t\t\t\t\t\t351 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t354 text Funding Rate: 0.005000%",
+        "\t\t\t\t\t\t355 combo box (collapsed) Description: Select an option, Value: Last 40 Times, Secondary Actions: Expand",
+        "\t\t\t\t\t\t359 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "oi_previous_confirmed",
+      "at": "2026-10-13T14:08:34.875Z",
+      "lines": [
+        "\t\t\t\t\t\t327 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand",
+        "\t\t\t\t\t\t330 combo box (collapsed) Description: Select an option, Value: Single, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t\t364 text 10/13 06:00 Open Interest (JCT): 3,554,112,938.000 Notional Value of Open Interest (USDT): 6,667,515.87",
+        "\t\t\t\t\t\t335 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t339 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t343 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t347 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand",
+        "\t\t\t\t\t\t351 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t354 text Funding Rate: 0.005000%",
+        "\t\t\t\t\t\t355 combo box (collapsed) Description: Select an option, Value: Last 40 Times, Secondary Actions: Expand",
+        "\t\t\t\t\t\t359 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand"
+      ]
+    },
+    {
+      "symbol": "JCTUSDT",
+      "kind": "taker_final",
+      "at": "2026-10-13T14:09:11.801Z",
+      "lines": [
+        "\t\t\t\t\t\t327 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand",
+        "\t\t\t\t\t\t330 combo box (collapsed) Description: Select an option, Value: Single, Secondary Actions: Expand",
+        "\t\t\t\t\t\t335 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t339 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t343 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t347 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand",
+        "\t\t\t\t\t\t\t\t364 text 10/13 06:00 Taker Sell Volume (JCT): 31,619,236.000 Taker Buy Volume (JCT): 29,381,799.000",
+        "\t\t\t\t\t\t351 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand",
+        "\t\t\t\t\t\t354 text Funding Rate: 0.005000%",
+        "\t\t\t\t\t\t355 combo box (collapsed) Description: Select an option, Value: Last 40 Times, Secondary Actions: Expand",
+        "\t\t\t\t\t\t359 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand"
+      ]
+    }
+  ],
+  "historical_quality_context": {
+    "prior_13utc_taker_ohlcv": {
+      "raw_label": "10/13 05:00",
+      "captured_at_utc": "2026-10-13T13:08:42.766Z",
+      "quantity_sum_difference_from_ohlcv": 501,
+      "ohlcv_display_rounding_half_unit_qty": 500,
+      "exceeds_half_display_unit": true,
+      "prior_evidence_reconciliation_flag": true,
+      "note": "Historical mismatch remains separate from the current 06:00 raw-label sample. Prior artifacts are unchanged; the current sample does not resolve that historical discrepancy."
+    }
+  },
+  "alert_evaluation": {
+    "quantity_oi_abs_gte_5pct": false,
+    "closed_price_volume_threshold_met": false,
+    "approx_hour_mark_abs_gte_10pct": false,
+    "any_threshold_met": false,
+    "second_confirmation_required": false,
+    "reason": "No requested threshold met on these samples; no new alert."
+  }
+}

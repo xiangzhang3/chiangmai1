@@ -1,14 +1,19 @@
-"""Chiang Mai One v1.0 — public futures data and paper strategy engine."""
+"""CHIANGMAI1 v1.0 — public futures data and paper strategy engine."""
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
-import requests
+import json
+import math
+from urllib.parse import urlencode
+from urllib.request import urlopen
 
 BASE = "https://fapi.binance.com"
 
 def fetch(path, **params):
-    response = requests.get(BASE + path, params=params, timeout=12)
-    response.raise_for_status()
-    return response.json()
+    if path not in {"/futures/data/openInterestHist", "/fapi/v1/klines",
+                    "/fapi/v1/premiumIndex", "/futures/data/takerlongshortRatio"}:
+        raise ValueError("Only explicitly allowed public market-data GETs are supported")
+    with urlopen(BASE + path + "?" + urlencode(params), timeout=12) as response:
+        return json.load(response)
 
 def snapshot(symbol="STRKUSDT"):
     return {
@@ -61,13 +66,21 @@ def summarize_snapshot(data):
 @dataclass
 class PaperAccount:
     strategy: str
-    cash: float = 10000
+    cash: float
     fee_rate: float = .0005
     slippage_rate: float = .0005
     trades: list = field(default_factory=list)
     position: dict | None = None
 
+    def __post_init__(self):
+        if not math.isfinite(self.cash) or self.cash <= 0:
+            raise ValueError("An explicit positive virtual account budget is required")
+        if not all(math.isfinite(x) and 0 <= x < 1 for x in (self.fee_rate, self.slippage_rate)):
+            raise ValueError("Invalid costs")
+
     def open(self, symbol, side, quantity, price):
+        if not all(math.isfinite(x) for x in (quantity, price)):
+            raise ValueError("Non-finite order")
         if self.position is not None or side not in ("long", "short") or min(quantity, price) <= 0:
             raise ValueError("Invalid order")
         fill = price * (1 + self.slippage_rate if side == "long" else 1 - self.slippage_rate)
@@ -79,7 +92,7 @@ class PaperAccount:
 
     def close(self, price, funding=0):
         p = self.position
-        if p is None or price <= 0:
+        if p is None or not all(math.isfinite(x) for x in (price, funding)) or price <= 0:
             raise ValueError("Invalid close")
         fill = price * (1 - self.slippage_rate if p["side"] == "long" else 1 + self.slippage_rate)
         fee = fill * p["quantity"] * self.fee_rate
@@ -100,3 +113,4 @@ class PaperAccount:
                 "win_rate": len(wins) / len(self.trades) if self.trades else None,
                 "profit_factor": profit / loss if loss else None,
                 "net_pnl": sum(t["pnl"] for t in self.trades), "cash": self.cash}
+

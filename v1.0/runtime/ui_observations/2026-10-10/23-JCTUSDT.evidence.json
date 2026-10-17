@@ -1,0 +1,98 @@
+{
+  "symbol": "JCTUSDT",
+  "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+  "observed_at": "2026-10-10T23:03:34.501Z",
+  "status": "RESEARCH_ONLY",
+  "execution_eligible": false,
+  "display_timezone": null,
+  "exchange_event_time": null,
+  "uncertainties": [
+    "Rendered clock labels retained verbatim. Display timezone not explicitly exposed; no UTC event-time mapping inferred.",
+    "Prior chart bars were selected after interval changes and rendered chart inspection; exchange candle boundaries independently unverified.",
+    "Book sizes rounded and fields asynchronous. Observation timestamp is capture time, not exchange event time.",
+    "Quote-header funding is current indicated/predicted rate; settled history separate. Percent divided by 100 for decimal rate."
+  ],
+  "raw_quote_header": "\"JCTUSDT info tag\" [level=1]:\n  - generic: JCTUSDT\n  - generic \"info tag\":\n    - tooltip \"Perp\":\n      - generic: Perp\n- generic: \"0.001831\"\n- generic: \"-0.000732\"\n- generic: \"-28.56%\"\n- generic: Mark\n- generic: \"0.001831\"\n- link \"Index\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/index?contract=JCTUSDT\n  - text: Index\n- generic: \"0.001833\"\n- generic: Funding (4h) / Countdown\n- generic: 0.00500%\n- generic: /\n- generic: 00:56:26\n- generic: 24h High\n- generic: \"0.003137\"\n- generic: 24h Low\n- generic: \"0.001536\"\n- generic: 24h Vol(JCT)\n- generic: 37,165,078,975.00\n- generic: 24h Vol(USDT)\n- generic: 96,352,684.97\n- link \"Open Interest(USDT)\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=JCTUSDT\n  - text: Open Interest(USDT)\n- generic: 7,089,001.53\n- generic: FindBorderBarSize\n",
+  "raw_order_book": "\n  - generic: \"0.000001\"\n  - generic: Price (USDT)\n  - generic: Size\n  - generic: (JCT)\n  - generic: Sum\n  - generic: (JCT)\n  - generic: \"0.001837\"\n  - generic: 735.29K\n  - generic: 2.73M\n  - generic: \"0.001836\"\n  - generic: 727.50K\n  - generic: 2.00M\n  - generic: \"0.001835\"\n  - generic: 699.14K\n  - generic: 1.27M\n  - generic: \"0.001834\"\n  - generic: 479.14K\n  - generic: 577.26K\n  - generic: \"0.001833\"\n  - generic: 98.12K\n  - generic: 98.12K\n  - generic: \"0.001831\"\n  - generic: \"0.001831\"\n  - generic: \"0.001831\"\n  - generic: 164.39K\n  - generic: 164.39K\n  - generic: \"0.001830\"\n  - generic: 910.91K\n  - generic: 1.07M\n  - generic: \"0.001829\"\n  - generic: 624.00K\n  - generic: 1.69M\n  - generic: \"0.001828\"\n  - generic: 920.88K\n  - generic: 2.62M\n  - generic: \"0.001827\"\n  - generic: 917.05K\n  - generic: 3.53M\n",
+  "raw_trades": "\n  - generic: Price (USDT)\n  - generic: Amount\n  - generic: (JCT)\n  - generic: Time\n  - generic: \"0.001831\"\n  - generic: 15.69K\n  - generic: 16:03:32\n  - generic: \"0.001833\"\n  - generic: 61.82K\n  - generic: 16:03:31\n  - generic: \"0.001833\"\n  - generic: 83.45K\n  - generic: 16:03:27\n  - generic: \"0.001832\"\n  - generic: 11.72K\n  - generic: 16:03:27\n  - generic: \"0.001832\"\n  - generic: 331.37K\n  - generic: 16:03:27\n  - generic: \"0.001832\"\n  - generic: 49.73K\n  - generic: 16:03:27\n",
+  "hourly_oi": [
+    {
+      "observed_at": "2026-10-10T23:04:46.553Z",
+      "display_label": "10/10 15:00",
+      "quantity": 3921905932,
+      "notional_usdt": 7039742.7,
+      "raw_tooltip": "10/10 15:00\n\nOpen Interest (JCT): 3,921,905,932.000\n\nNotional Value of Open Interest (USDT):\n\n7,039,742.70",
+      "interval_selected": "1h",
+      "timezone": null
+    },
+    {
+      "observed_at": "2026-10-10T23:04:46.783Z",
+      "display_label": "10/10 14:00",
+      "quantity": 3896408683,
+      "notional_usdt": 6203082.62,
+      "raw_tooltip": "10/10 14:00\n\nOpen Interest (JCT): 3,896,408,683.000\n\nNotional Value of Open Interest (USDT):\n\n6,203,082.62",
+      "interval_selected": "1h",
+      "timezone": null
+    }
+  ],
+  "hourly_taker": [
+    {
+      "observed_at": "2026-10-10T23:05:02.379Z",
+      "display_label": "10/10 15:00",
+      "sell_quantity": 692540189,
+      "buy_quantity": 707925561,
+      "raw_tooltip": "10/10 15:00\n\nTaker Sell Volume (JCT): 692,540,189.000\n\nTaker Buy Volume (JCT): 707,925,561.000",
+      "interval_selected": "1h",
+      "timezone": null
+    },
+    {
+      "observed_at": "2026-10-10T23:05:02.628Z",
+      "display_label": "10/10 14:00",
+      "sell_quantity": 1780817463,
+      "buy_quantity": 1777862659,
+      "raw_tooltip": "10/10 14:00\n\nTaker Sell Volume (JCT): 1,780,817,463.000\n\nTaker Buy Volume (JCT): 1,777,862,659.000",
+      "interval_selected": "1h",
+      "timezone": null
+    }
+  ],
+  "candles": [
+    {
+      "observed_at": "2026-10-10T23:06:52.971Z",
+      "interval_hours": 1,
+      "raw": "Time\n1s\n15m\n1H\n4H\n1D\n1W\nLast Price\nOriginal\nTrading View\nDepth\n2026/10/10 15:00\nOpen\n0.001795\nHigh\n0.001840\nLow\n0.001720\nClose\n0.001825\nCHANGE\n1.72%\nRange\n6.68%\nMA(7)\n0.002432\nMA(25)\n0.002697\nMA(99)\n0.002088\nVol(JCT)\n1.4B\nVol(USDT)\n2.505M\n2.213B\n1.921B",
+      "exchange_open_time_utc": null,
+      "exchange_close_time_utc": null,
+      "completion_status": "prior_ui_bar_boundary_unverified"
+    },
+    {
+      "observed_at": "2026-10-10T23:07:05.597Z",
+      "interval_hours": 4,
+      "raw": "Time\n1s\n15m\n1H\n4H\n1D\n1W\nLast Price\nOriginal\nTrading View\nDepth\n2026/10/10 09:00\nOpen\n0.002977\nHigh\n0.003119\nLow\n0.002745\nClose\n0.002776\nCHANGE\n-6.68%\nRange\n12.57%\nMA(7)\n0.002726\nMA(25)\n0.002097\nMA(99)\n0.001815\nVol(JCT)\n4.349B\nVol(USDT)\n13.008M\n4.901B\n6.69B",
+      "exchange_open_time_utc": null,
+      "exchange_close_time_utc": null,
+      "completion_status": "prior_ui_bar_boundary_unverified"
+    }
+  ],
+  "settled_funding_history": {
+    "observed_at": "2026-10-10T23:05:08.342Z",
+    "url": "https://www.binance.com/en/futures/funding-history/perpetual/funding-fee-history",
+    "symbol": "JCTUSDT Perpetual",
+    "raw": "Time\tFunding Interval\tFunding Rate\t\nMark Price\n\n2026-10-10 13:00:00\t4h\t0.023018%\t0.0027730 USDT\n2026-10-10 09:00:00\t4h\t0.021004%\t0.0029750 USDT\n2026-10-10 05:00:00\t4h\t0.027368%\t0.0030169 USDT\n2026-10-10 01:00:00\t4h\t0.014583%\t0.0027600 USDT\n2026-10-09 21:00:00\t4h\t0.005000%\t0.0025629 USDT\n2026-10-09 17:00:00\t4h\t0.011574%\t0.0025862 USDT\n2026-10-09 13:00:00\t4h\t0.005000%\t0.0023886 USDT\n2026-10-09 09:00:00\t4h\t0.035016%\t0.0026300 USDT\n2026-10-09 05:00:00\t4h\t0.012615%\t0.0024120 USDT\n2026-10-09 01:00:00\t4h\t0.023162%\t0.0023530 USDT\n2026-10-08 21:00:00\t4h\t0.028822%\t0.0022920 USDT\n2026-10-08 17:00:00\t4h\t0.064672%\t0.0025734 USDT\n2026-10-08 13:00:00\t4h\t0.009380%\t0.0019270 USDT\n2026-10-08 09:00:00\t4h\t0.005000%\t0.0013640 USDT\n2026-10-08 05:00:00\t4h\t0.005000%\t0.0015830 USDT\n2026-10-08 01:00:00\t4h\t0.005000%\t0.0015757 USDT\n2026-10-07 21:00:00\t4h\t0.005000%\t0.0015790 USDT\n2026-10-07 17:00:00\t4h\t0.005000%\t0.0015870 USDT\n2026-10-07 13:00:00\t4h\t0.005000%\t0.0015809 USDT\n2026-10-07 09:00:00\t4h\t0.005000%\t0.0015860 USDT"
+  },
+  "rejected_chart_attempts": {
+    "reason": "Interval selection and rendered content initially inconsistent; not classified as completed candles. Corrected captures above.",
+    "captures": [
+      {
+        "observed_at": "2026-10-10T23:04:14.050Z",
+        "interval_hours": 1,
+        "raw": "Time\n1s\n15m\n1H\n4H\n1D\n1W\nLast Price\nOriginal\nTrading View\nDepth\n2026/10/10 09:00\nOpen\n0.002977\nHigh\n0.003119\nLow\n0.002745\nClose\n0.002776\nCHANGE\n-6.68%\nRange\n12.57%\nMA(7)\n0.002726\nMA(25)\n0.002097\nMA(99)\n0.001815\nVol(JCT)\n4.349B\nVol(USDT)\n13.008M\n4.901B\n6.69B",
+        "warning": "1H selected but chart range appears retained; interval and completion unverified"
+      },
+      {
+        "observed_at": "2026-10-10T23:04:29.015Z",
+        "interval_hours": 4,
+        "raw": "Time\n1s\n15m\n1H\n4H\n1D\n1W\nLast Price\nOriginal\nTrading View\nDepth\n2026/10/10 16:00\nOpen\n0.001826\nHigh\n0.001857\nLow\n0.001816\nClose\n0.001852\nCHANGE\n0.00%\nRange\n2.21%\nMA(7)\n0.002542\nMA(25)\n0.002107\nMA(99)\n0.001817\nVol(JCT)\n70.513M\nVol(USDT)\n129.561K\n5.253B\n7.122B"
+      }
+    ]
+  }
+}

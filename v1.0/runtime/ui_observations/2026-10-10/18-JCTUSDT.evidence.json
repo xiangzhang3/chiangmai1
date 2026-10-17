@@ -1,0 +1,43 @@
+{
+  "observed_at": "2026-10-10T18:05:38.250Z",
+  "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+  "symbol_verified": "JCTUSDT",
+  "market_header_raw": "\t\t\t31 heading JCTUSDT info tag, Value: 1\n\t\t\t\t32 text JCTUSDT\n\t\t\t\t33 container info tag\n\t\t\t\t\t34 container Perp\n\t\t\t\t\t\t35 text Perp\n\t\t\t\t36 image\n\t\t\t37 text 0.003005\n\t\t\t38 text 0.000619\n\t\t\t39 container\n\t\t\t\t40 text +25.99 %\n\t\t\t41 container\n\t\t\t\t42 container\n\t\t\t\t\t43 text Mark\n\t\t\t\t\t44 text 0.003010\n\t\t\t\t45 container\n\t\t\t\t\t46 link Description: Index, Value: binance.com/en/futures/funding-history/perpetual/index?contract=JCTUSDT\n\t\t\t\t\t47 text 0.003001\n\t\t\t\t48 container\n\t\t\t\t\t49 container\n\t\t\t\t\t\t50 text Funding  (4h)  / Countdown\n\t\t\t\t\t51 text 0.03239% /\n\t\t\t\t\t52 text 01:54:21\n\t\t\t\t53 container\n\t\t\t\t\t54 text 24h High 0.003137\n\t\t\t\t55 container\n\t\t\t\t\t56 text 24h Low 0.002275\n\t\t\t\t57 container\n\t\t\t\t\t58 text 24h Vol(JCT) 27,267,520,178.00\n\t\t\t\t59 container\n\t\t\t\t\t60 text 24h Vol(USDT) 76,559,214.69\n\t\t\t\t61 container\n\t\t\t\t\t62 link Description: Open Interest(USDT), Value: binance.com/en/futures/funding-history/perpetual/trading-data?contract=JCTUSDT\n\t\t\t\t\t63 text 12,612,315.34\n\t\t\t\t64 image\n\t\t\t65 container",
+  "book_tape_raw": "\t\t\t\t152 container Description: Order Book, ID: flexlayout-tab-#f3b218c0-09b9-411e-b840-bd097b32cbf8\n\t\t\t\t\t153 container futuresOrderbook\n\t\t\t\t\t\t154 container\n\t\t\t\t\t\t\t155 text 0.000001\n\t\t\t\t\t\t\t156 image\n\t\t\t\t\t\t157 text Price (USDT)\n\t\t\t\t\t\t158 text Size ( JCT ) Sum ( JCT )\n\t\t\t\t\t\t159 container\n\t\t\t\t\t\t\t160 container\n\t\t\t\t\t\t\t\t161 text 0.003011\n\t\t\t\t\t\t\t\t162 text 189.08K 760.21K\n\t\t\t\t\t\t\t163 container\n\t\t\t\t\t\t\t\t164 text 0.003010\n\t\t\t\t\t\t\t\t165 text 297.87K 571.13K\n\t\t\t\t\t\t\t166 container\n\t\t\t\t\t\t\t\t167 text 0.003009\n\t\t\t\t\t\t\t\t168 text 206.41K 273.26K\n\t\t\t\t\t\t\t169 container\n\t\t\t\t\t\t\t\t170 text 0.003008\n\t\t\t\t\t\t\t\t171 text 57.02K 66.85K\n\t\t\t\t\t\t\t172 container\n\t\t\t\t\t\t\t\t173 text 0.003007\n\t\t\t\t\t\t\t\t174 text 9.83K 9.83K\n\t\t\t\t\t\t175 text 0.003005\n\t\t\t\t\t\t176 image\n\t\t\t\t\t\t177 text 0.003010\n\t\t\t\t\t\t178 container\n\t\t\t\t\t\t\t179 container\n\t\t\t\t\t\t\t\t180 text 0.003005\n\t\t\t\t\t\t\t\t181 text 16.13K 16.13K\n\t\t\t\t\t\t\t182 container\n\t\t\t\t\t\t\t\t183 text 0.003004\n\t\t\t\t\t\t\t\t184 text 107.10K 123.24K\n\t\t\t\t\t\t\t185 container\n\t\t\t\t\t\t\t\t186 text 0.003003\n\t\t\t\t\t\t\t\t187 text 157.31K 280.56K\n\t\t\t\t\t\t\t188 container\n\t\t\t\t\t\t\t\t189 text 0.003002\n\t\t\t\t\t\t\t\t190 text 502.33K 782.90K\n\t\t\t\t\t\t\t191 container\n\t\t\t\t\t\t\t\t192 text 0.003001\n\t\t\t\t\t\t\t\t193 text 214.50K 997.40K\n\t\t\t\t194 container Description: Trades, ID: flexlayout-tab-#734cd989-9a48-4da8-99c1-1dd781351b13\n\t\t\t\t\t195 container\n\t\t\t\t\t\t196 text Price (USDT) Amount ( JCT ) Time\n\t\t\t\t\t\t197 container\n\t\t\t\t\t\t\t198 container\n\t\t\t\t\t\t\t\t199 text 0.003005 1.99K 11:05:37\n\t\t\t\t\t\t\t200 container\n\t\t\t\t\t\t\t\t201 text 0.003004 893.68K 11:05:37\n\t\t\t\t\t\t\t202 container\n\t\t\t\t\t\t\t\t203 text 0.003010 133.59K 11:05:35\n\t\t\t\t\t\t\t204 container\n\t\t\t\t\t\t\t\t205 text 0.003007 72.32K 11:05:34\n\t\t\t\t\t\t\t206 container\n\t\t\t\t\t\t\t\t207 text 0.003006 229.94K 11:05:31\n\t\t\t\t\t\t\t208 container\n\t\t\t\t\t\t\t\t209 text 0.003008 3.99K 11:05:31",
+  "candles": {
+    "hourly": {
+      "observed_at": "2026-10-10T18:05:59.451Z",
+      "raw": "+\t\t\t\t\t\t\t\t\t317 text 2026/10/10 10:00 Open 0.003000 High 0.003070 Low 0.002966 Close 0.003019 CHANGE 0.59% Range 3.46%\n~\t\t\t\t\t\t\t\t\t316 text Vol(JCT) 777.711M Vol(USDT) 2.342M 1.212B 1.355B",
+      "display_open_time": "2026/10/10 10:00",
+      "open": 0.003,
+      "high": 0.00307,
+      "low": 0.002966,
+      "close": 0.003019,
+      "interval_hours": 1,
+      "exchange_open_time_utc": null,
+      "completion_basis": "Selected prior bar, preceding current displayed 11:00 hourly / 09:00 four-hour bar. Raw local labels; no UTC conversion."
+    },
+    "four_hour": {
+      "observed_at": "2026-10-10T18:06:10.903Z",
+      "raw": "~\t\t\t\t\t\t\t\t\t317 text 2026/10/10 05:00 Open 0.003023 High 0.003090 Low 0.002727 Close 0.002975 CHANGE -1.55% Range 12.01%\n~\t\t\t\t\t\t\t\t\t316 text Vol(JCT) 4.704B Vol(USDT) 13.724M 6.649B 6.389B",
+      "display_open_time": "2026/10/10 05:00",
+      "open": 0.003023,
+      "high": 0.00309,
+      "low": 0.002727,
+      "close": 0.002975,
+      "interval_hours": 4,
+      "exchange_open_time_utc": null,
+      "completion_basis": "Selected prior bar, preceding current displayed 11:00 hourly / 09:00 four-hour bar. Raw local labels; no UTC conversion."
+    }
+  },
+  "status": "RESEARCH_ONLY",
+  "execution_eligible": false,
+  "display_timezone": null,
+  "timestamp_notes": "observed_at is UTC capture start, not exchange event time. UI fields update asynchronously. Displayed clock/candle labels retained raw; timezone not established in this run.",
+  "quantity_notes": "Book K/M/B sizes and candle volumes are rounded display values; USD OI is not quantity OI.",
+  "missing_fields": [
+    "hourly_open_interest_quantity_history",
+    "hourly_taker_buy_sell_history",
+    "historical_settled_funding_with_settlement_mark"
+  ]
+}

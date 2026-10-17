@@ -1,0 +1,13 @@
+{
+  "symbol": "JCTUSDT",
+  "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+  "observed_at": "2026-10-13T06:00:12.645Z",
+  "fields": {
+    "last_price": 0.001901,
+    "mark_price": 0.001902,
+    "index_price": 0.001902,
+    "funding_rate": 0.00005,
+    "funding_interval_hours": 4,
+    "open_interest_notional_usdt": 6800737.53
+  }
+}

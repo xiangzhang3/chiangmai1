@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "symbol": "STRKUSDT",
+  "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+  "observed_at": "2026-10-11T07:04:58.403Z",
+  "research_only": true,
+  "execution_eligible": false,
+  "selected_symbol_verified": true,
+  "collection_method": "Signed-out official rendered UI with chart pointer tooltips",
+  "display_timezone": null,
+  "time_note": "Raw UI labels retained. Timezone and venue event-time mapping not established. Capture times are not exchange event times.",
+  "market_raw": {
+    "header": "\n\t\t\t34 heading STRKUSDT info tag, Value: 1\n\t\t\t\t35 text STRKUSDT\n\t\t\t\t36 container info tag\n\t\t\t\t\t37 container Perp\n\t\t\t\t\t\t38 text Perp\n\t\t\t\t39 image\n\t\t\t40 text 0.11046\n\t\t\t41 text 0.03928\n\t\t\t42 container\n\t\t\t\t43 text +55.18 %\n\t\t\t44 container\n\t\t\t\t45 container\n\t\t\t\t\t46 text Mark\n\t\t\t\t\t47 text 0.11056\n\t\t\t\t48 container\n\t\t\t\t\t49 link Description: Index, Value: binance.com/en/futures/funding-history/perpetual/index?contract=STRKUSDT\n\t\t\t\t\t50 text 0.11065\n\t\t\t\t51 container\n\t\t\t\t\t52 container\n\t\t\t\t\t\t53 text Funding  (4h)  / Countdown\n\t\t\t\t\t54 text 0.00104% /\n\t\t\t\t\t55 text 00:55:02\n\t\t\t\t56 container\n\t\t\t\t\t57 text 24h High 0.12390\n\t\t\t\t58 container\n\t\t\t\t\t59 text 24h Low 0.06896\n\t\t\t\t60 container\n\t\t\t\t\t61 text 24h Vol(STRK) 11,637,463,006.9\n\t\t\t\t62 container\n\t\t\t\t\t63 text 24h Vol(USDT) 1,178,035,760.63\n\t\t\t\t64 container\n\t\t\t\t\t65 link Description: Open Interest(USDT), Value: binance.com/en/futures/funding-history/perpetual/trading-data?contract=STRKUSDT\n\t\t\t\t\t66 text 50,238,041.90\n\t\t\t\t67 image\n\t\t\t68 container\n\t\t\t\t69 ",
+    "book_and_tape": "container Description: Order Book, ID: flexlayout-tab-#bf5cbf8d-ce45-4aa2-b0ae-bbf52aacaa43\n\t\t\t\t\t161 container futuresOrderbook\n\t\t\t\t\t\t162 container\n\t\t\t\t\t\t\t163 text 0.00001\n\t\t\t\t\t\t\t164 image\n\t\t\t\t\t\t165 text Price (USDT)\n\t\t\t\t\t\t166 text Size ( STRK ) Sum ( STRK )\n\t\t\t\t\t\t167 container\n\t\t\t\t\t\t\t168 container\n\t\t\t\t\t\t\t\t169 text 0.11051\n\t\t\t\t\t\t\t\t170 text 9.15K 55.74K\n\t\t\t\t\t\t\t171 container\n\t\t\t\t\t\t\t\t172 text 0.11050\n\t\t\t\t\t\t\t\t173 text 6.33K 46.58K\n\t\t\t\t\t\t\t174 container\n\t\t\t\t\t\t\t\t175 text 0.11049\n\t\t\t\t\t\t\t\t176 text 18.45K 40.24K\n\t\t\t\t\t\t\t177 container\n\t\t\t\t\t\t\t\t178 text 0.11048\n\t\t\t\t\t\t\t\t179 text 16.08K 21.79K\n\t\t\t\t\t\t\t180 container\n\t\t\t\t\t\t\t\t181 text 0.11047\n\t\t\t\t\t\t\t\t182 text 5.70K 5.70K\n\t\t\t\t\t\t183 text 0.11046\n\t\t\t\t\t\t184 image\n\t\t\t\t\t\t185 text 0.11056\n\t\t\t\t\t\t186 container\n\t\t\t\t\t\t\t187 container\n\t\t\t\t\t\t\t\t188 text 0.11046\n\t\t\t\t\t\t\t\t189 text 16.39K 16.39K\n\t\t\t\t\t\t\t190 container\n\t\t\t\t\t\t\t\t191 text 0.11045\n\t\t\t\t\t\t\t\t192 text 11.88K 28.28K\n\t\t\t\t\t\t\t193 container\n\t\t\t\t\t\t\t\t194 text 0.11044\n\t\t\t\t\t\t\t\t195 text 30.26K 58.54K\n\t\t\t\t\t\t\t196 container\n\t\t\t\t\t\t\t\t197 text 0.11043\n\t\t\t\t\t\t\t\t198 text 17.14K 75.69K\n\t\t\t\t\t\t\t199 container\n\t\t\t\t\t\t\t\t200 text 0.11042\n\t\t\t\t\t\t\t\t201 text 35.50K 111.19K\n\t\t\t\t202 container Description: Trades, ID: flexlayout-tab-#7d88ea65-a81d-4cc3-96eb-b4ef41eeb08e\n\t\t\t\t\t203 container\n\t\t\t\t\t\t204 text Price (USDT) Amount ( STRK ) Time\n\t\t\t\t\t\t205 container\n\t\t\t\t\t\t\t206 container\n\t\t\t\t\t\t\t\t207 text 0.11046 13.90K 00:04:57\n\t\t\t\t\t\t\t208 container\n\t\t\t\t\t\t\t\t209 text 0.11047 134.50K 00:04:56\n\t\t\t\t\t\t\t210 container\n\t\t\t\t\t\t\t\t211 text 0.11052 33.52K 00:04:56\n\t\t\t\t\t\t\t212 container\n\t\t\t\t\t\t\t\t213 text 0.11049 40.78K 00:04:55\n\t\t\t\t\t\t\t214 container\n\t\t\t\t\t\t\t\t215 text 0.11050 60.69K 00:04:55\n\t\t\t\t\t\t\t216 container\n\t\t\t\t\t\t\t\t217 text 0.11053 13.60K 00:04:54\n\t\t\t\t218 "
+  },
+  "funding_note": "Current predicted decimal rate in observation; historical settlement separate below. Percent divided by 100.",
+  "oi_hourly": {
+    "unit": "STRK",
+    "interval_selected": "1h",
+    "previous": {
+      "raw_label": "10/10 23:00",
+      "quantity": 447165293.7,
+      "observed_at": "2026-10-11T07:04:21.734Z"
+    },
+    "latest": {
+      "raw_label": "10/11 00:00",
+      "quantity": 453184692.4,
+      "observed_at": "2026-10-11T07:04:21.460Z"
+    },
+    "delta_quantity": 6019398.699999988,
+    "delta_percent": 1.3461238572862966,
+    "endpoint_updated": true,
+    "stale": false,
+    "beijing_event_hour": null,
+    "aligned_price_volume_change": null,
+    "alignment_note": "Candles and OI carry matching raw labels but exact shared event boundaries/timezone remain unverified; no aligned event-hour claim."
+  },
+  "candles": [
+    {
+      "interval": "1h",
+      "raw": "2026/10/10 23:00 Open 0.10925 High 0.11178 Low 0.10718 Close 0.11029 CHANGE 0.95% Range 4.21%; Vol(STRK) 352.753M Vol(USDT) 38.518M",
+      "observed_at": "2026-10-11T07:06:37.943Z"
+    },
+    {
+      "interval": "4h",
+      "raw": "2026/10/10 17:00 Open 0.10316 High 0.12390 Low 0.10029 Close 0.10547 CHANGE 2.21% Range 22.88%; Vol(STRK) 3.234B Vol(USDT) 365.067M",
+      "observed_at": "2026-10-11T07:07:13.340Z"
+    }
+  ],
+  "candle_note": "Prior candles selected to left of live bar. Values rounded as displayed. UI CHANGE may use prior close rather than current open. UTC event boundaries unresolved.",
+  "taker_hourly": {
+    "raw_label": "10/10 23:00",
+    "unit": "STRK",
+    "interval_selected": "1h",
+    "sell_quantity": 169497471.4,
+    "buy_quantity": 183206627.1,
+    "observed_at": "2026-10-11T07:15:30.248Z",
+    "event_at_utc": null
+  },
+  "settled_funding": {
+    "label": "2026-10-10 21:00:00",
+    "interval_hours": 4,
+    "rate_percent_raw": "-0.001779%",
+    "rate_decimal": -0.00001779,
+    "mark_price": 0.1055176,
+    "observed_at": "2026-10-11T07:16:44.176Z",
+    "source_url": "https://www.binance.com/en/futures/funding-history/perpetual/funding-fee-history",
+    "selected_symbol": "STRKUSDT",
+    "event_at_utc": null
+  },
+  "missing": [
+    "Verified venue event UTC timestamps",
+    "Fully reconciled chart timezone and OI/candle boundaries"
+  ],
+  "scope": "Public observations only; no account state or trade execution"
+}

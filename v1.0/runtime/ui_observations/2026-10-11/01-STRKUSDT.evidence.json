@@ -1,0 +1,71 @@
+{
+  "symbol": "STRKUSDT",
+  "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+  "observed_at": "2026-10-11T01:05:30.224Z",
+  "status": "RESEARCH_ONLY",
+  "execution_eligible": false,
+  "captures": [
+    {
+      "kind": "quote",
+      "observed_at": "2026-10-11T01:05:30.224Z",
+      "dom": "- heading \"STRKUSDT info tag\" [level=1]:\n  - generic: STRKUSDT\n  - generic \"info tag\":\n    - tooltip \"Perp\":\n      - generic: Perp\n- generic: \"0.10261\"\n- generic: \"0.02990\"\n- generic: +41.12%\n- generic: Mark\n- generic: \"0.10259\"\n- link \"Index\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/index?contract=STRKUSDT\n  - text: Index\n- generic: \"0.10262\"\n- generic: Funding (4h) / Countdown\n- generic: \"-0.00176%\"\n- generic: /\n- generic: 02:54:30\n- generic: 24h High\n- generic: \"0.10821\"\n- generic: 24h Low\n- generic: \"0.06896\"\n- generic: 24h Vol(STRK)\n- generic: 7,817,385,029.7\n- generic: 24h Vol(USDT)\n- generic: 722,791,238.42\n- link \"Open Interest(USDT)\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=STRKUSDT\n  - text: Open Interest(USDT)\n- generic: 46,797,822.95\n- generic: FindBorderBarSize\n- tablist:\n  - tab \"Chart\":\n    - tab \"Chart\"\n  - tab \"Info\":\n    - tab \"Info\"\n  - tab \"Trading Data\" [selected]:\n    - tab \"Trading Data\" [selected]:\n      - text: Trading Data\n  - tab \"Audit\":\n    - tab \"Audit\"\n- separator \"Resize\"\n- tablist:\n  - tab \"Order Book\" [selected]:\n    - tab \"Order Book\" [selected]:\n      - text: Order Book\n- separator \"Resize\"\n- tablist:\n  - tab \"Trades\" [selected]:\n    - tab \"Trades\" [selected]:\n      - text: Trades\n  - tab \"Top Movers\":\n    - tab \"Top Movers\"\n- separator \"Resize\"\n- tabpanel \"Trading Data\":\n  - generic: Open Interest\n  - combobox \"Select an option\":\n    - generic: 5m\n  - combobox \"Select an option\":\n    - generic: Single\n  - generic: Top Trader Long/Short Ratio (Accounts)\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Top Trader Long/Short Ratio (Positions)\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Long/Short Ratio\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Taker Buy/Sell Volume\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Basis\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: \"Funding Rate: -0.002724%\"\n  - combobox \"Select an option\":\n    - generic: Last 40 Times\n  - generic: Open Interest to Market Cap Ratio\n  - combobox \"Select an option\":\n    - generic: 5m\n- tabpanel \"Order Book\":\n  - generic: \"0.00001\"\n  - generic: Price (USDT)\n  - generic: Size\n  - generic: (STRK)\n  - generic: Sum\n  - generic: (STRK)\n  - generic: \"0.10266\"\n  - generic: 27.96K\n  - generic: 159.23K\n  - generic: \"0.10265\"\n  - generic: 40.43K\n  - generic: 131.27K\n  - generic: \"0.10264\"\n  - generic: 30.32K\n  - generic: 90.83K\n  - generic: \"0.10263\"\n  - generic: 47.49K\n  - generic: 60.50K\n  - generic: \"0.10262\"\n  - generic: 13.00K\n  - generic: 13.00K\n  - generic: \"0.10261\"\n  - generic: \"0.10259\"\n  - generic: \"0.10260\"\n  - generic: 1.81K\n  - generic: 1.81K\n  - generic: \"0.10259\"\n  - generic: 23.26K\n  - generic: 25.07K\n  - generic: \"0.10258\"\n  - generic: 13.12K\n  - generic: 38.20K\n  - generic: \"0.10257\"\n  - generic: 25.51K\n  - generic: 63.71K\n  - generic: \"0.10256\"\n  - generic: 20.83K\n  - generic: 84.55K\n- tabpanel \"Trades\":\n  - generic: Price (USDT)\n  - generic: Amount\n  - generic: (STRK)\n  - generic: Time\n  - generic: \"0.10261\"\n  - generic: 46.82K\n  - generic: 18:05:29\n  - generic: \"0.10261\"\n  - generic: 1.08K\n  - generic: 18:05:29\n  - generic: \"0.10260\"\n  - generic: 180.39K\n  - generic: 18:05:28\n  - generic: \"0.10261\"\n  - generic: 14.65K\n  - generic: 18:05:28\n  - generic: \"0.10262\"\n  - generic: 2.03K\n  - generic: 18:05:27\n  - generic: \"0.10261\"\n  - generic: 19.61K\n  - generic: 18:05:27\n"
+    },
+    {
+      "kind": "candle_1h",
+      "observed_at": "2026-10-11T01:05:51.728Z",
+      "dom": "Time\n1s\n15m\n1H\n4H\n1D\n1W\nLast Price\nOriginal\nTrading View\nDepth\n2026/10/10 17:00\nOpen\n0.10316\nHigh\n0.10572\nLow\n0.10080\nClose\n0.10231\nCHANGE\n-0.84%\nRange\n4.76%\nMA(7)\n0.10224\nMA(25)\n0.08391\nMA(99)\n0.06454\nVol(STRK)\n391.676M\nVol(USDT)\n40.551M\n493.55M\n481.577M"
+    },
+    {
+      "kind": "candle_4h",
+      "observed_at": "2026-10-11T01:06:02.183Z",
+      "dom": "Time\n1s\n15m\n1H\n4H\n1D\n1W\nLast Price\nOriginal\nTrading View\nDepth\n2026/10/10 13:00\nOpen\n0.09955\nHigh\n0.10821\nLow\n0.09925\nClose\n0.10318\nCHANGE\n3.62%\nRange\n8.99%\nMA(7)\n0.08362\nMA(25)\n0.06486\nMA(99)\n0.04997\nVol(STRK)\n1.668B\nVol(USDT)\n172.487M\n1.149B\n1.059B"
+    },
+    {
+      "kind": "oi_1h",
+      "observed_at": "2026-10-11T01:06:24.486Z",
+      "dom": "Open Interest\n1h\nSingle\nOpen Interest (STRK)\nNotional Value of Op...\n18:00\n00:00\n06:00\n12:00\n18:00\n360M\n420M\n480M\n24M\n36M\n48M\n10/10 17:00\n\nOpen Interest (STRK): 439,862,321.400\n\nNotional Value of Open Interest (USDT):\n\n45,398,511.29\n\nTop Trader Long/Short Ratio (Accounts)\n5m\nLong/Short Ratio (Accounts)\n16:00\n16:30\n17:00\n17:30\n18:00\n0.67\n0.72\n0.77\nTop Trader Long/Short Ratio (Positions)\n5m\nLong/Short Ratio (Positions)\n16:00\n16:30\n17:00\n17:30\n18:00\n1.12\n1.20\n1.28\nLong/Short Ratio\n5m\nLong/Short Ratio\n16:00\n16:30\n17:00\n17:30\n18:00\n0.68\n0.76\n0.84\nTaker Buy/Sell Volume\n5m\nTaker Sell Volume (STRK)\nTaker Buy Volume (STRK)\n16:00\n16:30\n17:00\n17:30\n18:00\n0.000\n30,000,000.000\n60,000,000.000\nBasis\n5m\nFutures Price\nPrice Index\nBasis\n16:00\n16:30\n17:00\n17:30\n18:00\n0.1000000\n0.1040000\n0.1080000\n-0.0003000\n-0.0001000\n0.0001000\nFunding Rate: -0.002724%\nLast 40 Times\n10/5\n10/6\n10/7\n10/8\n10/9\n10/10\n-0.018%\n-0.006%\n0.006%\nOpen Interest to Market Cap Ratio\n5m\nPrice\nRatio\n16:00\n16:30\n17:00\n17:30\n18:00\n0.1005\n0.1035\n0.1065\n5.760%\n6.000%\n6.240%"
+    },
+    {
+      "kind": "oi_1h",
+      "observed_at": "2026-10-11T01:06:24.757Z",
+      "dom": "Open Interest\n1h\nSingle\nOpen Interest (STRK)\nNotional Value of Op...\n18:00\n00:00\n06:00\n12:00\n18:00\n360M\n420M\n480M\n24M\n36M\n48M\n10/10 18:00\n\nOpen Interest (STRK): 451,790,264.200\n\nNotional Value of Open Interest (USDT):\n\n46,216,074.82\n\nTop Trader Long/Short Ratio (Accounts)\n5m\nLong/Short Ratio (Accounts)\n16:00\n16:30\n17:00\n17:30\n18:00\n0.67\n0.72\n0.77\nTop Trader Long/Short Ratio (Positions)\n5m\nLong/Short Ratio (Positions)\n16:00\n16:30\n17:00\n17:30\n18:00\n1.12\n1.20\n1.28\nLong/Short Ratio\n5m\nLong/Short Ratio\n16:00\n16:30\n17:00\n17:30\n18:00\n0.68\n0.76\n0.84\nTaker Buy/Sell Volume\n5m\nTaker Sell Volume (STRK)\nTaker Buy Volume (STRK)\n16:00\n16:30\n17:00\n17:30\n18:00\n0.000\n30,000,000.000\n60,000,000.000\nBasis\n5m\nFutures Price\nPrice Index\nBasis\n16:00\n16:30\n17:00\n17:30\n18:00\n0.1000000\n0.1040000\n0.1080000\n-0.0003000\n-0.0001000\n0.0001000\nFunding Rate: -0.002724%\nLast 40 Times\n10/5\n10/6\n10/7\n10/8\n10/9\n10/10\n-0.018%\n-0.006%\n0.006%\nOpen Interest to Market Cap Ratio\n5m\nPrice\nRatio\n16:00\n16:30\n17:00\n17:30\n18:00\n0.1005\n0.1035\n0.1065\n5.760%\n6.000%\n6.240%"
+    },
+    {
+      "kind": "taker_1h",
+      "observed_at": "2026-10-11T01:06:43.786Z",
+      "dom": "Open Interest\n1h\nSingle\nOpen Interest (STRK)\nNotional Value of Op...\n18:00\n00:00\n06:00\n12:00\n18:00\n360M\n420M\n480M\n24M\n36M\n48M\nTop Trader Long/Short Ratio (Accounts)\n5m\nLong/Short Ratio (Accounts)\n16:00\n16:30\n17:00\n17:30\n18:00\n0.67\n0.72\n0.77\nTop Trader Long/Short Ratio (Positions)\n5m\nLong/Short Ratio (Positions)\n16:00\n16:30\n17:00\n17:30\n18:00\n1.12\n1.20\n1.28\nLong/Short Ratio\n5m\nLong/Short Ratio\n16:00\n16:30\n17:00\n17:30\n18:00\n0.68\n0.76\n0.84\nTaker Buy/Sell Volume\n1h\nTaker Sell Volume (STRK)\nTaker Buy Volume (STRK)\n12:00\n18:00\n00:00\n06:00\n12:00\n0.000\n300,000,000.000\n600,000,000.000\n10/10 17:00\n\nTaker Sell Volume (STRK): 194,178,461.700\n\nTaker Buy Volume (STRK): 197,498,225.800\n\nBasis\n5m\nFutures Price\nPrice Index\nBasis\n16:00\n16:30\n17:00\n17:30\n18:00\n0.1000000\n0.1040000\n0.1080000\n-0.0003000\n-0.0001000\n0.0001000\nFunding Rate: -0.002724%\nLast 40 Times\n10/5\n10/6\n10/7\n10/8\n10/9\n10/10\n-0.018%\n-0.006%\n0.006%\nOpen Interest to Market Cap Ratio\n5m\nPrice\nRatio\n16:00\n16:30\n17:00\n17:30\n18:00\n0.1005\n0.1035\n0.1065\n5.760%\n6.000%\n6.240%"
+    },
+    {
+      "kind": "taker_1h",
+      "observed_at": "2026-10-11T01:06:44.058Z",
+      "dom": "Open Interest\n1h\nSingle\nOpen Interest (STRK)\nNotional Value of Op...\n18:00\n00:00\n06:00\n12:00\n18:00\n360M\n420M\n480M\n24M\n36M\n48M\nTop Trader Long/Short Ratio (Accounts)\n5m\nLong/Short Ratio (Accounts)\n16:00\n16:30\n17:00\n17:30\n18:00\n0.67\n0.72\n0.77\nTop Trader Long/Short Ratio (Positions)\n5m\nLong/Short Ratio (Positions)\n16:00\n16:30\n17:00\n17:30\n18:00\n1.12\n1.20\n1.28\nLong/Short Ratio\n5m\nLong/Short Ratio\n16:00\n16:30\n17:00\n17:30\n18:00\n0.68\n0.76\n0.84\nTaker Buy/Sell Volume\n1h\nTaker Sell Volume (STRK)\nTaker Buy Volume (STRK)\n12:00\n18:00\n00:00\n06:00\n12:00\n0.000\n300,000,000.000\n600,000,000.000\n10/10 16:00\n\nTaker Sell Volume (STRK): 167,004,615.400\n\nTaker Buy Volume (STRK): 166,183,750.300\n\nBasis\n5m\nFutures Price\nPrice Index\nBasis\n16:00\n16:30\n17:00\n17:30\n18:00\n0.1000000\n0.1040000\n0.1080000\n-0.0003000\n-0.0001000\n0.0001000\nFunding Rate: -0.002724%\nLast 40 Times\n10/5\n10/6\n10/7\n10/8\n10/9\n10/10\n-0.018%\n-0.006%\n0.006%\nOpen Interest to Market Cap Ratio\n5m\nPrice\nRatio\n16:00\n16:30\n17:00\n17:30\n18:00\n0.1005\n0.1035\n0.1065\n5.760%\n6.000%\n6.240%"
+    },
+    {
+      "kind": "settled_funding",
+      "observed_at": "2026-10-11T01:07:46.729Z",
+      "source_url": "https://www.binance.com/en/futures/funding-history/perpetual/funding-fee-history",
+      "dom": "STRKUSDT Perpetual\nTime\tFunding Interval\tFunding Rate\t\nMark Price\n\n2026-10-10 17:00:00\t4h\t-0.002724%\t0.1031860 USDT\n2026-10-10 13:00:00\t4h\t0.000075%\t0.0995700 USDT\n2026-10-10 09:00:00\t4h\t0.005000%\t0.0934000 USDT\n2026-10-10 05:00:00\t4h\t0.005000%\t0.0710500 USDT\n2026-10-10 01:00:00\t4h\t0.003769%\t0.0712209 USDT\n2026-10-09 21:00:00\t4h\t0.003897%\t0.0738700 USDT\n2026-10-09 17:00:00\t4h\t0.002303%\t0.0730428 USDT\n2026-10-09 13:00:00\t4h\t0.001451%\t0.0708702 USDT\n2026-10-09 09:00:00\t4h\t0.003799%\t0.0752800 USDT\n2026-10-09 05:00:00\t4h\t0.003528%\t0.0724311 USDT\n2026-10-09 01:00:00\t4h\t0.002993%\t0.0711474 USDT\n2026-10-08 21:00:00\t4h\t0.000028%\t0.0670600 USDT\n2026-10-08 17:00:00\t4h\t-0.000644%\t0.0555400 USDT\n2026-10-08 13:00:00\t4h\t0.001451%\t0.0556700 USDT\n2026-10-08 09:00:00\t4h\t-0.000135%\t0.0601400 USDT\n2026-10-08 05:00:00\t4h\t0.005000%\t0.0595485 USDT\n2026-10-08 01:00:00\t4h\t-0.000024%\t0.0491217 USDT\n2026-10-07 21:00:00\t4h\t-0.000725%\t0.0493928 USDT\n2026-10-07 17:00:00\t4h\t-0.010975%\t0.0490100 USDT\n2026-10-07 13:00:00\t4h\t-0.003798%\t0.0486100 USDT"
+    }
+  ],
+  "display_timezone": null,
+  "exchange_event_time": null,
+  "limitations": [
+    "Public signed-out rendered UI only. Three symbols are not full-market coverage.",
+    "Observation times are capture times, not venue event timestamps; display timezone and candle finality/boundary semantics remain unverified.",
+    "Historical hourly labels and quantity units are preserved; no exact UTC hourly movement inferred.",
+    "Current predicted funding in quote differs from settled funding history.",
+    "Rounded K/M/B depth and candle volumes are not exact unrounded quantities.",
+    "KAIA first candle_4h capture is developing; candle_4h_historical is separately preserved.",
+    "No account state, trade execution or trading eligibility inferred."
+  ],
+  "missing_fields": [
+    "verified_display_timezone",
+    "verified_exchange_event_timestamps",
+    "independently_verified_candle_finality",
+    "full_order_book_depth"
+  ],
+  "numeric_conventions": {
+    "funding_percent_to_decimal": "Divide displayed percentage by 100.",
+    "suffixes": "K=1000; M=1000000; B=1000000000; values rounded."
+  }
+}

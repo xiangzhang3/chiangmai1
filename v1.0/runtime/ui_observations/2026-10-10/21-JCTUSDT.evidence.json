@@ -1,0 +1,242 @@
+{
+  "symbol": "JCTUSDT",
+  "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+  "observed_at": "2026-10-10T21:04:10.874Z",
+  "display_timezone": null,
+  "exchange_event_time": null,
+  "research_status": "RESEARCH_ONLY",
+  "execution_eligible": false,
+  "ui_selected_symbol": "JCTUSDT",
+  "raw_public_header": "- heading \"JCTUSDT info tag\" [level=1]:\n  - generic: JCTUSDT\n  - generic \"info tag\":\n    - tooltip \"Perp\":\n      - generic: Perp\n- generic: \"0.001747\"\n- generic: \"-0.000610\"\n- generic: \"-25.91%\"\n- generic: Mark\n- generic: \"0.001750\"\n- link \"Index\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/index?contract=JCTUSDT\n  - text: Index\n- generic: \"0.001744\"\n- generic: Funding (4h) / Countdown\n- generic: 0.00500%\n- generic: /\n- generic: 02:55:49\n- generic: 24h High\n- generic: \"0.003137\"\n- generic: 24h Low\n- generic: \"0.001536\"\n- generic: 24h Vol(JCT)\n- generic: 33,671,872,719.00\n- generic: 24h Vol(USDT)\n- generic: 90,673,344.28\n- link \"Open Interest(USDT)\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=JCTUSDT\n  - text: Open Interest(USDT)\n- generic: 6,817,646.91\n",
+  "raw_order_book": "\n  - generic: \"0.000001\"\n  - generic: Price (USDT)\n  - generic: Size\n  - generic: (JCT)\n  - generic: Sum\n  - generic: (JCT)\n  - generic: \"0.001755\"\n  - generic: 546.37K\n  - generic: 1.64M\n  - generic: \"0.001754\"\n  - generic: 377.29K\n  - generic: 1.10M\n  - generic: \"0.001753\"\n  - generic: 322.26K\n  - generic: 725.09K\n  - generic: \"0.001752\"\n  - generic: 372.08K\n  - generic: 402.83K\n  - generic: \"0.001751\"\n  - generic: 30.75K\n  - generic: 30.75K\n  - generic: \"0.001747\"\n  - generic: \"0.001750\"\n  - generic: \"0.001749\"\n  - generic: 32.44K\n  - generic: 32.44K\n  - generic: \"0.001748\"\n  - generic: 200.49K\n  - generic: 232.94K\n  - generic: \"0.001747\"\n  - generic: 604.34K\n  - generic: 837.28K\n  - generic: \"0.001746\"\n  - generic: 163.44K\n  - generic: 1.00M\n  - generic: \"0.001745\"\n  - generic: 309.26K\n  - generic: 1.30M\n",
+  "raw_trades": "\n  - generic: Price (USDT)\n  - generic: Amount\n  - generic: (JCT)\n  - generic: Time\n  - generic: \"0.001747\"\n  - generic: 2.35M\n  - generic: 14:04:10\n  - generic: \"0.001755\"\n  - generic: 771.30K\n  - generic: 14:04:10\n  - generic: \"0.001754\"\n  - generic: 8.19M\n  - generic: 14:04:09\n  - generic: \"0.001749\"\n  - generic: 4.14M\n  - generic: 14:04:08\n  - generic: \"0.001756\"\n  - generic: 2.67M\n  - generic: 14:04:08\n  - generic: \"0.001761\"\n  - generic: 1.39M\n  - generic: 14:04:07\n",
+  "confirmation": {
+    "observed_at": "2026-10-10T21:04:28.392Z",
+    "raw": "- heading \"JCTUSDT info tag\" [level=1]:\n  - generic: JCTUSDT\n  - generic \"info tag\":\n    - tooltip \"Perp\":\n      - generic: Perp\n- generic: \"0.001740\"\n- generic: \"-0.000617\"\n- generic: \"-26.20%\"\n- generic: Mark\n- generic: \"0.001749\"\n- link \"Index\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/index?contract=JCTUSDT\n  - text: Index\n- generic: \"0.001748\"\n- generic: Funding (4h) / Countdown\n- generic: 0.00500%\n- generic: /\n- generic: 02:55:31\n- generic: 24h High\n- generic: \"0.003137\"\n- generic: 24h Low\n- generic: \"0.001536\"\n- generic: 24h Vol(JCT)\n- generic: 33,733,717,254.00\n- generic: 24h Vol(USDT)\n- generic: 90,782,038.72\n- link \"Open Interest(USDT)\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=JCTUSDT\n  - text: Open Interest(USDT)\n- generic: 6,814,335.48\n"
+  },
+  "candles": {
+    "hourly": {
+      "observed_at": "2026-10-10T21:05:08.682Z",
+      "raw": "Time\n1s\n15m\n1H\n4H\n1D\n1W\nLast Price\nOriginal\nTrading View\nDepth\n2026/10/10 13:00\nOpen\n0.002774\nHigh\n0.002800\nLow\n0.001536\nClose\n0.001598\nCHANGE\n-42.43%\nRange\n45.53%\nMA(7)\n0.002748\nMA(25)\n0.002742\nMA(99)\n0.002086\nVol(JCT)\n6.187B\nVol(USDT)\n12.719M\n1.773B\n1.719B"
+    },
+    "four_hour": {
+      "observed_at": "2026-10-10T21:05:20.120Z",
+      "raw": "Time\n1s\n15m\n1H\n4H\n1D\n1W\nLast Price\nOriginal\nTrading View\nDepth\n2026/10/10 09:00\nOpen\n0.002977\nHigh\n0.003119\nLow\n0.002745\nClose\n0.002776\nCHANGE\n-6.68%\nRange\n12.57%\nMA(7)\n0.002726\nMA(25)\n0.002097\nMA(99)\n0.001815\nVol(JCT)\n4.349B\nVol(USDT)\n13.008M\n4.901B\n6.69B"
+    },
+    "selection_note": "Previous candle immediately left of current candle, with 1H or 4H control selected. Raw display labels preserved; exact UTC event/candle boundaries are not independently validated.",
+    "completed_for_execution": false
+  },
+  "hourly_open_interest": [
+    {
+      "observed_at": "2026-10-10T21:04:43.209Z",
+      "raw": "Open Interest\n1h\nSingle\nOpen Interest (JCT)\nNotional Value of Op...\n12:00\n18:00\n00:00\n06:00\n12:00\n3,600M\n4,000M\n4,400M\n6M\n10M\n14M\n10/10 12:00\n\nOpen Interest (JCT): 4,171,694,459.000\n\nNotional Value of Open Interest (USDT):\n\n12,597,849.79\n\n"
+    },
+    {
+      "observed_at": "2026-10-10T21:04:42.908Z",
+      "raw": "Open Interest\n1h\nSingle\nOpen Interest (JCT)\nNotional Value of Op...\n12:00\n18:00\n00:00\n06:00\n12:00\n3,600M\n4,000M\n4,400M\n6M\n10M\n14M\n10/10 13:00\n\nOpen Interest (JCT): 4,080,621,503.000\n\nNotional Value of Open Interest (USDT):\n\n11,311,482.80\n\n"
+    }
+  ],
+  "hourly_taker_volume": [
+    {
+      "observed_at": "2026-10-10T21:04:56.636Z",
+      "raw": "\n1h\nTaker Sell Volume (JCT)\nTaker Buy Volume (JCT)\n12:00\n18:00\n00:00\n06:00\n12:00\n0.000\n2,000,000,000.000\n4,000,000,000.000\n10/10 12:00\n\nTaker Sell Volume (JCT): 731,579,028.000\n\nTaker Buy Volume (JCT): 669,902,324.000\n\n"
+    },
+    {
+      "observed_at": "2026-10-10T21:04:56.394Z",
+      "raw": "\n1h\nTaker Sell Volume (JCT)\nTaker Buy Volume (JCT)\n12:00\n18:00\n00:00\n06:00\n12:00\n0.000\n2,000,000,000.000\n4,000,000,000.000\n10/10 13:00\n\nTaker Sell Volume (JCT): 3,251,724,519.000\n\nTaker Buy Volume (JCT): 2,934,981,887.000\n\n"
+    }
+  ],
+  "historical_settled_funding": {
+    "observed_at": "2026-10-10T21:07:08.265Z",
+    "source_url": "https://www.binance.com/en/futures/funding-history/perpetual/funding-fee-history",
+    "raw": "- combobox \"Select an option\":\n  - generic: JCTUSDT Perpetual\n- generic: Learn More about Funding Rate\n- link \"Trade Futures\":\n  - /url: /en/futures/JCTUSDT\n- generic: \"Funding Rate: 0.023018%\"\n- tablist:\n  - tab \"Last 7 days\" [selected]\n  - tab \"Last 14 days\"\n- tabpanel \"Last 7 days\"\n- button \"Save as CSV\":\n  - text: Save as CSV\n- generic: Funding Rate History\n- table \"Table\":\n  - rowgroup:\n    - row \"Time Funding Interval Funding Rate Mark Price\":\n      - columnheader \"Time\"\n      - columnheader \"Funding Interval\"\n      - columnheader \"Funding Rate\"\n      - columnheader \"Mark Price\":\n        - generic: Mark Price\n  - rowgroup:\n    - row \"2026-10-10 13:00:00 4h 0.023018% 0.0027730 USDT\":\n      - cell \"2026-10-10 13:00:00\"\n      - cell \"4h\"\n      - cell \"0.023018%\"\n      - cell \"0.0027730 USDT\"\n    - row \"2026-10-10 09:00:00 4h 0.021004% 0.0029750 USDT\":\n      - cell \"2026-10-10 09:00:00\"\n      - cell \"4h\"\n      - cell \"0.021004%\"\n      - cell \"0.0029750 USDT\"\n    - row \"2026-10-10 05:00:00 4h 0.027368% 0.0030169 USDT\":\n      - cell \"2026-10-10 05:00:00\"\n      - cell \"4h\"\n      - cell \"0.027368%\"\n      - cell \"0.0030169 USDT\"\n    - row \"2026-10-10 01:00:00 4h 0.014583% 0.0027600 USDT\":\n      - cell \"2026-10-10 01:00:00\"\n      - cell \"4h\"\n      - cell \"0.014583%\"\n      - cell \"0.0027600 USDT\"\n    - row \"2026-10-09 21:00:00 4h 0.005000% 0.0025629 USDT\":\n      - cell \"2026-10-09 21:00:00\"\n      - cell \"4h\"\n      - cell \"0.005000%\"\n      - cell \"0.0025629 USDT\"\n    - row \"2026-10-09 17:00:00 4h 0.011574% 0.0025862 USDT\":\n      - cell \"2026-10-09 17:00:00\"\n      - cell \"4h\"\n      - cell \"0.011574%\"\n      - cell \"0.0025862 USDT\"\n    - row \"2026-10-09 13:00:00 4h 0.005000% 0.0023886 USDT\":\n      - cell \"2026-10-09 13:00:00\"\n      - cell \"4h\"\n      - cell \"0.005000%\"\n      - cell \"0.0023886 USDT\"\n    - row \"2026-10-09 09:00:00 4h 0.035016% 0.0026300 USDT\":\n      - cell \"2026-10-09 09:00:00\"\n      - cell \"4h\"\n      - cell \"0.035016%\"\n      - cell \"0.0026300 USDT\"\n    - row \"2026-10-09 05:00:00 4h 0.012615% 0.0024120 USDT\":\n      - cell \"2026-10-09 05:00:00\"\n      - cell \"4h\"\n      - cell \"0.012615%\"\n      - cell \"0.0024120 USDT\"\n    - row \"2026-10-09 01:00:00 4h 0.023162% 0.0023530 USDT\":\n      - cell \"2026-10-09 01:00:00\"\n      - cell \"4h\"\n      - cell \"0.023162%\"\n      - cell \"0.0023530 USDT\"\n    - row \"2026-10-08 21:00:00 4h 0.028822% 0.0022920 USDT\":\n      - cell \"2026-10-08 21:00:00\"\n      - cell \"4h\"\n      - cell \"0.028822%\"\n      - cell \"0.0022920 USDT\"\n    - row \"2026-10-08 17:00:00 4h 0.064672% 0.0025734 USDT\":\n      - cell \"2026-10-08 17:00:00\"\n      - cell \"4h\"\n      - cell \"0.064672%\"\n      - cell \"0.0025734 USDT\"\n    - row \"2026-10-08 13:00:00 4h 0.009380% 0.0019270 USDT\":\n      - cell \"2026-10-08 13:00:00\"\n      - cell \"4h\"\n      - cell \"0.009380%\"\n      - cell \"0.0019270 USDT\"\n    - row \"2026-10-08 09:00:00 4h 0.005000% 0.0013640 USDT\":\n      - cell \"2026-10-08 09:00:00\"\n      - cell \"4h\"\n      - cell \"0.005000%\"\n      - cell \"0.0013640 USDT\"\n    - row \"2026-10-08 05:00:00 4h 0.005000% 0.0015830 USDT\":\n      - cell \"2026-10-08 05:00:00\"\n      - cell \"4h\"\n      - cell \"0.005000%\"\n      - cell \"0.0015830 USDT\"\n    - row \"2026-10-08 01:00:00 4h 0.005000% 0.0015757 USDT\":\n      - cell \"2026-10-08 01:00:00\"\n      - cell \"4h\"\n      - cell \"0.005000%\"\n      - cell \"0.0015757 USDT\"\n    - row \"2026-10-07 21:00:00 4h 0.005000% 0.0015790 USDT\":\n      - cell \"2026-10-07 21:00:00\"\n      - cell \"4h\"\n      - cell \"0.005000%\"\n      - cell \"0.0015790 USDT\"\n    - row \"2026-10-07 17:00:00 4h 0.005000% 0.0015870 USDT\":\n      - cell \"2026-10-07 17:00:00\"\n      - cell \"4h\"\n      - cell \"0.005000%\"\n      - cell \"0.0015870 USDT\"\n    - row \"2026-10-07 13:00:00 4h 0.005000% 0.0015809 USDT\":\n      - cell \"2026-10-07 13:00:00\"\n      - cell \"4h\"\n      - cell \"0.005000%\"\n      - cell \"0.0015809 USDT\"\n    - row \"2026-10-07 09:00:00 4h 0.005000% 0.0015860 USDT\":\n      - cell \"2026-10-07 09:00:00\"\n      - cell \"4h\"\n      - cell \"0.005000%\"\n      - cell \"0.0015860 USDT\"\n- generic: \"1\"\n- generic: \"2\"\n- generic: \"3\"\n- generic: \"4\"\n- generic: \"5\"\n- generic: ...\n- generic: \"101\"\n- generic: Copyright © 2026 Binance Futures. All rights reserved.\n- generic: Cookie Preferences",
+    "rows": [
+      {
+        "displayed_time": "2026-10-10 13:00:00",
+        "display_timezone": null,
+        "event_time_utc": null,
+        "funding_interval_hours": 4,
+        "funding_rate_percent_raw": "0.023018%",
+        "funding_rate": 0.00023018,
+        "settlement_mark_price": 0.002773
+      },
+      {
+        "displayed_time": "2026-10-10 09:00:00",
+        "display_timezone": null,
+        "event_time_utc": null,
+        "funding_interval_hours": 4,
+        "funding_rate_percent_raw": "0.021004%",
+        "funding_rate": 0.00021004,
+        "settlement_mark_price": 0.002975
+      },
+      {
+        "displayed_time": "2026-10-10 05:00:00",
+        "display_timezone": null,
+        "event_time_utc": null,
+        "funding_interval_hours": 4,
+        "funding_rate_percent_raw": "0.027368%",
+        "funding_rate": 0.00027368,
+        "settlement_mark_price": 0.0030169
+      },
+      {
+        "displayed_time": "2026-10-10 01:00:00",
+        "display_timezone": null,
+        "event_time_utc": null,
+        "funding_interval_hours": 4,
+        "funding_rate_percent_raw": "0.014583%",
+        "funding_rate": 0.00014583,
+        "settlement_mark_price": 0.00276
+      },
+      {
+        "displayed_time": "2026-10-09 21:00:00",
+        "display_timezone": null,
+        "event_time_utc": null,
+        "funding_interval_hours": 4,
+        "funding_rate_percent_raw": "0.005000%",
+        "funding_rate": 0.00005,
+        "settlement_mark_price": 0.0025629
+      },
+      {
+        "displayed_time": "2026-10-09 17:00:00",
+        "display_timezone": null,
+        "event_time_utc": null,
+        "funding_interval_hours": 4,
+        "funding_rate_percent_raw": "0.011574%",
+        "funding_rate": 0.00011573999999999999,
+        "settlement_mark_price": 0.0025862
+      },
+      {
+        "displayed_time": "2026-10-09 13:00:00",
+        "display_timezone": null,
+        "event_time_utc": null,
+        "funding_interval_hours": 4,
+        "funding_rate_percent_raw": "0.005000%",
+        "funding_rate": 0.00005,
+        "settlement_mark_price": 0.0023886
+      },
+      {
+        "displayed_time": "2026-10-09 09:00:00",
+        "display_timezone": null,
+        "event_time_utc": null,
+        "funding_interval_hours": 4,
+        "funding_rate_percent_raw": "0.035016%",
+        "funding_rate": 0.00035015999999999997,
+        "settlement_mark_price": 0.00263
+      },
+      {
+        "displayed_time": "2026-10-09 05:00:00",
+        "display_timezone": null,
+        "event_time_utc": null,
+        "funding_interval_hours": 4,
+        "funding_rate_percent_raw": "0.012615%",
+        "funding_rate": 0.00012615,
+        "settlement_mark_price": 0.002412
+      },
+      {
+        "displayed_time": "2026-10-09 01:00:00",
+        "display_timezone": null,
+        "event_time_utc": null,
+        "funding_interval_hours": 4,
+        "funding_rate_percent_raw": "0.023162%",
+        "funding_rate": 0.00023161999999999998,
+        "settlement_mark_price": 0.002353
+      },
+      {
+        "displayed_time": "2026-10-08 21:00:00",
+        "display_timezone": null,
+        "event_time_utc": null,
+        "funding_interval_hours": 4,
+        "funding_rate_percent_raw": "0.028822%",
+        "funding_rate": 0.00028822,
+        "settlement_mark_price": 0.002292
+      },
+      {
+        "displayed_time": "2026-10-08 17:00:00",
+        "display_timezone": null,
+        "event_time_utc": null,
+        "funding_interval_hours": 4,
+        "funding_rate_percent_raw": "0.064672%",
+        "funding_rate": 0.0006467199999999999,
+        "settlement_mark_price": 0.0025734
+      },
+      {
+        "displayed_time": "2026-10-08 13:00:00",
+        "display_timezone": null,
+        "event_time_utc": null,
+        "funding_interval_hours": 4,
+        "funding_rate_percent_raw": "0.009380%",
+        "funding_rate": 0.00009379999999999999,
+        "settlement_mark_price": 0.001927
+      },
+      {
+        "displayed_time": "2026-10-08 09:00:00",
+        "display_timezone": null,
+        "event_time_utc": null,
+        "funding_interval_hours": 4,
+        "funding_rate_percent_raw": "0.005000%",
+        "funding_rate": 0.00005,
+        "settlement_mark_price": 0.001364
+      },
+      {
+        "displayed_time": "2026-10-08 05:00:00",
+        "display_timezone": null,
+        "event_time_utc": null,
+        "funding_interval_hours": 4,
+        "funding_rate_percent_raw": "0.005000%",
+        "funding_rate": 0.00005,
+        "settlement_mark_price": 0.001583
+      },
+      {
+        "displayed_time": "2026-10-08 01:00:00",
+        "display_timezone": null,
+        "event_time_utc": null,
+        "funding_interval_hours": 4,
+        "funding_rate_percent_raw": "0.005000%",
+        "funding_rate": 0.00005,
+        "settlement_mark_price": 0.0015757
+      },
+      {
+        "displayed_time": "2026-10-07 21:00:00",
+        "display_timezone": null,
+        "event_time_utc": null,
+        "funding_interval_hours": 4,
+        "funding_rate_percent_raw": "0.005000%",
+        "funding_rate": 0.00005,
+        "settlement_mark_price": 0.001579
+      },
+      {
+        "displayed_time": "2026-10-07 17:00:00",
+        "display_timezone": null,
+        "event_time_utc": null,
+        "funding_interval_hours": 4,
+        "funding_rate_percent_raw": "0.005000%",
+        "funding_rate": 0.00005,
+        "settlement_mark_price": 0.001587
+      },
+      {
+        "displayed_time": "2026-10-07 13:00:00",
+        "display_timezone": null,
+        "event_time_utc": null,
+        "funding_interval_hours": 4,
+        "funding_rate_percent_raw": "0.005000%",
+        "funding_rate": 0.00005,
+        "settlement_mark_price": 0.0015809
+      },
+      {
+        "displayed_time": "2026-10-07 09:00:00",
+        "display_timezone": null,
+        "event_time_utc": null,
+        "funding_interval_hours": 4,
+        "funding_rate_percent_raw": "0.005000%",
+        "funding_rate": 0.00005,
+        "settlement_mark_price": 0.001586
+      }
+    ]
+  },
+  "missing_or_unverified": [
+    "Explicit display timezone not captured; no UTC conversion inferred from wall clock.",
+    "Exchange event times and candle boundaries are unverified.",
+    "Rounded order book quantity precision and asynchronous field updates prevent execution use."
+  ],
+  "privacy": "Only public signed-out market data; no account data."
+}

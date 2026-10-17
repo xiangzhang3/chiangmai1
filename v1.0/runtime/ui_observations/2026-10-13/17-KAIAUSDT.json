@@ -1,0 +1,13 @@
+{
+  "symbol": "KAIAUSDT",
+  "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+  "observed_at": "2026-10-13T17:07:08.767Z",
+  "fields": {
+    "last_price": 0.04639,
+    "mark_price": 0.04640,
+    "index_price": 0.04653,
+    "funding_rate": -0.0001907,
+    "funding_interval_hours": 1,
+    "open_interest_notional_usdt": 6005798.28
+  }
+}

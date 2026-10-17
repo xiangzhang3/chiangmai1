@@ -1,0 +1,89 @@
+{
+  "symbol": "STRKUSDT",
+  "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+  "observed_at": "2026-10-11T04:05:52.177Z",
+  "status": "RESEARCH_ONLY",
+  "execution_eligible": false,
+  "display_timezone": null,
+  "exchange_event_time": null,
+  "captures": [
+    {
+      "symbol": "STRKUSDT",
+      "kind": "quote",
+      "observed_at": "2026-10-11T04:05:52.177Z",
+      "raw_display": "heading STRKUSDT info tag, Value: 1\n\t\t\t\t35 text STRKUSDT\n\t\t\t\t36 container info tag\n\t\t\t\t\t37 container Perp\n\t\t\t\t\t\t38 text Perp\n\t\t\t\t39 image\n\t\t\t40 text 0.10929\n\t\t\t41 text 0.03557\n\t\t\t42 container\n\t\t\t\t43 text +48.25 %\n\t\t\t44 container\n\t\t\t\t45 container\n\t\t\t\t\t46 text Mark\n\t\t\t\t\t47 text 0.10943\n\t\t\t\t48 container\n\t\t\t\t\t49 link Description: Index, Value: binance.com/en/futures/funding-history/perpetual/index?contract=STRKUSDT\n\t\t\t\t\t50 text 0.10939\n\t\t\t\t51 container\n\t\t\t\t\t52 container\n\t\t\t\t\t\t53 text Funding  (4h)  / Countdown\n\t\t\t\t\t54 text -0.00275% /\n\t\t\t\t\t55 text 03:54:08\n\t\t\t\t56 container\n\t\t\t\t\t57 text 24h High 0.12390\n\t\t\t\t58 container\n\t\t\t\t\t59 text 24h Low 0.06896\n\t\t\t\t60 container\n\t\t\t\t\t61 text 24h Vol(STRK) 10,317,193,673.8\n\t\t\t\t62 container\n\t\t\t\t\t63 text 24h Vol(USDT) 1,026,355,877.21\n\t\t\t\t64 container\n\t\t\t\t\t65 link Description: Open Interest(USDT), Value: binance.com/en/futures/funding-history/perpetual/trading-data?contract=STRKUSDT\n\t\t\t\t\t66 text 50,278,391.25\n\t\t\t\t67 image\n\t\t\t68 container\n\t\t\t\t69 \ncontainer futuresOrderbook\n\t\t\t\t\t\t150 container\n\t\t\t\t\t\t\t151 text 0.00001\n\t\t\t\t\t\t\t152 image\n\t\t\t\t\t\t153 text Price (USDT)\n\t\t\t\t\t\t154 text Size ( STRK ) Sum ( STRK )\n\t\t\t\t\t\t155 container\n\t\t\t\t\t\t\t156 container\n\t\t\t\t\t\t\t\t157 text 0.10936\n\t\t\t\t\t\t\t\t158 text 11.37K 47.30K\n\t\t\t\t\t\t\t159 container\n\t\t\t\t\t\t\t\t160 text 0.10935\n\t\t\t\t\t\t\t\t161 text 20.83K 35.92K\n\t\t\t\t\t\t\t162 container\n\t\t\t\t\t\t\t\t163 text 0.10934\n\t\t\t\t\t\t\t\t164 text 9.80K 15.08K\n\t\t\t\t\t\t\t165 container\n\t\t\t\t\t\t\t\t166 text 0.10933\n\t\t\t\t\t\t\t\t167 text 3.13K 5.28K\n\t\t\t\t\t\t\t168 container\n\t\t\t\t\t\t\t\t169 text 0.10932\n\t\t\t\t\t\t\t\t170 text 2.15K 2.15K\n\t\t\t\t\t\t171 text 0.10929\n\t\t\t\t\t\t172 image\n\t\t\t\t\t\t173 text 0.10943\n\t\t\t\t\t\t174 container\n\t\t\t\t\t\t\t175 container\n\t\t\t\t\t\t\t\t176 text 0.10930\n\t\t\t\t\t\t\t\t177 text 11.90K 11.90K\n\t\t\t\t\t\t\t178 container\n\t\t\t\t\t\t\t\t179 text 0.10929\n\t\t\t\t\t\t\t\t180 text 12.64K 24.55K\n\t\t\t\t\t\t\t181 container\n\t\t\t\t\t\t\t\t182 text 0.10928\n\t\t\t\t\t\t\t\t183 text 14.57K 39.12K\n\t\t\t\t\t\t\t184 container\n\t\t\t\t\t\t\t\t185 text 0.10927\n\t\t\t\t\t\t\t\t186 text 16.30K 55.43K\n\t\t\t\t\t\t\t187 container\n\t\t\t\t\t\t\t\t188 text 0.10926\n\t\t\t\t\t\t\t\t189 text 18.04K 73.47K\n\t\t\t\t190 ",
+      "selected_symbol": "STRKUSDT",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT"
+    },
+    {
+      "symbol": "STRKUSDT",
+      "kind": "oi_1h",
+      "observed_at": "2026-10-11T04:08:09.257Z",
+      "raw_display": "\t\t\t\t\t\t286 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand\n\t\t\t\t\t\t\t\t323 text 10/10 20:00 Open Interest (STRK): 450,233,716.100 Notional Value of Open Interest (USDT): 53,533,135.52",
+      "selected_symbol": "STRKUSDT",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT"
+    },
+    {
+      "symbol": "STRKUSDT",
+      "kind": "oi_1h",
+      "observed_at": "2026-10-11T04:08:09.771Z",
+      "raw_display": "\t\t\t\t\t\t286 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand\n\t\t\t\t\t\t\t\t323 text 10/10 21:00 Open Interest (STRK): 455,533,237.500 Notional Value of Open Interest (USDT): 48,112,231.60",
+      "selected_symbol": "STRKUSDT",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT"
+    },
+    {
+      "symbol": "STRKUSDT",
+      "kind": "taker_1h_displayed",
+      "observed_at": "2026-10-11T04:08:22.963Z",
+      "raw_display": "\t\t\t\t\t\t286 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand\n\t\t\t\t\t\t306 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand\n\t\t\t\t\t\t\t\t323 text 10/10 19:00 Taker Sell Volume (STRK): 484,250,964.900 Taker Buy Volume (STRK): 522,813,381.000",
+      "selected_symbol": "STRKUSDT",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT"
+    },
+    {
+      "symbol": "STRKUSDT",
+      "kind": "taker_1h_displayed",
+      "observed_at": "2026-10-11T04:08:23.464Z",
+      "raw_display": "\t\t\t\t\t\t286 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand\n\t\t\t\t\t\t306 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand\n\t\t\t\t\t\t\t\t323 text 10/10 20:00 Taker Sell Volume (STRK): 436,839,908.100 Taker Buy Volume (STRK): 397,350,122.200",
+      "selected_symbol": "STRKUSDT",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT"
+    },
+    {
+      "symbol": "STRKUSDT",
+      "kind": "candle_1h_prior",
+      "observed_at": "2026-10-11T04:08:49.102Z",
+      "raw_display": "\t\t\t\t\t\t\t\t\t313 text 2026/10/10 20:00 Open 0.11868 High 0.11990 Low 0.10483 Close 0.10547 CHANGE -11.15% Range 12.69%\n\t\t\t\t\t\t\t\t\t312 text Vol(STRK) 835.123M Vol(USDT) 95.833M 646.906M 663.915M",
+      "selected_symbol": "STRKUSDT",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+      "finality": "prior_visible_bar; UTC boundary not independently verified"
+    },
+    {
+      "symbol": "STRKUSDT",
+      "kind": "candle_4h_prior",
+      "observed_at": "2026-10-11T04:09:07.551Z",
+      "raw_display": "\t\t\t\t\t\t\t\t\t313 text 2026/10/10 17:00 Open 0.10316 High 0.12390 Low 0.10029 Close 0.10547 CHANGE 2.21% Range 22.88%\n\t\t\t\t\t\t\t\t\t312 text Vol(STRK) 3.234B Vol(USDT) 365.067M 1.547B 1.234B",
+      "selected_symbol": "STRKUSDT",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+      "finality": "prior_visible_bar; UTC boundary not independently verified"
+    },
+    {
+      "symbol": "STRKUSDT",
+      "kind": "settled_funding",
+      "observed_at": "2026-10-11T04:09:59.872Z",
+      "source_url": "https://www.binance.com/en/futures/funding-history/perpetual/funding-fee-history",
+      "raw_display": "212 combo box (collapsed) Description: Select an option, Value: STRKUSDT Perpetual, Secondary Actions: Expand\n\t\t\t\t213 text STRKUSDT Perpetual\n\t\t\t\t214 image\n\t\t\t215 image\n\t\t\t216 text Learn More about Funding Rate\n\t\t\t217 link Description: Trade Futures, Value: binance.com/en/futures/STRKUSDT\n\t\t\t218 text Funding Rate :  -0.001779%\n\t\t\t219 tab group\n\t\t\t\t220 tab (selected, settable, boolean) Last 7 days, Value: 1, ID: bn-tab-7\n\t\t\t\t221 tab (selectable, settable, boolean) Last 14 days, Value: 0, ID: bn-tab-14\n\t\t\t222 container Description: Last 7 days, ID: bn-tab-pane-7\n\t\t\t223 button Save as CSV\n\t\t\t\t224 image\n\t\t\t\t225 text Save as CSV\n\t\t\t226 text Funding Rate History\n\t\t\t227 table Table\n\t\t\t\t228 row\n\t\t\t\t\t229 cell\n\t\t\t\t\t\t230 text Time\n\t\t\t\t\t231 cell\n\t\t\t\t\t\t232 text Funding Interval\n\t\t\t\t\t233 cell\n\t\t\t\t\t\t234 text Funding Rate\n\t\t\t\t\t235 cell\n\t\t\t\t\t\t236 text Mark Price\n\t\t\t\t237 row\n\t\t\t\t\t238 cell\n\t\t\t\t\t\t239 text 2026-10-10 21:00:00\n\t\t\t\t\t240 cell\n\t\t\t\t\t\t241 text 4h\n\t\t\t\t\t242 cell\n\t\t\t\t\t\t243 text -0.001779%\n\t\t\t\t\t244 cell\n\t\t\t\t\t\t245 text 0.1055176 USDT\n\t\t\t\t246 row\n\t\t\t\t\t247 cell\n\t\t\t\t\t\t248 text 2026-10-10 17:00:00\n\t\t\t\t\t249 cell\n\t\t\t\t\t\t250 text 4h\n\t\t\t\t\t251 cell\n\t\t\t\t\t\t252 text -0.002724%\n\t\t\t\t\t253 cell\n\t\t\t\t\t\t254 text 0.1031860 USDT\n\t\t\t\t255 row\n\t\t\t\t\t256 cell\n\t\t\t\t\t\t257 text 2026-10-10 13:00:00\n\t\t\t\t\t258 cell\n\t\t\t\t\t\t259 text 4h\n\t\t\t\t\t260 cell\n\t\t\t\t\t\t261 text 0.000075%\n\t\t\t\t\t262 cell\n\t\t\t\t\t\t263 text 0.0995700 USDT\n\t\t\t\t264 row\n\t\t\t\t\t265 cell\n\t\t\t\t\t\t266 text 2026-10-10 09:00:00\n\t\t\t\t\t267 cell\n\t\t\t\t\t\t268 text 4h\n\t\t\t\t\t269 cell\n\t\t\t\t\t\t270 text 0.005000%\n\t\t\t\t\t271 cell\n\t\t\t\t\t\t272 text 0.0934000 USDT\n\t\t\t\t273 row\n\t\t\t\t\t274 cell\n\t\t\t\t\t\t275 text 2026-10-10 05:00:00\n\t\t\t\t\t276 cell\n\t\t\t\t\t\t277 text 4h\n\t\t\t\t\t278 cell\n\t\t\t\t\t\t279 text 0.005000%\n\t\t\t\t\t280 cell\n\t\t\t\t\t\t281 text 0.0710500 USDT\n\t\t\t\t428 row\n\t\t\t\t\t429 cell\n\t\t\t\t\t\t430 text 2026-10-10 01:00:00\n\t\t\t\t\t431 cell\n\t\t\t\t\t\t432 text 4h\n\t\t\t\t\t433 cell\n\t\t\t\t\t\t434 text 0.003769%\n\t\t\t\t\t435 cell\n\t\t\t\t\t\t436 text 0.0712209 USDT\n\t\t\t\t437 row\n\t\t\t\t\t438 cell\n\t\t\t\t\t\t439 text 2026-10-09 21:00:00\n\t\t\t\t\t440 cell\n\t\t\t\t\t\t441 text 4h\n\t\t\t\t\t442 cell\n\t\t\t\t\t\t443 text 0.003897%\n\t\t\t\t\t444 cell\n\t\t\t\t\t\t445 text 0.0738700 USDT\n\t\t\t\t446 row\n\t\t\t\t\t447 cell\n\t\t\t\t\t\t448 text 2026-10-09 17:00:00\n\t\t\t\t\t449 cell\n\t\t\t\t\t\t450 text 4h\n\t\t\t\t\t451 cell\n\t\t\t\t\t\t452 text 0.002303%\n\t\t\t\t\t453 cell\n\t\t\t\t\t\t454 text 0.0730428 USDT\n\t\t\t\t455 row\n\t\t\t\t\t456 cell\n\t\t\t\t\t\t457 text 2026-10-09 13:00:00\n\t\t\t\t\t458 cell\n\t\t\t\t\t\t459 text 4h\n\t\t\t\t\t460 cell\n\t\t\t\t\t\t461 text 0.001451%\n\t\t\t\t\t462 cell\n\t\t\t\t\t\t463 text 0.0708702 USDT\n\t\t\t\t464 row\n\t\t\t\t\t465 cell\n\t\t\t\t\t\t466 text 2026-10-09 09:00:00\n\t\t\t\t\t467 cell\n\t\t\t\t\t\t468 text 4h\n\t\t\t\t\t469 cell\n\t\t\t\t\t\t470 text 0.003799%\n\t\t\t\t\t471 cell\n\t\t\t\t\t\t472 text 0.0752800 USDT\n\t\t\t\t473 row\n\t\t\t\t\t474 cell\n\t\t\t\t\t\t475 text 2026-10-09 05:00:00\n\t\t\t\t\t476 cell\n\t\t\t\t\t\t477 text 4h\n\t\t\t\t\t478 cell\n\t\t\t\t\t\t479 text 0.003528%\n\t\t\t\t\t480 cell\n\t\t\t\t\t\t481 text 0.0724311 USDT\n\t\t\t\t482 row\n\t\t\t\t\t483 cell\n\t\t\t\t\t\t484 text 2026-10-09 01:00:00\n\t\t\t\t\t485 cell\n\t\t\t\t\t\t486 text 4h\n\t\t\t\t\t487 cell\n\t\t\t\t\t\t488 text 0.002993%\n\t\t\t\t\t489 cell\n\t\t\t\t\t\t490 text 0.0711474 USDT\n\t\t\t\t491 row\n\t\t\t\t\t492 cell\n\t\t\t\t\t\t493 text 2026-10-08 21:00:00\n\t\t\t\t\t494 cell\n\t\t\t\t\t\t495 text 4h\n\t\t\t\t\t496 cell\n\t\t\t\t\t\t497 text 0.000028%\n\t\t\t\t\t498 cell\n\t\t\t\t\t\t499 text 0.0670600 USDT\n\t\t\t\t500 row\n\t\t\t\t\t501 cell\n\t\t\t\t\t\t502 text 2026-10-08 17:00:00\n\t\t\t\t\t503 cell\n\t\t\t\t\t\t504 text 4h\n\t\t\t\t\t505 cell\n\t\t\t\t\t\t506 text -0.000644%\n\t\t\t\t\t507 cell\n\t\t\t\t\t\t508 text 0.0555400 USDT\n\t\t\t\t509 row\n\t\t\t\t\t510 cell\n\t\t\t\t\t\t511 text 2026-10-08 13:00:00\n\t\t\t\t\t512 cell\n\t\t\t\t\t\t513 text 4h\n\t\t\t\t\t514 cell\n\t\t\t\t\t\t515 text 0.001451%\n\t\t\t\t\t516 cell\n\t\t\t\t\t\t517 text 0.0556700 USDT\n\t\t\t\t518 row\n\t\t\t\t\t519 cell\n\t\t\t\t\t\t520 text 2026-10-08 09:00:00\n\t\t\t\t\t521 cell\n\t\t\t\t\t\t522 text 4h\n\t\t\t\t\t523 cell\n\t\t\t\t\t\t524 text -0.000135%\n\t\t\t\t\t525 cell\n\t\t\t\t\t\t526 text 0.0601400 USDT\n\t\t\t\t527 row\n\t\t\t\t\t528 cell\n\t\t\t\t\t\t529 text 2026-10-08 05:00:00\n\t\t\t\t\t530 cell\n\t\t\t\t\t\t531 text 4h\n\t\t\t\t\t532 cell\n\t\t\t\t\t\t533 text 0.005000%\n\t\t\t\t\t534 cell\n\t\t\t\t\t\t535 text 0.0595485 USDT\n\t\t\t\t536 row\n\t\t\t\t\t537 cell\n\t\t\t\t\t\t538 text 2026-10-08 01:00:00\n\t\t\t\t\t539 cell\n\t\t\t\t\t\t540 text 4h\n\t\t\t\t\t541 cell\n\t\t\t\t\t\t542 text -0.000024%\n\t\t\t\t\t543 cell\n\t\t\t\t\t\t544 text 0.0491217 USDT\n\t\t\t\t545 row\n\t\t\t\t\t546 cell\n\t\t\t\t\t\t547 text 2026-10-07 21:00:00\n\t\t\t\t\t548 cell\n\t\t\t\t\t\t549 text 4h\n\t\t\t\t\t550 cell\n\t\t\t\t\t\t551 text -0.000725%\n\t\t\t\t\t552 cell\n\t\t\t\t\t\t553 text 0.0493928 USDT\n\t\t\t\t554 row\n\t\t\t\t\t555 cell\n\t\t\t\t\t\t556 text 2026-10-07 17:00:00\n\t\t\t\t\t557 cell\n\t\t\t\t\t\t558 text 4h\n\t\t\t\t\t559 cell\n\t\t\t\t\t\t560 text -0.010975%\n\t\t\t\t\t561 cell\n\t\t\t\t\t\t562 text 0.0490100 USDT\n\t\t\t417 link 1\n\t\t\t\t418 text 1\n\t\t\t419 link 2\n\t\t\t\t420 text 2\n\t\t\t421 link 3\n\t\t\t\t422 text 3\n\t\t\t423 link 4\n\t\t\t\t424 text 4\n\t\t\t425 link 5\n\t\t\t\t426 text 5\n\t\t\t427 text ...\n\t\t\t563 link 290\n\t\t\t\t564 text 290\n\t\t210 ",
+      "selected_symbol": "STRKUSDT"
+    }
+  ],
+  "numeric_conventions": {
+    "funding": "displayed percent divided by100 gives decimal per stated interval",
+    "K": 1000,
+    "M": 1000000,
+    "B": 1000000000,
+    "depth": "UI-rounded quantities; asynchronous fields"
+  },
+  "missing_fields": [
+    "verified_display_timezone",
+    "exchange_event_time",
+    "independently_verified_completed_candle_boundaries"
+  ]
+}

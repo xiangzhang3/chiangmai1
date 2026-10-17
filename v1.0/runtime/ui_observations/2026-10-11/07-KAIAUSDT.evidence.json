@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "symbol": "KAIAUSDT",
+  "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+  "observed_at": "2026-10-11T07:09:19.501Z",
+  "research_only": true,
+  "execution_eligible": false,
+  "selected_symbol_verified": true,
+  "collection_method": "Signed-out official rendered UI with chart pointer tooltips",
+  "display_timezone": null,
+  "time_note": "Raw UI labels retained. Timezone and venue event-time mapping not established. Capture times are not exchange event times.",
+  "market_raw": {
+    "header": "\n\t\t\t30 heading KAIAUSDT info tag, Value: 1\n\t\t\t\t31 text KAIAUSDT\n\t\t\t\t32 container info tag\n\t\t\t\t\t33 container Perp\n\t\t\t\t\t\t34 text Perp\n\t\t\t\t35 image\n\t\t\t36 text 0.05373\n\t\t\t37 text -0.00449\n\t\t\t38 container\n\t\t\t\t39 text -7.71 %\n\t\t\t40 container\n\t\t\t\t41 container\n\t\t\t\t\t42 text Mark\n\t\t\t\t\t43 text 0.05369\n\t\t\t\t44 container\n\t\t\t\t\t45 link Description: Index, Value: binance.com/en/futures/funding-history/perpetual/index?contract=KAIAUSDT\n\t\t\t\t\t46 text 0.05381\n\t\t\t\t47 container\n\t\t\t\t\t48 container\n\t\t\t\t\t\t49 text Funding  (1h)  / Countdown\n\t\t\t\t\t50 text -0.02800% /\n\t\t\t\t\t51 text 00:50:41\n\t\t\t\t52 container\n\t\t\t\t\t53 text 24h High 0.05876\n\t\t\t\t54 container\n\t\t\t\t\t55 text 24h Low 0.05241\n\t\t\t\t56 container\n\t\t\t\t\t57 text 24h Vol(KAIA) 2,124,655,454.00\n\t\t\t\t58 container\n\t\t\t\t\t59 text 24h Vol(USDT) 117,890,212.01\n\t\t\t\t60 container\n\t\t\t\t\t61 link Description: Open Interest(USDT), Value: binance.com/en/futures/funding-history/perpetual/trading-data?contract=KAIAUSDT\n\t\t\t\t\t62 text 10,418,378.70\n\t\t\t\t63 image\n\t\t\t64 container\n\t\t\t\t65 ",
+    "book_and_tape": "container Description: Order Book, ID: flexlayout-tab-#bf5cbf8d-ce45-4aa2-b0ae-bbf52aacaa43\n\t\t\t\t\t143 container futuresOrderbook\n\t\t\t\t\t\t144 container\n\t\t\t\t\t\t\t145 text 0.00001\n\t\t\t\t\t\t\t146 image\n\t\t\t\t\t\t147 text Price (USDT)\n\t\t\t\t\t\t148 text Size ( KAIA ) Sum ( KAIA )\n\t\t\t\t\t\t149 container\n\t\t\t\t\t\t\t150 container\n\t\t\t\t\t\t\t\t151 text 0.05375\n\t\t\t\t\t\t\t\t152 text 68.68K 166.10K\n\t\t\t\t\t\t\t153 container\n\t\t\t\t\t\t\t\t154 text 0.05374\n\t\t\t\t\t\t\t\t155 text 55.84K 97.42K\n\t\t\t\t\t\t\t156 container\n\t\t\t\t\t\t\t\t157 text 0.05373\n\t\t\t\t\t\t\t\t158 text 30.81K 41.57K\n\t\t\t\t\t\t\t159 container\n\t\t\t\t\t\t\t\t160 text 0.05372\n\t\t\t\t\t\t\t\t161 text 9.28K 10.76K\n\t\t\t\t\t\t\t162 container\n\t\t\t\t\t\t\t\t163 text 0.05371\n\t\t\t\t\t\t\t\t164 text 1.47K 1.47K\n\t\t\t\t\t\t165 text 0.05373\n\t\t\t\t\t\t166 image\n\t\t\t\t\t\t167 text 0.05369\n\t\t\t\t\t\t168 container\n\t\t\t\t\t\t\t169 container\n\t\t\t\t\t\t\t\t170 text 0.05370\n\t\t\t\t\t\t\t\t171 text 6.65K 6.65K\n\t\t\t\t\t\t\t172 container\n\t\t\t\t\t\t\t\t173 text 0.05369\n\t\t\t\t\t\t\t\t174 text 9.15K 15.81K\n\t\t\t\t\t\t\t175 container\n\t\t\t\t\t\t\t\t176 text 0.05368\n\t\t\t\t\t\t\t\t177 text 13.13K 28.94K\n\t\t\t\t\t\t\t178 container\n\t\t\t\t\t\t\t\t179 text 0.05367\n\t\t\t\t\t\t\t\t180 text 18.01K 46.96K\n\t\t\t\t\t\t\t181 container\n\t\t\t\t\t\t\t\t182 text 0.05366\n\t\t\t\t\t\t\t\t183 text 54.48K 101.44K\n\t\t\t\t184 container Description: Trades, ID: flexlayout-tab-#7d88ea65-a81d-4cc3-96eb-b4ef41eeb08e\n\t\t\t\t\t185 container\n\t\t\t\t\t\t186 text Price (USDT) Amount ( KAIA ) Time\n\t\t\t\t\t\t187 container\n\t\t\t\t\t\t\t188 container\n\t\t\t\t\t\t\t\t189 text 0.05373 1.76K 00:09:18\n\t\t\t\t\t\t\t190 container\n\t\t\t\t\t\t\t\t191 text 0.05371 6.61K 00:09:16\n\t\t\t\t\t\t\t192 container\n\t\t\t\t\t\t\t\t193 text 0.05372 906 00:09:16\n\t\t\t\t\t\t\t194 container\n\t\t\t\t\t\t\t\t195 text 0.05371 10.91K 00:09:15\n\t\t\t\t\t\t\t196 container\n\t\t\t\t\t\t\t\t197 text 0.05369 29.61K 00:09:14\n\t\t\t\t\t\t\t198 container\n\t\t\t\t\t\t\t\t199 text 0.05366 207 00:09:13\n\t\t\t\t200 "
+  },
+  "funding_note": "Current predicted decimal rate in observation; historical settlement separate below. Percent divided by 100.",
+  "oi_hourly": {
+    "unit": "KAIA",
+    "interval_selected": "1h",
+    "previous": {
+      "raw_label": "10/10 23:00",
+      "quantity": 196700807,
+      "observed_at": "2026-10-11T07:11:33.705Z"
+    },
+    "latest": {
+      "raw_label": "10/11 00:00",
+      "quantity": 195187159,
+      "observed_at": "2026-10-11T07:11:33.385Z"
+    },
+    "delta_quantity": -1513648,
+    "delta_percent": -0.7695179410219688,
+    "endpoint_updated": true,
+    "stale": false,
+    "beijing_event_hour": null,
+    "aligned_price_volume_change": null,
+    "alignment_note": "Candles and OI carry matching raw labels but exact shared event boundaries/timezone remain unverified; no aligned event-hour claim."
+  },
+  "candles": [
+    {
+      "interval": "1h",
+      "raw": "2026/10/10 23:00 Open 0.05312 High 0.05393 Low 0.05311 Close 0.05382 CHANGE 1.33% Range 1.54%; Vol(KAIA) 33.73M Vol(USDT) 1.801M",
+      "observed_at": "2026-10-11T07:10:06.092Z"
+    },
+    {
+      "interval": "4h",
+      "raw": "2026/10/10 17:00 Open 0.05612 High 0.05658 Low 0.05241 Close 0.05255 CHANGE -6.36% Range 7.43%; Vol(KAIA) 319.406M Vol(USDT) 17.222M",
+      "observed_at": "2026-10-11T07:10:20.530Z"
+    }
+  ],
+  "candle_note": "Prior candles selected to left of live bar. Values rounded as displayed. UI CHANGE may use prior close rather than current open. UTC event boundaries unresolved.",
+  "taker_hourly": {
+    "raw_label": "10/10 23:00",
+    "unit": "KAIA",
+    "interval_selected": "1h",
+    "sell_quantity": 16374534,
+    "buy_quantity": 17337415,
+    "observed_at": "2026-10-11T07:13:04.881Z",
+    "event_at_utc": null
+  },
+  "settled_funding": {
+    "label": "2026-10-11 00:00:00",
+    "interval_hours": 1,
+    "rate_percent_raw": "-0.029463%",
+    "rate_decimal": -0.00029463,
+    "mark_price": 0.0538146,
+    "observed_at": "2026-10-11T07:16:58.506Z",
+    "source_url": "https://www.binance.com/en/futures/funding-history/perpetual/funding-fee-history",
+    "selected_symbol": "KAIAUSDT",
+    "event_at_utc": null
+  },
+  "missing": [
+    "Verified venue event UTC timestamps",
+    "Fully reconciled chart timezone and OI/candle boundaries"
+  ],
+  "scope": "Public observations only; no account state or trade execution"
+}
