@@ -1,0 +1,13 @@
+{
+  "symbol": "SHELLUSDT",
+  "source_url": "https://www.binance.com/en/futures/SHELLUSDT",
+  "observed_at": "2026-10-18T23:04:08.163Z",
+  "fields": {
+    "last_price": 0.02122,
+    "mark_price": 0.0212,
+    "index_price": 0.0212,
+    "funding_rate": 5e-05,
+    "funding_interval_hours": 4,
+    "open_interest_notional_usdt": 1457081.27
+  }
+}
