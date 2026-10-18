@@ -11,15 +11,15 @@
   "position": null,
   "trades": [],
   "last_market_snapshot": {
-    "market_as_of": "2026-10-18T05:58:00+00:00",
+    "market_as_of": "2026-10-18T10:54:00+00:00",
     "market_source": "gate_perp_data_only",
-    "mark_price_usdt": 0.001901,
+    "mark_price_usdt": 0.00196,
     "oi_2h_pct": null,
     "volume_acceleration": null,
     "taker_ratio": null,
     "decision": "HOLD"
   },
-  "last_reviewed_at": "2026-10-18T05:58:13.263592+00:00",
+  "last_reviewed_at": "2026-10-18T10:54:16.938846+00:00",
   "status": "VERIFIED_HOLD",
   "constraints": {
     "leverage": 1,
