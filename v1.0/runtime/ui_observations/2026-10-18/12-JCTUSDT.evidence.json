@@ -1,0 +1,215 @@
+{
+  "symbol": "JCTUSDT",
+  "status": "RESEARCH_ONLY",
+  "execution_eligible": false,
+  "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+  "display_timezone": null,
+  "timezone_note": "Raw UI labels retained; timezone unverified, no Beijing event-hour mapping. Actual UTC collection times are not exchange event times.",
+  "funding": {
+    "type": "current_predicted",
+    "raw": "0.00500%",
+    "decimal": 5e-05,
+    "conversion": "0.00500 divided by 100",
+    "interval_hours": 4,
+    "historical_settlement": null
+  },
+  "quantity_oi_timeline": {
+    "source_url": "https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=JCTUSDT",
+    "ui_symbol": "JCTUSDT Perpetual",
+    "ui_interval": "1h",
+    "unit": "JCT",
+    "previous": {
+      "label": "10/18 18:00",
+      "quantity": 3449411915,
+      "raw": "3,449,411,915.000",
+      "notional_usdt": 6762227.12,
+      "observed_at": "2026-10-18T12:14:11.532Z"
+    },
+    "latest": {
+      "label": "10/18 19:00",
+      "quantity": 3438528649,
+      "raw": "3,438,528,649.000",
+      "notional_usdt": 6687938.22,
+      "observed_at": "2026-10-18T12:14:11.205Z"
+    },
+    "delta_quantity": -10883266,
+    "delta_percent": -0.3155107672897284,
+    "status": "newly_observed_pair",
+    "paired_price_volume_change": null,
+    "pairing_note": "Adjacent raw-hour labels from same selected contract/1h chart. Boundary/timezone unverified; no exact exchange-hour or Beijing mapping. Both endpoints observed in current collection, not a claim of two historical collection runs."
+  },
+  "volume_24h": {
+    "quantity": 1194192063,
+    "unit": "JCT",
+    "quote_usdt": 2324001.4,
+    "observed_at": "2026-10-18T12:09:00.327Z"
+  },
+  "order_book": {
+    "observed_at": "2026-10-18T12:09:00.327Z",
+    "price_unit": "USDT",
+    "quantity_unit": "JCT",
+    "asks_raw": [
+      [
+        ".001945",
+        "68.01K"
+      ],
+      [
+        ".001946",
+        "190.21K"
+      ],
+      [
+        ".001947",
+        "197.94K"
+      ],
+      [
+        ".001948",
+        "471.92K"
+      ],
+      [
+        ".001949",
+        "319.02K"
+      ]
+    ],
+    "bids_raw": [
+      [
+        ".001943",
+        "28.16K"
+      ],
+      [
+        ".001942",
+        "250.54K"
+      ],
+      [
+        ".001941",
+        "42.75K"
+      ],
+      [
+        ".001940",
+        "279.16K"
+      ],
+      [
+        ".001939",
+        "330.91K"
+      ]
+    ],
+    "precision": "rounded UI quantities"
+  },
+  "alert_evaluation": {
+    "oi_absolute_change_gte_5_percent": false,
+    "price_volume_rule": false,
+    "mark_price_hourly_rule": null,
+    "notification_trigger_verified": false,
+    "note": "OI change below5%; latest completed candle volume about1.29x baseline and open-close abs change below3%; reliable same-mark adjacent-hour pair missing. Not a claim that no intrahour/earlier anomaly occurred."
+  },
+  "missing": [
+    "same-mark adjacent-hour baseline",
+    "verified chart timezone and cross-panel OI-price event-window alignment",
+    "historical settled funding/mark"
+  ],
+  "completed_1h_bars": [
+    {
+      "label": "2026/10/18 18:00",
+      "open": 0.001964,
+      "high": 0.001983,
+      "low": 0.001936,
+      "close": 0.001946,
+      "volume_quantity_raw": "51.245M",
+      "volume_quote_raw": "100.331K",
+      "observed_at": "2026-10-18T12:16:01.531Z"
+    },
+    {
+      "label": "2026/10/18 17:00",
+      "open": 0.001938,
+      "high": 0.001971,
+      "low": 0.001935,
+      "close": 0.001964,
+      "volume_quantity_raw": "27.974M",
+      "volume_quote_raw": "54.707K",
+      "observed_at": "2026-10-18T12:16:01.923Z"
+    },
+    {
+      "label": "2026/10/18 16:00",
+      "open": 0.001934,
+      "high": 0.001953,
+      "low": 0.001922,
+      "close": 0.001938,
+      "volume_quantity_raw": "23.456M",
+      "volume_quote_raw": "45.432K",
+      "observed_at": "2026-10-18T12:16:02.507Z"
+    },
+    {
+      "label": "2026/10/18 15:00",
+      "open": 0.001913,
+      "high": 0.001949,
+      "low": 0.001909,
+      "close": 0.001935,
+      "volume_quantity_raw": "57.672M",
+      "volume_quote_raw": "111.479K",
+      "observed_at": "2026-10-18T12:16:02.777Z"
+    },
+    {
+      "label": "2026/10/18 14:00",
+      "open": 0.001899,
+      "high": 0.001925,
+      "low": 0.001899,
+      "close": 0.001913,
+      "volume_quantity_raw": "29.829M",
+      "volume_quote_raw": "56.996K",
+      "observed_at": "2026-10-18T12:16:03.027Z"
+    },
+    {
+      "label": "2026/10/18 13:00",
+      "open": 0.001902,
+      "high": 0.001912,
+      "low": 0.001884,
+      "close": 0.0019,
+      "volume_quantity_raw": "33.046M",
+      "volume_quote_raw": "62.735K",
+      "observed_at": "2026-10-18T12:16:03.271Z"
+    },
+    {
+      "label": "2026/10/18 12:00",
+      "open": 0.001904,
+      "high": 0.001912,
+      "low": 0.001875,
+      "close": 0.001903,
+      "volume_quantity_raw": "66.231M",
+      "volume_quote_raw": "125.288K",
+      "observed_at": "2026-10-18T12:16:03.499Z"
+    }
+  ],
+  "completion_basis": "Selected 1H; seven bars precede visible current raw 19:00 candle.",
+  "volume_baseline": {
+    "prior_completed_bars": 6,
+    "unit": "JCT",
+    "mean_approx": 39701333.333333336,
+    "latest_volume_rounded": 51245000,
+    "latest_to_prior_mean_ratio_approx": 1.2907626947877484,
+    "precision_note": "K/M display quantities are rounded/truncated; ratio is approximate."
+  },
+  "completed_1h_price_change": {
+    "method": "close/open-1",
+    "percent": -0.9164969450101812,
+    "ui_change_raw": "-0.91%"
+  },
+  "completed_4h": {
+    "label": "2026/10/18 15:00",
+    "open": 0.001913,
+    "high": 0.001983,
+    "low": 0.001909,
+    "close": 0.001946,
+    "volume_quantity_raw": "160.348M",
+    "volume_quote_raw": "311.95K",
+    "unit": "JCT",
+    "observed_at": "2026-10-18T12:16:21.800Z",
+    "completion_basis": "Selected4H; precedes current raw19:00 bar."
+  },
+  "taker_volume": {
+    "observed_at": "2026-10-18T12:17:10.163Z",
+    "label": "10/18 18:00",
+    "sell": 29299771,
+    "buy": 21946056,
+    "unit": "JCT"
+  },
+  "taker_crosscheck": "Same raw18:00 label/1h. Sum51,245,827 JCT consistent with truncated51.245M candle display. Timezone not verified."
+}
