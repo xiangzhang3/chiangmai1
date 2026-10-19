@@ -1,6 +1,6 @@
 {
  "capital": 100000,
- "cash": 80475.497625,
+ "cash": 60465.497625,
  "open": [
   {
    "symbol": "QUSDT",
@@ -20,8 +20,8 @@
     "taker": 0.945,
     "funding": -0.00082001
    },
-   "mark": 0.125228,
-   "upnl_pct": 0.88
+   "mark": 0.125987,
+   "upnl_pct": 0.28
   },
   {
    "symbol": "IOTXUSDT",
@@ -41,8 +41,46 @@
     "taker": 0.9273,
     "funding": -0.00132206
    },
-   "mark": 0.003889,
-   "upnl_pct": -1.64
+   "mark": 0.004003,
+   "upnl_pct": -4.62
+  },
+  {
+   "symbol": "CTRUSDT",
+   "side": "long",
+   "entry": 0.015176024219999999,
+   "qty": 658934.1091602449,
+   "notional": 10000,
+   "entry_fee": 5.0,
+   "entry_time": "2026-10-19 22:43",
+   "entry_ms": 1792424632000,
+   "why": {
+    "quadrant": "price_up_oi_up",
+    "signal": "IGNITION",
+    "p2h": 12.96,
+    "oi24": 21.64,
+    "acc": 21.11,
+    "taker": 1.1534,
+    "funding": 6.692e-05
+   }
+  },
+  {
+   "symbol": "AUSDT",
+   "side": "short",
+   "entry": 0.085347305,
+   "qty": 117168.31597670249,
+   "notional": 10000,
+   "entry_fee": 5.0,
+   "entry_time": "2026-10-19 22:43",
+   "entry_ms": 1792424632000,
+   "why": {
+    "quadrant": "price_down_oi_up",
+    "signal": "WATCH",
+    "p2h": -2.1,
+    "oi24": 31.64,
+    "acc": 1.68,
+    "taker": 0.7611,
+    "funding": -0.00018634
+   }
   }
  ],
  "closed": [
@@ -133,6 +171,16 @@
    "closed": 1,
    "win_rate": 1.0,
    "open": 2
+  },
+  {
+   "time": "2026-10-19 22:43",
+   "equity": 100031.5,
+   "return_pct": 0.03,
+   "cash": 60465.5,
+   "realized": 485.5,
+   "closed": 1,
+   "win_rate": 1.0,
+   "open": 4
   }
  ]
 }
