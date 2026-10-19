@@ -24,10 +24,10 @@ th:first-child,td:first-child{text-align:left}
 </style></head><body><div class="wrap">
 <h1>清迈1号 · 模拟盘 & 币安合约雷达</h1><div class="sub" id="upd">加载中…</div>
 <div class="kpis" id="kpis"></div>
-<div class="grid2"><div><h2>账户权益曲线</h2><div class="card"><canvas id="eq" height="200"></canvas></div></div>
+<div class="grid2"><div><h2>账户权益曲线</h2><div class="card"><canvas id="eq" height="140"></canvas></div></div>
 <div><h2>持仓进度 <span class="mut" style="font-size:12px">止损 −10% ← 入场 → 止盈 +5%</span></h2><div class="card" id="bars"></div></div></div>
-<h2>当前持仓</h2><div class="card"><table id="open"></table></div>
-<h2>历史成交</h2><div class="card"><table id="closed"></table></div>
+<h2>当前持仓</h2><div class="card"><table id="t_open"></table></div>
+<h2>历史成交</h2><div class="card"><table id="t_closed"></table></div>
 <h2>合约雷达四象限</h2><div class="sub" id="rsub"></div>
 <div class="card" style="margin-top:10px"><canvas id="sc" height="130"></canvas></div>
 <div id="quads"></div>
@@ -60,11 +60,11 @@ async function load(){
   return`<div class="prow"><b>★ ${nm(p.symbol)} <span class="${p.side=="long"?"pos":"neg"}">${p.side=="long"?"做多":"做空"}</span></b><span class="${cls(u)}">${sg(u)}% · ${(u>=0?"+":"")+usd(p.notional*u/100)}</span></div>
   <div class="bar"><span class="sl neg" style="left:0">止损 −10%</span><span class="tp pos" style="right:0">止盈 +5%</span><div class="fill" style="left:${l}%;width:${wd}%;background:${u>=0?C.g:C.r}"></div><div class="z" style="left:${z}%"></div></div>`}).join(""):`<div class="mut" style="padding:30px;text-align:center">当前空仓</div>`;
  // 持仓表
- open.innerHTML=`<tr><th>币种</th><th>方向</th><th>入场价</th><th>现价</th><th>止盈价</th><th>止损价</th><th>浮盈</th><th>开仓时间</th><th>开仓原因</th></tr>`+
+ document.getElementById("t_open").innerHTML=`<tr><th>币种</th><th>方向</th><th>入场价</th><th>现价</th><th>止盈价</th><th>止损价</th><th>浮盈</th><th>开仓时间</th><th>开仓原因</th></tr>`+
   (L.open.map(p=>{const d=p.side=="long"?1:-1,w=p.why||{};return`<tr><td><b class="hl">★ ${nm(p.symbol)}</b></td><td class="${d>0?"pos":"neg"}">${d>0?"做多":"做空"}</td><td>${px(p.entry)}</td><td>${px(p.mark||p.entry)}</td>
   <td class="pos">${px(p.entry*(1+d*TP/100))}</td><td class="neg">${px(p.entry*(1-d*SL/100))}</td><td class="${cls(p.upnl_pct)}"><b>${sg(p.upnl_pct||0)}%</b></td><td>${p.entry_time}</td>
   <td>${sigCN[w.signal]||"趋势条件"} · 2h ${sg(w.p2h)}% · OI24h ${sg(w.oi24)}% · 量 ${f(w.acc)}x</td></tr>`}).join("")||`<tr><td colspan=9 class="mut">无</td></tr>`);
- closed.innerHTML=`<tr><th>币种</th><th>方向</th><th>入场价</th><th>平仓价</th><th>盈亏</th><th>盈亏%</th><th>开仓</th><th>平仓</th><th>原因</th></tr>`+
+ document.getElementById("t_closed").innerHTML=`<tr><th>币种</th><th>方向</th><th>入场价</th><th>平仓价</th><th>盈亏</th><th>盈亏%</th><th>开仓</th><th>平仓</th><th>原因</th></tr>`+
   (L.closed.slice().reverse().map(c=>`<tr><td>${nm(c.symbol)}</td><td class="${c.side=="long"?"pos":"neg"}">${c.side=="long"?"做多":"做空"}</td><td>${px(c.entry)}</td><td>${px(c.exit)}</td>
   <td class="${cls(c.pnl)}">${(c.pnl>=0?"+":"")+usd(c.pnl)}</td><td class="${cls(c.pnl_pct)}">${sg(c.pnl_pct)}%</td><td>${c.entry_time}</td><td>${c.exit_time}</td><td>${c.reason}</td></tr>`).join("")||`<tr><td colspan=9 class="mut">还没有平仓的交易</td></tr>`);
  // 雷达
