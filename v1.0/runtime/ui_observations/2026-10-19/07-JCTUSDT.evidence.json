@@ -1,0 +1,274 @@
+{
+  "symbol": "JCTUSDT",
+  "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+  "observed_at": "2026-10-19T07:01:13.324Z",
+  "research_only": true,
+  "execution_eligible": false,
+  "ui_symbol_verified": "JCTUSDT Perp",
+  "display_timezone": null,
+  "timezone_note": "Original chart timezone unverified; raw labels are not mapped to Beijing or UTC event hours.",
+  "primary_public_header_raw": "JCTUSDT\nPerp\n0.001898\n-0.000004\n-0.21%\nMark\n0.001898\nIndex\n0.001893\nFunding (4h) / Countdown\n0.00500%\n/\n00:58:47\n24h High\n0.001983\n24h Low\n0.001744\n24h Vol(JCT)\n1,331,650,677.00\n24h Vol(USDT)\n2,483,205.27\nOpen Interest(USDT)\n6,426,547.42\n",
+  "funding": {
+    "predicted_rate_raw": "0.00500%",
+    "decimal_conversion": "Displayed percent divided by 100",
+    "interval_hours": 4,
+    "historical_settlement_funding_rate": null,
+    "historical_settlement_mark_price": null,
+    "historical_missing_reason": "No settlement event tooltip verified in this collection."
+  },
+  "order_book": {
+    "observed_at": "2026-10-19T07:01:13.324Z",
+    "price_unit": "USDT",
+    "quantity_unit": "JCT",
+    "asks_display_order": [
+      {
+        "price_raw": "0.001903",
+        "quantity_raw": "506.61K",
+        "cumulative_quantity_raw": "1.33M"
+      },
+      {
+        "price_raw": "0.001902",
+        "quantity_raw": "374.37K",
+        "cumulative_quantity_raw": "830.63K"
+      },
+      {
+        "price_raw": "0.001901",
+        "quantity_raw": "303.46K",
+        "cumulative_quantity_raw": "456.25K"
+      },
+      {
+        "price_raw": "0.001900",
+        "quantity_raw": "104.15K",
+        "cumulative_quantity_raw": "152.79K"
+      },
+      {
+        "price_raw": "0.001899",
+        "quantity_raw": "48.64K",
+        "cumulative_quantity_raw": "48.64K"
+      }
+    ],
+    "bids_display_order": [
+      {
+        "price_raw": "0.001898",
+        "quantity_raw": "148.40K",
+        "cumulative_quantity_raw": "148.40K"
+      },
+      {
+        "price_raw": "0.001897",
+        "quantity_raw": "302.39K",
+        "cumulative_quantity_raw": "450.79K"
+      },
+      {
+        "price_raw": "0.001896",
+        "quantity_raw": "582.55K",
+        "cumulative_quantity_raw": "1.03M"
+      },
+      {
+        "price_raw": "0.001895",
+        "quantity_raw": "402.47K",
+        "cumulative_quantity_raw": "1.43M"
+      },
+      {
+        "price_raw": "0.001894",
+        "quantity_raw": "386.93K",
+        "cumulative_quantity_raw": "1.82M"
+      }
+    ],
+    "raw_public_book": "Price (USDT)\nSize\n(JCT)\nSum\n(JCT)\n0.001903\n506.61K\n1.33M\n0.001902\n374.37K\n830.63K\n0.001901\n303.46K\n456.25K\n0.001900\n104.15K\n152.79K\n0.001899\n48.64K\n48.64K\n0.001898\n0.001898\n0.001898\n148.40K\n148.40K\n0.001897\n302.39K\n450.79K\n0.001896\n582.55K\n1.03M\n0.001895\n402.47K\n1.43M\n0.001894\n386.93K\n1.82M\n",
+    "precision_note": "K/M abbreviated quantities are rounded."
+  },
+  "closed_1h_candles_latest_first": [
+    {
+      "raw_label": "2026/10/19 13:00",
+      "observed_at": "2026-10-19T07:03:41.808Z",
+      "open": 0.001898,
+      "high": 0.001907,
+      "low": 0.001888,
+      "close": 0.001899,
+      "ui_change_raw": "0.05%",
+      "volume_quantity_raw": "25.756M",
+      "volume_usdt_raw": "48.894K",
+      "quantity_unit": "JCT",
+      "display_timezone": null,
+      "raw_chart": "2026/10/19 13:00\nOpen\n0.001898\nHigh\n0.001907\nLow\n0.001888\nClose\n0.001899\nCHANGE\n0.05%\nRange\n1.00%\nMA(7)\n0.001903\nMA(25)\n0.001877\nMA(99)\n0.001993\nVol(JCT)\n25.756M\nVol(USDT)\n48.894K\n46.313M\n51.942M\n0.000001\n",
+      "volume_quantity_rounded": 25756000.0,
+      "open_to_close_change_pct": 0.05268703898841931
+    },
+    {
+      "raw_label": "2026/10/19 12:00",
+      "observed_at": "2026-10-19T07:03:42.793Z",
+      "open": 0.001947,
+      "high": 0.001948,
+      "low": 0.001896,
+      "close": 0.001898,
+      "ui_change_raw": "-2.31%",
+      "volume_quantity_raw": "42.967M",
+      "volume_usdt_raw": "82.225K",
+      "quantity_unit": "JCT",
+      "display_timezone": null,
+      "raw_chart": "2026/10/19 12:00\nOpen\n0.001947\nHigh\n0.001948\nLow\n0.001896\nClose\n0.001898\nCHANGE\n-2.31%\nRange\n2.67%\nMA(7)\n0.001895\nMA(25)\n0.001878\nMA(99)\n0.001995\nVol(JCT)\n42.967M\nVol(USDT)\n82.225K\n46.804M\n53.246M\n0.000001\n",
+      "volume_quantity_rounded": 42967000.0,
+      "open_to_close_change_pct": -2.516692347200822
+    },
+    {
+      "raw_label": "2026/10/19 11:00",
+      "observed_at": "2026-10-19T07:03:43.806Z",
+      "open": 0.001928,
+      "high": 0.001962,
+      "low": 0.001922,
+      "close": 0.001943,
+      "ui_change_raw": "0.77%",
+      "volume_quantity_raw": "58.557M",
+      "volume_usdt_raw": "113.822K",
+      "quantity_unit": "JCT",
+      "display_timezone": null,
+      "raw_chart": "2026/10/19 11:00\nOpen\n0.001928\nHigh\n0.001962\nLow\n0.001922\nClose\n0.001943\nCHANGE\n0.77%\nRange\n2.07%\nMA(7)\n0.001885\nMA(25)\n0.001878\nMA(99)\n0.001996\nVol(JCT)\n58.557M\nVol(USDT)\n113.822K\n48.715M\n53.102M\n0.000001\n",
+      "volume_quantity_rounded": 58557000.0,
+      "open_to_close_change_pct": 0.778008298755184
+    },
+    {
+      "raw_label": "2026/10/19 10:00",
+      "observed_at": "2026-10-19T07:03:44.828Z",
+      "open": 0.001915,
+      "high": 0.001943,
+      "low": 0.001906,
+      "close": 0.001928,
+      "ui_change_raw": "0.73%",
+      "volume_quantity_raw": "50.274M",
+      "volume_usdt_raw": "96.845K",
+      "quantity_unit": "JCT",
+      "display_timezone": null,
+      "raw_chart": "2026/10/19 10:00\nOpen\n0.001915\nHigh\n0.001943\nLow\n0.001906\nClose\n0.001928\nCHANGE\n0.73%\nRange\n1.93%\nMA(7)\n0.001862\nMA(25)\n0.001877\nMA(99)\n0.001997\nVol(JCT)\n50.274M\nVol(USDT)\n96.845K\n47.597M\n63.649M\n0.000001\n",
+      "volume_quantity_rounded": 50274000.0,
+      "open_to_close_change_pct": 0.6788511749347359
+    },
+    {
+      "raw_label": "2026/10/19 09:00",
+      "observed_at": "2026-10-19T07:03:45.842Z",
+      "open": 0.001882,
+      "high": 0.001923,
+      "low": 0.001881,
+      "close": 0.001914,
+      "ui_change_raw": "1.59%",
+      "volume_quantity_raw": "47.922M",
+      "volume_usdt_raw": "91.145K",
+      "quantity_unit": "JCT",
+      "display_timezone": null,
+      "raw_chart": "2026/10/19 09:00\nOpen\n0.001882\nHigh\n0.001923\nLow\n0.001881\nClose\n0.001914\nCHANGE\n1.59%\nRange\n2.22%\nMA(7)\n0.001839\nMA(25)\n0.001877\nMA(99)\n0.001999\nVol(JCT)\n47.922M\nVol(USDT)\n91.145K\n53.426M\n65.161M\n0.000001\n",
+      "volume_quantity_rounded": 47922000.0,
+      "open_to_close_change_pct": 1.7003188097768351
+    },
+    {
+      "raw_label": "2026/10/19 08:00",
+      "observed_at": "2026-10-19T07:03:46.860Z",
+      "open": 0.001861,
+      "high": 0.001893,
+      "low": 0.001858,
+      "close": 0.001884,
+      "ui_change_raw": "1.23%",
+      "volume_quantity_raw": "45.017M",
+      "volume_usdt_raw": "84.297K",
+      "quantity_unit": "JCT",
+      "display_timezone": null,
+      "raw_chart": "2026/10/19 08:00\nOpen\n0.001861\nHigh\n0.001893\nLow\n0.001858\nClose\n0.001884\nCHANGE\n1.23%\nRange\n1.88%\nMA(7)\n0.001823\nMA(25)\n0.001879\nMA(99)\n0.002001\nVol(JCT)\n45.017M\nVol(USDT)\n84.297K\n61.197M\n65.33M\n0.000001\n",
+      "volume_quantity_rounded": 45017000.0,
+      "open_to_close_change_pct": 1.2358946802794257
+    },
+    {
+      "raw_label": "2026/10/19 07:00",
+      "observed_at": "2026-10-19T07:03:47.873Z",
+      "open": 0.001842,
+      "high": 0.00187,
+      "low": 0.001837,
+      "close": 0.001861,
+      "ui_change_raw": "0.97%",
+      "volume_quantity_raw": "53.696M",
+      "volume_usdt_raw": "99.654K",
+      "quantity_unit": "JCT",
+      "display_timezone": null,
+      "raw_chart": "2026/10/19 07:00\nOpen\n0.001842\nHigh\n0.001870\nLow\n0.001837\nClose\n0.001861\nCHANGE\n0.97%\nRange\n1.79%\nMA(7)\n0.001818\nMA(25)\n0.001883\nMA(99)\n0.002003\nVol(JCT)\n53.696M\nVol(USDT)\n99.654K\n61.897M\n65.774M\n0.000001\n",
+      "volume_quantity_rounded": 53696000.0,
+      "open_to_close_change_pct": 1.0314875135722046
+    }
+  ],
+  "closed_4h_candle": {
+    "raw_label": "2026/10/19 07:00",
+    "observed_at": "2026-10-19T07:11:35.137Z",
+    "open": 0.001842,
+    "high": 0.001943,
+    "low": 0.001837,
+    "close": 0.001928,
+    "ui_change_raw": "4.61%",
+    "volume_quantity_raw": "196.91M",
+    "volume_usdt_raw": "371.943K",
+    "quantity_unit": "JCT",
+    "display_timezone": null,
+    "raw_chart": "2026/10/19 07:00\nOpen\n0.001842\nHigh\n0.001943\nLow\n0.001837\nClose\n0.001928\nCHANGE\n4.61%\nRange\n5.75%\nMA(7)\n0.001885\nMA(25)\n0.001996\nMA(99)\n0.001927\nVol(JCT)\n196.91M\nVol(USDT)\n371.943K\n229.851M\n319.578M\n",
+    "volume_quantity_rounded": 196910000.0,
+    "open_to_close_change_pct": 4.668838219326821
+  },
+  "completion_evidence": "UI 1H current forming raw label 2026/10/19 14:00; seven preceding completed candles 13:00 through 07:00. UI 4H current forming raw label 11:00; latest completed 07:00. Chart timezone unverified.",
+  "hourly_oi_quantity_timeline": {
+    "previous": {
+      "raw_label": "10/19 13:00",
+      "quantity_raw": "3,393,870,895.000",
+      "quantity": 3393870895.0,
+      "unit": "JCT",
+      "notional_usdt": 6441566.95,
+      "observed_at": "2026-10-19T07:03:15.830Z",
+      "display_timezone": null,
+      "raw_tooltip": "10/19 13:00\n\nOpen Interest (JCT): 3,393,870,895.000\n\nNotional Value of Open Interest (USDT):\n\n6,441,566.95\n\n"
+    },
+    "latest": {
+      "raw_label": "10/19 14:00",
+      "quantity_raw": "3,390,273,658.000",
+      "quantity": 3390273658.0,
+      "unit": "JCT",
+      "notional_usdt": 6438129.67,
+      "observed_at": "2026-10-19T07:03:08.312Z",
+      "display_timezone": null,
+      "raw_tooltip": "10/19 14:00\n\nOpen Interest (JCT): 3,390,273,658.000\n\nNotional Value of Open Interest (USDT):\n\n6,438,129.67\n\n"
+    },
+    "delta_quantity": -3597237.0,
+    "delta_pct": -0.10599215796038841,
+    "unit": "JCT",
+    "chart_interval": "1h",
+    "endpoint_status": "updated",
+    "event_timezone_verified": false,
+    "same_window_price_volume_pairing": null,
+    "pairing_note": "Cross-chart boundary/timezone mapping not verified; candle changes independent of OI endpoint interval.",
+    "prior_archive_observed_at": "2026-10-19T06:01:16.372Z",
+    "previous_endpoint_source": "fresh public UI tooltip"
+  },
+  "hourly_taker_volume": {
+    "observed_at": "2026-10-19T07:12:27.240Z",
+    "chart_interval": "1h",
+    "raw_label": "10/19 13:00",
+    "unit": "JCT",
+    "sell_quantity_raw": "13,674,872.000",
+    "buy_quantity_raw": "12,081,831.000",
+    "sell_quantity": 13674872.0,
+    "buy_quantity": 12081831.0,
+    "raw_tooltip": "Taker Buy/Sell Volume\n1h\nTaker Sell Volume (JCT)\nTaker Buy Volume (JCT)\n12:00\n18:00\n00:00\n06:00\n12:00\n0.000\n60,000,000.000\n120,000,000.000\n10/19 13:00\n\nTaker Sell Volume (JCT): 13,674,872.000\n\nTaker Buy Volume (JCT): 12,081,831.000\n\n",
+    "display_timezone": null
+  },
+  "volume_baseline": {
+    "count": 6,
+    "mean_quantity_rounded": 49738833.333333336,
+    "latest_to_baseline_ratio": 0.517824771389223,
+    "note": "Uses seven completed same-chart 1h bars, K/M rounded UI values; event timezone unverified."
+  },
+  "capture_status": "public_ui_verified",
+  "prior_archive_reference": "v1.0/runtime/ui_observations/2026-10-19/06-JCTUSDT.evidence.json",
+  "jct_research_alert_evaluation": {
+    "oi_trigger": false,
+    "volume_price_trigger": false,
+    "mark_previous": 0.001898,
+    "mark_current": 0.001898,
+    "mark_change_pct": 0.0,
+    "mark_trigger": false,
+    "notification_required": false,
+    "note": "No research threshold met. No second trigger confirmation required. OI raw labels are consecutive 1h chart endpoints; timezone unknown, not mapped to Beijing event hours.",
+    "mark_snapshot_interval_seconds": 3596.952
+  }
+}
