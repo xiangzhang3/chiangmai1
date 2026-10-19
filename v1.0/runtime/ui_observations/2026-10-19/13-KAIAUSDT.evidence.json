@@ -1,0 +1,75 @@
+{
+  "symbol": "KAIAUSDT",
+  "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+  "display_timezone": null,
+  "execution_eligible": false,
+  "public_header_capture": {
+    "observed_at": "2026-10-19T13:10:56.168Z",
+    "raw_text": "KAIAUSDT\nPerp\n0.04105\n-0.00127\n-3.00%\nMark\n0.04107\nIndex\n0.04118\nFunding (4h) / Countdown\n0.00294%\n/\n02:49:04\n24h High\n0.04240\n24h Low\n0.03996\n24h Vol(KAIA)\n210,203,553.00\n24h Vol(USDT)\n8,663,352.84\nOpen Interest(USDT)\n4,142,869.04\n"
+  },
+  "public_order_book_capture": {
+    "observed_at": "2026-10-19T13:10:56.168Z",
+    "price_unit": "USDT",
+    "size_unit": "KAIA",
+    "display_raw_lines": [
+      "0.04110",
+      "76.70K",
+      "168.11K",
+      "0.04109",
+      "56.94K",
+      "91.41K",
+      "0.04108",
+      "20.65K",
+      "34.47K",
+      "0.04107",
+      "7.54K",
+      "13.82K",
+      "0.04106",
+      "6.27K",
+      "6.27K",
+      "0.04105",
+      "0.04107",
+      "0.04105",
+      "759",
+      "759",
+      "0.04104",
+      "3.42K",
+      "4.18K",
+      "0.04103",
+      "9.83K",
+      "14.01K",
+      "0.04102",
+      "13.87K",
+      "27.89K",
+      "0.04101",
+      "24.30K",
+      "52.20K"
+    ],
+    "precision_note": "K/M abbreviations retained; no exact size inferred"
+  },
+  "hourly_oi_tooltips": null,
+  "other_interval_quantity_tooltip": null,
+  "limitations": [
+    "Chart raw labels unconverted to UTC/Beijing.",
+    "Snapshot observation time is not exchange event time.",
+    "All missing fields null; no past endpoint retimed.",
+    "Four contracts only, not whole market."
+  ],
+  "technical_attempts": [
+    {
+      "attempt_at_utc": "2026-10-19T13:07:26Z",
+      "action": "read STRK tab after navigation",
+      "result": "Page.getFrameTree timeout; recovered with fresh public tab later"
+    },
+    {
+      "attempt_at_utc": "2026-10-19T13:10:24Z",
+      "action": "SHELL 1h selector",
+      "result": "CDP deadline before dispatch"
+    },
+    {
+      "attempt_at_utc": "2026-10-19T13:13:18Z",
+      "action": "SHELL DOM status check",
+      "result": "prepare tab command timeout"
+    }
+  ]
+}
