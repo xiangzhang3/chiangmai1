@@ -1,6 +1,6 @@
 {
  "capital": 100000,
- "cash": 70911.00275000001,
+ "cash": 60906.002750000014,
  "open": [
   {
    "symbol": "IOTXUSDT",
@@ -20,8 +20,8 @@
     "taker": 0.9273,
     "funding": -0.00132206
    },
-   "mark": 0.003801,
-   "upnl_pct": 0.66
+   "mark": 0.003814,
+   "upnl_pct": 0.32
   },
   {
    "symbol": "AUSDT",
@@ -41,8 +41,8 @@
     "taker": 0.7611,
     "funding": -0.00018634
    },
-   "mark": 0.08682,
-   "upnl_pct": -1.73
+   "mark": 0.08883224,
+   "upnl_pct": -4.08
   },
   {
    "symbol": "KAVAUSDT",
@@ -62,8 +62,27 @@
     "taker": 0.5704,
     "funding": -1.225e-05
    },
-   "mark": 0.06992,
-   "upnl_pct": -0.59
+   "mark": 0.07032,
+   "upnl_pct": -1.16
+  },
+  {
+   "symbol": "ENSOUSDT",
+   "side": "short",
+   "entry": 0.5995001,
+   "qty": 16680.56435687,
+   "notional": 10000,
+   "entry_fee": 5.0,
+   "entry_time": "2026-10-20 03:26",
+   "entry_ms": 1792441572001,
+   "why": {
+    "quadrant": "price_down_oi_up",
+    "signal": "WATCH",
+    "p2h": -0.3,
+    "oi24": 7.38,
+    "acc": 1.97,
+    "taker": 0.8933,
+    "funding": -0.00014771
+   }
   }
  ],
  "closed": [
@@ -302,6 +321,16 @@
    "closed": 5,
    "win_rate": 0.8,
    "open": 3
+  },
+  {
+   "time": "2026-10-20 03:26",
+   "equity": 100414.0,
+   "return_pct": 0.41,
+   "cash": 60906.0,
+   "realized": 926.0,
+   "closed": 5,
+   "win_rate": 0.8,
+   "open": 4
   }
  ]
 }
