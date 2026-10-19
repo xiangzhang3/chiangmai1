@@ -1,0 +1,109 @@
+{
+  "symbol": "KAIAUSDT",
+  "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+  "observed_at": "2026-10-19T11:10:41.326Z",
+  "research_only": true,
+  "execution_eligible": false,
+  "ui_symbol_verified": "KAIAUSDT Perp",
+  "display_timezone": null,
+  "timezone_note": "Raw chart labels are not mapped to UTC or Beijing event hours. observed_at is actual UTC capture time.",
+  "primary_public_header_raw": "KAIAUSDT\nPerp\n0.04083\n-0.00170\n-3.99%\nMark\n0.04084\nIndex\n0.04091\nFunding (4h) / Countdown\n-0.00344%\n/\n00:49:19\n24h High\n0.04277\n24h Low\n0.03996\n24h Vol(KAIA)\n208,403,044.00\n24h Vol(USDT)\n8,609,910.33\nOpen Interest(USDT)\n4,174,087.35\n",
+  "funding": {
+    "predicted_rate_raw": "-0.00344%",
+    "decimal_conversion": "display percent divided by100",
+    "interval_hours": 4,
+    "historical_settlement_funding_rate": null,
+    "historical_settlement_mark_price": null
+  },
+  "order_book": {
+    "observed_at": "2026-10-19T11:10:41.326Z",
+    "price_unit": "USDT",
+    "quantity_unit": "KAIA",
+    "asks_display_order": [
+      {
+        "price_raw": "0.04089",
+        "quantity_raw": "54.24K",
+        "cumulative_quantity_raw": "149.05K"
+      },
+      {
+        "price_raw": "0.04088",
+        "quantity_raw": "45.38K",
+        "cumulative_quantity_raw": "94.81K"
+      },
+      {
+        "price_raw": "0.04087",
+        "quantity_raw": "23.02K",
+        "cumulative_quantity_raw": "49.42K"
+      },
+      {
+        "price_raw": "0.04086",
+        "quantity_raw": "13.22K",
+        "cumulative_quantity_raw": "26.39K"
+      },
+      {
+        "price_raw": "0.04085",
+        "quantity_raw": "13.17K",
+        "cumulative_quantity_raw": "13.17K"
+      }
+    ],
+    "bids_display_order": [
+      {
+        "price_raw": "0.04083",
+        "quantity_raw": "7.89K",
+        "cumulative_quantity_raw": "7.89K"
+      },
+      {
+        "price_raw": "0.04082",
+        "quantity_raw": "4.47K",
+        "cumulative_quantity_raw": "12.37K"
+      },
+      {
+        "price_raw": "0.04081",
+        "quantity_raw": "21.79K",
+        "cumulative_quantity_raw": "34.16K"
+      },
+      {
+        "price_raw": "0.04080",
+        "quantity_raw": "13.07K",
+        "cumulative_quantity_raw": "47.23K"
+      },
+      {
+        "price_raw": "0.04079",
+        "quantity_raw": "32.24K",
+        "cumulative_quantity_raw": "79.47K"
+      }
+    ],
+    "precision_note": "K/M UI rounded; original strings retained"
+  },
+  "rolling_24h_volume": {
+    "quantity_raw": "208,403,044.00",
+    "quantity_unit": "KAIA",
+    "notional_usdt_raw": "8,609,910.33",
+    "window": "rolling24h, not completed1h"
+  },
+  "hourly_oi_quantity_timeline": null,
+  "closed_1h_candles_latest_first": [],
+  "closed_4h_candle": null,
+  "taker_1h": null,
+  "research_checks": {
+    "quantity_oi_5pct_threshold_raw_interval": null,
+    "closed_1h_volume_price_joint_threshold": null,
+    "baseline_count": 0,
+    "latest_closed_1h_volume_vs_previous_six_mean": null,
+    "is_trade_signal": false
+  },
+  "capture_limitation": "Public header/book and three symbols hourly OI captured after ordinary browser recovery. Closed candles and hourly taker tooltip not verified this pass; missing data is not a no-anomaly finding.",
+  "missing_fields": [
+    "closed_1h_candles",
+    "closed_4h_candle",
+    "taker_1h",
+    "contiguous six-prior-hour volume baseline",
+    "display_timezone",
+    "UTC event-hour mapping",
+    "cross-panel window alignment",
+    "historical_settlement_funding_rate",
+    "historical_settlement_mark_price",
+    "quantity_open_interest",
+    "hourly_oi_quantity_timeline"
+  ]
+}

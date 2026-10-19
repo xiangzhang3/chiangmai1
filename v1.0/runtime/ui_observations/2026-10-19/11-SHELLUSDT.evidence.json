@@ -1,0 +1,134 @@
+{
+  "symbol": "SHELLUSDT",
+  "source_url": "https://www.binance.com/en/futures/SHELLUSDT",
+  "observed_at": "2026-10-19T11:01:29.657Z",
+  "research_only": true,
+  "execution_eligible": false,
+  "ui_symbol_verified": "SHELLUSDT Perp",
+  "display_timezone": null,
+  "timezone_note": "Raw chart labels are not mapped to UTC or Beijing event hours. observed_at is actual UTC capture time.",
+  "primary_public_header_raw": "SHELLUSDT\nPerp\n0.02134\n-0.00013\n-0.65%\nMark\n0.02134\nIndex\n0.02136\nFunding (4h) / Countdown\n0.00500%\n/\n00:58:30\n24h High\n0.02181\n24h Low\n0.02049\n24h Vol(SHELL)\n27,528,423.00\n24h Vol(USDT)\n586,519.39\nOpen Interest(USDT)\n1,466,109.53\n",
+  "funding": {
+    "predicted_rate_raw": "0.00500%",
+    "decimal_conversion": "display percent divided by100",
+    "interval_hours": 4,
+    "historical_settlement_funding_rate": null,
+    "historical_settlement_mark_price": null
+  },
+  "order_book": {
+    "observed_at": "2026-10-19T11:01:29.657Z",
+    "price_unit": "USDT",
+    "quantity_unit": "SHELL",
+    "asks_display_order": [
+      {
+        "price_raw": "0.02138",
+        "quantity_raw": "78.59K",
+        "cumulative_quantity_raw": "162.14K"
+      },
+      {
+        "price_raw": "0.02137",
+        "quantity_raw": "57.23K",
+        "cumulative_quantity_raw": "83.55K"
+      },
+      {
+        "price_raw": "0.02136",
+        "quantity_raw": "10.64K",
+        "cumulative_quantity_raw": "26.31K"
+      },
+      {
+        "price_raw": "0.02135",
+        "quantity_raw": "12.67K",
+        "cumulative_quantity_raw": "15.67K"
+      },
+      {
+        "price_raw": "0.02134",
+        "quantity_raw": "3.00K",
+        "cumulative_quantity_raw": "3.00K"
+      }
+    ],
+    "bids_display_order": [
+      {
+        "price_raw": "0.02133",
+        "quantity_raw": "3.88K",
+        "cumulative_quantity_raw": "3.88K"
+      },
+      {
+        "price_raw": "0.02132",
+        "quantity_raw": "23.45K",
+        "cumulative_quantity_raw": "27.34K"
+      },
+      {
+        "price_raw": "0.02131",
+        "quantity_raw": "77.72K",
+        "cumulative_quantity_raw": "105.06K"
+      },
+      {
+        "price_raw": "0.02130",
+        "quantity_raw": "35.72K",
+        "cumulative_quantity_raw": "140.79K"
+      },
+      {
+        "price_raw": "0.02129",
+        "quantity_raw": "105.13K",
+        "cumulative_quantity_raw": "245.92K"
+      }
+    ],
+    "precision_note": "K/M UI rounded; original strings retained"
+  },
+  "rolling_24h_volume": {
+    "quantity_raw": "27,528,423.00",
+    "quantity_unit": "SHELL",
+    "notional_usdt_raw": "586,519.39",
+    "window": "rolling24h, not completed1h"
+  },
+  "hourly_oi_quantity_timeline": {
+    "previous": {
+      "raw_label": "10/19 17:00",
+      "quantity_raw": "68,588,560.000",
+      "quantity": 68588560.0,
+      "unit": "SHELL",
+      "notional_usdt": 1473282.26,
+      "observed_at": "2026-10-19T11:08:21.699Z",
+      "display_timezone": null
+    },
+    "latest": {
+      "raw_label": "10/19 18:00",
+      "quantity_raw": "68,713,245.000",
+      "quantity": 68713245.0,
+      "unit": "SHELL",
+      "notional_usdt": 1468402.04,
+      "observed_at": "2026-10-19T11:02:00.718Z",
+      "display_timezone": null
+    },
+    "delta_quantity": 124685.0,
+    "delta_pct": 0.1817868752456678,
+    "unit": "SHELL",
+    "raw_label_interval_hours": 1,
+    "event_utc_interval": null,
+    "status": "freshly observed latest two raw hourly chart endpoints; timezone unmapped",
+    "same_contract_same_quantity_basis": true,
+    "price_volume_window_alignment": "not verified; paired changes omitted"
+  },
+  "closed_1h_candles_latest_first": [],
+  "closed_4h_candle": null,
+  "taker_1h": null,
+  "research_checks": {
+    "quantity_oi_5pct_threshold_raw_interval": false,
+    "closed_1h_volume_price_joint_threshold": null,
+    "baseline_count": 0,
+    "latest_closed_1h_volume_vs_previous_six_mean": null,
+    "is_trade_signal": false
+  },
+  "capture_limitation": "Public header/book and three symbols hourly OI captured after ordinary browser recovery. Closed candles and hourly taker tooltip not verified this pass; missing data is not a no-anomaly finding.",
+  "missing_fields": [
+    "closed_1h_candles",
+    "closed_4h_candle",
+    "taker_1h",
+    "contiguous six-prior-hour volume baseline",
+    "display_timezone",
+    "UTC event-hour mapping",
+    "cross-panel window alignment",
+    "historical_settlement_funding_rate",
+    "historical_settlement_mark_price"
+  ]
+}

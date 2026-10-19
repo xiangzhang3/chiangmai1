@@ -1,0 +1,134 @@
+{
+  "symbol": "STRKUSDT",
+  "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+  "observed_at": "2026-10-19T11:03:13.644Z",
+  "research_only": true,
+  "execution_eligible": false,
+  "ui_symbol_verified": "STRKUSDT Perp",
+  "display_timezone": null,
+  "timezone_note": "Raw chart labels are not mapped to UTC or Beijing event hours. observed_at is actual UTC capture time.",
+  "primary_public_header_raw": "STRKUSDT\nPerp\n0.05870\n-0.00341\n-5.50%\nMark\n0.05866\nIndex\n0.05871\nFunding (4h) / Countdown\n0.00500%\n/\n00:56:46\n24h High\n0.06257\n24h Low\n0.05758\n24h Vol(STRK)\n1,740,560,914.9\n24h Vol(USDT)\n104,824,394.03\nOpen Interest(USDT)\n25,586,443.33\n",
+  "funding": {
+    "predicted_rate_raw": "0.00500%",
+    "decimal_conversion": "display percent divided by100",
+    "interval_hours": 4,
+    "historical_settlement_funding_rate": null,
+    "historical_settlement_mark_price": null
+  },
+  "order_book": {
+    "observed_at": "2026-10-19T11:03:13.644Z",
+    "price_unit": "USDT",
+    "quantity_unit": "STRK",
+    "asks_display_order": [
+      {
+        "price_raw": "0.05875",
+        "quantity_raw": "56.13K",
+        "cumulative_quantity_raw": "382.23K"
+      },
+      {
+        "price_raw": "0.05874",
+        "quantity_raw": "78.15K",
+        "cumulative_quantity_raw": "326.10K"
+      },
+      {
+        "price_raw": "0.05873",
+        "quantity_raw": "153.39K",
+        "cumulative_quantity_raw": "247.95K"
+      },
+      {
+        "price_raw": "0.05872",
+        "quantity_raw": "51.91K",
+        "cumulative_quantity_raw": "94.55K"
+      },
+      {
+        "price_raw": "0.05871",
+        "quantity_raw": "42.64K",
+        "cumulative_quantity_raw": "42.64K"
+      }
+    ],
+    "bids_display_order": [
+      {
+        "price_raw": "0.05870",
+        "quantity_raw": "815.7",
+        "cumulative_quantity_raw": "815.7"
+      },
+      {
+        "price_raw": "0.05869",
+        "quantity_raw": "17.97K",
+        "cumulative_quantity_raw": "18.79K"
+      },
+      {
+        "price_raw": "0.05868",
+        "quantity_raw": "32.08K",
+        "cumulative_quantity_raw": "50.87K"
+      },
+      {
+        "price_raw": "0.05867",
+        "quantity_raw": "25.71K",
+        "cumulative_quantity_raw": "76.58K"
+      },
+      {
+        "price_raw": "0.05866",
+        "quantity_raw": "60.02K",
+        "cumulative_quantity_raw": "136.61K"
+      }
+    ],
+    "precision_note": "K/M UI rounded; original strings retained"
+  },
+  "rolling_24h_volume": {
+    "quantity_raw": "1,740,560,914.9",
+    "quantity_unit": "STRK",
+    "notional_usdt_raw": "104,824,394.03",
+    "window": "rolling24h, not completed1h"
+  },
+  "hourly_oi_quantity_timeline": {
+    "previous": {
+      "raw_label": "10/19 17:00",
+      "quantity_raw": "437,408,970.100",
+      "quantity": 437408970.1,
+      "unit": "STRK",
+      "notional_usdt": 25922014.7,
+      "observed_at": "2026-10-19T11:05:23.571Z",
+      "display_timezone": null
+    },
+    "latest": {
+      "raw_label": "10/19 18:00",
+      "quantity_raw": "436,420,954.500",
+      "quantity": 436420954.5,
+      "unit": "STRK",
+      "notional_usdt": 25620057.22,
+      "observed_at": "2026-10-19T11:05:14.434Z",
+      "display_timezone": null
+    },
+    "delta_quantity": -988015.6000000238,
+    "delta_pct": -0.22587913544025962,
+    "unit": "STRK",
+    "raw_label_interval_hours": 1,
+    "event_utc_interval": null,
+    "status": "freshly observed latest two raw hourly chart endpoints; timezone unmapped",
+    "same_contract_same_quantity_basis": true,
+    "price_volume_window_alignment": "not verified; paired changes omitted"
+  },
+  "closed_1h_candles_latest_first": [],
+  "closed_4h_candle": null,
+  "taker_1h": null,
+  "research_checks": {
+    "quantity_oi_5pct_threshold_raw_interval": false,
+    "closed_1h_volume_price_joint_threshold": null,
+    "baseline_count": 0,
+    "latest_closed_1h_volume_vs_previous_six_mean": null,
+    "is_trade_signal": false
+  },
+  "capture_limitation": "Public header/book and three symbols hourly OI captured after ordinary browser recovery. Closed candles and hourly taker tooltip not verified this pass; missing data is not a no-anomaly finding.",
+  "missing_fields": [
+    "closed_1h_candles",
+    "closed_4h_candle",
+    "taker_1h",
+    "contiguous six-prior-hour volume baseline",
+    "display_timezone",
+    "UTC event-hour mapping",
+    "cross-panel window alignment",
+    "historical_settlement_funding_rate",
+    "historical_settlement_mark_price"
+  ]
+}
