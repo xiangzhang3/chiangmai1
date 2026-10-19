@@ -1,0 +1,57 @@
+{
+  "symbol": "SHELLUSDT",
+  "source_url": "https://www.binance.com/en/futures/SHELLUSDT",
+  "observed_at": "2026-10-19T10:06:14.729Z",
+  "research_only": true,
+  "execution_eligible": false,
+  "ui_symbol_verified": "SHELLUSDT Perp",
+  "display_timezone": null,
+  "timezone_note": "Raw chart labels are not mapped to UTC or Beijing event time. observed_at is actual UTC collection time.",
+  "primary_public_header_raw": "30 heading SHELLUSDT info tag, Value: 1\n\t\t\t\t31 text SHELLUSDT\n\t\t\t\t32 container info tag\n\t\t\t\t\t33 container Perp\n\t\t\t\t\t\t34 text Perp\n\t\t\t\t35 image\n\t\t\t36 text 0.02148\n\t\t\t37 text -0.00017\n\t\t\t38 container\n\t\t\t\t39 text -0.83 %\n\t\t\t40 container\n\t\t\t\t41 container\n\t\t\t\t\t42 text Mark\n\t\t\t\t\t43 text 0.02150\n\t\t\t\t44 container\n\t\t\t\t\t45 link Description: Index, Value: binance.com/en/futures/funding-history/perpetual/index?contract=SHELLUSDT\n\t\t\t\t\t46 text 0.02150\n\t\t\t\t47 container\n\t\t\t\t\t48 container\n\t\t\t\t\t\t49 text Funding  (4h)  / Countdown\n\t\t\t\t\t50 text 0.00500% /\n\t\t\t\t\t51 text 01:53:45\n\t\t\t\t52 container\n\t\t\t\t\t53 text 24h High 0.02181\n\t\t\t\t54 container\n\t\t\t\t\t55 text 24h Low 0.02049\n\t\t\t\t56 container\n\t\t\t\t\t57 text 24h Vol(SHELL) 27,856,399.00\n\t\t\t\t58 container\n\t\t\t\t\t59 text 24h Vol(USDT) 593,895.78\n\t\t\t\t60 container\n\t\t\t\t\t61 link Description: Open Interest(USDT), Value: binance.com/en/futures/funding-history/perpetual/trading-data?contract=SHELLUSDT\n\t\t\t\t\t62 text 1,474,258.82\n\t\t\t\t",
+  "funding": {
+    "predicted_rate_raw": "0.00500%",
+    "decimal_conversion": "display percent divided by 100",
+    "interval_hours": 4,
+    "historical_settlement_funding_rate": null,
+    "historical_settlement_mark_price": null
+  },
+  "order_book": {
+    "observed_at": "2026-10-19T10:06:14.729Z",
+    "price_unit": "USDT",
+    "quantity_unit": "SHELL",
+    "public_raw": "container futuresOrderbook\n\t\t\t\t\t\t118 container\n\t\t\t\t\t\t\t119 text 0.00001\n\t\t\t\t\t\t\t120 image\n\t\t\t\t\t\t121 text Price (USDT)\n\t\t\t\t\t\t122 text Size ( SHELL ) Sum ( SHELL )\n\t\t\t\t\t\t123 container\n\t\t\t\t\t\t\t124 container\n\t\t\t\t\t\t\t\t125 text 0.02154\n\t\t\t\t\t\t\t\t126 text 69.68K 212.66K\n\t\t\t\t\t\t\t127 container\n\t\t\t\t\t\t\t\t128 text 0.02153\n\t\t\t\t\t\t\t\t129 text 70.59K 142.97K\n\t\t\t\t\t\t\t130 container\n\t\t\t\t\t\t\t\t131 text 0.02152\n\t\t\t\t\t\t\t\t132 text 48.63K 72.38K\n\t\t\t\t\t\t\t133 container\n\t\t\t\t\t\t\t\t134 text 0.02151\n\t\t\t\t\t\t\t\t135 text 16.54K 23.74K\n\t\t\t\t\t\t\t136 container\n\t\t\t\t\t\t\t\t137 text 0.02150\n\t\t\t\t\t\t\t\t138 text 7.20K 7.20K\n\t\t\t\t\t\t139 text 0.02148\n\t\t\t\t\t\t140 image\n\t\t\t\t\t\t141 text 0.02150\n\t\t\t\t\t\t142 container\n\t\t\t\t\t\t\t143 container\n\t\t\t\t\t\t\t\t144 text 0.02148\n\t\t\t\t\t\t\t\t145 text 6.12K 6.12K\n\t\t\t\t\t\t\t146 container\n\t\t\t\t\t\t\t\t147 text 0.02147\n\t\t\t\t\t\t\t\t148 text 54.91K 61.03K\n\t\t\t\t\t\t\t149 container\n\t\t\t\t\t\t\t\t150 text 0.02146\n\t\t\t\t\t\t\t\t151 text 28.63K 89.67K\n\t\t\t\t\t\t\t152 container\n\t\t\t\t\t\t\t\t153 text 0.02145\n\t\t\t\t\t\t\t\t154 text 108.43K 198.10K\n\t\t\t\t\t\t\t155 container\n\t\t\t\t\t\t\t\t156 text 0.02144\n\t\t\t\t\t\t\t\t157 text 41.29K 239.39K\n\t\t\t\t158 ",
+    "precision_note": "K/M displayed sizes are rounded."
+  },
+  "rolling_24h_volume_quantity_raw": "27,856,399.00",
+  "closed_1h_candles_latest_first": [],
+  "closed_4h_candle": null,
+  "hourly_oi_quantity_timeline": {
+    "previous": {
+      "raw_label": "10/19 16:00",
+      "quantity_raw": "68,613,242.000",
+      "quantity": 68613242.0,
+      "unit": "SHELL",
+      "notional_usdt": 1477929.23,
+      "observed_at": "2026-10-19T09:04:42.561Z",
+      "display_timezone": null
+    },
+    "latest": null,
+    "delta_quantity": null,
+    "delta_pct": null,
+    "unit": "SHELL",
+    "status": "missing current endpoint; previous endpoint preserved from prior verified observation, not relabeled as current hour",
+    "display_timezone": null,
+    "price_volume_window_alignment": "unverified; no paired changes calculated"
+  },
+  "taker_buy_sell_volume_1h": null,
+  "research_checks": {
+    "oi_threshold_status": "not evaluable: current quantity endpoint missing",
+    "volume_threshold_status": "not evaluable: completed-hour volume baseline missing",
+    "alert_trigger_confirmed": false
+  },
+  "limitations": [
+    "Intermittent browser protocol timeouts prevented quantity-OI tooltip and completed 1h/4h candle capture.",
+    "No inference of no market anomaly; unavailable data remain null.",
+    "No simulated or live trades performed."
+  ]
+}
