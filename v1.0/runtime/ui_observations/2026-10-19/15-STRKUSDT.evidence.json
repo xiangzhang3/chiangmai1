@@ -1,0 +1,95 @@
+{
+  "symbol": "STRKUSDT",
+  "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+  "display_timezone": null,
+  "execution_eligible": false,
+  "public_header_capture": {
+    "observed_at": "2026-10-19T15:07:14.079Z",
+    "raw_text": "Perp\n0.05691\n-0.00406\n-6.65%\nMark\n0.05694\nIndex\n0.05699\nFunding (4h) / Countdown\n0.00500%\n/\n00:52:46\n24h High\n0.06226\n24h Low\n0.05651\n24h Vol(STRK)\n1,703,535,241.2\n24h Vol(USDT)\n101,455,637.72\nOpen Interest(USDT)\n25,142,806.20\n",
+    "method": "rendered DOM text"
+  },
+  "hourly_oi_tooltips": [
+    {
+      "raw_chart_label": "10/19 21:00",
+      "quantity": 441836153.7,
+      "quantity_raw": "441,836,153.700",
+      "unit": "STRK",
+      "notional_usdt_raw": "25,387,905.39",
+      "observed_at": "2026-10-19T15:07:34.209Z",
+      "display_timezone": null,
+      "event_at_utc": null
+    },
+    {
+      "raw_chart_label": "10/19 22:00",
+      "quantity": 441115370.6,
+      "quantity_raw": "441,115,370.600",
+      "unit": "STRK",
+      "notional_usdt_raw": "25,249,443.81",
+      "observed_at": "2026-10-19T15:07:14.079Z",
+      "display_timezone": null,
+      "event_at_utc": null
+    }
+  ],
+  "hourly_oi_raw_captures": [
+    {
+      "observed_at": "2026-10-19T15:07:34.209Z",
+      "raw_text": "10/19 21:00\n\nOpen Interest (STRK): 441,836,153.700\n\nNotional Value of Open Interest (USDT):\n\n25,387,905.39\n\n"
+    },
+    {
+      "observed_at": "2026-10-19T15:07:14.079Z",
+      "raw_text": "10/19 22:00\n\nOpen Interest (STRK): 441,115,370.600\n\nNotional Value of Open Interest (USDT):\n\n25,249,443.81\n\n"
+    }
+  ],
+  "public_order_book_capture": {
+    "observed_at": "2026-10-19T15:07:14.079Z",
+    "price_unit": "USDT",
+    "size_unit": "STRK",
+    "display_raw_lines": [
+      "0.05696",
+      "103.40K",
+      "266.47K",
+      "0.05695",
+      "89.71K",
+      "163.07K",
+      "0.05694",
+      "30.36K",
+      "73.35K",
+      "0.05693",
+      "37.11K",
+      "42.98K",
+      "0.05692",
+      "5.86K",
+      "5.86K",
+      "0.05691",
+      "0.05694",
+      "0.05691",
+      "83.72K",
+      "83.72K",
+      "0.05690",
+      "41.27K",
+      "125.00K",
+      "0.05689",
+      "47.83K",
+      "172.83K",
+      "0.05688",
+      "116.55K",
+      "289.39K",
+      "0.05687",
+      "87.23K",
+      "376.62K"
+    ],
+    "precision_note": "K/M abbreviations retained; five levels each side"
+  },
+  "completed_candles": [],
+  "limitations": [
+    "Repeated CDP prepare-tab/LayoutMetrics timeouts and browser recovery interruptions prevented remaining candle, six-hour volume baseline and hourly taker verification. No title-only values accepted.",
+    "Raw chart timezone unverified; 24h rolling volume is not hourly volume."
+  ],
+  "source_references": {
+    "cloud_browser_tab": "52",
+    "screenshot_files": [
+      "STRK-21.png"
+    ],
+    "tool_title": "Read STRK hourly endpoints"
+  }
+}

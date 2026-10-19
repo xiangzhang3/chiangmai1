@@ -1,0 +1,94 @@
+{
+  "symbol": "KAIAUSDT",
+  "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+  "observed_at": "2026-10-19T15:13:53Z",
+  "source": "official public rendered Binance perpetual UI",
+  "ui_symbol_verified": "KAIAUSDT Perp",
+  "display_timezone": null,
+  "execution_eligible": false,
+  "fields": {
+    "last_price": 0.04129,
+    "mark_price": 0.0413,
+    "index_price": 0.0413,
+    "funding_rate": -4.6e-05,
+    "funding_interval_hours": 4,
+    "open_interest_notional_usdt": null,
+    "volume_24h_base": null,
+    "volume_24h_quote_usdt": null,
+    "open_interest_quantity": null,
+    "completed_1h_candles": null,
+    "completed_4h_candles": null,
+    "hourly_taker_buy_volume": null,
+    "hourly_taker_sell_volume": null,
+    "historical_settled_funding_rate": null,
+    "historical_settlement_mark_price": null
+  },
+  "funding_rate_raw": "-0.00460%",
+  "funding_rate_conversion": "Displayed percent divided by 100; current predicted per displayed interval, not settled rate.",
+  "hourly_oi_timeline": null,
+  "order_book": {
+    "observed_at": "2026-10-19T15:13:53Z",
+    "price_unit": "USDT",
+    "size_unit": "KAIA",
+    "asks_raw": [
+      [
+        "0.04134",
+        "43.54K",
+        "100.82K"
+      ],
+      [
+        "0.04133",
+        "28.91K",
+        "57.28K"
+      ],
+      [
+        "0.04132",
+        "17.24K",
+        "28.36K"
+      ],
+      [
+        "0.04131",
+        "7.69K",
+        "11.12K"
+      ],
+      [
+        "0.04130",
+        "3.43K",
+        "3.43K"
+      ]
+    ],
+    "bids_raw": [
+      [
+        "0.04128",
+        "1.97K",
+        "1.97K"
+      ],
+      [
+        "0.04127",
+        "5.62K",
+        "7.59K"
+      ],
+      [
+        "0.04126",
+        "10.99K",
+        "18.59K"
+      ],
+      [
+        "0.04125",
+        "31.20K",
+        "49.79K"
+      ],
+      [
+        "0.04124",
+        "47.08K",
+        "96.87K"
+      ]
+    ],
+    "precision_note": "Manual transcription of full rendered screenshot; K retained"
+  },
+  "missing_reasons": {
+    "null_fields": "Not verified; no inference from clipped labels or chart axes.",
+    "remaining_collection": "Repeated CDP prepare-tab/LayoutMetrics timeouts and browser recovery interruptions prevented remaining candle, six-hour volume baseline and hourly taker verification. No title-only values accepted.",
+    "window_alignment": "Display timezone unverified. No UTC/Beijing event-hour mapping or paired OI/price/volume calculation."
+  }
+}

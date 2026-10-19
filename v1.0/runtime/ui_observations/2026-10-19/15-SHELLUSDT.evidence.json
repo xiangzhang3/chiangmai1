@@ -1,0 +1,134 @@
+{
+  "symbol": "SHELLUSDT",
+  "source_url": "https://www.binance.com/en/futures/SHELLUSDT",
+  "display_timezone": null,
+  "execution_eligible": false,
+  "public_header_capture": {
+    "observed_at": "2026-10-19T15:09:05.500Z",
+    "raw_text": "Perp\n0.02123\n-0.00017\n-0.79%\nMark\n0.02123\nIndex\n0.02124\nFunding (4h) / Countdown\n0.00500%\n/\n00:50:55\n24h High\n0.02181\n24h Low\n0.02049\n24h Vol(SHELL)\n31,290,357.00\n24h Vol(USDT)\n664,224.24\nOpen Interest(USDT)\n1,479,430.75\n",
+    "method": "rendered DOM text"
+  },
+  "hourly_oi_tooltips": [
+    {
+      "raw_chart_label": "10/19 21:00",
+      "quantity": 69737093.0,
+      "quantity_raw": "69,737,093.000",
+      "unit": "SHELL",
+      "notional_usdt_raw": "1,476,334.25",
+      "observed_at": "2026-10-19T15:09:05.892Z",
+      "display_timezone": null,
+      "event_at_utc": null
+    },
+    {
+      "raw_chart_label": "10/19 22:00",
+      "quantity": 69743474.0,
+      "quantity_raw": "69,743,474.000",
+      "unit": "SHELL",
+      "notional_usdt_raw": "1,481,916.30",
+      "observed_at": "2026-10-19T15:09:05.500Z",
+      "display_timezone": null,
+      "event_at_utc": null
+    }
+  ],
+  "hourly_oi_raw_captures": [
+    {
+      "observed_at": "2026-10-19T15:09:05.892Z",
+      "raw_text": "10/19 21:00\n\nOpen Interest (SHELL): 69,737,093.000\n\nNotional Value of Open Interest (USDT):\n\n1,476,334.25\n\n"
+    },
+    {
+      "observed_at": "2026-10-19T15:09:05.500Z",
+      "raw_text": "10/19 22:00\n\nOpen Interest (SHELL): 69,743,474.000\n\nNotional Value of Open Interest (USDT):\n\n1,481,916.30\n\n"
+    }
+  ],
+  "public_order_book_capture": {
+    "observed_at": "2026-10-19T15:09:05.500Z",
+    "price_unit": "USDT",
+    "size_unit": "SHELL",
+    "display_raw_lines": [
+      "0.02128",
+      "65.72K",
+      "113.23K",
+      "0.02127",
+      "29.75K",
+      "47.51K",
+      "0.02126",
+      "10.47K",
+      "17.76K",
+      "0.02125",
+      "5.27K",
+      "7.29K",
+      "0.02124",
+      "2.02K",
+      "2.02K",
+      "0.02123",
+      "0.02123",
+      "0.02123",
+      "4.40K",
+      "4.40K",
+      "0.02122",
+      "6.19K",
+      "10.60K",
+      "0.02121",
+      "12.52K",
+      "23.13K",
+      "0.02120",
+      "38.08K",
+      "61.22K",
+      "0.02119",
+      "37.34K",
+      "98.56K"
+    ],
+    "precision_note": "K/M abbreviations retained; five levels each side"
+  },
+  "completed_candles": [
+    {
+      "symbol": "SHELLUSDT",
+      "observed_at": "2026-10-19T15:10:15.040Z",
+      "period": "1h",
+      "raw_label": "2026/10/19 21:00",
+      "open": 0.02117,
+      "high": 0.02137,
+      "low": 0.02104,
+      "close": 0.02125,
+      "volume_raw": "1.347M",
+      "quote_volume_raw": "28.498K",
+      "source": "SHELL-1h21.png",
+      "closed": true,
+      "display_timezone": null,
+      "event_at_utc": null,
+      "precision_note": "Displayed K/M rounded volume, not exact integer count",
+      "closure_evidence": "Precedes rightmost current forming candle in selected chart interval"
+    },
+    {
+      "symbol": "SHELLUSDT",
+      "observed_at": "2026-10-19T15:10:59Z",
+      "period": "4h",
+      "raw_label": "2026/10/19 15:00",
+      "open": 0.02168,
+      "high": 0.02173,
+      "low": 0.02087,
+      "close": 0.02093,
+      "volume_raw": "8.085M",
+      "quote_volume_raw": "171.739K",
+      "source": "SHELL-4h15.png",
+      "closed": true,
+      "display_timezone": null,
+      "event_at_utc": null,
+      "precision_note": "Displayed K/M rounded volume, not exact integer count",
+      "closure_evidence": "Precedes rightmost current forming candle in selected chart interval"
+    }
+  ],
+  "limitations": [
+    "Repeated CDP prepare-tab/LayoutMetrics timeouts and browser recovery interruptions prevented remaining candle, six-hour volume baseline and hourly taker verification. No title-only values accepted.",
+    "Raw chart timezone unverified; 24h rolling volume is not hourly volume."
+  ],
+  "source_references": {
+    "cloud_browser_tab": "52",
+    "screenshot_files": [
+      "SHELL-22.png",
+      "SHELL-4h15.png",
+      "SHELL-1h21.png"
+    ],
+    "tool_title": "Read SHELL hourly endpoints"
+  }
+}
