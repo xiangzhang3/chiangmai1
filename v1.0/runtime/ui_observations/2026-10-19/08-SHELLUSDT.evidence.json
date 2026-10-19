@@ -1,0 +1,271 @@
+{
+  "symbol": "SHELLUSDT",
+  "source_url": "https://www.binance.com/en/futures/SHELLUSDT",
+  "observed_at": "2026-10-19T08:05:47.826Z",
+  "research_only": true,
+  "execution_eligible": false,
+  "ui_symbol_verified": "SHELLUSDT Perp",
+  "display_timezone": null,
+  "timezone_note": "Chart labels retained verbatim; timezone not verified, not mapped to UTC or Beijing event hours. observed_at is actual UTC collection time.",
+  "primary_public_header_raw": "SHELLUSDT\nPerp\n0.02169\n0.00011\n+0.50%\nMark\n0.02168\nIndex\n0.02170\nFunding (4h) / Countdown\n0.00500%\n/\n03:54:12\n24h High\n0.02181\n24h Low\n0.02049\n24h Vol(SHELL)\n27,664,382.00\n24h Vol(USDT)\n589,875.92\nOpen Interest(USDT)\n1,479,495.38\n",
+  "funding": {
+    "predicted_rate_raw": "0.00500%",
+    "decimal_conversion": "display percent divided by 100",
+    "interval_hours": 4,
+    "historical_settlement_funding_rate": null,
+    "historical_settlement_mark_price": null,
+    "historical_missing_reason": "No timestamped settlement observation captured"
+  },
+  "order_book": {
+    "observed_at": "2026-10-19T08:05:47.826Z",
+    "price_unit": "USDT",
+    "quantity_unit": "SHELL",
+    "asks_display_order": [
+      {
+        "price_raw": "0.02173",
+        "quantity_raw": "63.14K",
+        "cumulative_quantity_raw": "114.31K"
+      },
+      {
+        "price_raw": "0.02172",
+        "quantity_raw": "18.02K",
+        "cumulative_quantity_raw": "51.16K"
+      },
+      {
+        "price_raw": "0.02171",
+        "quantity_raw": "12.26K",
+        "cumulative_quantity_raw": "33.13K"
+      },
+      {
+        "price_raw": "0.02170",
+        "quantity_raw": "18.85K",
+        "cumulative_quantity_raw": "20.87K"
+      },
+      {
+        "price_raw": "0.02169",
+        "quantity_raw": "2.02K",
+        "cumulative_quantity_raw": "2.02K"
+      }
+    ],
+    "bids_display_order": [
+      {
+        "price_raw": "0.02168",
+        "quantity_raw": "269.01K",
+        "cumulative_quantity_raw": "269.01K"
+      },
+      {
+        "price_raw": "0.02167",
+        "quantity_raw": "51.15K",
+        "cumulative_quantity_raw": "320.17K"
+      },
+      {
+        "price_raw": "0.02166",
+        "quantity_raw": "36.90K",
+        "cumulative_quantity_raw": "357.07K"
+      },
+      {
+        "price_raw": "0.02165",
+        "quantity_raw": "79.89K",
+        "cumulative_quantity_raw": "436.97K"
+      },
+      {
+        "price_raw": "0.02164",
+        "quantity_raw": "73.97K",
+        "cumulative_quantity_raw": "510.95K"
+      }
+    ],
+    "precision_note": "K/M sizes are UI rounded, preserve originals"
+  },
+  "closed_1h_candles_latest_first": [
+    {
+      "raw_label": "2026/10/19 14:00",
+      "observed_at": "2026-10-19T08:06:47.885Z",
+      "open": 0.02172,
+      "high": 0.02176,
+      "low": 0.02164,
+      "close": 0.0217,
+      "ui_change_raw": "-0.13%",
+      "volume_quantity_raw": "766.875K",
+      "volume_usdt_raw": "16.637K",
+      "quantity_unit": "SHELL",
+      "volume_quantity_rounded": 766875.0,
+      "open_to_close_change_pct": -0.09208103130754486,
+      "display_timezone": null
+    },
+    {
+      "raw_label": "2026/10/19 13:00",
+      "observed_at": "2026-10-19T08:06:48.012Z",
+      "open": 0.0216,
+      "high": 0.02181,
+      "low": 0.02157,
+      "close": 0.02173,
+      "ui_change_raw": "0.64%",
+      "volume_quantity_raw": "2.5M",
+      "volume_usdt_raw": "54.283K",
+      "quantity_unit": "SHELL",
+      "volume_quantity_rounded": 2500000.0,
+      "open_to_close_change_pct": 0.6018518518518423,
+      "display_timezone": null
+    },
+    {
+      "raw_label": "2026/10/19 12:00",
+      "observed_at": "2026-10-19T08:06:48.149Z",
+      "open": 0.02152,
+      "high": 0.02161,
+      "low": 0.02144,
+      "close": 0.02159,
+      "ui_change_raw": "0.41%",
+      "volume_quantity_raw": "1.022M",
+      "volume_usdt_raw": "22.03K",
+      "quantity_unit": "SHELL",
+      "volume_quantity_rounded": 1022000.0,
+      "open_to_close_change_pct": 0.32527881040893547,
+      "display_timezone": null
+    },
+    {
+      "raw_label": "2026/10/19 11:00",
+      "observed_at": "2026-10-19T08:06:48.252Z",
+      "open": 0.02139,
+      "high": 0.02156,
+      "low": 0.02134,
+      "close": 0.0215,
+      "ui_change_raw": "0.51%",
+      "volume_quantity_raw": "694.631K",
+      "volume_usdt_raw": "14.875K",
+      "quantity_unit": "SHELL",
+      "volume_quantity_rounded": 694631.0,
+      "open_to_close_change_pct": 0.5142589995324798,
+      "display_timezone": null
+    },
+    {
+      "raw_label": "2026/10/19 10:00",
+      "observed_at": "2026-10-19T08:06:48.356Z",
+      "open": 0.02153,
+      "high": 0.02153,
+      "low": 0.02138,
+      "close": 0.02139,
+      "ui_change_raw": "-0.65%",
+      "volume_quantity_raw": "397.761K",
+      "volume_usdt_raw": "8.534K",
+      "quantity_unit": "SHELL",
+      "volume_quantity_rounded": 397761.0,
+      "open_to_close_change_pct": -0.6502554575011699,
+      "display_timezone": null
+    },
+    {
+      "raw_label": "2026/10/19 09:00",
+      "observed_at": "2026-10-19T08:06:48.500Z",
+      "open": 0.02153,
+      "high": 0.02161,
+      "low": 0.0214,
+      "close": 0.02153,
+      "ui_change_raw": "0.04%",
+      "volume_quantity_raw": "695.307K",
+      "volume_usdt_raw": "14.953K",
+      "quantity_unit": "SHELL",
+      "volume_quantity_rounded": 695307.0,
+      "open_to_close_change_pct": 0.0,
+      "display_timezone": null
+    },
+    {
+      "raw_label": "2026/10/19 08:00",
+      "observed_at": "2026-10-19T08:06:48.630Z",
+      "open": 0.02138,
+      "high": 0.02155,
+      "low": 0.02135,
+      "close": 0.02152,
+      "ui_change_raw": "0.65%",
+      "volume_quantity_raw": "565.672K",
+      "volume_usdt_raw": "12.153K",
+      "quantity_unit": "SHELL",
+      "volume_quantity_rounded": 565672.0,
+      "open_to_close_change_pct": 0.654817586529477,
+      "display_timezone": null
+    }
+  ],
+  "closed_4h_candle": {
+    "raw_label": "2026/10/19 11:00",
+    "observed_at": "2026-10-19T08:09:04.533Z",
+    "open": 0.02139,
+    "high": 0.02181,
+    "low": 0.02134,
+    "close": 0.0217,
+    "ui_change_raw": "1.44%",
+    "volume_quantity_raw": "4.984M",
+    "volume_usdt_raw": "107.828K",
+    "quantity_unit": "SHELL",
+    "volume_quantity_rounded": 4984000.0,
+    "open_to_close_change_pct": 1.449275362318847,
+    "display_timezone": null
+  },
+  "completion_evidence": "1h current forming raw15:00; 4h current forming raw15:00 observed on UI. Listed raw14:00 1h and raw11:00 4h precede those.",
+  "hourly_oi_quantity_timeline": {
+    "previous": {
+      "raw_label": "10/19 14:00",
+      "quantity_raw": "68,325,519.000",
+      "quantity": 68325519.0,
+      "unit": "SHELL",
+      "notional_usdt": 1484713.52,
+      "observed_at": "2026-10-19T08:06:26.528Z",
+      "display_timezone": null
+    },
+    "latest": {
+      "raw_label": "10/19 15:00",
+      "quantity_raw": "68,175,760.000",
+      "quantity": 68175760.0,
+      "unit": "SHELL",
+      "notional_usdt": 1479413.99,
+      "observed_at": "2026-10-19T08:06:15.930Z",
+      "display_timezone": null
+    },
+    "delta_quantity": -149759.0,
+    "delta_pct": -0.21918457728802615,
+    "unit": "SHELL",
+    "raw_label_interval_hours": 1,
+    "event_utc_interval": null,
+    "status": "fresh raw chart endpoints; timezone unmapped",
+    "same_contract_same_quantity_basis": true,
+    "price_volume_window_alignment": "not confirmed across panels; no paired price/volume change inferred",
+    "previous_archive_endpoint_verified": {
+      "raw_label": "10/19 14:00",
+      "quantity_raw": "68,325,519.000",
+      "quantity": 68325519.0,
+      "unit": "SHELL",
+      "notional_usdt": 1484713.52,
+      "observed_at": "2026-10-19T07:06:32.635Z",
+      "display_timezone": null,
+      "raw_tooltip": "10/19 14:00\n\nOpen Interest (SHELL): 68,325,519.000\n\nNotional Value of Open Interest (USDT):\n\n1,484,713.52\n\n"
+    }
+  },
+  "taker_1h": null,
+  "taker_candle_alignment": "Same raw hour label; cross-panel timezone unverified. Do not force equality or compute paired flow signal.",
+  "research_checks": {
+    "latest_closed_1h_volume_vs_previous_six_mean": 0.7831420347753358,
+    "previous_six_mean_quantity_rounded": 979228.5,
+    "baseline_count": 6,
+    "rounding_note": "K/M UI values are rounded; calculated ratio approximate",
+    "quantity_oi_5pct_threshold_raw_interval": false,
+    "closed_1h_volume_price_joint_threshold": false,
+    "is_trade_signal": false
+  },
+  "missing_fields": [
+    "display_timezone",
+    "historical_settlement_funding_rate",
+    "historical_settlement_mark_price",
+    "UTC event-hour mapping",
+    "cross-panel verified time-window alignment",
+    "taker_1h"
+  ],
+  "taker_missing_reason": "No successfully verified fresh 1h tooltip captured; no older value reused",
+  "mark_snapshot_comparison": {
+    "previous_mark": 0.02173,
+    "previous_observed_at": "2026-10-19T07:06:05.830Z",
+    "current_mark": 0.02168,
+    "current_observed_at": "2026-10-19T08:05:47.826Z",
+    "actual_interval_seconds": 3581.996,
+    "change_pct": -0.23009664058903923,
+    "previous_source": "https://github.com/xiangzhang3/chiangmai1/blob/378c156c688f4b5e0b067b26d351ce10f8385211/v1.0/runtime/ui_observations/2026-10-19/07-SHELLUSDT.json",
+    "adjacent_approximately_one_hour": true
+  },
+  "alert_status": "Observation only; no independent alert authorized for this symbol."
+}
