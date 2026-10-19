@@ -1,6 +1,6 @@
 {
  "capital": 100000,
- "cash": 69985.0,
+ "cash": 80475.497625,
  "open": [
   {
    "symbol": "QUSDT",
@@ -20,8 +20,8 @@
     "taker": 0.945,
     "funding": -0.00082001
    },
-   "mark": 0.12601192,
-   "upnl_pct": 0.26
+   "mark": 0.125228,
+   "upnl_pct": 0.88
   },
   {
    "symbol": "IOTXUSDT",
@@ -41,9 +41,11 @@
     "taker": 0.9273,
     "funding": -0.00132206
    },
-   "mark": 0.0039101,
-   "upnl_pct": -2.2
-  },
+   "mark": 0.003889,
+   "upnl_pct": -1.64
+  }
+ ],
+ "closed": [
   {
    "symbol": "ARIAUSDT",
    "side": "short",
@@ -63,10 +65,14 @@
     "funding": 5e-05
    },
    "mark": 0.04475,
-   "upnl_pct": -0.43
+   "upnl_pct": -0.43,
+   "exit": 0.04235098941225,
+   "exit_time": "2026-10-19 21:22",
+   "reason": "止盈 +5%",
+   "pnl": 485.5,
+   "pnl_pct": 4.85
   }
  ],
- "closed": [],
  "log": [
   {
    "time": "2026-10-19 16:03",
@@ -117,6 +123,16 @@
    "closed": 0,
    "win_rate": null,
    "open": 3
+  },
+  {
+   "time": "2026-10-19 21:22",
+   "equity": 100399.5,
+   "return_pct": 0.4,
+   "cash": 80475.5,
+   "realized": 485.5,
+   "closed": 1,
+   "win_rate": 1.0,
+   "open": 2
   }
  ]
 }
