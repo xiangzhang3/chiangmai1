@@ -1,6 +1,6 @@
 {
  "capital": 100000,
- "cash": 89995.0,
+ "cash": 79990.0,
  "open": [
   {
    "symbol": "QUSDT",
@@ -20,8 +20,27 @@
     "taker": 0.945,
     "funding": -0.00082001
    },
-   "mark": 0.12533412,
-   "upnl_pct": 0.8
+   "mark": 0.12788935,
+   "upnl_pct": -1.22
+  },
+  {
+   "symbol": "IOTXUSDT",
+   "side": "short",
+   "entry": 0.003826086,
+   "qty": 2613637.017045618,
+   "notional": 10000,
+   "entry_fee": 5.0,
+   "entry_time": "2026-10-19 17:20",
+   "entry_ms": 1792405245000,
+   "why": {
+    "quadrant": "price_down_oi_up",
+    "signal": "DELEVERAGING",
+    "p2h": -4.17,
+    "oi24": 10.01,
+    "acc": 2.13,
+    "taker": 0.9273,
+    "funding": -0.00132206
+   }
   }
  ],
  "closed": [],
@@ -45,6 +64,16 @@
    "closed": 0,
    "win_rate": null,
    "open": 1
+  },
+  {
+   "time": "2026-10-19 17:20",
+   "equity": 99868.0,
+   "return_pct": -0.13,
+   "cash": 79990.0,
+   "realized": 0,
+   "closed": 0,
+   "win_rate": null,
+   "open": 2
   }
  ]
 }
