@@ -1,0 +1,250 @@
+{
+  "symbol": "KAIAUSDT",
+  "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+  "observed_at": "2026-10-19T02:08:45.219Z",
+  "research_only": true,
+  "execution_eligible": false,
+  "ui_symbol_verified": "KAIAUSDT Perp",
+  "display_timezone": null,
+  "timezone_note": "Chart labels retained verbatim; timezone not verified, not mapped to UTC or Beijing event hours. observed_at is actual UTC collection time.",
+  "primary_public_header_raw": "KAIAUSDT\nPerp\n0.04229\n-0.00123\n-2.82%\nMark\n0.04229\nIndex\n0.04236\nFunding (4h) / Countdown\n-0.00310%\n/\n01:51:15\n24h High\n0.04352\n24h Low\n0.03996\n24h Vol(KAIA)\n187,840,492.00\n24h Vol(USDT)\n7,830,770.26\nOpen Interest(USDT)\n4,210,240.66\n",
+  "funding": {
+    "predicted_rate_raw": "-0.00310%",
+    "decimal_conversion": "display percent divided by 100",
+    "interval_hours": 4,
+    "historical_settlement_funding_rate": null,
+    "historical_settlement_mark_price": null,
+    "historical_missing_reason": "No timestamped settlement observation captured"
+  },
+  "order_book": {
+    "observed_at": "2026-10-19T02:08:45.219Z",
+    "price_unit": "USDT",
+    "quantity_unit": "KAIA",
+    "asks_display_order": [
+      {
+        "price_raw": "0.04233",
+        "quantity_raw": "38.39K",
+        "cumulative_quantity_raw": "117.33K"
+      },
+      {
+        "price_raw": "0.04232",
+        "quantity_raw": "28.28K",
+        "cumulative_quantity_raw": "78.94K"
+      },
+      {
+        "price_raw": "0.04231",
+        "quantity_raw": "21.21K",
+        "cumulative_quantity_raw": "50.66K"
+      },
+      {
+        "price_raw": "0.04230",
+        "quantity_raw": "27.40K",
+        "cumulative_quantity_raw": "29.44K"
+      },
+      {
+        "price_raw": "0.04229",
+        "quantity_raw": "2.04K",
+        "cumulative_quantity_raw": "2.04K"
+      }
+    ],
+    "bids_display_order": [
+      {
+        "price_raw": "0.04228",
+        "quantity_raw": "3.51K",
+        "cumulative_quantity_raw": "3.51K"
+      },
+      {
+        "price_raw": "0.04227",
+        "quantity_raw": "8.76K",
+        "cumulative_quantity_raw": "12.28K"
+      },
+      {
+        "price_raw": "0.04226",
+        "quantity_raw": "21.01K",
+        "cumulative_quantity_raw": "33.29K"
+      },
+      {
+        "price_raw": "0.04225",
+        "quantity_raw": "23.17K",
+        "cumulative_quantity_raw": "56.47K"
+      },
+      {
+        "price_raw": "0.04224",
+        "quantity_raw": "36.10K",
+        "cumulative_quantity_raw": "92.57K"
+      }
+    ],
+    "precision_note": "K/M sizes are UI rounded, preserve originals"
+  },
+  "closed_1h_candles_latest_first": [
+    {
+      "raw_label": "2026/10/19 08:00",
+      "observed_at": "2026-10-19T02:09:35.390Z",
+      "open": 0.04182,
+      "high": 0.04224,
+      "low": 0.04173,
+      "close": 0.04222,
+      "ui_change_raw": "1.00%",
+      "volume_quantity_raw": "5.371M",
+      "volume_usdt_raw": "225.714K",
+      "quantity_unit": "KAIA",
+      "volume_quantity_rounded": 5371000.0,
+      "open_to_close_change_pct": 0.9564801530368205,
+      "display_timezone": null
+    },
+    {
+      "raw_label": "2026/10/19 07:00",
+      "observed_at": "2026-10-19T02:09:35.457Z",
+      "open": 0.04132,
+      "high": 0.04219,
+      "low": 0.04124,
+      "close": 0.0418,
+      "ui_change_raw": "1.16%",
+      "volume_quantity_raw": "11.178M",
+      "volume_usdt_raw": "466.931K",
+      "quantity_unit": "KAIA",
+      "volume_quantity_rounded": 11178000.0,
+      "open_to_close_change_pct": 1.1616650532429773,
+      "display_timezone": null
+    },
+    {
+      "raw_label": "2026/10/19 06:00",
+      "observed_at": "2026-10-19T02:09:35.525Z",
+      "open": 0.04122,
+      "high": 0.04141,
+      "low": 0.04102,
+      "close": 0.04132,
+      "ui_change_raw": "0.26%",
+      "volume_quantity_raw": "7.512M",
+      "volume_usdt_raw": "309.61K",
+      "quantity_unit": "KAIA",
+      "volume_quantity_rounded": 7512000.0,
+      "open_to_close_change_pct": 0.24260067928190132,
+      "display_timezone": null
+    },
+    {
+      "raw_label": "2026/10/19 05:00",
+      "observed_at": "2026-10-19T02:09:35.604Z",
+      "open": 0.04043,
+      "high": 0.04135,
+      "low": 0.04043,
+      "close": 0.04121,
+      "ui_change_raw": "1.97%",
+      "volume_quantity_raw": "12.294M",
+      "volume_usdt_raw": "504.386K",
+      "quantity_unit": "KAIA",
+      "volume_quantity_rounded": 12294000.0,
+      "open_to_close_change_pct": 1.9292604501607524,
+      "display_timezone": null
+    },
+    {
+      "raw_label": "2026/10/19 04:00",
+      "observed_at": "2026-10-19T02:09:35.660Z",
+      "open": 0.04017,
+      "high": 0.04048,
+      "low": 0.03997,
+      "close": 0.04041,
+      "ui_change_raw": "0.62%",
+      "volume_quantity_raw": "6.318M",
+      "volume_usdt_raw": "253.996K",
+      "quantity_unit": "KAIA",
+      "volume_quantity_rounded": 6318000.0,
+      "open_to_close_change_pct": 0.5974607916355623,
+      "display_timezone": null
+    },
+    {
+      "raw_label": "2026/10/19 03:00",
+      "observed_at": "2026-10-19T02:09:35.731Z",
+      "open": 0.04014,
+      "high": 0.04036,
+      "low": 0.03996,
+      "close": 0.04016,
+      "ui_change_raw": "0.07%",
+      "volume_quantity_raw": "4.902M",
+      "volume_usdt_raw": "196.845K",
+      "quantity_unit": "KAIA",
+      "volume_quantity_rounded": 4902000.0,
+      "open_to_close_change_pct": 0.04982561036372957,
+      "display_timezone": null
+    },
+    {
+      "raw_label": "2026/10/19 02:00",
+      "observed_at": "2026-10-19T02:09:35.797Z",
+      "open": 0.04086,
+      "high": 0.0409,
+      "low": 0.04001,
+      "close": 0.04013,
+      "ui_change_raw": "-1.76%",
+      "volume_quantity_raw": "7.506M",
+      "volume_usdt_raw": "302.766K",
+      "quantity_unit": "KAIA",
+      "volume_quantity_rounded": 7506000.0,
+      "open_to_close_change_pct": -1.7865883504650015,
+      "display_timezone": null
+    }
+  ],
+  "closed_4h_candle": {
+    "raw_label": "2026/10/19 03:00",
+    "observed_at": "2026-10-19T02:09:47.909Z",
+    "open": 0.04014,
+    "high": 0.04141,
+    "low": 0.03996,
+    "close": 0.04132,
+    "ui_change_raw": "2.96%",
+    "volume_quantity_raw": "31.028M",
+    "volume_usdt_raw": "1.264M",
+    "quantity_unit": "KAIA",
+    "volume_quantity_rounded": 31028000.0,
+    "open_to_close_change_pct": 2.939711011459889,
+    "display_timezone": null
+  },
+  "completion_evidence": "1h current forming raw09:00; 4h current forming raw07:00 observed on UI. Listed raw08:00 1h and raw03:00 4h precede those.",
+  "hourly_oi_quantity_timeline": {
+    "previous": {
+      "raw_label": "10/19 08:00",
+      "quantity_raw": "99,282,210.000",
+      "quantity": 99282210.0,
+      "unit": "KAIA",
+      "notional_usdt": 4150940.55,
+      "observed_at": "2026-10-19T02:09:21.470Z",
+      "display_timezone": null
+    },
+    "latest": {
+      "raw_label": "10/19 09:00",
+      "quantity_raw": "99,505,612.000",
+      "quantity": 99505612.0,
+      "unit": "KAIA",
+      "notional_usdt": 4203444.42,
+      "observed_at": "2026-10-19T02:09:21.550Z",
+      "display_timezone": null
+    },
+    "delta_quantity": 223402.0,
+    "delta_pct": 0.22501715060533,
+    "unit": "KAIA",
+    "raw_label_interval_hours": 1,
+    "event_utc_interval": null,
+    "status": "fresh raw chart endpoints; timezone unmapped",
+    "same_contract_same_quantity_basis": true,
+    "price_volume_window_alignment": "not confirmed across panels; no paired price/volume change inferred"
+  },
+  "taker_1h": null,
+  "taker_candle_alignment": "Same raw hour label; cross-panel timezone unverified. Do not force equality or compute paired flow signal.",
+  "research_checks": {
+    "latest_closed_1h_volume_vs_previous_six_mean": 0.6482800241400121,
+    "previous_six_mean_quantity_rounded": 8285000.0,
+    "baseline_count": 6,
+    "rounding_note": "K/M UI values are rounded; calculated ratio approximate",
+    "quantity_oi_5pct_threshold_raw_interval": false,
+    "closed_1h_volume_price_joint_threshold": false,
+    "is_trade_signal": false
+  },
+  "missing_fields": [
+    "display_timezone",
+    "historical_settlement_funding_rate",
+    "historical_settlement_mark_price",
+    "UTC event-hour mapping",
+    "cross-panel verified time-window alignment",
+    "taker_1h"
+  ],
+  "taker_missing_reason": "No successfully verified fresh 1h tooltip captured; no older value reused"
+}
