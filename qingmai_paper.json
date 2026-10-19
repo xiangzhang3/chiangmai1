@@ -1,0 +1,50 @@
+{
+ "capital": 100000,
+ "cash": 89995.0,
+ "open": [
+  {
+   "symbol": "QUSDT",
+   "side": "short",
+   "entry": 0.12634470604500003,
+   "qty": 79148.54775504651,
+   "notional": 10000,
+   "entry_fee": 5.0,
+   "entry_time": "2026-10-19 16:03",
+   "entry_ms": 1792400597000,
+   "why": {
+    "quadrant": "price_down_oi_down",
+    "signal": "DELEVERAGING",
+    "p2h": -21.79,
+    "oi24": -34.03,
+    "acc": 3.6,
+    "taker": 0.945,
+    "funding": -0.00082001
+   },
+   "mark": 0.12533412,
+   "upnl_pct": 0.8
+  }
+ ],
+ "closed": [],
+ "log": [
+  {
+   "time": "2026-10-19 16:03",
+   "equity": 99995.0,
+   "return_pct": -0.0,
+   "cash": 89995.0,
+   "realized": 0,
+   "closed": 0,
+   "win_rate": null,
+   "open": 1
+  },
+  {
+   "time": "2026-10-19 16:19",
+   "equity": 100075.0,
+   "return_pct": 0.08,
+   "cash": 89995.0,
+   "realized": 0,
+   "closed": 0,
+   "win_rate": null,
+   "open": 1
+  }
+ ]
+}
