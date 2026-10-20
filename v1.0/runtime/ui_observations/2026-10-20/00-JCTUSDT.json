@@ -1,0 +1,366 @@
+{
+  "symbol": "JCTUSDT",
+  "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+  "observed_at": "2026-10-20T00:01:48.585Z",
+  "source": "official public rendered Binance perpetual UI",
+  "ui_symbol_verified": "JCTUSDT Perp",
+  "display_timezone": null,
+  "execution_eligible": false,
+  "fields": {
+    "last_price": 0.00199,
+    "mark_price": 0.001988,
+    "index_price": 0.00198,
+    "funding_rate": 5e-05,
+    "funding_interval_hours": 4,
+    "open_interest_notional_usdt": 6731916.27,
+    "volume_24h_base": 946383051.0,
+    "volume_24h_quote_usdt": 1819671.8,
+    "open_interest_quantity": 3391096620.0,
+    "completed_1h_candles": [
+      {
+        "raw_chart_label": "2026/10/20 06:00",
+        "period": "1h",
+        "open": 0.00198,
+        "high": 0.001992,
+        "low": 0.001974,
+        "close": 0.001982,
+        "ui_change_raw": "0.05%",
+        "volume_base_raw": "25.439M",
+        "volume_quote_raw": "50.456K",
+        "volume_unit": "JCT",
+        "quote_unit": "USDT",
+        "observed_at": "2026-10-20T00:08:13.999Z",
+        "display_timezone": null,
+        "event_at_utc": null,
+        "closure_evidence": "Precedes visible forming raw2026/10/20 07:00 (1h and 4h), screenshot verified.",
+        "raw_text": "2026/10/20 06:00\nOpen\n0.001980\nHigh\n0.001992\nLow\n0.001974\nClose\n0.001982\nCHANGE\n0.05%\n\nVol(JCT)\n25.439M\nVol(USDT)\n50.456K",
+        "precision_note": "K/M volumes rounded; UI CHANGE preserved separately from open-to-close return."
+      }
+    ],
+    "completed_4h_candles": [
+      {
+        "raw_chart_label": "2026/10/20 03:00",
+        "period": "4h",
+        "open": 0.001947,
+        "high": 0.002,
+        "low": 0.001945,
+        "close": 0.001982,
+        "ui_change_raw": "1.90%",
+        "volume_base_raw": "130.243M",
+        "volume_quote_raw": "257.729K",
+        "volume_unit": "JCT",
+        "quote_unit": "USDT",
+        "observed_at": "2026-10-20T00:07:45.679Z",
+        "display_timezone": null,
+        "event_at_utc": null,
+        "closure_evidence": "Precedes visible forming raw2026/10/20 07:00 (1h and 4h), screenshot verified.",
+        "raw_text": "2026/10/20 03:00\nOpen\n0.001947\nHigh\n0.002000\nLow\n0.001945\nClose\n0.001982\nCHANGE\n1.90%\n\nVol(JCT)\n130.243M\nVol(USDT)\n257.729K",
+        "precision_note": "K/M volumes rounded; UI CHANGE preserved separately from open-to-close return."
+      }
+    ],
+    "hourly_taker_buy_volume": 13718988.0,
+    "hourly_taker_sell_volume": 11720470.0,
+    "historical_settled_funding_rate": null,
+    "historical_settlement_mark_price": null
+  },
+  "raw_header": {
+    "last_price_raw": "0.001990",
+    "mark_price_raw": "0.001988",
+    "index_price_raw": "0.001980",
+    "current_predicted_funding_rate_raw": "0.00500%",
+    "funding_interval_raw": "4h",
+    "countdown_raw": "03:58:12",
+    "volume_24h_base_raw": "946,383,051.00",
+    "volume_24h_quote_usdt_raw": "1,819,671.80",
+    "open_interest_notional_usdt_raw": "6,731,916.27"
+  },
+  "funding_rate_raw": "0.00500%",
+  "funding_rate_conversion": "Displayed percent divided by100; current predicted per displayed interval, not historical settlement.",
+  "hourly_oi_timeline": {
+    "previous": {
+      "raw_chart_label": "10/20 06:00",
+      "quantity": 3388348872.0,
+      "quantity_raw": "3,388,348,872.000",
+      "unit": "JCT",
+      "notional_usdt_raw": "6,710,624.94",
+      "observed_at": "2026-10-19T23:03:00.878Z",
+      "display_timezone": null,
+      "event_at_utc": null,
+      "reverified_at": "2026-10-20T00:05:58.435Z",
+      "first_verified_at": "2026-10-19T23:03:00.878Z",
+      "original_observation_source": "https://github.com/xiangzhang3/chiangmai1/blob/23e0992b13da69c982c98a9b79cddb2066c00ce4/v1.0/runtime/ui_observations/2026-10-19/23-JCTUSDT.json"
+    },
+    "latest": {
+      "raw_chart_label": "10/20 07:00",
+      "quantity": 3391096620.0,
+      "quantity_raw": "3,391,096,620.000",
+      "unit": "JCT",
+      "notional_usdt_raw": "6,721,153.50",
+      "observed_at": "2026-10-20T00:04:46.031Z",
+      "display_timezone": null,
+      "event_at_utc": null
+    },
+    "change_quantity": 2747748.0,
+    "change_percent": 0.08109401079405734,
+    "unit": "JCT",
+    "chart_interval": "1h",
+    "same_contract_and_quantity_unit_verified": true,
+    "display_timezone": null,
+    "event_window_utc": null,
+    "same_window_price_change": null,
+    "same_window_volume_change": null,
+    "status": "New raw10/20 07:00 endpoint; timezone unmapped",
+    "comparison_note": "Both endpoints freshly verified in hourly chart; actual collection timestamps are not venue event timestamps."
+  },
+  "latest_hourly_oi_point": {
+    "raw_chart_label": "10/20 07:00",
+    "quantity": 3391096620.0,
+    "quantity_raw": "3,391,096,620.000",
+    "unit": "JCT",
+    "notional_usdt_raw": "6,721,153.50",
+    "observed_at": "2026-10-20T00:04:46.031Z",
+    "display_timezone": null,
+    "event_at_utc": null
+  },
+  "hourly_taker_volume": {
+    "raw_chart_label": "10/20 06:00",
+    "chart_interval": "1h",
+    "unit": "JCT",
+    "sell_volume_raw": "11,720,470.000",
+    "buy_volume_raw": "13,718,988.000",
+    "sell_volume": 11720470.0,
+    "buy_volume": 13718988.0,
+    "observed_at": "2026-10-20T00:07:10.557Z",
+    "display_timezone": null,
+    "event_window_utc": null,
+    "raw_text": "10/20 06:00\n\nTaker Sell Volume (JCT): 11,720,470.000\n\nTaker Buy Volume (JCT): 13,718,988.000",
+    "window_note": "Hourly chart label matches closed candle raw06:00; timezone and exact event boundary unmapped. Sum25439458 agrees with displayed truncated candle25.439M; no OI window pairing inferred."
+  },
+  "order_book": {
+    "observed_at": "2026-10-20T00:01:48.585Z",
+    "price_unit": "USDT",
+    "size_unit": "JCT",
+    "columns": [
+      "price",
+      "size",
+      "cumulative_size"
+    ],
+    "asks_raw": [
+      [
+        "0.001994",
+        "603.08K",
+        "1.88M"
+      ],
+      [
+        "0.001993",
+        "474.80K",
+        "1.27M"
+      ],
+      [
+        "0.001992",
+        "240.28K",
+        "803.34K"
+      ],
+      [
+        "0.001991",
+        "380.31K",
+        "563.05K"
+      ],
+      [
+        "0.001990",
+        "182.74K",
+        "182.74K"
+      ]
+    ],
+    "bids_raw": [
+      [
+        "0.001989",
+        "82.18K",
+        "82.18K"
+      ],
+      [
+        "0.001988",
+        "130.05K",
+        "212.23K"
+      ],
+      [
+        "0.001987",
+        "147.34K",
+        "359.57K"
+      ],
+      [
+        "0.001986",
+        "409.45K",
+        "769.02K"
+      ],
+      [
+        "0.001985",
+        "488.76K",
+        "1.25M"
+      ]
+    ],
+    "raw_text": "0.001996\n366.39K\n2.66M\n0.001995\n421.05K\n2.30M\n0.001994\n603.08K\n1.88M\n0.001993\n474.80K\n1.27M\n0.001992\n240.28K\n803.34K\n0.001991\n380.31K\n563.05K\n0.001990\n182.74K\n182.74K\n0.001990\n0.001988\n0.001989\n82.18K\n82.18K\n0.001988\n130.05K\n212.23K\n0.001987\n147.34K\n359.57K\n0.001986\n409.45K\n769.02K\n0.001985\n488.76K\n1.25M\n0.001984\n521.09K\n1.77M\n0.001983\n736.18K\n2.51M\n",
+    "precision_note": "K/M values retained as displayed."
+  },
+  "research_threshold_assessment": {
+    "quantity_oi_absolute_change_at_least_5pct": false,
+    "latest_completed_hour_raw_label": "2026/10/20 06:00",
+    "previous_six_completed_hour_labels": [
+      "2026/10/20 00:00",
+      "2026/10/20 01:00",
+      "2026/10/20 02:00",
+      "2026/10/20 03:00",
+      "2026/10/20 04:00",
+      "2026/10/20 05:00"
+    ],
+    "prior_six_volume_mean_approx": 31109500.0,
+    "latest_volume_approx": 25439000.0,
+    "volume_ratio_approx": 0.8177244893039104,
+    "open_to_close_percent": 0.10101010101009056,
+    "volume_and_price_joint_threshold_met": false,
+    "mark_snapshot_comparison": {
+      "previous_observed_at": "2026-10-19T23:00:12.532Z",
+      "previous_mark": 0.001979,
+      "latest_observed_at": "2026-10-20T00:01:48.585Z",
+      "latest_mark": 0.001988,
+      "actual_interval_seconds": 3696.053,
+      "change_percent": 0.45477513895908483,
+      "absolute_change_at_least_10pct": false
+    },
+    "alert": "No trigger in verified comparable observations; second trigger verification not required.",
+    "baseline_provenance": "https://github.com/xiangzhang3/chiangmai1/blob/23e0992b13da69c982c98a9b79cddb2066c00ce4/v1.0/runtime/ui_observations/2026-10-19/23-JCTUSDT.json",
+    "baseline_candles_with_original_observed_at": [
+      {
+        "raw_chart_label": "2026/10/20 00:00",
+        "period": "1h",
+        "open": 0.001947,
+        "high": 0.001981,
+        "low": 0.001942,
+        "close": 0.001962,
+        "ui_change_raw": "0.87%",
+        "volume_base_raw": "38.037M",
+        "volume_quote_raw": "74.75K",
+        "volume_unit": "JCT",
+        "quote_unit": "USDT",
+        "observed_at": "2026-10-19T18:01:26.241Z",
+        "display_timezone": null,
+        "event_at_utc": null,
+        "closure_evidence": "Precedes visible rightmost forming candle: raw10/20 01:00 for 1h; raw10/19 23:00 for4h.",
+        "raw_text": "2026/10/20 00:00\nOpen\n0.001947\nHigh\n0.001981\nLow\n0.001942\nClose\n0.001962\nCHANGE\n0.87%\n\nVol(JCT)\n38.037M\nVol(USDT)\n74.75K",
+        "precision_note": "Displayed K/M volume is rounded. UI CHANGE is preserved separately from open-to-close return."
+      },
+      {
+        "raw_chart_label": "2026/10/20 01:00",
+        "period": "1h",
+        "open": 0.001963,
+        "high": 0.001972,
+        "low": 0.001943,
+        "close": 0.001963,
+        "ui_change_raw": "0.05%",
+        "volume_base_raw": "24.352M",
+        "volume_quote_raw": "47.695K",
+        "volume_unit": "JCT",
+        "quote_unit": "USDT",
+        "observed_at": "2026-10-19T19:03:20.202Z",
+        "display_timezone": null,
+        "event_at_utc": null,
+        "closure_evidence": "Precedes visible forming candle raw10/20 02:00 for1h and raw10/19 23:00 for4h. Collected4h raw15:00 is older than latest closed19:00; not presented as latest.",
+        "raw_text": "2026/10/20 01:00\nOpen\n0.001963\nHigh\n0.001972\nLow\n0.001943\nClose\n0.001963\nCHANGE\n0.05%\n\nVol(JCT)\n24.352M\nVol(USDT)\n47.695K",
+        "precision_note": "Displayed K/M volume is rounded. UI CHANGE is preserved separately from open-to-close return."
+      },
+      {
+        "raw_chart_label": "2026/10/20 02:00",
+        "period": "1h",
+        "open": 0.001963,
+        "high": 0.001966,
+        "low": 0.001937,
+        "close": 0.001945,
+        "ui_change_raw": "-0.91%",
+        "volume_base_raw": "19.466M",
+        "volume_quote_raw": "37.99K",
+        "volume_unit": "JCT",
+        "quote_unit": "USDT",
+        "observed_at": "2026-10-19T20:03:47.498Z",
+        "display_timezone": null,
+        "event_at_utc": null,
+        "closure_evidence": "Precedes visible forming candle raw2026/10/20 03:00 in respective 1h or4h chart.",
+        "raw_text": "2026/10/20 02:00\nOpen\n0.001963\nHigh\n0.001966\nLow\n0.001937\nClose\n0.001945\nCHANGE\n-0.91%\n\nVol(JCT)\n19.466M\nVol(USDT)\n37.99K",
+        "precision_note": "K/M volumes rounded; UI CHANGE preserved separately from open-to-close return."
+      },
+      {
+        "raw_chart_label": "2026/10/20 03:00",
+        "period": "1h",
+        "open": 0.001947,
+        "high": 0.001978,
+        "low": 0.001945,
+        "close": 0.001971,
+        "ui_change_raw": "1.33%",
+        "volume_base_raw": "21.466M",
+        "volume_quote_raw": "42.223K",
+        "volume_unit": "JCT",
+        "quote_unit": "USDT",
+        "observed_at": "2026-10-19T21:02:54.138Z",
+        "display_timezone": null,
+        "event_at_utc": null,
+        "closure_evidence": "Precedes visible forming raw2026/10/20 04:00 (1h) or03:00 (4h), screenshot verified.",
+        "raw_text": "2026/10/20 03:00\nOpen\n0.001947\nHigh\n0.001978\nLow\n0.001945\nClose\n0.001971\nCHANGE\n1.33%\n\nVol(JCT)\n21.466M\nVol(USDT)\n42.223K",
+        "precision_note": "K/M volumes rounded; UI CHANGE preserved separately from open-to-close return."
+      },
+      {
+        "raw_chart_label": "2026/10/20 04:00",
+        "period": "1h",
+        "open": 0.001971,
+        "high": 0.001989,
+        "low": 0.00195,
+        "close": 0.001975,
+        "ui_change_raw": "0.20%",
+        "volume_base_raw": "46.555M",
+        "volume_quote_raw": "91.911K",
+        "volume_unit": "JCT",
+        "quote_unit": "USDT",
+        "observed_at": "2026-10-19T22:03:32.839Z",
+        "display_timezone": null,
+        "event_at_utc": null,
+        "closure_evidence": "Precedes visible forming raw2026/10/20 05:00 (1h) or03:00 (4h), screenshot verified.",
+        "raw_text": "2026/10/20 04:00\nOpen\n0.001971\nHigh\n0.001989\nLow\n0.001950\nClose\n0.001975\nCHANGE\n0.20%\n\nVol(JCT)\n46.555M\nVol(USDT)\n91.911K",
+        "precision_note": "K/M volumes rounded; UI CHANGE preserved separately from open-to-close return."
+      },
+      {
+        "raw_chart_label": "2026/10/20 05:00",
+        "period": "1h",
+        "open": 0.001976,
+        "high": 0.002,
+        "low": 0.001975,
+        "close": 0.001981,
+        "ui_change_raw": "0.30%",
+        "volume_base_raw": "36.781M",
+        "volume_quote_raw": "73.137K",
+        "volume_unit": "JCT",
+        "quote_unit": "USDT",
+        "observed_at": "2026-10-19T23:03:32.553Z",
+        "display_timezone": null,
+        "event_at_utc": null,
+        "closure_evidence": "Precedes visible forming raw2026/10/20 06:00 (1h) or03:00 (4h), screenshot verified.",
+        "raw_text": "2026/10/20 05:00\nOpen\n0.001976\nHigh\n0.002000\nLow\n0.001975\nClose\n0.001981\nCHANGE\n0.30%\n\nVol(JCT)\n36.781M\nVol(USDT)\n73.137K",
+        "precision_note": "K/M volumes rounded; UI CHANGE preserved separately from open-to-close return."
+      }
+    ],
+    "window_note": "Consecutive completed hourly candles; raw chart timezone unmapped. OI and candle windows not paired."
+  },
+  "missing_reasons": {
+    "null_fields": "Unverified fields remain null, not zero.",
+    "remaining_collection": "Non-JCT completed candles and taker volumes, KAIA quantity OI and historical settlement fields unverified. Transient period-change tooltips discarded; SHELL page crash recovered by normal reload; hourly selectors verified; JCT hourly taker tooltip verified. Chart timezone unverified; raw labels retained without UTC/Beijing event mapping; OI and candle windows not paired."
+  },
+  "local_candle_screenshot_evidence": [
+    {
+      "filename": "JCT-1h.jpg",
+      "sha256": "00c87fae968b35e48ee453663ee2ce0d387baf6250fe663fc63cc5b22c006c56",
+      "note": "Local screenshot supports selected candle and chart period; screenshot file not part of repository JSON publication."
+    },
+    {
+      "filename": "JCT-4h.jpg",
+      "sha256": "a49d49f0e154ad4b8e19872e2b9dda29d76744f88728c4bbd81877635434e89d",
+      "note": "Local screenshot supports selected candle and chart period; screenshot file not part of repository JSON publication."
+    }
+  ]
+}
