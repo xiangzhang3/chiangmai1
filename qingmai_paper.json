@@ -1,6 +1,6 @@
 {
  "capital": 100000,
- "cash": 67820.00700000003,
+ "cash": 47810.00700000003,
  "open": [
   {
    "symbol": "IOTXUSDT",
@@ -20,8 +20,8 @@
     "taker": 0.9273,
     "funding": -0.00132206
    },
-   "mark": 0.00385703,
-   "upnl_pct": -0.81
+   "mark": 0.00385,
+   "upnl_pct": -0.63
   },
   {
    "symbol": "KAVAUSDT",
@@ -41,8 +41,8 @@
     "taker": 0.5704,
     "funding": -1.225e-05
    },
-   "mark": 0.07097168,
-   "upnl_pct": -2.1
+   "mark": 0.07017,
+   "upnl_pct": -0.95
   },
   {
    "symbol": "SOPHUSDT",
@@ -62,8 +62,46 @@
     "taker": 0.7675,
     "funding": -0.00038873
    },
-   "mark": 0.001784,
-   "upnl_pct": 1.73
+   "mark": 0.00175263,
+   "upnl_pct": 3.46
+  },
+  {
+   "symbol": "ALTUSDT",
+   "side": "long",
+   "entry": 0.01062561015,
+   "qty": 941122.4258025315,
+   "notional": 10000,
+   "entry_fee": 5.0,
+   "entry_time": "2026-10-20 15:23",
+   "entry_ms": 1792484603002,
+   "why": {
+    "quadrant": "price_up_oi_up",
+    "signal": "WATCH",
+    "p2h": 2.35,
+    "oi24": 34.46,
+    "acc": 6.49,
+    "taker": 1.2513,
+    "funding": 1.044e-05
+   }
+  },
+  {
+   "symbol": "EPICUSDT",
+   "side": "short",
+   "entry": 0.195194663845,
+   "qty": 51230.90868888091,
+   "notional": 10000,
+   "entry_fee": 5.0,
+   "entry_time": "2026-10-20 15:23",
+   "entry_ms": 1792484603002,
+   "why": {
+    "quadrant": "price_down_oi_up",
+    "signal": "RISK_DIVERGENCE",
+    "p2h": -6.43,
+    "oi24": 33.11,
+    "acc": 2.85,
+    "taker": 0.8962,
+    "funding": 0.0
+   }
   }
  ],
  "closed": [
@@ -568,6 +606,16 @@
    "closed": 11,
    "win_rate": 0.55,
    "open": 3
+  },
+  {
+   "time": "2026-10-20 15:23",
+   "equity": 97998.01,
+   "return_pct": -2.0,
+   "cash": 47810.01,
+   "realized": -2165.0,
+   "closed": 11,
+   "win_rate": 0.55,
+   "open": 5
   }
  ]
 }
