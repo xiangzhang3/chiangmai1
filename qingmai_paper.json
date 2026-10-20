@@ -1,6 +1,6 @@
 {
  "capital": 100000,
- "cash": 51385.505375000015,
+ "cash": 50369.502625000016,
  "open": [
   {
    "symbol": "IOTXUSDT",
@@ -20,29 +20,8 @@
     "taker": 0.9273,
     "funding": -0.00132206
    },
-   "mark": 0.00392893,
-   "upnl_pct": -2.69
-  },
-  {
-   "symbol": "AUSDT",
-   "side": "short",
-   "entry": 0.085347305,
-   "qty": 117168.31597670249,
-   "notional": 10000,
-   "entry_fee": 5.0,
-   "entry_time": "2026-10-19 22:43",
-   "entry_ms": 1792424632000,
-   "why": {
-    "quadrant": "price_down_oi_up",
-    "signal": "WATCH",
-    "p2h": -2.1,
-    "oi24": 31.64,
-    "acc": 1.68,
-    "taker": 0.7611,
-    "funding": -0.00018634
-   },
-   "mark": 0.09008,
-   "upnl_pct": -5.55
+   "mark": 0.003918,
+   "upnl_pct": -2.4
   },
   {
    "symbol": "KAVAUSDT",
@@ -62,8 +41,8 @@
     "taker": 0.5704,
     "funding": -1.225e-05
    },
-   "mark": 0.07066528,
-   "upnl_pct": -1.66
+   "mark": 0.07104625,
+   "upnl_pct": -2.21
   },
   {
    "symbol": "ENSOUSDT",
@@ -83,8 +62,8 @@
     "taker": 0.8933,
     "funding": -0.00014771
    },
-   "mark": 0.60174405,
-   "upnl_pct": -0.37
+   "mark": 0.6462,
+   "upnl_pct": -7.79
   },
   {
    "symbol": "CTRUSDT",
@@ -104,8 +83,27 @@
     "taker": 1.2806,
     "funding": 0.00015935
    },
-   "mark": 0.017196,
-   "upnl_pct": -0.61
+   "mark": 0.01735234,
+   "upnl_pct": 0.29
+  },
+  {
+   "symbol": "CTUSDT",
+   "side": "long",
+   "entry": 0.338789980335,
+   "qty": 29516.81153649192,
+   "notional": 10000,
+   "entry_fee": 5.0,
+   "entry_time": "2026-10-20 09:18",
+   "entry_ms": 1792462714000,
+   "why": {
+    "quadrant": "price_up_oi_up",
+    "signal": "WATCH",
+    "p2h": 2.88,
+    "oi24": 26.1,
+    "acc": 1.8,
+    "taker": 1.1738,
+    "funding": -0.00278419
+   }
   }
  ],
  "closed": [
@@ -258,6 +256,32 @@
    "reason": "止盈 +5%",
    "pnl": 484.5,
    "pnl_pct": 4.85
+  },
+  {
+   "symbol": "AUSDT",
+   "side": "short",
+   "entry": 0.085347305,
+   "qty": 117168.31597670249,
+   "notional": 10000,
+   "entry_fee": 5.0,
+   "entry_time": "2026-10-19 22:43",
+   "entry_ms": 1792424632000,
+   "why": {
+    "quadrant": "price_down_oi_up",
+    "signal": "WATCH",
+    "p2h": -2.1,
+    "oi24": 31.64,
+    "acc": 1.68,
+    "taker": 0.7611,
+    "funding": -0.00018634
+   },
+   "mark": 0.09008,
+   "upnl_pct": -5.55,
+   "exit": 0.09392897651774999,
+   "exit_time": "2026-10-20 09:18",
+   "reason": "止损 -10%",
+   "pnl": -1016.0,
+   "pnl_pct": -10.16
   }
  ],
  "log": [
@@ -419,6 +443,16 @@
    "realized": 1410.5,
    "closed": 6,
    "win_rate": 0.83,
+   "open": 5
+  },
+  {
+   "time": "2026-10-20 09:18",
+   "equity": 99158.5,
+   "return_pct": -0.84,
+   "cash": 50369.5,
+   "realized": 394.5,
+   "closed": 7,
+   "win_rate": 0.71,
    "open": 5
   }
  ]
