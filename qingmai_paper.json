@@ -1,6 +1,6 @@
 {
  "capital": 100000,
- "cash": 58786.002250000034,
+ "cash": 48781.002250000034,
  "open": [
   {
    "symbol": "IOTXUSDT",
@@ -20,8 +20,8 @@
     "taker": 0.9273,
     "funding": -0.00132206
    },
-   "mark": 0.00387822,
-   "upnl_pct": -1.36
+   "mark": 0.0039506,
+   "upnl_pct": -3.25
   },
   {
    "symbol": "KAVAUSDT",
@@ -41,8 +41,8 @@
     "taker": 0.5704,
     "funding": -1.225e-05
    },
-   "mark": 0.07021,
-   "upnl_pct": -1.01
+   "mark": 0.07,
+   "upnl_pct": -0.7
   },
   {
    "symbol": "ALTUSDT",
@@ -62,8 +62,8 @@
     "taker": 1.2513,
     "funding": 1.044e-05
    },
-   "mark": 0.01069671,
-   "upnl_pct": 0.67
+   "mark": 0.01060019,
+   "upnl_pct": -0.24
   },
   {
    "symbol": "KATUSDT",
@@ -82,6 +82,27 @@
     "acc": 2.05,
     "taker": 0.8608,
     "funding": -7.04e-06
+   },
+   "mark": 0.00396345,
+   "upnl_pct": 0.1
+  },
+  {
+   "symbol": "PHAUSDT",
+   "side": "long",
+   "entry": 0.059343246795,
+   "qty": 168511.17085899916,
+   "notional": 10000,
+   "entry_fee": 5.0,
+   "entry_time": "2026-10-20 18:21",
+   "entry_ms": 1792495267000,
+   "why": {
+    "quadrant": "price_up_oi_up",
+    "signal": "WATCH",
+    "p2h": 1.77,
+    "oi24": 57.42,
+    "acc": 3.79,
+    "taker": 1.1749,
+    "funding": -0.00053201
    }
   }
  ],
@@ -667,6 +688,16 @@
    "closed": 13,
    "win_rate": 0.62,
    "open": 4
+  },
+  {
+   "time": "2026-10-20 18:21",
+   "equity": 98372.0,
+   "return_pct": -1.63,
+   "cash": 48781.0,
+   "realized": -1194.0,
+   "closed": 13,
+   "win_rate": 0.62,
+   "open": 5
   }
  ]
 }
