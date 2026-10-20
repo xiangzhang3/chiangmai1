@@ -1,0 +1,543 @@
+{
+  "symbol": "JCTUSDT",
+  "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+  "display_timezone": null,
+  "execution_eligible": false,
+  "public_header_capture": {
+    "capture_label": "JCT header",
+    "observed_at": "2026-10-20T05:00:10.872Z",
+    "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+    "capture_sha256": "0ebc14536948dde47862c7cea5f46c0a0d75fda22ec74d5cca6a662867714f28",
+    "raw_fields": {
+      "last_price_raw": "0.002160",
+      "mark_price_raw": "0.002160",
+      "index_price_raw": "0.002155",
+      "current_predicted_funding_rate_raw": "0.02176%",
+      "funding_interval_raw": "4h",
+      "countdown_raw": "02:59:49",
+      "volume_24h_base_raw": "2,223,896,616.00",
+      "volume_24h_quote_usdt_raw": "4,569,104.51",
+      "open_interest_notional_usdt_raw": "7,326,412.76"
+    },
+    "method": "Rendered DOM text"
+  },
+  "hourly_oi_tooltips": [
+    {
+      "capture_label": "JCT OI previous",
+      "observed_at": "2026-10-20T05:02:18.154Z",
+      "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+      "capture_sha256": "c35eccc42a646716be5b82a2c8103db48b0feff46e3f84ad1ff9ef5582f3ed97",
+      "raw_chart_label": "10/20 11:00",
+      "quantity": 3378726661.0,
+      "quantity_raw": "3,378,726,661.000",
+      "unit": "JCT",
+      "notional_usdt_raw": "7,087,217.04",
+      "display_timezone": null,
+      "event_at_utc": null,
+      "chart_interval": "1h",
+      "raw_text": "10/20 11:00\n\nOpen Interest (JCT): 3,378,726,661.000\n\nNotional Value of Open Interest (USDT):\n\n7,087,217.04",
+      "prior_observed_at": "2026-10-20T04:06:02.222Z",
+      "fresh_reverification": true
+    },
+    {
+      "capture_label": "JCT OI latest",
+      "observed_at": "2026-10-20T05:02:27.393Z",
+      "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+      "capture_sha256": "ee8b7ab225fac7577f1a64a2fda8f4fef2f8a7f19281cf2be8eb00cfaf984e8c",
+      "raw_chart_label": "10/20 12:00",
+      "quantity": 3396504323.0,
+      "quantity_raw": "3,396,504,323.000",
+      "unit": "JCT",
+      "notional_usdt_raw": "7,336,449.33",
+      "display_timezone": null,
+      "event_at_utc": null,
+      "chart_interval": "1h",
+      "raw_text": "10/20 12:00\n\nOpen Interest (JCT): 3,396,504,323.000\n\nNotional Value of Open Interest (USDT):\n\n7,336,449.33"
+    }
+  ],
+  "public_order_book_capture": {
+    "capture_label": "JCT header",
+    "observed_at": "2026-10-20T05:00:10.872Z",
+    "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+    "capture_sha256": "0ebc14536948dde47862c7cea5f46c0a0d75fda22ec74d5cca6a662867714f28",
+    "price_unit": "USDT",
+    "size_unit": "JCT",
+    "columns": [
+      "price",
+      "size",
+      "cumulative_size"
+    ],
+    "asks_raw": [
+      [
+        "0.002164",
+        "374.72K",
+        "1.32M"
+      ],
+      [
+        "0.002163",
+        "426.61K",
+        "952.55K"
+      ],
+      [
+        "0.002162",
+        "297.22K",
+        "525.93K"
+      ],
+      [
+        "0.002161",
+        "168.46K",
+        "228.71K"
+      ],
+      [
+        "0.002160",
+        "60.24K",
+        "60.24K"
+      ]
+    ],
+    "bids_raw": [
+      [
+        "0.002158",
+        "104.31K",
+        "104.31K"
+      ],
+      [
+        "0.002157",
+        "414.75K",
+        "519.07K"
+      ],
+      [
+        "0.002156",
+        "512.31K",
+        "1.03M"
+      ],
+      [
+        "0.002155",
+        "845.16K",
+        "1.87M"
+      ],
+      [
+        "0.002154",
+        "702.39K",
+        "2.57M"
+      ]
+    ],
+    "raw_text": "0.002166\n538.76K\n2.24M\n0.002165\n377.36K\n1.70M\n0.002164\n374.72K\n1.32M\n0.002163\n426.61K\n952.55K\n0.002162\n297.22K\n525.93K\n0.002161\n168.46K\n228.71K\n0.002160\n60.24K\n60.24K\n0.002160\n0.002160\n0.002158\n104.31K\n104.31K\n0.002157\n414.75K\n519.07K\n0.002156\n512.31K\n1.03M\n0.002155\n845.16K\n1.87M\n0.002154\n702.39K\n2.57M\n0.002153\n543.14K\n3.12M\n0.002152\n499.39K\n3.62M\n",
+    "precision_note": "K/M values retained as displayed."
+  },
+  "completed_candles": [
+    {
+      "capture_label": "JCT TradingView 1h closed screenshot",
+      "observed_at": "2026-10-20T05:00:20.549Z",
+      "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+      "symbol": "JCTUSDT",
+      "chart_engine": "TradingView",
+      "display_timezone": "UTC+7",
+      "timezone_evidence_raw": "12:00:18 UTC+7",
+      "raw_chart_label": "Tue 20 Oct '26 11:00",
+      "period": "1h",
+      "open": 0.002095,
+      "high": 0.002233,
+      "low": 0.002084,
+      "close": 0.00216,
+      "ui_change_raw": "0.0000639 (+3.05%)",
+      "volume_base_raw": "1.018B",
+      "volume_quote_raw": null,
+      "volume_unit": "JCT",
+      "quote_unit": "USDT",
+      "event_at_utc": "2026-10-20T04:00:00Z",
+      "event_end_utc": "2026-10-20T05:00:00Z",
+      "raw_label_evidence": "Crosshair date, chart period and explicit UTC+7 clock visually verified in this screenshot.",
+      "closure_evidence": "Selected candle ends at or before the current forming candle; mapped end precedes capture time.",
+      "method": "Rendered screenshot visually read and verified.",
+      "screenshot_evidence": {
+        "filename": "JCT-1h.png",
+        "sha256": "a9688a729922343093a57ddfe701132c84504bae34e54c5521f6a92f72c62565"
+      },
+      "precision_note": "Volume is rounded as displayed; raw UI change is separate from computed open-to-close return. UTC mapping is specific to this captured TradingView pane.",
+      "execution_eligible": false,
+      "open_to_close_percent": 3.1026252983293423
+    },
+    {
+      "capture_label": "JCT TradingView 4h closed screenshot",
+      "observed_at": "2026-10-20T05:00:52.335Z",
+      "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+      "symbol": "JCTUSDT",
+      "chart_engine": "TradingView",
+      "display_timezone": "UTC+7",
+      "timezone_evidence_raw": "12:00:50 UTC+7",
+      "raw_chart_label": "Tue 20 Oct '26 07:00",
+      "period": "4h",
+      "open": 0.001982,
+      "high": 0.002107,
+      "low": 0.00194,
+      "close": 0.002096,
+      "ui_change_raw": "0.0001140 (+5.75%)",
+      "volume_base_raw": "513.538M",
+      "volume_quote_raw": null,
+      "volume_unit": "JCT",
+      "quote_unit": "USDT",
+      "event_at_utc": "2026-10-20T00:00:00Z",
+      "event_end_utc": "2026-10-20T04:00:00Z",
+      "raw_label_evidence": "Crosshair date, chart period and explicit UTC+7 clock visually verified in this screenshot.",
+      "closure_evidence": "Selected candle ends at or before the current forming candle; mapped end precedes capture time.",
+      "method": "Rendered screenshot visually read and verified.",
+      "screenshot_evidence": {
+        "filename": "JCT-4h.png",
+        "sha256": "84460de09a8f6cb925f33903f0be759fe3713b151d8e89bf246566348c6986fb"
+      },
+      "precision_note": "Volume is rounded as displayed; raw UI change is separate from computed open-to-close return. UTC mapping is specific to this captured TradingView pane.",
+      "execution_eligible": false,
+      "prior_observed_at": "2026-10-20T04:11:33.773Z",
+      "first_verified_at": "2026-10-20T04:11:33.773Z",
+      "reverified_at": "2026-10-20T05:00:52.335Z",
+      "original_observation_source": "https://github.com/xiangzhang3/chiangmai1/blob/c235590a979090b74f68d665f5a630abcfdebbfe/v1.0/runtime/ui_observations/2026-10-20/04-JCTUSDT.json",
+      "reverification_note": "Unchanged candle independently reread; original verification timestamp retained separately from this fresh capture.",
+      "open_to_close_percent": 5.751765893037364
+    }
+  ],
+  "hourly_taker_volume": null,
+  "mark_snapshot_comparison": {
+    "previous_observed_at": "2026-10-20T04:00:22.587Z",
+    "previous_mark": 0.00209,
+    "latest_observed_at": "2026-10-20T05:00:10.872Z",
+    "latest_mark": 0.00216,
+    "actual_interval_seconds": 3588.285,
+    "change_percent": 3.349282296650724,
+    "absolute_change_at_least_10pct": false,
+    "comparison_note": "Snapshot-to-snapshot change over the stated actual collection interval, not an exactly aligned one-hour candle return."
+  },
+  "research_threshold_assessment": {
+    "quantity_oi_absolute_change_at_least_5pct": false,
+    "latest_completed_hour_raw_label": "Tue 20 Oct '26 11:00",
+    "previous_six_completed_hour_labels": [
+      "Tue 20 Oct '26 05:00",
+      "Tue 20 Oct '26 06:00",
+      "Tue 20 Oct '26 07:00",
+      "Tue 20 Oct '26 08:00",
+      "Tue 20 Oct '26 09:00",
+      "Tue 20 Oct '26 10:00"
+    ],
+    "prior_six_volume_mean_approx": 95959500.0,
+    "latest_volume_approx": 1018000000.0,
+    "volume_ratio_approx": 10.608642187589556,
+    "open_to_close_percent": 3.1026252983293423,
+    "volume_and_price_joint_threshold_met": true,
+    "mark_snapshot_comparison": {
+      "previous_observed_at": "2026-10-20T04:00:22.587Z",
+      "previous_mark": 0.00209,
+      "latest_observed_at": "2026-10-20T05:00:10.872Z",
+      "latest_mark": 0.00216,
+      "actual_interval_seconds": 3588.285,
+      "change_percent": 3.349282296650724,
+      "absolute_change_at_least_10pct": false,
+      "comparison_note": "Snapshot-to-snapshot change over the stated actual collection interval, not an exactly aligned one-hour candle return."
+    },
+    "alert": "Price and volume joint research threshold met and independently reverified after more than 30 seconds; no execution authorized.",
+    "window_note": "Original, OI and taker timezones remain unmapped. TradingView mapping, if present, is specific to its explicit timezone evidence; OI/candle windows are not paired.",
+    "latest_completed_hour_start_utc": "2026-10-20T04:00:00Z",
+    "latest_completed_hour_end_utc": "2026-10-20T05:00:00Z",
+    "baseline_candles_with_original_observed_at": [
+      {
+        "capture_label": "JCT TradingView baseline05",
+        "observed_at": "2026-10-20T04:07:51.145Z",
+        "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+        "capture_sha256": "587e485a9a16b959ccd6e55b55ba2c5d28afcd948a2954f20e41c95dfc93a793",
+        "raw_chart_label": "Tue 20 Oct '26 05:00",
+        "period": "1h",
+        "chart_engine": "TradingView",
+        "open": 0.001976,
+        "high": 0.002,
+        "low": 0.001975,
+        "close": 0.001981,
+        "ui_change_raw": "0.0000059 (+0.30%)",
+        "volume_base_raw": "36.781M",
+        "volume_quote_raw": null,
+        "volume_unit": "JCT",
+        "quote_unit": "USDT",
+        "display_timezone": "UTC+7",
+        "timezone_evidence_raw": "11:07:50 UTC+7",
+        "event_at_utc": "2026-10-19T22:00:00Z",
+        "event_end_utc": "2026-10-19T23:00:00Z",
+        "raw_text": "\nO\n0.0019760\nH\n0.0020000\nL\n0.0019750\nC\n0.0019810\n0.0000059 (+0.30%)\n\nVolume\n36.781M\n\n11:07:50 UTC+7",
+        "raw_label_evidence": "Collector visually verified screenshot crosshair date and explicit UTC+7 clock; values parsed from paired accessibility text.",
+        "closure_evidence": "Selected candle precedes the visible forming 11:00 candle; UTC+7 is explicit in this fresh TradingView pane.",
+        "precision_note": "Volume is rounded as displayed. UTC mapping applies only to this fresh TradingView capture; no retroactive mapping of Original/OI.",
+        "screenshot_evidence": {
+          "filename": "JCT-TradingView-baseline05.png",
+          "sha256": "12f233e13c2373d2d898ca7e1efcc302588cb3fbde7ad0223528a3d7a504b061"
+        },
+        "open_to_close_percent": 0.25303643724696734
+      },
+      {
+        "capture_label": "JCT TradingView baseline06",
+        "observed_at": "2026-10-20T04:07:39.374Z",
+        "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+        "capture_sha256": "765763c4d46d7fc8528f844611eab04412e2729e9e5e0d6d08b46be88dd97efc",
+        "raw_chart_label": "Tue 20 Oct '26 06:00",
+        "period": "1h",
+        "chart_engine": "TradingView",
+        "open": 0.00198,
+        "high": 0.001992,
+        "low": 0.001974,
+        "close": 0.001982,
+        "ui_change_raw": "0.0000009 (+0.05%)",
+        "volume_base_raw": "25.439M",
+        "volume_quote_raw": null,
+        "volume_unit": "JCT",
+        "quote_unit": "USDT",
+        "display_timezone": "UTC+7",
+        "timezone_evidence_raw": "11:07:38 UTC+7",
+        "event_at_utc": "2026-10-19T23:00:00Z",
+        "event_end_utc": "2026-10-20T00:00:00Z",
+        "raw_text": "\nO\n0.0019800\nH\n0.0019920\nL\n0.0019740\nC\n0.0019820\n0.0000009 (+0.05%)\n\nVolume\n25.439M\n\n11:07:38 UTC+7",
+        "raw_label_evidence": "Collector visually verified screenshot crosshair date and explicit UTC+7 clock; values parsed from paired accessibility text.",
+        "closure_evidence": "Selected candle precedes the visible forming 11:00 candle; UTC+7 is explicit in this fresh TradingView pane.",
+        "precision_note": "Volume is rounded as displayed. UTC mapping applies only to this fresh TradingView capture; no retroactive mapping of Original/OI.",
+        "screenshot_evidence": {
+          "filename": "JCT-TradingView-baseline06.png",
+          "sha256": "10f656a14a17ae9151f2e92f3aeae68b60367559becf77eb14fd02689eb04961"
+        },
+        "open_to_close_percent": 0.10101010101009056
+      },
+      {
+        "capture_label": "JCT TradingView baseline07",
+        "observed_at": "2026-10-20T04:07:38.380Z",
+        "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+        "capture_sha256": "9518fdb7686bd11996fac754f0b2a48ae584754fa9b264182867c87b42c8be3e",
+        "raw_chart_label": "Tue 20 Oct '26 07:00",
+        "period": "1h",
+        "chart_engine": "TradingView",
+        "open": 0.001982,
+        "high": 0.001993,
+        "low": 0.001955,
+        "close": 0.00198,
+        "ui_change_raw": "-0.0000019 (−0.10%)",
+        "volume_base_raw": "44.048M",
+        "volume_quote_raw": null,
+        "volume_unit": "JCT",
+        "quote_unit": "USDT",
+        "display_timezone": "UTC+7",
+        "timezone_evidence_raw": "11:07:37 UTC+7",
+        "event_at_utc": "2026-10-20T00:00:00Z",
+        "event_end_utc": "2026-10-20T01:00:00Z",
+        "raw_text": "\nO\n0.0019820\nH\n0.0019930\nL\n0.0019550\nC\n0.0019800\n-0.0000019 (−0.10%)\n\nVolume\n44.048M\n\n11:07:37 UTC+7",
+        "raw_label_evidence": "Collector visually verified screenshot crosshair date and explicit UTC+7 clock; values parsed from paired accessibility text.",
+        "closure_evidence": "Selected candle precedes the visible forming 11:00 candle; UTC+7 is explicit in this fresh TradingView pane.",
+        "precision_note": "Volume is rounded as displayed. UTC mapping applies only to this fresh TradingView capture; no retroactive mapping of Original/OI.",
+        "screenshot_evidence": {
+          "filename": "JCT-TradingView-baseline07.png",
+          "sha256": "5445d7b31741e635d700c132321dc6e93ff39cd5eec543905143ce5c1d6ec1bd"
+        },
+        "open_to_close_percent": -0.10090817356205317
+      },
+      {
+        "capture_label": "JCT TradingView baseline08",
+        "observed_at": "2026-10-20T04:07:27.506Z",
+        "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+        "capture_sha256": "81ffacaf03ab0a9f380a4d941e7a5d9ea607c8c372fd9cc8add81354f046c7ac",
+        "raw_chart_label": "Tue 20 Oct '26 08:00",
+        "period": "1h",
+        "chart_engine": "TradingView",
+        "open": 0.00198,
+        "high": 0.001989,
+        "low": 0.00194,
+        "close": 0.001954,
+        "ui_change_raw": "-0.0000259 (−1.31%)",
+        "volume_base_raw": "63.202M",
+        "volume_quote_raw": null,
+        "volume_unit": "JCT",
+        "quote_unit": "USDT",
+        "display_timezone": "UTC+7",
+        "timezone_evidence_raw": "11:07:26 UTC+7",
+        "event_at_utc": "2026-10-20T01:00:00Z",
+        "event_end_utc": "2026-10-20T02:00:00Z",
+        "raw_text": "\nO\n0.0019800\nH\n0.0019890\nL\n0.0019400\nC\n0.0019540\n-0.0000259 (−1.31%)\n\nVolume\n63.202M\n\n11:07:26 UTC+7",
+        "raw_label_evidence": "Collector visually verified screenshot crosshair date and explicit UTC+7 clock; values parsed from paired accessibility text.",
+        "closure_evidence": "Selected candle precedes the visible forming 11:00 candle; UTC+7 is explicit in this fresh TradingView pane.",
+        "precision_note": "Volume is rounded as displayed. UTC mapping applies only to this fresh TradingView capture; no retroactive mapping of Original/OI.",
+        "screenshot_evidence": {
+          "filename": "JCT-TradingView-baseline08.png",
+          "sha256": "16e1db98b2908643d864fe1b899b5214792184170441d2eb29606e9546289e20"
+        },
+        "open_to_close_percent": -1.3131313131313105
+      },
+      {
+        "capture_label": "JCT TradingView baseline09",
+        "observed_at": "2026-10-20T04:07:26.674Z",
+        "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+        "capture_sha256": "d31caf763f2f711138c15623f1789446e7c08b6010a064be58c9a0fba695502e",
+        "raw_chart_label": "Tue 20 Oct '26 09:00",
+        "period": "1h",
+        "chart_engine": "TradingView",
+        "open": 0.001956,
+        "high": 0.002002,
+        "low": 0.001952,
+        "close": 0.001989,
+        "ui_change_raw": "0.0000349 (+1.79%)",
+        "volume_base_raw": "69.419M",
+        "volume_quote_raw": null,
+        "volume_unit": "JCT",
+        "quote_unit": "USDT",
+        "display_timezone": "UTC+7",
+        "timezone_evidence_raw": "11:07:25 UTC+7",
+        "event_at_utc": "2026-10-20T02:00:00Z",
+        "event_end_utc": "2026-10-20T03:00:00Z",
+        "raw_text": "\nO\n0.0019560\nH\n0.0020020\nL\n0.0019520\nC\n0.0019890\n0.0000349 (+1.79%)\n\nVolume\n69.419M\n\n11:07:25 UTC+7",
+        "raw_label_evidence": "Collector visually verified screenshot crosshair date and explicit UTC+7 clock; values parsed from paired accessibility text.",
+        "closure_evidence": "Selected candle precedes the visible forming 11:00 candle; UTC+7 is explicit in this fresh TradingView pane.",
+        "precision_note": "Volume is rounded as displayed. UTC mapping applies only to this fresh TradingView capture; no retroactive mapping of Original/OI.",
+        "screenshot_evidence": {
+          "filename": "JCT-TradingView-baseline09.png",
+          "sha256": "17c8aa4ceccd44a84ed139f787dd742530164e0e3ba3de37c876b9b7633f70fe"
+        },
+        "open_to_close_percent": 1.6871165644171793
+      },
+      {
+        "capture_label": "JCT TradingView 1h closed",
+        "observed_at": "2026-10-20T04:07:02.260Z",
+        "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+        "capture_sha256": "57f15d6ea31be9fcaa36f12ca67cb4d8d6b48ad89af5483025cf93edb7b5e1a0",
+        "raw_chart_label": "Tue 20 Oct '26 10:00",
+        "period": "1h",
+        "chart_engine": "TradingView",
+        "open": 0.001989,
+        "high": 0.002107,
+        "low": 0.001975,
+        "close": 0.002096,
+        "ui_change_raw": "0.0001070 (+5.38%)",
+        "volume_base_raw": "336.868M",
+        "volume_quote_raw": null,
+        "volume_unit": "JCT",
+        "quote_unit": "USDT",
+        "display_timezone": "UTC+7",
+        "timezone_evidence_raw": "11:07:01 UTC+7",
+        "event_at_utc": "2026-10-20T03:00:00Z",
+        "event_end_utc": "2026-10-20T04:00:00Z",
+        "raw_text": "\nO\n0.0019890\nH\n0.0021070\nL\n0.0019750\nC\n0.0020960\n0.0001070 (+5.38%)\n\nVolume\n336.868M\n\n11:07:01 UTC+7",
+        "raw_label_evidence": "Collector visually verified screenshot crosshair date and explicit UTC+7 clock; values parsed from paired accessibility text.",
+        "closure_evidence": "Selected candle precedes the visible forming 11:00 candle; UTC+7 is explicit in this fresh TradingView pane.",
+        "precision_note": "Volume is rounded as displayed. UTC mapping applies only to this fresh TradingView capture; no retroactive mapping of Original/OI.",
+        "screenshot_evidence": {
+          "filename": "JCT-1h-TradingView.png",
+          "sha256": "8ed5e58839d2fbb712da3c551e9de7464b406fe09b71888813f5f1559fdcb8ff"
+        },
+        "open_to_close_percent": 5.379587732528934
+      }
+    ],
+    "baseline_provenance": "https://github.com/xiangzhang3/chiangmai1/blob/c235590a979090b74f68d665f5a630abcfdebbfe/v1.0/runtime/ui_observations/2026-10-20/04-JCTUSDT.json",
+    "baseline_timezone_note": "Previously verified TradingView candle timestamps and UTC+7 evidence remain unchanged. Any fresh baseline recaptures retain their own timestamps. No prior Original or OI observation is retroactively mapped.",
+    "assessment_chart_engine": "TradingView",
+    "baseline_uses_archived_observations": true,
+    "baseline_reuse_note": "Baseline data are historical observations, never fresh current-hour data; original collection timestamps and source hashes are retained.",
+    "independent_trigger_reverification": {
+      "capture_label": "JCT TradingView 1h independent recheck",
+      "observed_at": "2026-10-20T05:01:28.534Z",
+      "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+      "symbol": "JCTUSDT",
+      "chart_engine": "TradingView",
+      "display_timezone": "UTC+7",
+      "timezone_evidence_raw": "12:01:26 UTC+7",
+      "raw_chart_label": "Tue 20 Oct '26 11:00",
+      "period": "1h",
+      "open": 0.002095,
+      "high": 0.002233,
+      "low": 0.002084,
+      "close": 0.00216,
+      "ui_change_raw": "0.0000639 (+3.05%)",
+      "volume_base_raw": "1.018B",
+      "volume_quote_raw": null,
+      "volume_unit": "JCT",
+      "quote_unit": "USDT",
+      "event_at_utc": "2026-10-20T04:00:00Z",
+      "event_end_utc": "2026-10-20T05:00:00Z",
+      "raw_label_evidence": "Crosshair date, chart period and explicit UTC+7 clock visually verified in this screenshot.",
+      "closure_evidence": "Selected candle ends at or before the current forming candle; mapped end precedes capture time.",
+      "method": "Rendered screenshot visually read and verified.",
+      "screenshot_evidence": {
+        "filename": "JCT-1h-recheck.png",
+        "sha256": "563bc382851bd871f4465dcdc90225c1d5edf8f6074c99df08766dd05bcce393"
+      },
+      "precision_note": "Volume is rounded as displayed; raw UI change is separate from computed open-to-close return. UTC mapping is specific to this captured TradingView pane.",
+      "execution_eligible": false,
+      "closed": true,
+      "seconds_after_initial_capture": 67.985,
+      "matches_initial_ohlc_and_volume": true
+    },
+    "confirmed_price_volume_trigger": true,
+    "prior_wave_comparison": {
+      "prior_archive_commit": "c235590a979090b74f68d665f5a630abcfdebbfe",
+      "prior_price_volume_trigger_confirmed": true,
+      "prior_closed_hour_open_to_close_percent": 5.379587732528934,
+      "current_closed_hour_open_to_close_percent": 3.1026252983293423,
+      "prior_volume_ratio_approx": 7.080926556522471,
+      "current_volume_ratio_approx": 10.608642187589556,
+      "new_quantity_oi_threshold_crossing": false,
+      "new_primary_mark_threshold_crossing": false,
+      "opposite_sign_closed_hour_move_at_least_3pct": false,
+      "material_change_candidate_requires_review": false,
+      "repeat_wave_alert_suppressed": true,
+      "note": "A continuing price/volume threshold alone does not create a new wave alert. Potential material upgrades or reversals require evidence review."
+    },
+    "mark_comparison_vs_latest_prior_snapshot": {
+      "previous_observed_at": "2026-10-20T04:10:31.746Z",
+      "previous_mark": 0.002125,
+      "latest_observed_at": "2026-10-20T05:00:10.872Z",
+      "latest_mark": 0.00216,
+      "actual_interval_seconds": 2979.126,
+      "change_percent": 1.6470588235294015,
+      "comparison_note": "Comparison against the latest additional mark snapshot in the previous hourly archive; the primary hourly-header comparison is retained separately."
+    }
+  },
+  "limitations": [
+    "Signed-out public UI observation only; execution_eligible is false.",
+    "Unverified fields remain null, not zero. Current predicted funding is not a historical settlement.",
+    "Original/OI/taker chart timezone unverified; retain raw labels without UTC event mapping; do not pair OI and candle windows.",
+    "Any UTC+7 evidence applies only to the specific TradingView pane captured now, not earlier observations or other chart engines.",
+    "Hourly taker buy/sell volumes were uncollected during this run and remain null; no unavailability is inferred. Historical settled funding and historical settlement mark price were uncollected and remain null."
+  ],
+  "source_capture_metadata": [
+    {
+      "capture_label": "JCT header",
+      "observed_at": "2026-10-20T05:00:10.872Z",
+      "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+      "capture_sha256": "0ebc14536948dde47862c7cea5f46c0a0d75fda22ec74d5cca6a662867714f28"
+    },
+    {
+      "capture_label": "JCT OI latest",
+      "observed_at": "2026-10-20T05:02:17.692Z",
+      "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+      "capture_sha256": "d6df4c32a4c998f042c5ff42b810bdaf38454edda8ca68f86a8758c920c3527d"
+    },
+    {
+      "capture_label": "JCT OI previous",
+      "observed_at": "2026-10-20T05:02:18.154Z",
+      "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+      "capture_sha256": "c35eccc42a646716be5b82a2c8103db48b0feff46e3f84ad1ff9ef5582f3ed97"
+    },
+    {
+      "capture_label": "JCT OI latest",
+      "observed_at": "2026-10-20T05:02:27.393Z",
+      "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+      "capture_sha256": "ee8b7ab225fac7577f1a64a2fda8f4fef2f8a7f19281cf2be8eb00cfaf984e8c"
+    }
+  ],
+  "later_header_snapshots": [
+    {
+      "symbol": "JCTUSDT",
+      "observed_at": "2026-10-20T05:01:28.534Z",
+      "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+      "raw_fields": {
+        "mark_price_raw": "0.002172"
+      },
+      "fields": {
+        "mark_price": 0.002172
+      },
+      "method": "Requested additional rendered screenshot mark; does not overwrite the initial 05 UTC header.",
+      "screenshot_evidence": {
+        "filename": "JCT-1h-recheck.png",
+        "sha256": "563bc382851bd871f4465dcdc90225c1d5edf8f6074c99df08766dd05bcce393"
+      },
+      "execution_eligible": false
+    }
+  ]
+}
