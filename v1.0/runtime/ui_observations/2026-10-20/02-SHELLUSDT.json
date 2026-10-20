@@ -1,0 +1,157 @@
+{
+  "symbol": "SHELLUSDT",
+  "source_url": "https://www.binance.com/en/futures/SHELLUSDT",
+  "observed_at": "2026-10-20T02:02:55.740Z",
+  "source": "official public rendered Binance perpetual UI",
+  "ui_symbol_verified": "SHELLUSDT Perp",
+  "display_timezone": null,
+  "execution_eligible": false,
+  "fields": {
+    "last_price": 0.02138,
+    "mark_price": 0.02138,
+    "index_price": 0.02139,
+    "funding_rate": 5e-05,
+    "funding_interval_hours": 4,
+    "open_interest_notional_usdt": 1463618.81,
+    "volume_24h_base": 32403671.0,
+    "volume_24h_quote_usdt": 691961.37,
+    "open_interest_quantity": 68456125.0,
+    "completed_1h_candles": null,
+    "completed_4h_candles": null,
+    "hourly_taker_buy_volume": null,
+    "hourly_taker_sell_volume": null,
+    "historical_settled_funding_rate": null,
+    "historical_settlement_mark_price": null
+  },
+  "raw_header": {
+    "last_price_raw": "0.02138",
+    "mark_price_raw": "0.02138",
+    "index_price_raw": "0.02139",
+    "current_predicted_funding_rate_raw": "0.00500%",
+    "funding_interval_raw": "4h",
+    "countdown_raw": "01:57:04",
+    "volume_24h_base_raw": "32,403,671.00",
+    "volume_24h_quote_usdt_raw": "691,961.37",
+    "open_interest_notional_usdt_raw": "1,463,618.81"
+  },
+  "funding_rate_raw": "0.00500%",
+  "funding_rate_conversion": "Displayed percent divided by100; current predicted per displayed interval, not historical settlement.",
+  "hourly_oi_timeline": {
+    "previous": {
+      "raw_chart_label": "10/20 08:00",
+      "quantity": 68690135.0,
+      "quantity_raw": "68,690,135.000",
+      "unit": "SHELL",
+      "notional_usdt_raw": "1,467,221.28",
+      "observed_at": "2026-10-20T01:05:35.036Z",
+      "display_timezone": null,
+      "event_at_utc": null,
+      "reverified_at": "2026-10-20T02:03:18.746Z",
+      "first_verified_at": "2026-10-20T01:05:35.036Z",
+      "original_observation_source": "https://github.com/xiangzhang3/chiangmai1/blob/0f6d52b2385445685c7a04254d0e50705edb191c/v1.0/runtime/ui_observations/2026-10-20/01-SHELLUSDT.json"
+    },
+    "latest": {
+      "raw_chart_label": "10/20 09:00",
+      "quantity": 68456125.0,
+      "quantity_raw": "68,456,125.000",
+      "unit": "SHELL",
+      "notional_usdt_raw": "1,464,685.88",
+      "observed_at": "2026-10-20T02:03:17.884Z",
+      "display_timezone": null,
+      "event_at_utc": null
+    },
+    "change_quantity": -234010.0,
+    "change_percent": -0.34067482907116137,
+    "unit": "SHELL",
+    "chart_interval": "1h",
+    "same_contract_and_quantity_unit_verified": true,
+    "display_timezone": null,
+    "event_window_utc": null,
+    "same_window_price_change": null,
+    "same_window_volume_change": null,
+    "status": "New raw10/20 09:00 endpoint; timezone unmapped",
+    "comparison_note": "Both endpoints freshly verified in hourly chart; actual collection timestamps are not venue event timestamps."
+  },
+  "latest_hourly_oi_point": {
+    "raw_chart_label": "10/20 09:00",
+    "quantity": 68456125.0,
+    "quantity_raw": "68,456,125.000",
+    "unit": "SHELL",
+    "notional_usdt_raw": "1,464,685.88",
+    "observed_at": "2026-10-20T02:03:17.884Z",
+    "display_timezone": null,
+    "event_at_utc": null
+  },
+  "hourly_taker_volume": null,
+  "order_book": {
+    "observed_at": "2026-10-20T02:02:55.740Z",
+    "price_unit": "USDT",
+    "size_unit": "SHELL",
+    "columns": [
+      "price",
+      "size",
+      "cumulative_size"
+    ],
+    "asks_raw": [
+      [
+        "0.02142",
+        "69.48K",
+        "327.12K"
+      ],
+      [
+        "0.02141",
+        "157.92K",
+        "257.63K"
+      ],
+      [
+        "0.02140",
+        "37.78K",
+        "99.70K"
+      ],
+      [
+        "0.02139",
+        "10.46K",
+        "61.92K"
+      ],
+      [
+        "0.02138",
+        "51.45K",
+        "51.45K"
+      ]
+    ],
+    "bids_raw": [
+      [
+        "0.02137",
+        "2.50K",
+        "2.50K"
+      ],
+      [
+        "0.02136",
+        "17.36K",
+        "19.86K"
+      ],
+      [
+        "0.02135",
+        "76.35K",
+        "96.22K"
+      ],
+      [
+        "0.02134",
+        "55.98K",
+        "152.20K"
+      ],
+      [
+        "0.02133",
+        "94.72K",
+        "246.92K"
+      ]
+    ],
+    "raw_text": "0.02144\n89.05K\n516.91K\n0.02143\n100.74K\n427.86K\n0.02142\n69.48K\n327.12K\n0.02141\n157.92K\n257.63K\n0.02140\n37.78K\n99.70K\n0.02139\n10.46K\n61.92K\n0.02138\n51.45K\n51.45K\n0.02138\n0.02138\n0.02137\n2.50K\n2.50K\n0.02136\n17.36K\n19.86K\n0.02135\n76.35K\n96.22K\n0.02134\n55.98K\n152.20K\n0.02133\n94.72K\n246.92K\n0.02132\n47.59K\n294.52K\n0.02131\n79.58K\n374.11K\n",
+    "precision_note": "K/M values retained as displayed."
+  },
+  "research_threshold_assessment": null,
+  "missing_reasons": {
+    "null_fields": "Unverified fields remain null, not zero.",
+    "remaining_collection": "Non-JCT completed candles and taker volumes, KAIA quantity OI and historical settlement fields unverified. Period-change transient tooltip excluded; hourly selectors verified; JCT raw08 hourly taker tooltip verified. Chart timezone unverified; raw labels retained without UTC/Beijing event mapping; OI and candle windows not paired."
+  }
+}

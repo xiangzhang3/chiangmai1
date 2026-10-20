@@ -1,0 +1,96 @@
+{
+  "symbol": "KAIAUSDT",
+  "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+  "display_timezone": null,
+  "execution_eligible": false,
+  "public_header_capture": {
+    "observed_at": "2026-10-20T02:03:44.184Z",
+    "raw_fields": {
+      "last_price_raw": "0.04069",
+      "mark_price_raw": "0.04069",
+      "index_price_raw": "0.04073",
+      "current_predicted_funding_rate_raw": "-0.00051%",
+      "funding_interval_raw": "4h",
+      "countdown_raw": "01:56:15",
+      "volume_24h_base_raw": "132,663,969.00",
+      "volume_24h_quote_usdt_raw": "5,470,978.96",
+      "open_interest_notional_usdt_raw": "4,046,521.46"
+    },
+    "method": "Rendered DOM text"
+  },
+  "hourly_oi_tooltips": [],
+  "public_order_book_capture": {
+    "observed_at": "2026-10-20T02:03:44.184Z",
+    "price_unit": "USDT",
+    "size_unit": "KAIA",
+    "columns": [
+      "price",
+      "size",
+      "cumulative_size"
+    ],
+    "asks_raw": [
+      [
+        "0.04073",
+        "90.39K",
+        "254.06K"
+      ],
+      [
+        "0.04072",
+        "58.47K",
+        "163.66K"
+      ],
+      [
+        "0.04071",
+        "81.74K",
+        "105.18K"
+      ],
+      [
+        "0.04070",
+        "20.31K",
+        "23.44K"
+      ],
+      [
+        "0.04069",
+        "3.12K",
+        "3.12K"
+      ]
+    ],
+    "bids_raw": [
+      [
+        "0.04067",
+        "9.27K",
+        "9.27K"
+      ],
+      [
+        "0.04066",
+        "21.63K",
+        "30.90K"
+      ],
+      [
+        "0.04065",
+        "17.17K",
+        "48.08K"
+      ],
+      [
+        "0.04064",
+        "24.04K",
+        "72.12K"
+      ],
+      [
+        "0.04063",
+        "26.29K",
+        "98.41K"
+      ]
+    ],
+    "raw_text": "0.04075\n31.34K\n339.00K\n0.04074\n53.59K\n307.66K\n0.04073\n90.39K\n254.06K\n0.04072\n58.47K\n163.66K\n0.04071\n81.74K\n105.18K\n0.04070\n20.31K\n23.44K\n0.04069\n3.12K\n3.12K\n0.04069\n0.04069\n0.04067\n9.27K\n9.27K\n0.04066\n21.63K\n30.90K\n0.04065\n17.17K\n48.08K\n0.04064\n24.04K\n72.12K\n0.04063\n26.29K\n98.41K\n0.04062\n20.07K\n118.48K\n0.04061\n24.72K\n143.21K\n",
+    "precision_note": "K/M values retained as displayed."
+  },
+  "completed_candles": [],
+  "hourly_taker_volume": null,
+  "research_threshold_assessment": null,
+  "limitations": [
+    "Non-JCT completed candles and taker volumes, KAIA quantity OI and historical settlement fields unverified.",
+    "Period-change transient tooltip excluded; hourly selectors verified; JCT raw08 hourly taker tooltip verified.",
+    "Chart timezone unverified; raw labels retained without UTC/Beijing event mapping; OI and candle windows not paired."
+  ]
+}
