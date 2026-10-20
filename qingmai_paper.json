@@ -1,6 +1,6 @@
 {
  "capital": 100000,
- "cash": 58829.00475000002,
+ "cash": 67820.00700000003,
  "open": [
   {
    "symbol": "IOTXUSDT",
@@ -20,8 +20,8 @@
     "taker": 0.9273,
     "funding": -0.00132206
    },
-   "mark": 0.00385581,
-   "upnl_pct": -0.78
+   "mark": 0.00385703,
+   "upnl_pct": -0.81
   },
   {
    "symbol": "KAVAUSDT",
@@ -41,29 +41,8 @@
     "taker": 0.5704,
     "funding": -1.225e-05
    },
-   "mark": 0.07144,
-   "upnl_pct": -2.78
-  },
-  {
-   "symbol": "CTRUSDT",
-   "side": "long",
-   "entry": 0.01626170679,
-   "qty": 614941.6004812863,
-   "notional": 10000,
-   "entry_fee": 5.0,
-   "entry_time": "2026-10-20 11:24",
-   "entry_ms": 1792470284000,
-   "why": {
-    "quadrant": "price_up_oi_up",
-    "signal": "IGNITION",
-    "p2h": 3.17,
-    "oi24": 65.75,
-    "acc": 11.62,
-    "taker": 1.1571,
-    "funding": 5e-05
-   },
-   "mark": 0.01524337,
-   "upnl_pct": -6.26
+   "mark": 0.07097168,
+   "upnl_pct": -2.1
   },
   {
    "symbol": "SOPHUSDT",
@@ -83,8 +62,8 @@
     "taker": 0.7675,
     "funding": -0.00038873
    },
-   "mark": 0.00181261,
-   "upnl_pct": 0.15
+   "mark": 0.001784,
+   "upnl_pct": 1.73
   }
  ],
  "closed": [
@@ -341,6 +320,32 @@
    "reason": "止损 -10%",
    "pnl": -1014.0,
    "pnl_pct": -10.14
+  },
+  {
+   "symbol": "CTRUSDT",
+   "side": "long",
+   "entry": 0.01626170679,
+   "qty": 614941.6004812863,
+   "notional": 10000,
+   "entry_fee": 5.0,
+   "entry_time": "2026-10-20 11:24",
+   "entry_ms": 1792470284000,
+   "why": {
+    "quadrant": "price_up_oi_up",
+    "signal": "IGNITION",
+    "p2h": 3.17,
+    "oi24": 65.75,
+    "acc": 11.62,
+    "taker": 1.1571,
+    "funding": 5e-05
+   },
+   "mark": 0.01524337,
+   "upnl_pct": -6.26,
+   "exit": 0.014628218342944501,
+   "exit_time": "2026-10-20 14:20",
+   "reason": "止损 -10%",
+   "pnl": -1014.0,
+   "pnl_pct": -10.14
   }
  ],
  "log": [
@@ -553,6 +558,16 @@
    "closed": 10,
    "win_rate": 0.6,
    "open": 4
+  },
+  {
+   "time": "2026-10-20 14:20",
+   "equity": 97702.01,
+   "return_pct": -2.3,
+   "cash": 67820.01,
+   "realized": -2165.0,
+   "closed": 11,
+   "win_rate": 0.55,
+   "open": 3
   }
  ]
 }
