@@ -1,0 +1,471 @@
+{
+  "symbol": "STRKUSDT",
+  "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+  "display_timezone": null,
+  "execution_eligible": false,
+  "public_header_capture": {
+    "capture_label": "STRK header",
+    "observed_at": "2026-10-20T06:06:48.131Z",
+    "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+    "capture_sha256": "57ae4e561651484fc2953d040d5f792a21934deae84ad3d6ff59636f2bbe3262",
+    "raw_fields": {
+      "last_price_raw": "0.05624",
+      "mark_price_raw": "0.05625",
+      "index_price_raw": "0.05628",
+      "current_predicted_funding_rate_raw": "0.00245%",
+      "funding_interval_raw": "4h",
+      "countdown_raw": "01:53:12",
+      "volume_24h_base_raw": "1,493,842,631.3",
+      "volume_24h_quote_usdt_raw": "86,374,053.49",
+      "open_interest_notional_usdt_raw": "25,653,976.63"
+    },
+    "method": "Rendered DOM text"
+  },
+  "hourly_oi_tooltips": [
+    {
+      "capture_label": "STRK OI previous valid",
+      "observed_at": "2026-10-20T06:08:03.245Z",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+      "capture_sha256": "07284dd81be8e07a6021ceff8967012589d37b04b44281b8f7769af4daf54ded",
+      "raw_chart_label": "10/20 12:00",
+      "quantity": 455791264.4,
+      "quantity_raw": "455,791,264.400",
+      "unit": "STRK",
+      "notional_usdt_raw": "25,788,669.73",
+      "display_timezone": null,
+      "event_at_utc": null,
+      "chart_interval": "1h",
+      "raw_text": "10/20 12:00\n\nOpen Interest (STRK): 455,791,264.400\n\nNotional Value of Open Interest (USDT):\n\n25,788,669.73",
+      "prior_observed_at": "2026-10-20T05:04:45.287Z",
+      "fresh_reverification": true
+    },
+    {
+      "capture_label": "STRK OI latest",
+      "observed_at": "2026-10-20T06:07:51.679Z",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+      "capture_sha256": "71a44844a96e8426ac15f87327374d54d651d73e75342cafb646ab6b328e4c47",
+      "raw_chart_label": "10/20 13:00",
+      "quantity": 455846372.0,
+      "quantity_raw": "455,846,372.000",
+      "unit": "STRK",
+      "notional_usdt_raw": "25,718,656.29",
+      "display_timezone": null,
+      "event_at_utc": null,
+      "chart_interval": "1h",
+      "raw_text": "10/20 13:00\n\nOpen Interest (STRK): 455,846,372.000\n\nNotional Value of Open Interest (USDT):\n\n25,718,656.29"
+    }
+  ],
+  "public_order_book_capture": {
+    "capture_label": "STRK header",
+    "observed_at": "2026-10-20T06:06:48.131Z",
+    "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+    "capture_sha256": "57ae4e561651484fc2953d040d5f792a21934deae84ad3d6ff59636f2bbe3262",
+    "price_unit": "USDT",
+    "size_unit": "STRK",
+    "columns": [
+      "price",
+      "size",
+      "cumulative_size"
+    ],
+    "asks_raw": [
+      [
+        "0.05629",
+        "117.58K",
+        "377.19K"
+      ],
+      [
+        "0.05628",
+        "121.69K",
+        "259.61K"
+      ],
+      [
+        "0.05627",
+        "56.45K",
+        "137.91K"
+      ],
+      [
+        "0.05626",
+        "75.67K",
+        "81.46K"
+      ],
+      [
+        "0.05625",
+        "5.78K",
+        "5.78K"
+      ]
+    ],
+    "bids_raw": [
+      [
+        "0.05624",
+        "28.45K",
+        "28.45K"
+      ],
+      [
+        "0.05623",
+        "75.90K",
+        "104.36K"
+      ],
+      [
+        "0.05622",
+        "54.19K",
+        "158.55K"
+      ],
+      [
+        "0.05621",
+        "75.04K",
+        "233.59K"
+      ],
+      [
+        "0.05620",
+        "155.90K",
+        "389.50K"
+      ]
+    ],
+    "raw_text": "0.05631\n127.69K\n640.05K\n0.05630\n135.16K\n512.35K\n0.05629\n117.58K\n377.19K\n0.05628\n121.69K\n259.61K\n0.05627\n56.45K\n137.91K\n0.05626\n75.67K\n81.46K\n0.05625\n5.78K\n5.78K\n0.05624\n0.05625\n0.05624\n28.45K\n28.45K\n0.05623\n75.90K\n104.36K\n0.05622\n54.19K\n158.55K\n0.05621\n75.04K\n233.59K\n0.05620\n155.90K\n389.50K\n0.05619\n91.89K\n481.39K\n0.05618\n64.91K\n546.31K\n",
+    "precision_note": "K/M values retained as displayed."
+  },
+  "completed_candles": [
+    {
+      "capture_label": "STRK TradingView 1h closed screenshot",
+      "observed_at": "2026-10-20T06:06:59.191Z",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+      "symbol": "STRKUSDT",
+      "chart_engine": "TradingView",
+      "display_timezone": "UTC+7",
+      "timezone_evidence_raw": "13:06:57 UTC+7",
+      "raw_chart_label": "Tue 20 Oct '26 12:00",
+      "period": "1h",
+      "open": 0.05657,
+      "high": 0.05677,
+      "low": 0.05568,
+      "close": 0.0564,
+      "ui_change_raw": "-0.0001799 (-0.32%)",
+      "volume_base_raw": "80.055M",
+      "volume_quote_raw": null,
+      "volume_unit": "STRK",
+      "quote_unit": "USDT",
+      "event_at_utc": "2026-10-20T05:00:00Z",
+      "event_end_utc": "2026-10-20T06:00:00Z",
+      "raw_label_evidence": "Crosshair date, chart period and explicit UTC+7 clock visually verified in this screenshot.",
+      "closure_evidence": "Selected candle ends at or before the current forming candle; mapped end precedes capture time.",
+      "method": "Rendered screenshot visually read and verified.",
+      "screenshot_evidence": {
+        "filename": "STRK-1h.png",
+        "sha256": "5b4c6f5d70a3b67970ae5aa9719666ff0692aee858ee76d8c1d726e7998cda4a"
+      },
+      "precision_note": "Volume is rounded as displayed; raw UI change is separate from computed open-to-close return. UTC mapping is specific to this captured TradingView pane.",
+      "execution_eligible": false,
+      "open_to_close_percent": -0.3005126392080615
+    },
+    {
+      "capture_label": "STRK TradingView 4h closed screenshot",
+      "observed_at": "2026-10-20T05:06:09.301Z",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+      "symbol": "STRKUSDT",
+      "chart_engine": "TradingView",
+      "display_timezone": "UTC+7",
+      "timezone_evidence_raw": "12:06:07 UTC+7",
+      "raw_chart_label": "Tue 20 Oct '26 07:00",
+      "period": "4h",
+      "open": 0.05763,
+      "high": 0.0583,
+      "low": 0.05661,
+      "close": 0.05816,
+      "ui_change_raw": "0.0005300 (+0.92%)",
+      "volume_base_raw": "184.779M",
+      "volume_quote_raw": null,
+      "volume_unit": "STRK",
+      "quote_unit": "USDT",
+      "event_at_utc": "2026-10-20T00:00:00Z",
+      "event_end_utc": "2026-10-20T04:00:00Z",
+      "raw_label_evidence": "Crosshair date, chart period and explicit UTC+7 clock visually verified in this screenshot.",
+      "closure_evidence": "Selected candle ends at or before the current forming candle; mapped end precedes capture time.",
+      "method": "Rendered screenshot visually read and verified.",
+      "screenshot_evidence": {
+        "filename": "STRK-4h.png",
+        "sha256": "46231221d80979ba060cdb4136fa911fbf1a66255b785ff78f55bc88c0c0a167"
+      },
+      "precision_note": "Volume is rounded as displayed; raw UI change is separate from computed open-to-close return. UTC mapping is specific to this captured TradingView pane.",
+      "execution_eligible": false,
+      "prior_observed_at": "2026-10-20T04:15:04.445Z",
+      "first_verified_at": "2026-10-20T04:15:04.445Z",
+      "reverified_at": "2026-10-20T05:06:09.301Z",
+      "original_observation_source": "https://github.com/xiangzhang3/chiangmai1/blob/c235590a979090b74f68d665f5a630abcfdebbfe/v1.0/runtime/ui_observations/2026-10-20/04-STRKUSDT.json",
+      "reverification_note": "Unchanged candle independently reread; original verification timestamp retained separately from this fresh capture.",
+      "open_to_close_percent": 0.919659899357983,
+      "reused_archived_candle": true,
+      "fresh_reverification": false,
+      "archive_reuse_source": "https://github.com/xiangzhang3/chiangmai1/blob/eaf28825e84941b104ac6aa1521bb1bfc9c95acc/v1.0/runtime/ui_observations/2026-10-20/05-STRKUSDT.json",
+      "archive_reuse_note": "Latest closed 4h candle reused from the prior archive. Its original observation/reverification timestamps and timezone evidence remain unchanged; it was not freshly observed during this run."
+    }
+  ],
+  "hourly_taker_volume": null,
+  "mark_snapshot_comparison": {
+    "previous_observed_at": "2026-10-20T05:04:08.308Z",
+    "previous_mark": 0.05665,
+    "latest_observed_at": "2026-10-20T06:06:48.131Z",
+    "latest_mark": 0.05625,
+    "actual_interval_seconds": 3759.823,
+    "change_percent": -0.7060900264783676,
+    "absolute_change_at_least_10pct": false,
+    "comparison_note": "Snapshot-to-snapshot change over the stated actual collection interval, not an exactly aligned one-hour candle return."
+  },
+  "research_threshold_assessment": {
+    "quantity_oi_absolute_change_at_least_5pct": false,
+    "latest_completed_hour_raw_label": "Tue 20 Oct '26 12:00",
+    "previous_six_completed_hour_labels": [
+      "Tue 20 Oct '26 06:00",
+      "Tue 20 Oct '26 07:00",
+      "Tue 20 Oct '26 08:00",
+      "Tue 20 Oct '26 09:00",
+      "Tue 20 Oct '26 10:00",
+      "Tue 20 Oct '26 11:00"
+    ],
+    "prior_six_volume_mean_approx": 45766333.333333336,
+    "latest_volume_approx": 80055000.0,
+    "volume_ratio_approx": 1.7492115747383448,
+    "open_to_close_percent": -0.3005126392080615,
+    "volume_and_price_joint_threshold_met": false,
+    "mark_snapshot_comparison": {
+      "previous_observed_at": "2026-10-20T05:04:08.308Z",
+      "previous_mark": 0.05665,
+      "latest_observed_at": "2026-10-20T06:06:48.131Z",
+      "latest_mark": 0.05625,
+      "actual_interval_seconds": 3759.823,
+      "change_percent": -0.7060900264783676,
+      "absolute_change_at_least_10pct": false,
+      "comparison_note": "Snapshot-to-snapshot change over the stated actual collection interval, not an exactly aligned one-hour candle return."
+    },
+    "alert": "No trigger among verified checks; uncollected or unverified checks remain null.",
+    "window_note": "Original, OI and taker timezones remain unmapped. TradingView mapping, if present, is specific to its explicit timezone evidence; OI/candle windows are not paired.",
+    "latest_completed_hour_start_utc": "2026-10-20T05:00:00Z",
+    "latest_completed_hour_end_utc": "2026-10-20T06:00:00Z",
+    "baseline_candles_with_original_observed_at": [
+      {
+        "capture_label": "STRK TradingView baseline 06 screenshot",
+        "observed_at": "2026-10-20T04:14:44.872Z",
+        "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+        "symbol": "STRKUSDT",
+        "chart_engine": "TradingView",
+        "display_timezone": "UTC+7",
+        "timezone_evidence_raw": "11:14:43 UTC+7",
+        "raw_chart_label": "Tue 20 Oct '26 06:00",
+        "period": "1h",
+        "open": 0.05754,
+        "high": 0.0578,
+        "low": 0.05731,
+        "close": 0.05763,
+        "ui_change_raw": "0.0001000 (+0.17%)",
+        "volume_base_raw": "29.975M",
+        "volume_quote_raw": null,
+        "volume_unit": "STRK",
+        "quote_unit": "USDT",
+        "event_at_utc": "2026-10-19T23:00:00Z",
+        "event_end_utc": "2026-10-20T00:00:00Z",
+        "raw_label_evidence": "Crosshair date and explicit UTC+7 clock visually verified in screenshot by collector and assembler.",
+        "closure_evidence": "Selected historical one-hour candle has explicit UTC+7 date; its mapped end precedes capture time.",
+        "method": "Rendered screenshot visually read and verified.",
+        "screenshot_evidence": {
+          "filename": "STRK-baseline6.png",
+          "sha256": "978de84ca67d9ecb32da514482bd03a8d144320d2fc7a1c637edd10cd77d1ddc"
+        },
+        "precision_note": "Displayed rounded volume; UTC mapping applies to this fresh TradingView capture only.",
+        "execution_eligible": false,
+        "open_to_close_percent": 0.15641293013555213
+      },
+      {
+        "capture_label": "STRK TradingView baseline 07 screenshot",
+        "observed_at": "2026-10-20T04:14:44.474Z",
+        "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+        "symbol": "STRKUSDT",
+        "chart_engine": "TradingView",
+        "display_timezone": "UTC+7",
+        "timezone_evidence_raw": "11:14:43 UTC+7",
+        "raw_chart_label": "Tue 20 Oct '26 07:00",
+        "period": "1h",
+        "open": 0.05763,
+        "high": 0.05774,
+        "low": 0.05695,
+        "close": 0.05734,
+        "ui_change_raw": "-0.0002899 (-0.50%)",
+        "volume_base_raw": "44.135M",
+        "volume_quote_raw": null,
+        "volume_unit": "STRK",
+        "quote_unit": "USDT",
+        "event_at_utc": "2026-10-20T00:00:00Z",
+        "event_end_utc": "2026-10-20T01:00:00Z",
+        "raw_label_evidence": "Crosshair date and explicit UTC+7 clock visually verified in screenshot by collector and assembler.",
+        "closure_evidence": "Selected historical one-hour candle has explicit UTC+7 date; its mapped end precedes capture time.",
+        "method": "Rendered screenshot visually read and verified.",
+        "screenshot_evidence": {
+          "filename": "STRK-baseline7.png",
+          "sha256": "3f417a17684e4e189a9f1c38f70f3b15c485da37c795c643a9997588248dafa6"
+        },
+        "precision_note": "Displayed rounded volume; UTC mapping applies to this fresh TradingView capture only.",
+        "execution_eligible": false,
+        "open_to_close_percent": -0.5032101336109651
+      },
+      {
+        "capture_label": "STRK TradingView baseline 08 screenshot",
+        "observed_at": "2026-10-20T04:14:44.065Z",
+        "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+        "symbol": "STRKUSDT",
+        "chart_engine": "TradingView",
+        "display_timezone": "UTC+7",
+        "timezone_evidence_raw": "11:14:42 UTC+7",
+        "raw_chart_label": "Tue 20 Oct '26 08:00",
+        "period": "1h",
+        "open": 0.05733,
+        "high": 0.05761,
+        "low": 0.05661,
+        "close": 0.05705,
+        "ui_change_raw": "-0.0002900 (-0.51%)",
+        "volume_base_raw": "52.049M",
+        "volume_quote_raw": null,
+        "volume_unit": "STRK",
+        "quote_unit": "USDT",
+        "event_at_utc": "2026-10-20T01:00:00Z",
+        "event_end_utc": "2026-10-20T02:00:00Z",
+        "raw_label_evidence": "Crosshair date and explicit UTC+7 clock visually verified in screenshot by collector and assembler.",
+        "closure_evidence": "Selected historical one-hour candle has explicit UTC+7 date; its mapped end precedes capture time.",
+        "method": "Rendered screenshot visually read and verified.",
+        "screenshot_evidence": {
+          "filename": "STRK-baseline8.png",
+          "sha256": "8f77639214f8199b57da8017353b9b54d9857226c2f95cf8bb55183200ed8463"
+        },
+        "precision_note": "Displayed rounded volume; UTC mapping applies to this fresh TradingView capture only.",
+        "execution_eligible": false,
+        "open_to_close_percent": -0.48840048840049777
+      },
+      {
+        "capture_label": "STRK TradingView baseline 09 screenshot",
+        "observed_at": "2026-10-20T04:14:43.614Z",
+        "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+        "symbol": "STRKUSDT",
+        "chart_engine": "TradingView",
+        "display_timezone": "UTC+7",
+        "timezone_evidence_raw": "11:14:42 UTC+7",
+        "raw_chart_label": "Tue 20 Oct '26 09:00",
+        "period": "1h",
+        "open": 0.05705,
+        "high": 0.05786,
+        "low": 0.0567,
+        "close": 0.0578,
+        "ui_change_raw": "0.0007500 (+1.31%)",
+        "volume_base_raw": "40.355M",
+        "volume_quote_raw": null,
+        "volume_unit": "STRK",
+        "quote_unit": "USDT",
+        "event_at_utc": "2026-10-20T02:00:00Z",
+        "event_end_utc": "2026-10-20T03:00:00Z",
+        "raw_label_evidence": "Crosshair date and explicit UTC+7 clock visually verified in screenshot by collector and assembler.",
+        "closure_evidence": "Selected historical one-hour candle has explicit UTC+7 date; its mapped end precedes capture time.",
+        "method": "Rendered screenshot visually read and verified.",
+        "screenshot_evidence": {
+          "filename": "STRK-baseline9.png",
+          "sha256": "cc3e66cbf4f2f080566cf83678f29051f37fd9f3c85e9a0093a5bd094b938a87"
+        },
+        "precision_note": "Displayed rounded volume; UTC mapping applies to this fresh TradingView capture only.",
+        "execution_eligible": false,
+        "open_to_close_percent": 1.3146362839614456
+      },
+      {
+        "capture_label": "STRK TradingView 1h closed screenshot",
+        "observed_at": "2026-10-20T04:14:24.127Z",
+        "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+        "symbol": "STRKUSDT",
+        "chart_engine": "TradingView",
+        "display_timezone": "UTC+7",
+        "timezone_evidence_raw": "11:14:22 UTC+7",
+        "raw_chart_label": "Tue 20 Oct '26 10:00",
+        "period": "1h",
+        "open": 0.05781,
+        "high": 0.0583,
+        "low": 0.0575,
+        "close": 0.05816,
+        "ui_change_raw": "0.0003600 (+0.62%)",
+        "volume_base_raw": "48.238M",
+        "volume_quote_raw": null,
+        "volume_unit": "STRK",
+        "quote_unit": "USDT",
+        "event_at_utc": "2026-10-20T03:00:00Z",
+        "event_end_utc": "2026-10-20T04:00:00Z",
+        "raw_label_evidence": "Crosshair date and explicit UTC+7 clock visually verified in screenshot by collector and assembler.",
+        "closure_evidence": "Selected 10:00 candle precedes forming 11:00 candle; mapped end 04:00 UTC is before capture time.",
+        "method": "Rendered screenshot visually read and verified.",
+        "screenshot_evidence": {
+          "filename": "STRK-1h.png",
+          "sha256": "fc230604c4c652f6c2b48f96c18918818f59ce6e69b5b46eca5fedeba27aa7e6"
+        },
+        "precision_note": "Displayed rounded volume; UTC mapping applies to this fresh TradingView capture only.",
+        "execution_eligible": false,
+        "open_to_close_percent": 0.6054315862307647
+      },
+      {
+        "capture_label": "STRK TradingView 1h closed screenshot",
+        "observed_at": "2026-10-20T05:05:28.251Z",
+        "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+        "symbol": "STRKUSDT",
+        "chart_engine": "TradingView",
+        "display_timezone": "UTC+7",
+        "timezone_evidence_raw": "12:05:26 UTC+7",
+        "raw_chart_label": "Tue 20 Oct '26 11:00",
+        "period": "1h",
+        "open": 0.05817,
+        "high": 0.05822,
+        "low": 0.05652,
+        "close": 0.05658,
+        "ui_change_raw": "-0.0015800 (-2.72%)",
+        "volume_base_raw": "59.846M",
+        "volume_quote_raw": null,
+        "volume_unit": "STRK",
+        "quote_unit": "USDT",
+        "event_at_utc": "2026-10-20T04:00:00Z",
+        "event_end_utc": "2026-10-20T05:00:00Z",
+        "raw_label_evidence": "Crosshair date, chart period and explicit UTC+7 clock visually verified in this screenshot.",
+        "closure_evidence": "Selected candle ends at or before the current forming candle; mapped end precedes capture time.",
+        "method": "Rendered screenshot visually read and verified.",
+        "screenshot_evidence": {
+          "filename": "STRK-1h.png",
+          "sha256": "879eac342e9160b9e9884e8407b47d57c871e0c18623d87f33dd8813ed0a716d"
+        },
+        "precision_note": "Volume is rounded as displayed; raw UI change is separate from computed open-to-close return. UTC mapping is specific to this captured TradingView pane.",
+        "execution_eligible": false,
+        "open_to_close_percent": -2.733367715317181
+      }
+    ],
+    "baseline_provenance": "https://github.com/xiangzhang3/chiangmai1/blob/eaf28825e84941b104ac6aa1521bb1bfc9c95acc/v1.0/runtime/ui_observations/2026-10-20/05-STRKUSDT.json",
+    "baseline_timezone_note": "Previously verified TradingView candle timestamps and UTC+7 evidence remain unchanged. Any fresh baseline recaptures retain their own timestamps. No prior Original or OI observation is retroactively mapped.",
+    "assessment_chart_engine": "TradingView",
+    "baseline_uses_archived_observations": true,
+    "baseline_reuse_note": "Baseline data are historical observations, never fresh current-hour data; original collection timestamps and source hashes are retained."
+  },
+  "limitations": [
+    "Signed-out public UI observation only; execution_eligible is false.",
+    "Unverified fields remain null, not zero. Current predicted funding is not a historical settlement.",
+    "Original/OI/taker chart timezone unverified; retain raw labels without UTC event mapping; do not pair OI and candle windows.",
+    "Any UTC+7 evidence applies only to the specific TradingView pane captured now, not earlier observations or other chart engines.",
+    "Hourly taker buy/sell volumes were uncollected during this run and remain null; no unavailability is inferred. Historical settled funding and historical settlement mark price were uncollected and remain null.",
+    "Latest closed 4h candle was not freshly recaptured; verified prior-archive data are explicitly reused with unchanged timestamps."
+  ],
+  "source_capture_metadata": [
+    {
+      "capture_label": "STRK header",
+      "observed_at": "2026-10-20T06:06:48.131Z",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+      "capture_sha256": "57ae4e561651484fc2953d040d5f792a21934deae84ad3d6ff59636f2bbe3262"
+    },
+    {
+      "capture_label": "STRK OI latest",
+      "observed_at": "2026-10-20T06:07:51.679Z",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+      "capture_sha256": "71a44844a96e8426ac15f87327374d54d651d73e75342cafb646ab6b328e4c47"
+    },
+    {
+      "capture_label": "STRK OI previous valid",
+      "observed_at": "2026-10-20T06:08:03.245Z",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+      "capture_sha256": "07284dd81be8e07a6021ceff8967012589d37b04b44281b8f7769af4daf54ded"
+    }
+  ]
+}
