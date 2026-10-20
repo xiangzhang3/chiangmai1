@@ -1,6 +1,6 @@
 {
  "capital": 100000,
- "cash": 47810.00700000003,
+ "cash": 68791.00225000003,
  "open": [
   {
    "symbol": "IOTXUSDT",
@@ -20,8 +20,8 @@
     "taker": 0.9273,
     "funding": -0.00132206
    },
-   "mark": 0.00385,
-   "upnl_pct": -0.63
+   "mark": 0.00382869,
+   "upnl_pct": -0.07
   },
   {
    "symbol": "KAVAUSDT",
@@ -41,29 +41,8 @@
     "taker": 0.5704,
     "funding": -1.225e-05
    },
-   "mark": 0.07017,
-   "upnl_pct": -0.95
-  },
-  {
-   "symbol": "SOPHUSDT",
-   "side": "short",
-   "entry": 0.0018153918500000003,
-   "qty": 5508452.624153842,
-   "notional": 10000,
-   "entry_fee": 5.0,
-   "entry_time": "2026-10-20 12:19",
-   "entry_ms": 1792473567000,
-   "why": {
-    "quadrant": "price_down_oi_up",
-    "signal": "WATCH",
-    "p2h": -3.96,
-    "oi24": 12.47,
-    "acc": 1.61,
-    "taker": 0.7675,
-    "funding": -0.00038873
-   },
-   "mark": 0.00175263,
-   "upnl_pct": 3.46
+   "mark": 0.06995,
+   "upnl_pct": -0.63
   },
   {
    "symbol": "ALTUSDT",
@@ -82,26 +61,9 @@
     "acc": 6.49,
     "taker": 1.2513,
     "funding": 1.044e-05
-   }
-  },
-  {
-   "symbol": "EPICUSDT",
-   "side": "short",
-   "entry": 0.195194663845,
-   "qty": 51230.90868888091,
-   "notional": 10000,
-   "entry_fee": 5.0,
-   "entry_time": "2026-10-20 15:23",
-   "entry_ms": 1792484603002,
-   "why": {
-    "quadrant": "price_down_oi_up",
-    "signal": "RISK_DIVERGENCE",
-    "p2h": -6.43,
-    "oi24": 33.11,
-    "acc": 2.85,
-    "taker": 0.8962,
-    "funding": 0.0
-   }
+   },
+   "mark": 0.01019026,
+   "upnl_pct": -4.1
   }
  ],
  "closed": [
@@ -384,6 +346,56 @@
    "reason": "止损 -10%",
    "pnl": -1014.0,
    "pnl_pct": -10.14
+  },
+  {
+   "symbol": "SOPHUSDT",
+   "side": "short",
+   "entry": 0.0018153918500000003,
+   "qty": 5508452.624153842,
+   "notional": 10000,
+   "entry_fee": 5.0,
+   "entry_time": "2026-10-20 12:19",
+   "entry_ms": 1792473567000,
+   "why": {
+    "quadrant": "price_down_oi_up",
+    "signal": "WATCH",
+    "p2h": -3.96,
+    "oi24": 12.47,
+    "acc": 1.61,
+    "taker": 0.7675,
+    "funding": -0.00038873
+   },
+   "mark": 0.00175263,
+   "upnl_pct": 3.46,
+   "exit": 0.00172548456862875,
+   "exit_time": "2026-10-20 16:19",
+   "reason": "止盈 +5%",
+   "pnl": 485.5,
+   "pnl_pct": 4.85
+  },
+  {
+   "symbol": "EPICUSDT",
+   "side": "short",
+   "entry": 0.195194663845,
+   "qty": 51230.90868888091,
+   "notional": 10000,
+   "entry_fee": 5.0,
+   "entry_time": "2026-10-20 15:23",
+   "entry_ms": 1792484603002,
+   "why": {
+    "quadrant": "price_down_oi_up",
+    "signal": "RISK_DIVERGENCE",
+    "p2h": -6.43,
+    "oi24": 33.11,
+    "acc": 2.85,
+    "taker": 0.8962,
+    "funding": 0.0
+   },
+   "exit": 0.18552764811807634,
+   "exit_time": "2026-10-20 16:19",
+   "reason": "止盈 +5%",
+   "pnl": 485.5,
+   "pnl_pct": 4.85
   }
  ],
  "log": [
@@ -616,6 +628,16 @@
    "closed": 11,
    "win_rate": 0.55,
    "open": 5
+  },
+  {
+   "time": "2026-10-20 16:19",
+   "equity": 98311.0,
+   "return_pct": -1.69,
+   "cash": 68791.0,
+   "realized": -1194.0,
+   "closed": 13,
+   "win_rate": 0.62,
+   "open": 3
   }
  ]
 }
