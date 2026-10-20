@@ -20,8 +20,8 @@
     "taker": 0.9273,
     "funding": -0.00132206
    },
-   "mark": 0.003927,
-   "upnl_pct": -2.64
+   "mark": 0.00392893,
+   "upnl_pct": -2.69
   },
   {
    "symbol": "AUSDT",
@@ -41,8 +41,8 @@
     "taker": 0.7611,
     "funding": -0.00018634
    },
-   "mark": 0.08806,
-   "upnl_pct": -3.18
+   "mark": 0.09008,
+   "upnl_pct": -5.55
   },
   {
    "symbol": "KAVAUSDT",
@@ -62,8 +62,8 @@
     "taker": 0.5704,
     "funding": -1.225e-05
    },
-   "mark": 0.07095529,
-   "upnl_pct": -2.08
+   "mark": 0.07066528,
+   "upnl_pct": -1.66
   },
   {
    "symbol": "ENSOUSDT",
@@ -83,8 +83,8 @@
     "taker": 0.8933,
     "funding": -0.00014771
    },
-   "mark": 0.60247331,
-   "upnl_pct": -0.5
+   "mark": 0.60174405,
+   "upnl_pct": -0.37
   },
   {
    "symbol": "CTRUSDT",
@@ -103,7 +103,9 @@
     "acc": 3.9,
     "taker": 1.2806,
     "funding": 0.00015935
-   }
+   },
+   "mark": 0.017196,
+   "upnl_pct": -0.61
   }
  ],
  "closed": [
@@ -403,6 +405,16 @@
    "time": "2026-10-20 07:25",
    "equity": 100545.51,
    "return_pct": 0.55,
+   "cash": 51385.51,
+   "realized": 1410.5,
+   "closed": 6,
+   "win_rate": 0.83,
+   "open": 5
+  },
+  {
+   "time": "2026-10-20 08:18",
+   "equity": 100297.51,
+   "return_pct": 0.3,
    "cash": 51385.51,
    "realized": 1410.5,
    "closed": 6,
