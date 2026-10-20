@@ -20,8 +20,8 @@
     "taker": 0.9273,
     "funding": -0.00132206
    },
-   "mark": 0.00396209,
-   "upnl_pct": -3.55
+   "mark": 0.00398242,
+   "upnl_pct": -4.09
   },
   {
    "symbol": "KAVAUSDT",
@@ -41,8 +41,8 @@
     "taker": 0.5704,
     "funding": -1.225e-05
    },
-   "mark": 0.070405,
-   "upnl_pct": -1.29
+   "mark": 0.07052,
+   "upnl_pct": -1.45
   },
   {
    "symbol": "ALTUSDT",
@@ -62,8 +62,8 @@
     "taker": 1.2513,
     "funding": 1.044e-05
    },
-   "mark": 0.00986415,
-   "upnl_pct": -7.17
+   "mark": 0.00984071,
+   "upnl_pct": -7.39
   },
   {
    "symbol": "KATUSDT",
@@ -83,8 +83,8 @@
     "taker": 0.8608,
     "funding": -7.04e-06
    },
-   "mark": 0.004092,
-   "upnl_pct": -3.14
+   "mark": 0.004088,
+   "upnl_pct": -3.04
   },
   {
    "symbol": "PHAUSDT",
@@ -104,8 +104,8 @@
     "taker": 1.1749,
     "funding": -0.00053201
    },
-   "mark": 0.05815745,
-   "upnl_pct": -2.0
+   "mark": 0.05839,
+   "upnl_pct": -1.61
   }
  ],
  "closed": [
@@ -795,6 +795,16 @@
    "time": "2026-10-21 04:21",
    "equity": 97066.0,
    "return_pct": -2.93,
+   "cash": 48781.0,
+   "realized": -1194.0,
+   "closed": 13,
+   "win_rate": 0.62,
+   "open": 5
+  },
+  {
+   "time": "2026-10-21 05:21",
+   "equity": 97023.0,
+   "return_pct": -2.98,
    "cash": 48781.0,
    "realized": -1194.0,
    "closed": 13,
