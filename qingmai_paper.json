@@ -1,28 +1,7 @@
 {
  "capital": 100000,
- "cash": 48781.002250000034,
+ "cash": 57769.999500000034,
  "open": [
-  {
-   "symbol": "IOTXUSDT",
-   "side": "short",
-   "entry": 0.003826086,
-   "qty": 2613637.017045618,
-   "notional": 10000,
-   "entry_fee": 5.0,
-   "entry_time": "2026-10-19 17:20",
-   "entry_ms": 1792405245000,
-   "why": {
-    "quadrant": "price_down_oi_up",
-    "signal": "DELEVERAGING",
-    "p2h": -4.17,
-    "oi24": 10.01,
-    "acc": 2.13,
-    "taker": 0.9273,
-    "funding": -0.00132206
-   },
-   "mark": 0.00413877,
-   "upnl_pct": -8.17
-  },
   {
    "symbol": "KAVAUSDT",
    "side": "short",
@@ -41,8 +20,8 @@
     "taker": 0.5704,
     "funding": -1.225e-05
    },
-   "mark": 0.0704,
-   "upnl_pct": -1.28
+   "mark": 0.07037,
+   "upnl_pct": -1.24
   },
   {
    "symbol": "ALTUSDT",
@@ -62,8 +41,8 @@
     "taker": 1.2513,
     "funding": 1.044e-05
    },
-   "mark": 0.010187,
-   "upnl_pct": -4.13
+   "mark": 0.009962,
+   "upnl_pct": -6.25
   },
   {
    "symbol": "KATUSDT",
@@ -83,8 +62,8 @@
     "taker": 0.8608,
     "funding": -7.04e-06
    },
-   "mark": 0.00407695,
-   "upnl_pct": -2.76
+   "mark": 0.004101,
+   "upnl_pct": -3.37
   },
   {
    "symbol": "PHAUSDT",
@@ -104,8 +83,8 @@
     "taker": 1.1749,
     "funding": -0.00053201
    },
-   "mark": 0.05714088,
-   "upnl_pct": -3.71
+   "mark": 0.05681,
+   "upnl_pct": -4.27
   }
  ],
  "closed": [
@@ -438,6 +417,32 @@
    "reason": "止盈 +5%",
    "pnl": 485.5,
    "pnl_pct": 4.85
+  },
+  {
+   "symbol": "IOTXUSDT",
+   "side": "short",
+   "entry": 0.003826086,
+   "qty": 2613637.017045618,
+   "notional": 10000,
+   "entry_fee": 5.0,
+   "entry_time": "2026-10-19 17:20",
+   "entry_ms": 1792405245000,
+   "why": {
+    "quadrant": "price_down_oi_up",
+    "signal": "DELEVERAGING",
+    "p2h": -4.17,
+    "oi24": 10.01,
+    "acc": 2.13,
+    "taker": 0.9273,
+    "funding": -0.00132206
+   },
+   "mark": 0.00413877,
+   "upnl_pct": -8.17,
+   "exit": 0.0042107989473,
+   "exit_time": "2026-10-21 14:25",
+   "reason": "止损 -10%",
+   "pnl": -1016.0,
+   "pnl_pct": -10.16
   }
  ],
  "log": [
@@ -890,6 +895,16 @@
    "closed": 13,
    "win_rate": 0.62,
    "open": 5
+  },
+  {
+   "time": "2026-10-21 14:25",
+   "equity": 96257.0,
+   "return_pct": -3.74,
+   "cash": 57770.0,
+   "realized": -2210.0,
+   "closed": 14,
+   "win_rate": 0.57,
+   "open": 4
   }
  ]
 }
