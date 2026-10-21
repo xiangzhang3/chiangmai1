@@ -1,6 +1,6 @@
 {
  "capital": 100000,
- "cash": 57769.999500000034,
+ "cash": 47764.999500000034,
  "open": [
   {
    "symbol": "KAVAUSDT",
@@ -20,8 +20,8 @@
     "taker": 0.5704,
     "funding": -1.225e-05
    },
-   "mark": 0.07068082,
-   "upnl_pct": -1.68
+   "mark": 0.07075,
+   "upnl_pct": -1.78
   },
   {
    "symbol": "ALTUSDT",
@@ -41,8 +41,8 @@
     "taker": 1.2513,
     "funding": 1.044e-05
    },
-   "mark": 0.00984972,
-   "upnl_pct": -7.3
+   "mark": 0.00978162,
+   "upnl_pct": -7.94
   },
   {
    "symbol": "KATUSDT",
@@ -62,8 +62,8 @@
     "taker": 0.8608,
     "funding": -7.04e-06
    },
-   "mark": 0.004034,
-   "upnl_pct": -1.68
+   "mark": 0.00411177,
+   "upnl_pct": -3.64
   },
   {
    "symbol": "PHAUSDT",
@@ -83,8 +83,27 @@
     "taker": 1.1749,
     "funding": -0.00053201
    },
-   "mark": 0.05642,
-   "upnl_pct": -4.93
+   "mark": 0.05767,
+   "upnl_pct": -2.82
+  },
+  {
+   "symbol": "MITOUSDT",
+   "side": "short",
+   "entry": 0.00961700909,
+   "qty": 1039824.3265048219,
+   "notional": 10000,
+   "entry_fee": 5.0,
+   "entry_time": "2026-10-21 18:17",
+   "entry_ms": 1792581456000,
+   "why": {
+    "quadrant": "price_down_oi_down",
+    "signal": "DELEVERAGING",
+    "p2h": -28.79,
+    "oi24": -24.07,
+    "acc": 19.97,
+    "taker": 1.0507,
+    "funding": 5e-05
+   }
   }
  ],
  "closed": [
@@ -935,6 +954,16 @@
    "closed": 14,
    "win_rate": 0.57,
    "open": 4
+  },
+  {
+   "time": "2026-10-21 18:17",
+   "equity": 96147.0,
+   "return_pct": -3.85,
+   "cash": 47765.0,
+   "realized": -2210.0,
+   "closed": 14,
+   "win_rate": 0.57,
+   "open": 5
   }
  ]
 }
