@@ -1,6 +1,6 @@
 {
  "capital": 100000,
- "cash": 56653.584823935445,
+ "cash": 46648.584823935445,
  "open": [
   {
    "symbol": "KATUSDT",
@@ -41,8 +41,8 @@
     "taker": 1.1749,
     "funding": -0.00053201
    },
-   "mark": 0.05986,
-   "upnl_pct": 0.87
+   "mark": 0.06081,
+   "upnl_pct": 2.47
   },
   {
    "symbol": "MITOUSDT",
@@ -62,8 +62,8 @@
     "taker": 1.0507,
     "funding": 5e-05
    },
-   "mark": 0.01031773,
-   "upnl_pct": -7.29
+   "mark": 0.01030869,
+   "upnl_pct": -7.19
   },
   {
    "symbol": "USDCUSDT",
@@ -83,8 +83,27 @@
     "taker": 0.6633,
     "funding": 6.779e-05
    },
-   "mark": 1.0001159,
+   "mark": 1.000114,
    "upnl_pct": -0.01
+  },
+  {
+   "symbol": "MEWUSDT",
+   "side": "long",
+   "entry": 0.000458959365,
+   "qty": 21788421.29084783,
+   "notional": 10000,
+   "entry_fee": 5.0,
+   "entry_time": "2026-10-22 03:25",
+   "entry_ms": 1792614325000,
+   "why": {
+    "quadrant": "price_up_oi_up",
+    "signal": "WATCH",
+    "p2h": 0.15,
+    "oi24": 134.91,
+    "acc": 1.92,
+    "taker": 1.2221,
+    "funding": -0.00252636
+   }
   }
  ],
  "closed": [
@@ -1077,6 +1096,16 @@
    "closed": 16,
    "win_rate": 0.5,
    "open": 4
+  },
+  {
+   "time": "2026-10-22 03:25",
+   "equity": 95763.58,
+   "return_pct": -4.24,
+   "cash": 46648.58,
+   "realized": -3326.42,
+   "closed": 16,
+   "win_rate": 0.5,
+   "open": 5
   }
  ]
 }
