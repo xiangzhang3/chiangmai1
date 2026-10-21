@@ -1,28 +1,7 @@
 {
  "capital": 100000,
- "cash": 46751.00175000003,
+ "cash": 56653.584823935445,
  "open": [
-  {
-   "symbol": "KAVAUSDT",
-   "side": "short",
-   "entry": 0.0695102275,
-   "qty": 143863.72134949494,
-   "notional": 10000,
-   "entry_fee": 5.0,
-   "entry_time": "2026-10-19 23:49",
-   "entry_ms": 1792428570001,
-   "why": {
-    "quadrant": "price_down_oi_up",
-    "signal": "WATCH",
-    "p2h": -1.55,
-    "oi24": 10.95,
-    "acc": 3.68,
-    "taker": 0.5704,
-    "funding": -1.225e-05
-   },
-   "mark": 0.07019,
-   "upnl_pct": -0.98
-  },
   {
    "symbol": "KATUSDT",
    "side": "short",
@@ -41,8 +20,8 @@
     "taker": 0.8608,
     "funding": -7.04e-06
    },
-   "mark": 0.00413421,
-   "upnl_pct": -4.2
+   "mark": 0.00413307,
+   "upnl_pct": -4.17
   },
   {
    "symbol": "PHAUSDT",
@@ -62,8 +41,8 @@
     "taker": 1.1749,
     "funding": -0.00053201
    },
-   "mark": 0.05973203,
-   "upnl_pct": 0.66
+   "mark": 0.05998444,
+   "upnl_pct": 1.08
   },
   {
    "symbol": "MITOUSDT",
@@ -83,8 +62,8 @@
     "taker": 1.0507,
     "funding": 5e-05
    },
-   "mark": 0.00993,
-   "upnl_pct": -3.25
+   "mark": 0.01004735,
+   "upnl_pct": -4.47
   },
   {
    "symbol": "USDCUSDT",
@@ -104,7 +83,7 @@
     "taker": 0.6633,
     "funding": 6.779e-05
    },
-   "mark": 1.0001,
+   "mark": 1.00010377,
    "upnl_pct": -0.01
   }
  ],
@@ -490,6 +469,32 @@
    "reason": "止损 -10%",
    "pnl": -1014.0,
    "pnl_pct": -10.14
+  },
+  {
+   "symbol": "KAVAUSDT",
+   "side": "short",
+   "entry": 0.0695102275,
+   "qty": 143863.72134949494,
+   "notional": 10000,
+   "entry_fee": 5.0,
+   "entry_time": "2026-10-19 23:49",
+   "entry_ms": 1792428570001,
+   "why": {
+    "quadrant": "price_down_oi_up",
+    "signal": "WATCH",
+    "p2h": -1.55,
+    "oi24": 10.95,
+    "acc": 3.68,
+    "taker": 0.5704,
+    "funding": -1.225e-05
+   },
+   "mark": 0.07019,
+   "upnl_pct": -0.98,
+   "exit": 0.07015229862,
+   "exit_time": "2026-10-22 00:17",
+   "reason": "超时 48h 平仓",
+   "pnl": -102.42,
+   "pnl_pct": -1.02
   }
  ],
  "log": [
@@ -1042,6 +1047,16 @@
    "closed": 15,
    "win_rate": 0.53,
    "open": 5
+  },
+  {
+   "time": "2026-10-22 00:17",
+   "equity": 95896.58,
+   "return_pct": -4.1,
+   "cash": 56653.58,
+   "realized": -3326.42,
+   "closed": 16,
+   "win_rate": 0.5,
+   "open": 4
   }
  ]
 }
