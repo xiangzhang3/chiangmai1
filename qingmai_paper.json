@@ -20,8 +20,8 @@
     "taker": 0.8608,
     "funding": -7.04e-06
    },
-   "mark": 0.00413307,
-   "upnl_pct": -4.17
+   "mark": 0.00417,
+   "upnl_pct": -5.1
   },
   {
    "symbol": "PHAUSDT",
@@ -41,8 +41,8 @@
     "taker": 1.1749,
     "funding": -0.00053201
    },
-   "mark": 0.05998444,
-   "upnl_pct": 1.08
+   "mark": 0.06030637,
+   "upnl_pct": 1.62
   },
   {
    "symbol": "MITOUSDT",
@@ -62,8 +62,8 @@
     "taker": 1.0507,
     "funding": 5e-05
    },
-   "mark": 0.01004735,
-   "upnl_pct": -4.47
+   "mark": 0.01023,
+   "upnl_pct": -6.37
   },
   {
    "symbol": "USDCUSDT",
@@ -83,7 +83,7 @@
     "taker": 0.6633,
     "funding": 6.779e-05
    },
-   "mark": 1.00010377,
+   "mark": 1.00011306,
    "upnl_pct": -0.01
   }
  ],
@@ -1052,6 +1052,16 @@
    "time": "2026-10-22 00:17",
    "equity": 95896.58,
    "return_pct": -4.1,
+   "cash": 56653.58,
+   "realized": -3326.42,
+   "closed": 16,
+   "win_rate": 0.5,
+   "open": 4
+  },
+  {
+   "time": "2026-10-22 01:25",
+   "equity": 95667.58,
+   "return_pct": -4.33,
    "cash": 56653.58,
    "realized": -3326.42,
    "closed": 16,
