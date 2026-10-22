@@ -1,6 +1,6 @@
 {
  "capital": 100000,
- "cash": 47133.08744893545,
+ "cash": 47618.58507393545,
  "open": [
   {
    "symbol": "KATUSDT",
@@ -20,8 +20,8 @@
     "taker": 0.8608,
     "funding": -7.04e-06
    },
-   "mark": 0.00413485,
-   "upnl_pct": -4.22
+   "mark": 0.00403698,
+   "upnl_pct": -1.75
   },
   {
    "symbol": "MITOUSDT",
@@ -41,8 +41,8 @@
     "taker": 1.0507,
     "funding": 5e-05
    },
-   "mark": 0.00999789,
-   "upnl_pct": -3.96
+   "mark": 0.00991,
+   "upnl_pct": -3.05
   },
   {
    "symbol": "USDCUSDT",
@@ -62,7 +62,7 @@
     "taker": 0.6633,
     "funding": 6.779e-05
    },
-   "mark": 1.00014105,
+   "mark": 1.000178,
    "upnl_pct": -0.02
   },
   {
@@ -83,29 +83,27 @@
     "taker": 1.2221,
     "funding": -0.00252636
    },
-   "mark": 0.0004463,
-   "upnl_pct": -2.76
+   "mark": 0.00044427,
+   "upnl_pct": -3.2
   },
   {
    "symbol": "PTBUSDT",
    "side": "short",
-   "entry": 0.00064925521,
-   "qty": 15402263.772361565,
+   "entry": 0.0006144926,
+   "qty": 16273588.97405762,
    "notional": 10000,
    "entry_fee": 5.0,
-   "entry_time": "2026-10-22 05:18",
-   "entry_ms": 1792621084000,
+   "entry_time": "2026-10-22 09:21",
+   "entry_ms": 1792635663000,
    "why": {
     "quadrant": "price_down_oi_down",
-    "signal": "DELEVERAGING",
-    "p2h": -13.42,
-    "oi24": -43.15,
-    "acc": 2.74,
-    "taker": 0.8447,
-    "funding": 0.00077582
-   },
-   "mark": 0.000641,
-   "upnl_pct": 1.27
+    "signal": "WATCH",
+    "p2h": -6.69,
+    "oi24": -46.05,
+    "acc": 2.65,
+    "taker": 0.6538,
+    "funding": 0.00065409
+   }
   }
  ],
  "closed": [
@@ -541,6 +539,32 @@
    "exit_time": "2026-10-22 05:18",
    "reason": "止盈 +5%",
    "pnl": 484.5,
+   "pnl_pct": 4.85
+  },
+  {
+   "symbol": "PTBUSDT",
+   "side": "short",
+   "entry": 0.00064925521,
+   "qty": 15402263.772361565,
+   "notional": 10000,
+   "entry_fee": 5.0,
+   "entry_time": "2026-10-22 05:18",
+   "entry_ms": 1792621084000,
+   "why": {
+    "quadrant": "price_down_oi_down",
+    "signal": "DELEVERAGING",
+    "p2h": -13.42,
+    "oi24": -43.15,
+    "acc": 2.74,
+    "taker": 0.8447,
+    "funding": 0.00077582
+   },
+   "mark": 0.000641,
+   "upnl_pct": 1.27,
+   "exit": 0.0006171008457247499,
+   "exit_time": "2026-10-22 09:21",
+   "reason": "止盈 +5%",
+   "pnl": 485.5,
    "pnl_pct": 4.85
   }
  ],
@@ -1183,6 +1207,16 @@
    "realized": -2841.92,
    "closed": 17,
    "win_rate": 0.53,
+   "open": 5
+  },
+  {
+   "time": "2026-10-22 09:21",
+   "equity": 96816.59,
+   "return_pct": -3.18,
+   "cash": 47618.59,
+   "realized": -2356.42,
+   "closed": 18,
+   "win_rate": 0.56,
    "open": 5
   }
  ]
