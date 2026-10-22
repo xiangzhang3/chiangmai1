@@ -20,8 +20,8 @@
     "taker": 0.8608,
     "funding": -7.04e-06
    },
-   "mark": 0.004121,
-   "upnl_pct": -3.87
+   "mark": 0.00413485,
+   "upnl_pct": -4.22
   },
   {
    "symbol": "MITOUSDT",
@@ -41,8 +41,8 @@
     "taker": 1.0507,
     "funding": 5e-05
    },
-   "mark": 0.01001,
-   "upnl_pct": -4.09
+   "mark": 0.00999789,
+   "upnl_pct": -3.96
   },
   {
    "symbol": "USDCUSDT",
@@ -62,7 +62,7 @@
     "taker": 0.6633,
     "funding": 6.779e-05
    },
-   "mark": 1.00014122,
+   "mark": 1.00014105,
    "upnl_pct": -0.02
   },
   {
@@ -83,8 +83,8 @@
     "taker": 1.2221,
     "funding": -0.00252636
    },
-   "mark": 0.00045134,
-   "upnl_pct": -1.66
+   "mark": 0.0004463,
+   "upnl_pct": -2.76
   },
   {
    "symbol": "PTBUSDT",
@@ -104,8 +104,8 @@
     "taker": 0.8447,
     "funding": 0.00077582
    },
-   "mark": 0.00066818,
-   "upnl_pct": -2.91
+   "mark": 0.000641,
+   "upnl_pct": 1.27
   }
  ],
  "closed": [
@@ -1169,6 +1169,16 @@
    "time": "2026-10-22 07:25",
    "equity": 95878.09,
    "return_pct": -4.12,
+   "cash": 47133.09,
+   "realized": -2841.92,
+   "closed": 17,
+   "win_rate": 0.53,
+   "open": 5
+  },
+  {
+   "time": "2026-10-22 08:22",
+   "equity": 96164.09,
+   "return_pct": -3.84,
    "cash": 47133.09,
    "realized": -2841.92,
    "closed": 17,
