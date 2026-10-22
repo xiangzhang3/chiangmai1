@@ -20,8 +20,8 @@
     "taker": 0.6633,
     "funding": 6.779e-05
    },
-   "mark": 1.00037509,
-   "upnl_pct": -0.04
+   "mark": 1.0002618,
+   "upnl_pct": -0.03
   },
   {
    "symbol": "MEWUSDT",
@@ -41,8 +41,8 @@
     "taker": 1.2221,
     "funding": -0.00252636
    },
-   "mark": 0.00044851,
-   "upnl_pct": -2.28
+   "mark": 0.0004556,
+   "upnl_pct": -0.73
   },
   {
    "symbol": "IOTXUSDT",
@@ -62,8 +62,8 @@
     "taker": 0.9249,
     "funding": -0.00610698
    },
-   "mark": 0.004059,
-   "upnl_pct": -3.01
+   "mark": 0.004084,
+   "upnl_pct": -3.65
   },
   {
    "symbol": "XAUTUSDT",
@@ -82,7 +82,9 @@
     "acc": 3.35,
     "taker": 0.8763,
     "funding": 3.355e-05
-   }
+   },
+   "mark": 4077.55470453,
+   "upnl_pct": -0.29
   }
  ],
  "closed": [
@@ -1396,6 +1398,16 @@
    "time": "2026-10-22 19:21",
    "equity": 95583.26,
    "return_pct": -4.42,
+   "cash": 56116.26,
+   "realized": -3863.74,
+   "closed": 22,
+   "win_rate": 0.55,
+   "open": 4
+  },
+  {
+   "time": "2026-10-22 20:20",
+   "equity": 95646.26,
+   "return_pct": -4.35,
    "cash": 56116.26,
    "realized": -3863.74,
    "closed": 22,
