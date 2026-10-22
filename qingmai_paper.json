@@ -1,49 +1,7 @@
 {
  "capital": 100000,
- "cash": 47088.079948935454,
+ "cash": 66121.25714287245,
  "open": [
-  {
-   "symbol": "KATUSDT",
-   "side": "short",
-   "entry": 0.0039674752700000005,
-   "qty": 2520494.6015958404,
-   "notional": 10000,
-   "entry_fee": 5.0,
-   "entry_time": "2026-10-20 17:26",
-   "entry_ms": 1792491988000,
-   "why": {
-    "quadrant": "price_down_oi_up",
-    "signal": "WATCH",
-    "p2h": -1.66,
-    "oi24": 9.02,
-    "acc": 2.05,
-    "taker": 0.8608,
-    "funding": -7.04e-06
-   },
-   "mark": 0.00397108,
-   "upnl_pct": -0.09
-  },
-  {
-   "symbol": "MITOUSDT",
-   "side": "short",
-   "entry": 0.00961700909,
-   "qty": 1039824.3265048219,
-   "notional": 10000,
-   "entry_fee": 5.0,
-   "entry_time": "2026-10-21 18:17",
-   "entry_ms": 1792581456000,
-   "why": {
-    "quadrant": "price_down_oi_down",
-    "signal": "DELEVERAGING",
-    "p2h": -28.79,
-    "oi24": -24.07,
-    "acc": 19.97,
-    "taker": 1.0507,
-    "funding": 5e-05
-   },
-   "mark": 0.0100554,
-   "upnl_pct": -4.56
-  },
   {
    "symbol": "USDCUSDT",
    "side": "short",
@@ -62,7 +20,7 @@
     "taker": 0.6633,
     "funding": 6.779e-05
    },
-   "mark": 1.00044415,
+   "mark": 1.000438,
    "upnl_pct": -0.05
   },
   {
@@ -83,8 +41,8 @@
     "taker": 1.2221,
     "funding": -0.00252636
    },
-   "mark": 0.0004448,
-   "upnl_pct": -3.09
+   "mark": 0.0004458,
+   "upnl_pct": -2.87
   },
   {
    "symbol": "IOTXUSDT",
@@ -104,8 +62,8 @@
     "taker": 0.9249,
     "funding": -0.00610698
    },
-   "mark": 0.004111,
-   "upnl_pct": -4.33
+   "mark": 0.00406,
+   "upnl_pct": -3.04
   }
  ],
  "closed": [
@@ -620,6 +578,58 @@
    "reason": "止盈 +5%",
    "pnl": 485.5,
    "pnl_pct": 4.85
+  },
+  {
+   "symbol": "KATUSDT",
+   "side": "short",
+   "entry": 0.0039674752700000005,
+   "qty": 2520494.6015958404,
+   "notional": 10000,
+   "entry_fee": 5.0,
+   "entry_time": "2026-10-20 17:26",
+   "entry_ms": 1792491988000,
+   "why": {
+    "quadrant": "price_down_oi_up",
+    "signal": "WATCH",
+    "p2h": -1.66,
+    "oi24": 9.02,
+    "acc": 2.05,
+    "taker": 0.8608,
+    "funding": -7.04e-06
+   },
+   "mark": 0.00397108,
+   "upnl_pct": -0.09,
+   "exit": 0.003947973,
+   "exit_time": "2026-10-22 18:17",
+   "reason": "超时 48h 平仓",
+   "pnl": 39.18,
+   "pnl_pct": 0.39
+  },
+  {
+   "symbol": "MITOUSDT",
+   "side": "short",
+   "entry": 0.00961700909,
+   "qty": 1039824.3265048219,
+   "notional": 10000,
+   "entry_fee": 5.0,
+   "entry_time": "2026-10-21 18:17",
+   "entry_ms": 1792581456000,
+   "why": {
+    "quadrant": "price_down_oi_down",
+    "signal": "DELEVERAGING",
+    "p2h": -28.79,
+    "oi24": -24.07,
+    "acc": 19.97,
+    "taker": 1.0507,
+    "funding": 5e-05
+   },
+   "mark": 0.0100554,
+   "upnl_pct": -4.56,
+   "exit": 0.0105839993539995,
+   "exit_time": "2026-10-22 18:17",
+   "reason": "止损 -10%",
+   "pnl": -1016.0,
+   "pnl_pct": -10.16
   }
  ],
  "log": [
@@ -1352,6 +1362,16 @@
    "closed": 20,
    "win_rate": 0.55,
    "open": 5
+  },
+  {
+   "time": "2026-10-22 18:17",
+   "equity": 95525.26,
+   "return_pct": -4.47,
+   "cash": 66121.26,
+   "realized": -3863.74,
+   "closed": 22,
+   "win_rate": 0.55,
+   "open": 3
   }
  ]
 }
