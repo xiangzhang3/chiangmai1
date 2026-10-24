@@ -1,0 +1,82 @@
+{
+  "symbol": "KAIAUSDT",
+  "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+  "observed_at": "2026-10-11T04:05:44.344Z",
+  "status": "RESEARCH_ONLY",
+  "execution_eligible": false,
+  "display_timezone": null,
+  "exchange_event_time": null,
+  "captures": [
+    {
+      "symbol": "KAIAUSDT",
+      "kind": "quote",
+      "observed_at": "2026-10-11T04:05:44.344Z",
+      "raw_display": "heading KAIAUSDT info tag, Value: 1\n\t\t\t\t31 text KAIAUSDT\n\t\t\t\t32 container info tag\n\t\t\t\t\t33 container Perp\n\t\t\t\t\t\t34 text Perp\n\t\t\t\t35 image\n\t\t\t36 text 0.05288\n\t\t\t37 text -0.00405\n\t\t\t38 container\n\t\t\t\t39 text -7.13 %\n\t\t\t40 container\n\t\t\t\t41 container\n\t\t\t\t\t42 text Mark\n\t\t\t\t\t43 text 0.05292\n\t\t\t\t44 container\n\t\t\t\t\t45 link Description: Index, Value: binance.com/en/futures/funding-history/perpetual/index?contract=KAIAUSDT\n\t\t\t\t\t46 text 0.05317\n\t\t\t\t47 container\n\t\t\t\t\t48 container\n\t\t\t\t\t\t49 text Funding  (1h)  / Countdown\n\t\t\t\t\t50 text -0.05673% /\n\t\t\t\t\t51 text 00:54:16\n\t\t\t\t52 container\n\t\t\t\t\t53 text 24h High 0.05953\n\t\t\t\t54 container\n\t\t\t\t\t55 text 24h Low 0.05241\n\t\t\t\t56 container\n\t\t\t\t\t57 text 24h Vol(KAIA) 2,673,239,951.00\n\t\t\t\t58 container\n\t\t\t\t\t59 text 24h Vol(USDT) 149,903,672.16\n\t\t\t\t60 container\n\t\t\t\t\t61 link Description: Open Interest(USDT), Value: binance.com/en/futures/funding-history/perpetual/trading-data?contract=KAIAUSDT\n\t\t\t\t\t62 text 10,523,279.66\n\t\t\t\t63 image\n\t\t\t64 container\n\t\t\t\t65 \ncontainer futuresOrderbook\n\t\t\t\t\t\t145 container\n\t\t\t\t\t\t\t146 text 0.00001\n\t\t\t\t\t\t\t147 image\n\t\t\t\t\t\t148 text Price (USDT)\n\t\t\t\t\t\t149 text Size ( KAIA ) Sum ( KAIA )\n\t\t\t\t\t\t150 container\n\t\t\t\t\t\t\t151 container\n\t\t\t\t\t\t\t\t152 text 0.05292\n\t\t\t\t\t\t\t\t153 text 129.82K 270.21K\n\t\t\t\t\t\t\t154 container\n\t\t\t\t\t\t\t\t155 text 0.05291\n\t\t\t\t\t\t\t\t156 text 60.35K 140.38K\n\t\t\t\t\t\t\t157 container\n\t\t\t\t\t\t\t\t158 text 0.05290\n\t\t\t\t\t\t\t\t159 text 35.83K 80.03K\n\t\t\t\t\t\t\t160 container\n\t\t\t\t\t\t\t\t161 text 0.05289\n\t\t\t\t\t\t\t\t162 text 43.16K 44.19K\n\t\t\t\t\t\t\t163 container\n\t\t\t\t\t\t\t\t164 text 0.05288\n\t\t\t\t\t\t\t\t165 text 1.03K 1.03K\n\t\t\t\t\t\t166 text 0.05288\n\t\t\t\t\t\t167 image\n\t\t\t\t\t\t168 text 0.05292\n\t\t\t\t\t\t169 container\n\t\t\t\t\t\t\t170 container\n\t\t\t\t\t\t\t\t171 text 0.05287\n\t\t\t\t\t\t\t\t172 text 13.33K 13.33K\n\t\t\t\t\t\t\t173 container\n\t\t\t\t\t\t\t\t174 text 0.05286\n\t\t\t\t\t\t\t\t175 text 21.56K 34.89K\n\t\t\t\t\t\t\t176 container\n\t\t\t\t\t\t\t\t177 text 0.05285\n\t\t\t\t\t\t\t\t178 text 32.23K 67.13K\n\t\t\t\t\t\t\t179 container\n\t\t\t\t\t\t\t\t180 text 0.05284\n\t\t\t\t\t\t\t\t181 text 66.11K 133.24K\n\t\t\t\t\t\t\t182 container\n\t\t\t\t\t\t\t\t183 text 0.05283\n\t\t\t\t\t\t\t\t184 text 39.63K 172.87K\n\t\t\t\t185 ",
+      "selected_symbol": "KAIAUSDT",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT"
+    },
+    {
+      "symbol": "KAIAUSDT",
+      "kind": "oi_1h",
+      "observed_at": "2026-10-11T04:06:35.283Z",
+      "raw_display": "\t\t\t\t\t\t281 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand\n\t\t\t\t\t\t\t\t318 text 10/10 21:00 Open Interest (KAIA): 199,095,176.000 Notional Value of Open Interest (USDT): 10,460,460.54",
+      "selected_symbol": "KAIAUSDT",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT"
+    },
+    {
+      "symbol": "KAIAUSDT",
+      "kind": "taker_1h_displayed",
+      "observed_at": "2026-10-11T04:07:14.439Z",
+      "raw_display": "\t\t\t\t\t\t281 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand\n\t\t\t\t\t\t301 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand\n\t\t\t\t\t\t\t\t318 text 10/10 19:00 Taker Sell Volume (KAIA): 30,693,101.000 Taker Buy Volume (KAIA): 32,095,981.000",
+      "selected_symbol": "KAIAUSDT",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT"
+    },
+    {
+      "symbol": "KAIAUSDT",
+      "kind": "taker_1h_displayed",
+      "observed_at": "2026-10-11T04:07:14.875Z",
+      "raw_display": "\t\t\t\t\t\t281 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand\n\t\t\t\t\t\t301 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand\n\t\t\t\t\t\t\t\t318 text 10/10 20:00 Taker Sell Volume (KAIA): 33,390,674.000 Taker Buy Volume (KAIA): 26,761,923.000",
+      "selected_symbol": "KAIAUSDT",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT"
+    },
+    {
+      "symbol": "KAIAUSDT",
+      "kind": "candle_1h_prior",
+      "observed_at": "2026-10-11T04:07:25.712Z",
+      "raw_display": "\t\t\t\t\t\t\t\t\t308 text 2026/10/10 20:00 Open 0.05375 High 0.05377 Low 0.05241 Close 0.05255 CHANGE -2.21% Range 2.53%\n\t\t\t\t\t\t\t\t\t307 text Vol(KAIA) 60.153M Vol(USDT) 3.184M 60.432M 55.723M",
+      "selected_symbol": "KAIAUSDT",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+      "finality": "prior_visible_bar; UTC boundary not independently verified"
+    },
+    {
+      "symbol": "KAIAUSDT",
+      "kind": "candle_4h_prior",
+      "observed_at": "2026-10-11T04:07:35.851Z",
+      "raw_display": "\t\t\t\t\t\t\t\t\t308 text 2026/10/10 17:00 Open 0.05612 High 0.05658 Low 0.05241 Close 0.05255 CHANGE -6.36% Range 7.43%\n\t\t\t\t\t\t\t\t\t307 text Vol(KAIA) 319.406M Vol(USDT) 17.222M 605.768M 900.986M",
+      "selected_symbol": "KAIAUSDT",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+      "finality": "prior_visible_bar; UTC boundary not independently verified"
+    },
+    {
+      "symbol": "KAIAUSDT",
+      "kind": "settled_funding",
+      "observed_at": "2026-10-11T04:09:49.682Z",
+      "source_url": "https://www.binance.com/en/futures/funding-history/perpetual/funding-fee-history",
+      "raw_display": "212 combo box (collapsed) Description: Select an option, Value: KAIAUSDT Perpetual, Secondary Actions: Expand\n\t\t\t\t213 text KAIAUSDT Perpetual\n\t\t\t\t214 image\n\t\t\t215 image\n\t\t\t216 text Learn More about Funding Rate\n\t\t\t217 link Description: Trade Futures, Value: binance.com/en/futures/KAIAUSDT\n\t\t\t218 text Funding Rate :  -0.055596%\n\t\t\t219 tab group\n\t\t\t\t220 tab (selected, settable, boolean) Last 7 days, Value: 1, ID: bn-tab-7\n\t\t\t\t221 tab (selectable, settable, boolean) Last 14 days, Value: 0, ID: bn-tab-14\n\t\t\t222 container Description: Last 7 days, ID: bn-tab-pane-7\n\t\t\t223 button Save as CSV\n\t\t\t\t224 image\n\t\t\t\t225 text Save as CSV\n\t\t\t226 text Funding Rate History\n\t\t\t227 table Table\n\t\t\t\t228 row\n\t\t\t\t\t229 cell\n\t\t\t\t\t\t230 text Time\n\t\t\t\t\t231 cell\n\t\t\t\t\t\t232 text Funding Interval\n\t\t\t\t\t233 cell\n\t\t\t\t\t\t234 text Funding Rate\n\t\t\t\t\t235 cell\n\t\t\t\t\t\t236 text Mark Price\n\t\t\t\t237 row\n\t\t\t\t\t238 cell\n\t\t\t\t\t\t239 text 2026-10-10 21:00:00\n\t\t\t\t\t240 cell\n\t\t\t\t\t\t241 text 1h\n\t\t\t\t\t242 cell\n\t\t\t\t\t\t243 text -0.055596%\n\t\t\t\t\t244 cell\n\t\t\t\t\t\t245 text 0.0525500 USDT\n\t\t\t\t429 row\n\t\t\t\t\t430 cell\n\t\t\t\t\t\t431 text 2026-10-10 20:00:00\n\t\t\t\t\t432 cell\n\t\t\t\t\t\t433 text 1h\n\t\t\t\t\t434 cell\n\t\t\t\t\t\t435 text -0.052903%\n\t\t\t\t\t436 cell\n\t\t\t\t\t\t437 text 0.0537400 USDT\n\t\t\t\t438 row\n\t\t\t\t\t439 cell\n\t\t\t\t\t\t440 text 2026-10-10 19:00:00\n\t\t\t\t\t441 cell\n\t\t\t\t\t\t442 text 1h\n\t\t\t\t\t443 cell\n\t\t\t\t\t\t444 text -0.071362%\n\t\t\t\t\t445 cell\n\t\t\t\t\t\t446 text 0.0535300 USDT\n\t\t\t\t447 row\n\t\t\t\t\t448 cell\n\t\t\t\t\t\t449 text 2026-10-10 18:00:00\n\t\t\t\t\t450 cell\n\t\t\t\t\t\t451 text 1h\n\t\t\t\t\t452 cell\n\t\t\t\t\t\t453 text -0.083072%\n\t\t\t\t\t454 cell\n\t\t\t\t\t\t455 text 0.0542600 USDT\n\t\t\t\t246 row\n\t\t\t\t\t247 cell\n\t\t\t\t\t\t248 text 2026-10-10 17:00:00\n\t\t\t\t\t249 cell\n\t\t\t\t\t\t250 text 1h\n\t\t\t\t\t251 cell\n\t\t\t\t\t\t252 text -0.086435%\n\t\t\t\t\t253 cell\n\t\t\t\t\t\t254 text 0.0561199 USDT\n\t\t\t\t456 row\n\t\t\t\t\t457 cell\n\t\t\t\t\t\t458 text 2026-10-10 16:00:00\n\t\t\t\t\t459 cell\n\t\t\t\t\t\t460 text 1h\n\t\t\t\t\t461 cell\n\t\t\t\t\t\t462 text -0.057911%\n\t\t\t\t\t463 cell\n\t\t\t\t\t\t464 text 0.0562369 USDT\n\t\t\t\t465 row\n\t\t\t\t\t466 cell\n\t\t\t\t\t\t467 text 2026-10-10 15:00:00\n\t\t\t\t\t468 cell\n\t\t\t\t\t\t469 text 1h\n\t\t\t\t\t470 cell\n\t\t\t\t\t\t471 text -0.042357%\n\t\t\t\t\t472 cell\n\t\t\t\t\t\t473 text 0.0570200 USDT\n\t\t\t\t474 row\n\t\t\t\t\t475 cell\n\t\t\t\t\t\t476 text 2026-10-10 14:00:00\n\t\t\t\t\t477 cell\n\t\t\t\t\t\t478 text 1h\n\t\t\t\t\t479 cell\n\t\t\t\t\t\t480 text -0.030355%\n\t\t\t\t\t481 cell\n\t\t\t\t\t\t482 text 0.0560274 USDT\n\t\t\t\t255 row\n\t\t\t\t\t256 cell\n\t\t\t\t\t\t257 text 2026-10-10 13:00:00\n\t\t\t\t\t258 cell\n\t\t\t\t\t\t259 text 1h\n\t\t\t\t\t260 cell\n\t\t\t\t\t\t261 text -0.032080%\n\t\t\t\t\t262 cell\n\t\t\t\t\t\t263 text 0.0556800 USDT\n\t\t\t\t483 row\n\t\t\t\t\t484 cell\n\t\t\t\t\t\t485 text 2026-10-10 12:00:00\n\t\t\t\t\t486 cell\n\t\t\t\t\t\t487 text 1h\n\t\t\t\t\t488 cell\n\t\t\t\t\t\t489 text -0.043064%\n\t\t\t\t\t490 cell\n\t\t\t\t\t\t491 text 0.0565200 USDT\n\t\t\t\t492 row\n\t\t\t\t\t493 cell\n\t\t\t\t\t\t494 text 2026-10-10 11:00:00\n\t\t\t\t\t495 cell\n\t\t\t\t\t\t496 text 1h\n\t\t\t\t\t497 cell\n\t\t\t\t\t\t498 text -0.045704%\n\t\t\t\t\t499 cell\n\t\t\t\t\t\t500 text 0.0563000 USDT\n\t\t\t\t501 row\n\t\t\t\t\t502 cell\n\t\t\t\t\t\t503 text 2026-10-10 10:00:00\n\t\t\t\t\t504 cell\n\t\t\t\t\t\t505 text 1h\n\t\t\t\t\t506 cell\n\t\t\t\t\t\t507 text -0.061808%\n\t\t\t\t\t508 cell\n\t\t\t\t\t\t509 text 0.0554219 USDT\n\t\t\t\t264 row\n\t\t\t\t\t265 cell\n\t\t\t\t\t\t266 text 2026-10-10 09:00:00\n\t\t\t\t\t267 cell\n\t\t\t\t\t\t268 text 1h\n\t\t\t\t\t269 cell\n\t\t\t\t\t\t270 text -0.059059%\n\t\t\t\t\t271 cell\n\t\t\t\t\t\t272 text 0.0560616 USDT\n\t\t\t\t510 row\n\t\t\t\t\t511 cell\n\t\t\t\t\t\t512 text 2026-10-10 08:00:00\n\t\t\t\t\t513 cell\n\t\t\t\t\t\t514 text 1h\n\t\t\t\t\t515 cell\n\t\t\t\t\t\t516 text -0.074554%\n\t\t\t\t\t517 cell\n\t\t\t\t\t\t518 text 0.0558600 USDT\n\t\t\t\t519 row\n\t\t\t\t\t520 cell\n\t\t\t\t\t\t521 text 2026-10-10 07:00:00\n\t\t\t\t\t522 cell\n\t\t\t\t\t\t523 text 1h\n\t\t\t\t\t524 cell\n\t\t\t\t\t\t525 text -0.091516%\n\t\t\t\t\t526 cell\n\t\t\t\t\t\t527 text 0.0562700 USDT\n\t\t\t\t528 row\n\t\t\t\t\t529 cell\n\t\t\t\t\t\t530 text 2026-10-10 06:00:00\n\t\t\t\t\t531 cell\n\t\t\t\t\t\t532 text 1h\n\t\t\t\t\t533 cell\n\t\t\t\t\t\t534 text -0.142367%\n\t\t\t\t\t535 cell\n\t\t\t\t\t\t536 text 0.0552830 USDT\n\t\t\t\t273 row\n\t\t\t\t\t274 cell\n\t\t\t\t\t\t275 text 2026-10-10 05:00:00\n\t\t\t\t\t276 cell\n\t\t\t\t\t\t277 text 1h\n\t\t\t\t\t278 cell\n\t\t\t\t\t\t279 text -0.136210%\n\t\t\t\t\t280 cell\n\t\t\t\t\t\t281 text 0.0556779 USDT\n\t\t\t\t537 row\n\t\t\t\t\t538 cell\n\t\t\t\t\t\t539 text 2026-10-10 04:00:00\n\t\t\t\t\t540 cell\n\t\t\t\t\t\t541 text 1h\n\t\t\t\t\t542 cell\n\t\t\t\t\t\t543 text -0.220859%\n\t\t\t\t\t544 cell\n\t\t\t\t\t\t545 text 0.0551300 USDT\n\t\t\t\t546 row\n\t\t\t\t\t547 cell\n\t\t\t\t\t\t548 text 2026-10-10 03:00:00\n\t\t\t\t\t549 cell\n\t\t\t\t\t\t550 text 1h\n\t\t\t\t\t551 cell\n\t\t\t\t\t\t552 text -0.240927%\n\t\t\t\t\t553 cell\n\t\t\t\t\t\t554 text 0.0551400 USDT\n\t\t\t\t555 row\n\t\t\t\t\t556 cell\n\t\t\t\t\t\t557 text 2026-10-10 02:00:00\n\t\t\t\t\t558 cell\n\t\t\t\t\t\t559 text 1h\n\t\t\t\t\t560 cell\n\t\t\t\t\t\t561 text -0.268167%\n\t\t\t\t\t562 cell\n\t\t\t\t\t\t563 text 0.0562800 USDT\n\t\t\t417 link 1\n\t\t\t\t418 text 1\n\t\t\t419 link 2\n\t\t\t\t420 text 2\n\t\t\t421 link 3\n\t\t\t\t422 text 3\n\t\t\t423 link 4\n\t\t\t\t424 text 4\n\t\t\t425 link 5\n\t\t\t\t426 text 5\n\t\t\t427 text ...\n\t\t\t428 link 205\n\t\t\t\t564 text 205\n\t\t210 ",
+      "selected_symbol": "KAIAUSDT"
+    }
+  ],
+  "numeric_conventions": {
+    "funding": "displayed percent divided by100 gives decimal per stated interval",
+    "K": 1000,
+    "M": 1000000,
+    "B": 1000000000,
+    "depth": "UI-rounded quantities; asynchronous fields"
+  },
+  "missing_fields": [
+    "verified_display_timezone",
+    "exchange_event_time",
+    "independently_verified_completed_candle_boundaries",
+    "prior_hour_quantity_OI_endpoint"
+  ]
+}

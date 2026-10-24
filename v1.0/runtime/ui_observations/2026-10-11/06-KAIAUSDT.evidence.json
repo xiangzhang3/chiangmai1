@@ -1,0 +1,232 @@
+{
+  "symbol": "KAIAUSDT",
+  "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+  "observed_at": "2026-10-11T06:06:05.383Z",
+  "selected_symbol_verified": "KAIAUSDT Perp",
+  "display_timezone": null,
+  "capture_time_is_not_exchange_event_time": true,
+  "funding_rate_percent_raw": "-0.03383%",
+  "funding_conversion": "decimal = displayed percentage / 100",
+  "funding_kind": "current predicted rate, separate from historical settled rows",
+  "oi_timeline": {
+    "previous": {
+      "raw_label": "10/10 22:00",
+      "unit": "KAIA",
+      "quantity": 196903239.0,
+      "notional_usdt": 10498880.7,
+      "observed_at": "2026-10-11T06:11:06.006Z",
+      "raw": "10/10 22:00 Open Interest (KAIA): 196,903,239.000 Notional Value of Open Interest (USDT): 10,498,880.70",
+      "event_time_utc": null
+    },
+    "latest": {
+      "raw_label": "10/10 23:00",
+      "unit": "KAIA",
+      "quantity": 196700807.0,
+      "notional_usdt": 10442845.84,
+      "observed_at": "2026-10-11T06:11:14.301Z",
+      "raw": "10/10 23:00 Open Interest (KAIA): 196,700,807.000 Notional Value of Open Interest (USDT): 10,442,845.84",
+      "event_time_utc": null
+    },
+    "quantity_change": -202432.0,
+    "percent_change": -0.10280785680727171,
+    "unit": "KAIA",
+    "selected_interval": "1h",
+    "endpoint_advanced_since_prior_run": false,
+    "stale": false,
+    "event_timezone": null,
+    "boundary_note": "Original labels retained; no verified mapping to Beijing event hours. Cross-chart exact-window alignment remains unverified."
+  },
+  "oi_source_url": "https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=JCTUSDT",
+  "oi_ui_symbol": "KAIAUSDT Perpetual",
+  "oi_source_url_note": "UI selector verified for each symbol; URL retained JCT despite selector changes.",
+  "order_book_raw": "container futuresOrderbook\n\t\t\t\t\t\t144 container\n\t\t\t\t\t\t\t145 text 0.00001\n\t\t\t\t\t\t\t146 image\n\t\t\t\t\t\t147 text Price (USDT)\n\t\t\t\t\t\t148 text Size ( KAIA ) Sum ( KAIA )\n\t\t\t\t\t\t149 container\n\t\t\t\t\t\t\t150 container\n\t\t\t\t\t\t\t\t151 text 0.05332\n\t\t\t\t\t\t\t\t152 text 101.53K 214.63K\n\t\t\t\t\t\t\t153 container\n\t\t\t\t\t\t\t\t154 text 0.05331\n\t\t\t\t\t\t\t\t155 text 46.48K 113.09K\n\t\t\t\t\t\t\t156 container\n\t\t\t\t\t\t\t\t157 text 0.05330\n\t\t\t\t\t\t\t\t158 text 47.03K 66.61K\n\t\t\t\t\t\t\t159 container\n\t\t\t\t\t\t\t\t160 text 0.05329\n\t\t\t\t\t\t\t\t161 text 16.27K 19.57K\n\t\t\t\t\t\t\t162 container\n\t\t\t\t\t\t\t\t163 text 0.05328\n\t\t\t\t\t\t\t\t164 text 3.30K 3.30K\n\t\t\t\t\t\t165 text 0.05328\n\t\t\t\t\t\t166 image\n\t\t\t\t\t\t167 text 0.05328\n\t\t\t\t\t\t168 container\n\t\t\t\t\t\t\t169 container\n\t\t\t\t\t\t\t\t170 text 0.05327\n\t\t\t\t\t\t\t\t171 text 2.73K 2.73K\n\t\t\t\t\t\t\t172 container\n\t\t\t\t\t\t\t\t173 text 0.05326\n\t\t\t\t\t\t\t\t174 text 6.48K 9.22K\n\t\t\t\t\t\t\t175 container\n\t\t\t\t\t\t\t\t176 text 0.05325\n\t\t\t\t\t\t\t\t177 text 17.89K 27.11K\n\t\t\t\t\t\t\t178 container\n\t\t\t\t\t\t\t\t179 text 0.05324\n\t\t\t\t\t\t\t\t180 text 55.40K 82.52K\n\t\t\t\t\t\t\t181 container\n\t\t\t\t\t\t\t\t182 text 0.05323\n\t\t\t\t\t\t\t\t183 text 31.97K 114.49K\n\t\t\t\t184 ",
+  "order_book_precision": "K/M abbreviated quantities are rounded; asynchronous UI snapshot",
+  "completed_1h_bar": {
+    "observed_at": "2026-10-11T06:09:47.845Z",
+    "raw_lines": "\t\t\t\t\t\t\t\t\t310 text 2026/10/10 22:00 Open 0.05331 High 0.05397 Low 0.05301 Close 0.05311 CHANGE -0.39% Range 1.80%\n\t\t\t\t\t\t\t\t\t309 text Vol(KAIA) 41.243M Vol(USDT) 2.204M 64.89M 52.312M",
+    "completion": "prior bar selected; later active bar visible",
+    "event_timezone": null,
+    "event_time_utc": null
+  },
+  "completed_4h_bar": {
+    "observed_at": "2026-10-11T06:10:06.071Z",
+    "raw_lines": "\t\t\t\t\t\t\t\t\t310 text 2026/10/10 17:00 Open 0.05612 High 0.05658 Low 0.05241 Close 0.05255 CHANGE -6.36% Range 7.43%\n\t\t\t\t\t\t\t\t\t309 text Vol(KAIA) 319.406M Vol(USDT) 17.222M 605.768M 900.986M",
+    "completion": "prior bar selected; later active bar visible",
+    "event_timezone": null,
+    "event_time_utc": null
+  },
+  "settled_funding": {
+    "source_url": "https://www.binance.com/en/futures/funding-history/perpetual/funding-fee-history",
+    "selected_symbol": "KAIAUSDT Perpetual",
+    "observed_at": "2026-10-11T06:10:38.438Z",
+    "event_timezone": null,
+    "rows": [
+      {
+        "raw_label": "2026-10-10 23:00:00",
+        "interval_hours": 1,
+        "rate_percent_raw": "-0.033435%",
+        "rate_decimal": -0.00033434999999999997,
+        "settlement_mark_price": 0.05309,
+        "event_time_utc": null
+      },
+      {
+        "raw_label": "2026-10-10 22:00:00",
+        "interval_hours": 1,
+        "rate_percent_raw": "-0.047034%",
+        "rate_decimal": -0.00047033999999999997,
+        "settlement_mark_price": 0.05332,
+        "event_time_utc": null
+      },
+      {
+        "raw_label": "2026-10-10 21:00:00",
+        "interval_hours": 1,
+        "rate_percent_raw": "-0.055596%",
+        "rate_decimal": -0.00055596,
+        "settlement_mark_price": 0.05255,
+        "event_time_utc": null
+      },
+      {
+        "raw_label": "2026-10-10 20:00:00",
+        "interval_hours": 1,
+        "rate_percent_raw": "-0.052903%",
+        "rate_decimal": -0.00052903,
+        "settlement_mark_price": 0.05374,
+        "event_time_utc": null
+      },
+      {
+        "raw_label": "2026-10-10 19:00:00",
+        "interval_hours": 1,
+        "rate_percent_raw": "-0.071362%",
+        "rate_decimal": -0.00071362,
+        "settlement_mark_price": 0.05353,
+        "event_time_utc": null
+      },
+      {
+        "raw_label": "2026-10-10 18:00:00",
+        "interval_hours": 1,
+        "rate_percent_raw": "-0.083072%",
+        "rate_decimal": -0.00083072,
+        "settlement_mark_price": 0.05426,
+        "event_time_utc": null
+      },
+      {
+        "raw_label": "2026-10-10 17:00:00",
+        "interval_hours": 1,
+        "rate_percent_raw": "-0.086435%",
+        "rate_decimal": -0.00086435,
+        "settlement_mark_price": 0.0561199,
+        "event_time_utc": null
+      },
+      {
+        "raw_label": "2026-10-10 16:00:00",
+        "interval_hours": 1,
+        "rate_percent_raw": "-0.057911%",
+        "rate_decimal": -0.00057911,
+        "settlement_mark_price": 0.0562369,
+        "event_time_utc": null
+      },
+      {
+        "raw_label": "2026-10-10 15:00:00",
+        "interval_hours": 1,
+        "rate_percent_raw": "-0.042357%",
+        "rate_decimal": -0.00042357,
+        "settlement_mark_price": 0.05702,
+        "event_time_utc": null
+      },
+      {
+        "raw_label": "2026-10-10 14:00:00",
+        "interval_hours": 1,
+        "rate_percent_raw": "-0.030355%",
+        "rate_decimal": -0.00030355,
+        "settlement_mark_price": 0.0560274,
+        "event_time_utc": null
+      },
+      {
+        "raw_label": "2026-10-10 13:00:00",
+        "interval_hours": 1,
+        "rate_percent_raw": "-0.032080%",
+        "rate_decimal": -0.0003208,
+        "settlement_mark_price": 0.05568,
+        "event_time_utc": null
+      },
+      {
+        "raw_label": "2026-10-10 12:00:00",
+        "interval_hours": 1,
+        "rate_percent_raw": "-0.043064%",
+        "rate_decimal": -0.00043064,
+        "settlement_mark_price": 0.05652,
+        "event_time_utc": null
+      },
+      {
+        "raw_label": "2026-10-10 11:00:00",
+        "interval_hours": 1,
+        "rate_percent_raw": "-0.045704%",
+        "rate_decimal": -0.00045704000000000003,
+        "settlement_mark_price": 0.0563,
+        "event_time_utc": null
+      },
+      {
+        "raw_label": "2026-10-10 10:00:00",
+        "interval_hours": 1,
+        "rate_percent_raw": "-0.061808%",
+        "rate_decimal": -0.00061808,
+        "settlement_mark_price": 0.0554219,
+        "event_time_utc": null
+      },
+      {
+        "raw_label": "2026-10-10 09:00:00",
+        "interval_hours": 1,
+        "rate_percent_raw": "-0.059059%",
+        "rate_decimal": -0.00059059,
+        "settlement_mark_price": 0.0560616,
+        "event_time_utc": null
+      },
+      {
+        "raw_label": "2026-10-10 08:00:00",
+        "interval_hours": 1,
+        "rate_percent_raw": "-0.074554%",
+        "rate_decimal": -0.0007455399999999999,
+        "settlement_mark_price": 0.05586,
+        "event_time_utc": null
+      },
+      {
+        "raw_label": "2026-10-10 07:00:00",
+        "interval_hours": 1,
+        "rate_percent_raw": "-0.091516%",
+        "rate_decimal": -0.00091516,
+        "settlement_mark_price": 0.05627,
+        "event_time_utc": null
+      },
+      {
+        "raw_label": "2026-10-10 06:00:00",
+        "interval_hours": 1,
+        "rate_percent_raw": "-0.142367%",
+        "rate_decimal": -0.00142367,
+        "settlement_mark_price": 0.055283,
+        "event_time_utc": null
+      },
+      {
+        "raw_label": "2026-10-10 05:00:00",
+        "interval_hours": 1,
+        "rate_percent_raw": "-0.136210%",
+        "rate_decimal": -0.0013621,
+        "settlement_mark_price": 0.0556779,
+        "event_time_utc": null
+      },
+      {
+        "raw_label": "2026-10-10 04:00:00",
+        "interval_hours": 1,
+        "rate_percent_raw": "-0.220859%",
+        "rate_decimal": -0.00220859,
+        "settlement_mark_price": 0.05513,
+        "event_time_utc": null
+      }
+    ]
+  },
+  "missing_fields": {
+    "taker_buy_sell": "Exact tooltip values not captured; no ratio inferred",
+    "exchange_event_timestamps": "UI timezone and event boundary not independently verified",
+    "same_window_price_volume_oi": "Not asserted across charts"
+  },
+  "execution_eligible": false
+}

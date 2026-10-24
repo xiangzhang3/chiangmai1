@@ -1,0 +1,13 @@
+{
+  "symbol": "STRKUSDT",
+  "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+  "observed_at": "2026-10-13T01:05:29.369Z",
+  "fields": {
+    "last_price": 0.08555,
+    "mark_price": 0.08552,
+    "index_price": 0.08558,
+    "funding_rate": 0.00005,
+    "funding_interval_hours": 4,
+    "open_interest_notional_usdt": 36999674.69
+  }
+}

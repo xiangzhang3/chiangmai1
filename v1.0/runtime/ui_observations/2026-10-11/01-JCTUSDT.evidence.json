@@ -1,0 +1,142 @@
+{
+  "symbol": "JCTUSDT",
+  "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+  "observed_at": "2026-10-11T01:02:07.916Z",
+  "status": "RESEARCH_ONLY",
+  "execution_eligible": false,
+  "captures": [
+    {
+      "kind": "quote",
+      "observed_at": "2026-10-11T01:02:07.916Z",
+      "dom": "- heading \"JCTUSDT info tag\" [level=1]:\n  - generic: JCTUSDT\n  - generic \"info tag\":\n    - tooltip \"Perp\":\n      - generic: Perp\n- generic: \"0.001875\"\n- generic: \"-0.000840\"\n- generic: \"-30.93%\"\n- generic: Mark\n- generic: \"0.001874\"\n- link \"Index\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/index?contract=JCTUSDT\n  - text: Index\n- generic: \"0.001872\"\n- generic: Funding (4h) / Countdown\n- generic: 0.00500%\n- generic: /\n- generic: 02:57:52\n- generic: 24h High\n- generic: \"0.003137\"\n- generic: 24h Low\n- generic: \"0.001536\"\n- generic: 24h Vol(JCT)\n- generic: 38,295,615,297.00\n- generic: 24h Vol(USDT)\n- generic: 97,476,001.09\n- link \"Open Interest(USDT)\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=JCTUSDT\n  - text: Open Interest(USDT)\n- generic: 7,383,484.56\n- generic: FindBorderBarSize\n- tablist:\n  - tab \"Chart\" [selected]:\n    - tab \"Chart\" [selected]:\n      - text: Chart\n  - tab \"Info\":\n    - tab \"Info\"\n  - tab \"Trading Data\":\n    - tab \"Trading Data\"\n- separator \"Resize\"\n- tablist:\n  - tab \"Order Book\" [selected]:\n    - tab \"Order Book\" [selected]:\n      - text: Order Book\n- separator \"Resize\"\n- tablist:\n  - tab \"Trades\" [selected]:\n    - tab \"Trades\" [selected]:\n      - text: Trades\n  - tab \"Top Movers\":\n    - tab \"Top Movers\"\n- separator \"Resize\"\n- tabpanel \"Chart\":\n  - generic: Time\n  - generic: 1s\n  - generic: 15m\n  - generic: 1H\n  - generic: 4H\n  - generic: 1D\n  - generic: 1W\n  - combobox \"Select an option\":\n  - text: Last Price\n  - generic: Original\n  - generic: Trading View\n  - generic: Depth\n  - generic: 2026/10/10 18:00\n  - generic: Open\n  - generic: \"0.001890\"\n  - generic: High\n  - generic: \"0.001897\"\n  - generic: Low\n  - generic: \"0.001872\"\n  - generic: Close\n  - generic: \"0.001876\"\n  - generic: CHANGE\n  - generic: \"-0.68%\"\n  - generic: Range\n  - generic: 1.32%\n  - generic: MA(7)\n  - generic: \"0.001942\"\n  - generic: MA(25)\n  - generic: \"0.002606\"\n  - generic: MA(99)\n  - generic: \"0.002093\"\n  - generic: Vol(JCT)\n  - generic: 37.176M\n  - generic: Vol(USDT)\n  - generic: 69.955K\n  - generic: 2.15B\n  - generic: 1.621B\n- tabpanel \"Order Book\":\n  - generic: \"0.000001\"\n  - generic: Price (USDT)\n  - generic: Size\n  - generic: (JCT)\n  - generic: Sum\n  - generic: (JCT)\n  - generic: \"0.001881\"\n  - generic: 1.10M\n  - generic: 3.38M\n  - generic: \"0.001880\"\n  - generic: 1.29M\n  - generic: 2.27M\n  - generic: \"0.001879\"\n  - generic: 473.90K\n  - generic: 985.16K\n  - generic: \"0.001878\"\n  - generic: 439.71K\n  - generic: 511.25K\n  - generic: \"0.001877\"\n  - generic: 71.54K\n  - generic: 71.54K\n  - generic: \"0.001875\"\n  - generic: \"0.001874\"\n  - generic: \"0.001875\"\n  - generic: 256.86K\n  - generic: 256.86K\n  - generic: \"0.001874\"\n  - generic: 420.56K\n  - generic: 677.43K\n  - generic: \"0.001873\"\n  - generic: 1.02M\n  - generic: 1.70M\n  - generic: \"0.001872\"\n  - generic: 622.07K\n  - generic: 2.32M\n  - generic: \"0.001871\"\n  - generic: 951.36K\n  - generic: 3.27M\n- tabpanel \"Trades\":\n  - generic: Price (USDT)\n  - generic: Amount\n  - generic: (JCT)\n  - generic: Time\n  - generic: \"0.001875\"\n  - generic: 39.34K\n  - generic: 18:02:07\n  - generic: \"0.001875\"\n  - generic: 5.01K\n  - generic: 18:02:06\n  - generic: \"0.001875\"\n  - generic: 141.78K\n  - generic: 18:02:05\n  - generic: \"0.001876\"\n  - generic: 4.92K\n  - generic: 18:02:04\n  - generic: \"0.001877\"\n  - generic: 88.56K\n  - generic: 18:02:03\n  - generic: \"0.001875\"\n  - generic: 63.43K\n  - generic: 18:02:02\n"
+    },
+    {
+      "kind": "oi_1h",
+      "observed_at": "2026-10-11T01:02:33.195Z",
+      "dom": "Open Interest\n1h\nSingle\nOpen Interest (JCT)\nNotional Value of Op...\n18:00\n00:00\n06:00\n12:00\n18:00\n3,840M\n4,080M\n4,320M\n6M\n10M\n14M\n10/10 16:00\n\nOpen Interest (JCT): 3,879,337,951.000\n\nNotional Value of Open Interest (USDT):\n\n7,087,550.43\n\nTop Trader Long/Short Ratio (Accounts)\n5m\nLong/Short Ratio (Accounts)\n16:00\n16:30\n17:00\n17:30\n18:00\n1.50\n1.70\n1.90\nTop Trader Long/Short Ratio (Positions)\n5m\nLong/Short Ratio (Positions)\n15:30\n16:00\n16:30\n17:00\n17:30\n1.71\n1.74\n1.76\nLong/Short Ratio\n5m\nLong/Short Ratio\n15:30\n16:00\n16:30\n17:00\n17:30\n1.50\n1.70\n1.90\nTaker Buy/Sell Volume\n5m\nTaker Sell Volume (JCT)\nTaker Buy Volume (JCT)\n15:30\n16:00\n16:30\n17:00\n17:30\n0.000\n160,000,000.000\n320,000,000.000\nBasis\n5m\nFutures Price\nPrice Index\nBasis\n15:30\n16:00\n16:30\n17:00\n17:30\n0.0017600\n0.0019200\n0.0020800\n-0.0000025\n0.0000025\n0.0000075\nFunding Rate: 0.005000%\nLast 40 Times\n10/5\n10/6\n10/7\n10/8\n10/9\n10/10\n0%\n0.04%\n0.08%\nOpen Interest to Market Cap Ratio\n5m\nPrice\nRatio\n16:00\n16:30\n17:00\n17:30\n18:00\n0.0018\n0.00192\n0.00204\n33.500%\n34.000%\n34.500%"
+    },
+    {
+      "kind": "oi_1h",
+      "observed_at": "2026-10-11T01:02:40.704Z",
+      "dom": "Open Interest\n1h\nSingle\nOpen Interest (JCT)\nNotional Value of Op...\n18:00\n00:00\n06:00\n12:00\n18:00\n3,840M\n4,080M\n4,320M\n6M\n10M\n14M\n10/10 17:00\n\nOpen Interest (JCT): 3,888,207,581.000\n\nNotional Value of Open Interest (USDT):\n\n7,162,078.36\n\nTop Trader Long/Short Ratio (Accounts)\n5m\nLong/Short Ratio (Accounts)\n16:00\n16:30\n17:00\n17:30\n18:00\n1.50\n1.70\n1.90\nTop Trader Long/Short Ratio (Positions)\n5m\nLong/Short Ratio (Positions)\n15:30\n16:00\n16:30\n17:00\n17:30\n1.71\n1.74\n1.76\nLong/Short Ratio\n5m\nLong/Short Ratio\n15:30\n16:00\n16:30\n17:00\n17:30\n1.50\n1.70\n1.90\nTaker Buy/Sell Volume\n5m\nTaker Sell Volume (JCT)\nTaker Buy Volume (JCT)\n15:30\n16:00\n16:30\n17:00\n17:30\n0.000\n160,000,000.000\n320,000,000.000\nBasis\n5m\nFutures Price\nPrice Index\nBasis\n15:30\n16:00\n16:30\n17:00\n17:30\n0.0017600\n0.0019200\n0.0020800\n-0.0000025\n0.0000025\n0.0000075\nFunding Rate: 0.005000%\nLast 40 Times\n10/5\n10/6\n10/7\n10/8\n10/9\n10/10\n0%\n0.04%\n0.08%\nOpen Interest to Market Cap Ratio\n5m\nPrice\nRatio\n16:00\n16:30\n17:00\n17:30\n18:00\n0.0018\n0.00192\n0.00204\n33.500%\n34.000%\n34.500%"
+    },
+    {
+      "kind": "taker_1h",
+      "observed_at": "2026-10-11T01:03:07.567Z",
+      "dom": "Open Interest\n1h\nSingle\nOpen Interest (JCT)\nNotional Value of Op...\n18:00\n00:00\n06:00\n12:00\n18:00\n3,840M\n4,080M\n4,320M\n6M\n10M\n14M\nTop Trader Long/Short Ratio (Accounts)\n5m\nLong/Short Ratio (Accounts)\n16:00\n16:30\n17:00\n17:30\n18:00\n1.50\n1.70\n1.90\nTop Trader Long/Short Ratio (Positions)\n5m\nLong/Short Ratio (Positions)\n15:30\n16:00\n16:30\n17:00\n17:30\n1.71\n1.74\n1.76\nLong/Short Ratio\n5m\nLong/Short Ratio\n15:30\n16:00\n16:30\n17:00\n17:30\n1.50\n1.70\n1.90\nTaker Buy/Sell Volume\n1h\nTaker Sell Volume (JCT)\nTaker Buy Volume (JCT)\n12:00\n18:00\n00:00\n06:00\n12:00\n0.000\n2,000,000,000.000\n4,000,000,000.000\n10/10 17:00\n\nTaker Sell Volume (JCT): 809,515,351.000\n\nTaker Buy Volume (JCT): 787,046,592.000\n\nBasis\n5m\nFutures Price\nPrice Index\nBasis\n15:30\n16:00\n16:30\n17:00\n17:30\n0.0017600\n0.0019200\n0.0020800\n-0.0000025\n0.0000025\n0.0000075\nFunding Rate: 0.005000%\nLast 40 Times\n10/5\n10/6\n10/7\n10/8\n10/9\n10/10\n0%\n0.04%\n0.08%\nOpen Interest to Market Cap Ratio\n5m\nPrice\nRatio\n16:00\n16:30\n17:00\n17:30\n18:00\n0.0018\n0.00192\n0.00204\n33.500%\n34.000%\n34.500%"
+    },
+    {
+      "kind": "taker_1h",
+      "observed_at": "2026-10-11T01:03:07.805Z",
+      "dom": "Open Interest\n1h\nSingle\nOpen Interest (JCT)\nNotional Value of Op...\n18:00\n00:00\n06:00\n12:00\n18:00\n3,840M\n4,080M\n4,320M\n6M\n10M\n14M\nTop Trader Long/Short Ratio (Accounts)\n5m\nLong/Short Ratio (Accounts)\n16:00\n16:30\n17:00\n17:30\n18:00\n1.50\n1.70\n1.90\nTop Trader Long/Short Ratio (Positions)\n5m\nLong/Short Ratio (Positions)\n15:30\n16:00\n16:30\n17:00\n17:30\n1.71\n1.74\n1.76\nLong/Short Ratio\n5m\nLong/Short Ratio\n15:30\n16:00\n16:30\n17:00\n17:30\n1.50\n1.70\n1.90\nTaker Buy/Sell Volume\n1h\nTaker Sell Volume (JCT)\nTaker Buy Volume (JCT)\n12:00\n18:00\n00:00\n06:00\n12:00\n0.000\n2,000,000,000.000\n4,000,000,000.000\n10/10 16:00\n\nTaker Sell Volume (JCT): 454,738,920.000\n\nTaker Buy Volume (JCT): 413,885,032.000\n\nBasis\n5m\nFutures Price\nPrice Index\nBasis\n15:30\n16:00\n16:30\n17:00\n17:30\n0.0017600\n0.0019200\n0.0020800\n-0.0000025\n0.0000025\n0.0000075\nFunding Rate: 0.005000%\nLast 40 Times\n10/5\n10/6\n10/7\n10/8\n10/9\n10/10\n0%\n0.04%\n0.08%\nOpen Interest to Market Cap Ratio\n5m\nPrice\nRatio\n16:00\n16:30\n17:00\n17:30\n18:00\n0.0018\n0.00192\n0.00204\n33.500%\n34.000%\n34.500%"
+    },
+    {
+      "kind": "taker_1h",
+      "observed_at": "2026-10-11T01:03:08.053Z",
+      "dom": "Open Interest\n1h\nSingle\nOpen Interest (JCT)\nNotional Value of Op...\n18:00\n00:00\n06:00\n12:00\n18:00\n3,840M\n4,080M\n4,320M\n6M\n10M\n14M\nTop Trader Long/Short Ratio (Accounts)\n5m\nLong/Short Ratio (Accounts)\n16:00\n16:30\n17:00\n17:30\n18:00\n1.50\n1.70\n1.90\nTop Trader Long/Short Ratio (Positions)\n5m\nLong/Short Ratio (Positions)\n15:30\n16:00\n16:30\n17:00\n17:30\n1.71\n1.74\n1.76\nLong/Short Ratio\n5m\nLong/Short Ratio\n15:30\n16:00\n16:30\n17:00\n17:30\n1.50\n1.70\n1.90\nTaker Buy/Sell Volume\n1h\nTaker Sell Volume (JCT)\nTaker Buy Volume (JCT)\n12:00\n18:00\n00:00\n06:00\n12:00\n0.000\n2,000,000,000.000\n4,000,000,000.000\n10/10 15:00\n\nTaker Sell Volume (JCT): 692,540,189.000\n\nTaker Buy Volume (JCT): 707,925,561.000\n\nBasis\n5m\nFutures Price\nPrice Index\nBasis\n15:30\n16:00\n16:30\n17:00\n17:30\n0.0017600\n0.0019200\n0.0020800\n-0.0000025\n0.0000025\n0.0000075\nFunding Rate: 0.005000%\nLast 40 Times\n10/5\n10/6\n10/7\n10/8\n10/9\n10/10\n0%\n0.04%\n0.08%\nOpen Interest to Market Cap Ratio\n5m\nPrice\nRatio\n16:00\n16:30\n17:00\n17:30\n18:00\n0.0018\n0.00192\n0.00204\n33.500%\n34.000%\n34.500%"
+    },
+    {
+      "kind": "taker_1h",
+      "observed_at": "2026-10-11T01:03:08.286Z",
+      "dom": "Open Interest\n1h\nSingle\nOpen Interest (JCT)\nNotional Value of Op...\n18:00\n00:00\n06:00\n12:00\n18:00\n3,840M\n4,080M\n4,320M\n6M\n10M\n14M\nTop Trader Long/Short Ratio (Accounts)\n5m\nLong/Short Ratio (Accounts)\n16:00\n16:30\n17:00\n17:30\n18:00\n1.50\n1.70\n1.90\nTop Trader Long/Short Ratio (Positions)\n5m\nLong/Short Ratio (Positions)\n15:30\n16:00\n16:30\n17:00\n17:30\n1.71\n1.74\n1.76\nLong/Short Ratio\n5m\nLong/Short Ratio\n15:30\n16:00\n16:30\n17:00\n17:30\n1.50\n1.70\n1.90\nTaker Buy/Sell Volume\n1h\nTaker Sell Volume (JCT)\nTaker Buy Volume (JCT)\n12:00\n18:00\n00:00\n06:00\n12:00\n0.000\n2,000,000,000.000\n4,000,000,000.000\n10/10 14:00\n\nTaker Sell Volume (JCT): 1,780,817,463.000\n\nTaker Buy Volume (JCT): 1,777,862,659.000\n\nBasis\n5m\nFutures Price\nPrice Index\nBasis\n15:30\n16:00\n16:30\n17:00\n17:30\n0.0017600\n0.0019200\n0.0020800\n-0.0000025\n0.0000025\n0.0000075\nFunding Rate: 0.005000%\nLast 40 Times\n10/5\n10/6\n10/7\n10/8\n10/9\n10/10\n0%\n0.04%\n0.08%\nOpen Interest to Market Cap Ratio\n5m\nPrice\nRatio\n16:00\n16:30\n17:00\n17:30\n18:00\n0.0018\n0.00192\n0.00204\n33.500%\n34.000%\n34.500%"
+    },
+    {
+      "kind": "taker_1h",
+      "observed_at": "2026-10-11T01:03:08.521Z",
+      "dom": "Open Interest\n1h\nSingle\nOpen Interest (JCT)\nNotional Value of Op...\n18:00\n00:00\n06:00\n12:00\n18:00\n3,840M\n4,080M\n4,320M\n6M\n10M\n14M\nTop Trader Long/Short Ratio (Accounts)\n5m\nLong/Short Ratio (Accounts)\n16:00\n16:30\n17:00\n17:30\n18:00\n1.50\n1.70\n1.90\nTop Trader Long/Short Ratio (Positions)\n5m\nLong/Short Ratio (Positions)\n15:30\n16:00\n16:30\n17:00\n17:30\n1.71\n1.74\n1.76\nLong/Short Ratio\n5m\nLong/Short Ratio\n15:30\n16:00\n16:30\n17:00\n17:30\n1.50\n1.70\n1.90\nTaker Buy/Sell Volume\n1h\nTaker Sell Volume (JCT)\nTaker Buy Volume (JCT)\n12:00\n18:00\n00:00\n06:00\n12:00\n0.000\n2,000,000,000.000\n4,000,000,000.000\n10/10 13:00\n\nTaker Sell Volume (JCT): 3,251,724,519.000\n\nTaker Buy Volume (JCT): 2,934,981,887.000\n\nBasis\n5m\nFutures Price\nPrice Index\nBasis\n15:30\n16:00\n16:30\n17:00\n17:30\n0.0017600\n0.0019200\n0.0020800\n-0.0000025\n0.0000025\n0.0000075\nFunding Rate: 0.005000%\nLast 40 Times\n10/5\n10/6\n10/7\n10/8\n10/9\n10/10\n0%\n0.04%\n0.08%\nOpen Interest to Market Cap Ratio\n5m\nPrice\nRatio\n16:00\n16:30\n17:00\n17:30\n18:00\n0.0018\n0.00192\n0.00204\n33.500%\n34.000%\n34.500%"
+    },
+    {
+      "kind": "taker_1h",
+      "observed_at": "2026-10-11T01:03:08.767Z",
+      "dom": "Open Interest\n1h\nSingle\nOpen Interest (JCT)\nNotional Value of Op...\n18:00\n00:00\n06:00\n12:00\n18:00\n3,840M\n4,080M\n4,320M\n6M\n10M\n14M\nTop Trader Long/Short Ratio (Accounts)\n5m\nLong/Short Ratio (Accounts)\n16:00\n16:30\n17:00\n17:30\n18:00\n1.50\n1.70\n1.90\nTop Trader Long/Short Ratio (Positions)\n5m\nLong/Short Ratio (Positions)\n15:30\n16:00\n16:30\n17:00\n17:30\n1.71\n1.74\n1.76\nLong/Short Ratio\n5m\nLong/Short Ratio\n15:30\n16:00\n16:30\n17:00\n17:30\n1.50\n1.70\n1.90\nTaker Buy/Sell Volume\n1h\nTaker Sell Volume (JCT)\nTaker Buy Volume (JCT)\n12:00\n18:00\n00:00\n06:00\n12:00\n0.000\n2,000,000,000.000\n4,000,000,000.000\n10/10 12:00\n\nTaker Sell Volume (JCT): 731,579,028.000\n\nTaker Buy Volume (JCT): 669,902,324.000\n\nBasis\n5m\nFutures Price\nPrice Index\nBasis\n15:30\n16:00\n16:30\n17:00\n17:30\n0.0017600\n0.0019200\n0.0020800\n-0.0000025\n0.0000025\n0.0000075\nFunding Rate: 0.005000%\nLast 40 Times\n10/5\n10/6\n10/7\n10/8\n10/9\n10/10\n0%\n0.04%\n0.08%\nOpen Interest to Market Cap Ratio\n5m\nPrice\nRatio\n16:00\n16:30\n17:00\n17:30\n18:00\n0.0018\n0.00192\n0.00204\n33.500%\n34.000%\n34.500%"
+    },
+    {
+      "kind": "taker_1h",
+      "observed_at": "2026-10-11T01:03:09.002Z",
+      "dom": "Open Interest\n1h\nSingle\nOpen Interest (JCT)\nNotional Value of Op...\n18:00\n00:00\n06:00\n12:00\n18:00\n3,840M\n4,080M\n4,320M\n6M\n10M\n14M\nTop Trader Long/Short Ratio (Accounts)\n5m\nLong/Short Ratio (Accounts)\n16:00\n16:30\n17:00\n17:30\n18:00\n1.50\n1.70\n1.90\nTop Trader Long/Short Ratio (Positions)\n5m\nLong/Short Ratio (Positions)\n15:30\n16:00\n16:30\n17:00\n17:30\n1.71\n1.74\n1.76\nLong/Short Ratio\n5m\nLong/Short Ratio\n15:30\n16:00\n16:30\n17:00\n17:30\n1.50\n1.70\n1.90\nTaker Buy/Sell Volume\n1h\nTaker Sell Volume (JCT)\nTaker Buy Volume (JCT)\n12:00\n18:00\n00:00\n06:00\n12:00\n0.000\n2,000,000,000.000\n4,000,000,000.000\n10/10 11:00\n\nTaker Sell Volume (JCT): 441,833,199.000\n\nTaker Buy Volume (JCT): 422,203,862.000\n\nBasis\n5m\nFutures Price\nPrice Index\nBasis\n15:30\n16:00\n16:30\n17:00\n17:30\n0.0017600\n0.0019200\n0.0020800\n-0.0000025\n0.0000025\n0.0000075\nFunding Rate: 0.005000%\nLast 40 Times\n10/5\n10/6\n10/7\n10/8\n10/9\n10/10\n0%\n0.04%\n0.08%\nOpen Interest to Market Cap Ratio\n5m\nPrice\nRatio\n16:00\n16:30\n17:00\n17:30\n18:00\n0.0018\n0.00192\n0.00204\n33.500%\n34.000%\n34.500%"
+    },
+    {
+      "kind": "candle_1h",
+      "observed_at": "2026-10-11T01:03:30.430Z",
+      "dom": "Time\n1s\n15m\n1H\n4H\n1D\n1W\nLast Price\nOriginal\nTrading View\nDepth\n2026/10/10 17:00\nOpen\n0.001839\nHigh\n0.002021\nLow\n0.001826\nClose\n0.001889\nCHANGE\n2.77%\nRange\n10.60%\nMA(7)\n0.002105\nMA(25)\n0.002640\nMA(99)\n0.002091\nVol(JCT)\n1.596B\nVol(USDT)\n3.06M\n2.268B\n1.74B"
+    },
+    {
+      "kind": "candle_4h",
+      "observed_at": "2026-10-11T01:03:39.608Z",
+      "dom": "Time\n1s\n15m\n1H\n4H\n1D\n1W\nLast Price\nOriginal\nTrading View\nDepth\n2026/10/10 13:00\nOpen\n0.002774\nHigh\n0.002800\nLow\n0.001536\nClose\n0.001838\nCHANGE\n-33.78%\nRange\n45.53%\nMA(7)\n0.002647\nMA(25)\n0.002102\nMA(99)\n0.001816\nVol(JCT)\n12.015B\nVol(USDT)\n23.052M\n5.626B\n7.491B"
+    },
+    {
+      "kind": "settled_funding",
+      "observed_at": "2026-10-11T01:07:23.783Z",
+      "source_url": "https://www.binance.com/en/futures/funding-history/perpetual/funding-fee-history",
+      "dom": "JCTUSDT Perpetual\nTime\tFunding Interval\tFunding Rate\t\nMark Price\n\n2026-10-10 17:00:00\t4h\t0.005000%\t0.0018400 USDT\n2026-10-10 13:00:00\t4h\t0.023018%\t0.0027730 USDT\n2026-10-10 09:00:00\t4h\t0.021004%\t0.0029750 USDT\n2026-10-10 05:00:00\t4h\t0.027368%\t0.0030169 USDT\n2026-10-10 01:00:00\t4h\t0.014583%\t0.0027600 USDT\n2026-10-09 21:00:00\t4h\t0.005000%\t0.0025629 USDT\n2026-10-09 17:00:00\t4h\t0.011574%\t0.0025862 USDT\n2026-10-09 13:00:00\t4h\t0.005000%\t0.0023886 USDT\n2026-10-09 09:00:00\t4h\t0.035016%\t0.0026300 USDT\n2026-10-09 05:00:00\t4h\t0.012615%\t0.0024120 USDT\n2026-10-09 01:00:00\t4h\t0.023162%\t0.0023530 USDT\n2026-10-08 21:00:00\t4h\t0.028822%\t0.0022920 USDT\n2026-10-08 17:00:00\t4h\t0.064672%\t0.0025734 USDT\n2026-10-08 13:00:00\t4h\t0.009380%\t0.0019270 USDT\n2026-10-08 09:00:00\t4h\t0.005000%\t0.0013640 USDT\n2026-10-08 05:00:00\t4h\t0.005000%\t0.0015830 USDT\n2026-10-08 01:00:00\t4h\t0.005000%\t0.0015757 USDT\n2026-10-07 21:00:00\t4h\t0.005000%\t0.0015790 USDT\n2026-10-07 17:00:00\t4h\t0.005000%\t0.0015870 USDT\n2026-10-07 13:00:00\t4h\t0.005000%\t0.0015809 USDT"
+    },
+    {
+      "kind": "quote_confirmation",
+      "observed_at": "2026-10-11T01:07:46.856Z",
+      "dom": "- heading \"JCTUSDT info tag\" [level=1]:\n  - generic: JCTUSDT\n  - generic \"info tag\":\n    - tooltip \"Perp\":\n      - generic: Perp\n- generic: \"0.001880\"\n- generic: \"-0.000802\"\n- generic: \"-29.90%\"\n- generic: Mark\n- generic: \"0.001877\"\n- link \"Index\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/index?contract=JCTUSDT\n  - text: Index\n- generic: \"0.001876\"\n- generic: Funding (4h) / Countdown\n- generic: 0.00500%\n- generic: /\n- generic: 02:52:13\n- generic: 24h High\n- generic: \"0.003137\"\n- generic: 24h Low\n- generic: \"0.001536\"\n- generic: 24h Vol(JCT)\n- generic: 38,338,512,628.00\n- generic: 24h Vol(USDT)\n- generic: 97,531,656.96\n- link \"Open Interest(USDT)\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=JCTUSDT\n  - text: Open Interest(USDT)\n- generic: 7,381,499.27\n- generic: FindBorderBarSize\n- tablist:\n  - tab \"Chart\" [selected]:\n    - tab \"Chart\" [selected]:\n      - text: Chart\n  - tab \"Info\":\n    - tab \"Info\"\n  - tab \"Trading Data\":\n    - tab \"Trading Data\"\n- separator \"Resize\"\n- tablist:\n  - tab \"Order Book\" [selected]:\n    - tab \"Order Book\" [selected]:\n      - text: Order Book\n- separator \"Resize\"\n- tablist:\n  - tab \"Trades\" [selected]:\n    - tab \"Trades\" [selected]:\n      - text: Trades\n  - tab \"Top Movers\":\n    - tab \"Top Movers\"\n- separator \"Resize\"\n- tabpanel \"Chart\":\n  - generic: Time\n  - generic: 1s\n  - generic: 15m\n  - generic: 1H\n  - generic: 4H\n  - generic: 1D\n  - generic: 1W\n  - combobox \"Select an option\":\n  - text: Last Price\n  - generic: Original\n  - generic: Trading View\n  - generic: Depth\n  - generic: 2026/10/10 13:00\n  - generic: Open\n  - generic: \"0.002774\"\n  - generic: High\n  - generic: \"0.002800\"\n  - generic: Low\n  - generic: \"0.001536\"\n  - generic: Close\n  - generic: \"0.001838\"\n  - generic: CHANGE\n  - generic: \"-33.78%\"\n  - generic: Range\n  - generic: 45.53%\n  - generic: MA(7)\n  - generic: \"0.002647\"\n  - generic: MA(25)\n  - generic: \"0.002102\"\n  - generic: MA(99)\n  - generic: \"0.001816\"\n  - generic: Vol(JCT)\n  - generic: 12.015B\n  - generic: Vol(USDT)\n  - generic: 23.052M\n  - generic: 5.626B\n  - generic: 7.491B\n- tabpanel \"Order Book\":\n  - generic: \"0.000001\"\n  - generic: Price (USDT)\n  - generic: Size\n  - generic: (JCT)\n  - generic: Sum\n  - generic: (JCT)\n  - generic: \"0.001883\"\n  - generic: 701.27K\n  - generic: 2.11M\n  - generic: \"0.001882\"\n  - generic: 600.80K\n  - generic: 1.40M\n  - generic: \"0.001881\"\n  - generic: 462.82K\n  - generic: 808.65K\n  - generic: \"0.001880\"\n  - generic: 305.47K\n  - generic: 345.82K\n  - generic: \"0.001879\"\n  - generic: 40.35K\n  - generic: 40.35K\n  - generic: \"0.001880\"\n  - generic: \"0.001877\"\n  - generic: \"0.001878\"\n  - generic: 121.53K\n  - generic: 121.53K\n  - generic: \"0.001877\"\n  - generic: 1.15M\n  - generic: 1.27M\n  - generic: \"0.001876\"\n  - generic: 169.09K\n  - generic: 1.44M\n  - generic: \"0.001875\"\n  - generic: 248.80K\n  - generic: 1.69M\n  - generic: \"0.001874\"\n  - generic: 613.91K\n  - generic: 2.31M\n- tabpanel \"Trades\":\n  - generic: Price (USDT)\n  - generic: Amount\n  - generic: (JCT)\n  - generic: Time\n  - generic: \"0.001880\"\n  - generic: 1.05M\n  - generic: 18:07:46\n  - generic: \"0.001877\"\n  - generic: 104.54K\n  - generic: 18:07:45\n  - generic: \"0.001877\"\n  - generic: 125.76K\n  - generic: 18:07:44\n  - generic: \"0.001880\"\n  - generic: 186.78K\n  - generic: 18:07:43\n  - generic: \"0.001877\"\n  - generic: 9.37K\n  - generic: 18:07:40\n  - generic: \"0.001877\"\n  - generic: 16.60K\n  - generic: 18:07:38\n"
+    },
+    {
+      "kind": "oi_1h_latest",
+      "observed_at": "2026-10-11T01:08:34.709Z",
+      "dom": "Open Interest\n1h\nSingle\nOpen Interest (JCT)\nNotional Value of Op...\n18:00\n00:00\n06:00\n12:00\n18:00\n3,840M\n4,080M\n4,320M\n6M\n10M\n14M\n10/10 17:00\n\nOpen Interest (JCT): 3,888,207,581.000\n\nNotional Value of Open Interest (USDT):\n\n7,162,078.36\n\nTop Trader Long/Short Ratio (Accounts)\n5m\nLong/Short Ratio (Accounts)\n16:00\n16:30\n17:00\n17:30\n18:00\n1.60\n1.76\n1.92\nTop Trader Long/Short Ratio (Positions)\n5m\nLong/Short Ratio (Positions)\n16:00\n16:30\n17:00\n17:30\n18:00\n1.71\n1.74\n1.76\nLong/Short Ratio\n5m\nLong/Short Ratio\n16:00\n16:30\n17:00\n17:30\n18:00\n1.60\n1.76\n1.92\nTaker Buy/Sell Volume\n5m\nTaker Sell Volume (JCT)\nTaker Buy Volume (JCT)\n15:30\n16:00\n16:30\n17:00\n17:30\n0.000\n160,000,000.000\n320,000,000.000\nBasis\n5m\nFutures Price\nPrice Index\nBasis\n16:00\n16:30\n17:00\n17:30\n18:00\n0.0017600\n0.0019200\n0.0020800\n-0.0000025\n0.0000025\n0.0000075\nFunding Rate: 0.005000%\nLast 40 Times\n10/5\n10/6\n10/7\n10/8\n10/9\n10/10\n0%\n0.04%\n0.08%\nOpen Interest to Market Cap Ratio\n5m\nPrice\nRatio\n16:00\n16:30\n17:00\n17:30\n18:00\n0.0018\n0.00192\n0.00204\n33.500%\n34.000%\n34.500%"
+    },
+    {
+      "kind": "oi_1h_latest",
+      "observed_at": "2026-10-11T01:08:34.985Z",
+      "dom": "Open Interest\n1h\nSingle\nOpen Interest (JCT)\nNotional Value of Op...\n18:00\n00:00\n06:00\n12:00\n18:00\n3,840M\n4,080M\n4,320M\n6M\n10M\n14M\n10/10 18:00\n\nOpen Interest (JCT): 3,941,652,123.000\n\nNotional Value of Open Interest (USDT):\n\n7,449,722.51\n\nTop Trader Long/Short Ratio (Accounts)\n5m\nLong/Short Ratio (Accounts)\n16:00\n16:30\n17:00\n17:30\n18:00\n1.60\n1.76\n1.92\nTop Trader Long/Short Ratio (Positions)\n5m\nLong/Short Ratio (Positions)\n16:00\n16:30\n17:00\n17:30\n18:00\n1.71\n1.74\n1.76\nLong/Short Ratio\n5m\nLong/Short Ratio\n16:00\n16:30\n17:00\n17:30\n18:00\n1.60\n1.76\n1.92\nTaker Buy/Sell Volume\n5m\nTaker Sell Volume (JCT)\nTaker Buy Volume (JCT)\n15:30\n16:00\n16:30\n17:00\n17:30\n0.000\n160,000,000.000\n320,000,000.000\nBasis\n5m\nFutures Price\nPrice Index\nBasis\n16:00\n16:30\n17:00\n17:30\n18:00\n0.0017600\n0.0019200\n0.0020800\n-0.0000025\n0.0000025\n0.0000075\nFunding Rate: 0.005000%\nLast 40 Times\n10/5\n10/6\n10/7\n10/8\n10/9\n10/10\n0%\n0.04%\n0.08%\nOpen Interest to Market Cap Ratio\n5m\nPrice\nRatio\n16:00\n16:30\n17:00\n17:30\n18:00\n0.0018\n0.00192\n0.00204\n33.500%\n34.000%\n34.500%"
+    }
+  ],
+  "display_timezone": null,
+  "exchange_event_time": null,
+  "limitations": [
+    "Public signed-out rendered UI only. Three symbols are not full-market coverage.",
+    "Observation times are capture times, not venue event timestamps; display timezone and candle finality/boundary semantics remain unverified.",
+    "Historical hourly labels and quantity units are preserved; no exact UTC hourly movement inferred.",
+    "Current predicted funding in quote differs from settled funding history.",
+    "Rounded K/M/B depth and candle volumes are not exact unrounded quantities.",
+    "KAIA first candle_4h capture is developing; candle_4h_historical is separately preserved.",
+    "No account state, trade execution or trading eligibility inferred."
+  ],
+  "missing_fields": [
+    "verified_display_timezone",
+    "verified_exchange_event_timestamps",
+    "independently_verified_candle_finality",
+    "full_order_book_depth"
+  ],
+  "numeric_conventions": {
+    "funding_percent_to_decimal": "Divide displayed percentage by 100.",
+    "suffixes": "K=1000; M=1000000; B=1000000000; values rounded."
+  },
+  "alert_assessment": {
+    "result": "NO_VERIFIED_NEW_TRIGGER",
+    "oi_display_labels": [
+      "10/10 17:00",
+      "10/10 18:00"
+    ],
+    "oi_quantity": [
+      3888207581,
+      3941652123
+    ],
+    "oi_relative_change": 0.013745290313500913,
+    "oi_threshold": 0.05,
+    "oi_time_caveat": "Same chart 1h labels, absolute UTC boundaries unverified.",
+    "mark_comparison": {
+      "prior_observed_at": "2026-10-11T00:01:45.237Z",
+      "prior_mark": 0.001834,
+      "current_observed_at": "2026-10-11T01:02:07.916Z",
+      "current_mark": 0.001874,
+      "relative_change": 0.02181025081788457,
+      "threshold": 0.1
+    },
+    "volume_rule": {
+      "status": "NOT_VERIFIED",
+      "reason": "Seven displayed hourly taker bars captured, but independently verified completed-hour boundaries unavailable. Do not assert valid 6-hour baseline or definitive volume multiplier. Displayed17:00 candle change2.77% also below3% condition."
+    },
+    "confirmation": {
+      "observed_at": "2026-10-11T01:07:46.856Z",
+      "mark_price": 0.001877
+    },
+    "notification": "No new alert candidate. Prior selloff already reported, no repeat."
+  }
+}

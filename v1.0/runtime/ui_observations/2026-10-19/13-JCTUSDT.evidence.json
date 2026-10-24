@@ -1,0 +1,96 @@
+{
+  "symbol": "JCTUSDT",
+  "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+  "display_timezone": null,
+  "execution_eligible": false,
+  "public_header_capture": {
+    "observed_at": "2026-10-19T13:02:57.300Z",
+    "raw_text": "JCTUSDT\nPerp\n0.001905\n-0.000008\n-0.47%\nMark\n0.001905\nIndex\n0.001898\nFunding (4h) / Countdown\n0.00500%\n/\n02:57:03\n24h High\n0.001962\n24h Low\n0.001744\n24h Vol(JCT)\n1,316,109,824.00\n24h Vol(USDT)\n2,444,414.46\nOpen Interest(USDT)\n6,425,389.82\n"
+  },
+  "public_order_book_capture": {
+    "observed_at": "2026-10-19T13:02:57.300Z",
+    "price_unit": "USDT",
+    "size_unit": "JCT",
+    "display_raw_lines": [
+      "0.001909",
+      "141.94K",
+      "644.46K",
+      "0.001908",
+      "415.00K",
+      "502.51K",
+      "0.001907",
+      "42.93K",
+      "87.51K",
+      "0.001906",
+      "32.63K",
+      "44.57K",
+      "0.001905",
+      "11.93K",
+      "11.93K",
+      "0.001905",
+      "0.001905",
+      "0.001904",
+      "40.88K",
+      "40.88K",
+      "0.001903",
+      "144.11K",
+      "185.00K",
+      "0.001902",
+      "197.84K",
+      "382.84K",
+      "0.001901",
+      "399.43K",
+      "782.27K",
+      "0.001900",
+      "426.68K",
+      "1.20M"
+    ],
+    "precision_note": "K/M abbreviations retained; no exact size inferred"
+  },
+  "hourly_oi_tooltips": [
+    {
+      "raw_chart_label": "10/19 19:00",
+      "quantity": 3375371391.0,
+      "quantity_raw": "3,375,371,391.000",
+      "unit": "JCT",
+      "notional_usdt_raw": "6,324,973.43",
+      "observed_at": "2026-10-19T13:06:05.460Z",
+      "display_timezone": null,
+      "event_at_utc": null
+    },
+    {
+      "raw_chart_label": "10/19 20:00",
+      "quantity": 3377491379.0,
+      "quantity_raw": "3,377,491,379.000",
+      "unit": "JCT",
+      "notional_usdt_raw": "6,417,233.62",
+      "observed_at": "2026-10-19T13:06:05.367Z",
+      "display_timezone": null,
+      "event_at_utc": null
+    }
+  ],
+  "other_interval_quantity_tooltip": null,
+  "limitations": [
+    "Chart raw labels unconverted to UTC/Beijing.",
+    "Snapshot observation time is not exchange event time.",
+    "All missing fields null; no past endpoint retimed.",
+    "Four contracts only, not whole market."
+  ],
+  "technical_attempts": [
+    {
+      "attempt_at_utc": "2026-10-19T13:07:26Z",
+      "action": "read STRK tab after navigation",
+      "result": "Page.getFrameTree timeout; recovered with fresh public tab later"
+    },
+    {
+      "attempt_at_utc": "2026-10-19T13:10:24Z",
+      "action": "SHELL 1h selector",
+      "result": "CDP deadline before dispatch"
+    },
+    {
+      "attempt_at_utc": "2026-10-19T13:13:18Z",
+      "action": "SHELL DOM status check",
+      "result": "prepare tab command timeout"
+    }
+  ]
+}

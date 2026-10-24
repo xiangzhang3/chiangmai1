@@ -1,0 +1,623 @@
+{
+  "symbol": "KAIAUSDT",
+  "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+  "observed_at": "2026-10-13T02:07:23.142Z",
+  "fields": {
+    "last_price": 0.04682,
+    "mark_price": 0.04687,
+    "index_price": 0.04706,
+    "funding_rate": -0.0004372,
+    "funding_interval_hours": 1,
+    "open_interest_notional_usdt": 6576643.59
+  },
+  "classification": "RESEARCH_ONLY",
+  "execution_eligible": false,
+  "source_type": "official_signed_out_rendered_website",
+  "status": "PUBLIC_UI_CAPTURE",
+  "capture_start_utc": "2026-10-13T02:07:20.780Z",
+  "capture_end_utc": "2026-10-13T02:10:57.406Z",
+  "display_timezone": null,
+  "raw_chart_timezone": "unknown",
+  "capture_time_is_event_time": false,
+  "selected_symbol_verified_from": "Rendered contract heading and Perp/perpetual badge, matching Index and Open Interest links, chart quantity units and order-book units.",
+  "browser_address_url": "https://www.binance.com/en/futures/KAIAUSDT",
+  "notes": [
+    "Only public signed-out rendered page data. No API, account state, orders, credentials or private data.",
+    "Raw chart labels are preserved without assigning UTC or Beijing event time.",
+    "Volumes and depth use displayed K/M/B precision; derived ratios are approximate.",
+    "Predicted funding with countdown is separate from untimestamped historical summary. No timestamped settled payment is established.",
+    "OHLCV and taker sums are separate rendered series and can differ slightly.",
+    "Cloud tab crashed during 4H capture; recovered through its visible Reload button. Subsequent untranslated UI keys were retained verbatim in raw evidence."
+  ],
+  "quantity_oi": {
+    "interval": "1h",
+    "unit": "KAIA",
+    "points": [
+      {
+        "raw_label": "10/12 18:00",
+        "quantity": 145073501,
+        "unit": "KAIA",
+        "notional_usdt": 6489137.69,
+        "captured_at_utc": "2026-10-13T02:10:17.448Z",
+        "event_time_utc": null
+      },
+      {
+        "raw_label": "10/12 19:00",
+        "quantity": 140386408,
+        "unit": "KAIA",
+        "notional_usdt": 6616411.4,
+        "captured_at_utc": "2026-10-13T02:10:18.075Z",
+        "event_time_utc": null
+      }
+    ],
+    "delta_quantity": -4687093,
+    "change_pct": -3.2308402069927245,
+    "quality": "Latest two rendered hourly endpoints verified; raw timezone unverified.",
+    "delayed_relative_to_running_hour": false,
+    "latest_raw_label_advanced_since_prior_capture": true,
+    "same_window_price_volume_raw_label": "2026/10/12 18:00",
+    "interval_verification": "1futures-trade-unit-hour selected; translated UI label fallback after tab crash/reload.",
+    "stale_endpoint_flag": false,
+    "stale_endpoint_basis": "Latest endpoint raw19 matches verified running1H raw19; prior capture endpoint raw18; no venue timezone claim."
+  },
+  "closed_hour": {
+    "raw_label": "2026/10/12 18:00",
+    "interval": "1H",
+    "open": 0.04479,
+    "high": 0.04852,
+    "low": 0.04467,
+    "close": 0.0471,
+    "ui_change_pct": 5.18,
+    "volume_qty_display": "111.28M",
+    "volume_qty": 111280000,
+    "volume_qty_unit": "KAIA",
+    "volume_usdt_display": "5.221M",
+    "volume_usdt": 5221000,
+    "captured_at_utc": "2026-10-13T02:07:21.088Z",
+    "event_time_utc": null,
+    "calculated_open_to_close_pct": 5.157401205626244,
+    "completion_basis": "Later running candle 2026/10/12 19:00 verified on same 1H chart; raw timezone unknown.",
+    "prior_six_closed_baseline": [
+      {
+        "raw_label": "2026/10/12 17:00",
+        "interval": "1H",
+        "open": 0.045,
+        "high": 0.04531,
+        "low": 0.04384,
+        "close": 0.04478,
+        "ui_change_pct": -0.48,
+        "volume_qty_display": "68.579M",
+        "volume_qty": 68579000,
+        "volume_qty_unit": "KAIA",
+        "volume_usdt_display": "3.058M",
+        "volume_usdt": 3058000,
+        "captured_at_utc": "2026-10-13T02:07:21.453Z",
+        "event_time_utc": null,
+        "calculated_open_to_close_pct": -0.48888888888888316
+      },
+      {
+        "raw_label": "2026/10/12 16:00",
+        "interval": "1H",
+        "open": 0.04529,
+        "high": 0.04547,
+        "low": 0.0441,
+        "close": 0.045,
+        "ui_change_pct": -0.66,
+        "volume_qty_display": "50.553M",
+        "volume_qty": 50553000,
+        "volume_qty_unit": "KAIA",
+        "volume_usdt_display": "2.253M",
+        "volume_usdt": 2253000,
+        "captured_at_utc": "2026-10-13T02:07:21.749Z",
+        "event_time_utc": null,
+        "calculated_open_to_close_pct": -0.6403179509825496
+      },
+      {
+        "raw_label": "2026/10/12 15:00",
+        "interval": "1H",
+        "open": 0.04543,
+        "high": 0.04559,
+        "low": 0.04507,
+        "close": 0.0453,
+        "ui_change_pct": -0.22,
+        "volume_qty_display": "20.083M",
+        "volume_qty": 20083000,
+        "volume_qty_unit": "KAIA",
+        "volume_usdt_display": "910.333K",
+        "volume_usdt": 910333,
+        "captured_at_utc": "2026-10-13T02:07:22.020Z",
+        "event_time_utc": null,
+        "calculated_open_to_close_pct": -0.2861545234426499
+      },
+      {
+        "raw_label": "2026/10/12 14:00",
+        "interval": "1H",
+        "open": 0.04614,
+        "high": 0.04632,
+        "low": 0.0452,
+        "close": 0.0454,
+        "ui_change_pct": -1.58,
+        "volume_qty_display": "20.963M",
+        "volume_qty": 20963000,
+        "volume_qty_unit": "KAIA",
+        "volume_usdt_display": "958.128K",
+        "volume_usdt": 958128,
+        "captured_at_utc": "2026-10-13T02:07:22.294Z",
+        "event_time_utc": null,
+        "calculated_open_to_close_pct": -1.603814477676635
+      },
+      {
+        "raw_label": "2026/10/12 13:00",
+        "interval": "1H",
+        "open": 0.04671,
+        "high": 0.04686,
+        "low": 0.04611,
+        "close": 0.04613,
+        "ui_change_pct": -1.26,
+        "volume_qty_display": "8.82M",
+        "volume_qty": 8820000,
+        "volume_qty_unit": "KAIA",
+        "volume_usdt_display": "410.468K",
+        "volume_usdt": 410468,
+        "captured_at_utc": "2026-10-13T02:07:22.582Z",
+        "event_time_utc": null,
+        "calculated_open_to_close_pct": -1.2417041318775524
+      },
+      {
+        "raw_label": "2026/10/12 12:00",
+        "interval": "1H",
+        "open": 0.04626,
+        "high": 0.04682,
+        "low": 0.04622,
+        "close": 0.04672,
+        "ui_change_pct": 0.99,
+        "volume_qty_display": "17.118M",
+        "volume_qty": 17118000,
+        "volume_qty_unit": "KAIA",
+        "volume_usdt_display": "797.099K",
+        "volume_usdt": 797099,
+        "captured_at_utc": "2026-10-13T02:07:22.857Z",
+        "event_time_utc": null,
+        "calculated_open_to_close_pct": 0.99437959360138
+      }
+    ],
+    "prior_six_mean_qty": 31019333.333333332,
+    "volume_ratio": 3.5874400911259645,
+    "price_volume_threshold_met": true
+  },
+  "running_hour_verification": {
+    "raw_label": "2026/10/12 19:00",
+    "interval": "1H",
+    "open": 0.04713,
+    "high": 0.0472,
+    "low": 0.0466,
+    "close": 0.04684,
+    "ui_change_pct": -0.55,
+    "volume_qty_display": "5.745M",
+    "volume_qty": 5745000,
+    "volume_qty_unit": "KAIA",
+    "volume_usdt_display": "269.392K",
+    "volume_usdt": 269392,
+    "captured_at_utc": "2026-10-13T02:07:20.780Z",
+    "event_time_utc": null,
+    "calculated_open_to_close_pct": -0.615319329514108
+  },
+  "closed_4h": {
+    "raw_label": "2026/10/12 13:00",
+    "interval": "4H",
+    "open": 0.04671,
+    "high": 0.04686,
+    "low": 0.0441,
+    "close": 0.045,
+    "ui_change_pct": -3.68,
+    "volume_qty_display": "100.42M",
+    "volume_qty": 100420000,
+    "volume_qty_unit": "KAIA",
+    "volume_usdt_display": "4.532M",
+    "volume_usdt": 4532000,
+    "captured_at_utc": "2026-10-13T02:10:57.406Z",
+    "event_time_utc": null,
+    "calculated_open_to_close_pct": -3.6608863198458685,
+    "running_4h_raw_label": "2026/10/12 17:00",
+    "completion_basis": "Later running candle 2026/10/12 17:00 verified on same 4H chart; raw timezone unknown."
+  },
+  "running_4h_verification": {
+    "raw_label": "2026/10/12 17:00",
+    "interval": "4H",
+    "open": 0.045,
+    "high": 0.04852,
+    "low": 0.04384,
+    "close": 0.04667,
+    "ui_change_pct": 3.71,
+    "volume_qty_display": "187.81M",
+    "volume_qty": 187810000,
+    "volume_qty_unit": "KAIA",
+    "volume_usdt_display": "8.652M",
+    "volume_usdt": 8652000,
+    "captured_at_utc": "2026-10-13T02:10:57.113Z",
+    "event_time_utc": null,
+    "calculated_open_to_close_pct": 3.7111111111111317
+  },
+  "taker_volume": {
+    "raw_label": "10/12 18:00",
+    "interval": "1h",
+    "unit": "KAIA",
+    "sell_quantity": 50833313,
+    "buy_quantity": 60363323,
+    "captured_at_utc": "2026-10-13T02:10:44.414Z",
+    "event_time_utc": null,
+    "buy_sell_ratio": 1.1874756815476497,
+    "delayed_relative_to_closed_hour": false,
+    "matched_latest_closed_hour": true,
+    "matching_basis": "Same contract, hourly interval and raw18:00 label; no UTC event-time mapping.",
+    "quantity_sum_difference_from_ohlcv": -83364
+  },
+  "funding": {
+    "predicted_rate_decimal_per_interval": -0.0004372,
+    "raw_predicted_percent": -0.04372,
+    "interval_hours": 1,
+    "captured_at_utc": "2026-10-13T02:07:23.142Z",
+    "raw_countdown": "00:52:37",
+    "conversion": "Displayed percent divided by 100.",
+    "history_summary_display_percent": -0.040487,
+    "history_summary_event_time_utc": null,
+    "history_summary_status": "Untimestamped rendered funding-history summary; do not treat as timestamped settled payment.",
+    "history_summary_captured_at_utc": "2026-10-13T02:10:44.414Z"
+  },
+  "depth": {
+    "captured_at_utc": "2026-10-13T02:07:23.142Z",
+    "price_unit": "USDT",
+    "size_unit": "KAIA",
+    "scope": "five visible levels each side",
+    "asks_descending": [
+      {
+        "price": 0.04686,
+        "size_quantity": 73480,
+        "cumulative_quantity": 126880,
+        "size_display": "73.48K",
+        "cumulative_display": "126.88K"
+      },
+      {
+        "price": 0.04685,
+        "size_quantity": 22870,
+        "cumulative_quantity": 53400,
+        "size_display": "22.87K",
+        "cumulative_display": "53.40K"
+      },
+      {
+        "price": 0.04684,
+        "size_quantity": 13840,
+        "cumulative_quantity": 30530,
+        "size_display": "13.84K",
+        "cumulative_display": "30.53K"
+      },
+      {
+        "price": 0.04683,
+        "size_quantity": 12960,
+        "cumulative_quantity": 16680,
+        "size_display": "12.96K",
+        "cumulative_display": "16.68K"
+      },
+      {
+        "price": 0.04682,
+        "size_quantity": 3710,
+        "cumulative_quantity": 3710,
+        "size_display": "3.71K",
+        "cumulative_display": "3.71K"
+      }
+    ],
+    "bids_descending": [
+      {
+        "price": 0.04681,
+        "size_quantity": 2690,
+        "cumulative_quantity": 2690,
+        "size_display": "2.69K",
+        "cumulative_display": "2.69K"
+      },
+      {
+        "price": 0.0468,
+        "size_quantity": 7930,
+        "cumulative_quantity": 10620,
+        "size_display": "7.93K",
+        "cumulative_display": "10.62K"
+      },
+      {
+        "price": 0.04679,
+        "size_quantity": 19340,
+        "cumulative_quantity": 29970,
+        "size_display": "19.34K",
+        "cumulative_display": "29.97K"
+      },
+      {
+        "price": 0.04678,
+        "size_quantity": 49640,
+        "cumulative_quantity": 79610,
+        "size_display": "49.64K",
+        "cumulative_display": "79.61K"
+      },
+      {
+        "price": 0.04677,
+        "size_quantity": 20820,
+        "cumulative_quantity": 100440,
+        "size_display": "20.82K",
+        "cumulative_display": "100.44K"
+      }
+    ],
+    "event_time_utc": null
+  },
+  "comparisons": {
+    "prior_hour_mark_reference": {
+      "prior_captured_at_utc": "2026-10-13T01:09:27.376Z",
+      "prior_mark_price": 0.04647,
+      "current_captured_at_utc": "2026-10-13T02:07:23.142Z",
+      "current_mark_price": 0.04687,
+      "elapsed_minutes": 57.929433333333336,
+      "change_pct": 0.8607703894986107
+    }
+  },
+  "missing_fields": {
+    "exchange_event_time_utc": {
+      "value": null,
+      "reason": "Rendered chart timezone unverified."
+    },
+    "timestamped_funding_settlement": {
+      "value": null,
+      "reason": "Only untimestamped funding-history summary captured; no timestamped settled funding tooltip verified."
+    },
+    "full_depth": {
+      "value": null,
+      "reason": "Only five rendered levels per side captured."
+    }
+  },
+  "raw_public_evidence": [
+    {
+      "kind": "KAIA_1h",
+      "at": "2026-10-13T02:07:20.780Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t\t640 text 2026/10/12 19:00 Open 0.04713 High 0.04720 Low 0.04660 Close 0.04684 CHANGE -0.55% Range 1.27%",
+        "\t\t\t\t\t\t\t\t\t642 text Vol(KAIA) 5.745M Vol(USDT) 269.392K 40.86M 34.727M"
+      ]
+    },
+    {
+      "kind": "KAIA_1h",
+      "at": "2026-10-13T02:07:21.088Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t\t643 text 2026/10/12 18:00 Open 0.04479 High 0.04852 Low 0.04467 Close 0.04710 CHANGE 5.18% Range 8.59%",
+        "\t\t\t\t\t\t\t\t\t642 text Vol(KAIA) 111.28M Vol(USDT) 5.221M 42.485M 36.133M"
+      ]
+    },
+    {
+      "kind": "KAIA_1h",
+      "at": "2026-10-13T02:07:21.453Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t\t643 text 2026/10/12 17:00 Open 0.04500 High 0.04531 Low 0.04384 Close 0.04478 CHANGE -0.48% Range 3.26%",
+        "\t\t\t\t\t\t\t\t\t642 text Vol(KAIA) 68.579M Vol(USDT) 3.058M 28.359M 30.49M"
+      ]
+    },
+    {
+      "kind": "KAIA_1h",
+      "at": "2026-10-13T02:07:21.749Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t\t643 text 2026/10/12 16:00 Open 0.04529 High 0.04547 Low 0.04410 Close 0.04500 CHANGE -0.66% Range 3.02%",
+        "\t\t\t\t\t\t\t\t\t642 text Vol(KAIA) 50.553M Vol(USDT) 2.253M 21.821M 28.419M"
+      ]
+    },
+    {
+      "kind": "KAIA_1h",
+      "at": "2026-10-13T02:07:22.020Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t\t643 text 2026/10/12 15:00 Open 0.04543 High 0.04559 Low 0.04507 Close 0.04530 CHANGE -0.22% Range 1.14%",
+        "\t\t\t\t\t\t\t\t\t642 text Vol(KAIA) 20.083M Vol(USDT) 910.333K 19.285M 27.271M"
+      ]
+    },
+    {
+      "kind": "KAIA_1h",
+      "at": "2026-10-13T02:07:22.294Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t\t643 text 2026/10/12 14:00 Open 0.04614 High 0.04632 Low 0.04520 Close 0.04540 CHANGE -1.58% Range 2.42%",
+        "\t\t\t\t\t\t\t\t\t642 text Vol(KAIA) 20.963M Vol(USDT) 958.128K 19.757M 31.486M"
+      ]
+    },
+    {
+      "kind": "KAIA_1h",
+      "at": "2026-10-13T02:07:22.582Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t\t643 text 2026/10/12 13:00 Open 0.04671 High 0.04686 Low 0.04611 Close 0.04613 CHANGE -1.26% Range 1.60%",
+        "\t\t\t\t\t\t\t\t\t642 text Vol(KAIA) 8.82M Vol(USDT) 410.468K 26.661M 31.963M"
+      ]
+    },
+    {
+      "kind": "KAIA_1h",
+      "at": "2026-10-13T02:07:22.857Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t\t643 text 2026/10/12 12:00 Open 0.04626 High 0.04682 Low 0.04622 Close 0.04672 CHANGE 0.99% Range 1.29%",
+        "\t\t\t\t\t\t\t\t\t642 text Vol(KAIA) 17.118M Vol(USDT) 797.099K 28.594M 33.191M"
+      ]
+    },
+    {
+      "kind": "KAIA_market",
+      "at": "2026-10-13T02:07:23.142Z",
+      "header_lines": [
+        "\t\t\t30 heading KAIAUSDT info tag, Value: 1",
+        "\t\t\t\t31 text KAIAUSDT",
+        "\t\t\t\t\t33 container Perp",
+        "\t\t\t\t\t\t34 text Perp",
+        "\t\t\t36 text 0.04682",
+        "\t\t\t\t\t42 text Mark",
+        "\t\t\t\t\t43 text 0.04687",
+        "\t\t\t\t\t45 link Description: Index, Value: binance.com/en/futures/funding-history/perpetual/index?contract=KAIAUSDT",
+        "\t\t\t\t\t46 text 0.04706",
+        "\t\t\t\t\t\t49 text Funding  (1h)  / Countdown",
+        "\t\t\t\t\t50 text -0.04372% /",
+        "\t\t\t\t\t51 text 00:52:37",
+        "\t\t\t\t\t61 link Description: Open Interest(USDT), Value: binance.com/en/futures/funding-history/perpetual/trading-data?contract=KAIAUSDT",
+        "\t\t\t\t\t62 text 6,576,643.59"
+      ],
+      "depth_lines": [
+        "\t\t\t\t\t\t\t157 text 0.00001",
+        "\t\t\t\t\t\t159 text Price (USDT)",
+        "\t\t\t\t\t\t160 text Size ( KAIA ) Sum ( KAIA )",
+        "\t\t\t\t\t\t\t\t541 text 0.04686",
+        "\t\t\t\t\t\t\t\t542 text 73.48K 126.88K",
+        "\t\t\t\t\t\t\t\t544 text 0.04685",
+        "\t\t\t\t\t\t\t\t545 text 22.87K 53.40K",
+        "\t\t\t\t\t\t\t\t547 text 0.04684",
+        "\t\t\t\t\t\t\t\t548 text 13.84K 30.53K",
+        "\t\t\t\t\t\t\t\t550 text 0.04683",
+        "\t\t\t\t\t\t\t\t551 text 12.96K 16.68K",
+        "\t\t\t\t\t\t\t\t553 text 0.04682",
+        "\t\t\t\t\t\t\t\t554 text 3.71K 3.71K",
+        "\t\t\t\t\t\t177 text 0.04682",
+        "\t\t\t\t\t\t179 text 0.04687",
+        "\t\t\t\t\t\t\t\t556 text 0.04681",
+        "\t\t\t\t\t\t\t\t557 text 2.69K 2.69K",
+        "\t\t\t\t\t\t\t\t559 text 0.04680",
+        "\t\t\t\t\t\t\t\t560 text 7.93K 10.62K",
+        "\t\t\t\t\t\t\t\t562 text 0.04679",
+        "\t\t\t\t\t\t\t\t563 text 19.34K 29.97K",
+        "\t\t\t\t\t\t\t\t565 text 0.04678",
+        "\t\t\t\t\t\t\t\t566 text 49.64K 79.61K",
+        "\t\t\t\t\t\t\t\t568 text 0.04677",
+        "\t\t\t\t\t\t\t\t569 text 20.82K 100.44K"
+      ]
+    },
+    {
+      "kind": "KAIA_1h_confirmation",
+      "at": "2026-10-13T02:07:36.960Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t\t643 text 2026/10/12 19:00 Open 0.04713 High 0.04720 Low 0.04660 Close 0.04675 CHANGE -0.74% Range 1.27%",
+        "\t\t\t\t\t\t\t\t\t642 text Vol(KAIA) 5.81M Vol(USDT) 272.442K 40.87M 34.732M"
+      ]
+    },
+    {
+      "kind": "KAIA_1h_confirmation",
+      "at": "2026-10-13T02:07:37.262Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t\t643 text 2026/10/12 18:00 Open 0.04479 High 0.04852 Low 0.04467 Close 0.04710 CHANGE 5.18% Range 8.59%",
+        "\t\t\t\t\t\t\t\t\t642 text Vol(KAIA) 111.28M Vol(USDT) 5.221M 42.485M 36.133M"
+      ]
+    },
+    {
+      "kind": "KAIA_4h",
+      "at": "2026-10-13T02:07:38.164Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t\t643 text 2026/10/12 17:00 Open 0.04500 High 0.04852 Low 0.04384 Close 0.04680 CHANGE 4.00% Range 10.40%",
+        "\t\t\t\t\t\t\t\t\t642 text Vol(KAIA) 185.649M Vol(USDT) 8.551M 172.636M 162.938M"
+      ]
+    },
+    {
+      "kind": "KAIA_4h",
+      "at": "2026-10-13T02:09:37.984Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t139 text 2026/10/12 17:00 Open 0.04500 High 0.04852 Low 0.04384 Close 0.04656 CHANGE 3.46% AMPLITUDE 10.40%",
+        "\t\t\t\t\t\t\t\t141 text Vol(KAIA) 187.05M Vol(USDT) 8.617M 172.836M 163.038M"
+      ]
+    },
+    {
+      "kind": "KAIA_oi",
+      "at": "2026-10-13T02:09:55.991Z",
+      "lines": []
+    },
+    {
+      "kind": "KAIA_oi",
+      "at": "2026-10-13T02:09:56.424Z",
+      "lines": []
+    },
+    {
+      "kind": "KAIA_oi",
+      "at": "2026-10-13T02:10:17.448Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t319 text 10/12 18:00 futures-trade-sumOpenInterest (KAIA): 145,073,501.000 futures-trade-sumOpenInterestVal (USDT): 6,489,137.69"
+      ]
+    },
+    {
+      "kind": "KAIA_oi",
+      "at": "2026-10-13T02:10:17.764Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t319 text 10/12 19:00 futures-trade-sumOpenInterest (KAIA): 140,386,408.000 futures-trade-sumOpenInterestVal (USDT): 6,616,411.40"
+      ]
+    },
+    {
+      "kind": "KAIA_oi",
+      "at": "2026-10-13T02:10:18.075Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t319 text 10/12 19:00 futures-trade-sumOpenInterest (KAIA): 140,386,408.000 futures-trade-sumOpenInterestVal (USDT): 6,616,411.40"
+      ]
+    },
+    {
+      "kind": "KAIA_taker",
+      "at": "2026-10-13T02:10:33.522Z",
+      "lines": [
+        "\t\t\t\t\t\t309 text futures-trade-fundingRate: -0.040487%"
+      ]
+    },
+    {
+      "kind": "KAIA_taker",
+      "at": "2026-10-13T02:10:44.414Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t319 text 10/12 18:00 futures-trade-sellVol (KAIA): 50,833,313.000 futures-trade-buyVol (KAIA): 60,363,323.000",
+        "\t\t\t\t\t\t309 text futures-trade-fundingRate: -0.040487%"
+      ]
+    },
+    {
+      "kind": "KAIA_4h",
+      "at": "2026-10-13T02:10:57.113Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t304 text 2026/10/12 17:00 Open 0.04500 High 0.04852 Low 0.04384 Close 0.04667 CHANGE 3.71% AMPLITUDE 10.40%",
+        "\t\t\t\t\t\t\t\t306 text Vol(KAIA) 187.81M Vol(USDT) 8.652M 172.945M 163.092M"
+      ]
+    },
+    {
+      "kind": "KAIA_4h",
+      "at": "2026-10-13T02:10:57.406Z",
+      "lines": [
+        "\t\t\t\t\t\t\t\t307 text 2026/10/12 13:00 Open 0.04671 High 0.04686 Low 0.04410 Close 0.04500 CHANGE -3.68% AMPLITUDE 5.90%",
+        "\t\t\t\t\t\t\t\t306 text Vol(KAIA) 100.42M Vol(USDT) 4.532M 154.568M 162.856M"
+      ]
+    }
+  ],
+  "threshold_assessment": {
+    "quantity_oi_abs_pct_at_least_5": false,
+    "closed_hour_volume_and_price": true,
+    "approximately_hourly_mark_abs_pct_at_least_10": false,
+    "notification_status": "RESEARCH_REPORT_ONLY_NO_INDEPENDENT_USER_ALERT",
+    "execution_eligible": false,
+    "second_read_confirmation": [
+      {
+        "raw_label": "2026/10/12 19:00",
+        "interval": "1H",
+        "open": 0.04713,
+        "high": 0.0472,
+        "low": 0.0466,
+        "close": 0.04675,
+        "ui_change_pct": -0.74,
+        "volume_qty_display": "5.81M",
+        "volume_qty": 5810000,
+        "volume_qty_unit": "KAIA",
+        "volume_usdt_display": "272.442K",
+        "volume_usdt": 272442,
+        "captured_at_utc": "2026-10-13T02:07:36.960Z",
+        "event_time_utc": null,
+        "calculated_open_to_close_pct": -0.8062805007426288
+      },
+      {
+        "raw_label": "2026/10/12 18:00",
+        "interval": "1H",
+        "open": 0.04479,
+        "high": 0.04852,
+        "low": 0.04467,
+        "close": 0.0471,
+        "ui_change_pct": 5.18,
+        "volume_qty_display": "111.28M",
+        "volume_qty": 111280000,
+        "volume_qty_unit": "KAIA",
+        "volume_usdt_display": "5.221M",
+        "volume_usdt": 5221000,
+        "captured_at_utc": "2026-10-13T02:07:37.262Z",
+        "event_time_utc": null,
+        "calculated_open_to_close_pct": 5.157401205626244
+      }
+    ],
+    "reason": "Closed-hour price-volume condition confirmed in two fresh same-contract reads; independent alert not authorized, retained for research/report only."
+  }
+}

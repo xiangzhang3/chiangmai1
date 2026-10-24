@@ -1,0 +1,133 @@
+{
+  "schema_version": "binance_public_ui_research_observation_v1",
+  "generated_at_utc": "2026-10-10T16:21:01Z",
+  "purpose": "Research-only public Binance USD-M perpetual observations for paper simulation validation",
+  "execution_eligible": false,
+  "restrictions": [
+    "No trading, authentication, private API, or account data accessed.",
+    "No fapi endpoint retry, network change, proxy, or access-control workaround used.",
+    "All official data below was read from signed-out rendered Binance UI."
+  ],
+  "collection_route": {
+    "browser": "dot cloud browser",
+    "live_quote_pages": {
+      "KAIAUSDT": "https://www.binance.com/en/futures/KAIAUSDT",
+      "JCTUSDT": "https://www.binance.com/en/futures/JCTUSDT"
+    },
+    "statistics_page_actual_url": "https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=KAIAUSDT",
+    "procedure": [
+      "Open public futures page, wait for rendered client-side hydration by reading AX state; verify contract heading and Perp label.",
+      "Read Last, Mark, Index, funding interval/rate/countdown, Open Interest(USDT), book, and tape as UI snapshots.",
+      "For candles choose Original and 1H. Use fresh screenshot to locate the previous candle; a one-pixel drag produces historical OHLC text in AX.",
+      "For statistics open the observed Open Interest(USDT) link. Verify selected symbol dropdown, then choose 1h.",
+      "Use fresh screenshot to locate latest and preceding OI bar/point; a one-pixel drag renders exact tooltip text into AX.",
+      "Scroll to Taker Buy/Sell Volume and use a fresh screenshot and one-pixel drag on latest completed bar.",
+      "Verify source symbol in dropdown AND tooltip units after each symbol change. Changing symbol resets interval to 5m; URL may retain previous contract."
+    ],
+    "automation_status": "Manual UI collection verified; no unattended collector or execution bridge established."
+  },
+  "timezone_evidence": {
+    "observed_at_utc": "2026-10-10T16:19:34Z",
+    "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+    "displayed_chart_clock_exact": "09:19:30 UTC-7",
+    "matching_tape_time_exact": "09:19:30",
+    "scope": "Explicit TradingView chart clock on same Binance futures page.",
+    "statistics_timezone_explicitly_labeled": false,
+    "candle_timezone_explicitly_labeled": false,
+    "caveat": "Original-chart and statistics UI labels share the same apparent local-clock convention, but exchange timestamps are deliberately not synthesized from this inference."
+  },
+  "remaining_validation": [
+    "Exact venue event timestamps must be available and verified before an execution bridge is eligible.",
+    "Validate book synchronization, depth and quantity precision.",
+    "Validate historical candle window and feature requirements.",
+    "Validate unattended collector and source staleness handling; this is one bounded manual research collection."
+  ],
+  "observation": {
+    "symbol": "JCTUSDT",
+    "selected_symbol_evidence": "JCTUSDT heading with Perp tag; statistics dropdown JCTUSDT Perpetual; OI and taker tooltip unit JCT",
+    "exchange": "Binance",
+    "instrument": "USD-M perpetual",
+    "execution_eligible": false,
+    "quote_snapshot": {
+      "observed_at_utc": "2026-10-10T16:16:00Z",
+      "exchange_timestamp": null,
+      "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+      "last_price": "0.002996",
+      "mark_price": "0.002993",
+      "index_price": "0.002987",
+      "funding_percent_displayed": "0.02165",
+      "funding_interval_hours_displayed": 4,
+      "funding_countdown_displayed": "03:44:01",
+      "open_interest_notional_usdt_displayed": "12386783.14",
+      "volume_24h_jct_displayed": "28951034155.00",
+      "volume_24h_usdt_displayed": "79533931.88",
+      "best_ask_price_displayed": "0.002995",
+      "best_ask_quantity_displayed": "4.54K",
+      "best_bid_price_displayed": "0.002994",
+      "best_bid_quantity_displayed": "53.41K",
+      "last_tape_row_displayed": "0.002996 1.83K 09:15:59",
+      "limitations": [
+        "UI values update asynchronously",
+        "Book quantities may be rounded",
+        "No exact exchange event timestamp supplied"
+      ]
+    },
+    "open_interest_hourly": [
+      {
+        "observed_at_utc": "2026-10-10T16:19:45Z",
+        "selected_period_displayed": "1h",
+        "raw_ui_time_label": "10/10 09:00",
+        "exchange_timestamp": null,
+        "quantity": "4123745744.000",
+        "quantity_unit": "JCT",
+        "notional_usdt": "12267648.74",
+        "raw_tooltip": "10/10 09:00 Open Interest (JCT): 4,123,745,744.000 Notional Value of Open Interest (USDT): 12,267,648.74"
+      },
+      {
+        "observed_at_utc": "2026-10-10T16:19:45Z",
+        "selected_period_displayed": "1h",
+        "raw_ui_time_label": "10/10 08:00",
+        "exchange_timestamp": null,
+        "quantity": "4126677136.000",
+        "quantity_unit": "JCT",
+        "notional_usdt": "11775555.74",
+        "raw_tooltip": "10/10 08:00 Open Interest (JCT): 4,126,677,136.000 Notional Value of Open Interest (USDT): 11,775,555.74"
+      }
+    ],
+    "taker_hourly": {
+      "observed_at_utc": "2026-10-10T16:20:07Z",
+      "selected_period_displayed": "1h",
+      "raw_ui_time_label": "10/10 08:00",
+      "exchange_timestamp": null,
+      "buy_quantity": "381621033.000",
+      "sell_quantity": "335367529.000",
+      "quantity_unit": "JCT",
+      "raw_tooltip": "10/10 08:00 Taker Sell Volume (JCT): 335,367,529.000 Taker Buy Volume (JCT): 381,621,033.000"
+    },
+    "completed_candle_hourly": {
+      "observed_at_utc": "2026-10-10T16:20:51Z",
+      "selected_period_displayed": "1H",
+      "raw_ui_time_label": "2026/10/10 08:00",
+      "exchange_open_timestamp": null,
+      "exchange_close_timestamp": null,
+      "open": "0.002854",
+      "high": "0.003046",
+      "low": "0.002793",
+      "close": "0.002975",
+      "volume_base_displayed": "716.988M",
+      "volume_quote_displayed": "2.091M",
+      "raw_ohlc": "2026/10/10 08:00 Open 0.002854 High 0.003046 Low 0.002793 Close 0.002975 CHANGE 4.16% Range 8.85%",
+      "limitations": [
+        "Displayed candle volume is rounded",
+        "One completed candle only; historical feature window not collected"
+      ]
+    },
+    "research_derived": {
+      "oi_quantity_change_pct_1h": -0.0710351671185383,
+      "oi_notional_change_pct_1h": 4.178936526353705,
+      "taker_buy_sell_ratio_1h": 1.1379188502176072,
+      "calculation_inputs": "Exact UI tooltip quantities; derived metrics are not exchange-provided."
+    }
+  },
+  "original_collection_sha256": "753307c49949cccb3ca25a7870d79101eee37288beafd44bfcc13f824174e69e"
+}

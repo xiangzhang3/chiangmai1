@@ -1,0 +1,141 @@
+{
+  "symbol": "SHELLUSDT",
+  "source_url": "https://www.binance.com/en/futures/SHELLUSDT",
+  "display_timezone": null,
+  "execution_eligible": false,
+  "public_header_capture": {
+    "observed_at": "2026-10-19T16:12:19.587Z",
+    "raw_fields": {
+      "last_price_raw": ".02127",
+      "mark_price_raw": ".02126",
+      "index_price_raw": ".02124",
+      "current_predicted_funding_rate_raw": "0.00500%",
+      "funding_interval_raw": "4h",
+      "countdown_raw": "03:47:41",
+      "volume_24h_base_raw": "31,312,122.00",
+      "volume_24h_quote_usdt_raw": "664,567.57",
+      "open_interest_notional_usdt_raw": "1,477,121.43"
+    },
+    "method": "manual transcription of retained rendered screenshot"
+  },
+  "hourly_oi_tooltips": [
+    {
+      "raw_chart_label": "10/19 22:00",
+      "quantity": 69743474.0,
+      "quantity_raw": "69,743,474.000",
+      "unit": "SHELL",
+      "notional_usdt_raw": "1,481,916.30",
+      "observed_at": "2026-10-19T16:13:15.143Z",
+      "display_timezone": null,
+      "event_at_utc": null,
+      "screenshot_file": "SHELL-oi-previous-0.png"
+    },
+    {
+      "raw_chart_label": "10/19 23:00",
+      "quantity": 69611750.0,
+      "quantity_raw": "69,611,750.000",
+      "unit": "SHELL",
+      "notional_usdt_raw": "1,475,240.05",
+      "observed_at": "2026-10-19T16:13:04.670Z",
+      "display_timezone": null,
+      "event_at_utc": null,
+      "screenshot_file": "SHELL-oi-latest-0.png"
+    }
+  ],
+  "public_order_book_capture": {
+    "observed_at": "2026-10-19T16:12:19.587Z",
+    "price_unit": "USDT",
+    "size_unit": "SHELL",
+    "columns": [
+      "price",
+      "size",
+      "cumulative_size"
+    ],
+    "asks_raw": [
+      [
+        ".02131",
+        "63.20K",
+        "139.83K"
+      ],
+      [
+        ".02130",
+        "24.31K",
+        "76.63K"
+      ],
+      [
+        ".02129",
+        "31.14K",
+        "52.31K"
+      ],
+      [
+        ".02128",
+        "11.94K",
+        "21.17K"
+      ],
+      [
+        ".02127",
+        "9.22K",
+        "9.22K"
+      ]
+    ],
+    "bids_raw": [
+      [
+        ".02125",
+        null,
+        "254"
+      ],
+      [
+        ".02124",
+        "10.19K",
+        "10.45K"
+      ],
+      [
+        ".02123",
+        "24.20K",
+        "34.66K"
+      ],
+      [
+        ".02122",
+        "11.20K",
+        "45.86K"
+      ],
+      [
+        ".02121",
+        "36.28K",
+        "82.14K"
+      ]
+    ],
+    "precision_note": "K/M abbreviations retained; null SHELL best-bid size obscured by cursor."
+  },
+  "completed_candles": [],
+  "hourly_taker_volume": null,
+  "research_threshold_assessment": null,
+  "limitations": [
+    "Repeated CDP prepare-tab/LayoutMetrics timeouts and browser recovery interruptions; public screenshot recovery succeeded. Non-JCT completed candles and STRK/SHELL hourly taker volumes remain unverified.",
+    "Raw chart timezone unverified; 24h rolling volume is not hourly volume.",
+    "Actual observed_at recorded immediately after DOM read or screenshot acquisition, not tool completion time."
+  ],
+  "source_references": [
+    {
+      "label": "SHELL-recovered-header",
+      "observed_at": "2026-10-19T16:12:19.587Z",
+      "local_evidence_file": "SHELL-recovered-header-0.png",
+      "sha256": "6b177edd2be0dfff89ac8e24c5be037a2035f96ae310b40e4cf60bc66381482c",
+      "availability": "Retained local screenshot; not a public URL or repository attachment"
+    },
+    {
+      "label": "SHELL-oi-previous",
+      "observed_at": "2026-10-19T16:13:15.143Z",
+      "local_evidence_file": "SHELL-oi-previous-0.png",
+      "sha256": "bff3bc6e11c506dc511b75e80bc5c5dc389135ab453d3283dd1e9ba8bd6ffa68",
+      "availability": "Retained local screenshot; not a public URL or repository attachment"
+    },
+    {
+      "label": "SHELL-oi-latest",
+      "observed_at": "2026-10-19T16:13:04.670Z",
+      "local_evidence_file": "SHELL-oi-latest-0.png",
+      "sha256": "96c458c9a097b8fb2a2e40c01b8e24bfb137fab1bc9c19bc5d3c489ac6844601",
+      "availability": "Retained local screenshot; not a public URL or repository attachment"
+    }
+  ]
+}

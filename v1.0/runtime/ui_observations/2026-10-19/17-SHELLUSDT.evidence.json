@@ -1,0 +1,127 @@
+{
+  "symbol": "SHELLUSDT",
+  "source_url": "https://www.binance.com/en/futures/SHELLUSDT",
+  "display_timezone": null,
+  "execution_eligible": false,
+  "public_header_capture": {
+    "observed_at": "2026-10-19T17:05:19.428Z",
+    "raw_fields": {
+      "last_price_raw": "0.02133",
+      "mark_price_raw": "0.02134",
+      "index_price_raw": "0.02137",
+      "current_predicted_funding_rate_raw": "0.00500%",
+      "funding_interval_raw": "4h",
+      "countdown_raw": "02:54:41",
+      "volume_24h_base_raw": "31,909,017.00",
+      "volume_24h_quote_usdt_raw": "677,379.17",
+      "open_interest_notional_usdt_raw": "1,481,346.80"
+    },
+    "method": "Rendered DOM text"
+  },
+  "hourly_oi_tooltips": [
+    {
+      "raw_chart_label": "10/19 23:00",
+      "quantity": 69611750.0,
+      "quantity_raw": "69,611,750.000",
+      "unit": "SHELL",
+      "notional_usdt_raw": "1,475,240.05",
+      "observed_at": "2026-10-19T17:05:40.069Z",
+      "display_timezone": null,
+      "event_at_utc": null
+    },
+    {
+      "raw_chart_label": "10/20 00:00",
+      "quantity": 69470624.0,
+      "quantity_raw": "69,470,624.000",
+      "unit": "SHELL",
+      "notional_usdt_raw": "1,490,547.11",
+      "observed_at": "2026-10-19T17:06:13.695Z",
+      "display_timezone": null,
+      "event_at_utc": null
+    }
+  ],
+  "public_order_book_capture": {
+    "observed_at": "2026-10-19T17:05:19.428Z",
+    "price_unit": "USDT",
+    "size_unit": "SHELL",
+    "columns": [
+      "price",
+      "size",
+      "cumulative_size"
+    ],
+    "asks_raw": [
+      [
+        "0.02139",
+        "40.00K",
+        "115.23K"
+      ],
+      [
+        "0.02138",
+        "42.43K",
+        "75.23K"
+      ],
+      [
+        "0.02137",
+        "21.39K",
+        "32.80K"
+      ],
+      [
+        "0.02136",
+        "10.35K",
+        "11.40K"
+      ],
+      [
+        "0.02135",
+        "1.05K",
+        "1.05K"
+      ]
+    ],
+    "bids_raw": [
+      [
+        "0.02134",
+        "954",
+        "954"
+      ],
+      [
+        "0.02133",
+        "2.59K",
+        "3.55K"
+      ],
+      [
+        "0.02132",
+        "13.91K",
+        "17.46K"
+      ],
+      [
+        "0.02131",
+        "25.54K",
+        "43.01K"
+      ],
+      [
+        "0.02130",
+        "37.10K",
+        "80.11K"
+      ]
+    ],
+    "raw_text": "0.02141\n40.43K\n221.48K\n0.02140\n65.81K\n181.04K\n0.02139\n40.00K\n115.23K\n0.02138\n42.43K\n75.23K\n0.02137\n21.39K\n32.80K\n0.02136\n10.35K\n11.40K\n0.02135\n1.05K\n1.05K\n0.02133\n0.02134\n0.02134\n954\n954\n0.02133\n2.59K\n3.55K\n0.02132\n13.91K\n17.46K\n0.02131\n25.54K\n43.01K\n0.02130\n37.10K\n80.11K\n0.02129\n24.77K\n104.88K\n0.02128\n33.20K\n138.09K\n",
+    "precision_note": "K/M values retained as displayed rounded values."
+  },
+  "completed_candles": [],
+  "hourly_taker_volume": null,
+  "research_threshold_assessment": null,
+  "limitations": [
+    "STRK renderer error9 recovered by normal reload. Cloud browser transport disconnected during supplementary collection at 17:06:37 UTC.",
+    "Non-JCT completed candles, current hourly taker volumes and historical settled funding/settlement mark remain unverified.",
+    "Raw chart timezone not verified; no UTC/Beijing event-hour mapping or paired OI/price/volume calculation.",
+    "Rolling 24h volume is not completed hourly volume; loading values and tab title values excluded."
+  ],
+  "source_references": [
+    {
+      "label": "SHELL-oi-final",
+      "observed_at": "2026-10-19T17:06:13.677Z",
+      "local_evidence_file": "SHELL-oi-final-0.png",
+      "sha256": "2dfbac5c6584eb6854e26e99ee474bfe898be232b2967f887f53ca8a08e8208f",
+      "availability": "Local retained screenshot, not uploaded or public URL"
+    }
+  ]
+}

@@ -1,0 +1,2433 @@
+{
+  "symbol": "KAIAUSDT",
+  "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+  "observed_at": "2026-10-16T04:13:25.163Z",
+  "fields": {
+    "last_price": 0.04384,
+    "mark_price": 0.04384,
+    "index_price": 0.04391,
+    "funding_rate": 2.13e-05,
+    "funding_interval_hours": 4,
+    "open_interest_notional_usdt": 4928322.92
+  },
+  "schema_version": 1,
+  "status": "RESEARCH_ONLY",
+  "classification": "RESEARCH_ONLY",
+  "execution_eligible": false,
+  "source_type": "official_signed_out_rendered_ui",
+  "source_evidence_formats": [
+    "AX_SNAPSHOT"
+  ],
+  "capture_start_at": "2026-10-16T04:13:25.163Z",
+  "capture_end_at": "2026-10-16T04:14:49.979Z",
+  "capture_count": 9,
+  "raw_chart_timezone": "UNKNOWN",
+  "chart_timezone": null,
+  "event_time_utc": null,
+  "capture_time_is_event_time": false,
+  "market": {
+    "raw_capture_index": 40,
+    "kind": "KAIA_header_recovered",
+    "observed_at": "2026-10-16T04:13:25.163Z",
+    "capture_completed_at": "2026-10-16T04:13:50.722Z",
+    "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+    "evidence_format": "AX_SNAPSHOT",
+    "signed_out_verified": true,
+    "captured_at_utc": "2026-10-16T04:13:25.163Z",
+    "raw_chart_timezone": "UNKNOWN",
+    "chart_timezone": null,
+    "event_time_utc": null,
+    "symbol": "KAIAUSDT",
+    "fields": {
+      "last_price": 0.04384,
+      "mark_price": 0.04384,
+      "index_price": 0.04391,
+      "funding_rate": 2.13e-05,
+      "funding_interval_hours": 4,
+      "open_interest_notional_usdt": 4928322.92
+    },
+    "raw_displays": {
+      "last_price": "0.04384",
+      "mark_price": "0.04384",
+      "index_price": "0.04391",
+      "funding_rate_percent": "0.00213%",
+      "funding_countdown": "03:46:09",
+      "open_interest_notional_usdt": "4,928,322.92"
+    },
+    "source_ax_snippets": {
+      "last_price": [
+        "\t\t\t37 text 0.04384"
+      ],
+      "mark_price": [
+        "\t\t\t\t\t43 text Mark",
+        "\t\t\t\t\t44 text 0.04384"
+      ],
+      "index_price": [
+        "\t\t\t\t\t46 link Description: Index, Value: binance.com/en/futures/funding-history/perpetual/index?contract=KAIAUSDT",
+        "\t\t\t\t\t47 text 0.04391"
+      ],
+      "open_interest_notional_usdt": [
+        "\t\t\t\t\t62 link Description: Open Interest(USDT), Value: binance.com/en/futures/funding-history/perpetual/trading-data?contract=KAIAUSDT",
+        "\t\t\t\t\t63 text 4,928,322.92"
+      ],
+      "funding": [
+        "\t\t\t\t\t\t50 text Funding  (4h)  / Countdown",
+        "\t\t\t\t\t51 text 0.00213% /",
+        "\t\t\t\t\t52 text 03:46:09"
+      ]
+    },
+    "field_observed_at": {
+      "last_price": "2026-10-16T04:13:25.163Z",
+      "mark_price": "2026-10-16T04:13:25.163Z",
+      "index_price": "2026-10-16T04:13:25.163Z",
+      "funding_rate": "2026-10-16T04:13:25.163Z",
+      "funding_interval_hours": "2026-10-16T04:13:25.163Z",
+      "open_interest_notional_usdt": "2026-10-16T04:13:25.163Z"
+    },
+    "field_source_url": {
+      "last_price": "https://www.binance.com/en/futures/KAIAUSDT",
+      "mark_price": "https://www.binance.com/en/futures/KAIAUSDT",
+      "index_price": "https://www.binance.com/en/futures/KAIAUSDT",
+      "funding_rate": "https://www.binance.com/en/futures/KAIAUSDT",
+      "funding_interval_hours": "https://www.binance.com/en/futures/KAIAUSDT",
+      "open_interest_notional_usdt": "https://www.binance.com/en/futures/KAIAUSDT"
+    },
+    "selection": "First fresh selected same-contract value-bearing capture; later headers never replace or fill it."
+  },
+  "latest_captured_market": {
+    "raw_capture_index": 48,
+    "kind": "KAIA_1h_closed",
+    "observed_at": "2026-10-16T04:14:49.633Z",
+    "capture_completed_at": "2026-10-16T04:14:49.979Z",
+    "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+    "evidence_format": "AX_SNAPSHOT",
+    "signed_out_verified": true,
+    "captured_at_utc": "2026-10-16T04:14:49.633Z",
+    "raw_chart_timezone": "UNKNOWN",
+    "chart_timezone": null,
+    "event_time_utc": null,
+    "symbol": "KAIAUSDT",
+    "fields": {
+      "last_price": 0.0439,
+      "mark_price": 0.04391,
+      "index_price": 0.04399,
+      "funding_rate": 2.13e-05,
+      "funding_interval_hours": 4,
+      "open_interest_notional_usdt": 4937184.05
+    },
+    "raw_displays": {
+      "last_price": "0.04390",
+      "mark_price": "0.04391",
+      "index_price": "0.04399",
+      "funding_rate_percent": "0.00213%",
+      "funding_countdown": "03:45:10",
+      "open_interest_notional_usdt": "4,937,184.05"
+    },
+    "source_ax_snippets": {
+      "last_price": [
+        "\t\t\t37 text 0.04390"
+      ],
+      "mark_price": [
+        "\t\t\t\t\t43 text Mark",
+        "\t\t\t\t\t44 text 0.04391"
+      ],
+      "index_price": [
+        "\t\t\t\t\t46 link Description: Index, Value: binance.com/en/futures/funding-history/perpetual/index?contract=KAIAUSDT",
+        "\t\t\t\t\t47 text 0.04399"
+      ],
+      "open_interest_notional_usdt": [
+        "\t\t\t\t\t62 link Description: Open Interest(USDT), Value: binance.com/en/futures/funding-history/perpetual/trading-data?contract=KAIAUSDT",
+        "\t\t\t\t\t63 text 4,937,184.05"
+      ],
+      "funding": [
+        "\t\t\t\t\t\t50 text Funding  (4h)  / Countdown",
+        "\t\t\t\t\t51 text 0.00213% /",
+        "\t\t\t\t\t52 text 03:45:10"
+      ]
+    },
+    "field_observed_at": {
+      "last_price": "2026-10-16T04:14:49.633Z",
+      "mark_price": "2026-10-16T04:14:49.633Z",
+      "index_price": "2026-10-16T04:14:49.633Z",
+      "funding_rate": "2026-10-16T04:14:49.633Z",
+      "funding_interval_hours": "2026-10-16T04:14:49.633Z",
+      "open_interest_notional_usdt": "2026-10-16T04:14:49.633Z"
+    },
+    "field_source_url": {
+      "last_price": "https://www.binance.com/en/futures/KAIAUSDT",
+      "mark_price": "https://www.binance.com/en/futures/KAIAUSDT",
+      "index_price": "https://www.binance.com/en/futures/KAIAUSDT",
+      "funding_rate": "https://www.binance.com/en/futures/KAIAUSDT",
+      "funding_interval_hours": "https://www.binance.com/en/futures/KAIAUSDT",
+      "open_interest_notional_usdt": "https://www.binance.com/en/futures/KAIAUSDT"
+    }
+  },
+  "supplementary_market_captures": [
+    {
+      "raw_capture_index": 41,
+      "kind": "KAIA_oi_latest_attempt",
+      "observed_at": "2026-10-16T04:14:13.043Z",
+      "capture_completed_at": "2026-10-16T04:14:13.268Z",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+      "evidence_format": "AX_SNAPSHOT",
+      "signed_out_verified": true,
+      "captured_at_utc": "2026-10-16T04:14:13.043Z",
+      "raw_chart_timezone": "UNKNOWN",
+      "chart_timezone": null,
+      "event_time_utc": null,
+      "symbol": "KAIAUSDT",
+      "fields": {
+        "last_price": 0.04393,
+        "mark_price": 0.04393,
+        "index_price": 0.04399,
+        "funding_rate": 2.13e-05,
+        "funding_interval_hours": 4,
+        "open_interest_notional_usdt": 4938440.37
+      },
+      "raw_displays": {
+        "last_price": "0.04393",
+        "mark_price": "0.04393",
+        "index_price": "0.04399",
+        "funding_rate_percent": "0.00213%",
+        "funding_countdown": "03:45:47",
+        "open_interest_notional_usdt": "4,938,440.37"
+      },
+      "source_ax_snippets": {
+        "last_price": [
+          "\t\t\t37 text 0.04393"
+        ],
+        "mark_price": [
+          "\t\t\t\t\t43 text Mark",
+          "\t\t\t\t\t44 text 0.04393"
+        ],
+        "index_price": [
+          "\t\t\t\t\t46 link Description: Index, Value: binance.com/en/futures/funding-history/perpetual/index?contract=KAIAUSDT",
+          "\t\t\t\t\t47 text 0.04399"
+        ],
+        "open_interest_notional_usdt": [
+          "\t\t\t\t\t62 link Description: Open Interest(USDT), Value: binance.com/en/futures/funding-history/perpetual/trading-data?contract=KAIAUSDT",
+          "\t\t\t\t\t63 text 4,938,440.37"
+        ],
+        "funding": [
+          "\t\t\t\t\t\t50 text Funding  (4h)  / Countdown",
+          "\t\t\t\t\t51 text 0.00213% /",
+          "\t\t\t\t\t52 text 03:45:47"
+        ]
+      },
+      "field_observed_at": {
+        "last_price": "2026-10-16T04:14:13.043Z",
+        "mark_price": "2026-10-16T04:14:13.043Z",
+        "index_price": "2026-10-16T04:14:13.043Z",
+        "funding_rate": "2026-10-16T04:14:13.043Z",
+        "funding_interval_hours": "2026-10-16T04:14:13.043Z",
+        "open_interest_notional_usdt": "2026-10-16T04:14:13.043Z"
+      },
+      "field_source_url": {
+        "last_price": "https://www.binance.com/en/futures/KAIAUSDT",
+        "mark_price": "https://www.binance.com/en/futures/KAIAUSDT",
+        "index_price": "https://www.binance.com/en/futures/KAIAUSDT",
+        "funding_rate": "https://www.binance.com/en/futures/KAIAUSDT",
+        "funding_interval_hours": "https://www.binance.com/en/futures/KAIAUSDT",
+        "open_interest_notional_usdt": "https://www.binance.com/en/futures/KAIAUSDT"
+      }
+    },
+    {
+      "raw_capture_index": 42,
+      "kind": "KAIA_oi_latest",
+      "observed_at": "2026-10-16T04:14:13.269Z",
+      "capture_completed_at": "2026-10-16T04:14:13.484Z",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+      "evidence_format": "AX_SNAPSHOT",
+      "signed_out_verified": true,
+      "captured_at_utc": "2026-10-16T04:14:13.269Z",
+      "raw_chart_timezone": "UNKNOWN",
+      "chart_timezone": null,
+      "event_time_utc": null,
+      "symbol": "KAIAUSDT",
+      "fields": {
+        "last_price": 0.04393,
+        "mark_price": 0.04393,
+        "index_price": 0.04399,
+        "funding_rate": 2.13e-05,
+        "funding_interval_hours": 4,
+        "open_interest_notional_usdt": 4938440.37
+      },
+      "raw_displays": {
+        "last_price": "0.04393",
+        "mark_price": "0.04393",
+        "index_price": "0.04399",
+        "funding_rate_percent": "0.00213%",
+        "funding_countdown": "03:45:46",
+        "open_interest_notional_usdt": "4,938,440.37"
+      },
+      "source_ax_snippets": {
+        "last_price": [
+          "\t\t\t37 text 0.04393"
+        ],
+        "mark_price": [
+          "\t\t\t\t\t43 text Mark",
+          "\t\t\t\t\t44 text 0.04393"
+        ],
+        "index_price": [
+          "\t\t\t\t\t46 link Description: Index, Value: binance.com/en/futures/funding-history/perpetual/index?contract=KAIAUSDT",
+          "\t\t\t\t\t47 text 0.04399"
+        ],
+        "open_interest_notional_usdt": [
+          "\t\t\t\t\t62 link Description: Open Interest(USDT), Value: binance.com/en/futures/funding-history/perpetual/trading-data?contract=KAIAUSDT",
+          "\t\t\t\t\t63 text 4,938,440.37"
+        ],
+        "funding": [
+          "\t\t\t\t\t\t50 text Funding  (4h)  / Countdown",
+          "\t\t\t\t\t51 text 0.00213% /",
+          "\t\t\t\t\t52 text 03:45:46"
+        ]
+      },
+      "field_observed_at": {
+        "last_price": "2026-10-16T04:14:13.269Z",
+        "mark_price": "2026-10-16T04:14:13.269Z",
+        "index_price": "2026-10-16T04:14:13.269Z",
+        "funding_rate": "2026-10-16T04:14:13.269Z",
+        "funding_interval_hours": "2026-10-16T04:14:13.269Z",
+        "open_interest_notional_usdt": "2026-10-16T04:14:13.269Z"
+      },
+      "field_source_url": {
+        "last_price": "https://www.binance.com/en/futures/KAIAUSDT",
+        "mark_price": "https://www.binance.com/en/futures/KAIAUSDT",
+        "index_price": "https://www.binance.com/en/futures/KAIAUSDT",
+        "funding_rate": "https://www.binance.com/en/futures/KAIAUSDT",
+        "funding_interval_hours": "https://www.binance.com/en/futures/KAIAUSDT",
+        "open_interest_notional_usdt": "https://www.binance.com/en/futures/KAIAUSDT"
+      }
+    },
+    {
+      "raw_capture_index": 43,
+      "kind": "KAIA_oi_previous_attempt",
+      "observed_at": "2026-10-16T04:14:13.498Z",
+      "capture_completed_at": "2026-10-16T04:14:13.756Z",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+      "evidence_format": "AX_SNAPSHOT",
+      "signed_out_verified": true,
+      "captured_at_utc": "2026-10-16T04:14:13.498Z",
+      "raw_chart_timezone": "UNKNOWN",
+      "chart_timezone": null,
+      "event_time_utc": null,
+      "symbol": "KAIAUSDT",
+      "fields": {
+        "last_price": 0.04393,
+        "mark_price": 0.04393,
+        "index_price": 0.04399,
+        "funding_rate": 2.13e-05,
+        "funding_interval_hours": 4,
+        "open_interest_notional_usdt": 4938440.37
+      },
+      "raw_displays": {
+        "last_price": "0.04393",
+        "mark_price": "0.04393",
+        "index_price": "0.04399",
+        "funding_rate_percent": "0.00213%",
+        "funding_countdown": "03:45:46",
+        "open_interest_notional_usdt": "4,938,440.37"
+      },
+      "source_ax_snippets": {
+        "last_price": [
+          "\t\t\t37 text 0.04393"
+        ],
+        "mark_price": [
+          "\t\t\t\t\t43 text Mark",
+          "\t\t\t\t\t44 text 0.04393"
+        ],
+        "index_price": [
+          "\t\t\t\t\t46 link Description: Index, Value: binance.com/en/futures/funding-history/perpetual/index?contract=KAIAUSDT",
+          "\t\t\t\t\t47 text 0.04399"
+        ],
+        "open_interest_notional_usdt": [
+          "\t\t\t\t\t62 link Description: Open Interest(USDT), Value: binance.com/en/futures/funding-history/perpetual/trading-data?contract=KAIAUSDT",
+          "\t\t\t\t\t63 text 4,938,440.37"
+        ],
+        "funding": [
+          "\t\t\t\t\t\t50 text Funding  (4h)  / Countdown",
+          "\t\t\t\t\t51 text 0.00213% /",
+          "\t\t\t\t\t52 text 03:45:46"
+        ]
+      },
+      "field_observed_at": {
+        "last_price": "2026-10-16T04:14:13.498Z",
+        "mark_price": "2026-10-16T04:14:13.498Z",
+        "index_price": "2026-10-16T04:14:13.498Z",
+        "funding_rate": "2026-10-16T04:14:13.498Z",
+        "funding_interval_hours": "2026-10-16T04:14:13.498Z",
+        "open_interest_notional_usdt": "2026-10-16T04:14:13.498Z"
+      },
+      "field_source_url": {
+        "last_price": "https://www.binance.com/en/futures/KAIAUSDT",
+        "mark_price": "https://www.binance.com/en/futures/KAIAUSDT",
+        "index_price": "https://www.binance.com/en/futures/KAIAUSDT",
+        "funding_rate": "https://www.binance.com/en/futures/KAIAUSDT",
+        "funding_interval_hours": "https://www.binance.com/en/futures/KAIAUSDT",
+        "open_interest_notional_usdt": "https://www.binance.com/en/futures/KAIAUSDT"
+      }
+    },
+    {
+      "raw_capture_index": 44,
+      "kind": "KAIA_oi_previous",
+      "observed_at": "2026-10-16T04:14:13.756Z",
+      "capture_completed_at": "2026-10-16T04:14:14.015Z",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+      "evidence_format": "AX_SNAPSHOT",
+      "signed_out_verified": true,
+      "captured_at_utc": "2026-10-16T04:14:13.756Z",
+      "raw_chart_timezone": "UNKNOWN",
+      "chart_timezone": null,
+      "event_time_utc": null,
+      "symbol": "KAIAUSDT",
+      "fields": {
+        "last_price": 0.04393,
+        "mark_price": 0.04393,
+        "index_price": 0.04399,
+        "funding_rate": 2.13e-05,
+        "funding_interval_hours": 4,
+        "open_interest_notional_usdt": 4938440.37
+      },
+      "raw_displays": {
+        "last_price": "0.04393",
+        "mark_price": "0.04393",
+        "index_price": "0.04399",
+        "funding_rate_percent": "0.00213%",
+        "funding_countdown": "03:45:46",
+        "open_interest_notional_usdt": "4,938,440.37"
+      },
+      "source_ax_snippets": {
+        "last_price": [
+          "\t\t\t37 text 0.04393"
+        ],
+        "mark_price": [
+          "\t\t\t\t\t43 text Mark",
+          "\t\t\t\t\t44 text 0.04393"
+        ],
+        "index_price": [
+          "\t\t\t\t\t46 link Description: Index, Value: binance.com/en/futures/funding-history/perpetual/index?contract=KAIAUSDT",
+          "\t\t\t\t\t47 text 0.04399"
+        ],
+        "open_interest_notional_usdt": [
+          "\t\t\t\t\t62 link Description: Open Interest(USDT), Value: binance.com/en/futures/funding-history/perpetual/trading-data?contract=KAIAUSDT",
+          "\t\t\t\t\t63 text 4,938,440.37"
+        ],
+        "funding": [
+          "\t\t\t\t\t\t50 text Funding  (4h)  / Countdown",
+          "\t\t\t\t\t51 text 0.00213% /",
+          "\t\t\t\t\t52 text 03:45:46"
+        ]
+      },
+      "field_observed_at": {
+        "last_price": "2026-10-16T04:14:13.756Z",
+        "mark_price": "2026-10-16T04:14:13.756Z",
+        "index_price": "2026-10-16T04:14:13.756Z",
+        "funding_rate": "2026-10-16T04:14:13.756Z",
+        "funding_interval_hours": "2026-10-16T04:14:13.756Z",
+        "open_interest_notional_usdt": "2026-10-16T04:14:13.756Z"
+      },
+      "field_source_url": {
+        "last_price": "https://www.binance.com/en/futures/KAIAUSDT",
+        "mark_price": "https://www.binance.com/en/futures/KAIAUSDT",
+        "index_price": "https://www.binance.com/en/futures/KAIAUSDT",
+        "funding_rate": "https://www.binance.com/en/futures/KAIAUSDT",
+        "funding_interval_hours": "https://www.binance.com/en/futures/KAIAUSDT",
+        "open_interest_notional_usdt": "https://www.binance.com/en/futures/KAIAUSDT"
+      }
+    },
+    {
+      "raw_capture_index": 45,
+      "kind": "KAIA_4h_running",
+      "observed_at": "2026-10-16T04:14:33.459Z",
+      "capture_completed_at": "2026-10-16T04:14:33.701Z",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+      "evidence_format": "AX_SNAPSHOT",
+      "signed_out_verified": true,
+      "captured_at_utc": "2026-10-16T04:14:33.459Z",
+      "raw_chart_timezone": "UNKNOWN",
+      "chart_timezone": null,
+      "event_time_utc": null,
+      "symbol": "KAIAUSDT",
+      "fields": {
+        "last_price": 0.0439,
+        "mark_price": 0.04393,
+        "index_price": 0.04399,
+        "funding_rate": 2.13e-05,
+        "funding_interval_hours": 4,
+        "open_interest_notional_usdt": 4939041.3
+      },
+      "raw_displays": {
+        "last_price": "0.04390",
+        "mark_price": "0.04393",
+        "index_price": "0.04399",
+        "funding_rate_percent": "0.00213%",
+        "funding_countdown": "03:45:26",
+        "open_interest_notional_usdt": "4,939,041.30"
+      },
+      "source_ax_snippets": {
+        "last_price": [
+          "\t\t\t37 text 0.04390"
+        ],
+        "mark_price": [
+          "\t\t\t\t\t43 text Mark",
+          "\t\t\t\t\t44 text 0.04393"
+        ],
+        "index_price": [
+          "\t\t\t\t\t46 link Description: Index, Value: binance.com/en/futures/funding-history/perpetual/index?contract=KAIAUSDT",
+          "\t\t\t\t\t47 text 0.04399"
+        ],
+        "open_interest_notional_usdt": [
+          "\t\t\t\t\t62 link Description: Open Interest(USDT), Value: binance.com/en/futures/funding-history/perpetual/trading-data?contract=KAIAUSDT",
+          "\t\t\t\t\t63 text 4,939,041.30"
+        ],
+        "funding": [
+          "\t\t\t\t\t\t50 text Funding  (4h)  / Countdown",
+          "\t\t\t\t\t51 text 0.00213% /",
+          "\t\t\t\t\t52 text 03:45:26"
+        ]
+      },
+      "field_observed_at": {
+        "last_price": "2026-10-16T04:14:33.459Z",
+        "mark_price": "2026-10-16T04:14:33.459Z",
+        "index_price": "2026-10-16T04:14:33.459Z",
+        "funding_rate": "2026-10-16T04:14:33.459Z",
+        "funding_interval_hours": "2026-10-16T04:14:33.459Z",
+        "open_interest_notional_usdt": "2026-10-16T04:14:33.459Z"
+      },
+      "field_source_url": {
+        "last_price": "https://www.binance.com/en/futures/KAIAUSDT",
+        "mark_price": "https://www.binance.com/en/futures/KAIAUSDT",
+        "index_price": "https://www.binance.com/en/futures/KAIAUSDT",
+        "funding_rate": "https://www.binance.com/en/futures/KAIAUSDT",
+        "funding_interval_hours": "https://www.binance.com/en/futures/KAIAUSDT",
+        "open_interest_notional_usdt": "https://www.binance.com/en/futures/KAIAUSDT"
+      }
+    },
+    {
+      "raw_capture_index": 46,
+      "kind": "KAIA_4h_closed",
+      "observed_at": "2026-10-16T04:14:33.794Z",
+      "capture_completed_at": "2026-10-16T04:14:34.131Z",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+      "evidence_format": "AX_SNAPSHOT",
+      "signed_out_verified": true,
+      "captured_at_utc": "2026-10-16T04:14:33.794Z",
+      "raw_chart_timezone": "UNKNOWN",
+      "chart_timezone": null,
+      "event_time_utc": null,
+      "symbol": "KAIAUSDT",
+      "fields": {
+        "last_price": 0.0439,
+        "mark_price": 0.04393,
+        "index_price": 0.04399,
+        "funding_rate": 2.13e-05,
+        "funding_interval_hours": 4,
+        "open_interest_notional_usdt": 4939041.3
+      },
+      "raw_displays": {
+        "last_price": "0.04390",
+        "mark_price": "0.04393",
+        "index_price": "0.04399",
+        "funding_rate_percent": "0.00213%",
+        "funding_countdown": "03:45:26",
+        "open_interest_notional_usdt": "4,939,041.30"
+      },
+      "source_ax_snippets": {
+        "last_price": [
+          "\t\t\t37 text 0.04390"
+        ],
+        "mark_price": [
+          "\t\t\t\t\t43 text Mark",
+          "\t\t\t\t\t44 text 0.04393"
+        ],
+        "index_price": [
+          "\t\t\t\t\t46 link Description: Index, Value: binance.com/en/futures/funding-history/perpetual/index?contract=KAIAUSDT",
+          "\t\t\t\t\t47 text 0.04399"
+        ],
+        "open_interest_notional_usdt": [
+          "\t\t\t\t\t62 link Description: Open Interest(USDT), Value: binance.com/en/futures/funding-history/perpetual/trading-data?contract=KAIAUSDT",
+          "\t\t\t\t\t63 text 4,939,041.30"
+        ],
+        "funding": [
+          "\t\t\t\t\t\t50 text Funding  (4h)  / Countdown",
+          "\t\t\t\t\t51 text 0.00213% /",
+          "\t\t\t\t\t52 text 03:45:26"
+        ]
+      },
+      "field_observed_at": {
+        "last_price": "2026-10-16T04:14:33.794Z",
+        "mark_price": "2026-10-16T04:14:33.794Z",
+        "index_price": "2026-10-16T04:14:33.794Z",
+        "funding_rate": "2026-10-16T04:14:33.794Z",
+        "funding_interval_hours": "2026-10-16T04:14:33.794Z",
+        "open_interest_notional_usdt": "2026-10-16T04:14:33.794Z"
+      },
+      "field_source_url": {
+        "last_price": "https://www.binance.com/en/futures/KAIAUSDT",
+        "mark_price": "https://www.binance.com/en/futures/KAIAUSDT",
+        "index_price": "https://www.binance.com/en/futures/KAIAUSDT",
+        "funding_rate": "https://www.binance.com/en/futures/KAIAUSDT",
+        "funding_interval_hours": "https://www.binance.com/en/futures/KAIAUSDT",
+        "open_interest_notional_usdt": "https://www.binance.com/en/futures/KAIAUSDT"
+      }
+    },
+    {
+      "raw_capture_index": 47,
+      "kind": "KAIA_1h_running",
+      "observed_at": "2026-10-16T04:14:49.316Z",
+      "capture_completed_at": "2026-10-16T04:14:49.546Z",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+      "evidence_format": "AX_SNAPSHOT",
+      "signed_out_verified": true,
+      "captured_at_utc": "2026-10-16T04:14:49.316Z",
+      "raw_chart_timezone": "UNKNOWN",
+      "chart_timezone": null,
+      "event_time_utc": null,
+      "symbol": "KAIAUSDT",
+      "fields": {
+        "last_price": 0.0439,
+        "mark_price": 0.04392,
+        "index_price": 0.04399,
+        "funding_rate": 2.13e-05,
+        "funding_interval_hours": 4,
+        "open_interest_notional_usdt": 4937808.01
+      },
+      "raw_displays": {
+        "last_price": "0.04390",
+        "mark_price": "0.04392",
+        "index_price": "0.04399",
+        "funding_rate_percent": "0.00213%",
+        "funding_countdown": "03:45:10",
+        "open_interest_notional_usdt": "4,937,808.01"
+      },
+      "source_ax_snippets": {
+        "last_price": [
+          "\t\t\t37 text 0.04390"
+        ],
+        "mark_price": [
+          "\t\t\t\t\t43 text Mark",
+          "\t\t\t\t\t44 text 0.04392"
+        ],
+        "index_price": [
+          "\t\t\t\t\t46 link Description: Index, Value: binance.com/en/futures/funding-history/perpetual/index?contract=KAIAUSDT",
+          "\t\t\t\t\t47 text 0.04399"
+        ],
+        "open_interest_notional_usdt": [
+          "\t\t\t\t\t62 link Description: Open Interest(USDT), Value: binance.com/en/futures/funding-history/perpetual/trading-data?contract=KAIAUSDT",
+          "\t\t\t\t\t63 text 4,937,808.01"
+        ],
+        "funding": [
+          "\t\t\t\t\t\t50 text Funding  (4h)  / Countdown",
+          "\t\t\t\t\t51 text 0.00213% /",
+          "\t\t\t\t\t52 text 03:45:10"
+        ]
+      },
+      "field_observed_at": {
+        "last_price": "2026-10-16T04:14:49.316Z",
+        "mark_price": "2026-10-16T04:14:49.316Z",
+        "index_price": "2026-10-16T04:14:49.316Z",
+        "funding_rate": "2026-10-16T04:14:49.316Z",
+        "funding_interval_hours": "2026-10-16T04:14:49.316Z",
+        "open_interest_notional_usdt": "2026-10-16T04:14:49.316Z"
+      },
+      "field_source_url": {
+        "last_price": "https://www.binance.com/en/futures/KAIAUSDT",
+        "mark_price": "https://www.binance.com/en/futures/KAIAUSDT",
+        "index_price": "https://www.binance.com/en/futures/KAIAUSDT",
+        "funding_rate": "https://www.binance.com/en/futures/KAIAUSDT",
+        "funding_interval_hours": "https://www.binance.com/en/futures/KAIAUSDT",
+        "open_interest_notional_usdt": "https://www.binance.com/en/futures/KAIAUSDT"
+      }
+    },
+    {
+      "raw_capture_index": 48,
+      "kind": "KAIA_1h_closed",
+      "observed_at": "2026-10-16T04:14:49.633Z",
+      "capture_completed_at": "2026-10-16T04:14:49.979Z",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+      "evidence_format": "AX_SNAPSHOT",
+      "signed_out_verified": true,
+      "captured_at_utc": "2026-10-16T04:14:49.633Z",
+      "raw_chart_timezone": "UNKNOWN",
+      "chart_timezone": null,
+      "event_time_utc": null,
+      "symbol": "KAIAUSDT",
+      "fields": {
+        "last_price": 0.0439,
+        "mark_price": 0.04391,
+        "index_price": 0.04399,
+        "funding_rate": 2.13e-05,
+        "funding_interval_hours": 4,
+        "open_interest_notional_usdt": 4937184.05
+      },
+      "raw_displays": {
+        "last_price": "0.04390",
+        "mark_price": "0.04391",
+        "index_price": "0.04399",
+        "funding_rate_percent": "0.00213%",
+        "funding_countdown": "03:45:10",
+        "open_interest_notional_usdt": "4,937,184.05"
+      },
+      "source_ax_snippets": {
+        "last_price": [
+          "\t\t\t37 text 0.04390"
+        ],
+        "mark_price": [
+          "\t\t\t\t\t43 text Mark",
+          "\t\t\t\t\t44 text 0.04391"
+        ],
+        "index_price": [
+          "\t\t\t\t\t46 link Description: Index, Value: binance.com/en/futures/funding-history/perpetual/index?contract=KAIAUSDT",
+          "\t\t\t\t\t47 text 0.04399"
+        ],
+        "open_interest_notional_usdt": [
+          "\t\t\t\t\t62 link Description: Open Interest(USDT), Value: binance.com/en/futures/funding-history/perpetual/trading-data?contract=KAIAUSDT",
+          "\t\t\t\t\t63 text 4,937,184.05"
+        ],
+        "funding": [
+          "\t\t\t\t\t\t50 text Funding  (4h)  / Countdown",
+          "\t\t\t\t\t51 text 0.00213% /",
+          "\t\t\t\t\t52 text 03:45:10"
+        ]
+      },
+      "field_observed_at": {
+        "last_price": "2026-10-16T04:14:49.633Z",
+        "mark_price": "2026-10-16T04:14:49.633Z",
+        "index_price": "2026-10-16T04:14:49.633Z",
+        "funding_rate": "2026-10-16T04:14:49.633Z",
+        "funding_interval_hours": "2026-10-16T04:14:49.633Z",
+        "open_interest_notional_usdt": "2026-10-16T04:14:49.633Z"
+      },
+      "field_source_url": {
+        "last_price": "https://www.binance.com/en/futures/KAIAUSDT",
+        "mark_price": "https://www.binance.com/en/futures/KAIAUSDT",
+        "index_price": "https://www.binance.com/en/futures/KAIAUSDT",
+        "funding_rate": "https://www.binance.com/en/futures/KAIAUSDT",
+        "funding_interval_hours": "https://www.binance.com/en/futures/KAIAUSDT",
+        "open_interest_notional_usdt": "https://www.binance.com/en/futures/KAIAUSDT"
+      }
+    }
+  ],
+  "candles": {
+    "running_1h": {
+      "raw_capture_index": 47,
+      "kind": "KAIA_1h_running",
+      "observed_at": "2026-10-16T04:14:49.316Z",
+      "capture_completed_at": "2026-10-16T04:14:49.546Z",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+      "evidence_format": "AX_SNAPSHOT",
+      "signed_out_verified": true,
+      "captured_at_utc": "2026-10-16T04:14:49.316Z",
+      "raw_chart_timezone": "UNKNOWN",
+      "chart_timezone": null,
+      "event_time_utc": null,
+      "displayed_time": "2026/10/15 21:00",
+      "raw_label": "2026/10/15 21:00",
+      "interval": "1h",
+      "open": 0.04375,
+      "high": 0.04396,
+      "low": 0.04358,
+      "close": 0.0439,
+      "raw_displays": {
+        "open": "0.04375",
+        "high": "0.04396",
+        "low": "0.04358",
+        "close": "0.04390",
+        "change": "0.34%",
+        "range": "0.86%",
+        "volume_base": "1.8M",
+        "volume_quote": "78.735K"
+      },
+      "base_asset": "KAIA",
+      "price_unit": "USDT per KAIA",
+      "open_close_change_pct": 0.34285714285714286,
+      "displayed_change_pct": 0.34,
+      "displayed_range_pct": 0.86,
+      "volume_base": 1800000,
+      "volume_base_display": "1.8M",
+      "volume_quote_usdt": 78735,
+      "volume_quote_display": "78.735K",
+      "volume_base_full_display_increment": 100000,
+      "volume_base_half_increment_sensitivity": 50000,
+      "display_formatting_mode": "UNKNOWN_ROUNDING_OR_TRUNCATION",
+      "volume_values_are_compact_approximations": true,
+      "ohlc_bounds_valid": true,
+      "unlabelled_trailing_indicator_values_normalized": false,
+      "source_ax_snippets": [
+        "\t\t\t\t\t\t\t\t318 text Time",
+        "\t\t\t\t\t\t\t\t319 text 1s",
+        "\t\t\t\t\t\t\t\t320 text 15m",
+        "\t\t\t\t\t\t\t\t321 text 1H",
+        "\t\t\t\t\t\t\t\t322 text 4H",
+        "\t\t\t\t\t\t\t\t323 text 1D",
+        "\t\t\t\t\t\t\t\t324 text 1W",
+        "\t\t\t\t\t\t\t\t\t327 text Last Price",
+        "\t\t\t\t\t\t\t304 text Original",
+        "\t\t\t\t\t\t\t305 text Trading View",
+        "\t\t\t\t\t\t\t306 text Depth",
+        "\t\t\t\t\t\t\t\t\t330 text 2026/10/15 21:00 Open 0.04375 High 0.04396 Low 0.04358 Close 0.04390 CHANGE 0.34% Range 0.86%",
+        "\t\t\t\t\t\t\t\t\t315 text MA(7) 0.04355 MA(25) 0.04292 MA(99) 0.04532",
+        "\t\t\t\t\t\t\t\t\t316 text Vol(KAIA) 1.8M Vol(USDT) 78.735K 9.002M 8.844M"
+      ],
+      "eligible_for_closed_bar_conclusions": false,
+      "bar_status": "running_in_displayed_chart_sequence",
+      "running_boundary_displayed_time": "2026/10/15 21:00",
+      "capture_coordinator_attestation": {
+        "running_kind": "KAIA_1h_running",
+        "closed_kind": "KAIA_1h_closed",
+        "prior_kinds": [],
+        "interval_visually_verified": true,
+        "rightmost_running_boundary_visually_verified": true,
+        "running_displayed_time": "2026/10/15 21:00",
+        "closed_displayed_time": "2026/10/15 20:00",
+        "coordinator_visual_verification_note": "Capture coordinator explicitly verified the active interval and rightmost running boundary for this current-run capture pair. Raw chart timezone remains unknown."
+      }
+    },
+    "closed_1h": {
+      "raw_capture_index": 48,
+      "kind": "KAIA_1h_closed",
+      "observed_at": "2026-10-16T04:14:49.633Z",
+      "capture_completed_at": "2026-10-16T04:14:49.979Z",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+      "evidence_format": "AX_SNAPSHOT",
+      "signed_out_verified": true,
+      "captured_at_utc": "2026-10-16T04:14:49.633Z",
+      "raw_chart_timezone": "UNKNOWN",
+      "chart_timezone": null,
+      "event_time_utc": null,
+      "displayed_time": "2026/10/15 20:00",
+      "raw_label": "2026/10/15 20:00",
+      "interval": "1h",
+      "open": 0.04344,
+      "high": 0.04401,
+      "low": 0.04318,
+      "close": 0.04375,
+      "raw_displays": {
+        "open": "0.04344",
+        "high": "0.04401",
+        "low": "0.04318",
+        "close": "0.04375",
+        "change": "0.69%",
+        "range": "1.91%",
+        "volume_base": "15.374M",
+        "volume_quote": "670.779K"
+      },
+      "base_asset": "KAIA",
+      "price_unit": "USDT per KAIA",
+      "open_close_change_pct": 0.7136279926335175,
+      "displayed_change_pct": 0.69,
+      "displayed_range_pct": 1.91,
+      "volume_base": 15374000,
+      "volume_base_display": "15.374M",
+      "volume_quote_usdt": 670779,
+      "volume_quote_display": "670.779K",
+      "volume_base_full_display_increment": 1000,
+      "volume_base_half_increment_sensitivity": 500,
+      "display_formatting_mode": "UNKNOWN_ROUNDING_OR_TRUNCATION",
+      "volume_values_are_compact_approximations": true,
+      "ohlc_bounds_valid": true,
+      "unlabelled_trailing_indicator_values_normalized": false,
+      "source_ax_snippets": [
+        "\t\t\t\t\t\t\t\t318 text Time",
+        "\t\t\t\t\t\t\t\t319 text 1s",
+        "\t\t\t\t\t\t\t\t320 text 15m",
+        "\t\t\t\t\t\t\t\t321 text 1H",
+        "\t\t\t\t\t\t\t\t322 text 4H",
+        "\t\t\t\t\t\t\t\t323 text 1D",
+        "\t\t\t\t\t\t\t\t324 text 1W",
+        "\t\t\t\t\t\t\t\t\t327 text Last Price",
+        "\t\t\t\t\t\t\t304 text Original",
+        "\t\t\t\t\t\t\t305 text Trading View",
+        "\t\t\t\t\t\t\t306 text Depth",
+        "\t\t\t\t\t\t\t\t\t330 text 2026/10/15 20:00 Open 0.04344 High 0.04401 Low 0.04318 Close 0.04375 CHANGE 0.69% Range 1.91%",
+        "\t\t\t\t\t\t\t\t\t315 text MA(7) 0.04356 MA(25) 0.04285 MA(99) 0.04539",
+        "\t\t\t\t\t\t\t\t\t316 text Vol(KAIA) 15.374M Vol(USDT) 670.779K 9.461M 9.953M"
+      ],
+      "eligible_for_closed_bar_conclusions": true,
+      "bar_status": "closed_in_displayed_chart_sequence",
+      "running_boundary_displayed_time": "2026/10/15 21:00",
+      "capture_coordinator_attestation": {
+        "running_kind": "KAIA_1h_running",
+        "closed_kind": "KAIA_1h_closed",
+        "prior_kinds": [],
+        "interval_visually_verified": true,
+        "rightmost_running_boundary_visually_verified": true,
+        "running_displayed_time": "2026/10/15 21:00",
+        "closed_displayed_time": "2026/10/15 20:00",
+        "coordinator_visual_verification_note": "Capture coordinator explicitly verified the active interval and rightmost running boundary for this current-run capture pair. Raw chart timezone remains unknown."
+      }
+    },
+    "running_4h": {
+      "raw_capture_index": 45,
+      "kind": "KAIA_4h_running",
+      "observed_at": "2026-10-16T04:14:33.459Z",
+      "capture_completed_at": "2026-10-16T04:14:33.701Z",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+      "evidence_format": "AX_SNAPSHOT",
+      "signed_out_verified": true,
+      "captured_at_utc": "2026-10-16T04:14:33.459Z",
+      "raw_chart_timezone": "UNKNOWN",
+      "chart_timezone": null,
+      "event_time_utc": null,
+      "displayed_time": "2026/10/15 21:00",
+      "raw_label": "2026/10/15 21:00",
+      "interval": "4h",
+      "open": 0.04375,
+      "high": 0.04396,
+      "low": 0.04358,
+      "close": 0.0439,
+      "raw_displays": {
+        "open": "0.04375",
+        "high": "0.04396",
+        "low": "0.04358",
+        "close": "0.04390",
+        "change": "0.34%",
+        "range": "0.86%",
+        "volume_base": "1.781M",
+        "volume_quote": "77.932K"
+      },
+      "base_asset": "KAIA",
+      "price_unit": "USDT per KAIA",
+      "open_close_change_pct": 0.34285714285714286,
+      "displayed_change_pct": 0.34,
+      "displayed_range_pct": 0.86,
+      "volume_base": 1781000,
+      "volume_base_display": "1.781M",
+      "volume_quote_usdt": 77932,
+      "volume_quote_display": "77.932K",
+      "volume_base_full_display_increment": 1000,
+      "volume_base_half_increment_sensitivity": 500,
+      "display_formatting_mode": "UNKNOWN_ROUNDING_OR_TRUNCATION",
+      "volume_values_are_compact_approximations": true,
+      "ohlc_bounds_valid": true,
+      "unlabelled_trailing_indicator_values_normalized": false,
+      "source_ax_snippets": [
+        "\t\t\t\t\t\t\t292 text Time",
+        "\t\t\t\t\t\t\t293 text 1s",
+        "\t\t\t\t\t\t\t294 text 15m",
+        "\t\t\t\t\t\t\t295 text 1H",
+        "\t\t\t\t\t\t\t296 text 4H",
+        "\t\t\t\t\t\t\t297 text 1D",
+        "\t\t\t\t\t\t\t298 text 1W",
+        "\t\t\t\t\t\t\t\t301 text Last Price",
+        "\t\t\t\t\t\t303 text Original",
+        "\t\t\t\t\t\t304 text Trading View",
+        "\t\t\t\t\t\t305 text Depth",
+        "\t\t\t\t\t\t\t\t313 text 2026/10/15 21:00 Open 0.04375 High 0.04396 Low 0.04358 Close 0.04390 CHANGE 0.34% Range 0.86%",
+        "\t\t\t\t\t\t\t\t314 text MA(7) 0.04319 MA(25) 0.04518 MA(99) 0.04223",
+        "\t\t\t\t\t\t\t\t315 text Vol(KAIA) 1.781M Vol(USDT) 77.932K 37.238M 50.62M"
+      ],
+      "eligible_for_closed_bar_conclusions": false,
+      "bar_status": "running_in_displayed_chart_sequence",
+      "running_boundary_displayed_time": "2026/10/15 21:00",
+      "capture_coordinator_attestation": {
+        "running_kind": "KAIA_4h_running",
+        "closed_kind": "KAIA_4h_closed",
+        "interval_visually_verified": true,
+        "rightmost_running_boundary_visually_verified": true,
+        "running_displayed_time": "2026/10/15 21:00",
+        "closed_displayed_time": "2026/10/15 17:00",
+        "coordinator_visual_verification_note": "Capture coordinator explicitly verified the active interval and rightmost running boundary for this current-run capture pair. Raw chart timezone remains unknown."
+      }
+    },
+    "closed_4h": {
+      "raw_capture_index": 46,
+      "kind": "KAIA_4h_closed",
+      "observed_at": "2026-10-16T04:14:33.794Z",
+      "capture_completed_at": "2026-10-16T04:14:34.131Z",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+      "evidence_format": "AX_SNAPSHOT",
+      "signed_out_verified": true,
+      "captured_at_utc": "2026-10-16T04:14:33.794Z",
+      "raw_chart_timezone": "UNKNOWN",
+      "chart_timezone": null,
+      "event_time_utc": null,
+      "displayed_time": "2026/10/15 17:00",
+      "raw_label": "2026/10/15 17:00",
+      "interval": "4h",
+      "open": 0.04356,
+      "high": 0.0442,
+      "low": 0.043,
+      "close": 0.04375,
+      "raw_displays": {
+        "open": "0.04356",
+        "high": "0.04420",
+        "low": "0.04300",
+        "close": "0.04375",
+        "change": "0.45%",
+        "range": "2.75%",
+        "volume_base": "46.727M",
+        "volume_quote": "2.035M"
+      },
+      "base_asset": "KAIA",
+      "price_unit": "USDT per KAIA",
+      "open_close_change_pct": 0.4361799816345271,
+      "displayed_change_pct": 0.45,
+      "displayed_range_pct": 2.75,
+      "volume_base": 46727000,
+      "volume_base_display": "46.727M",
+      "volume_quote_usdt": 2035000,
+      "volume_quote_display": "2.035M",
+      "volume_base_full_display_increment": 1000,
+      "volume_base_half_increment_sensitivity": 500,
+      "display_formatting_mode": "UNKNOWN_ROUNDING_OR_TRUNCATION",
+      "volume_values_are_compact_approximations": true,
+      "ohlc_bounds_valid": true,
+      "unlabelled_trailing_indicator_values_normalized": false,
+      "source_ax_snippets": [
+        "\t\t\t\t\t\t\t\t293 text Time",
+        "\t\t\t\t\t\t\t\t294 text 1s",
+        "\t\t\t\t\t\t\t\t295 text 15m",
+        "\t\t\t\t\t\t\t\t296 text 1H",
+        "\t\t\t\t\t\t\t\t297 text 4H",
+        "\t\t\t\t\t\t\t\t298 text 1D",
+        "\t\t\t\t\t\t\t\t299 text 1W",
+        "\t\t\t\t\t\t\t\t\t302 text Last Price",
+        "\t\t\t\t\t\t\t304 text Original",
+        "\t\t\t\t\t\t\t305 text Trading View",
+        "\t\t\t\t\t\t\t306 text Depth",
+        "\t\t\t\t\t\t\t\t\t314 text 2026/10/15 17:00 Open 0.04356 High 0.04420 Low 0.04300 Close 0.04375 CHANGE 0.45% Range 2.75%",
+        "\t\t\t\t\t\t\t\t\t315 text MA(7) 0.04293 MA(25) 0.04543 MA(99) 0.04213",
+        "\t\t\t\t\t\t\t\t\t316 text Vol(KAIA) 46.727M Vol(USDT) 2.035M 52.836M 52.292M"
+      ],
+      "eligible_for_closed_bar_conclusions": true,
+      "bar_status": "closed_in_displayed_chart_sequence",
+      "running_boundary_displayed_time": "2026/10/15 21:00",
+      "capture_coordinator_attestation": {
+        "running_kind": "KAIA_4h_running",
+        "closed_kind": "KAIA_4h_closed",
+        "interval_visually_verified": true,
+        "rightmost_running_boundary_visually_verified": true,
+        "running_displayed_time": "2026/10/15 21:00",
+        "closed_displayed_time": "2026/10/15 17:00",
+        "coordinator_visual_verification_note": "Capture coordinator explicitly verified the active interval and rightmost running boundary for this current-run capture pair. Raw chart timezone remains unknown."
+      }
+    },
+    "prior_six_closed_1h": [],
+    "prior_six_closed_complete": false,
+    "prior_six_mean_volume_base": null,
+    "closed_1h_to_prior_six_mean_volume_ratio": null,
+    "closed_1h_open_to_close_change_pct": 0.7136279926335175,
+    "all_valid_candle_captures": [
+      {
+        "raw_capture_index": 45,
+        "kind": "KAIA_4h_running",
+        "observed_at": "2026-10-16T04:14:33.459Z",
+        "capture_completed_at": "2026-10-16T04:14:33.701Z",
+        "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "evidence_format": "AX_SNAPSHOT",
+        "signed_out_verified": true,
+        "captured_at_utc": "2026-10-16T04:14:33.459Z",
+        "raw_chart_timezone": "UNKNOWN",
+        "chart_timezone": null,
+        "event_time_utc": null,
+        "displayed_time": "2026/10/15 21:00",
+        "raw_label": "2026/10/15 21:00",
+        "interval": "4h",
+        "open": 0.04375,
+        "high": 0.04396,
+        "low": 0.04358,
+        "close": 0.0439,
+        "raw_displays": {
+          "open": "0.04375",
+          "high": "0.04396",
+          "low": "0.04358",
+          "close": "0.04390",
+          "change": "0.34%",
+          "range": "0.86%",
+          "volume_base": "1.781M",
+          "volume_quote": "77.932K"
+        },
+        "base_asset": "KAIA",
+        "price_unit": "USDT per KAIA",
+        "open_close_change_pct": 0.34285714285714286,
+        "displayed_change_pct": 0.34,
+        "displayed_range_pct": 0.86,
+        "volume_base": 1781000,
+        "volume_base_display": "1.781M",
+        "volume_quote_usdt": 77932,
+        "volume_quote_display": "77.932K",
+        "volume_base_full_display_increment": 1000,
+        "volume_base_half_increment_sensitivity": 500,
+        "display_formatting_mode": "UNKNOWN_ROUNDING_OR_TRUNCATION",
+        "volume_values_are_compact_approximations": true,
+        "ohlc_bounds_valid": true,
+        "unlabelled_trailing_indicator_values_normalized": false,
+        "source_ax_snippets": [
+          "\t\t\t\t\t\t\t292 text Time",
+          "\t\t\t\t\t\t\t293 text 1s",
+          "\t\t\t\t\t\t\t294 text 15m",
+          "\t\t\t\t\t\t\t295 text 1H",
+          "\t\t\t\t\t\t\t296 text 4H",
+          "\t\t\t\t\t\t\t297 text 1D",
+          "\t\t\t\t\t\t\t298 text 1W",
+          "\t\t\t\t\t\t\t\t301 text Last Price",
+          "\t\t\t\t\t\t303 text Original",
+          "\t\t\t\t\t\t304 text Trading View",
+          "\t\t\t\t\t\t305 text Depth",
+          "\t\t\t\t\t\t\t\t313 text 2026/10/15 21:00 Open 0.04375 High 0.04396 Low 0.04358 Close 0.04390 CHANGE 0.34% Range 0.86%",
+          "\t\t\t\t\t\t\t\t314 text MA(7) 0.04319 MA(25) 0.04518 MA(99) 0.04223",
+          "\t\t\t\t\t\t\t\t315 text Vol(KAIA) 1.781M Vol(USDT) 77.932K 37.238M 50.62M"
+        ],
+        "eligible_for_closed_bar_conclusions": false,
+        "bar_status": "running_in_displayed_chart_sequence",
+        "running_boundary_displayed_time": "2026/10/15 21:00",
+        "capture_coordinator_attestation": {
+          "running_kind": "KAIA_4h_running",
+          "closed_kind": "KAIA_4h_closed",
+          "interval_visually_verified": true,
+          "rightmost_running_boundary_visually_verified": true,
+          "running_displayed_time": "2026/10/15 21:00",
+          "closed_displayed_time": "2026/10/15 17:00",
+          "coordinator_visual_verification_note": "Capture coordinator explicitly verified the active interval and rightmost running boundary for this current-run capture pair. Raw chart timezone remains unknown."
+        }
+      },
+      {
+        "raw_capture_index": 46,
+        "kind": "KAIA_4h_closed",
+        "observed_at": "2026-10-16T04:14:33.794Z",
+        "capture_completed_at": "2026-10-16T04:14:34.131Z",
+        "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "evidence_format": "AX_SNAPSHOT",
+        "signed_out_verified": true,
+        "captured_at_utc": "2026-10-16T04:14:33.794Z",
+        "raw_chart_timezone": "UNKNOWN",
+        "chart_timezone": null,
+        "event_time_utc": null,
+        "displayed_time": "2026/10/15 17:00",
+        "raw_label": "2026/10/15 17:00",
+        "interval": "4h",
+        "open": 0.04356,
+        "high": 0.0442,
+        "low": 0.043,
+        "close": 0.04375,
+        "raw_displays": {
+          "open": "0.04356",
+          "high": "0.04420",
+          "low": "0.04300",
+          "close": "0.04375",
+          "change": "0.45%",
+          "range": "2.75%",
+          "volume_base": "46.727M",
+          "volume_quote": "2.035M"
+        },
+        "base_asset": "KAIA",
+        "price_unit": "USDT per KAIA",
+        "open_close_change_pct": 0.4361799816345271,
+        "displayed_change_pct": 0.45,
+        "displayed_range_pct": 2.75,
+        "volume_base": 46727000,
+        "volume_base_display": "46.727M",
+        "volume_quote_usdt": 2035000,
+        "volume_quote_display": "2.035M",
+        "volume_base_full_display_increment": 1000,
+        "volume_base_half_increment_sensitivity": 500,
+        "display_formatting_mode": "UNKNOWN_ROUNDING_OR_TRUNCATION",
+        "volume_values_are_compact_approximations": true,
+        "ohlc_bounds_valid": true,
+        "unlabelled_trailing_indicator_values_normalized": false,
+        "source_ax_snippets": [
+          "\t\t\t\t\t\t\t\t293 text Time",
+          "\t\t\t\t\t\t\t\t294 text 1s",
+          "\t\t\t\t\t\t\t\t295 text 15m",
+          "\t\t\t\t\t\t\t\t296 text 1H",
+          "\t\t\t\t\t\t\t\t297 text 4H",
+          "\t\t\t\t\t\t\t\t298 text 1D",
+          "\t\t\t\t\t\t\t\t299 text 1W",
+          "\t\t\t\t\t\t\t\t\t302 text Last Price",
+          "\t\t\t\t\t\t\t304 text Original",
+          "\t\t\t\t\t\t\t305 text Trading View",
+          "\t\t\t\t\t\t\t306 text Depth",
+          "\t\t\t\t\t\t\t\t\t314 text 2026/10/15 17:00 Open 0.04356 High 0.04420 Low 0.04300 Close 0.04375 CHANGE 0.45% Range 2.75%",
+          "\t\t\t\t\t\t\t\t\t315 text MA(7) 0.04293 MA(25) 0.04543 MA(99) 0.04213",
+          "\t\t\t\t\t\t\t\t\t316 text Vol(KAIA) 46.727M Vol(USDT) 2.035M 52.836M 52.292M"
+        ],
+        "eligible_for_closed_bar_conclusions": true,
+        "bar_status": "closed_in_displayed_chart_sequence",
+        "running_boundary_displayed_time": "2026/10/15 21:00",
+        "capture_coordinator_attestation": {
+          "running_kind": "KAIA_4h_running",
+          "closed_kind": "KAIA_4h_closed",
+          "interval_visually_verified": true,
+          "rightmost_running_boundary_visually_verified": true,
+          "running_displayed_time": "2026/10/15 21:00",
+          "closed_displayed_time": "2026/10/15 17:00",
+          "coordinator_visual_verification_note": "Capture coordinator explicitly verified the active interval and rightmost running boundary for this current-run capture pair. Raw chart timezone remains unknown."
+        }
+      },
+      {
+        "raw_capture_index": 47,
+        "kind": "KAIA_1h_running",
+        "observed_at": "2026-10-16T04:14:49.316Z",
+        "capture_completed_at": "2026-10-16T04:14:49.546Z",
+        "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "evidence_format": "AX_SNAPSHOT",
+        "signed_out_verified": true,
+        "captured_at_utc": "2026-10-16T04:14:49.316Z",
+        "raw_chart_timezone": "UNKNOWN",
+        "chart_timezone": null,
+        "event_time_utc": null,
+        "displayed_time": "2026/10/15 21:00",
+        "raw_label": "2026/10/15 21:00",
+        "interval": "1h",
+        "open": 0.04375,
+        "high": 0.04396,
+        "low": 0.04358,
+        "close": 0.0439,
+        "raw_displays": {
+          "open": "0.04375",
+          "high": "0.04396",
+          "low": "0.04358",
+          "close": "0.04390",
+          "change": "0.34%",
+          "range": "0.86%",
+          "volume_base": "1.8M",
+          "volume_quote": "78.735K"
+        },
+        "base_asset": "KAIA",
+        "price_unit": "USDT per KAIA",
+        "open_close_change_pct": 0.34285714285714286,
+        "displayed_change_pct": 0.34,
+        "displayed_range_pct": 0.86,
+        "volume_base": 1800000,
+        "volume_base_display": "1.8M",
+        "volume_quote_usdt": 78735,
+        "volume_quote_display": "78.735K",
+        "volume_base_full_display_increment": 100000,
+        "volume_base_half_increment_sensitivity": 50000,
+        "display_formatting_mode": "UNKNOWN_ROUNDING_OR_TRUNCATION",
+        "volume_values_are_compact_approximations": true,
+        "ohlc_bounds_valid": true,
+        "unlabelled_trailing_indicator_values_normalized": false,
+        "source_ax_snippets": [
+          "\t\t\t\t\t\t\t\t318 text Time",
+          "\t\t\t\t\t\t\t\t319 text 1s",
+          "\t\t\t\t\t\t\t\t320 text 15m",
+          "\t\t\t\t\t\t\t\t321 text 1H",
+          "\t\t\t\t\t\t\t\t322 text 4H",
+          "\t\t\t\t\t\t\t\t323 text 1D",
+          "\t\t\t\t\t\t\t\t324 text 1W",
+          "\t\t\t\t\t\t\t\t\t327 text Last Price",
+          "\t\t\t\t\t\t\t304 text Original",
+          "\t\t\t\t\t\t\t305 text Trading View",
+          "\t\t\t\t\t\t\t306 text Depth",
+          "\t\t\t\t\t\t\t\t\t330 text 2026/10/15 21:00 Open 0.04375 High 0.04396 Low 0.04358 Close 0.04390 CHANGE 0.34% Range 0.86%",
+          "\t\t\t\t\t\t\t\t\t315 text MA(7) 0.04355 MA(25) 0.04292 MA(99) 0.04532",
+          "\t\t\t\t\t\t\t\t\t316 text Vol(KAIA) 1.8M Vol(USDT) 78.735K 9.002M 8.844M"
+        ],
+        "eligible_for_closed_bar_conclusions": false,
+        "bar_status": "running_in_displayed_chart_sequence",
+        "running_boundary_displayed_time": "2026/10/15 21:00",
+        "capture_coordinator_attestation": {
+          "running_kind": "KAIA_1h_running",
+          "closed_kind": "KAIA_1h_closed",
+          "prior_kinds": [],
+          "interval_visually_verified": true,
+          "rightmost_running_boundary_visually_verified": true,
+          "running_displayed_time": "2026/10/15 21:00",
+          "closed_displayed_time": "2026/10/15 20:00",
+          "coordinator_visual_verification_note": "Capture coordinator explicitly verified the active interval and rightmost running boundary for this current-run capture pair. Raw chart timezone remains unknown."
+        }
+      },
+      {
+        "raw_capture_index": 48,
+        "kind": "KAIA_1h_closed",
+        "observed_at": "2026-10-16T04:14:49.633Z",
+        "capture_completed_at": "2026-10-16T04:14:49.979Z",
+        "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "evidence_format": "AX_SNAPSHOT",
+        "signed_out_verified": true,
+        "captured_at_utc": "2026-10-16T04:14:49.633Z",
+        "raw_chart_timezone": "UNKNOWN",
+        "chart_timezone": null,
+        "event_time_utc": null,
+        "displayed_time": "2026/10/15 20:00",
+        "raw_label": "2026/10/15 20:00",
+        "interval": "1h",
+        "open": 0.04344,
+        "high": 0.04401,
+        "low": 0.04318,
+        "close": 0.04375,
+        "raw_displays": {
+          "open": "0.04344",
+          "high": "0.04401",
+          "low": "0.04318",
+          "close": "0.04375",
+          "change": "0.69%",
+          "range": "1.91%",
+          "volume_base": "15.374M",
+          "volume_quote": "670.779K"
+        },
+        "base_asset": "KAIA",
+        "price_unit": "USDT per KAIA",
+        "open_close_change_pct": 0.7136279926335175,
+        "displayed_change_pct": 0.69,
+        "displayed_range_pct": 1.91,
+        "volume_base": 15374000,
+        "volume_base_display": "15.374M",
+        "volume_quote_usdt": 670779,
+        "volume_quote_display": "670.779K",
+        "volume_base_full_display_increment": 1000,
+        "volume_base_half_increment_sensitivity": 500,
+        "display_formatting_mode": "UNKNOWN_ROUNDING_OR_TRUNCATION",
+        "volume_values_are_compact_approximations": true,
+        "ohlc_bounds_valid": true,
+        "unlabelled_trailing_indicator_values_normalized": false,
+        "source_ax_snippets": [
+          "\t\t\t\t\t\t\t\t318 text Time",
+          "\t\t\t\t\t\t\t\t319 text 1s",
+          "\t\t\t\t\t\t\t\t320 text 15m",
+          "\t\t\t\t\t\t\t\t321 text 1H",
+          "\t\t\t\t\t\t\t\t322 text 4H",
+          "\t\t\t\t\t\t\t\t323 text 1D",
+          "\t\t\t\t\t\t\t\t324 text 1W",
+          "\t\t\t\t\t\t\t\t\t327 text Last Price",
+          "\t\t\t\t\t\t\t304 text Original",
+          "\t\t\t\t\t\t\t305 text Trading View",
+          "\t\t\t\t\t\t\t306 text Depth",
+          "\t\t\t\t\t\t\t\t\t330 text 2026/10/15 20:00 Open 0.04344 High 0.04401 Low 0.04318 Close 0.04375 CHANGE 0.69% Range 1.91%",
+          "\t\t\t\t\t\t\t\t\t315 text MA(7) 0.04356 MA(25) 0.04285 MA(99) 0.04539",
+          "\t\t\t\t\t\t\t\t\t316 text Vol(KAIA) 15.374M Vol(USDT) 670.779K 9.461M 9.953M"
+        ],
+        "eligible_for_closed_bar_conclusions": true,
+        "bar_status": "closed_in_displayed_chart_sequence",
+        "running_boundary_displayed_time": "2026/10/15 21:00",
+        "capture_coordinator_attestation": {
+          "running_kind": "KAIA_1h_running",
+          "closed_kind": "KAIA_1h_closed",
+          "prior_kinds": [],
+          "interval_visually_verified": true,
+          "rightmost_running_boundary_visually_verified": true,
+          "running_displayed_time": "2026/10/15 21:00",
+          "closed_displayed_time": "2026/10/15 20:00",
+          "coordinator_visual_verification_note": "Capture coordinator explicitly verified the active interval and rightmost running boundary for this current-run capture pair. Raw chart timezone remains unknown."
+        }
+      }
+    ],
+    "unreadable_candle_diagnostics": [],
+    "invalid_ohlc_tooltip_diagnostics": [],
+    "excluded_transition_captures": [],
+    "excluded_nonselected_captures": [],
+    "arithmetic_method": "Unweighted arithmetic mean of six immediately preceding completed displayed 1h base-volume bars; compare latest closed volume and that same bar open-to-close body.",
+    "volume_compact_formatting_mode": "UNKNOWN_ROUNDING_OR_TRUNCATION"
+  },
+  "open_interest": {
+    "quantity_unit": "KAIA",
+    "interval": "1h",
+    "latest_two_points": [
+      {
+        "raw_capture_index": 44,
+        "kind": "KAIA_oi_previous",
+        "observed_at": "2026-10-16T04:14:13.756Z",
+        "capture_completed_at": "2026-10-16T04:14:14.015Z",
+        "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "evidence_format": "AX_SNAPSHOT",
+        "signed_out_verified": true,
+        "captured_at_utc": "2026-10-16T04:14:13.756Z",
+        "raw_chart_timezone": "UNKNOWN",
+        "chart_timezone": null,
+        "event_time_utc": null,
+        "displayed_time": "10/15 20:00",
+        "raw_label": "10/15 20:00",
+        "interval": "1h",
+        "base_asset": "KAIA",
+        "interval_control_raw": "\t\t\t\t\t\t118 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand",
+        "source_ax_snippets": [
+          "\t\t\t\t\t\t117 text Open Interest",
+          "\t\t\t\t\t\t\t119 text 1h",
+          "\t\t\t\t\t\t\t122 text Single",
+          "\t\t\t\t\t\t\t\t291 text 10/15 20:00 Open Interest (KAIA): 113,564,735.000 Notional Value of Open Interest (USDT): 4,934,387.73"
+        ],
+        "selected_1h_control_verified": true,
+        "quantity_base": 113564735,
+        "quantity_base_display": "113,564,735.000",
+        "notional_usdt": 4934387.73,
+        "notional_usdt_display": "4,934,387.73",
+        "diagnostic_only": true,
+        "reliable_future_baseline_eligible": false,
+        "reliable_market_change_endpoint": false
+      }
+    ],
+    "previous": {
+      "raw_capture_index": 44,
+      "kind": "KAIA_oi_previous",
+      "observed_at": "2026-10-16T04:14:13.756Z",
+      "capture_completed_at": "2026-10-16T04:14:14.015Z",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+      "evidence_format": "AX_SNAPSHOT",
+      "signed_out_verified": true,
+      "captured_at_utc": "2026-10-16T04:14:13.756Z",
+      "raw_chart_timezone": "UNKNOWN",
+      "chart_timezone": null,
+      "event_time_utc": null,
+      "displayed_time": "10/15 20:00",
+      "raw_label": "10/15 20:00",
+      "interval": "1h",
+      "base_asset": "KAIA",
+      "interval_control_raw": "\t\t\t\t\t\t118 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand",
+      "source_ax_snippets": [
+        "\t\t\t\t\t\t117 text Open Interest",
+        "\t\t\t\t\t\t\t119 text 1h",
+        "\t\t\t\t\t\t\t122 text Single",
+        "\t\t\t\t\t\t\t\t291 text 10/15 20:00 Open Interest (KAIA): 113,564,735.000 Notional Value of Open Interest (USDT): 4,934,387.73"
+      ],
+      "selected_1h_control_verified": true,
+      "quantity_base": 113564735,
+      "quantity_base_display": "113,564,735.000",
+      "notional_usdt": 4934387.73,
+      "notional_usdt_display": "4,934,387.73",
+      "diagnostic_only": true,
+      "reliable_future_baseline_eligible": false,
+      "reliable_market_change_endpoint": false
+    },
+    "latest": null,
+    "latest_two_fresh_readable_capture_observations": [
+      {
+        "raw_capture_index": 44,
+        "kind": "KAIA_oi_previous",
+        "observed_at": "2026-10-16T04:14:13.756Z",
+        "capture_completed_at": "2026-10-16T04:14:14.015Z",
+        "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "evidence_format": "AX_SNAPSHOT",
+        "signed_out_verified": true,
+        "captured_at_utc": "2026-10-16T04:14:13.756Z",
+        "raw_chart_timezone": "UNKNOWN",
+        "chart_timezone": null,
+        "event_time_utc": null,
+        "displayed_time": "10/15 20:00",
+        "raw_label": "10/15 20:00",
+        "interval": "1h",
+        "base_asset": "KAIA",
+        "interval_control_raw": "\t\t\t\t\t\t118 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand",
+        "source_ax_snippets": [
+          "\t\t\t\t\t\t117 text Open Interest",
+          "\t\t\t\t\t\t\t119 text 1h",
+          "\t\t\t\t\t\t\t122 text Single",
+          "\t\t\t\t\t\t\t\t291 text 10/15 20:00 Open Interest (KAIA): 113,564,735.000 Notional Value of Open Interest (USDT): 4,934,387.73"
+        ],
+        "selected_1h_control_verified": true,
+        "quantity_base": 113564735,
+        "quantity_base_display": "113,564,735.000",
+        "notional_usdt": 4934387.73,
+        "notional_usdt_display": "4,934,387.73",
+        "diagnostic_only": true,
+        "reliable_future_baseline_eligible": false,
+        "reliable_market_change_endpoint": false
+      }
+    ],
+    "latest_two_fresh_readable_capture_observations_note": "Actual distinct capture records in capture order; may repeat the same displayed label. Repeated reads do not establish two event endpoints or an hourly market change.",
+    "fresh_readable_distinct_displayed_label_count": 1,
+    "quantity_change_base": null,
+    "quantity_change_pct": null,
+    "quantity_change_pct_for_hourly_alert": null,
+    "reliable_quantity_change_pct_for_hourly_alert": null,
+    "comparison_reliable_as_market_change": false,
+    "adjacent_displayed_hours_verified": false,
+    "pair_endpoints_visually_verified": false,
+    "capture_coordinator_attestation": {
+      "latest_kind": null,
+      "previous_kind": "KAIA_oi_previous",
+      "latest_displayed_time": null,
+      "previous_displayed_time": "10/15 20:00",
+      "selected_1h_control_verified": true,
+      "rightmost_endpoint_visually_verified": false,
+      "adjacent_predecessor_visually_verified": false,
+      "coordinator_visual_verification_note": "Coordinator reported valid previous 20:00 quantity; latest endpoint is still missing when collection was stopped after repeated renderer failures. No pair verification or latest values inferred."
+    },
+    "all_valid_tooltip_captures": [
+      {
+        "raw_capture_index": 44,
+        "kind": "KAIA_oi_previous",
+        "observed_at": "2026-10-16T04:14:13.756Z",
+        "capture_completed_at": "2026-10-16T04:14:14.015Z",
+        "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "evidence_format": "AX_SNAPSHOT",
+        "signed_out_verified": true,
+        "captured_at_utc": "2026-10-16T04:14:13.756Z",
+        "raw_chart_timezone": "UNKNOWN",
+        "chart_timezone": null,
+        "event_time_utc": null,
+        "displayed_time": "10/15 20:00",
+        "raw_label": "10/15 20:00",
+        "interval": "1h",
+        "base_asset": "KAIA",
+        "interval_control_raw": "\t\t\t\t\t\t118 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand",
+        "source_ax_snippets": [
+          "\t\t\t\t\t\t117 text Open Interest",
+          "\t\t\t\t\t\t\t119 text 1h",
+          "\t\t\t\t\t\t\t122 text Single",
+          "\t\t\t\t\t\t\t\t291 text 10/15 20:00 Open Interest (KAIA): 113,564,735.000 Notional Value of Open Interest (USDT): 4,934,387.73"
+        ],
+        "selected_1h_control_verified": true,
+        "quantity_base": 113564735,
+        "quantity_base_display": "113,564,735.000",
+        "notional_usdt": 4934387.73,
+        "notional_usdt_display": "4,934,387.73",
+        "diagnostic_only": true,
+        "reliable_future_baseline_eligible": false,
+        "reliable_market_change_endpoint": false
+      }
+    ],
+    "unreadable_tooltip_diagnostics": [
+      {
+        "raw_capture_index": 41,
+        "kind": "KAIA_oi_latest_attempt",
+        "observed_at": "2026-10-16T04:14:13.043Z",
+        "capture_completed_at": "2026-10-16T04:14:13.268Z",
+        "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "evidence_format": "AX_SNAPSHOT",
+        "signed_out_verified": true,
+        "captured_at_utc": "2026-10-16T04:14:13.043Z",
+        "raw_chart_timezone": "UNKNOWN",
+        "chart_timezone": null,
+        "event_time_utc": null,
+        "reason": "No readable selected-1h OI tooltip; no quantity inferred.",
+        "value": null,
+        "missing_values_not_filled_from_other_captures": true
+      },
+      {
+        "raw_capture_index": 42,
+        "kind": "KAIA_oi_latest",
+        "observed_at": "2026-10-16T04:14:13.269Z",
+        "capture_completed_at": "2026-10-16T04:14:13.484Z",
+        "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "evidence_format": "AX_SNAPSHOT",
+        "signed_out_verified": true,
+        "captured_at_utc": "2026-10-16T04:14:13.269Z",
+        "raw_chart_timezone": "UNKNOWN",
+        "chart_timezone": null,
+        "event_time_utc": null,
+        "reason": "No readable selected-1h OI tooltip; no quantity inferred.",
+        "value": null,
+        "missing_values_not_filled_from_other_captures": true
+      },
+      {
+        "raw_capture_index": 43,
+        "kind": "KAIA_oi_previous_attempt",
+        "observed_at": "2026-10-16T04:14:13.498Z",
+        "capture_completed_at": "2026-10-16T04:14:13.756Z",
+        "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "evidence_format": "AX_SNAPSHOT",
+        "signed_out_verified": true,
+        "captured_at_utc": "2026-10-16T04:14:13.498Z",
+        "raw_chart_timezone": "UNKNOWN",
+        "chart_timezone": null,
+        "event_time_utc": null,
+        "reason": "No readable selected-1h OI tooltip; no quantity inferred.",
+        "value": null,
+        "missing_values_not_filled_from_other_captures": true
+      }
+    ],
+    "selected_endpoints_reliable_future_baseline_eligibility": {
+      "previous": false,
+      "latest": false
+    },
+    "previous_observation_latest_endpoint": {
+      "source_url": "https://github.com/xiangzhang3/chiangmai1/blob/aeb58f5687067ce5d9c0a793ce8ed6152e04c1f5/v1.0/runtime/ui_observations/2026-10-16/03-KAIAUSDT.evidence.json",
+      "verified_commit_sha": "aeb58f5687067ce5d9c0a793ce8ed6152e04c1f5",
+      "git_blob_sha1": "f7bd25a179e1530481a09e8368c120d5e452ffc0",
+      "artifact_sha256": "a213fc49f2a2dd8b45d897dbdaddfea7f60d8b5544e712893de37c12e91e9168",
+      "point": {
+        "raw_capture_index": 51,
+        "kind": "KAIA_oi_latest",
+        "observed_at": "2026-10-16T03:21:11.692Z",
+        "capture_completed_at": "2026-10-16T03:21:11.841Z",
+        "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "evidence_format": "DOM_SNAPSHOT",
+        "signed_out_verified": true,
+        "captured_at_utc": "2026-10-16T03:21:11.692Z",
+        "raw_chart_timezone": "UNKNOWN",
+        "chart_timezone": null,
+        "event_time_utc": null,
+        "displayed_time": "10/15 20:00",
+        "raw_label": "10/15 20:00",
+        "interval": "1h",
+        "base_asset": "KAIA",
+        "interval_control_raw": "  - combobox \"Select an option\":\n    - generic: 1h",
+        "source_dom_snippets": [
+          "  - text: 10/15 20:00",
+          "  - paragraph: \"Open Interest (KAIA): 113,564,735.000\"",
+          "  - paragraph: \"Notional Value of Open Interest (USDT):\"",
+          "  - paragraph: 4,934,387.73"
+        ],
+        "selected_1h_control_verified": true,
+        "quantity_base": 113564735,
+        "quantity_base_display": "113,564,735.000",
+        "notional_usdt": 4934387.73,
+        "notional_usdt_display": "4,934,387.73",
+        "diagnostic_only": true,
+        "reliable_future_baseline_eligible": false,
+        "reliable_market_change_endpoint": false
+      },
+      "historical_only": true,
+      "used_for_current_quantity_values": false,
+      "reliable_market_change_baseline": false,
+      "reliable_future_baseline_eligible": false
+    },
+    "current_previous_freshly_repeats_prior_anomalous_endpoint": true,
+    "inherited_predecessor_consistency_unresolved": true,
+    "chart_header_consistency_unresolved": true,
+    "consistency_assessment": {
+      "unresolved_anomaly_reported": true,
+      "chart_header_diagnostics": [
+        {
+          "raw_capture_index": 44,
+          "kind": "KAIA_oi_previous",
+          "observed_at": "2026-10-16T04:14:13.756Z",
+          "capture_completed_at": "2026-10-16T04:14:14.015Z",
+          "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+          "evidence_format": "AX_SNAPSHOT",
+          "signed_out_verified": true,
+          "captured_at_utc": "2026-10-16T04:14:13.756Z",
+          "raw_chart_timezone": "UNKNOWN",
+          "chart_timezone": null,
+          "event_time_utc": null,
+          "chart_displayed_time": "10/15 20:00",
+          "chart_quantity_base": 113564735,
+          "chart_notional_usdt": 4934387.73,
+          "same_capture_header_notional_usdt": 4938440.37,
+          "same_capture_mark_price": 0.04393,
+          "chart_notional_minus_header_notional_usdt": -4052.64,
+          "chart_notional_to_header_ratio": 0.9991793684450219,
+          "chart_quantity_times_same_capture_mark_usdt": 4988898.80855,
+          "same_event_timestamp_verified": false,
+          "diagnostic_only": true,
+          "note": "Different public UI panels; no synchronized event time. Difference does not prove which field is correct or exchange-feed delay."
+        }
+      ],
+      "reliable_market_change_confirmed": false,
+      "repeated_tooltip_does_not_resolve_panel_conflict": true
+    },
+    "reliability_scope": "Fresh rendered quantities and their arithmetic are diagnostic-only. Inherited predecessor and chart/header consistency remain unresolved; no reliable approximately hourly OI baseline or recovery is inferred.",
+    "chart_event_recency_in_utc": null
+  },
+  "hourly_taker": {
+    "interval": "1h",
+    "quantity_unit": "KAIA",
+    "previous": null,
+    "latest": null,
+    "latest_two_points": [],
+    "pair_endpoints_visually_verified": false,
+    "capture_coordinator_attestation": {
+      "latest_kind": null,
+      "previous_kind": null,
+      "latest_displayed_time": null,
+      "previous_displayed_time": null,
+      "selected_1h_control_verified": false,
+      "rightmost_endpoint_visually_verified": false,
+      "adjacent_predecessor_visually_verified": false
+    },
+    "all_valid_tooltip_captures": [],
+    "unreadable_tooltip_diagnostics": [],
+    "taker_candle_same_window_verified": null,
+    "unverified_matching_label_arithmetic_diagnostics": []
+  },
+  "funding": {
+    "predicted": {
+      "raw_capture_index": 40,
+      "kind": "KAIA_header_recovered",
+      "observed_at": "2026-10-16T04:13:25.163Z",
+      "capture_completed_at": "2026-10-16T04:13:50.722Z",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+      "evidence_format": "AX_SNAPSHOT",
+      "signed_out_verified": true,
+      "captured_at_utc": "2026-10-16T04:13:25.163Z",
+      "raw_chart_timezone": "UNKNOWN",
+      "chart_timezone": null,
+      "event_time_utc": null,
+      "rate_percent_display": "0.00213%",
+      "rate_decimal_per_interval": 2.13e-05,
+      "interval_hours": 4,
+      "countdown_display": "03:46:09",
+      "is_settled_funding": false,
+      "conversion": "Header displayed percent divided by 100; predicted rate, not settlement."
+    },
+    "historical_public_chart_points": [],
+    "unlabelled_time_historical_panel_values": [
+      {
+        "raw_capture_index": 40,
+        "kind": "KAIA_header_recovered",
+        "observed_at": "2026-10-16T04:13:25.163Z",
+        "capture_completed_at": "2026-10-16T04:13:50.722Z",
+        "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "evidence_format": "AX_SNAPSHOT",
+        "signed_out_verified": true,
+        "captured_at_utc": "2026-10-16T04:13:25.163Z",
+        "raw_chart_timezone": "UNKNOWN",
+        "chart_timezone": null,
+        "event_time_utc": null,
+        "displayed_time": null,
+        "rate_display": "0.002127%",
+        "rate_decimal": 2.127e-05,
+        "is_account_payment": false,
+        "settlement_status_verified": false,
+        "source_ax_snippets": [
+          "\t\t\t\t\t\t144 text Funding Rate: 0.002127%"
+        ]
+      },
+      {
+        "raw_capture_index": 41,
+        "kind": "KAIA_oi_latest_attempt",
+        "observed_at": "2026-10-16T04:14:13.043Z",
+        "capture_completed_at": "2026-10-16T04:14:13.268Z",
+        "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "evidence_format": "AX_SNAPSHOT",
+        "signed_out_verified": true,
+        "captured_at_utc": "2026-10-16T04:14:13.043Z",
+        "raw_chart_timezone": "UNKNOWN",
+        "chart_timezone": null,
+        "event_time_utc": null,
+        "displayed_time": null,
+        "rate_display": "0.002127%",
+        "rate_decimal": 2.127e-05,
+        "is_account_payment": false,
+        "settlement_status_verified": false,
+        "source_ax_snippets": [
+          "\t\t\t\t\t\t144 text Funding Rate: 0.002127%"
+        ]
+      },
+      {
+        "raw_capture_index": 42,
+        "kind": "KAIA_oi_latest",
+        "observed_at": "2026-10-16T04:14:13.269Z",
+        "capture_completed_at": "2026-10-16T04:14:13.484Z",
+        "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "evidence_format": "AX_SNAPSHOT",
+        "signed_out_verified": true,
+        "captured_at_utc": "2026-10-16T04:14:13.269Z",
+        "raw_chart_timezone": "UNKNOWN",
+        "chart_timezone": null,
+        "event_time_utc": null,
+        "displayed_time": null,
+        "rate_display": "0.002127%",
+        "rate_decimal": 2.127e-05,
+        "is_account_payment": false,
+        "settlement_status_verified": false,
+        "source_ax_snippets": [
+          "\t\t\t\t\t\t144 text Funding Rate: 0.002127%"
+        ]
+      },
+      {
+        "raw_capture_index": 43,
+        "kind": "KAIA_oi_previous_attempt",
+        "observed_at": "2026-10-16T04:14:13.498Z",
+        "capture_completed_at": "2026-10-16T04:14:13.756Z",
+        "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "evidence_format": "AX_SNAPSHOT",
+        "signed_out_verified": true,
+        "captured_at_utc": "2026-10-16T04:14:13.498Z",
+        "raw_chart_timezone": "UNKNOWN",
+        "chart_timezone": null,
+        "event_time_utc": null,
+        "displayed_time": null,
+        "rate_display": "0.002127%",
+        "rate_decimal": 2.127e-05,
+        "is_account_payment": false,
+        "settlement_status_verified": false,
+        "source_ax_snippets": [
+          "\t\t\t\t\t\t144 text Funding Rate: 0.002127%"
+        ]
+      },
+      {
+        "raw_capture_index": 44,
+        "kind": "KAIA_oi_previous",
+        "observed_at": "2026-10-16T04:14:13.756Z",
+        "capture_completed_at": "2026-10-16T04:14:14.015Z",
+        "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "evidence_format": "AX_SNAPSHOT",
+        "signed_out_verified": true,
+        "captured_at_utc": "2026-10-16T04:14:13.756Z",
+        "raw_chart_timezone": "UNKNOWN",
+        "chart_timezone": null,
+        "event_time_utc": null,
+        "displayed_time": null,
+        "rate_display": "0.002127%",
+        "rate_decimal": 2.127e-05,
+        "is_account_payment": false,
+        "settlement_status_verified": false,
+        "source_ax_snippets": [
+          "\t\t\t\t\t\t144 text Funding Rate: 0.002127%"
+        ]
+      }
+    ],
+    "unreadable_historical_tooltip_diagnostics": [],
+    "timestamped_settlement_history_utc": null,
+    "last_settled_funding_rate": null,
+    "last_settled_funding_at": null,
+    "limitation": "Historical chart-local labels do not establish UTC settlement time or latest settled event."
+  },
+  "visible_depth": {
+    "raw_capture_index": 40,
+    "kind": "KAIA_header_recovered",
+    "observed_at": "2026-10-16T04:13:25.163Z",
+    "capture_completed_at": "2026-10-16T04:13:50.722Z",
+    "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+    "evidence_format": "AX_SNAPSHOT",
+    "signed_out_verified": true,
+    "captured_at_utc": "2026-10-16T04:13:25.163Z",
+    "raw_chart_timezone": "UNKNOWN",
+    "chart_timezone": null,
+    "event_time_utc": null,
+    "price_unit": "USDT",
+    "size_unit": "KAIA",
+    "scope": "5 visible levels each side",
+    "asks_descending": [
+      {
+        "price": 0.04387,
+        "price_display": "0.04387",
+        "size_quantity": 55670,
+        "size_display": "55.67K",
+        "cumulative_quantity": 143150,
+        "cumulative_display": "143.15K",
+        "size_display_increment": 10,
+        "cumulative_display_increment": 10
+      },
+      {
+        "price": 0.04386,
+        "price_display": "0.04386",
+        "size_quantity": 29470,
+        "size_display": "29.47K",
+        "cumulative_quantity": 87470,
+        "cumulative_display": "87.47K",
+        "size_display_increment": 10,
+        "cumulative_display_increment": 10
+      },
+      {
+        "price": 0.04385,
+        "price_display": "0.04385",
+        "size_quantity": 15360,
+        "size_display": "15.36K",
+        "cumulative_quantity": 57990,
+        "cumulative_display": "57.99K",
+        "size_display_increment": 10,
+        "cumulative_display_increment": 10
+      },
+      {
+        "price": 0.04384,
+        "price_display": "0.04384",
+        "size_quantity": 7620,
+        "size_display": "7.62K",
+        "cumulative_quantity": 42630,
+        "cumulative_display": "42.63K",
+        "size_display_increment": 10,
+        "cumulative_display_increment": 10
+      },
+      {
+        "price": 0.04383,
+        "price_display": "0.04383",
+        "size_quantity": 35010,
+        "size_display": "35.01K",
+        "cumulative_quantity": 35010,
+        "cumulative_display": "35.01K",
+        "size_display_increment": 10,
+        "cumulative_display_increment": 10
+      }
+    ],
+    "bids_descending": [
+      {
+        "price": 0.04382,
+        "price_display": "0.04382",
+        "size_quantity": 684,
+        "size_display": "684",
+        "cumulative_quantity": 684,
+        "cumulative_display": "684",
+        "size_display_increment": 1,
+        "cumulative_display_increment": 1
+      },
+      {
+        "price": 0.04381,
+        "price_display": "0.04381",
+        "size_quantity": 3600,
+        "size_display": "3.60K",
+        "cumulative_quantity": 4280,
+        "cumulative_display": "4.28K",
+        "size_display_increment": 10,
+        "cumulative_display_increment": 10
+      },
+      {
+        "price": 0.0438,
+        "price_display": "0.04380",
+        "size_quantity": 9420,
+        "size_display": "9.42K",
+        "cumulative_quantity": 13710,
+        "cumulative_display": "13.71K",
+        "size_display_increment": 10,
+        "cumulative_display_increment": 10
+      },
+      {
+        "price": 0.04379,
+        "price_display": "0.04379",
+        "size_quantity": 20120,
+        "size_display": "20.12K",
+        "cumulative_quantity": 33840,
+        "cumulative_display": "33.84K",
+        "size_display_increment": 10,
+        "cumulative_display_increment": 10
+      },
+      {
+        "price": 0.04378,
+        "price_display": "0.04378",
+        "size_quantity": 21580,
+        "size_display": "21.58K",
+        "cumulative_quantity": 55420,
+        "cumulative_display": "55.42K",
+        "size_display_increment": 10,
+        "cumulative_display_increment": 10
+      }
+    ],
+    "mid_display_values": [
+      "0.04384",
+      "0.04384"
+    ],
+    "display_quantities_are_compact_approximations": true,
+    "display_formatting_mode": "UNKNOWN_ROUNDING_OR_TRUNCATION",
+    "precision_note": "Size and cumulative values are independently compact-formatted; exact sums are not inferred.",
+    "source_ax_snippets": [
+      "\t\t\t\t\t\t\t155 text 0.00001",
+      "\t\t\t\t\t\t157 text Price (USDT)",
+      "\t\t\t\t\t\t158 text Size ( KAIA ) Sum ( KAIA )",
+      "\t\t\t\t\t\t\t\t161 text 0.04387",
+      "\t\t\t\t\t\t\t\t162 text 55.67K 143.15K",
+      "\t\t\t\t\t\t\t\t164 text 0.04386",
+      "\t\t\t\t\t\t\t\t165 text 29.47K 87.47K",
+      "\t\t\t\t\t\t\t\t167 text 0.04385",
+      "\t\t\t\t\t\t\t\t168 text 15.36K 57.99K",
+      "\t\t\t\t\t\t\t\t170 text 0.04384",
+      "\t\t\t\t\t\t\t\t171 text 7.62K 42.63K",
+      "\t\t\t\t\t\t\t\t173 text 0.04383",
+      "\t\t\t\t\t\t\t\t174 text 35.01K 35.01K",
+      "\t\t\t\t\t\t175 text 0.04384",
+      "\t\t\t\t\t\t177 text 0.04384",
+      "\t\t\t\t\t\t\t\t180 text 0.04382",
+      "\t\t\t\t\t\t\t\t181 text 684 684",
+      "\t\t\t\t\t\t\t\t183 text 0.04381",
+      "\t\t\t\t\t\t\t\t184 text 3.60K 4.28K",
+      "\t\t\t\t\t\t\t\t186 text 0.04380",
+      "\t\t\t\t\t\t\t\t187 text 9.42K 13.71K",
+      "\t\t\t\t\t\t\t\t189 text 0.04379",
+      "\t\t\t\t\t\t\t\t190 text 20.12K 33.84K",
+      "\t\t\t\t\t\t\t\t192 text 0.04378",
+      "\t\t\t\t\t\t\t\t193 text 21.58K 55.42K",
+      "\t\t\t\t\t260 text Stable connection"
+    ]
+  },
+  "mark_prior_hour_comparison": {
+    "source_url": "https://github.com/xiangzhang3/chiangmai1/blob/aeb58f5687067ce5d9c0a793ce8ed6152e04c1f5/v1.0/runtime/ui_observations/2026-10-16/03-KAIAUSDT.json",
+    "verified_commit_sha": "aeb58f5687067ce5d9c0a793ce8ed6152e04c1f5",
+    "git_blob_sha1": "36ec1c56297d02a7454eee67b323ab987451290c",
+    "artifact_sha256": "8357b75a99f5adab49a4e957cd31914453ffce55d8817057cc5ea61bc27d9310",
+    "comparison_scope": "ADJACENT_SLOT_PRIMARY_CAPTURE_ACTUAL_INTERVAL",
+    "prior_observed_at": "2026-10-16T03:09:41.175Z",
+    "prior_mark_price": 0.04372,
+    "current_observed_at": "2026-10-16T04:13:25.163Z",
+    "current_mark_price": 0.04384,
+    "elapsed_seconds": 3823.988,
+    "elapsed_minutes": 63.73313333333333,
+    "prior_observation_slot_start_utc": "2026-10-16T03:00:00Z",
+    "current_observation_slot_start_utc": "2026-10-16T04:00:00Z",
+    "adjacent_hour_slot_observations": true,
+    "informational_change_over_actual_interval_pct": 0.2744739249771272,
+    "comparison_reliable_as_approximately_one_hour": true,
+    "mark_change_pct_for_hourly_alert": 0.2744739249771272,
+    "approximate_hour_window_minutes": [
+      45,
+      75
+    ],
+    "exact_one_hour": false,
+    "limitation": "Adjacent 03-to-04 UTC primary captures, evaluated over their actual elapsed interval. Only 45\u201375 minute intervals qualify for the approximately-hourly mark rule. No interpolation or rescaling. Capture timestamps are not venue event timestamps; OI consistency remains unresolved."
+  },
+  "mark_prior_hour_comparison_field_note": "This run compares the immutable 03 UTC primary with the fresh 04 UTC primary; actual elapsed time controls approximate-hour eligibility.",
+  "alert_assessment": {
+    "status": "INFORMATIONAL_ONLY",
+    "jct_gate_applicable": false,
+    "reliable_quantity_oi_abs_gte_5pct": null,
+    "displayed_quantity_oi_abs_gte_5pct_diagnostic_only": null,
+    "closed_price_volume_threshold_met": null,
+    "approx_hour_primary_mark_abs_gte_10pct": false,
+    "known_reliable_independent_threshold_candidate": null,
+    "rule": "JCT only: reliable approximately hourly absolute quantity OI change >=5% OR latest closed1h volume >=2 times six-prior arithmetic mean AND same-bar absolute body >=3% OR approximately hourly primary mark absolute change >=10%; candidate requires second fresh same-contract confirmation.",
+    "requires_second_fresh_same_contract_read": false,
+    "second_fresh_confirmation_completed": false,
+    "confirmed_trigger": false,
+    "alert_eligible": false,
+    "reliable_market_change_confirmed": false,
+    "entry_eligibility_established": false,
+    "oi_reliability_blocked": true,
+    "overall_threshold_qualification": "NOT_APPLICABLE",
+    "note": "Unknown/unreliable OI is not a false/no-change result. Informational symbols do not inherit the JCT alert rule.",
+    "notification_deduplication": {
+      "prior_notified_closed_1h_raw_label": null,
+      "prior_notification_status_basis": null,
+      "prior_confirmed_signal_source": null,
+      "same_previously_notified_closed_1h_signal": false,
+      "repeat_closed_candle_notification_suppressed": false,
+      "independent_new_mark_candidate": null,
+      "new_notification_eligible": false,
+      "chart_timezone": null,
+      "event_time_utc": null,
+      "limitation": "Previously notified JCT raw 2026/10/15 19:00 price-volume signal must not be sent again. A separate fresh mark signal is independently assessed. No event UTC or event recency inferred."
+    },
+    "new_notification_eligible": false
+  },
+  "cross_panel_windows": {
+    "candle_oi_same_window_verified": null,
+    "taker_candle_same_window_verified": null,
+    "candle_oi_join_performed": false,
+    "long_short_direction_inferred_from_oi": false,
+    "note": "No common event window or UTC mapping inferred from matching labels."
+  },
+  "quality": {
+    "complete": false,
+    "raw_evidence_sanitized": true,
+    "public_raw_scope_verified": true,
+    "missing_values_not_replayed": true,
+    "unresolved_public_ui_consistency_anomaly": true,
+    "invalid_ohlc_capture_count": 0,
+    "renderer_failure_does_not_establish_exchange_feed_delay": true,
+    "chart_event_recency_in_utc": null,
+    "exchange_feed_delay": null
+  },
+  "missing_fields": {
+    "chart_timezone": null,
+    "exchange_event_timestamps": null,
+    "full_order_book": null,
+    "exchange_depth_sequence_id": null,
+    "UTC_funding_settlement_timestamp": null,
+    "latest_settled_funding_status": null,
+    "exact_unrounded_candle_and_depth_quantities": null,
+    "account_state_validation_not_collected": null,
+    "reliable_current_hourly_quantity_oi_pair": null,
+    "resolved_selected_oi_chart_header_consistency": null,
+    "verified_closed_1h_candle": "PRESENT",
+    "verified_closed_4h_candle": "PRESENT",
+    "complete_prior_six_closed_1h": null,
+    "fresh_readable_oi_tooltips": "PRESENT",
+    "fresh_readable_taker_tooltips": null,
+    "public_historical_funding_tooltips": null,
+    "primary_visible_depth": "PRESENT"
+  },
+  "source_raw_filename": "raw.json",
+  "combined_raw_input_sha256": "0abe97c988e0221f9948450c4c3faaa34e824bc43955323e87baecbfdf566c45",
+  "raw_public_evidence": [
+    {
+      "kind": "KAIA_header_recovered",
+      "observed_at": "2026-10-16T04:13:25.163Z",
+      "capture_completed_at": "2026-10-16T04:13:50.722Z",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+      "evidence_format": "AX_SNAPSHOT",
+      "raw_capture_index": 40,
+      "symbol": "KAIAUSDT",
+      "raw": "\t\t\t31 heading KAIAUSDT info tag, Value: 1\n\t\t\t\t32 text KAIAUSDT\n\t\t\t\t33 container info tag\n\t\t\t\t\t34 container Perp\n\t\t\t\t\t\t35 text Perp\n\t\t\t\t36 image\n\t\t\t37 text 0.04384\n\t\t\t38 text 0.00190\n\t\t\t39 container\n\t\t\t\t40 text +4.55 %\n\t\t\t41 container\n\t\t\t\t42 container\n\t\t\t\t\t43 text Mark\n\t\t\t\t\t44 text 0.04384\n\t\t\t\t45 container\n\t\t\t\t\t46 link Description: Index, Value: binance.com/en/futures/funding-history/perpetual/index?contract=KAIAUSDT\n\t\t\t\t\t47 text 0.04391\n\t\t\t\t48 container\n\t\t\t\t\t49 container\n\t\t\t\t\t\t50 text Funding  (4h)  / Countdown\n\t\t\t\t\t51 text 0.00213% /\n\t\t\t\t\t52 text 03:46:09\n\t\t\t\t53 container\n\t\t\t\t\t54 text 24h High 0.04420\n\t\t\t\t55 container\n\t\t\t\t\t56 text 24h Low 0.04132\n\t\t\t\t57 container\n\t\t\t\t\t58 text 24h Vol(KAIA) 257,091,084.00\n\t\t\t\t59 container\n\t\t\t\t\t60 text 24h Vol(USDT) 10,999,954.76\n\t\t\t\t61 container\n\t\t\t\t\t62 link Description: Open Interest(USDT), Value: binance.com/en/futures/funding-history/perpetual/trading-data?contract=KAIAUSDT\n\t\t\t\t\t63 text 4,928,322.92\n\t\t\t\t115 container Description: Trading Data, ID: flexlayout-tab-#126fdfd7-a5e9-433a-924a-4ef4b42af2bb\n\t\t\t\t\t116 container\n\t\t\t\t\t\t117 text Open Interest\n\t\t\t\t\t\t118 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand\n\t\t\t\t\t\t\t119 text 5m\n\t\t\t\t\t\t\t120 image\n\t\t\t\t\t\t121 combo box (collapsed) Description: Select an option, Value: Single, Secondary Actions: Expand\n\t\t\t\t\t\t\t122 text Single\n\t\t\t\t\t\t\t123 image\n\t\t\t\t\t\t124 text Top Trader Long/Short Ratio (Accounts)\n\t\t\t\t\t\t125 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand\n\t\t\t\t\t\t\t126 text 5m\n\t\t\t\t\t\t\t127 image\n\t\t\t\t\t\t128 text Top Trader Long/Short Ratio (Positions)\n\t\t\t\t\t\t129 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand\n\t\t\t\t\t\t\t130 text 5m\n\t\t\t\t\t\t\t131 image\n\t\t\t\t\t\t132 text Long/Short Ratio\n\t\t\t\t\t\t133 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand\n\t\t\t\t\t\t\t134 text 5m\n\t\t\t\t\t\t\t135 image\n\t\t\t\t\t\t136 text Taker Buy/Sell Volume\n\t\t\t\t\t\t137 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand\n\t\t\t\t\t\t\t138 text 5m\n\t\t\t\t\t\t\t139 image\n\t\t\t\t\t\t140 text Basis\n\t\t\t\t\t\t141 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand\n\t\t\t\t\t\t\t142 text 5m\n\t\t\t\t\t\t\t143 image\n\t\t\t\t\t\t144 text Funding Rate: 0.002127%\n\t\t\t\t\t\t145 combo box (collapsed) Description: Select an option, Value: Last 40 Times, Secondary Actions: Expand\n\t\t\t\t\t\t\t146 text Last 40 Times\n\t\t\t\t\t\t\t147 image\n\t\t\t\t\t\t148 text Open Interest to Market Cap Ratio\n\t\t\t\t\t\t149 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand\n\t\t\t\t\t\t\t150 text 5m\n\t\t\t\t\t\t\t151 image\n\t\t\t\t152 container Description: Order Book, ID: flexlayout-tab-#6a0ca80d-8e80-4993-b972-c9f4803914c9\n\t\t\t\t\t153 container futuresOrderbook\n\t\t\t\t\t\t154 container\n\t\t\t\t\t\t\t155 text 0.00001\n\t\t\t\t\t\t\t156 image\n\t\t\t\t\t\t157 text Price (USDT)\n\t\t\t\t\t\t158 text Size ( KAIA ) Sum ( KAIA )\n\t\t\t\t\t\t159 container\n\t\t\t\t\t\t\t160 container\n\t\t\t\t\t\t\t\t161 text 0.04387\n\t\t\t\t\t\t\t\t162 text 55.67K 143.15K\n\t\t\t\t\t\t\t163 container\n\t\t\t\t\t\t\t\t164 text 0.04386\n\t\t\t\t\t\t\t\t165 text 29.47K 87.47K\n\t\t\t\t\t\t\t166 container\n\t\t\t\t\t\t\t\t167 text 0.04385\n\t\t\t\t\t\t\t\t168 text 15.36K 57.99K\n\t\t\t\t\t\t\t169 container\n\t\t\t\t\t\t\t\t170 text 0.04384\n\t\t\t\t\t\t\t\t171 text 7.62K 42.63K\n\t\t\t\t\t\t\t172 container\n\t\t\t\t\t\t\t\t173 text 0.04383\n\t\t\t\t\t\t\t\t174 text 35.01K 35.01K\n\t\t\t\t\t\t175 text 0.04384\n\t\t\t\t\t\t176 image\n\t\t\t\t\t\t177 text 0.04384\n\t\t\t\t\t\t178 container\n\t\t\t\t\t\t\t179 container\n\t\t\t\t\t\t\t\t180 text 0.04382\n\t\t\t\t\t\t\t\t181 text 684 684\n\t\t\t\t\t\t\t182 container\n\t\t\t\t\t\t\t\t183 text 0.04381\n\t\t\t\t\t\t\t\t184 text 3.60K 4.28K\n\t\t\t\t\t\t\t185 container\n\t\t\t\t\t\t\t\t186 text 0.04380\n\t\t\t\t\t\t\t\t187 text 9.42K 13.71K\n\t\t\t\t\t\t\t188 container\n\t\t\t\t\t\t\t\t189 text 0.04379\n\t\t\t\t\t\t\t\t190 text 20.12K 33.84K\n\t\t\t\t\t\t\t191 container\n\t\t\t\t\t\t\t\t192 text 0.04378\n\t\t\t\t\t\t\t\t193 text 21.58K 55.42K\n\t\t\t\t\t260 text Stable connection",
+      "signed_out_verified": true,
+      "signed_out_verification_basis": "Visible Log In and Sign Up AX controls in original capture.",
+      "signed_out_source_lines": [
+        "\t\t\t\t21 link Description: Log In, Value: accounts.binance.com/en/login?return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vZnV0dXJlcy9LQUlBVVNEVA%3D%3D&locale=en",
+        "\t\t\t\t22 link Description: Sign Up, Value: accounts.binance.com/en/register?registerChannel=futures&locale=en",
+        "\t\t\t\t\t\t212 link Description: Log In, Value: accounts.binance.com/en/login?return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vZnV0dXJlcy9LQUlBVVNEVA==",
+        "\t\t\t\t246 link Description: Log In, Value: accounts.binance.com/en/login?return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vZnV0dXJlcy9LQUlBVVNEVA=="
+      ],
+      "original_raw_sha256": "ada2e5e2bd91edf11f34f131fc296307461816542195a3e66d0bd10d501f66b9",
+      "sanitized_raw_sha256": "aedfd82c0d692790daebd6c41e73a9cdd24d7281ffad6f0afe848ca172785d6e",
+      "sanitization_removed_unrelated_sections": true,
+      "source_parser": "AX_SNAPSHOT_DIRECT",
+      "source_was_converted_to_dom": false,
+      "public_sanitization_basis": "Original numbered AX header and explicitly described public Chart/Trading Data/Order Book subtrees retained verbatim.",
+      "source_url_metadata_correction": {
+        "original_source_url": "https://www.binance.com/en/futures/STRKUSDT",
+        "corrected_source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "basis": "Coordinator confirmed the capture closure retained the STRK source variable after navigation. Correction uses only the exact URL and selected contract in the original AX capture envelope; raw text and actual timestamps are unchanged.",
+        "verified_original_ax_envelope_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "verified_original_ax_selected_symbol": "KAIAUSDT",
+        "original_and_current_raw_sha256": "ada2e5e2bd91edf11f34f131fc296307461816542195a3e66d0bd10d501f66b9",
+        "observed_at_unchanged": "2026-10-16T04:13:25.163Z",
+        "capture_completed_at_unchanged": "2026-10-16T04:13:50.722Z",
+        "only_source_url_input_metadata_corrected": true,
+        "historical_observation_replayed": false
+      }
+    },
+    {
+      "kind": "KAIA_oi_latest_attempt",
+      "observed_at": "2026-10-16T04:14:13.043Z",
+      "capture_completed_at": "2026-10-16T04:14:13.268Z",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+      "evidence_format": "AX_SNAPSHOT",
+      "raw_capture_index": 41,
+      "symbol": "KAIAUSDT",
+      "raw": "\t\t\t31 heading KAIAUSDT info tag, Value: 1\n\t\t\t\t32 text KAIAUSDT\n\t\t\t\t33 container info tag\n\t\t\t\t\t34 container Perp\n\t\t\t\t\t\t35 text Perp\n\t\t\t\t36 image\n\t\t\t37 text 0.04393\n\t\t\t38 text 0.00197\n\t\t\t39 container\n\t\t\t\t40 text +4.71 %\n\t\t\t41 container\n\t\t\t\t42 container\n\t\t\t\t\t43 text Mark\n\t\t\t\t\t44 text 0.04393\n\t\t\t\t45 container\n\t\t\t\t\t46 link Description: Index, Value: binance.com/en/futures/funding-history/perpetual/index?contract=KAIAUSDT\n\t\t\t\t\t47 text 0.04399\n\t\t\t\t48 container\n\t\t\t\t\t49 container\n\t\t\t\t\t\t50 text Funding  (4h)  / Countdown\n\t\t\t\t\t51 text 0.00213% /\n\t\t\t\t\t52 text 03:45:47\n\t\t\t\t53 container\n\t\t\t\t\t54 text 24h High 0.04420\n\t\t\t\t55 container\n\t\t\t\t\t56 text 24h Low 0.04132\n\t\t\t\t57 container\n\t\t\t\t\t58 text 24h Vol(KAIA) 257,193,537.00\n\t\t\t\t59 container\n\t\t\t\t\t60 text 24h Vol(USDT) 11,004,568.78\n\t\t\t\t61 container\n\t\t\t\t\t62 link Description: Open Interest(USDT), Value: binance.com/en/futures/funding-history/perpetual/trading-data?contract=KAIAUSDT\n\t\t\t\t\t63 text 4,938,440.37\n\t\t\t\t115 container Description: Trading Data, ID: flexlayout-tab-#126fdfd7-a5e9-433a-924a-4ef4b42af2bb\n\t\t\t\t\t116 container\n\t\t\t\t\t\t117 text Open Interest\n\t\t\t\t\t\t118 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand\n\t\t\t\t\t\t\t119 text 1h\n\t\t\t\t\t\t\t120 image\n\t\t\t\t\t\t121 combo box (collapsed) Description: Select an option, Value: Single, Secondary Actions: Expand\n\t\t\t\t\t\t\t122 text Single\n\t\t\t\t\t\t\t123 image\n\t\t\t\t\t\t124 text Top Trader Long/Short Ratio (Accounts)\n\t\t\t\t\t\t125 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand\n\t\t\t\t\t\t\t126 text 5m\n\t\t\t\t\t\t\t127 image\n\t\t\t\t\t\t128 text Top Trader Long/Short Ratio (Positions)\n\t\t\t\t\t\t129 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand\n\t\t\t\t\t\t\t130 text 5m\n\t\t\t\t\t\t\t131 image\n\t\t\t\t\t\t132 text Long/Short Ratio\n\t\t\t\t\t\t133 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand\n\t\t\t\t\t\t\t134 text 5m\n\t\t\t\t\t\t\t135 image\n\t\t\t\t\t\t136 text Taker Buy/Sell Volume\n\t\t\t\t\t\t137 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand\n\t\t\t\t\t\t\t138 text 5m\n\t\t\t\t\t\t\t139 image\n\t\t\t\t\t\t140 text Basis\n\t\t\t\t\t\t141 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand\n\t\t\t\t\t\t\t142 text 5m\n\t\t\t\t\t\t\t143 image\n\t\t\t\t\t\t144 text Funding Rate: 0.002127%\n\t\t\t\t\t\t145 combo box (collapsed) Description: Select an option, Value: Last 40 Times, Secondary Actions: Expand\n\t\t\t\t\t\t\t146 text Last 40 Times\n\t\t\t\t\t\t\t147 image\n\t\t\t\t\t\t148 text Open Interest to Market Cap Ratio\n\t\t\t\t\t\t149 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand\n\t\t\t\t\t\t\t150 text 5m\n\t\t\t\t\t\t\t151 image\n\t\t\t\t152 container Description: Order Book, ID: flexlayout-tab-#6a0ca80d-8e80-4993-b972-c9f4803914c9\n\t\t\t\t\t153 container futuresOrderbook\n\t\t\t\t\t\t154 container\n\t\t\t\t\t\t\t155 text 0.00001\n\t\t\t\t\t\t\t156 image\n\t\t\t\t\t\t157 text Price (USDT)\n\t\t\t\t\t\t158 text Size ( KAIA ) Sum ( KAIA )\n\t\t\t\t\t\t159 container\n\t\t\t\t\t\t\t160 container\n\t\t\t\t\t\t\t\t161 text 0.04398\n\t\t\t\t\t\t\t\t162 text 21.97K 56.33K\n\t\t\t\t\t\t\t163 container\n\t\t\t\t\t\t\t\t164 text 0.04397\n\t\t\t\t\t\t\t\t165 text 28.09K 34.36K\n\t\t\t\t\t\t\t166 container\n\t\t\t\t\t\t\t\t167 text 0.04396\n\t\t\t\t\t\t\t\t168 text 3.71K 6.26K\n\t\t\t\t\t\t\t169 container\n\t\t\t\t\t\t\t\t170 text 0.04395\n\t\t\t\t\t\t\t\t171 text 1.83K 2.54K\n\t\t\t\t\t\t\t172 container\n\t\t\t\t\t\t\t\t173 text 0.04394\n\t\t\t\t\t\t\t\t174 text 718 718\n\t\t\t\t\t\t175 text 0.04393\n\t\t\t\t\t\t176 image\n\t\t\t\t\t\t177 text 0.04393\n\t\t\t\t\t\t178 container\n\t\t\t\t\t\t\t179 container\n\t\t\t\t\t\t\t\t180 text 0.04393\n\t\t\t\t\t\t\t\t181 text 5.31K 5.31K\n\t\t\t\t\t\t\t182 container\n\t\t\t\t\t\t\t\t183 text 0.04392\n\t\t\t\t\t\t\t\t184 text 7.10K 12.42K\n\t\t\t\t\t\t\t185 container\n\t\t\t\t\t\t\t\t186 text 0.04391\n\t\t\t\t\t\t\t\t187 text 12.08K 24.50K\n\t\t\t\t\t\t\t188 container\n\t\t\t\t\t\t\t\t189 text 0.04390\n\t\t\t\t\t\t\t\t190 text 24.40K 48.91K\n\t\t\t\t\t\t\t191 container\n\t\t\t\t\t\t\t\t192 text 0.04389\n\t\t\t\t\t\t\t\t193 text 36.30K 85.22K\n\t\t\t\t\t260 text Stable connection",
+      "signed_out_verified": true,
+      "signed_out_verification_basis": "Visible Log In and Sign Up AX controls in original capture.",
+      "signed_out_source_lines": [
+        "\t\t\t\t21 link Description: Log In, Value: accounts.binance.com/en/login?return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vZnV0dXJlcy9LQUlBVVNEVA%3D%3D&locale=en",
+        "\t\t\t\t22 link Description: Sign Up, Value: accounts.binance.com/en/register?registerChannel=futures&locale=en",
+        "\t\t\t\t\t\t212 link Description: Log In, Value: accounts.binance.com/en/login?return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vZnV0dXJlcy9LQUlBVVNEVA==",
+        "\t\t\t\t246 link Description: Log In, Value: accounts.binance.com/en/login?return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vZnV0dXJlcy9LQUlBVVNEVA=="
+      ],
+      "original_raw_sha256": "afe32abda0619cb4f65a6603215da91d2f3474caf60365b83e9ce66fa3bfdd8b",
+      "sanitized_raw_sha256": "472b85da20e1e2d82e16a1135de80321f09cdb6a281fdc46f32012246df92fcc",
+      "sanitization_removed_unrelated_sections": true,
+      "source_parser": "AX_SNAPSHOT_DIRECT",
+      "source_was_converted_to_dom": false,
+      "public_sanitization_basis": "Original numbered AX header and explicitly described public Chart/Trading Data/Order Book subtrees retained verbatim.",
+      "source_url_metadata_correction": {
+        "original_source_url": "https://www.binance.com/en/futures/STRKUSDT",
+        "corrected_source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "basis": "Coordinator confirmed the capture closure retained the STRK source variable after navigation. Correction uses only the exact URL and selected contract in the original AX capture envelope; raw text and actual timestamps are unchanged.",
+        "verified_original_ax_envelope_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "verified_original_ax_selected_symbol": "KAIAUSDT",
+        "original_and_current_raw_sha256": "afe32abda0619cb4f65a6603215da91d2f3474caf60365b83e9ce66fa3bfdd8b",
+        "observed_at_unchanged": "2026-10-16T04:14:13.043Z",
+        "capture_completed_at_unchanged": "2026-10-16T04:14:13.268Z",
+        "only_source_url_input_metadata_corrected": true,
+        "historical_observation_replayed": false
+      }
+    },
+    {
+      "kind": "KAIA_oi_latest",
+      "observed_at": "2026-10-16T04:14:13.269Z",
+      "capture_completed_at": "2026-10-16T04:14:13.484Z",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+      "evidence_format": "AX_SNAPSHOT",
+      "raw_capture_index": 42,
+      "symbol": "KAIAUSDT",
+      "raw": "\t\t\t31 heading KAIAUSDT info tag, Value: 1\n\t\t\t\t32 text KAIAUSDT\n\t\t\t\t33 container info tag\n\t\t\t\t\t34 container Perp\n\t\t\t\t\t\t35 text Perp\n\t\t\t\t36 image\n\t\t\t37 text 0.04393\n\t\t\t38 text 0.00197\n\t\t\t39 container\n\t\t\t\t40 text +4.71 %\n\t\t\t41 container\n\t\t\t\t42 container\n\t\t\t\t\t43 text Mark\n\t\t\t\t\t44 text 0.04393\n\t\t\t\t45 container\n\t\t\t\t\t46 link Description: Index, Value: binance.com/en/futures/funding-history/perpetual/index?contract=KAIAUSDT\n\t\t\t\t\t47 text 0.04399\n\t\t\t\t48 container\n\t\t\t\t\t49 container\n\t\t\t\t\t\t50 text Funding  (4h)  / Countdown\n\t\t\t\t\t51 text 0.00213% /\n\t\t\t\t\t52 text 03:45:46\n\t\t\t\t53 container\n\t\t\t\t\t54 text 24h High 0.04420\n\t\t\t\t55 container\n\t\t\t\t\t56 text 24h Low 0.04132\n\t\t\t\t57 container\n\t\t\t\t\t58 text 24h Vol(KAIA) 257,193,537.00\n\t\t\t\t59 container\n\t\t\t\t\t60 text 24h Vol(USDT) 11,004,568.78\n\t\t\t\t61 container\n\t\t\t\t\t62 link Description: Open Interest(USDT), Value: binance.com/en/futures/funding-history/perpetual/trading-data?contract=KAIAUSDT\n\t\t\t\t\t63 text 4,938,440.37\n\t\t\t\t115 container Description: Trading Data, ID: flexlayout-tab-#126fdfd7-a5e9-433a-924a-4ef4b42af2bb\n\t\t\t\t\t116 container\n\t\t\t\t\t\t117 text Open Interest\n\t\t\t\t\t\t118 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand\n\t\t\t\t\t\t\t119 text 1h\n\t\t\t\t\t\t\t120 image\n\t\t\t\t\t\t121 combo box (collapsed) Description: Select an option, Value: Single, Secondary Actions: Expand\n\t\t\t\t\t\t\t122 text Single\n\t\t\t\t\t\t\t123 image\n\t\t\t\t\t\t124 text Top Trader Long/Short Ratio (Accounts)\n\t\t\t\t\t\t125 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand\n\t\t\t\t\t\t\t126 text 5m\n\t\t\t\t\t\t\t127 image\n\t\t\t\t\t\t128 text Top Trader Long/Short Ratio (Positions)\n\t\t\t\t\t\t129 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand\n\t\t\t\t\t\t\t130 text 5m\n\t\t\t\t\t\t\t131 image\n\t\t\t\t\t\t132 text Long/Short Ratio\n\t\t\t\t\t\t133 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand\n\t\t\t\t\t\t\t134 text 5m\n\t\t\t\t\t\t\t135 image\n\t\t\t\t\t\t136 text Taker Buy/Sell Volume\n\t\t\t\t\t\t137 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand\n\t\t\t\t\t\t\t138 text 5m\n\t\t\t\t\t\t\t139 image\n\t\t\t\t\t\t140 text Basis\n\t\t\t\t\t\t141 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand\n\t\t\t\t\t\t\t142 text 5m\n\t\t\t\t\t\t\t143 image\n\t\t\t\t\t\t144 text Funding Rate: 0.002127%\n\t\t\t\t\t\t145 combo box (collapsed) Description: Select an option, Value: Last 40 Times, Secondary Actions: Expand\n\t\t\t\t\t\t\t146 text Last 40 Times\n\t\t\t\t\t\t\t147 image\n\t\t\t\t\t\t148 text Open Interest to Market Cap Ratio\n\t\t\t\t\t\t149 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand\n\t\t\t\t\t\t\t150 text 5m\n\t\t\t\t\t\t\t151 image\n\t\t\t\t152 container Description: Order Book, ID: flexlayout-tab-#6a0ca80d-8e80-4993-b972-c9f4803914c9\n\t\t\t\t\t153 container futuresOrderbook\n\t\t\t\t\t\t154 container\n\t\t\t\t\t\t\t155 text 0.00001\n\t\t\t\t\t\t\t156 image\n\t\t\t\t\t\t157 text Price (USDT)\n\t\t\t\t\t\t158 text Size ( KAIA ) Sum ( KAIA )\n\t\t\t\t\t\t159 container\n\t\t\t\t\t\t\t160 container\n\t\t\t\t\t\t\t\t161 text 0.04398\n\t\t\t\t\t\t\t\t162 text 21.97K 57.73K\n\t\t\t\t\t\t\t163 container\n\t\t\t\t\t\t\t\t164 text 0.04397\n\t\t\t\t\t\t\t\t165 text 28.09K 35.76K\n\t\t\t\t\t\t\t166 container\n\t\t\t\t\t\t\t\t167 text 0.04396\n\t\t\t\t\t\t\t\t168 text 3.71K 7.66K\n\t\t\t\t\t\t\t169 container\n\t\t\t\t\t\t\t\t170 text 0.04395\n\t\t\t\t\t\t\t\t171 text 1.83K 3.94K\n\t\t\t\t\t\t\t172 container\n\t\t\t\t\t\t\t\t173 text 0.04394\n\t\t\t\t\t\t\t\t174 text 2.11K 2.11K\n\t\t\t\t\t\t175 text 0.04393\n\t\t\t\t\t\t176 image\n\t\t\t\t\t\t177 text 0.04393\n\t\t\t\t\t\t178 container\n\t\t\t\t\t\t\t179 container\n\t\t\t\t\t\t\t\t180 text 0.04393\n\t\t\t\t\t\t\t\t181 text 1.46K 1.46K\n\t\t\t\t\t\t\t182 container\n\t\t\t\t\t\t\t\t183 text 0.04392\n\t\t\t\t\t\t\t\t184 text 7.10K 8.57K\n\t\t\t\t\t\t\t185 container\n\t\t\t\t\t\t\t\t186 text 0.04391\n\t\t\t\t\t\t\t\t187 text 13.69K 22.26K\n\t\t\t\t\t\t\t188 container\n\t\t\t\t\t\t\t\t189 text 0.04390\n\t\t\t\t\t\t\t\t190 text 24.40K 46.67K\n\t\t\t\t\t\t\t191 container\n\t\t\t\t\t\t\t\t192 text 0.04389\n\t\t\t\t\t\t\t\t193 text 32.43K 79.10K\n\t\t\t\t\t260 text Stable connection",
+      "signed_out_verified": true,
+      "signed_out_verification_basis": "Visible Log In and Sign Up AX controls in original capture.",
+      "signed_out_source_lines": [
+        "\t\t\t\t21 link Description: Log In, Value: accounts.binance.com/en/login?return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vZnV0dXJlcy9LQUlBVVNEVA%3D%3D&locale=en",
+        "\t\t\t\t22 link Description: Sign Up, Value: accounts.binance.com/en/register?registerChannel=futures&locale=en",
+        "\t\t\t\t\t\t212 link Description: Log In, Value: accounts.binance.com/en/login?return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vZnV0dXJlcy9LQUlBVVNEVA==",
+        "\t\t\t\t246 link Description: Log In, Value: accounts.binance.com/en/login?return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vZnV0dXJlcy9LQUlBVVNEVA=="
+      ],
+      "original_raw_sha256": "0d4c3af9c119b84fcda798549f16c53da4c2af6f3d50062c14700b884d2a7cf1",
+      "sanitized_raw_sha256": "e9d8eda31338f3503c0662ad60d20772ea592676dcb7e8f768a059283f428a90",
+      "sanitization_removed_unrelated_sections": true,
+      "source_parser": "AX_SNAPSHOT_DIRECT",
+      "source_was_converted_to_dom": false,
+      "public_sanitization_basis": "Original numbered AX header and explicitly described public Chart/Trading Data/Order Book subtrees retained verbatim.",
+      "source_url_metadata_correction": {
+        "original_source_url": "https://www.binance.com/en/futures/STRKUSDT",
+        "corrected_source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "basis": "Coordinator confirmed the capture closure retained the STRK source variable after navigation. Correction uses only the exact URL and selected contract in the original AX capture envelope; raw text and actual timestamps are unchanged.",
+        "verified_original_ax_envelope_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "verified_original_ax_selected_symbol": "KAIAUSDT",
+        "original_and_current_raw_sha256": "0d4c3af9c119b84fcda798549f16c53da4c2af6f3d50062c14700b884d2a7cf1",
+        "observed_at_unchanged": "2026-10-16T04:14:13.269Z",
+        "capture_completed_at_unchanged": "2026-10-16T04:14:13.484Z",
+        "only_source_url_input_metadata_corrected": true,
+        "historical_observation_replayed": false
+      }
+    },
+    {
+      "kind": "KAIA_oi_previous_attempt",
+      "observed_at": "2026-10-16T04:14:13.498Z",
+      "capture_completed_at": "2026-10-16T04:14:13.756Z",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+      "evidence_format": "AX_SNAPSHOT",
+      "raw_capture_index": 43,
+      "symbol": "KAIAUSDT",
+      "raw": "\t\t\t31 heading KAIAUSDT info tag, Value: 1\n\t\t\t\t32 text KAIAUSDT\n\t\t\t\t33 container info tag\n\t\t\t\t\t34 container Perp\n\t\t\t\t\t\t35 text Perp\n\t\t\t\t36 image\n\t\t\t37 text 0.04393\n\t\t\t38 text 0.00197\n\t\t\t39 container\n\t\t\t\t40 text +4.71 %\n\t\t\t41 container\n\t\t\t\t42 container\n\t\t\t\t\t43 text Mark\n\t\t\t\t\t44 text 0.04393\n\t\t\t\t45 container\n\t\t\t\t\t46 link Description: Index, Value: binance.com/en/futures/funding-history/perpetual/index?contract=KAIAUSDT\n\t\t\t\t\t47 text 0.04399\n\t\t\t\t48 container\n\t\t\t\t\t49 container\n\t\t\t\t\t\t50 text Funding  (4h)  / Countdown\n\t\t\t\t\t51 text 0.00213% /\n\t\t\t\t\t52 text 03:45:46\n\t\t\t\t53 container\n\t\t\t\t\t54 text 24h High 0.04420\n\t\t\t\t55 container\n\t\t\t\t\t56 text 24h Low 0.04132\n\t\t\t\t57 container\n\t\t\t\t\t58 text 24h Vol(KAIA) 257,193,537.00\n\t\t\t\t59 container\n\t\t\t\t\t60 text 24h Vol(USDT) 11,004,568.78\n\t\t\t\t61 container\n\t\t\t\t\t62 link Description: Open Interest(USDT), Value: binance.com/en/futures/funding-history/perpetual/trading-data?contract=KAIAUSDT\n\t\t\t\t\t63 text 4,938,440.37\n\t\t\t\t115 container Description: Trading Data, ID: flexlayout-tab-#126fdfd7-a5e9-433a-924a-4ef4b42af2bb\n\t\t\t\t\t116 container\n\t\t\t\t\t\t117 text Open Interest\n\t\t\t\t\t\t118 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand\n\t\t\t\t\t\t\t119 text 1h\n\t\t\t\t\t\t\t120 image\n\t\t\t\t\t\t121 combo box (collapsed) Description: Select an option, Value: Single, Secondary Actions: Expand\n\t\t\t\t\t\t\t122 text Single\n\t\t\t\t\t\t\t123 image\n\t\t\t\t\t\t289 container highcharts-5mf9qju-109\n\t\t\t\t\t\t\t290 container\n\t\t\t\t\t\t\t\t291 text 10/15 20:00\n\t\t\t\t\t\t124 text Top Trader Long/Short Ratio (Accounts)\n\t\t\t\t\t\t125 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand\n\t\t\t\t\t\t\t126 text 5m\n\t\t\t\t\t\t\t127 image\n\t\t\t\t\t\t128 text Top Trader Long/Short Ratio (Positions)\n\t\t\t\t\t\t129 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand\n\t\t\t\t\t\t\t130 text 5m\n\t\t\t\t\t\t\t131 image\n\t\t\t\t\t\t132 text Long/Short Ratio\n\t\t\t\t\t\t133 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand\n\t\t\t\t\t\t\t134 text 5m\n\t\t\t\t\t\t\t135 image\n\t\t\t\t\t\t136 text Taker Buy/Sell Volume\n\t\t\t\t\t\t137 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand\n\t\t\t\t\t\t\t138 text 5m\n\t\t\t\t\t\t\t139 image\n\t\t\t\t\t\t140 text Basis\n\t\t\t\t\t\t141 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand\n\t\t\t\t\t\t\t142 text 5m\n\t\t\t\t\t\t\t143 image\n\t\t\t\t\t\t144 text Funding Rate: 0.002127%\n\t\t\t\t\t\t145 combo box (collapsed) Description: Select an option, Value: Last 40 Times, Secondary Actions: Expand\n\t\t\t\t\t\t\t146 text Last 40 Times\n\t\t\t\t\t\t\t147 image\n\t\t\t\t\t\t148 text Open Interest to Market Cap Ratio\n\t\t\t\t\t\t149 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand\n\t\t\t\t\t\t\t150 text 5m\n\t\t\t\t\t\t\t151 image\n\t\t\t\t152 container Description: Order Book, ID: flexlayout-tab-#6a0ca80d-8e80-4993-b972-c9f4803914c9\n\t\t\t\t\t153 container futuresOrderbook\n\t\t\t\t\t\t154 container\n\t\t\t\t\t\t\t155 text 0.00001\n\t\t\t\t\t\t\t156 image\n\t\t\t\t\t\t157 text Price (USDT)\n\t\t\t\t\t\t158 text Size ( KAIA ) Sum ( KAIA )\n\t\t\t\t\t\t159 container\n\t\t\t\t\t\t\t160 container\n\t\t\t\t\t\t\t\t161 text 0.04398\n\t\t\t\t\t\t\t\t162 text 21.97K 57.73K\n\t\t\t\t\t\t\t163 container\n\t\t\t\t\t\t\t\t164 text 0.04397\n\t\t\t\t\t\t\t\t165 text 28.09K 35.76K\n\t\t\t\t\t\t\t166 container\n\t\t\t\t\t\t\t\t167 text 0.04396\n\t\t\t\t\t\t\t\t168 text 3.71K 7.66K\n\t\t\t\t\t\t\t169 container\n\t\t\t\t\t\t\t\t170 text 0.04395\n\t\t\t\t\t\t\t\t171 text 1.83K 3.94K\n\t\t\t\t\t\t\t172 container\n\t\t\t\t\t\t\t\t173 text 0.04394\n\t\t\t\t\t\t\t\t174 text 2.11K 2.11K\n\t\t\t\t\t\t175 text 0.04393\n\t\t\t\t\t\t176 image\n\t\t\t\t\t\t177 text 0.04393\n\t\t\t\t\t\t178 container\n\t\t\t\t\t\t\t179 container\n\t\t\t\t\t\t\t\t180 text 0.04393\n\t\t\t\t\t\t\t\t181 text 1.46K 1.46K\n\t\t\t\t\t\t\t182 container\n\t\t\t\t\t\t\t\t183 text 0.04392\n\t\t\t\t\t\t\t\t184 text 7.10K 8.57K\n\t\t\t\t\t\t\t185 container\n\t\t\t\t\t\t\t\t186 text 0.04391\n\t\t\t\t\t\t\t\t187 text 13.69K 22.26K\n\t\t\t\t\t\t\t188 container\n\t\t\t\t\t\t\t\t189 text 0.04390\n\t\t\t\t\t\t\t\t190 text 24.40K 46.67K\n\t\t\t\t\t\t\t191 container\n\t\t\t\t\t\t\t\t192 text 0.04389\n\t\t\t\t\t\t\t\t193 text 32.43K 79.10K\n\t\t\t\t\t260 text Stable connection",
+      "signed_out_verified": true,
+      "signed_out_verification_basis": "Visible Log In and Sign Up AX controls in original capture.",
+      "signed_out_source_lines": [
+        "\t\t\t\t21 link Description: Log In, Value: accounts.binance.com/en/login?return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vZnV0dXJlcy9LQUlBVVNEVA%3D%3D&locale=en",
+        "\t\t\t\t22 link Description: Sign Up, Value: accounts.binance.com/en/register?registerChannel=futures&locale=en",
+        "\t\t\t\t\t\t212 link Description: Log In, Value: accounts.binance.com/en/login?return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vZnV0dXJlcy9LQUlBVVNEVA==",
+        "\t\t\t\t246 link Description: Log In, Value: accounts.binance.com/en/login?return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vZnV0dXJlcy9LQUlBVVNEVA=="
+      ],
+      "original_raw_sha256": "687294234cfc81501907ef529c40718a42990d1fd5e9c5bec88be7553e80369a",
+      "sanitized_raw_sha256": "065dfc248159622336cf93f474b06522a44c60e720875fb1111e3ed905b1a751",
+      "sanitization_removed_unrelated_sections": true,
+      "source_parser": "AX_SNAPSHOT_DIRECT",
+      "source_was_converted_to_dom": false,
+      "public_sanitization_basis": "Original numbered AX header and explicitly described public Chart/Trading Data/Order Book subtrees retained verbatim.",
+      "source_url_metadata_correction": {
+        "original_source_url": "https://www.binance.com/en/futures/STRKUSDT",
+        "corrected_source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "basis": "Coordinator confirmed the capture closure retained the STRK source variable after navigation. Correction uses only the exact URL and selected contract in the original AX capture envelope; raw text and actual timestamps are unchanged.",
+        "verified_original_ax_envelope_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "verified_original_ax_selected_symbol": "KAIAUSDT",
+        "original_and_current_raw_sha256": "687294234cfc81501907ef529c40718a42990d1fd5e9c5bec88be7553e80369a",
+        "observed_at_unchanged": "2026-10-16T04:14:13.498Z",
+        "capture_completed_at_unchanged": "2026-10-16T04:14:13.756Z",
+        "only_source_url_input_metadata_corrected": true,
+        "historical_observation_replayed": false
+      }
+    },
+    {
+      "kind": "KAIA_oi_previous",
+      "observed_at": "2026-10-16T04:14:13.756Z",
+      "capture_completed_at": "2026-10-16T04:14:14.015Z",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+      "evidence_format": "AX_SNAPSHOT",
+      "raw_capture_index": 44,
+      "symbol": "KAIAUSDT",
+      "raw": "\t\t\t31 heading KAIAUSDT info tag, Value: 1\n\t\t\t\t32 text KAIAUSDT\n\t\t\t\t33 container info tag\n\t\t\t\t\t34 container Perp\n\t\t\t\t\t\t35 text Perp\n\t\t\t\t36 image\n\t\t\t37 text 0.04393\n\t\t\t38 text 0.00197\n\t\t\t39 container\n\t\t\t\t40 text +4.71 %\n\t\t\t41 container\n\t\t\t\t42 container\n\t\t\t\t\t43 text Mark\n\t\t\t\t\t44 text 0.04393\n\t\t\t\t45 container\n\t\t\t\t\t46 link Description: Index, Value: binance.com/en/futures/funding-history/perpetual/index?contract=KAIAUSDT\n\t\t\t\t\t47 text 0.04399\n\t\t\t\t48 container\n\t\t\t\t\t49 container\n\t\t\t\t\t\t50 text Funding  (4h)  / Countdown\n\t\t\t\t\t51 text 0.00213% /\n\t\t\t\t\t52 text 03:45:46\n\t\t\t\t53 container\n\t\t\t\t\t54 text 24h High 0.04420\n\t\t\t\t55 container\n\t\t\t\t\t56 text 24h Low 0.04132\n\t\t\t\t57 container\n\t\t\t\t\t58 text 24h Vol(KAIA) 257,193,537.00\n\t\t\t\t59 container\n\t\t\t\t\t60 text 24h Vol(USDT) 11,004,568.78\n\t\t\t\t61 container\n\t\t\t\t\t62 link Description: Open Interest(USDT), Value: binance.com/en/futures/funding-history/perpetual/trading-data?contract=KAIAUSDT\n\t\t\t\t\t63 text 4,938,440.37\n\t\t\t\t115 container Description: Trading Data, ID: flexlayout-tab-#126fdfd7-a5e9-433a-924a-4ef4b42af2bb\n\t\t\t\t\t116 container\n\t\t\t\t\t\t117 text Open Interest\n\t\t\t\t\t\t118 combo box (collapsed) Description: Select an option, Value: 1h, Secondary Actions: Expand\n\t\t\t\t\t\t\t119 text 1h\n\t\t\t\t\t\t\t120 image\n\t\t\t\t\t\t121 combo box (collapsed) Description: Select an option, Value: Single, Secondary Actions: Expand\n\t\t\t\t\t\t\t122 text Single\n\t\t\t\t\t\t\t123 image\n\t\t\t\t\t\t289 container highcharts-5mf9qju-109\n\t\t\t\t\t\t\t290 container\n\t\t\t\t\t\t\t\t291 text 10/15 20:00 Open Interest (KAIA): 113,564,735.000 Notional Value of Open Interest (USDT): 4,934,387.73\n\t\t\t\t\t\t124 text Top Trader Long/Short Ratio (Accounts)\n\t\t\t\t\t\t125 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand\n\t\t\t\t\t\t\t126 text 5m\n\t\t\t\t\t\t\t127 image\n\t\t\t\t\t\t128 text Top Trader Long/Short Ratio (Positions)\n\t\t\t\t\t\t129 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand\n\t\t\t\t\t\t\t130 text 5m\n\t\t\t\t\t\t\t131 image\n\t\t\t\t\t\t132 text Long/Short Ratio\n\t\t\t\t\t\t133 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand\n\t\t\t\t\t\t\t134 text 5m\n\t\t\t\t\t\t\t135 image\n\t\t\t\t\t\t136 text Taker Buy/Sell Volume\n\t\t\t\t\t\t137 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand\n\t\t\t\t\t\t\t138 text 5m\n\t\t\t\t\t\t\t139 image\n\t\t\t\t\t\t140 text Basis\n\t\t\t\t\t\t141 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand\n\t\t\t\t\t\t\t142 text 5m\n\t\t\t\t\t\t\t143 image\n\t\t\t\t\t\t144 text Funding Rate: 0.002127%\n\t\t\t\t\t\t145 combo box (collapsed) Description: Select an option, Value: Last 40 Times, Secondary Actions: Expand\n\t\t\t\t\t\t\t146 text Last 40 Times\n\t\t\t\t\t\t\t147 image\n\t\t\t\t\t\t148 text Open Interest to Market Cap Ratio\n\t\t\t\t\t\t149 combo box (collapsed) Description: Select an option, Value: 5m, Secondary Actions: Expand\n\t\t\t\t\t\t\t150 text 5m\n\t\t\t\t\t\t\t151 image\n\t\t\t\t152 container Description: Order Book, ID: flexlayout-tab-#6a0ca80d-8e80-4993-b972-c9f4803914c9\n\t\t\t\t\t153 container futuresOrderbook\n\t\t\t\t\t\t154 container\n\t\t\t\t\t\t\t155 text 0.00001\n\t\t\t\t\t\t\t156 image\n\t\t\t\t\t\t157 text Price (USDT)\n\t\t\t\t\t\t158 text Size ( KAIA ) Sum ( KAIA )\n\t\t\t\t\t\t159 container\n\t\t\t\t\t\t\t160 container\n\t\t\t\t\t\t\t\t161 text 0.04398\n\t\t\t\t\t\t\t\t162 text 21.97K 57.73K\n\t\t\t\t\t\t\t163 container\n\t\t\t\t\t\t\t\t164 text 0.04397\n\t\t\t\t\t\t\t\t165 text 28.09K 35.76K\n\t\t\t\t\t\t\t166 container\n\t\t\t\t\t\t\t\t167 text 0.04396\n\t\t\t\t\t\t\t\t168 text 3.71K 7.66K\n\t\t\t\t\t\t\t169 container\n\t\t\t\t\t\t\t\t170 text 0.04395\n\t\t\t\t\t\t\t\t171 text 1.83K 3.94K\n\t\t\t\t\t\t\t172 container\n\t\t\t\t\t\t\t\t173 text 0.04394\n\t\t\t\t\t\t\t\t174 text 2.11K 2.11K\n\t\t\t\t\t\t175 text 0.04393\n\t\t\t\t\t\t176 image\n\t\t\t\t\t\t177 text 0.04393\n\t\t\t\t\t\t178 container\n\t\t\t\t\t\t\t179 container\n\t\t\t\t\t\t\t\t180 text 0.04393\n\t\t\t\t\t\t\t\t181 text 1.46K 1.46K\n\t\t\t\t\t\t\t182 container\n\t\t\t\t\t\t\t\t183 text 0.04392\n\t\t\t\t\t\t\t\t184 text 7.10K 8.57K\n\t\t\t\t\t\t\t185 container\n\t\t\t\t\t\t\t\t186 text 0.04391\n\t\t\t\t\t\t\t\t187 text 13.69K 22.26K\n\t\t\t\t\t\t\t188 container\n\t\t\t\t\t\t\t\t189 text 0.04390\n\t\t\t\t\t\t\t\t190 text 24.40K 46.67K\n\t\t\t\t\t\t\t191 container\n\t\t\t\t\t\t\t\t192 text 0.04389\n\t\t\t\t\t\t\t\t193 text 32.43K 79.10K\n\t\t\t\t\t260 text Stable connection",
+      "signed_out_verified": true,
+      "signed_out_verification_basis": "Visible Log In and Sign Up AX controls in original capture.",
+      "signed_out_source_lines": [
+        "\t\t\t\t21 link Description: Log In, Value: accounts.binance.com/en/login?return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vZnV0dXJlcy9LQUlBVVNEVA%3D%3D&locale=en",
+        "\t\t\t\t22 link Description: Sign Up, Value: accounts.binance.com/en/register?registerChannel=futures&locale=en",
+        "\t\t\t\t\t\t212 link Description: Log In, Value: accounts.binance.com/en/login?return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vZnV0dXJlcy9LQUlBVVNEVA==",
+        "\t\t\t\t246 link Description: Log In, Value: accounts.binance.com/en/login?return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vZnV0dXJlcy9LQUlBVVNEVA=="
+      ],
+      "original_raw_sha256": "cecb0a207909850e8427b86d774dff809206868101c17841206be1cf4372a1a8",
+      "sanitized_raw_sha256": "3a3c49c90cc05a390544ba13e720930d955a6b6f56b1d39853e235cc223b3487",
+      "sanitization_removed_unrelated_sections": true,
+      "source_parser": "AX_SNAPSHOT_DIRECT",
+      "source_was_converted_to_dom": false,
+      "public_sanitization_basis": "Original numbered AX header and explicitly described public Chart/Trading Data/Order Book subtrees retained verbatim.",
+      "source_url_metadata_correction": {
+        "original_source_url": "https://www.binance.com/en/futures/STRKUSDT",
+        "corrected_source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "basis": "Coordinator confirmed the capture closure retained the STRK source variable after navigation. Correction uses only the exact URL and selected contract in the original AX capture envelope; raw text and actual timestamps are unchanged.",
+        "verified_original_ax_envelope_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "verified_original_ax_selected_symbol": "KAIAUSDT",
+        "original_and_current_raw_sha256": "cecb0a207909850e8427b86d774dff809206868101c17841206be1cf4372a1a8",
+        "observed_at_unchanged": "2026-10-16T04:14:13.756Z",
+        "capture_completed_at_unchanged": "2026-10-16T04:14:14.015Z",
+        "only_source_url_input_metadata_corrected": true,
+        "historical_observation_replayed": false
+      }
+    },
+    {
+      "kind": "KAIA_4h_running",
+      "observed_at": "2026-10-16T04:14:33.459Z",
+      "capture_completed_at": "2026-10-16T04:14:33.701Z",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+      "evidence_format": "AX_SNAPSHOT",
+      "raw_capture_index": 45,
+      "symbol": "KAIAUSDT",
+      "raw": "\t\t\t31 heading KAIAUSDT info tag, Value: 1\n\t\t\t\t32 text KAIAUSDT\n\t\t\t\t33 container info tag\n\t\t\t\t\t34 container Perp\n\t\t\t\t\t\t35 text Perp\n\t\t\t\t36 image\n\t\t\t37 text 0.04390\n\t\t\t38 text 0.00195\n\t\t\t39 container\n\t\t\t\t40 text +4.64 %\n\t\t\t41 container\n\t\t\t\t42 container\n\t\t\t\t\t43 text Mark\n\t\t\t\t\t44 text 0.04393\n\t\t\t\t45 container\n\t\t\t\t\t46 link Description: Index, Value: binance.com/en/futures/funding-history/perpetual/index?contract=KAIAUSDT\n\t\t\t\t\t47 text 0.04399\n\t\t\t\t48 container\n\t\t\t\t\t49 container\n\t\t\t\t\t\t50 text Funding  (4h)  / Countdown\n\t\t\t\t\t51 text 0.00213% /\n\t\t\t\t\t52 text 03:45:26\n\t\t\t\t53 container\n\t\t\t\t\t54 text 24h High 0.04420\n\t\t\t\t55 container\n\t\t\t\t\t56 text 24h Low 0.04132\n\t\t\t\t57 container\n\t\t\t\t\t58 text 24h Vol(KAIA) 257,235,884.00\n\t\t\t\t59 container\n\t\t\t\t\t60 text 24h Vol(USDT) 11,006,428.38\n\t\t\t\t61 container\n\t\t\t\t\t62 link Description: Open Interest(USDT), Value: binance.com/en/futures/funding-history/perpetual/trading-data?contract=KAIAUSDT\n\t\t\t\t\t63 text 4,939,041.30\n\t\t\t\t289 container Description: Chart, ID: flexlayout-tab-#7ccef14c-7ab8-4106-b3af-1b264e886b03\n\t\t\t\t\t290 container\n\t\t\t\t\t\t291 container\n\t\t\t\t\t\t\t292 text Time\n\t\t\t\t\t\t\t293 text 1s\n\t\t\t\t\t\t\t294 text 15m\n\t\t\t\t\t\t\t295 text 1H\n\t\t\t\t\t\t\t296 text 4H\n\t\t\t\t\t\t\t297 text 1D\n\t\t\t\t\t\t\t298 text 1W\n\t\t\t\t\t\t\t299 combo box (collapsed) Description: Select an option, Secondary Actions: Expand\n\t\t\t\t\t\t\t300 container\n\t\t\t\t\t\t\t\t301 text Last Price\n\t\t\t\t\t\t\t\t302 image\n\t\t\t\t\t\t303 text Original\n\t\t\t\t\t\t304 text Trading View\n\t\t\t\t\t\t305 text Depth\n\t\t\t\t\t\t306 container\n\t\t\t\t\t\t\t307 image\n\t\t\t\t\t\t\t308 image\n\t\t\t\t\t\t\t309 image\n\t\t\t\t\t\t\t310 image\n\t\t\t\t\t\t\t311 image\n\t\t\t\t\t\t\t312 container\n\t\t\t\t\t\t\t\t313 text 2026/10/15 21:00 Open 0.04375 High 0.04396 Low 0.04358 Close 0.04390 CHANGE 0.34% Range 0.86%\n\t\t\t\t\t\t\t\t314 text MA(7) 0.04319 MA(25) 0.04518 MA(99) 0.04223\n\t\t\t\t\t\t\t\t315 text Vol(KAIA) 1.781M Vol(USDT) 77.932K 37.238M 50.62M\n\t\t\t\t152 container Description: Order Book, ID: flexlayout-tab-#6a0ca80d-8e80-4993-b972-c9f4803914c9\n\t\t\t\t\t153 container futuresOrderbook\n\t\t\t\t\t\t154 container\n\t\t\t\t\t\t\t155 text 0.00001\n\t\t\t\t\t\t\t156 image\n\t\t\t\t\t\t157 text Price (USDT)\n\t\t\t\t\t\t158 text Size ( KAIA ) Sum ( KAIA )\n\t\t\t\t\t\t159 container\n\t\t\t\t\t\t\t160 container\n\t\t\t\t\t\t\t\t161 text 0.04395\n\t\t\t\t\t\t\t\t162 text 26.08K 59.37K\n\t\t\t\t\t\t\t163 container\n\t\t\t\t\t\t\t\t164 text 0.04394\n\t\t\t\t\t\t\t\t165 text 8.06K 33.29K\n\t\t\t\t\t\t\t166 container\n\t\t\t\t\t\t\t\t167 text 0.04393\n\t\t\t\t\t\t\t\t168 text 17.97K 25.22K\n\t\t\t\t\t\t\t169 container\n\t\t\t\t\t\t\t\t170 text 0.04392\n\t\t\t\t\t\t\t\t171 text 6.71K 7.25K\n\t\t\t\t\t\t\t172 container\n\t\t\t\t\t\t\t\t173 text 0.04391\n\t\t\t\t\t\t\t\t174 text 539 539\n\t\t\t\t\t\t175 text 0.04390\n\t\t\t\t\t\t176 image\n\t\t\t\t\t\t177 text 0.04393\n\t\t\t\t\t\t178 container\n\t\t\t\t\t\t\t179 container\n\t\t\t\t\t\t\t\t180 text 0.04390\n\t\t\t\t\t\t\t\t181 text 5.55K 5.55K\n\t\t\t\t\t\t\t182 container\n\t\t\t\t\t\t\t\t183 text 0.04389\n\t\t\t\t\t\t\t\t184 text 9.28K 14.84K\n\t\t\t\t\t\t\t185 container\n\t\t\t\t\t\t\t\t186 text 0.04388\n\t\t\t\t\t\t\t\t187 text 21.78K 36.62K\n\t\t\t\t\t\t\t188 container\n\t\t\t\t\t\t\t\t189 text 0.04387\n\t\t\t\t\t\t\t\t190 text 41.33K 77.95K\n\t\t\t\t\t\t\t191 container\n\t\t\t\t\t\t\t\t192 text 0.04386\n\t\t\t\t\t\t\t\t193 text 35.83K 113.79K\n\t\t\t\t\t260 text Stable connection",
+      "signed_out_verified": true,
+      "signed_out_verification_basis": "Visible Log In and Sign Up AX controls in original capture.",
+      "signed_out_source_lines": [
+        "\t\t\t\t21 link Description: Log In, Value: accounts.binance.com/en/login?return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vZnV0dXJlcy9LQUlBVVNEVA%3D%3D&locale=en",
+        "\t\t\t\t22 link Description: Sign Up, Value: accounts.binance.com/en/register?registerChannel=futures&locale=en",
+        "\t\t\t\t\t\t212 link Description: Log In, Value: accounts.binance.com/en/login?return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vZnV0dXJlcy9LQUlBVVNEVA==",
+        "\t\t\t\t246 link Description: Log In, Value: accounts.binance.com/en/login?return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vZnV0dXJlcy9LQUlBVVNEVA=="
+      ],
+      "original_raw_sha256": "2ffd35a1ce3359903d63710a083f65d1ff587b6f3c84c871b989fb5cdcfe71cb",
+      "sanitized_raw_sha256": "715eb19ef082db4999f3f919c765180fb730fae9812b4ca2c39c241cbac1b529",
+      "sanitization_removed_unrelated_sections": true,
+      "source_parser": "AX_SNAPSHOT_DIRECT",
+      "source_was_converted_to_dom": false,
+      "public_sanitization_basis": "Original numbered AX header and explicitly described public Chart/Trading Data/Order Book subtrees retained verbatim.",
+      "source_url_metadata_correction": {
+        "original_source_url": "https://www.binance.com/en/futures/STRKUSDT",
+        "corrected_source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "basis": "Coordinator confirmed the capture closure retained the STRK source variable after navigation. Correction uses only the exact URL and selected contract in the original AX capture envelope; raw text and actual timestamps are unchanged.",
+        "verified_original_ax_envelope_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "verified_original_ax_selected_symbol": "KAIAUSDT",
+        "original_and_current_raw_sha256": "2ffd35a1ce3359903d63710a083f65d1ff587b6f3c84c871b989fb5cdcfe71cb",
+        "observed_at_unchanged": "2026-10-16T04:14:33.459Z",
+        "capture_completed_at_unchanged": "2026-10-16T04:14:33.701Z",
+        "only_source_url_input_metadata_corrected": true,
+        "historical_observation_replayed": false
+      }
+    },
+    {
+      "kind": "KAIA_4h_closed",
+      "observed_at": "2026-10-16T04:14:33.794Z",
+      "capture_completed_at": "2026-10-16T04:14:34.131Z",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+      "evidence_format": "AX_SNAPSHOT",
+      "raw_capture_index": 46,
+      "symbol": "KAIAUSDT",
+      "raw": "\t\t\t31 heading KAIAUSDT info tag, Value: 1\n\t\t\t\t32 text KAIAUSDT\n\t\t\t\t33 container info tag\n\t\t\t\t\t34 container Perp\n\t\t\t\t\t\t35 text Perp\n\t\t\t\t36 image\n\t\t\t37 text 0.04390\n\t\t\t38 text 0.00195\n\t\t\t39 container\n\t\t\t\t40 text +4.64 %\n\t\t\t41 container\n\t\t\t\t42 container\n\t\t\t\t\t43 text Mark\n\t\t\t\t\t44 text 0.04393\n\t\t\t\t45 container\n\t\t\t\t\t46 link Description: Index, Value: binance.com/en/futures/funding-history/perpetual/index?contract=KAIAUSDT\n\t\t\t\t\t47 text 0.04399\n\t\t\t\t48 container\n\t\t\t\t\t49 container\n\t\t\t\t\t\t50 text Funding  (4h)  / Countdown\n\t\t\t\t\t51 text 0.00213% /\n\t\t\t\t\t52 text 03:45:26\n\t\t\t\t53 container\n\t\t\t\t\t54 text 24h High 0.04420\n\t\t\t\t55 container\n\t\t\t\t\t56 text 24h Low 0.04132\n\t\t\t\t57 container\n\t\t\t\t\t58 text 24h Vol(KAIA) 257,235,884.00\n\t\t\t\t59 container\n\t\t\t\t\t60 text 24h Vol(USDT) 11,006,428.38\n\t\t\t\t61 container\n\t\t\t\t\t62 link Description: Open Interest(USDT), Value: binance.com/en/futures/funding-history/perpetual/trading-data?contract=KAIAUSDT\n\t\t\t\t\t63 text 4,939,041.30\n\t\t\t\t289 container Description: Chart, ID: flexlayout-tab-#7ccef14c-7ab8-4106-b3af-1b264e886b03\n\t\t\t\t\t290 container Time 1s 15m 1H 4H 1D 1W Last Price Original Trading View Depth 2026/10/15 17:00 Open 0.04356 High\n\t\t\t\t\t\t291 container\n\t\t\t\t\t\t\t292 container\n\t\t\t\t\t\t\t\t293 text Time\n\t\t\t\t\t\t\t\t294 text 1s\n\t\t\t\t\t\t\t\t295 text 15m\n\t\t\t\t\t\t\t\t296 text 1H\n\t\t\t\t\t\t\t\t297 text 4H\n\t\t\t\t\t\t\t\t298 text 1D\n\t\t\t\t\t\t\t\t299 text 1W\n\t\t\t\t\t\t\t\t300 combo box (collapsed) Description: Select an option, Secondary Actions: Expand\n\t\t\t\t\t\t\t\t301 container\n\t\t\t\t\t\t\t\t\t302 text Last Price\n\t\t\t\t\t\t\t\t\t303 image\n\t\t\t\t\t\t\t304 text Original\n\t\t\t\t\t\t\t305 text Trading View\n\t\t\t\t\t\t\t306 text Depth\n\t\t\t\t\t\t\t307 container\n\t\t\t\t\t\t\t\t308 image\n\t\t\t\t\t\t\t\t309 image\n\t\t\t\t\t\t\t\t310 image\n\t\t\t\t\t\t\t\t311 image\n\t\t\t\t\t\t\t\t312 image\n\t\t\t\t\t\t\t\t313 container\n\t\t\t\t\t\t\t\t\t314 text 2026/10/15 17:00 Open 0.04356 High 0.04420 Low 0.04300 Close 0.04375 CHANGE 0.45% Range 2.75%\n\t\t\t\t\t\t\t\t\t315 text MA(7) 0.04293 MA(25) 0.04543 MA(99) 0.04213\n\t\t\t\t\t\t\t\t\t316 text Vol(KAIA) 46.727M Vol(USDT) 2.035M 52.836M 52.292M\n\t\t\t\t152 container Description: Order Book, ID: flexlayout-tab-#6a0ca80d-8e80-4993-b972-c9f4803914c9\n\t\t\t\t\t153 container futuresOrderbook\n\t\t\t\t\t\t154 container\n\t\t\t\t\t\t\t155 text 0.00001\n\t\t\t\t\t\t\t156 image\n\t\t\t\t\t\t157 text Price (USDT)\n\t\t\t\t\t\t158 text Size ( KAIA ) Sum ( KAIA )\n\t\t\t\t\t\t159 container\n\t\t\t\t\t\t\t160 container\n\t\t\t\t\t\t\t\t161 text 0.04395\n\t\t\t\t\t\t\t\t162 text 26.08K 59.37K\n\t\t\t\t\t\t\t163 container\n\t\t\t\t\t\t\t\t164 text 0.04394\n\t\t\t\t\t\t\t\t165 text 8.06K 33.29K\n\t\t\t\t\t\t\t166 container\n\t\t\t\t\t\t\t\t167 text 0.04393\n\t\t\t\t\t\t\t\t168 text 17.97K 25.22K\n\t\t\t\t\t\t\t169 container\n\t\t\t\t\t\t\t\t170 text 0.04392\n\t\t\t\t\t\t\t\t171 text 6.71K 7.25K\n\t\t\t\t\t\t\t172 container\n\t\t\t\t\t\t\t\t173 text 0.04391\n\t\t\t\t\t\t\t\t174 text 539 539\n\t\t\t\t\t\t175 text 0.04390\n\t\t\t\t\t\t176 image\n\t\t\t\t\t\t177 text 0.04393\n\t\t\t\t\t\t178 container\n\t\t\t\t\t\t\t179 container\n\t\t\t\t\t\t\t\t180 text 0.04390\n\t\t\t\t\t\t\t\t181 text 5.55K 5.55K\n\t\t\t\t\t\t\t182 container\n\t\t\t\t\t\t\t\t183 text 0.04389\n\t\t\t\t\t\t\t\t184 text 9.28K 14.84K\n\t\t\t\t\t\t\t185 container\n\t\t\t\t\t\t\t\t186 text 0.04388\n\t\t\t\t\t\t\t\t187 text 21.78K 36.62K\n\t\t\t\t\t\t\t188 container\n\t\t\t\t\t\t\t\t189 text 0.04387\n\t\t\t\t\t\t\t\t190 text 41.33K 77.95K\n\t\t\t\t\t\t\t191 container\n\t\t\t\t\t\t\t\t192 text 0.04386\n\t\t\t\t\t\t\t\t193 text 25.63K 103.59K\n\t\t\t\t\t260 text Stable connection",
+      "signed_out_verified": true,
+      "signed_out_verification_basis": "Visible Log In and Sign Up AX controls in original capture.",
+      "signed_out_source_lines": [
+        "\t\t\t\t21 link Description: Log In, Value: accounts.binance.com/en/login?return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vZnV0dXJlcy9LQUlBVVNEVA%3D%3D&locale=en",
+        "\t\t\t\t22 link Description: Sign Up, Value: accounts.binance.com/en/register?registerChannel=futures&locale=en",
+        "\t\t\t\t\t\t212 link Description: Log In, Value: accounts.binance.com/en/login?return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vZnV0dXJlcy9LQUlBVVNEVA==",
+        "\t\t\t\t246 link Description: Log In, Value: accounts.binance.com/en/login?return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vZnV0dXJlcy9LQUlBVVNEVA=="
+      ],
+      "original_raw_sha256": "c7bc41ccb52460f42e1a55d901a3c6182805e11aab897129752d8e16e02afc6b",
+      "sanitized_raw_sha256": "092d1dfafaee4e5a54eda0dee101ddae67649c2b26894920aa5d4ae3dd1ad773",
+      "sanitization_removed_unrelated_sections": true,
+      "source_parser": "AX_SNAPSHOT_DIRECT",
+      "source_was_converted_to_dom": false,
+      "public_sanitization_basis": "Original numbered AX header and explicitly described public Chart/Trading Data/Order Book subtrees retained verbatim.",
+      "source_url_metadata_correction": {
+        "original_source_url": "https://www.binance.com/en/futures/STRKUSDT",
+        "corrected_source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "basis": "Coordinator confirmed the capture closure retained the STRK source variable after navigation. Correction uses only the exact URL and selected contract in the original AX capture envelope; raw text and actual timestamps are unchanged.",
+        "verified_original_ax_envelope_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "verified_original_ax_selected_symbol": "KAIAUSDT",
+        "original_and_current_raw_sha256": "c7bc41ccb52460f42e1a55d901a3c6182805e11aab897129752d8e16e02afc6b",
+        "observed_at_unchanged": "2026-10-16T04:14:33.794Z",
+        "capture_completed_at_unchanged": "2026-10-16T04:14:34.131Z",
+        "only_source_url_input_metadata_corrected": true,
+        "historical_observation_replayed": false
+      }
+    },
+    {
+      "kind": "KAIA_1h_running",
+      "observed_at": "2026-10-16T04:14:49.316Z",
+      "capture_completed_at": "2026-10-16T04:14:49.546Z",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+      "evidence_format": "AX_SNAPSHOT",
+      "raw_capture_index": 47,
+      "symbol": "KAIAUSDT",
+      "raw": "\t\t\t31 heading KAIAUSDT info tag, Value: 1\n\t\t\t\t32 text KAIAUSDT\n\t\t\t\t33 container info tag\n\t\t\t\t\t34 container Perp\n\t\t\t\t\t\t35 text Perp\n\t\t\t\t36 image\n\t\t\t37 text 0.04390\n\t\t\t38 text 0.00195\n\t\t\t39 container\n\t\t\t\t40 text +4.64 %\n\t\t\t41 container\n\t\t\t\t42 container\n\t\t\t\t\t43 text Mark\n\t\t\t\t\t44 text 0.04392\n\t\t\t\t45 container\n\t\t\t\t\t46 link Description: Index, Value: binance.com/en/futures/funding-history/perpetual/index?contract=KAIAUSDT\n\t\t\t\t\t47 text 0.04399\n\t\t\t\t48 container\n\t\t\t\t\t49 container\n\t\t\t\t\t\t50 text Funding  (4h)  / Countdown\n\t\t\t\t\t51 text 0.00213% /\n\t\t\t\t\t52 text 03:45:10\n\t\t\t\t53 container\n\t\t\t\t\t54 text 24h High 0.04420\n\t\t\t\t55 container\n\t\t\t\t\t56 text 24h Low 0.04132\n\t\t\t\t57 container\n\t\t\t\t\t58 text 24h Vol(KAIA) 257,237,854.00\n\t\t\t\t59 container\n\t\t\t\t\t60 text 24h Vol(USDT) 11,006,514.89\n\t\t\t\t61 container\n\t\t\t\t\t62 link Description: Open Interest(USDT), Value: binance.com/en/futures/funding-history/perpetual/trading-data?contract=KAIAUSDT\n\t\t\t\t\t63 text 4,937,808.01\n\t\t\t\t289 container Description: Chart, ID: flexlayout-tab-#7ccef14c-7ab8-4106-b3af-1b264e886b03\n\t\t\t\t\t290 container Time 1s 15m 1H 4H 1D 1W Last Price Original Trading View Depth 2026/10/15 21:00 Open 0.04375\n\t\t\t\t\t\t291 container\n\t\t\t\t\t\t\t317 container\n\t\t\t\t\t\t\t\t318 text Time\n\t\t\t\t\t\t\t\t319 text 1s\n\t\t\t\t\t\t\t\t320 text 15m\n\t\t\t\t\t\t\t\t321 text 1H\n\t\t\t\t\t\t\t\t322 text 4H\n\t\t\t\t\t\t\t\t323 text 1D\n\t\t\t\t\t\t\t\t324 text 1W\n\t\t\t\t\t\t\t\t325 combo box (collapsed) Description: Select an option, Secondary Actions: Expand\n\t\t\t\t\t\t\t\t326 container\n\t\t\t\t\t\t\t\t\t327 text Last Price\n\t\t\t\t\t\t\t\t\t328 image\n\t\t\t\t\t\t\t\t329 image\n\t\t\t\t\t\t\t304 text Original\n\t\t\t\t\t\t\t305 text Trading View\n\t\t\t\t\t\t\t306 text Depth\n\t\t\t\t\t\t\t307 container\n\t\t\t\t\t\t\t\t308 image\n\t\t\t\t\t\t\t\t309 image\n\t\t\t\t\t\t\t\t310 image\n\t\t\t\t\t\t\t\t311 image\n\t\t\t\t\t\t\t\t312 image\n\t\t\t\t\t\t\t\t313 container\n\t\t\t\t\t\t\t\t\t330 text 2026/10/15 21:00 Open 0.04375 High 0.04396 Low 0.04358 Close 0.04390 CHANGE 0.34% Range 0.86%\n\t\t\t\t\t\t\t\t\t315 text MA(7) 0.04355 MA(25) 0.04292 MA(99) 0.04532\n\t\t\t\t\t\t\t\t\t316 text Vol(KAIA) 1.8M Vol(USDT) 78.735K 9.002M 8.844M\n\t\t\t\t152 container Description: Order Book, ID: flexlayout-tab-#6a0ca80d-8e80-4993-b972-c9f4803914c9\n\t\t\t\t\t153 container futuresOrderbook\n\t\t\t\t\t\t154 container\n\t\t\t\t\t\t\t155 text 0.00001\n\t\t\t\t\t\t\t156 image\n\t\t\t\t\t\t157 text Price (USDT)\n\t\t\t\t\t\t158 text Size ( KAIA ) Sum ( KAIA )\n\t\t\t\t\t\t159 container\n\t\t\t\t\t\t\t160 container\n\t\t\t\t\t\t\t\t161 text 0.04394\n\t\t\t\t\t\t\t\t162 text 32.99K 73.20K\n\t\t\t\t\t\t\t163 container\n\t\t\t\t\t\t\t\t164 text 0.04393\n\t\t\t\t\t\t\t\t165 text 21.60K 40.21K\n\t\t\t\t\t\t\t166 container\n\t\t\t\t\t\t\t\t167 text 0.04392\n\t\t\t\t\t\t\t\t168 text 12.94K 18.61K\n\t\t\t\t\t\t\t169 container\n\t\t\t\t\t\t\t\t170 text 0.04391\n\t\t\t\t\t\t\t\t171 text 4.40K 5.67K\n\t\t\t\t\t\t\t172 container\n\t\t\t\t\t\t\t\t173 text 0.04390\n\t\t\t\t\t\t\t\t174 text 1.26K 1.26K\n\t\t\t\t\t\t175 text 0.04390\n\t\t\t\t\t\t176 image\n\t\t\t\t\t\t177 text 0.04392\n\t\t\t\t\t\t178 container\n\t\t\t\t\t\t\t179 container\n\t\t\t\t\t\t\t\t180 text 0.04389\n\t\t\t\t\t\t\t\t181 text 2.07K 2.07K\n\t\t\t\t\t\t\t182 container\n\t\t\t\t\t\t\t\t183 text 0.04388\n\t\t\t\t\t\t\t\t184 text 13.78K 15.86K\n\t\t\t\t\t\t\t185 container\n\t\t\t\t\t\t\t\t186 text 0.04387\n\t\t\t\t\t\t\t\t187 text 20.51K 36.37K\n\t\t\t\t\t\t\t188 container\n\t\t\t\t\t\t\t\t189 text 0.04386\n\t\t\t\t\t\t\t\t190 text 17.95K 54.33K\n\t\t\t\t\t\t\t191 container\n\t\t\t\t\t\t\t\t192 text 0.04385\n\t\t\t\t\t\t\t\t193 text 42.91K 97.24K\n\t\t\t\t\t260 text Stable connection",
+      "signed_out_verified": true,
+      "signed_out_verification_basis": "Visible Log In and Sign Up AX controls in original capture.",
+      "signed_out_source_lines": [
+        "\t\t\t\t21 link Description: Log In, Value: accounts.binance.com/en/login?return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vZnV0dXJlcy9LQUlBVVNEVA%3D%3D&locale=en",
+        "\t\t\t\t22 link Description: Sign Up, Value: accounts.binance.com/en/register?registerChannel=futures&locale=en",
+        "\t\t\t\t\t\t212 link Description: Log In, Value: accounts.binance.com/en/login?return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vZnV0dXJlcy9LQUlBVVNEVA==",
+        "\t\t\t\t246 link Description: Log In, Value: accounts.binance.com/en/login?return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vZnV0dXJlcy9LQUlBVVNEVA=="
+      ],
+      "original_raw_sha256": "4ec0e4d6f451b08b78c6220a85c7c010d90ca90285bd2c0f3f4fa66135b88d30",
+      "sanitized_raw_sha256": "55f6ff414533bf445dc532055f95396dec9bd36ee18398b65c64c2fc9376883b",
+      "sanitization_removed_unrelated_sections": true,
+      "source_parser": "AX_SNAPSHOT_DIRECT",
+      "source_was_converted_to_dom": false,
+      "public_sanitization_basis": "Original numbered AX header and explicitly described public Chart/Trading Data/Order Book subtrees retained verbatim.",
+      "source_url_metadata_correction": {
+        "original_source_url": "https://www.binance.com/en/futures/STRKUSDT",
+        "corrected_source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "basis": "Coordinator confirmed the capture closure retained the STRK source variable after navigation. Correction uses only the exact URL and selected contract in the original AX capture envelope; raw text and actual timestamps are unchanged.",
+        "verified_original_ax_envelope_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "verified_original_ax_selected_symbol": "KAIAUSDT",
+        "original_and_current_raw_sha256": "4ec0e4d6f451b08b78c6220a85c7c010d90ca90285bd2c0f3f4fa66135b88d30",
+        "observed_at_unchanged": "2026-10-16T04:14:49.316Z",
+        "capture_completed_at_unchanged": "2026-10-16T04:14:49.546Z",
+        "only_source_url_input_metadata_corrected": true,
+        "historical_observation_replayed": false
+      }
+    },
+    {
+      "kind": "KAIA_1h_closed",
+      "observed_at": "2026-10-16T04:14:49.633Z",
+      "capture_completed_at": "2026-10-16T04:14:49.979Z",
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+      "evidence_format": "AX_SNAPSHOT",
+      "raw_capture_index": 48,
+      "symbol": "KAIAUSDT",
+      "raw": "\t\t\t31 heading KAIAUSDT info tag, Value: 1\n\t\t\t\t32 text KAIAUSDT\n\t\t\t\t33 container info tag\n\t\t\t\t\t34 container Perp\n\t\t\t\t\t\t35 text Perp\n\t\t\t\t36 image\n\t\t\t37 text 0.04390\n\t\t\t38 text 0.00195\n\t\t\t39 container\n\t\t\t\t40 text +4.64 %\n\t\t\t41 container\n\t\t\t\t42 container\n\t\t\t\t\t43 text Mark\n\t\t\t\t\t44 text 0.04391\n\t\t\t\t45 container\n\t\t\t\t\t46 link Description: Index, Value: binance.com/en/futures/funding-history/perpetual/index?contract=KAIAUSDT\n\t\t\t\t\t47 text 0.04399\n\t\t\t\t48 container\n\t\t\t\t\t49 container\n\t\t\t\t\t\t50 text Funding  (4h)  / Countdown\n\t\t\t\t\t51 text 0.00213% /\n\t\t\t\t\t52 text 03:45:10\n\t\t\t\t53 container\n\t\t\t\t\t54 text 24h High 0.04420\n\t\t\t\t55 container\n\t\t\t\t\t56 text 24h Low 0.04132\n\t\t\t\t57 container\n\t\t\t\t\t58 text 24h Vol(KAIA) 257,240,661.00\n\t\t\t\t59 container\n\t\t\t\t\t60 text 24h Vol(USDT) 11,006,638.12\n\t\t\t\t61 container\n\t\t\t\t\t62 link Description: Open Interest(USDT), Value: binance.com/en/futures/funding-history/perpetual/trading-data?contract=KAIAUSDT\n\t\t\t\t\t63 text 4,937,184.05\n\t\t\t\t289 container Description: Chart, ID: flexlayout-tab-#7ccef14c-7ab8-4106-b3af-1b264e886b03\n\t\t\t\t\t290 container Time 1s 15m 1H 4H 1D 1W Last Price Original Trading View Depth 2026/10/15 20:00 Open 0.04344\n\t\t\t\t\t\t291 container\n\t\t\t\t\t\t\t317 container\n\t\t\t\t\t\t\t\t318 text Time\n\t\t\t\t\t\t\t\t319 text 1s\n\t\t\t\t\t\t\t\t320 text 15m\n\t\t\t\t\t\t\t\t321 text 1H\n\t\t\t\t\t\t\t\t322 text 4H\n\t\t\t\t\t\t\t\t323 text 1D\n\t\t\t\t\t\t\t\t324 text 1W\n\t\t\t\t\t\t\t\t325 combo box (collapsed) Description: Select an option, Secondary Actions: Expand\n\t\t\t\t\t\t\t\t326 container\n\t\t\t\t\t\t\t\t\t327 text Last Price\n\t\t\t\t\t\t\t\t\t328 image\n\t\t\t\t\t\t\t\t329 image\n\t\t\t\t\t\t\t304 text Original\n\t\t\t\t\t\t\t305 text Trading View\n\t\t\t\t\t\t\t306 text Depth\n\t\t\t\t\t\t\t307 container\n\t\t\t\t\t\t\t\t308 image\n\t\t\t\t\t\t\t\t309 image\n\t\t\t\t\t\t\t\t310 image\n\t\t\t\t\t\t\t\t311 image\n\t\t\t\t\t\t\t\t312 image\n\t\t\t\t\t\t\t\t313 container\n\t\t\t\t\t\t\t\t\t330 text 2026/10/15 20:00 Open 0.04344 High 0.04401 Low 0.04318 Close 0.04375 CHANGE 0.69% Range 1.91%\n\t\t\t\t\t\t\t\t\t315 text MA(7) 0.04356 MA(25) 0.04285 MA(99) 0.04539\n\t\t\t\t\t\t\t\t\t316 text Vol(KAIA) 15.374M Vol(USDT) 670.779K 9.461M 9.953M\n\t\t\t\t152 container Description: Order Book, ID: flexlayout-tab-#6a0ca80d-8e80-4993-b972-c9f4803914c9\n\t\t\t\t\t153 container futuresOrderbook\n\t\t\t\t\t\t154 container\n\t\t\t\t\t\t\t155 text 0.00001\n\t\t\t\t\t\t\t156 image\n\t\t\t\t\t\t157 text Price (USDT)\n\t\t\t\t\t\t158 text Size ( KAIA ) Sum ( KAIA )\n\t\t\t\t\t\t159 container\n\t\t\t\t\t\t\t160 container\n\t\t\t\t\t\t\t\t161 text 0.04394\n\t\t\t\t\t\t\t\t162 text 34.43K 71.98K\n\t\t\t\t\t\t\t163 container\n\t\t\t\t\t\t\t\t164 text 0.04393\n\t\t\t\t\t\t\t\t165 text 21.60K 37.54K\n\t\t\t\t\t\t\t166 container\n\t\t\t\t\t\t\t\t167 text 0.04392\n\t\t\t\t\t\t\t\t168 text 12.81K 15.94K\n\t\t\t\t\t\t\t169 container\n\t\t\t\t\t\t\t\t170 text 0.04391\n\t\t\t\t\t\t\t\t171 text 3.00K 3.12K\n\t\t\t\t\t\t\t172 container\n\t\t\t\t\t\t\t\t173 text 0.04390\n\t\t\t\t\t\t\t\t174 text 127 127\n\t\t\t\t\t\t175 text 0.04390\n\t\t\t\t\t\t176 image\n\t\t\t\t\t\t177 text 0.04391\n\t\t\t\t\t\t178 container\n\t\t\t\t\t\t\t179 container\n\t\t\t\t\t\t\t\t180 text 0.04389\n\t\t\t\t\t\t\t\t181 text 4.59K 4.59K\n\t\t\t\t\t\t\t182 container\n\t\t\t\t\t\t\t\t183 text 0.04388\n\t\t\t\t\t\t\t\t184 text 13.78K 18.38K\n\t\t\t\t\t\t\t185 container\n\t\t\t\t\t\t\t\t186 text 0.04387\n\t\t\t\t\t\t\t\t187 text 22.11K 40.49K\n\t\t\t\t\t\t\t188 container\n\t\t\t\t\t\t\t\t189 text 0.04386\n\t\t\t\t\t\t\t\t190 text 45.29K 85.78K\n\t\t\t\t\t\t\t191 container\n\t\t\t\t\t\t\t\t192 text 0.04385\n\t\t\t\t\t\t\t\t193 text 42.91K 128.70K\n\t\t\t\t\t260 text Stable connection",
+      "signed_out_verified": true,
+      "signed_out_verification_basis": "Visible Log In and Sign Up AX controls in original capture.",
+      "signed_out_source_lines": [
+        "\t\t\t\t21 link Description: Log In, Value: accounts.binance.com/en/login?return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vZnV0dXJlcy9LQUlBVVNEVA%3D%3D&locale=en",
+        "\t\t\t\t22 link Description: Sign Up, Value: accounts.binance.com/en/register?registerChannel=futures&locale=en",
+        "\t\t\t\t\t\t212 link Description: Log In, Value: accounts.binance.com/en/login?return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vZnV0dXJlcy9LQUlBVVNEVA==",
+        "\t\t\t\t246 link Description: Log In, Value: accounts.binance.com/en/login?return_to=aHR0cHM6Ly93d3cuYmluYW5jZS5jb20vZW4vZnV0dXJlcy9LQUlBVVNEVA=="
+      ],
+      "original_raw_sha256": "159146192807b6409970ae6340ee5444c450abe2bde3ef64017902bdc90f2669",
+      "sanitized_raw_sha256": "fca998a13a80418532fe867691801417b7708ca9c2370112507d5f5d6b4f3574",
+      "sanitization_removed_unrelated_sections": true,
+      "source_parser": "AX_SNAPSHOT_DIRECT",
+      "source_was_converted_to_dom": false,
+      "public_sanitization_basis": "Original numbered AX header and explicitly described public Chart/Trading Data/Order Book subtrees retained verbatim.",
+      "source_url_metadata_correction": {
+        "original_source_url": "https://www.binance.com/en/futures/STRKUSDT",
+        "corrected_source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "basis": "Coordinator confirmed the capture closure retained the STRK source variable after navigation. Correction uses only the exact URL and selected contract in the original AX capture envelope; raw text and actual timestamps are unchanged.",
+        "verified_original_ax_envelope_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "verified_original_ax_selected_symbol": "KAIAUSDT",
+        "original_and_current_raw_sha256": "159146192807b6409970ae6340ee5444c450abe2bde3ef64017902bdc90f2669",
+        "observed_at_unchanged": "2026-10-16T04:14:49.633Z",
+        "capture_completed_at_unchanged": "2026-10-16T04:14:49.979Z",
+        "only_source_url_input_metadata_corrected": true,
+        "historical_observation_replayed": false
+      }
+    }
+  ],
+  "schema_background_sources": [
+    {
+      "source_url": "https://github.com/xiangzhang3/chiangmai1/blob/aeb58f5687067ce5d9c0a793ce8ed6152e04c1f5/v1.0/runtime/ui_observations/README.md",
+      "verified_commit_sha": "aeb58f5687067ce5d9c0a793ce8ed6152e04c1f5",
+      "git_blob_sha1": "b33acd2268a4c14cee1b45ecd5f0429df7f21ff9",
+      "artifact_sha256": "7d3e4ced59dbc7f4dae21943194f01d698acbb41ff58f39644b92ae8b12bf3d3"
+    }
+  ],
+  "capture_coordinator_attestations": {
+    "charts": {
+      "1h": {
+        "running_kind": "KAIA_1h_running",
+        "closed_kind": "KAIA_1h_closed",
+        "prior_kinds": [],
+        "interval_visually_verified": true,
+        "rightmost_running_boundary_visually_verified": true,
+        "running_displayed_time": "2026/10/15 21:00",
+        "closed_displayed_time": "2026/10/15 20:00",
+        "coordinator_visual_verification_note": "Capture coordinator explicitly verified the active interval and rightmost running boundary for this current-run capture pair. Raw chart timezone remains unknown."
+      },
+      "4h": {
+        "running_kind": "KAIA_4h_running",
+        "closed_kind": "KAIA_4h_closed",
+        "interval_visually_verified": true,
+        "rightmost_running_boundary_visually_verified": true,
+        "running_displayed_time": "2026/10/15 21:00",
+        "closed_displayed_time": "2026/10/15 17:00",
+        "coordinator_visual_verification_note": "Capture coordinator explicitly verified the active interval and rightmost running boundary for this current-run capture pair. Raw chart timezone remains unknown."
+      }
+    },
+    "oi": {
+      "latest_kind": null,
+      "previous_kind": "KAIA_oi_previous",
+      "latest_displayed_time": null,
+      "previous_displayed_time": "10/15 20:00",
+      "selected_1h_control_verified": true,
+      "rightmost_endpoint_visually_verified": false,
+      "adjacent_predecessor_visually_verified": false,
+      "coordinator_visual_verification_note": "Coordinator reported valid previous 20:00 quantity; latest endpoint is still missing when collection was stopped after repeated renderer failures. No pair verification or latest values inferred."
+    },
+    "taker": {
+      "latest_kind": null,
+      "previous_kind": null,
+      "latest_displayed_time": null,
+      "previous_displayed_time": null,
+      "selected_1h_control_verified": false,
+      "rightmost_endpoint_visually_verified": false,
+      "adjacent_predecessor_visually_verified": false
+    },
+    "shared_panel_window_verified": false,
+    "operational": {
+      "coordinator_report": "Coordinator reports four Chrome Aw, Snap! error 9 renderer crashes: one during JCT, one during STRK and two during KAIA. Further capture stopped after repeated failures.",
+      "run_level_report_applies_to_overall_collection_not_each_contract": "Per-contract crash counts are coordinator-reported; no precise failure timestamps or exchange-feed delay are inferred.",
+      "exchange_feed_delay_inferred": false,
+      "chart_timezone_verified": false
+    },
+    "shared_panel_window_note": "No common OI/candle or taker/candle event window is verified; matching raw labels do not establish a shared window or UTC event time.",
+    "attestation_provenance": "Actual current-run visual facts supplied by capture coordinator at 2026-10-16 04:15 UTC with final renderer/missingness update at 04:16 UTC; not inherited from prior-slot attestations.",
+    "final_raw_input_sha256": "0abe97c988e0221f9948450c4c3faaa34e824bc43955323e87baecbfdf566c45"
+  },
+  "time_semantics": "All observed_at/captured_at_utc values are actual capture times. Raw chart-local labels remain unconverted; naive label arithmetic only verifies displayed adjacency.",
+  "validation": {
+    "canonical_schema": "PASS",
+    "source_format_specific_parser": "PASS",
+    "immutable_prior_blob_verification": "PASS",
+    "fresh_slot_and_selected_symbol": "PASS"
+  },
+  "capture_operational_limitations": {
+    "provenance": "Actual 04 UTC capture timing; any coordinator operational facts are explicitly supplied for this run.",
+    "current_run_coordinator_report": {
+      "coordinator_report": "Coordinator reports four Chrome Aw, Snap! error 9 renderer crashes: one during JCT, one during STRK and two during KAIA. Further capture stopped after repeated failures.",
+      "run_level_report_applies_to_overall_collection_not_each_contract": "Per-contract crash counts are coordinator-reported; no precise failure timestamps or exchange-feed delay are inferred.",
+      "exchange_feed_delay_inferred": false,
+      "chart_timezone_verified": false
+    },
+    "prior_run_operational_events_replayed": false,
+    "observation_timing": {
+      "scheduled_slot_start_utc": "2026-10-16T04:00:00Z",
+      "primary_observed_at": "2026-10-16T04:13:25.163Z",
+      "primary_slot_offset_seconds": 805.163,
+      "primary_slot_offset_minutes": 13.419383333333334,
+      "contract_capture_start_at": "2026-10-16T04:13:25.163Z",
+      "contract_capture_end_at": "2026-10-16T04:14:49.979Z",
+      "per_contract_capture_duration_seconds": 84.816,
+      "per_contract_capture_duration_minutes": 1.4136,
+      "capture_count": 9,
+      "continuous_feed_observation": false,
+      "note": "Actual UTC collection offsets and elapsed capture span only. They are not venue event age, transmission latency, or an exact one-hour market window."
+    },
+    "chart_event_recency_in_utc": null,
+    "exchange_feed_delay": null,
+    "chart_timezone": null,
+    "raw_chart_timezone": "UNKNOWN",
+    "event_time_utc": null,
+    "reliability_note": "Displayed label advancement or successful DOM access does not resolve inherited OI consistency or establish a reliable OI baseline."
+  }
+}

@@ -1,0 +1,555 @@
+{
+  "schema_version": 1,
+  "symbol": "STRKUSDT",
+  "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+  "status": "RESEARCH_ONLY",
+  "classification": "RESEARCH_ONLY",
+  "execution_eligible": false,
+  "source_type": "official_signed_out_rendered_ui",
+  "observed_at": "2026-10-14T23:06:04.224Z",
+  "capture_start_at": "2026-10-14T23:06:04.224Z",
+  "capture_end_at": "2026-10-14T23:06:04.456Z",
+  "capture_count": 1,
+  "chart_timezone": null,
+  "raw_chart_timezone": "UNKNOWN",
+  "event_time_utc": null,
+  "capture_time_is_event_time": false,
+  "market": {
+    "raw_capture_index": 6,
+    "raw_kind": "STRK_primary",
+    "observed_at": "2026-10-14T23:06:04.224Z",
+    "capture_completed_at": "2026-10-14T23:06:04.456Z",
+    "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+    "chart_timezone": null,
+    "raw_chart_timezone": "UNKNOWN",
+    "event_time_utc": null,
+    "ui_connection_status_label": "Stable connection",
+    "ui_connection_warning_observed": false,
+    "symbol": "STRKUSDT",
+    "fields": {
+      "last_price": 0.07581,
+      "mark_price": 0.07579,
+      "index_price": 0.07586,
+      "funding_rate": 0.0000368,
+      "funding_interval_hours": 4,
+      "open_interest_notional_usdt": 29270924.54
+    },
+    "raw_displays": {
+      "last_price": "0.07581",
+      "mark_price": "0.07579",
+      "index_price": "0.07586",
+      "funding_rate_percent": "0.00368%",
+      "funding_countdown": "00:53:55",
+      "open_interest_notional_usdt": "29,270,924.54"
+    }
+  },
+  "latest_captured_market": {
+    "raw_capture_index": 6,
+    "raw_kind": "STRK_primary",
+    "observed_at": "2026-10-14T23:06:04.224Z",
+    "capture_completed_at": "2026-10-14T23:06:04.456Z",
+    "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+    "chart_timezone": null,
+    "raw_chart_timezone": "UNKNOWN",
+    "event_time_utc": null,
+    "ui_connection_status_label": "Stable connection",
+    "ui_connection_warning_observed": false,
+    "symbol": "STRKUSDT",
+    "fields": {
+      "last_price": 0.07581,
+      "mark_price": 0.07579,
+      "index_price": 0.07586,
+      "funding_rate": 0.0000368,
+      "funding_interval_hours": 4,
+      "open_interest_notional_usdt": 29270924.54
+    },
+    "raw_displays": {
+      "last_price": "0.07581",
+      "mark_price": "0.07579",
+      "index_price": "0.07586",
+      "funding_rate_percent": "0.00368%",
+      "funding_countdown": "00:53:55",
+      "open_interest_notional_usdt": "29,270,924.54"
+    }
+  },
+  "supplementary_market_captures": [],
+  "time_semantics": {
+    "observation_timestamps": "Actual UTC capture timestamps retained exactly; archive hour 23 UTC.",
+    "chart_labels": "Verbatim displayed labels only; chart timezone and UTC venue events are unknown.",
+    "synchronization": "Asynchronous public UI snapshots; no synchronized venue-event assertion.",
+    "old_value_fill": false
+  },
+  "displayed_chart_sequence": {
+    "closed_1h": null,
+    "running_1h": null,
+    "closed_4h": null,
+    "running_4h": null,
+    "prior_six_closed_1h": [],
+    "oi_previous": null,
+    "oi_latest": null
+  },
+  "open_interest": {
+    "quantity_unit": "STRK",
+    "interval": "1h",
+    "previous": null,
+    "latest": null,
+    "latest_two_points": null,
+    "quantity_change_base": null,
+    "quantity_change_pct": null,
+    "notional_change_pct_informational": null,
+    "threshold_uses_quantity_not_notional": true,
+    "adjacent_displayed_hours_verified": false,
+    "expected_latest_displayed_time": null,
+    "latest_point_rightmost_endpoint_visually_verified": false,
+    "quantity_change_pct_for_hourly_alert": null,
+    "all_valid_tooltip_captures": [],
+    "non_selected_tooltip_diagnostics": [],
+    "selection_note": "No verified latest adjacent hourly quantity-OI pair was acquired. Endpoint identity, selected 1h control, and predecessor relationship are unavailable; no OI change or threshold result is inferred.",
+    "chart_event_recency_in_utc": null,
+    "delay_flag": null,
+    "venue_event_freshness_in_utc_verified": false,
+    "freshness_relative_displayed_endpoint_verified": false
+  },
+  "candles": {
+    "closed_1h": null,
+    "closed_4h": null,
+    "running_1h": null,
+    "running_4h": null,
+    "prior_six_closed_1h": [],
+    "prior_six_mean_volume_base": null,
+    "prior_six_closed_complete": false,
+    "closed_1h_to_prior_six_mean_volume_ratio": null,
+    "closed_1h_open_to_close_change_pct": null,
+    "all_valid_candle_captures": [],
+    "limitation": "No completed candle or six-hour baseline accepted from this sample. No previous sample values are substituted."
+  },
+  "hourly_taker": {
+    "interval": "1h",
+    "quantity_unit": "STRK",
+    "latest": null,
+    "previous": null,
+    "all_valid_tooltip_captures": [],
+    "completed_hours_verified": false
+  },
+  "funding": {
+    "predicted": {
+      "raw_capture_index": 6,
+      "observed_at": "2026-10-14T23:06:04.224Z",
+      "rate_percent_display": "0.00368%",
+      "rate_decimal_per_interval": 0.0000368,
+      "interval_hours": 4,
+      "countdown_display": "00:53:55",
+      "conversion": "Displayed header percent divided by 100; current estimate, not a settled payment."
+    },
+    "unlabeled_time_historical_panel_values": [],
+    "historical_public_chart_points": [],
+    "timestamped_settlement_history_utc": null,
+    "last_settled_funding_rate": null,
+    "last_settled_funding_at": null
+  },
+  "visible_depth": {
+    "raw_capture_index": 6,
+    "raw_kind": "STRK_primary",
+    "observed_at": "2026-10-14T23:06:04.224Z",
+    "capture_completed_at": "2026-10-14T23:06:04.456Z",
+    "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+    "chart_timezone": null,
+    "raw_chart_timezone": "UNKNOWN",
+    "event_time_utc": null,
+    "ui_connection_status_label": "Stable connection",
+    "ui_connection_warning_observed": false,
+    "base_asset": "STRK",
+    "price_currency": "USDT",
+    "displayed_price_step": 0.00001,
+    "levels_per_side": 5,
+    "selection": "Primary single same-symbol capture; no cross-capture assembly.",
+    "asks_nearest_first": [
+      {
+        "price": 0.07581,
+        "price_display": "0.07581",
+        "size_base_approx": 8510.00,
+        "size_display": "8.51K",
+        "size_display_increment": 10.00,
+        "cumulative_base_approx": 8510.00,
+        "cumulative_display": "8.51K",
+        "cumulative_display_increment": 10.00
+      },
+      {
+        "price": 0.07582,
+        "price_display": "0.07582",
+        "size_base_approx": 13480.00,
+        "size_display": "13.48K",
+        "size_display_increment": 10.00,
+        "cumulative_base_approx": 22000.00,
+        "cumulative_display": "22.00K",
+        "cumulative_display_increment": 10.00
+      },
+      {
+        "price": 0.07583,
+        "price_display": "0.07583",
+        "size_base_approx": 77330.00,
+        "size_display": "77.33K",
+        "size_display_increment": 10.00,
+        "cumulative_base_approx": 99340.00,
+        "cumulative_display": "99.34K",
+        "cumulative_display_increment": 10.00
+      },
+      {
+        "price": 0.07584,
+        "price_display": "0.07584",
+        "size_base_approx": 83490.00,
+        "size_display": "83.49K",
+        "size_display_increment": 10.00,
+        "cumulative_base_approx": 182840.00,
+        "cumulative_display": "182.84K",
+        "cumulative_display_increment": 10.00
+      },
+      {
+        "price": 0.07585,
+        "price_display": "0.07585",
+        "size_base_approx": 29700.00,
+        "size_display": "29.70K",
+        "size_display_increment": 10.00,
+        "cumulative_base_approx": 212540.00,
+        "cumulative_display": "212.54K",
+        "cumulative_display_increment": 10.00
+      }
+    ],
+    "bids_nearest_first": [
+      {
+        "price": 0.07580,
+        "price_display": "0.07580",
+        "size_base_approx": 12850.00,
+        "size_display": "12.85K",
+        "size_display_increment": 10.00,
+        "cumulative_base_approx": 12850.00,
+        "cumulative_display": "12.85K",
+        "cumulative_display_increment": 10.00
+      },
+      {
+        "price": 0.07579,
+        "price_display": "0.07579",
+        "size_base_approx": 22910.00,
+        "size_display": "22.91K",
+        "size_display_increment": 10.00,
+        "cumulative_base_approx": 35770.00,
+        "cumulative_display": "35.77K",
+        "cumulative_display_increment": 10.00
+      },
+      {
+        "price": 0.07578,
+        "price_display": "0.07578",
+        "size_base_approx": 21390.00,
+        "size_display": "21.39K",
+        "size_display_increment": 10.00,
+        "cumulative_base_approx": 57170.00,
+        "cumulative_display": "57.17K",
+        "cumulative_display_increment": 10.00
+      },
+      {
+        "price": 0.07577,
+        "price_display": "0.07577",
+        "size_base_approx": 15740.00,
+        "size_display": "15.74K",
+        "size_display_increment": 10.00,
+        "cumulative_base_approx": 72910.00,
+        "cumulative_display": "72.91K",
+        "cumulative_display_increment": 10.00
+      },
+      {
+        "price": 0.07576,
+        "price_display": "0.07576",
+        "size_base_approx": 53550.00,
+        "size_display": "53.55K",
+        "size_display_increment": 10.00,
+        "cumulative_base_approx": 126470.00,
+        "cumulative_display": "126.47K",
+        "cumulative_display_increment": 10.00
+      }
+    ],
+    "best_ask_price": 0.07581,
+    "best_bid_price": 0.07580,
+    "spread_usdt": 0.00001,
+    "is_full_depth": false,
+    "quantities_are_compact_approximations": true,
+    "quantities_are_rounded": null,
+    "display_formatting_mode": "UNKNOWN_ROUNDING_OR_TRUNCATION",
+    "exact_quantities": null,
+    "exchange_sequence_id": null,
+    "cumulative_consistency_checks": [
+      {
+        "side": "asks",
+        "through_price": 0.07581,
+        "sum_of_displayed_level_sizes_base": 8510.00,
+        "displayed_cumulative_base": 8510.00,
+        "difference_base": 0.00,
+        "combined_full_display_increment_base": 20.00,
+        "beyond_combined_full_display_increment": false,
+        "formatting_mode_verified": false
+      },
+      {
+        "side": "asks",
+        "through_price": 0.07582,
+        "sum_of_displayed_level_sizes_base": 21990.00,
+        "displayed_cumulative_base": 22000.00,
+        "difference_base": -10.00,
+        "combined_full_display_increment_base": 30.00,
+        "beyond_combined_full_display_increment": false,
+        "formatting_mode_verified": false
+      },
+      {
+        "side": "asks",
+        "through_price": 0.07583,
+        "sum_of_displayed_level_sizes_base": 99320.00,
+        "displayed_cumulative_base": 99340.00,
+        "difference_base": -20.00,
+        "combined_full_display_increment_base": 40.00,
+        "beyond_combined_full_display_increment": false,
+        "formatting_mode_verified": false
+      },
+      {
+        "side": "asks",
+        "through_price": 0.07584,
+        "sum_of_displayed_level_sizes_base": 182810.00,
+        "displayed_cumulative_base": 182840.00,
+        "difference_base": -30.00,
+        "combined_full_display_increment_base": 50.00,
+        "beyond_combined_full_display_increment": false,
+        "formatting_mode_verified": false
+      },
+      {
+        "side": "asks",
+        "through_price": 0.07585,
+        "sum_of_displayed_level_sizes_base": 212510.00,
+        "displayed_cumulative_base": 212540.00,
+        "difference_base": -30.00,
+        "combined_full_display_increment_base": 60.00,
+        "beyond_combined_full_display_increment": false,
+        "formatting_mode_verified": false
+      },
+      {
+        "side": "bids",
+        "through_price": 0.07580,
+        "sum_of_displayed_level_sizes_base": 12850.00,
+        "displayed_cumulative_base": 12850.00,
+        "difference_base": 0.00,
+        "combined_full_display_increment_base": 20.00,
+        "beyond_combined_full_display_increment": false,
+        "formatting_mode_verified": false
+      },
+      {
+        "side": "bids",
+        "through_price": 0.07579,
+        "sum_of_displayed_level_sizes_base": 35760.00,
+        "displayed_cumulative_base": 35770.00,
+        "difference_base": -10.00,
+        "combined_full_display_increment_base": 30.00,
+        "beyond_combined_full_display_increment": false,
+        "formatting_mode_verified": false
+      },
+      {
+        "side": "bids",
+        "through_price": 0.07578,
+        "sum_of_displayed_level_sizes_base": 57150.00,
+        "displayed_cumulative_base": 57170.00,
+        "difference_base": -20.00,
+        "combined_full_display_increment_base": 40.00,
+        "beyond_combined_full_display_increment": false,
+        "formatting_mode_verified": false
+      },
+      {
+        "side": "bids",
+        "through_price": 0.07577,
+        "sum_of_displayed_level_sizes_base": 72890.00,
+        "displayed_cumulative_base": 72910.00,
+        "difference_base": -20.00,
+        "combined_full_display_increment_base": 50.00,
+        "beyond_combined_full_display_increment": false,
+        "formatting_mode_verified": false
+      },
+      {
+        "side": "bids",
+        "through_price": 0.07576,
+        "sum_of_displayed_level_sizes_base": 126440.00,
+        "displayed_cumulative_base": 126470.00,
+        "difference_base": -30.00,
+        "combined_full_display_increment_base": 60.00,
+        "beyond_combined_full_display_increment": false,
+        "formatting_mode_verified": false
+      }
+    ],
+    "sensitivity_note": "A full displayed increment is a diagnostic sensitivity only, not an asserted venue rounding rule."
+  },
+  "mark_prior_hour_comparison": {
+    "prior_source_url": "https://github.com/xiangzhang3/chiangmai1/blob/paper-recovery-2026-10-10/v1.0/runtime/ui_observations/2026-10-14/17-STRKUSDT.json",
+    "prior_blob_sha1": "610eeabed16c53702b5ef8e67741dad0247359bf",
+    "prior_observed_at": "2026-10-14T17:15:17.777Z",
+    "prior_mark_price": 0.07653,
+    "current_observed_at": "2026-10-14T23:06:04.224Z",
+    "current_mark_price": 0.07579,
+    "elapsed_seconds": 21046.447,
+    "elapsed_minutes": 350.77411666666666666666666666666666666666666666667,
+    "informational_change_over_actual_gap_pct": -0.96694106886188422840716059061805827779955572977917,
+    "mark_change_pct_for_hourly_alert": null,
+    "comparison_reliable_as_observed_marks": true,
+    "comparison_reliable_as_approximately_one_hour": false,
+    "approximate_hour_window_minutes": [
+      45,
+      75
+    ],
+    "exact_one_hour": false,
+    "limitation": "Prior 17 UTC core is an informational multi-hour comparison only; the actual elapsed time is preserved and no old value fills a current field."
+  },
+  "research_threshold_scope": {
+    "logic": "OR",
+    "quantity_oi": "Absolute change of latest verified adjacent hourly quantity OI >= 5%.",
+    "closed_1h_volume_and_body": "Latest completed hourly volume >= 2 times the arithmetic mean of at least six preceding completed hourly volumes AND absolute open-to-close price change >= 3%.",
+    "mark": "Absolute reliable approximately-one-hour same-contract mark change >= 10%.",
+    "missing_data": "Unknown remains null; no false negative or old-value fill.",
+    "informational_only": true
+  },
+  "research_flags": {
+    "absolute_hourly_quantity_oi_change_ge_5pct": null,
+    "closed_1h_volume_ge_2x_prior_six_mean_and_absolute_body_ge_3pct": null,
+    "absolute_reliable_approximately_1h_mark_change_ge_10pct": null
+  },
+  "any_research_threshold_triggered": null,
+  "alert_assessment": {
+    "status": "INCOMPLETE",
+    "jct_gate_applicable": false,
+    "jct_alert_triggered": null,
+    "known_inputs_triggered": false,
+    "confirmed_trigger": false,
+    "alert_eligible": false,
+    "requires_second_fresh_same_contract_read": false,
+    "second_fresh_confirmation_completed": false,
+    "informational_only": true,
+    "entry_eligibility_established": false
+  },
+  "quality": {
+    "missing_critical_inputs": true,
+    "coverage": "Partial research-only UI sample",
+    "renderer_failure_does_not_establish_exchange_feed_delay": true,
+    "delay_flag": null,
+    "delay_assessment": "Unknown. No chart timezone or UTC venue event timestamp is inferred from rendered clock labels."
+  },
+  "missing_fields": {
+    "chart_timezone": null,
+    "exchange_event_timestamps": null,
+    "full_order_book": null,
+    "exchange_depth_sequence_id": null,
+    "UTC_funding_settlement_timestamp": null,
+    "latest_settled_funding_status": null,
+    "exact_unrounded_candle_and_depth_quantities": null,
+    "account_state_validation_not_collected": null,
+    "timestamped_public_funding_history": null,
+    "completed_hour_taker_buy_sell_volumes": null,
+    "six_verified_preceding_completed_hourly_volumes": null,
+    "latest_completed_1h_candle": null,
+    "latest_completed_4h_candle": null,
+    "verified_approximately_hourly_same_contract_mark_comparison": null,
+    "adjacent_latest_two_displayed_hourly_quantity_oi_points": null
+  },
+  "raw_capture_index_scope": "Zero-based position in combined current-run capture input.",
+  "source_raw_filename": "chiangmai23-captures.json",
+  "combined_raw_input_sha256": "81762d90379796c762a671b7d8a32356f59f6d92bdee746d4431a60e27e14b95",
+  "sanitized_evidence_sha256": "4e2aa2ba20cd1ac974fa6e6360e421cdc5a3f2025cd7ece15b9db285173d5c2b",
+  "raw_public_evidence": [
+    {
+      "kind": "STRK_primary",
+      "observed_at": "2026-10-14T23:06:04.224Z",
+      "capture_completed_at": "2026-10-14T23:06:04.456Z",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+      "signed_out_verified": true,
+      "public_ui": "\t\t\t30 heading STRKUSDT info tag, Value: 1\n\t\t\t\t31 text STRKUSDT\n\t\t\t\t32 container info tag\n\t\t\t\t\t33 container Perp\n\t\t\t\t\t\t34 text Perp\n\t\t\t\t35 image\n\t\t\t36 text 0.07581\n\t\t\t37 text -0.00849\n\t\t\t38 container\n\t\t\t\t39 text -10.08 %\n\t\t\t40 container\n\t\t\t\t41 container\n\t\t\t\t\t42 text Mark\n\t\t\t\t\t43 text 0.07579\n\t\t\t\t44 container\n\t\t\t\t\t45 link Description: Index, Value: binance.com/en/futures/funding-history/perpetual/index?contract=STRKUSDT\n\t\t\t\t\t46 text 0.07586\n\t\t\t\t47 container\n\t\t\t\t\t48 container\n\t\t\t\t\t\t49 text Funding  (4h)  / Countdown\n\t\t\t\t\t50 text 0.00368% /\n\t\t\t\t\t51 text 00:53:55\n\t\t\t\t52 container\n\t\t\t\t\t53 text 24h High 0.08657\n\t\t\t\t54 container\n\t\t\t\t\t55 text 24h Low 0.07505\n\t\t\t\t56 container\n\t\t\t\t\t57 text 24h Vol(STRK) 2,682,152,387.8\n\t\t\t\t58 container\n\t\t\t\t\t59 text 24h Vol(USDT) 215,113,596.05\n\t\t\t\t60 container\n\t\t\t\t\t61 link Description: Open Interest(USDT), Value: binance.com/en/futures/funding-history/perpetual/trading-data?contract=STRKUSDT\n\t\t\t\t\t62 text 29,270,924.54\n\t\t\t\t63 image\n\t\t\t64 container\n\t\t\t\t116 container Description: Chart, ID: flexlayout-tab-#9c817e46-8181-49d9-882d-86f551aa81ce\n\t\t\t\t\t117 container\n\t\t\t\t\t\t118 container\n\t\t\t\t\t\t\t119 text Time\n\t\t\t\t\t\t\t120 text 1s\n\t\t\t\t\t\t\t121 text 15m\n\t\t\t\t\t\t\t122 text 1H\n\t\t\t\t\t\t\t123 text 4H\n\t\t\t\t\t\t\t124 text 1D\n\t\t\t\t\t\t\t125 text 1W\n\t\t\t\t\t\t\t126 combo box (collapsed) Description: Select an option, Secondary Actions: Expand\n\t\t\t\t\t\t\t127 container\n\t\t\t\t\t\t\t\t128 text Last Price\n\t\t\t\t\t\t\t\t129 image\n\t\t\t\t\t\t\t130 image\n\t\t\t\t\t\t131 text Original\n\t\t\t\t\t\t132 text Trading View\n\t\t\t\t\t\t133 text Depth\n\t\t\t\t\t\t134 container\n\t\t\t\t\t\t\t135 image\n\t\t\t\t\t\t\t136 image\n\t\t\t\t\t\t\t137 image\n\t\t\t\t\t\t\t138 image\n\t\t\t\t\t\t\t139 image\n\t\t\t\t\t\t\t140 container\n\t\t\t\t\t\t\t\t141 text 2026/10/14 13:00 Open 0.07609 High 0.07830 Low 0.07568 Close 0.07580 CHANGE -0.38% Range 3.44%\n\t\t\t\t\t\t\t\t142 text MA(7) 0.07971 MA(25) 0.09470 MA(99) 0.06303\n\t\t\t\t\t\t\t\t143 text Vol(STRK) 176.948M Vol(USDT) 13.598M 413.802M 615.534M\n\t\t\t\t144 container Description: Order Book, ID: flexlayout-tab-#25d0d54a-aa6b-41cf-9364-6252daad12e0\n\t\t\t\t\t145 container futuresOrderbook\n\t\t\t\t\t\t146 container\n\t\t\t\t\t\t\t147 text 0.00001\n\t\t\t\t\t\t\t148 image\n\t\t\t\t\t\t149 text Price (USDT)\n\t\t\t\t\t\t150 text Size ( STRK ) Sum ( STRK )\n\t\t\t\t\t\t151 container\n\t\t\t\t\t\t\t152 container\n\t\t\t\t\t\t\t\t153 text 0.07585\n\t\t\t\t\t\t\t\t154 text 29.70K 212.54K\n\t\t\t\t\t\t\t155 container\n\t\t\t\t\t\t\t\t156 text 0.07584\n\t\t\t\t\t\t\t\t157 text 83.49K 182.84K\n\t\t\t\t\t\t\t158 container\n\t\t\t\t\t\t\t\t159 text 0.07583\n\t\t\t\t\t\t\t\t160 text 77.33K 99.34K\n\t\t\t\t\t\t\t161 container\n\t\t\t\t\t\t\t\t162 text 0.07582\n\t\t\t\t\t\t\t\t163 text 13.48K 22.00K\n\t\t\t\t\t\t\t164 container\n\t\t\t\t\t\t\t\t165 text 0.07581\n\t\t\t\t\t\t\t\t166 text 8.51K 8.51K\n\t\t\t\t\t\t167 text 0.07581\n\t\t\t\t\t\t168 image\n\t\t\t\t\t\t169 text 0.07579\n\t\t\t\t\t\t170 container\n\t\t\t\t\t\t\t171 container\n\t\t\t\t\t\t\t\t172 text 0.07580\n\t\t\t\t\t\t\t\t173 text 12.85K 12.85K\n\t\t\t\t\t\t\t174 container\n\t\t\t\t\t\t\t\t175 text 0.07579\n\t\t\t\t\t\t\t\t176 text 22.91K 35.77K\n\t\t\t\t\t\t\t177 container\n\t\t\t\t\t\t\t\t178 text 0.07578\n\t\t\t\t\t\t\t\t179 text 21.39K 57.17K\n\t\t\t\t\t\t\t180 container\n\t\t\t\t\t\t\t\t181 text 0.07577\n\t\t\t\t\t\t\t\t182 text 15.74K 72.91K\n\t\t\t\t\t\t\t183 container\n\t\t\t\t\t\t\t\t184 text 0.07576\n\t\t\t\t\t\t\t\t185 text 53.55K 126.47K",
+      "connection_status": "\t\t\t\t\t252 text Stable connection",
+      "global_capture_index": 6
+    }
+  ],
+  "schema_background_sources": [
+    {
+      "url": "https://github.com/xiangzhang3/chiangmai1/blob/paper-recovery-2026-10-10/v1.0/runtime/ui_observations/README.md",
+      "git_blob_sha1": "b33acd2268a4c14cee1b45ecd5f0429df7f21ff9"
+    }
+  ],
+  "capture_coordinator_attestation": {
+    "source": "Current-run capture coordinator report",
+    "hourly_oi_selection_verified": false,
+    "chart_timezone": null,
+    "event_time_utc": null,
+    "closed_candles_verified": false,
+    "signed_out_links_observed": true,
+    "acquisition_limitations": [
+      "Primary raw candle tooltip displays 13:00, but selected interval and running/closed status were not independently verified; quarantined from normalized candle conclusions.",
+      "Renderer error 9 recurred. No completed candle, baseline or taker history acquired.",
+      "Final ordinary reload again produced renderer timeout. No additional current capture was obtained; primary values remain unchanged."
+    ],
+    "sample_collection_finished": true,
+    "all_owned_research_tabs_closed": true,
+    "owned_research_tabs_closed": [
+      "52",
+      "53",
+      "54",
+      "55"
+    ],
+    "pre_existing_tab_preserved": "45",
+    "collection_policy": {
+      "official_rendered_public_ui_only": true,
+      "signed_out_links_verified": true,
+      "no_exchange_api_access": true,
+      "no_login": true,
+      "no_access_denial_bypass": true,
+      "ordinary_reload_only_for_recovery": true
+    },
+    "delay_flag": null,
+    "delay_flag_limitation": "Chart timezone and UTC venue events unknown; renderer failure does not establish exchange feed delay."
+  },
+  "validation": {
+    "decimal_precision_digits": 50,
+    "exact_decimal_json_number_serialization": true,
+    "fresh_values_only_in_current_fields": true,
+    "five_visible_levels_per_side_verified": true,
+    "visible_levels_from_single_capture_verified": true,
+    "all_normalized_market_symbol_headings_and_contract_links_verified": true,
+    "all_capture_signed_out_flags_true": true,
+    "chart_timezone_not_inferred": true,
+    "event_time_not_inferred": true,
+    "prior_mark_actual_gap_preserved": true,
+    "execution_eligible_false": true,
+    "current_utc_capture_hour_23_verified": true,
+    "signed_out_login_signup_links_observed_in_all_original_ax": true,
+    "all_owned_research_tabs_closed": true,
+    "running_candles_excluded_from_thresholds": true,
+    "all_accepted_candle_ohlc_bounds_verified": true
+  },
+  "arithmetic_verification": {
+    "quantity_oi_change_pct_exact_rational": null,
+    "mark_change_pct_exact_rational": {
+      "numerator": -7400,
+      "denominator": 7653
+    },
+    "funding_percent_to_decimal_exact": true
+  },
+  "quarantined_unverified_interval_candle_tooltips": [
+    {
+      "raw_capture_index": 6,
+      "raw_kind": "STRK_primary",
+      "observed_at": "2026-10-14T23:06:04.224Z",
+      "capture_completed_at": "2026-10-14T23:06:04.456Z",
+      "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+      "chart_timezone": null,
+      "raw_chart_timezone": "UNKNOWN",
+      "event_time_utc": null,
+      "ui_connection_status_label": "Stable connection",
+      "ui_connection_warning_observed": false,
+      "raw_ohlc_tooltip": "text 2026/10/14 13:00 Open 0.07609 High 0.07830 Low 0.07568 Close 0.07580 CHANGE -0.38% Range 3.44%",
+      "raw_volume_line": "text Vol(STRK) 176.948M Vol(USDT) 13.598M",
+      "displayed_time": "2026/10/14 13:00",
+      "used_for_thresholds": false,
+      "interval": null,
+      "bar_status": "UNCLASSIFIED",
+      "eligible_for_closed_bar_conclusions": false,
+      "reason": "Raw tooltip preserved; selected interval and completed/running classification unverified. No numeric candle normalized."
+    }
+  ]
+}

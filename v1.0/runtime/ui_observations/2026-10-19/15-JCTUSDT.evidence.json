@@ -1,0 +1,93 @@
+{
+  "symbol": "JCTUSDT",
+  "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+  "display_timezone": null,
+  "execution_eligible": false,
+  "public_header_capture": {
+    "observed_at": "2026-10-19T15:02:24.734Z",
+    "raw_text": "Perp\n0.001936\n0.000098\n+5.33%\nMark\n0.001936\nIndex\n0.001931\nFunding (4h) / Countdown\n0.00500%\n/\n00:57:35\n24h High\n0.001962\n24h Low\n0.001744\n24h Vol(JCT)\n1,130,692,386.00\n24h Vol(USDT)\n2,106,425.15\nOpen Interest(USDT)\n6,538,759.36\n",
+    "method": "rendered DOM text"
+  },
+  "hourly_oi_tooltips": [
+    {
+      "raw_chart_label": "10/19 21:00",
+      "quantity": 3379814540.0,
+      "quantity_raw": "3,379,814,540.000",
+      "unit": "JCT",
+      "notional_usdt_raw": "6,343,911.89",
+      "observed_at": "2026-10-19T15:06:10.203Z",
+      "display_timezone": null,
+      "event_at_utc": null
+    },
+    {
+      "raw_chart_label": "10/19 22:00",
+      "quantity": 3381591184.0,
+      "quantity_raw": "3,381,591,184.000",
+      "unit": "JCT",
+      "notional_usdt_raw": "6,553,287.00",
+      "observed_at": "2026-10-19T15:05:49.266Z",
+      "display_timezone": null,
+      "event_at_utc": null
+    }
+  ],
+  "hourly_oi_raw_captures": [
+    {
+      "observed_at": "2026-10-19T15:06:10.203Z",
+      "raw_text": "10/19 21:00\n\nOpen Interest (JCT): 3,379,814,540.000\n\nNotional Value of Open Interest (USDT):\n\n6,343,911.89\n\n"
+    },
+    {
+      "observed_at": "2026-10-19T15:05:49.266Z",
+      "raw_text": "10/19 22:00\n\nOpen Interest (JCT): 3,381,591,184.000\n\nNotional Value of Open Interest (USDT):\n\n6,553,287.00\n\n"
+    }
+  ],
+  "public_order_book_capture": {
+    "observed_at": "2026-10-19T15:02:24.734Z",
+    "price_unit": "USDT",
+    "size_unit": "JCT",
+    "display_raw_lines": [
+      "0.001940",
+      "279.37K",
+      "763.99K",
+      "0.001939",
+      "349.89K",
+      "484.62K",
+      "0.001938",
+      "24.18K",
+      "134.73K",
+      "0.001937",
+      "47.04K",
+      "110.55K",
+      "0.001936",
+      "63.50K",
+      "63.50K",
+      "0.001936",
+      "0.001936",
+      "0.001935",
+      "323.32K",
+      "323.32K",
+      "0.001934",
+      "87.62K",
+      "410.94K",
+      "0.001933",
+      "82.18K",
+      "493.13K",
+      "0.001932",
+      "421.36K",
+      "914.49K",
+      "0.001931",
+      "275.42K",
+      "1.18M"
+    ],
+    "precision_note": "K/M abbreviations retained; five levels each side"
+  },
+  "completed_candles": [],
+  "limitations": [
+    "Repeated CDP prepare-tab/LayoutMetrics timeouts and browser recovery interruptions prevented remaining candle, six-hour volume baseline and hourly taker verification. No title-only values accepted.",
+    "Raw chart timezone unverified; 24h rolling volume is not hourly volume."
+  ],
+  "source_references": {
+    "cloud_browser_tab": "52",
+    "screenshot_files": [],
+    "tool_title": "Read JCT hourly endpoints"
+  }
+}

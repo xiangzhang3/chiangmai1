@@ -1,0 +1,212 @@
+{
+  "classification": "RESEARCH_ONLY",
+  "execution_eligible": false,
+  "source_type": "official_binance_signed_out_rendered_public_ui",
+  "raw_chart_timezone": "unverified",
+  "notes": [
+    "Raw chart labels retained; capture UTC is not venue event time.",
+    "OI quantity is directly read from quantity tooltip; notional is separate.",
+    "UI hourly volumes are rounded display values.",
+    "No API, authentication, account action, terms acceptance, ledger change, or trade performed.",
+    "Archived original 14UTC captures with original timestamps; not represented as a fresh 14:57 capture. No missing metric was backfilled from another hour."
+  ],
+  "symbol": "STRKUSDT",
+  "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+  "quantity_oi": {
+    "interval": "1h",
+    "unit": "STRK",
+    "points": [
+      {
+        "raw_label": "10/12 06:00",
+        "raw_ui": "10/12 06:00 Open Interest (STRK): 436,549,779.500 Notional Value of Open Interest (USDT): 45,318,926.72",
+        "quantity": 436549779.5,
+        "notional_usdt": 45318926.72,
+        "captured_at_utc": "2026-10-12T14:11:29.911Z"
+      },
+      {
+        "raw_label": "10/12 07:00",
+        "raw_ui": "10/12 07:00 Open Interest (STRK): 427,239,734.500 Notional Value of Open Interest (USDT): 40,908,204.57",
+        "quantity": 427239734.5,
+        "notional_usdt": 40908204.57,
+        "captured_at_utc": "2026-10-12T14:11:39.631Z"
+      }
+    ],
+    "change_pct": -2.132642240860416
+  },
+  "closed_hour": {
+    "raw_label": "2026/10/12 06:00",
+    "interval": "1H",
+    "running_hour_raw_label": "2026/10/12 07:00",
+    "open": 0.10378,
+    "high": 0.104,
+    "low": 0.09301,
+    "close": 0.09573,
+    "ui_change_pct": -7.76,
+    "volume_qty_display": "628.644M",
+    "volume_qty": 628644000,
+    "volume_usdt_display": "61.29M",
+    "first_capture_utc": "2026-10-12T14:12:42.575Z",
+    "second_capture_utc": "2026-10-12T14:12:57.240Z",
+    "prior_six_volume_qty_millions": [
+      289.306,
+      185.21,
+      260.216,
+      126.029,
+      109.671,
+      147.181
+    ],
+    "prior_six_raw_labels": [
+      "00:00",
+      "01:00",
+      "02:00",
+      "03:00",
+      "04:00",
+      "05:00"
+    ],
+    "prior_six_mean_qty": 186268833.33333334,
+    "volume_ratio": 3.3749285307168044,
+    "price_volume_threshold_met": true
+  },
+  "market_captures": [
+    {
+      "captured_at_utc": "2026-10-12T14:11:39.631Z",
+      "mark": 0.09276,
+      "index": 0.09278,
+      "funding_pct": 0.005,
+      "funding_interval_hours": 4
+    },
+    {
+      "captured_at_utc": "2026-10-12T14:12:57.240Z",
+      "mark": 0.09277,
+      "index": 0.0928,
+      "funding_pct": 0.005,
+      "funding_interval_hours": 4
+    },
+    {
+      "captured_at_utc": "2026-10-12T14:14:46.738Z",
+      "mark": 0.09222,
+      "index": 0.09222,
+      "funding_pct": 0.005,
+      "funding_interval_hours": 4,
+      "open_interest_notional_usdt": 40059440.96
+    }
+  ],
+  "observed_at": "2026-10-12T14:14:46.738Z",
+  "status": "PARTIAL_RESEARCH_ONLY",
+  "display_timezone": null,
+  "funding_conversion": {
+    "raw_percent": 0.005,
+    "decimal_per_interval": 5e-05,
+    "calculation": "0.005 / 100"
+  },
+  "missing_fields": {
+    "depth": {
+      "value": null,
+      "reason": "Not retained in the original 14UTC public report capture."
+    },
+    "closed_4h": {
+      "value": null,
+      "reason": "Not captured by the original 14UTC report observation."
+    },
+    "taker_volume": {
+      "value": null,
+      "reason": "Not captured by the original 14UTC report observation."
+    },
+    "exchange_event_time_utc": {
+      "value": null,
+      "reason": "Rendered chart timezone unverified; raw labels preserved."
+    },
+    "last_price": {
+      "value": null,
+      "reason": "No verified last-price value retained at this market snapshot timestamp."
+    }
+  },
+  "raw_public_evidence": {
+    "strk_prior_and_closed_hours": [
+      {
+        "x": 459,
+        "captured_at_utc": "2026-10-12T14:12:42.575Z",
+        "lines": [
+          "~\t\t\t\t\t50 text 24h Vol(STRK) 7,816,727,345.5",
+          "~\t\t\t\t\t276 container Time 1s 15m 1H 4H 1D 1W Last Price Original Trading View Depth 2026/10/12 06:00 Open 0.10378",
+          "+\t\t\t\t\t\t\t\t\t305 text 2026/10/12 06:00 Open 0.10378 High 0.10400 Low 0.09301 Close 0.09573 CHANGE -7.76% Range 10.58%",
+          "~\t\t\t\t\t\t\t\t\t303 text Vol(STRK) 628.644M Vol(USDT) 61.29M 249.465M 277.365M",
+          "The focused UI element is 276 container Time 1s 15m 1H 4H 1D 1W Last Price Original Trading View Depth 2026/10/12 06:00 Open 0.10378"
+        ]
+      },
+      {
+        "x": 452,
+        "captured_at_utc": "2026-10-12T14:12:43.401Z",
+        "lines": [
+          "~\t\t\t\t\t276 container Time 1s 15m 1H 4H 1D 1W Last Price Original Trading View Depth 2026/10/12 05:00 Open 0.10456",
+          "~\t\t\t\t\t\t\t\t\t305 text 2026/10/12 05:00 Open 0.10456 High 0.10671 Low 0.10265 Close 0.10379 CHANGE -0.73% Range 3.88%",
+          "~\t\t\t\t\t\t\t\t\t303 text Vol(STRK) 147.181M Vol(USDT) 15.358M 190.373M 261.084M",
+          "The focused UI element is 276 container Time 1s 15m 1H 4H 1D 1W Last Price Original Trading View Depth 2026/10/12 05:00 Open 0.10456"
+        ]
+      },
+      {
+        "x": 445,
+        "captured_at_utc": "2026-10-12T14:12:44.172Z",
+        "lines": [
+          "~\t\t\t\t\t50 text 24h Vol(STRK) 7,816,782,074.1",
+          "~\t\t\t\t\t276 container Time 1s 15m 1H 4H 1D 1W Last Price Original Trading View Depth 2026/10/12 04:00 Open 0.10565",
+          "~\t\t\t\t\t\t\t\t\t305 text 2026/10/12 04:00 Open 0.10565 High 0.10611 Low 0.10405 Close 0.10456 CHANGE -1.03% Range 1.94%",
+          "~\t\t\t\t\t\t\t\t\t303 text Vol(STRK) 109.671M Vol(USDT) 11.536M 194.967M 261.78M",
+          "The focused UI element is 276 container Time 1s 15m 1H 4H 1D 1W Last Price Original Trading View Depth 2026/10/12 04:00 Open 0.10565"
+        ]
+      },
+      {
+        "x": 439,
+        "captured_at_utc": "2026-10-12T14:12:44.947Z",
+        "lines": [
+          "~\t\t\t\t\t50 text 24h Vol(STRK) 7,816,791,739.9",
+          "~\t\t\t\t\t276 container Time 1s 15m 1H 4H 1D 1W Last Price Original Trading View Depth 2026/10/12 03:00 Open 0.10505",
+          "~\t\t\t\t\t\t\t\t\t305 text 2026/10/12 03:00 Open 0.10505 High 0.10717 Low 0.10380 Close 0.10565 CHANGE 0.58% Range 3.20%",
+          "~\t\t\t\t\t\t\t\t\t303 text Vol(STRK) 126.029M Vol(USDT) 13.302M 222.825M 265.023M",
+          "The focused UI element is 276 container Time 1s 15m 1H 4H 1D 1W Last Price Original Trading View Depth 2026/10/12 03:00 Open 0.10505"
+        ]
+      },
+      {
+        "x": 432,
+        "captured_at_utc": "2026-10-12T14:12:45.625Z",
+        "lines": [
+          "~\t\t\t\t\t50 text 24h Vol(STRK) 7,816,826,392.6",
+          "~\t\t\t\t\t276 container Time 1s 15m 1H 4H 1D 1W Last Price Original Trading View Depth 2026/10/12 02:00 Open 0.10375",
+          "~\t\t\t\t\t\t\t\t\t305 text 2026/10/12 02:00 Open 0.10375 High 0.10797 Low 0.10301 Close 0.10504 CHANGE 1.24% Range 4.78%",
+          "~\t\t\t\t\t\t\t\t\t303 text Vol(STRK) 260.216M Vol(USDT) 27.442M 271.089M 271.826M",
+          "The focused UI element is 276 container Time 1s 15m 1H 4H 1D 1W Last Price Original Trading View Depth 2026/10/12 02:00 Open 0.10375"
+        ]
+      },
+      {
+        "x": 425,
+        "captured_at_utc": "2026-10-12T14:12:46.567Z",
+        "lines": [
+          "~\t\t\t\t\t50 text 24h Vol(STRK) 7,816,886,467.0",
+          "~\t\t\t\t\t276 container Time 1s 15m 1H 4H 1D 1W Last Price Original Trading View Depth 2026/10/12 01:00 Open 0.10145",
+          "~\t\t\t\t\t\t\t\t\t305 text 2026/10/12 01:00 Open 0.10145 High 0.10385 Low 0.10061 Close 0.10375 CHANGE 2.26% Range 3.19%",
+          "~\t\t\t\t\t\t\t\t\t303 text Vol(STRK) 185.21M Vol(USDT) 18.915M 292.278M 268.522M",
+          "The focused UI element is 276 container Time 1s 15m 1H 4H 1D 1W Last Price Original Trading View Depth 2026/10/12 01:00 Open 0.10145"
+        ]
+      },
+      {
+        "x": 419,
+        "captured_at_utc": "2026-10-12T14:12:47.785Z",
+        "lines": [
+          "~\t\t\t\t\t50 text 24h Vol(STRK) 7,816,921,914.0",
+          "~\t\t\t\t\t276 container Time 1s 15m 1H 4H 1D 1W Last Price Original Trading View Depth 2026/10/12 00:00 Open 0.10389",
+          "~\t\t\t\t\t\t\t\t\t305 text 2026/10/12 00:00 Open 0.10389 High 0.10663 Low 0.10080 Close 0.10145 CHANGE -2.33% Range 5.61%",
+          "~\t\t\t\t\t\t\t\t\t303 text Vol(STRK) 289.306M Vol(USDT) 29.762M 297.761M 282.458M",
+          "The focused UI element is 276 container Time 1s 15m 1H 4H 1D 1W Last Price Original Trading View Depth 2026/10/12 00:00 Open 0.10389"
+        ]
+      }
+    ],
+    "strk_closed_recheck_at": "2026-10-12T14:12:57.240Z",
+    "strk_closed_recheck": [
+      "~\t\t\t\t\t50 text 24h Vol(STRK) 7,817,401,945.5",
+      "~\t\t\t\t\t276 container Time 1s 15m 1H 4H 1D 1W Last Price Original Trading View Depth 2026/10/12 06:00 Open 0.10378",
+      "~\t\t\t\t\t\t\t\t\t305 text 2026/10/12 06:00 Open 0.10378 High 0.10400 Low 0.09301 Close 0.09573 CHANGE -7.76% Range 10.58%",
+      "~\t\t\t\t\t\t\t\t\t303 text Vol(STRK) 628.644M Vol(USDT) 61.29M 249.465M 277.365M",
+      "The focused UI element is 276 container Time 1s 15m 1H 4H 1D 1W Last Price Original Trading View Depth 2026/10/12 06:00 Open 0.10378"
+    ]
+  }
+}

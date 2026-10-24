@@ -1,0 +1,157 @@
+{
+  "symbol": "KAIAUSDT",
+  "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+  "observed_at": "2026-10-18T12:11:34.653Z",
+  "collection_method": "Cloud browser public rendered Binance futures page; selected UI symbol verified KAIAUSDT Perp; no account connection",
+  "readme_sha": "b33acd2268a4c14cee1b45ecd5f0429df7f21ff9",
+  "display_timezone": null,
+  "display_timezone_status": "unverified; raw chart labels not mapped to UTC or Beijing event hours",
+  "execution_eligible": false,
+  "raw_header": {
+    "last_price": "0.04257",
+    "mark_price": "0.04259",
+    "index_price": "0.04264",
+    "current_predicted_funding_rate": "0.00425%",
+    "funding_interval_hours": 4,
+    "open_interest_notional_usdt": "4,286,636.87"
+  },
+  "funding_conversion": "Displayed percent divided by 100 to obtain decimal funding_rate. Header current prediction only; historical funding chart is not substituted.",
+  "rolling_24h": {
+    "volume_base_raw": "208,409,540.00",
+    "volume_base_unit": "KAIA",
+    "volume_quote_raw": "9,050,006.41",
+    "volume_quote_unit": "USDT",
+    "price_change_percent_raw": "-3.18%",
+    "not_a_completed_hour": true
+  },
+  "order_book": {
+    "observed_at": "2026-10-18T12:11:34.653Z",
+    "price_unit": "USDT",
+    "size_unit": "KAIA",
+    "asks_price_size_raw": [
+      [
+        "0.04258",
+        "166"
+      ],
+      [
+        "0.04259",
+        "3.48K"
+      ],
+      [
+        "0.04260",
+        "11.49K"
+      ],
+      [
+        "0.04261",
+        "31.95K"
+      ],
+      [
+        "0.04262",
+        "37.55K"
+      ]
+    ],
+    "bids_price_size_raw": [
+      [
+        "0.04257",
+        "4.82K"
+      ],
+      [
+        "0.04256",
+        "15.23K"
+      ],
+      [
+        "0.04255",
+        "26.09K"
+      ],
+      [
+        "0.04254",
+        "17.83K"
+      ],
+      [
+        "0.04253",
+        "39.93K"
+      ]
+    ],
+    "rounded_size_strings_preserved": true
+  },
+  "hourly_oi_latest_segment": {
+    "selected_interval": "1h",
+    "unit": "KAIA",
+    "previous": {
+      "raw_label": "10/18 18:00",
+      "quantity_raw": "101,286,524.000",
+      "quantity": 101286524.0,
+      "notional_usdt_raw": "4,301,638.67",
+      "observed_at": "2026-10-18T12:13:20.372Z"
+    },
+    "latest": {
+      "raw_label": "10/18 19:00",
+      "quantity_raw": "100,625,753.000",
+      "quantity": 100625753.0,
+      "notional_usdt_raw": "4,290,682.10",
+      "observed_at": "2026-10-18T12:13:09.225Z"
+    },
+    "change_quantity": -660771.0,
+    "change_percent": -0.6523780004534463,
+    "calculation": "(latest quantity - previous quantity) / previous quantity * 100",
+    "same_contract_and_unit": true,
+    "event_time_mapping_verified": false,
+    "endpoint_update_status": "Two distinct adjacent hourly raw chart endpoints read fresh; absolute event timezone unverified. No prior-run same-label comparison available.",
+    "same_window_price_change": null,
+    "same_window_volume_change": null
+  },
+  "missing": {
+    "hourly_taker_buy_sell_volume": "Not captured; browser focus yielded to priority JCT observation.",
+    "same_window_price_volume": "Not verified; rolling24h figures are not used as hourly data",
+    "historical_settlement_funding": "Not verified; kept separate from current prediction"
+  },
+  "caveats": [
+    "Observed_at is collection time, not exchange event time.",
+    "Header USD notional OI is separate from chart token quantity OI.",
+    "No trading or account state changes."
+  ],
+  "completed_candles": [
+    {
+      "interval": "1h",
+      "raw_label": "2026/10/18 18:00",
+      "observed_at": "2026-10-18T12:14:24.658Z",
+      "ohlc_raw": {
+        "open": "0.04248",
+        "high": "0.04272",
+        "low": "0.04221",
+        "close": "0.04264"
+      },
+      "volume_base_raw": "7.84M",
+      "base_unit": "KAIA",
+      "volume_quote_raw": "333.028K",
+      "quote_unit": "USDT",
+      "displayed_change_raw": "0.40%",
+      "completion_basis": "Previous candle selected while chart latest/current candle label was 2026/10/18 19:00; interval selected and rendered chart verified.",
+      "price_basis": "Last Price",
+      "display_timezone": null,
+      "volume_precision": "Displayed rounded M/K strings preserved.",
+      "oi_window_alignment": "Not established; no paired OI-price/volume calculation claimed."
+    },
+    {
+      "interval": "4h",
+      "raw_label": "2026/10/18 15:00",
+      "observed_at": "2026-10-18T12:15:02.515Z",
+      "ohlc_raw": {
+        "open": "0.04256",
+        "high": "0.04279",
+        "low": "0.04215",
+        "close": "0.04264"
+      },
+      "volume_base_raw": "24.284M",
+      "base_unit": "KAIA",
+      "volume_quote_raw": "1.031M",
+      "quote_unit": "USDT",
+      "displayed_change_raw": "0.16%",
+      "completion_basis": "Previous candle selected while chart latest/current candle label was 2026/10/18 19:00; interval selected and rendered chart verified.",
+      "price_basis": "Last Price",
+      "display_timezone": null,
+      "volume_precision": "Displayed rounded M/K strings preserved.",
+      "oi_window_alignment": "Not established; no paired OI-price/volume calculation claimed."
+    }
+  ]
+}

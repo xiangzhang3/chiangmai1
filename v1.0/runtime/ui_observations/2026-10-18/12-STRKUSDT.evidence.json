@@ -1,0 +1,137 @@
+{
+  "symbol": "STRKUSDT",
+  "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+  "observed_at": "2026-10-18T12:11:10.609Z",
+  "collection_method": "Cloud browser public rendered Binance futures page; selected UI symbol verified STRKUSDT Perp; no account connection",
+  "readme_sha": "b33acd2268a4c14cee1b45ecd5f0429df7f21ff9",
+  "display_timezone": null,
+  "display_timezone_status": "unverified; raw chart labels not mapped to UTC or Beijing event hours",
+  "execution_eligible": false,
+  "raw_header": {
+    "last_price": "0.06203",
+    "mark_price": "0.06205",
+    "index_price": "0.06210",
+    "current_predicted_funding_rate": "0.00500%",
+    "funding_interval_hours": 4,
+    "open_interest_notional_usdt": "27,159,302.36"
+  },
+  "funding_conversion": "Displayed percent divided by 100 to obtain decimal funding_rate. Header current prediction only; historical funding chart is not substituted.",
+  "rolling_24h": {
+    "volume_base_raw": "2,217,374,954.1",
+    "volume_base_unit": "STRK",
+    "volume_quote_raw": "144,501,582.11",
+    "volume_quote_unit": "USDT",
+    "price_change_percent_raw": "-12.76%",
+    "not_a_completed_hour": true
+  },
+  "order_book": {
+    "observed_at": "2026-10-18T12:11:10.609Z",
+    "price_unit": "USDT",
+    "size_unit": "STRK",
+    "asks_price_size_raw": [
+      [
+        "0.06203",
+        "7.58K"
+      ],
+      [
+        "0.06204",
+        "29.23K"
+      ],
+      [
+        "0.06205",
+        "68.57K"
+      ],
+      [
+        "0.06206",
+        "81.51K"
+      ],
+      [
+        "0.06207",
+        "130.65K"
+      ]
+    ],
+    "bids_price_size_raw": [
+      [
+        "0.06202",
+        "19.30K"
+      ],
+      [
+        "0.06201",
+        "37.32K"
+      ],
+      [
+        "0.06200",
+        "43.18K"
+      ],
+      [
+        "0.06199",
+        "90.29K"
+      ],
+      [
+        "0.06198",
+        "94.95K"
+      ]
+    ],
+    "rounded_size_strings_preserved": true
+  },
+  "hourly_oi_latest_segment": {
+    "selected_interval": "1h",
+    "unit": "STRK",
+    "previous": {
+      "raw_label": "10/18 18:00",
+      "quantity_raw": "432,753,184.500",
+      "quantity": 432753184.5,
+      "notional_usdt_raw": "26,943,732.57",
+      "observed_at": "2026-10-18T12:11:16.384Z"
+    },
+    "latest": {
+      "raw_label": "10/18 19:00",
+      "quantity_raw": "436,030,236.000",
+      "quantity": 436030236.0,
+      "notional_usdt_raw": "27,003,352.51",
+      "observed_at": "2026-10-18T12:11:10.609Z"
+    },
+    "change_quantity": 3277051.5,
+    "change_percent": 0.7572564725979504,
+    "calculation": "(latest quantity - previous quantity) / previous quantity * 100",
+    "same_contract_and_unit": true,
+    "event_time_mapping_verified": false,
+    "endpoint_update_status": "Two distinct adjacent hourly raw chart endpoints read fresh; absolute event timezone unverified. No prior-run same-label comparison available.",
+    "same_window_price_change": null,
+    "same_window_volume_change": null
+  },
+  "missing": {
+    "completed_4h_candles": "4h chart selected and rendered, previous candle not captured before yielding browser focus to priority JCT observation.",
+    "hourly_taker_buy_sell_volume": "Not captured; browser focus yielded to priority JCT observation.",
+    "same_window_price_volume": "Not verified; rolling24h figures are not used as hourly data",
+    "historical_settlement_funding": "Not verified; kept separate from current prediction"
+  },
+  "caveats": [
+    "Observed_at is collection time, not exchange event time.",
+    "Header USD notional OI is separate from chart token quantity OI.",
+    "No trading or account state changes."
+  ],
+  "completed_candles": [
+    {
+      "interval": "1h",
+      "raw_label": "2026/10/18 18:00",
+      "observed_at": "2026-10-18T12:15:25.776Z",
+      "ohlc_raw": {
+        "open": "0.06225",
+        "high": "0.06257",
+        "low": "0.06112",
+        "close": "0.06194"
+      },
+      "volume_base_raw": "85.005M",
+      "base_unit": "STRK",
+      "volume_quote_raw": "5.252M",
+      "quote_unit": "USDT",
+      "displayed_change_raw": "-0.48%",
+      "completion_basis": "Previous candle selected while chart latest/current candle label was 2026/10/18 19:00; interval selected and rendered chart verified.",
+      "price_basis": "Last Price",
+      "display_timezone": null,
+      "volume_precision": "Displayed rounded M/K strings preserved.",
+      "oi_window_alignment": "Not established; no paired OI-price/volume calculation claimed."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "symbol": "KAIAUSDT",
+  "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+  "display_timezone": null,
+  "execution_eligible": false,
+  "public_header_capture": {
+    "observed_at": "2026-10-19T14:15:07.464Z",
+    "raw_text": "KAIAUSDT Perp; Last 0.04097; Mark 0.04096; Index 0.041; Funding (4h) -0.00154%; visually transcribed screenshot. 24h volume clipped, not recorded.",
+    "method": "cloud desktop screenshot visually transcribed"
+  },
+  "hourly_oi_tooltips": [],
+  "other_interval_quantity_tooltip": null,
+  "limitations": [
+    "Display timezone unverified; raw labels not mapped to UTC or Beijing event time.",
+    "Completed 1h/4h candles, six completed-hour volume baseline and hourly taker volumes not verified: repeated CDP timeouts and renderer error 9 limited UI inspection.",
+    "No same-window price or volume change calculation. 24h volume is not hourly volume.",
+    "Only public rendered market data; no account/trade actions."
+  ]
+}

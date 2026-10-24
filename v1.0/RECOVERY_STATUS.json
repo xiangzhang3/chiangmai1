@@ -1,0 +1,61 @@
+{
+  "project": "CHIANGMAI1",
+  "as_of": "2026-10-10T16:57:11.557714+00:00",
+  "status": "TESTED_RECOVERY_BRANCH_NOT_DEPLOYED",
+  "recovery_branch": "paper-recovery-2026-10-10",
+  "upstream_main_commit": "e81c23b2d6a05f70e1b50243612804eaae8b578f",
+  "tests_passed": 108,
+  "test_kind": "Offline unit tests; synthetic fixtures only",
+  "compileall": "passed",
+  "diff_check": "passed",
+  "review": "Independent review passed: source/accounting/shadow, 1h4h migration and non-executing flat UI pilot",
+  "fresh_api_scan": "BLOCKED",
+  "new_paper_fills": 0,
+  "accounts": {
+    "KAIA-A01": {
+      "cash": 1000,
+      "position": "FLAT",
+      "origin": "Original verified checkpoint unchanged",
+      "strategy_version": "kaia-oi-breakout-v1.2-1h4h"
+    },
+    "JCT-A01": {
+      "cash": null,
+      "status": "ACCOUNT_STATE_UNVERIFIED",
+      "origin": "Unknown legacy state preserved"
+    },
+    "JCT-P01-20261010": {
+      "cash": 1000,
+      "position": "FLAT",
+      "created_at_utc": "2026-10-10T16:36:27Z",
+      "origin": "Expressly authorized NEW prospective paper account",
+      "strategy_version": "jct-oi-volume-breakout-p1-v0.2-1h4h"
+    }
+  },
+  "ui_shadow": {
+    "version": "binance-rendered-shadow-v0.1",
+    "execution_eligible": false,
+    "historical_evidence_as_of": "2026-10-10T16:30:17.972Z",
+    "historical_shadow_signal": "NO_TRADE",
+    "current_saved_quote_status": "STALE_INCOMPLETE",
+    "venue_event_timestamps_available": false
+  },
+  "blockers": [
+    "Complete Binance API signal set unavailable in current runtime.",
+    "Observed UI quotes are asynchronous; no exact venue event timestamps.",
+    "Settled funding source-time uncertainty and position accounting bridge not validated for positive entry.",
+    "No end-to-end validated continuous account writer or execution deployment."
+  ],
+  "next_steps": [
+    "Verify first scheduled public-observation run and remote readback.",
+    "Validate funding settlement coverage and one authorized data/execution bridge without relaxing the default.",
+    "Run fresh-data paper evaluation with idempotent single-writer remote persistence; do not backfill missed fills."
+  ],
+  "strategy_activation_at_ms": 1791651431556,
+  "ui_flat_pilot": {
+    "version": "binance-rendered-flat-pilot-v0.1",
+    "review": "passed",
+    "execution_eligible": false,
+    "fresh_pilot": "awaiting newly collected complete data",
+    "account_mutation_allowed": false
+  }
+}

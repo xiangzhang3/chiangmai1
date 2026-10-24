@@ -1,0 +1,104 @@
+{
+  "symbol": "KAIAUSDT",
+  "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+  "observed_at": "2026-10-19T10:08:25.480Z",
+  "research_only": true,
+  "execution_eligible": false,
+  "ui_symbol_verified": "KAIAUSDT Perp",
+  "display_timezone": null,
+  "timezone_note": "Raw chart labels are not mapped to UTC or Beijing event time. observed_at is actual UTC collection time.",
+  "primary_public_header_raw": "Screenshot transcription: KAIAUSDT Perp; last 0.04136; Mark 0.04142; Index 0.04146; Funding (4h) -0.01101% / 01:51:34; 24h High 0.04277; Low 0.03996. OI notional and 24h volume not fully visible.",
+  "funding": {
+    "predicted_rate_raw": "-0.01101%",
+    "decimal_conversion": "display percent divided by 100",
+    "interval_hours": 4,
+    "historical_settlement_funding_rate": null,
+    "historical_settlement_mark_price": null
+  },
+  "order_book": {
+    "observed_at": "2026-10-19T10:08:25.480Z",
+    "price_unit": "USDT",
+    "quantity_unit": "KAIA",
+    "public_raw": {
+      "asks": [
+        [
+          "0.04140",
+          "35.41K",
+          "71.51K"
+        ],
+        [
+          "0.04139",
+          "18.63K",
+          "36.10K"
+        ],
+        [
+          "0.04138",
+          "13.93K",
+          "17.47K"
+        ],
+        [
+          "0.04137",
+          "2.81K",
+          "3.54K"
+        ],
+        [
+          "0.04136",
+          "725",
+          "725"
+        ]
+      ],
+      "bids": [
+        [
+          "0.04135",
+          "8.71K",
+          "8.71K"
+        ],
+        [
+          "0.04134",
+          "14.39K",
+          "23.11K"
+        ],
+        [
+          "0.04133",
+          "38.17K",
+          "61.28K"
+        ],
+        [
+          "0.04132",
+          "44.19K",
+          "105.47K"
+        ],
+        [
+          "0.04131",
+          "36.95K",
+          "142.43K"
+        ]
+      ]
+    },
+    "precision_note": "K/M displayed sizes are rounded."
+  },
+  "rolling_24h_volume_quantity_raw": null,
+  "closed_1h_candles_latest_first": [],
+  "closed_4h_candle": null,
+  "hourly_oi_quantity_timeline": {
+    "previous": null,
+    "latest": null,
+    "delta_quantity": null,
+    "delta_pct": null,
+    "unit": "KAIA",
+    "status": "missing current endpoint; previous endpoint preserved from prior verified observation, not relabeled as current hour",
+    "display_timezone": null,
+    "price_volume_window_alignment": "unverified; no paired changes calculated"
+  },
+  "taker_buy_sell_volume_1h": null,
+  "research_checks": {
+    "oi_threshold_status": "not evaluable: current quantity endpoint missing",
+    "volume_threshold_status": "not evaluable: completed-hour volume baseline missing",
+    "alert_trigger_confirmed": false
+  },
+  "limitations": [
+    "Intermittent browser protocol timeouts prevented quantity-OI tooltip and completed 1h/4h candle capture.",
+    "No inference of no market anomaly; unavailable data remain null.",
+    "No simulated or live trades performed."
+  ]
+}

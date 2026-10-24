@@ -1,0 +1,113 @@
+{
+  "symbol": "KAIAUSDT",
+  "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+  "observed_at": "2026-10-20T00:11:14.281Z",
+  "source": "official public rendered Binance perpetual UI",
+  "ui_symbol_verified": "KAIAUSDT Perp",
+  "display_timezone": null,
+  "execution_eligible": false,
+  "fields": {
+    "last_price": 0.04092,
+    "mark_price": 0.04092,
+    "index_price": 0.04102,
+    "funding_rate": -4.65e-05,
+    "funding_interval_hours": 4,
+    "open_interest_notional_usdt": 4054907.61,
+    "volume_24h_base": 139281789.0,
+    "volume_24h_quote_usdt": 5757729.78,
+    "open_interest_quantity": null,
+    "completed_1h_candles": null,
+    "completed_4h_candles": null,
+    "hourly_taker_buy_volume": null,
+    "hourly_taker_sell_volume": null,
+    "historical_settled_funding_rate": null,
+    "historical_settlement_mark_price": null
+  },
+  "raw_header": {
+    "last_price_raw": "0.04092",
+    "mark_price_raw": "0.04092",
+    "index_price_raw": "0.04102",
+    "current_predicted_funding_rate_raw": "-0.00465%",
+    "funding_interval_raw": "4h",
+    "countdown_raw": "03:48:45",
+    "volume_24h_base_raw": "139,281,789.00",
+    "volume_24h_quote_usdt_raw": "5,757,729.78",
+    "open_interest_notional_usdt_raw": "4,054,907.61"
+  },
+  "funding_rate_raw": "-0.00465%",
+  "funding_rate_conversion": "Displayed percent divided by100; current predicted per displayed interval, not historical settlement.",
+  "hourly_oi_timeline": null,
+  "latest_hourly_oi_point": null,
+  "hourly_taker_volume": null,
+  "order_book": {
+    "observed_at": "2026-10-20T00:11:14.281Z",
+    "price_unit": "USDT",
+    "size_unit": "KAIA",
+    "columns": [
+      "price",
+      "size",
+      "cumulative_size"
+    ],
+    "asks_raw": [
+      [
+        "0.04097",
+        "56.52K",
+        "178.89K"
+      ],
+      [
+        "0.04096",
+        "90.54K",
+        "122.36K"
+      ],
+      [
+        "0.04095",
+        "26.61K",
+        "31.82K"
+      ],
+      [
+        "0.04094",
+        "4.45K",
+        "5.20K"
+      ],
+      [
+        "0.04093",
+        "749",
+        "749"
+      ]
+    ],
+    "bids_raw": [
+      [
+        "0.04092",
+        "3.60K",
+        "3.60K"
+      ],
+      [
+        "0.04091",
+        "8.60K",
+        "12.20K"
+      ],
+      [
+        "0.04090",
+        "38.80K",
+        "51.00K"
+      ],
+      [
+        "0.04089",
+        "21.42K",
+        "72.43K"
+      ],
+      [
+        "0.04088",
+        "24.72K",
+        "97.15K"
+      ]
+    ],
+    "raw_text": "0.04099\n78.81K\n306.43K\n0.04098\n48.72K\n227.61K\n0.04097\n56.52K\n178.89K\n0.04096\n90.54K\n122.36K\n0.04095\n26.61K\n31.82K\n0.04094\n4.45K\n5.20K\n0.04093\n749\n749\n0.04092\n0.04092\n0.04092\n3.60K\n3.60K\n0.04091\n8.60K\n12.20K\n0.04090\n38.80K\n51.00K\n0.04089\n21.42K\n72.43K\n0.04088\n24.72K\n97.15K\n0.04087\n38.27K\n135.43K\n0.04086\n27.58K\n163.02K\n",
+    "precision_note": "K/M values retained as displayed."
+  },
+  "research_threshold_assessment": null,
+  "missing_reasons": {
+    "null_fields": "Unverified fields remain null, not zero.",
+    "remaining_collection": "Non-JCT completed candles and taker volumes, KAIA quantity OI and historical settlement fields unverified. Transient period-change tooltips discarded; SHELL page crash recovered by normal reload; hourly selectors verified; JCT hourly taker tooltip verified. Chart timezone unverified; raw labels retained without UTC/Beijing event mapping; OI and candle windows not paired."
+  }
+}

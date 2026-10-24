@@ -1,0 +1,84 @@
+{
+  "symbol": "STRKUSDT",
+  "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+  "observed_at": "2026-10-10T22:07:22.345Z",
+  "status": "RESEARCH_ONLY",
+  "execution_eligible": false,
+  "display_timezone": null,
+  "exchange_event_time": null,
+  "uncertainties": [
+    "Rendered clock labels retained verbatim; displayed timezone not explicitly exposed in these captures. No UTC event-time mapping inferred.",
+    "1h/4h prior candles selected one bar before the active rightmost candle. Completed-looking UI bars, not independently exchange-boundary verified.",
+    "Book size strings rounded; page fields asynchronous. Observation time is capture time, not exchange event time.",
+    "Funding in quote header is current indicated rate; settlement-history table is separate. Neither used for any account or execution."
+  ],
+  "raw_quote_header": "\"STRKUSDT info tag\" [level=1]:\n  - generic: STRKUSDT\n  - generic \"info tag\":\n    - tooltip \"Perp\":\n      - generic: Perp\n- generic: \"0.10352\"\n- generic: \"0.03426\"\n- generic: +49.48%\n- generic: Mark\n- generic: \"0.10319\"\n- link \"Index\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/index?contract=STRKUSDT\n  - text: Index\n- generic: \"0.10319\"\n- generic: Funding (4h) / Countdown\n- generic: \"-0.00572%\"\n- generic: /\n- generic: 01:52:37\n- generic: 24h High\n- generic: \"0.10680\"\n- generic: 24h Low\n- generic: \"0.06896\"\n- generic: 24h Vol(STRK)\n- generic: 7,047,592,365.8\n- generic: 24h Vol(USDT)\n- generic: 629,665,731.46\n- link \"Open Interest(USDT)\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=STRKUSDT\n  - text: Open Interest(USDT)\n- generic: 44,296,792.08\n",
+  "raw_order_book": "\n  - generic: \"0.00001\"\n  - generic: Price (USDT)\n  - generic: Size\n  - generic: (STRK)\n  - generic: Sum\n  - generic: (STRK)\n  - generic: \"0.10356\"\n  - generic: 4.03K\n  - generic: 30.96K\n  - generic: \"0.10355\"\n  - generic: 18.54K\n  - generic: 26.93K\n  - generic: \"0.10354\"\n  - generic: 7.06K\n  - generic: 8.38K\n  - generic: \"0.10353\"\n  - generic: \"213.8\"\n  - generic: 1.31K\n  - generic: \"0.10352\"\n  - generic: 1.10K\n  - generic: 1.10K\n  - generic: \"0.10352\"\n  - generic: \"0.10319\"\n  - generic: \"0.10351\"\n  - generic: 6.34K\n  - generic: 6.34K\n  - generic: \"0.10350\"\n  - generic: 9.05K\n  - generic: 15.39K\n  - generic: \"0.10349\"\n  - generic: 13.87K\n  - generic: 29.27K\n  - generic: \"0.10348\"\n  - generic: 38.21K\n  - generic: 67.49K\n  - generic: \"0.10347\"\n  - generic: 21.60K\n  - generic: 89.10K\n",
+  "raw_trades": "\n  - generic: Price (USDT)\n  - generic: Amount\n  - generic: (STRK)\n  - generic: Time\n  - generic: \"0.10352\"\n  - generic: 100.90K\n  - generic: 15:07:22\n  - generic: \"0.10347\"\n  - generic: 94.50K\n  - generic: 15:07:21\n  - generic: \"0.10353\"\n  - generic: 330.27K\n  - generic: 15:07:20\n  - generic: \"0.10354\"\n  - generic: 317.91K\n  - generic: 15:07:20\n  - generic: \"0.10339\"\n  - generic: 663.78K\n  - generic: 15:07:19\n  - generic: \"0.10338\"\n  - generic: 58.51K\n  - generic: 15:07:19\n",
+  "hourly_oi": [
+    {
+      "observed_at": "2026-10-10T22:07:37.769Z",
+      "display_label": "10/10 14:00",
+      "quantity": 424627302.3,
+      "notional_usdt": 43263377.74,
+      "raw_tooltip": "10/10 14:00\n\nOpen Interest (STRK): 424,627,302.300\n\nNotional Value of Open Interest (USDT):\n\n43,263,377.74\n\n"
+    },
+    {
+      "observed_at": "2026-10-10T22:07:37.539Z",
+      "display_label": "10/10 15:00",
+      "quantity": 427260099.6,
+      "notional_usdt": 44059309.28,
+      "raw_tooltip": "10/10 15:00\n\nOpen Interest (STRK): 427,260,099.600\n\nNotional Value of Open Interest (USDT):\n\n44,059,309.28\n\n"
+    }
+  ],
+  "hourly_taker": [
+    {
+      "observed_at": "2026-10-10T22:07:56.785Z",
+      "display_label": "10/10 13:00",
+      "sell_quantity": 181847695.6,
+      "buy_quantity": 192771390.5,
+      "raw_tooltip": "10/10 13:00\n\nTaker Sell Volume (STRK): 181,847,695.600\n\nTaker Buy Volume (STRK): 192,771,390.500\n\n"
+    },
+    {
+      "observed_at": "2026-10-10T22:07:56.579Z",
+      "display_label": "10/10 14:00",
+      "sell_quantity": 217606835.9,
+      "buy_quantity": 231672887.9,
+      "raw_tooltip": "10/10 14:00\n\nTaker Sell Volume (STRK): 217,606,835.900\n\nTaker Buy Volume (STRK): 231,672,887.900\n\n"
+    }
+  ],
+  "candles": [
+    {
+      "observed_at": "2026-10-10T22:08:09.459Z",
+      "raw": "Time\n1s\n15m\n1H\n4H\n1D\n1W\nLast Price\nOriginal\nTrading View\nDepth\n2026/10/10 14:00\nOpen\n0.10183\nHigh\n0.10680\nLow\n0.10130\nClose\n0.10311\nCHANGE\n1.23%\nRange\n5.40%\nMA(7)\n0.09829\nMA(25)\n0.08007\nMA(99)\n0.06297\nVol(STRK)\n449.289M\nVol(USDT)\n46.671M\n645.883M\n408.119M",
+      "interval_hours": 1,
+      "exchange_open_time_utc": null,
+      "exchange_close_time_utc": null,
+      "completion_status": "prior_ui_bar_boundary_unverified"
+    },
+    {
+      "observed_at": "2026-10-10T22:08:16.302Z",
+      "raw": "Time\n1s\n15m\n1H\n4H\n1D\n1W\nLast Price\nOriginal\nTrading View\nDepth\n2026/10/10 09:00\nOpen\n0.09345\nHigh\n0.10550\nLow\n0.08906\nClose\n0.09957\nCHANGE\n6.56%\nRange\n17.59%\nMA(7)\n0.07901\nMA(25)\n0.06280\nMA(99)\n0.04932\nVol(STRK)\n2.936B\nVol(USDT)\n285.918M\n1.009B\n1.034B",
+      "interval_hours": 4,
+      "exchange_open_time_utc": null,
+      "exchange_close_time_utc": null,
+      "completion_status": "prior_ui_bar_boundary_unverified"
+    }
+  ],
+  "settled_funding_history": {
+    "observed_at": "2026-10-10T22:07:45.086Z",
+    "url": "https://www.binance.com/en/futures/funding-history/perpetual/funding-fee-history",
+    "symbol": "STRKUSDT Perpetual",
+    "raw": "Time\tFunding Interval\tFunding Rate\t\nMark Price\n\n2026-10-10 13:00:00\t4h\t0.000075%\t0.0995700 USDT\n2026-10-10 09:00:00\t4h\t0.005000%\t0.0934000 USDT\n2026-10-10 05:00:00\t4h\t0.005000%\t0.0710500 USDT\n2026-10-10 01:00:00\t4h\t0.003769%\t0.0712209 USDT\n2026-10-09 21:00:00\t4h\t0.003897%\t0.0738700 USDT\n2026-10-09 17:00:00\t4h\t0.002303%\t0.0730428 USDT\n2026-10-09 13:00:00\t4h\t0.001451%\t0.0708702 USDT\n2026-10-09 09:00:00\t4h\t0.003799%\t0.0752800 USDT\n2026-10-09 05:00:00\t4h\t0.003528%\t0.0724311 USDT\n2026-10-09 01:00:00\t4h\t0.002993%\t0.0711474 USDT\n2026-10-08 21:00:00\t4h\t0.000028%\t0.0670600 USDT\n2026-10-08 17:00:00\t4h\t-0.000644%\t0.0555400 USDT\n2026-10-08 13:00:00\t4h\t0.001451%\t0.0556700 USDT\n2026-10-08 09:00:00\t4h\t-0.000135%\t0.0601400 USDT\n2026-10-08 05:00:00\t4h\t0.005000%\t0.0595485 USDT\n2026-10-08 01:00:00\t4h\t-0.000024%\t0.0491217 USDT\n2026-10-07 21:00:00\t4h\t-0.000725%\t0.0493928 USDT\n2026-10-07 17:00:00\t4h\t-0.010975%\t0.0490100 USDT\n2026-10-07 13:00:00\t4h\t-0.003798%\t0.0486100 USDT\n2026-10-07 09:00:00\t4h\t0.005000%\t0.0494237 USDT",
+    "display_timezone": null,
+    "event_time_utc": null
+  },
+  "conversion_notes": "Header funding percent divided by 100 into decimal per indicated interval. Historical rates retained as raw percentages. OI quantities are separate from notional USDT. K/M/B units preserved as displayed; no rounding precision invented.",
+  "missing_fields": [
+    "exchange-event timestamps",
+    "explicit UI timezone",
+    "independently verified candle boundaries",
+    "full order book",
+    "independently timed liveness sequence"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "symbol": "SHELLUSDT",
+  "source_url": "https://www.binance.com/en/futures/SHELLUSDT",
+  "observed_at": "2026-10-19T14:11:47.405Z",
+  "source": "official public rendered Binance perpetual UI",
+  "ui_symbol_verified": "SHELLUSDT Perp",
+  "display_timezone": null,
+  "execution_eligible": false,
+  "fields": {
+    "last_price": 0.02109,
+    "mark_price": 0.02109,
+    "index_price": 0.02112,
+    "funding_rate": 5e-05,
+    "funding_interval_hours": 4,
+    "open_interest_notional_usdt": null,
+    "volume_24h_base": null,
+    "volume_24h_quote_usdt": null,
+    "open_interest_quantity": 69737093,
+    "completed_1h_candles": null,
+    "completed_4h_candles": null,
+    "hourly_taker_buy_volume": null,
+    "hourly_taker_sell_volume": null,
+    "historical_settled_funding_rate": null,
+    "historical_settlement_mark_price": null
+  },
+  "funding_rate_raw": "0.00500%",
+  "funding_rate_conversion": "Displayed percent divided by 100; decimal per displayed 4h interval. Current predicted rate, not historical settlement.",
+  "hourly_oi_timeline": {
+    "previous": {
+      "raw_chart_label": "10/19 20:00",
+      "quantity": 69617396,
+      "quantity_raw": "69,617,396.000",
+      "unit": "SHELL",
+      "notional_usdt_raw": "1,482,246.25",
+      "observed_at": "2026-10-19T14:13:50.625Z",
+      "display_timezone": null,
+      "event_at_utc": null
+    },
+    "latest": {
+      "raw_chart_label": "10/19 21:00",
+      "quantity": 69737093,
+      "quantity_raw": "69,737,093.000",
+      "unit": "SHELL",
+      "notional_usdt_raw": "1,476,334.25",
+      "observed_at": "2026-10-19T14:13:29.293Z",
+      "display_timezone": null,
+      "event_at_utc": null
+    },
+    "change_quantity": 119697,
+    "change_percent": 0.17193547428864253,
+    "unit": "SHELL",
+    "chart_interval": "1h",
+    "display_timezone": null,
+    "event_window_utc": null,
+    "same_window_price_change": null,
+    "same_window_volume_change": null,
+    "status": "new raw-label hourly endpoint; timezone unmapped"
+  },
+  "quantity_oi_other_interval": null,
+  "order_book": null,
+  "missing_reasons": {
+    "null_fields": "Not verified in this capture; do not infer from chart axes or clipped values.",
+    "completed_candles_and_takers": "Completed 1h/4h candles, six completed-hour volume baseline and hourly taker volumes not verified: repeated CDP timeouts and renderer error 9 limited UI inspection.",
+    "window_alignment": "Display timezone unverified; raw labels not mapped to UTC or Beijing event time."
+  }
+}

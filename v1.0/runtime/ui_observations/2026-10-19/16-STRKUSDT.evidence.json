@@ -1,0 +1,141 @@
+{
+  "symbol": "STRKUSDT",
+  "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+  "display_timezone": null,
+  "execution_eligible": false,
+  "public_header_capture": {
+    "observed_at": "2026-10-19T16:10:16.027Z",
+    "raw_fields": {
+      "last_price_raw": ".05711",
+      "mark_price_raw": ".05709",
+      "index_price_raw": ".05714",
+      "current_predicted_funding_rate_raw": "0.00413%",
+      "funding_interval_raw": "4h",
+      "countdown_raw": "03:49:44",
+      "volume_24h_base_raw": "1,708,999,140.0",
+      "volume_24h_quote_usdt_raw": "101,389,401.92",
+      "open_interest_notional_usdt_raw": "25,665,427.00"
+    },
+    "method": "manual transcription of retained rendered screenshot"
+  },
+  "hourly_oi_tooltips": [
+    {
+      "raw_chart_label": "10/19 22:00",
+      "quantity": 441115370.6,
+      "quantity_raw": "441,115,370.600",
+      "unit": "STRK",
+      "notional_usdt_raw": "25,249,443.81",
+      "observed_at": "2026-10-19T16:09:33.444Z",
+      "display_timezone": null,
+      "event_at_utc": null,
+      "screenshot_file": "STRK-oi-previous-0.png"
+    },
+    {
+      "raw_chart_label": "10/19 23:00",
+      "quantity": 447145124.3,
+      "quantity_raw": "447,145,124.300",
+      "unit": "STRK",
+      "notional_usdt_raw": "25,299,471.13",
+      "observed_at": "2026-10-19T16:09:24.873Z",
+      "display_timezone": null,
+      "event_at_utc": null,
+      "screenshot_file": "STRK-oi-latest-0.png"
+    }
+  ],
+  "public_order_book_capture": {
+    "observed_at": "2026-10-19T16:10:16.027Z",
+    "price_unit": "USDT",
+    "size_unit": "STRK",
+    "columns": [
+      "price",
+      "size",
+      "cumulative_size"
+    ],
+    "asks_raw": [
+      [
+        ".05715",
+        "69.82K",
+        "358.79K"
+      ],
+      [
+        ".05714",
+        "55.31K",
+        "288.96K"
+      ],
+      [
+        ".05713",
+        "94.11K",
+        "233.65K"
+      ],
+      [
+        ".05712",
+        "78.49K",
+        "139.54K"
+      ],
+      [
+        ".05711",
+        "61.05K",
+        "61.05K"
+      ]
+    ],
+    "bids_raw": [
+      [
+        ".05710",
+        "3.89K",
+        "3.89K"
+      ],
+      [
+        ".05709",
+        "28.92K",
+        "32.82K"
+      ],
+      [
+        ".05708",
+        "52.07K",
+        "84.89K"
+      ],
+      [
+        ".05707",
+        "67.59K",
+        "152.48K"
+      ],
+      [
+        ".05706",
+        "153.43K",
+        "305.92K"
+      ]
+    ],
+    "precision_note": "K/M abbreviations retained; null SHELL best-bid size obscured by cursor."
+  },
+  "completed_candles": [],
+  "hourly_taker_volume": null,
+  "research_threshold_assessment": null,
+  "limitations": [
+    "Repeated CDP prepare-tab/LayoutMetrics timeouts and browser recovery interruptions; public screenshot recovery succeeded. Non-JCT completed candles and STRK/SHELL hourly taker volumes remain unverified.",
+    "Raw chart timezone unverified; 24h rolling volume is not hourly volume.",
+    "Actual observed_at recorded immediately after DOM read or screenshot acquisition, not tool completion time."
+  ],
+  "source_references": [
+    {
+      "label": "STRK-header-clear",
+      "observed_at": "2026-10-19T16:10:16.027Z",
+      "local_evidence_file": "STRK-header-clear-0.png",
+      "sha256": "f5d2243d1d2cf0f0a7885da2746ad7684c6b70833650adcbd58157a11a40e2fa",
+      "availability": "Retained local screenshot; not a public URL or repository attachment"
+    },
+    {
+      "label": "STRK-oi-previous",
+      "observed_at": "2026-10-19T16:09:33.444Z",
+      "local_evidence_file": "STRK-oi-previous-0.png",
+      "sha256": "6cffb84baaf8bce7a1bf7b496ee16420225b801a2a994df78287ca5d5775cb30",
+      "availability": "Retained local screenshot; not a public URL or repository attachment"
+    },
+    {
+      "label": "STRK-oi-latest",
+      "observed_at": "2026-10-19T16:09:24.873Z",
+      "local_evidence_file": "STRK-oi-latest-0.png",
+      "sha256": "2ef27e58412694b3265308676654c3610f1d4612550e9e432812e6ff21e9cb00",
+      "availability": "Retained local screenshot; not a public URL or repository attachment"
+    }
+  ]
+}

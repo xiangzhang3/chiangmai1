@@ -1,0 +1,94 @@
+{
+  "symbol": "JCTUSDT",
+  "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+  "status": "PARTIAL_RESEARCH_ONLY",
+  "execution_eligible": false,
+  "capture_start_utc": "2026-10-12T11:02:21.539Z",
+  "capture_end_utc": "2026-10-12T11:02:31.494Z",
+  "display_timezone": "unverified; raw chart labels retained without UTC or Beijing event-hour mapping",
+  "capture_time_is_event_time": false,
+  "selected_symbol_verified_from": "Rendered contract heading, Perp label, and Open Interest quantity unit",
+  "funding_conversion": "Header percent divided by 100; current indicative funding per displayed interval, not settled funding.",
+  "oi_timeline": {
+    "previous": {
+      "raw_label": "10/12 03:00",
+      "quantity": 3799013970,
+      "unit": "JCT",
+      "notional_usdt": 7103814.21,
+      "observed_at": "2026-10-12T11:02:31.494Z",
+      "event_time_utc": null
+    },
+    "latest": {
+      "raw_label": "10/12 04:00",
+      "quantity": 3770633249,
+      "unit": "JCT",
+      "notional_usdt": 6995995.22,
+      "observed_at": "2026-10-12T11:02:21.539Z",
+      "event_time_utc": null
+    },
+    "delta_quantity": -28380721,
+    "delta_percent": -0.7470549259391115,
+    "interval_hours_from_raw_labels": 1,
+    "delayed_or_reused_endpoint": null,
+    "reused_last_published_endpoint": false,
+    "status": "LATEST_TWO_RENDERED_1H_ENDPOINTS_EVENT_TIMEZONE_UNVERIFIED",
+    "same_window_price_volume": null,
+    "note": "Raw labels are one hour apart. Event timezone and delay relative to capture are unverified; no current UTC/Beijing event-hour claim. JCT and STRK endpoints advanced beyond the last published 10/11 00:00 raw label. No old values were replayed."
+  },
+  "depth": {
+    "source_capture_kind": "JCT_OI_latest",
+    "unit": "JCT",
+    "visible_ask_levels": 5,
+    "visible_bid_levels": 5,
+    "raw_field": "order_book_raw",
+    "full_depth": false,
+    "exchange_event_time_utc": null
+  },
+  "completed_1h_candles": null,
+  "completed_4h_candles": null,
+  "taker_buy_sell_hourly": null,
+  "settled_funding_history": null,
+  "missing_fields": [
+    "Completed 1h/4h candle evidence not captured; hourly OI was prioritized",
+    "Settlement funding and settlement mark not captured",
+    "Chart-label timezone not independently verified",
+    "Same-window price/volume change unavailable",
+    "Hourly taker buy/sell volume and six completed-hour volume baseline not captured",
+    "No reliable prior same-contract approximately-one-hour mark snapshot available after the sampling gap"
+  ],
+  "scheduled_gap": {
+    "missing_hours": 26,
+    "range": "After 2026-10-11 08 UTC through 2026-10-12 10 UTC",
+    "backfilled": false
+  },
+  "public_captures": [
+    {
+      "kind": "JCT_OI_latest",
+      "observed_at": "2026-10-12T11:02:21.539Z",
+      "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+      "header_raw": "- heading \"JCTUSDT info tag\" [level=1]:\n  - generic: JCTUSDT\n  - generic \"info tag\":\n    - tooltip \"Perp\":\n      - generic: Perp\n- generic: \"0.001851\"\n- generic: \"-0.000025\"\n- generic: \"-1.33%\"\n- generic: Mark\n- generic: \"0.001849\"\n- link \"Index\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/index?contract=JCTUSDT\n  - text: Index\n- generic: \"0.001848\"\n- generic: Funding (4h) / Countdown\n- generic: 0.00500%\n- generic: /\n- generic: 00:57:39\n- generic: 24h High\n- generic: \"0.001948\"\n- generic: 24h Low\n- generic: \"0.001741\"\n- generic: 24h Vol(JCT)\n- generic: 7,676,855,392.00\n- generic: 24h Vol(USDT)\n- generic: 14,126,280.36\n- link \"Open Interest(USDT)\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=JCTUSDT\n  - text: Open Interest(USDT)\n- generic: 6,953,835.64\n",
+      "order_book_raw": "- tabpanel \"Order Book\":\n  - generic: \"0.000001\"\n  - generic: Price (USDT)\n  - generic: Size\n  - generic: (JCT)\n  - generic: Sum\n  - generic: (JCT)\n  - generic: \"0.001855\"\n  - generic: 427.26K\n  - generic: 1.86M\n  - generic: \"0.001854\"\n  - generic: 320.24K\n  - generic: 1.43M\n  - generic: \"0.001853\"\n  - generic: 376.68K\n  - generic: 1.11M\n  - generic: \"0.001852\"\n  - generic: 578.27K\n  - generic: 738.50K\n  - generic: \"0.001851\"\n  - generic: 160.22K\n  - generic: 160.22K\n  - generic: \"0.001851\"\n  - generic: \"0.001849\"\n  - generic: \"0.001849\"\n  - generic: 91.71K\n  - generic: 91.71K\n  - generic: \"0.001848\"\n  - generic: 212.74K\n  - generic: 304.45K\n  - generic: \"0.001847\"\n  - generic: 284.41K\n  - generic: 588.87K\n  - generic: \"0.001846\"\n  - generic: 391.37K\n  - generic: 980.25K\n  - generic: \"0.001845\"\n  - generic: 411.54K\n  - generic: 1.39M",
+      "trades_raw": "- tabpanel \"Trades\":\n  - generic: Price (USDT)\n  - generic: Amount\n  - generic: (JCT)\n  - generic: Time\n  - generic: \"0.001851\"\n  - generic: 33.47K\n  - generic: 04:02:19\n  - generic: \"0.001849\"\n  - generic: 64.42K\n  - generic: 04:02:16\n  - generic: \"0.001848\"\n  - generic: 30.18K\n  - generic: 04:02:14\n  - generic: \"0.001850\"\n  - generic: 1.29M\n  - generic: 04:02:13\n  - generic: \"0.001852\"\n  - generic: 42.82K\n  - generic: 04:02:12\n  - generic: \"0.001852\"\n  - generic: 3.32K\n  - generic: 04:02:08",
+      "trading_data_raw": "- tabpanel \"Trading Data\":\n  - generic: Open Interest\n  - combobox \"Select an option\":\n    - generic: 1h\n  - combobox \"Select an option\":\n    - generic: Single\n  - text: 10/12 04:00\n  - paragraph: \"Open Interest (JCT): 3,770,633,249.000\"\n  - paragraph: \"Notional Value of Open Interest (USDT):\"\n  - paragraph: 6,995,995.22\n  - generic: Top Trader Long/Short Ratio (Accounts)\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Top Trader Long/Short Ratio (Positions)\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Long/Short Ratio\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Taker Buy/Sell Volume\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Basis\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: \"Funding Rate: 0.005000%\"\n  - combobox \"Select an option\":\n    - generic: Last 40 Times\n  - generic: Open Interest to Market Cap Ratio\n  - combobox \"Select an option\":\n    - generic: 5m"
+    },
+    {
+      "kind": "JCT_OI_previous",
+      "observed_at": "2026-10-12T11:02:31.494Z",
+      "source_url": "https://www.binance.com/en/futures/JCTUSDT",
+      "header_raw": "- heading \"JCTUSDT info tag\" [level=1]:\n  - generic: JCTUSDT\n  - generic \"info tag\":\n    - tooltip \"Perp\":\n      - generic: Perp\n- generic: \"0.001851\"\n- generic: \"-0.000025\"\n- generic: \"-1.33%\"\n- generic: Mark\n- generic: \"0.001850\"\n- link \"Index\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/index?contract=JCTUSDT\n  - text: Index\n- generic: \"0.001847\"\n- generic: Funding (4h) / Countdown\n- generic: 0.00500%\n- generic: /\n- generic: 00:57:29\n- generic: 24h High\n- generic: \"0.001948\"\n- generic: 24h Low\n- generic: \"0.001741\"\n- generic: 24h Vol(JCT)\n- generic: 7,676,923,410.00\n- generic: 24h Vol(USDT)\n- generic: 14,126,406.13\n- link \"Open Interest(USDT)\":\n  - /url: https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=JCTUSDT\n  - text: Open Interest(USDT)\n- generic: 6,958,461.50\n",
+      "order_book_raw": "- tabpanel \"Order Book\":\n  - generic: \"0.000001\"\n  - generic: Price (USDT)\n  - generic: Size\n  - generic: (JCT)\n  - generic: Sum\n  - generic: (JCT)\n  - generic: \"0.001855\"\n  - generic: 414.28K\n  - generic: 1.84M\n  - generic: \"0.001854\"\n  - generic: 320.24K\n  - generic: 1.43M\n  - generic: \"0.001853\"\n  - generic: 376.68K\n  - generic: 1.11M\n  - generic: \"0.001852\"\n  - generic: 578.27K\n  - generic: 738.26K\n  - generic: \"0.001851\"\n  - generic: 159.99K\n  - generic: 159.99K\n  - generic: \"0.001851\"\n  - generic: \"0.001850\"\n  - generic: \"0.001849\"\n  - generic: 122.21K\n  - generic: 122.21K\n  - generic: \"0.001848\"\n  - generic: 182.03K\n  - generic: 304.24K\n  - generic: \"0.001847\"\n  - generic: 284.41K\n  - generic: 588.66K\n  - generic: \"0.001846\"\n  - generic: 412.94K\n  - generic: 1.00M\n  - generic: \"0.001845\"\n  - generic: 424.53K\n  - generic: 1.42M",
+      "trades_raw": "- tabpanel \"Trades\":\n  - generic: Price (USDT)\n  - generic: Amount\n  - generic: (JCT)\n  - generic: Time\n  - generic: \"0.001851\"\n  - generic: \"238\"\n  - generic: 04:02:25\n  - generic: \"0.001849\"\n  - generic: 67.78K\n  - generic: 04:02:21\n  - generic: \"0.001851\"\n  - generic: 33.47K\n  - generic: 04:02:19\n  - generic: \"0.001849\"\n  - generic: 64.42K\n  - generic: 04:02:16\n  - generic: \"0.001848\"\n  - generic: 30.18K\n  - generic: 04:02:14\n  - generic: \"0.001850\"\n  - generic: 1.29M\n  - generic: 04:02:13",
+      "trading_data_raw": "- tabpanel \"Trading Data\":\n  - generic: Open Interest\n  - combobox \"Select an option\":\n    - generic: 1h\n  - combobox \"Select an option\":\n    - generic: Single\n  - text: 10/12 03:00\n  - paragraph: \"Open Interest (JCT): 3,799,013,970.000\"\n  - paragraph: \"Notional Value of Open Interest (USDT):\"\n  - paragraph: 7,103,814.21\n  - generic: Top Trader Long/Short Ratio (Accounts)\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Top Trader Long/Short Ratio (Positions)\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Long/Short Ratio\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Taker Buy/Sell Volume\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: Basis\n  - combobox \"Select an option\":\n    - generic: 5m\n  - generic: \"Funding Rate: 0.005000%\"\n  - combobox \"Select an option\":\n    - generic: Last 40 Times\n  - generic: Open Interest to Market Cap Ratio\n  - combobox \"Select an option\":\n    - generic: 5m"
+    }
+  ],
+  "alert_evaluation": {
+    "quantity_oi_5pct": {
+      "result": "BELOW_THRESHOLD_FOR_RENDERED_LABEL_INTERVAL",
+      "change_percent": -0.7470549259391115
+    },
+    "volume_2x_and_price_3pct": "NOT_EVALUABLE_BASELINE_AND_CANDLE_WINDOW_MISSING",
+    "mark_10pct": "NOT_EVALUABLE_NO_RELIABLE_PRIOR_APPROXIMATELY_ONE_HOUR_SNAPSHOT",
+    "new_verified_trigger": false,
+    "caveat": "Incomplete data means no claim that no intrahour anomaly occurred. No alert generated."
+  }
+}

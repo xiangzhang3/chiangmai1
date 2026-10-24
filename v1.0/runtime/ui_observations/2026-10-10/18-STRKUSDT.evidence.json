@@ -1,0 +1,43 @@
+{
+  "observed_at": "2026-10-10T18:06:16.839Z",
+  "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+  "symbol_verified": "STRKUSDT",
+  "market_header_raw": "\t\t\t31 heading STRKUSDT info tag, Value: 1\n\t\t\t\t32 text STRKUSDT\n\t\t\t\t33 container info tag\n\t\t\t\t\t34 container Perp\n\t\t\t\t\t\t35 text Perp\n\t\t\t\t36 image\n\t\t\t37 text 0.09585\n\t\t\t38 text 0.02182\n\t\t\t39 container\n\t\t\t\t40 text +29.47 %\n\t\t\t41 container\n\t\t\t\t42 container\n\t\t\t\t\t43 text Mark\n\t\t\t\t\t44 text 0.09593\n\t\t\t\t45 container\n\t\t\t\t\t46 link Description: Index, Value: binance.com/en/futures/funding-history/perpetual/index?contract=STRKUSDT\n\t\t\t\t\t47 text 0.09605\n\t\t\t\t48 container\n\t\t\t\t\t49 container\n\t\t\t\t\t\t50 text Funding  (4h)  / Countdown\n\t\t\t\t\t51 text -0.00198% /\n\t\t\t\t\t52 text 01:53:43\n\t\t\t\t53 container\n\t\t\t\t\t54 text 24h High 0.09843\n\t\t\t\t55 container\n\t\t\t\t\t56 text 24h Low 0.06849\n\t\t\t\t57 container\n\t\t\t\t\t58 text 24h Vol(STRK) 5,339,178,136.4\n\t\t\t\t59 container\n\t\t\t\t\t60 text 24h Vol(USDT) 440,075,740.70\n\t\t\t\t61 container\n\t\t\t\t\t62 link Description: Open Interest(USDT), Value: binance.com/en/futures/funding-history/perpetual/trading-data?contract=STRKUSDT\n\t\t\t\t\t63 text 39,528,458.81\n\t\t\t\t64 image\n\t\t\t65 container",
+  "book_tape_raw": "\t\t\t\t145 container Description: Order Book, ID: flexlayout-tab-#f3b218c0-09b9-411e-b840-bd097b32cbf8\n\t\t\t\t\t146 container futuresOrderbook\n\t\t\t\t\t\t147 container\n\t\t\t\t\t\t\t148 text 0.00001\n\t\t\t\t\t\t\t149 image\n\t\t\t\t\t\t150 text Price (USDT)\n\t\t\t\t\t\t151 text Size ( STRK ) Sum ( STRK )\n\t\t\t\t\t\t152 container\n\t\t\t\t\t\t\t153 container\n\t\t\t\t\t\t\t\t154 text 0.09589\n\t\t\t\t\t\t\t\t155 text 10.59K 54.64K\n\t\t\t\t\t\t\t156 container\n\t\t\t\t\t\t\t\t157 text 0.09588\n\t\t\t\t\t\t\t\t158 text 27.26K 44.04K\n\t\t\t\t\t\t\t159 container\n\t\t\t\t\t\t\t\t160 text 0.09587\n\t\t\t\t\t\t\t\t161 text 7.32K 16.78K\n\t\t\t\t\t\t\t162 container\n\t\t\t\t\t\t\t\t163 text 0.09586\n\t\t\t\t\t\t\t\t164 text 8.15K 9.45K\n\t\t\t\t\t\t\t165 container\n\t\t\t\t\t\t\t\t166 text 0.09585\n\t\t\t\t\t\t\t\t167 text 1.30K 1.30K\n\t\t\t\t\t\t168 text 0.09585\n\t\t\t\t\t\t169 image\n\t\t\t\t\t\t170 text 0.09593\n\t\t\t\t\t\t171 container\n\t\t\t\t\t\t\t172 container\n\t\t\t\t\t\t\t\t173 text 0.09583\n\t\t\t\t\t\t\t\t174 text 4.94K 4.94K\n\t\t\t\t\t\t\t175 container\n\t\t\t\t\t\t\t\t176 text 0.09582\n\t\t\t\t\t\t\t\t177 text 24.96K 29.90K\n\t\t\t\t\t\t\t178 container\n\t\t\t\t\t\t\t\t179 text 0.09581\n\t\t\t\t\t\t\t\t180 text 33.10K 63.00K\n\t\t\t\t\t\t\t181 container\n\t\t\t\t\t\t\t\t182 text 0.09580\n\t\t\t\t\t\t\t\t183 text 18.43K 81.44K\n\t\t\t\t\t\t\t184 container\n\t\t\t\t\t\t\t\t185 text 0.09579\n\t\t\t\t\t\t\t\t186 text 10.10K 91.54K\n\t\t\t\t187 container Description: Trades, ID: flexlayout-tab-#734cd989-9a48-4da8-99c1-1dd781351b13\n\t\t\t\t\t188 container\n\t\t\t\t\t\t189 text Price (USDT) Amount ( STRK ) Time\n\t\t\t\t\t\t190 container\n\t\t\t\t\t\t\t191 container\n\t\t\t\t\t\t\t\t192 text 0.09585 61.79K 11:06:16\n\t\t\t\t\t\t\t193 container\n\t\t\t\t\t\t\t\t194 text 0.09582 38.09K 11:06:15\n\t\t\t\t\t\t\t195 container\n\t\t\t\t\t\t\t\t196 text 0.09592 3.50K 11:06:14\n\t\t\t\t\t\t\t197 container\n\t\t\t\t\t\t\t\t198 text 0.09592 646.4 11:06:14\n\t\t\t\t\t\t\t199 container\n\t\t\t\t\t\t\t\t200 text 0.09590 62.5 11:06:11\n\t\t\t\t\t\t\t201 container\n\t\t\t\t\t\t\t\t202 text 0.09591 120.0 11:06:11",
+  "candles": {
+    "hourly": {
+      "observed_at": "2026-10-10T18:06:42.181Z",
+      "raw": "~\t\t\t\t\t\t\t\t\t320 text 2026/10/10 10:00 Open 0.09297 High 0.09598 Low 0.08906 Close 0.09465 CHANGE 1.85% Range 7.44%\n~\t\t\t\t\t\t\t\t\t306 text Vol(STRK) 546.269M Vol(USDT) 50.708M 469.603M 276.11M",
+      "display_open_time": "2026/10/10 10:00",
+      "open": 0.09297,
+      "high": 0.09598,
+      "low": 0.08906,
+      "close": 0.09465,
+      "interval_hours": 1,
+      "exchange_open_time_utc": null,
+      "completion_basis": "Selected prior bar, preceding current displayed 11:00 hourly / 09:00 four-hour bar. Raw local labels; no UTC conversion."
+    },
+    "four_hour": {
+      "observed_at": "2026-10-10T18:06:28.864Z",
+      "raw": "+\t\t\t\t\t\t\t\t\t304 text 2026/10/10 05:00 Open 0.07104 High 0.09420 Low 0.07063 Close 0.09344 CHANGE 31.51% Range 33.17%\n+\t\t\t\t\t\t\t\t\t306 text Vol(STRK) 1.698B Vol(USDT) 141.763M 727.36M 889.313M",
+      "display_open_time": "2026/10/10 05:00",
+      "open": 0.07104,
+      "high": 0.0942,
+      "low": 0.07063,
+      "close": 0.09344,
+      "interval_hours": 4,
+      "exchange_open_time_utc": null,
+      "completion_basis": "Selected prior bar, preceding current displayed 11:00 hourly / 09:00 four-hour bar. Raw local labels; no UTC conversion."
+    }
+  },
+  "status": "RESEARCH_ONLY",
+  "execution_eligible": false,
+  "display_timezone": null,
+  "timestamp_notes": "observed_at is UTC capture start, not exchange event time. UI fields update asynchronously. Displayed clock/candle labels retained raw; timezone not established in this run.",
+  "quantity_notes": "Book K/M/B sizes and candle volumes are rounded display values; USD OI is not quantity OI.",
+  "missing_fields": [
+    "hourly_open_interest_quantity_history",
+    "hourly_taker_buy_sell_history",
+    "historical_settled_funding_with_settlement_mark"
+  ]
+}

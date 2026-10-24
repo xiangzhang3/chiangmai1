@@ -1,0 +1,153 @@
+{
+  "project": "CHIANGMAI1",
+  "purpose": "Retrospective audit of observations as of the last capture; not a current quote or paper fill",
+  "evaluated_as_of": "2026-10-10T16:30:17.972Z",
+  "record": {
+    "schema_version": "binance-rendered-shadow-v0.1",
+    "symbol": "KAIAUSDT",
+    "utc_offset_minutes": -420,
+    "quotes": [
+      {
+        "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "selected_symbol": "KAIAUSDT",
+        "perpetual_label": true,
+        "capture_started_at": "2026-10-10T16:29:57.037Z",
+        "observed_at": "2026-10-10T16:29:58.477Z",
+        "chart_clock_text": "09:29:56 UTC-7",
+        "last_trade_time_displayed": "09:29:57",
+        "bid_price_displayed": "0.05560",
+        "bid_quantity_displayed": "16.02K",
+        "ask_price_displayed": "0.05562",
+        "ask_quantity_displayed": "17.76K",
+        "last_price": "0.05561",
+        "mark_price": "0.05564",
+        "index_price": "0.05597"
+      },
+      {
+        "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+        "selected_symbol": "KAIAUSDT",
+        "perpetual_label": true,
+        "capture_started_at": "2026-10-10T16:30:15.184Z",
+        "observed_at": "2026-10-10T16:30:17.972Z",
+        "chart_clock_text": "09:30:15 UTC-7",
+        "last_trade_time_displayed": "09:30:16",
+        "bid_price_displayed": "0.05568",
+        "bid_quantity_displayed": "10.08K",
+        "ask_price_displayed": "0.05570",
+        "ask_quantity_displayed": "31.99K",
+        "last_price": "0.05570",
+        "mark_price": "0.05574",
+        "index_price": "0.05598"
+      }
+    ],
+    "oi": [
+      {
+        "source_url": "https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=KAIAUSDT",
+        "selected_symbol": "KAIAUSDT",
+        "quantity_unit": "KAIA",
+        "period": "1h",
+        "capture_started_at": "2026-10-10T16:28:42.353Z",
+        "observed_at": "2026-10-10T16:28:45.662Z",
+        "raw_ui_time_label": "10/10 08:00",
+        "quantity": "228445068.000"
+      },
+      {
+        "source_url": "https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=KAIAUSDT",
+        "selected_symbol": "KAIAUSDT",
+        "quantity_unit": "KAIA",
+        "period": "1h",
+        "capture_started_at": "2026-10-10T16:28:40.568Z",
+        "observed_at": "2026-10-10T16:28:42.353Z",
+        "raw_ui_time_label": "10/10 09:00",
+        "quantity": "228263799.000"
+      }
+    ],
+    "taker": [
+      {
+        "source_url": "https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=KAIAUSDT",
+        "selected_symbol": "KAIAUSDT",
+        "quantity_unit": "KAIA",
+        "period": "1h",
+        "capture_started_at": "2026-10-10T16:29:23.161Z",
+        "observed_at": "2026-10-10T16:29:25.453Z",
+        "raw_ui_time_label": "10/10 07:00",
+        "buy_quantity": "39261163.000",
+        "sell_quantity": "38613271.000"
+      },
+      {
+        "source_url": "https://www.binance.com/en/futures/funding-history/perpetual/trading-data?contract=KAIAUSDT",
+        "selected_symbol": "KAIAUSDT",
+        "quantity_unit": "KAIA",
+        "period": "1h",
+        "capture_started_at": "2026-10-10T16:29:20.149Z",
+        "observed_at": "2026-10-10T16:29:23.161Z",
+        "raw_ui_time_label": "10/10 08:00",
+        "buy_quantity": "33942864.000",
+        "sell_quantity": "34574135.000"
+      }
+    ],
+    "original_evidence_sha256": "0808dd0aea40579d36a59ac3cf0e625ff2e524facb5d7cda3a767bc0071fc534",
+    "candle": {
+      "source_url": "https://www.binance.com/en/futures/KAIAUSDT",
+      "selected_symbol": "KAIAUSDT",
+      "period": "1h",
+      "capture_started_at": "2026-10-10T16:29:43.229Z",
+      "observed_at": "2026-10-10T16:29:46.247Z",
+      "raw_ui_time_label": "2026/10/10 08:00",
+      "open": "0.05586",
+      "high": "0.05678",
+      "low": "0.05544",
+      "close": "0.05604"
+    }
+  },
+  "historical_shadow_assessment": {
+    "adapter_version": "binance-rendered-shadow-v0.1",
+    "status": "SHADOW_EVIDENCE_ACCEPTED",
+    "execution_eligible": false,
+    "shadow_signal": "NO_TRADE",
+    "venue_event_timestamp": null,
+    "time_uncertainty": "UI clock offset applied to UI labels; not verified venue event timestamps",
+    "activation_blockers": [
+      "Rendered collector and time-mapping validation pending",
+      "Funding settlement/accounting bridge pending",
+      "Independent review and prospective paper activation required"
+    ],
+    "symbol": "KAIAUSDT",
+    "features": {
+      "oi_1h_pct_point": -0.07934905383906177,
+      "oi_1h_pct_lower": -0.07934905471418396,
+      "taker_ratios_point": [
+        1.0167789980807376,
+        0.9817415244083475
+      ],
+      "taker_ratios_lower": [
+        1.0167789980285074,
+        0.9817415243510287
+      ],
+      "previous_hour_high": 0.05678,
+      "previous_hour_high_upper": 0.05679,
+      "previous_hour_low": 0.05544,
+      "conservative_bid_lower": 0.05567,
+      "conservative_ask_upper": 0.05571,
+      "conservative_bid_quantity_lower": 10070.0,
+      "conservative_ask_quantity_lower": 31980.0
+    },
+    "derived_hour_boundary_ms": 1791648000000,
+    "observed_at_ms": 1791649817972
+  },
+  "current_time_assessment": {
+    "adapter_version": "binance-rendered-shadow-v0.1",
+    "status": "INCOMPLETE",
+    "execution_eligible": false,
+    "shadow_signal": null,
+    "venue_event_timestamp": null,
+    "time_uncertainty": "UI clock offset applied to UI labels; not verified venue event timestamps",
+    "activation_blockers": [
+      "Rendered collector and time-mapping validation pending",
+      "Funding settlement/accounting bridge pending",
+      "Independent review and prospective paper activation required"
+    ],
+    "reason": "Quote capture is stale, future or too slow"
+  },
+  "execution_eligible": false
+}

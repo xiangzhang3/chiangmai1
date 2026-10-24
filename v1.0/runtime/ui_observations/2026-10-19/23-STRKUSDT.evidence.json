@@ -1,0 +1,120 @@
+{
+  "symbol": "STRKUSDT",
+  "source_url": "https://www.binance.com/en/futures/STRKUSDT",
+  "display_timezone": null,
+  "execution_eligible": false,
+  "public_header_capture": {
+    "observed_at": "2026-10-19T23:04:46.189Z",
+    "raw_fields": {
+      "last_price_raw": "0.05763",
+      "mark_price_raw": "0.05770",
+      "index_price_raw": "0.05773",
+      "current_predicted_funding_rate_raw": "0.00108%",
+      "funding_interval_raw": "4h",
+      "countdown_raw": "00:55:14",
+      "volume_24h_base_raw": "1,581,433,694.8",
+      "volume_24h_quote_usdt_raw": "92,883,242.89",
+      "open_interest_notional_usdt_raw": "25,897,676.38"
+    },
+    "method": "Rendered DOM text"
+  },
+  "hourly_oi_tooltips": [
+    {
+      "raw_chart_label": "10/20 05:00",
+      "quantity": 447837257.0,
+      "quantity_raw": "447,837,257.000",
+      "unit": "STRK",
+      "notional_usdt_raw": "25,562,550.62",
+      "observed_at": "2026-10-19T23:05:27.782Z",
+      "display_timezone": null,
+      "event_at_utc": null,
+      "first_verified_observed_at": "2026-10-19T22:05:58.743Z",
+      "reverified_at": "2026-10-19T23:05:27.782Z",
+      "provenance": "https://github.com/xiangzhang3/chiangmai1/blob/69150be0f43b6376b42d6a7976a01b8eccbf0f42/v1.0/runtime/ui_observations/2026-10-19/22-STRKUSDT.json"
+    },
+    {
+      "raw_chart_label": "10/20 06:00",
+      "quantity": 449037422.0,
+      "quantity_raw": "449,037,422.000",
+      "unit": "STRK",
+      "notional_usdt_raw": "25,841,807.27",
+      "observed_at": "2026-10-19T23:05:34.255Z",
+      "display_timezone": null,
+      "event_at_utc": null
+    }
+  ],
+  "public_order_book_capture": {
+    "observed_at": "2026-10-19T23:04:46.189Z",
+    "price_unit": "USDT",
+    "size_unit": "STRK",
+    "columns": [
+      "price",
+      "size",
+      "cumulative_size"
+    ],
+    "asks_raw": [
+      [
+        "0.05767",
+        "165.12K",
+        "500.78K"
+      ],
+      [
+        "0.05766",
+        "126.79K",
+        "335.66K"
+      ],
+      [
+        "0.05765",
+        "91.77K",
+        "208.86K"
+      ],
+      [
+        "0.05764",
+        "55.34K",
+        "117.09K"
+      ],
+      [
+        "0.05763",
+        "61.74K",
+        "61.74K"
+      ]
+    ],
+    "bids_raw": [
+      [
+        "0.05762",
+        "25.66K",
+        "25.66K"
+      ],
+      [
+        "0.05761",
+        "26.79K",
+        "52.45K"
+      ],
+      [
+        "0.05760",
+        "52.30K",
+        "104.75K"
+      ],
+      [
+        "0.05759",
+        "73.32K",
+        "178.08K"
+      ],
+      [
+        "0.05758",
+        "136.24K",
+        "314.32K"
+      ]
+    ],
+    "raw_text": "0.05769\n175.49K\n799.53K\n0.05768\n123.25K\n624.04K\n0.05767\n165.12K\n500.78K\n0.05766\n126.79K\n335.66K\n0.05765\n91.77K\n208.86K\n0.05764\n55.34K\n117.09K\n0.05763\n61.74K\n61.74K\n0.05763\n0.05770\n0.05762\n25.66K\n25.66K\n0.05761\n26.79K\n52.45K\n0.05760\n52.30K\n104.75K\n0.05759\n73.32K\n178.08K\n0.05758\n136.24K\n314.32K\n0.05757\n77.33K\n391.65K\n0.05756\n136.43K\n528.09K\n",
+    "precision_note": "K/M values retained as displayed."
+  },
+  "completed_candles": [],
+  "hourly_taker_volume": null,
+  "research_threshold_assessment": null,
+  "limitations": [
+    "Non-JCT completed candles and taker volumes, KAIA quantity OI and historical settlement fields unverified.",
+    "Transient period-change tooltips discarded; normal page reload updated hourly OI; JCT hourly taker tooltip verified.",
+    "Chart timezone unverified; raw labels retained without UTC/Beijing event mapping; OI and candle windows not paired."
+  ]
+}
